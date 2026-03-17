@@ -1,0 +1,105 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+
+<div>
+  <input
+    type="text"
+    id="ticker-search"
+    class="search-box"
+    placeholder="搜尋個股代號 (如 AAPL) 或主題 (如 半導體)..."
+  />
+  <div id="search-results"></div>
+</div>
+
+<script define:vars={{ base }}>
+  let searchIndex = [];
+
+  async function loadIndex() {
+    try {
+      const res = await fetch(`${base}search-index.json`);
+      searchIndex = await res.json();
+    } catch (e) {
+      console.error('Failed to load search index:', e);
+    }
+  }
+
+  function performSearch(query) {
+    const q = query.trim().toUpperCase();
+    if (!q) return searchIndex;
+    return searchIndex.filter(entry => {
+      const tickerMatch = entry.tickers.some(t => t.toUpperCase().includes(q));
+      const topicMatch = entry.topics.some(t => t.toUpperCase().includes(q));
+      return tickerMatch || topicMatch;
+    });
+  }
+
+  function getSignalTypes(entry, query) {
+    const q = query.trim().toUpperCase();
+    const types = [];
+    if (entry.bullishTickers?.some(t => t.toUpperCase().includes(q))) types.push('bullish');
+    if (entry.bearishTickers?.some(t => t.toUpperCase().includes(q))) types.push('bearish');
+    if (entry.monitorTopics?.some(t => t.toUpperCase().includes(q))) types.push('monitor');
+    return types;
+  }
+
+  function createResultItem(entry, query) {
+    const signalLabels = { bullish: '看漲', bearish: '看空', monitor: '關注' };
+    const div = document.createElement('div');
+    div.className = 'archive-item';
+
+    const link = document.createElement('a');
+    link.href = `${base}reports/${entry.date}/`;
+    link.className = 'archive-date';
+    link.textContent = entry.date;
+    div.appendChild(link);
+
+    if (query.trim()) {
+      const types = getSignalTypes(entry, query);
+      for (const t of types) {
+        const tag = document.createElement('span');
+        tag.className = `search-result-tag ${t}`;
+        tag.textContent = signalLabels[t];
+        div.appendChild(tag);
+      }
+    }
+
+    const meta = document.createElement('div');
+    meta.className = 'archive-meta';
+    const tickerPreview = entry.tickers.slice(0, 8).join(', ');
+    meta.textContent = `${entry.totalSources} 個來源 | ${tickerPreview}${entry.tickers.length > 8 ? '...' : ''}`;
+    div.appendChild(meta);
+
+    return div;
+  }
+
+  function renderResults(results, query) {
+    const container = document.getElementById('search-results');
+    if (!container) return;
+
+    container.replaceChildren();
+
+    if (query.trim() && results.length === 0) {
+      const p = document.createElement('p');
+      p.className = 'no-data';
+      p.textContent = '沒有找到相關報告';
+      container.appendChild(p);
+      return;
+    }
+
+    for (const entry of results) {
+      container.appendChild(createResultItem(entry, query));
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    await loadIndex();
+    const input = document.getElementById('ticker-search');
+    renderResults(searchIndex, '');
+    input?.addEventListener('input', (e) => {
+      const query = e.target.value;
+      const results = performSearch(query);
+      renderResults(results, query);
+    });
+  });
+</script>

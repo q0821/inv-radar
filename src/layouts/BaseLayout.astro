@@ -1,0 +1,143 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = '投資訊號日報 - AI 自動分析產生的每日投資報告' } = Astro.props;
+
+import '../styles/global.css';
+---
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content={description} />
+  <title>{title}</title>
+  <style>
+    .auth-gate {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--c-bg, #f4f7f9);
+    }
+    .auth-box {
+      background: var(--c-surface, #fff);
+      padding: 2.5em 2em;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+      text-align: center;
+      max-width: 360px;
+      width: 90%;
+    }
+    .auth-box h2 {
+      margin-bottom: 0.3em;
+      font-size: 1.3em;
+    }
+    .auth-box p {
+      font-size: 0.85em;
+      color: var(--c-text-muted, #888);
+      margin-bottom: 1.2em;
+    }
+    .auth-input {
+      width: 100%;
+      padding: 0.7em 1em;
+      border: 1px solid var(--c-border, #e0e0e0);
+      border-radius: 8px;
+      font-size: 1em;
+      background: var(--c-bg, #f4f7f9);
+      color: var(--c-text, #1a1a2e);
+      margin-bottom: 0.8em;
+    }
+    .auth-input:focus {
+      outline: none;
+      border-color: #2980b9;
+      box-shadow: 0 0 0 3px rgba(41,128,185,0.15);
+    }
+    .auth-btn {
+      width: 100%;
+      padding: 0.7em;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      font-weight: 600;
+      color: #fff;
+      background: linear-gradient(135deg, #1a1a2e, #0f3460);
+      cursor: pointer;
+    }
+    .auth-btn:hover { opacity: 0.9; }
+    .auth-error {
+      color: #e74c3c;
+      font-size: 0.85em;
+      margin-top: 0.6em;
+      min-height: 1.2em;
+    }
+    .site-content[data-locked] { display: none; }
+  </style>
+</head>
+<body>
+  <!-- Password Gate -->
+  <div class="auth-gate" id="auth-gate">
+    <div class="auth-box">
+      <h2>投資訊號日報</h2>
+      <p>請輸入密碼以瀏覽報告</p>
+      <input type="password" class="auth-input" id="auth-input" placeholder="密碼" autocomplete="off" />
+      <button class="auth-btn" id="auth-btn">進入</button>
+      <div class="auth-error" id="auth-error"></div>
+    </div>
+  </div>
+
+  <!-- Main Content (hidden until authenticated) -->
+  <div class="site-content" id="site-content" data-locked>
+    <div class="site-wrapper">
+      <slot />
+      <footer class="site-footer">
+        <p>本站內容由 AI 自動轉錄與分析產生，可能存在錯誤或遺漏。所有資訊僅供參考，不構成任何投資建議。請自行研究 (DYOR)，投資風險自負。</p>
+        <p>由 Podcast 投資訊號監控系統自動產生</p>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // ── 在這裡修改密碼 ──
+    const SITE_PASSWORD = 'invest2026';
+
+    const AUTH_KEY = 'report_auth';
+    const gate = document.getElementById('auth-gate');
+    const content = document.getElementById('site-content');
+    const input = document.getElementById('auth-input');
+    const btn = document.getElementById('auth-btn');
+    const error = document.getElementById('auth-error');
+
+    function unlock() {
+      gate.style.display = 'none';
+      content.removeAttribute('data-locked');
+    }
+
+    // Check if already authenticated
+    if (localStorage.getItem(AUTH_KEY) === SITE_PASSWORD) {
+      unlock();
+    }
+
+    btn.addEventListener('click', () => {
+      if (input.value === SITE_PASSWORD) {
+        localStorage.setItem(AUTH_KEY, SITE_PASSWORD);
+        unlock();
+      } else {
+        error.textContent = '密碼錯誤，請重試';
+        input.value = '';
+        input.focus();
+      }
+    });
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') btn.click();
+    });
+  </script>
+</body>
+</html>

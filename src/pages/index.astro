@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ReportContent from '../components/ReportContent.astro';
+
+const base = import.meta.env.BASE_URL;
+
+// Load all report JSON files at build time
+const reportFiles = import.meta.glob('../../data/reports/*.json', { eager: true });
+
+// Sort by date descending and pick the latest
+const reports = Object.entries(reportFiles)
+  .map(([path, mod]) => (mod as any).default)
+  .filter(Boolean)
+  .sort((a, b) => b.date.localeCompare(a.date));
+
+const latestReport = reports[0] || null;
+---
+<BaseLayout title={latestReport ? `投資訊號日報 - ${latestReport.date}` : '投資訊號日報'}>
+  <nav class="nav">
+    <a href={`${base}`}><strong>最新報告</strong></a>
+    <a href={`${base}archive/`}>歷史報告</a>
+  </nav>
+
+  {latestReport ? (
+    <ReportContent report={latestReport} />
+  ) : (
+    <div class="no-data">
+      <p>目前尚無報告資料</p>
+      <p style="font-size:0.85em;margin-top:0.5em;">報告將由 n8n 自動推送至此站</p>
+    </div>
+  )}
+</BaseLayout>

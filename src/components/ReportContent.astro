@@ -1,0 +1,233 @@
+---
+interface Props {
+  report: any;
+}
+
+const { report } = Astro.props;
+
+const date = report.date || '';
+const totalSources = report.totalSources || 0;
+const quickDigest = report.quickDigest || [];
+const marketMood = report.marketMood || '';
+const bullish = report.bullishSignals || [];
+const bearish = report.bearishSignals || [];
+const monitor = report.monitorSignals || [];
+const insights = report.keyInsights || [];
+const risks = report.riskAlerts || [];
+const catalysts = report.upcomingCatalysts || [];
+const episodes = report.episodeSummaries || [];
+
+const bullCount = bullish.length;
+const bearCount = bearish.length;
+const total = bullCount + bearCount || 1;
+const bullPct = Math.round((bullCount / total) * 100);
+const bearPct = 100 - bullPct;
+
+function confidenceLabel(c: string) {
+  const map: Record<string, string> = { high: '高信心', medium: '中信心', low: '低信心' };
+  return map[c] || '中信心';
+}
+
+function horizonLabel(h: string) {
+  const map: Record<string, string> = { short: '短線', medium: '中線', long: '長線' };
+  return map[h] || '中線';
+}
+---
+
+<!-- Header -->
+<div class="site-header">
+  <h1>投資訊號日報</h1>
+  <p class="subtitle">{date} | 分析 {totalSources} 個來源</p>
+</div>
+
+<!-- Quick Digest -->
+{quickDigest.length > 0 && (
+  <div class="quick-digest">
+    <h2>今日快速重點</h2>
+    <ul>
+      {quickDigest.map((point: string) => <li>{point}</li>)}
+    </ul>
+  </div>
+)}
+
+<!-- Thermometer -->
+<div class="card">
+  <div class="card-body">
+    <h2 class="section-title">市場溫度計</h2>
+    <div class="thermometer-row">
+      <span class="thermometer-label bull">看漲 {bullCount}</span>
+      <div class="thermometer-bar" style="flex:1;">
+        <div class="thermometer-bull" style={`width:${bullPct}%`}></div>
+        <div class="thermometer-bear" style={`width:${bearPct}%`}></div>
+      </div>
+      <span class="thermometer-label bear">看空 {bearCount}</span>
+    </div>
+    {marketMood && <p class="market-mood">「{marketMood}」</p>}
+  </div>
+</div>
+
+<!-- Bullish Signals -->
+{bullish.length > 0 && (
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title bullish">看漲訊號 ({bullish.length})</h2>
+      {bullish.map((sig: any) => (
+        <div class="signal-card bullish">
+          <div>
+            <span class="signal-ticker bullish">{sig.ticker}</span>
+            {sig.consensus?.includes('共識') && <span class="badge badge-consensus">{sig.consensus}</span>}
+            {sig.consensus?.includes('分歧') && <span class="badge badge-divergence">{sig.consensus}</span>}
+            <span class={`badge badge-horizon-${sig.timeHorizon || 'medium'}`}>{horizonLabel(sig.timeHorizon)}</span>
+          </div>
+          {sig.sources?.map((s: any) => (
+            <div class="source-row">
+              <strong>{s.kol}</strong>: {s.reason}
+              {s.action && s.action !== '無' && <span class="badge-action bullish">{s.action}</span>}
+              <span class={`badge badge-confidence-${s.confidence || 'medium'}`}>{confidenceLabel(s.confidence)}</span>
+            </div>
+          ))}
+          {sig.priceLevel && sig.priceLevel !== '無' && sig.priceLevel !== 'N/A' && sig.priceLevel.trim() !== '' && (
+            <div class="price-level">{sig.priceLevel}</div>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+
+<!-- Bearish Signals -->
+{bearish.length > 0 && (
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title bearish">看空訊號 ({bearish.length})</h2>
+      {bearish.map((sig: any) => (
+        <div class="signal-card bearish">
+          <div>
+            <span class="signal-ticker bearish">{sig.ticker}</span>
+            {sig.consensus?.includes('共識') && <span class="badge badge-consensus">{sig.consensus}</span>}
+            {sig.consensus?.includes('分歧') && <span class="badge badge-divergence">{sig.consensus}</span>}
+            <span class={`badge badge-horizon-${sig.timeHorizon || 'medium'}`}>{horizonLabel(sig.timeHorizon)}</span>
+          </div>
+          {sig.sources?.map((s: any) => (
+            <div class="source-row">
+              <strong>{s.kol}</strong>: {s.reason}
+              {s.action && s.action !== '無' && <span class="badge-action bearish">{s.action}</span>}
+              <span class={`badge badge-confidence-${s.confidence || 'medium'}`}>{confidenceLabel(s.confidence)}</span>
+            </div>
+          ))}
+          {sig.divergence && (
+            <div class="divergence-note">分歧: {sig.divergence}</div>
+          )}
+          {sig.priceLevel && sig.priceLevel !== '無' && sig.priceLevel !== 'N/A' && sig.priceLevel.trim() !== '' && (
+            <div class="price-level">{sig.priceLevel}</div>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+
+<!-- Risk Alerts -->
+{risks.length > 0 && (
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title risk">風險提醒</h2>
+      <div class="risk-block">
+        <ul>
+          {risks.map((r: string) => <li>{r}</li>)}
+        </ul>
+      </div>
+    </div>
+  </div>
+)}
+
+<!-- Upcoming Catalysts -->
+{catalysts.length > 0 && (
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title catalyst">近期催化劑</h2>
+      <div class="catalyst-block">
+        {catalysts.map((c: any) => (
+          <div class="catalyst-item">
+            <span class="catalyst-date">{c.date}</span>
+            <span>{c.event}</span>
+            {c.tickers?.map((t: string) => <span class="catalyst-ticker">{t}</span>)}
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+)}
+
+<!-- Monitor Signals -->
+{monitor.length > 0 && (
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title monitor">值得關注 ({monitor.length})</h2>
+      {monitor.map((sig: any) => (
+        <div class="signal-card monitor">
+          <div>
+            <span class="signal-ticker monitor">{sig.topic}</span>
+            <span class={`badge badge-horizon-${sig.timeHorizon || 'medium'}`}>{horizonLabel(sig.timeHorizon)}</span>
+          </div>
+          <p style="margin:0.5em 0 0.25em;font-size:0.9em;">{sig.reason}</p>
+          <p style="font-size:0.8em;color:var(--c-text-muted);">
+            提及來源: {(sig.mentionedBy || []).join(', ')}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+
+<!-- Key Insights -->
+{insights.length > 0 && (
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title insight">KOL 獨特觀點</h2>
+      <div class="insight-block">
+        <ul>
+          {insights.map((ins: string) => <li>{ins}</li>)}
+        </ul>
+      </div>
+    </div>
+  </div>
+)}
+
+<!-- Episode Summaries -->
+{episodes.length > 0 && (
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title">節目重點摘要</h2>
+      {episodes.map((ep: any) => {
+        const icon = ep.source === 'youtube' ? '🎬' : '🎧';
+        const linkClass = ep.source === 'youtube' ? 'youtube' : 'podcast';
+        const linkText = ep.source === 'youtube' ? '前往觀看' : '前往收聽';
+        return (
+          <div class="episode-card">
+            <div class="episode-meta">
+              <span class="episode-icon">{icon}</span>
+              <div>
+                <div class="episode-podcast">{ep.podcast}</div>
+                <div class="episode-title">{ep.episode}</div>
+              </div>
+            </div>
+            {ep.highlights && ep.highlights.length > 0 && (
+              <ul class="episode-highlights">
+                {ep.highlights.map((h: string) => <li>{h}</li>)}
+              </ul>
+            )}
+            {(ep.detailedSummary || ep.oneLiner) && (
+              <div class="episode-summary">{ep.detailedSummary || ep.oneLiner}</div>
+            )}
+            {ep.episodeLink && (
+              <a href={ep.episodeLink} target="_blank" rel="noopener noreferrer" class={`episode-link ${linkClass}`}>
+                {linkText}
+              </a>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  </div>
+)}

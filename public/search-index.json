@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-03-17",
+    "totalSources": 3,
+    "tickers": [
+      "NVDA",
+      "TSM",
+      "TSLA"
+    ],
+    "topics": [
+      "半導體產業",
+      "美國利率走向"
+    ],
+    "bullishTickers": [
+      "NVDA",
+      "TSM"
+    ],
+    "bearishTickers": [
+      "TSLA"
+    ],
+    "monitorTopics": [
+      "半導體產業",
+      "美國利率走向"
+    ]
+  }
+]
