@@ -1,0 +1,364 @@
+{
+  "date": "2026-03-18",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 4,
+  "bullishSignals": [
+    {
+      "ticker": "NVDA",
+      "consensus": "KOL 分歧",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "GTC 大會發布 Vera Rubin 晶片，預期 2027 年底訂單達一兆美元，生態系強大",
+          "action": "持有",
+          "confidence": "high"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "Uber/Lyft 等應用端導入輝達技術，AI 落地變現邏輯確立",
+          "action": "持有",
+          "confidence": "high"
+        },
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "估值過高，面臨競爭，市場開始要求實質現金流，短期漲不動",
+          "action": "觀望",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "MU",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "記憶體進入結構性定價強勢期，獲 RBC 上調目標價",
+          "action": "買進",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "AI 需求帶動記憶體報價上漲，GTC 大會確認需求強勁",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "目標價 52 美元"
+    },
+    {
+      "ticker": "NBIS",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "獲 Meta 270 億美元算力訂單，輝達策略投資，AI 基礎建設核心",
+          "action": "買進",
+          "confidence": "high"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "發行可轉債擴張算力，長期競爭力強",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "2303.TW",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "AI 排擠產能，成熟製程供不應求，4 月全面調漲報價",
+          "action": "持有",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "受惠半導體成熟製程漲價，帶動 IC 通路商獲利提升",
+          "action": "持有",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "3702.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "受惠成熟製程漲價與低價庫存優勢，具高殖利率保護",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "近期漲至 90 元"
+    },
+    {
+      "ticker": "UBER",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "推出輝達驅動的自駕車隊，AI 應用落地，技術面修復",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "站上 50 日均線"
+    },
+    {
+      "ticker": "6805.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "切入液冷散熱利基型接頭，毛利率優於模組廠",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "Private Credit Sector",
+      "consensus": "KOL 分歧",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "面臨流動性壓力與大規模贖回潮，市場擔憂潛在違約風險",
+          "action": "避開",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "NaNa 看好 OWL/ARES 等特定公司因流動性改善受惠，但游庭皓看空整體產業流動性風險",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "跌幅已達 35%"
+    },
+    {
+      "ticker": "SOFI",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "遭渾水做空，指控財務造假，且高利率環境下壓力大",
+          "action": "賣出",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "無",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "腰斬"
+    },
+    {
+      "ticker": "QCOM",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "手機晶片需求不振，轉型業務體量尚小，基本面疲軟",
+          "action": "觀望",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "無",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "RKLB",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "藉題材大漲後立刻宣布增發股票，面臨籌碼稀釋壓力",
+          "action": "觀望",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "無",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "無"
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "油價與地緣政治",
+      "reason": "中東地緣政治風險雖有緩和跡象，但油價與供應鏈仍脆弱，需密切關注通膨外溢效應",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "光通訊 (CPO) 族群",
+      "reason": "輝達強調銅線傳輸重要性，導致光通訊族群短線面臨漲多回檔壓力",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "QQQ 技術面支撐",
+      "reason": "595-600 區間為關鍵生命線，若帶量跌破將觸發加速下行",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "資料平台 (SNOW, Databricks)",
+      "reason": "AI 瓶頸轉向資料結構化，資料平台將成為 AI 落地的關鍵受益者",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "long"
+    }
+  ],
+  "keyInsights": [
+    "市場焦點從「AI 夢想」轉向「AI 現實」，投資人開始嚴格要求企業的實質現金流與獲利能力",
+    "通膨壓力重燃，從能源、塑化到半導體成熟製程全面漲價，可能影響聯準會降息路徑",
+    "私募信貸市場出現分歧，一方面面臨流動性贖回壓力，另一方面特定優質資產仍受資金青睞",
+    "台股呈現「外資賣、內資買」格局，中小型股與高殖利率通路商表現優於權值股",
+    "建議採取槓鈴策略，同時佈局具長線價值的 AI 核心資產與防禦型高殖利率股"
+  ],
+  "riskAlerts": [
+    "私募信貸流動性風險：面臨大規模贖回潮，若資金鏈斷裂可能引發企業違約",
+    "通膨反撲風險：油價與半導體漲價可能迫使聯準會降息預期落空",
+    "AI 估值修正風險：若無法交出實質現金流，高估值科技股將面臨修正",
+    "供應鏈斷鏈風險：荷姆茲海峽受阻可能導致亞洲石化產業原料短缺",
+    "籌碼稀釋風險：如 RKLB 趁利多增發股票，投資人需警惕股權稀釋",
+    "做空機構狙擊風險：如 SoFi 遭渾水做空，財務透明度存疑"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "3/18 (週三)",
+      "event": "聯準會 (Fed) 利率決議與點陣圖公布",
+      "tickers": [
+        "SPY",
+        "QQQ"
+      ]
+    },
+    {
+      "date": "3/19",
+      "event": "美光 (Micron) 公布財報",
+      "tickers": [
+        "MU",
+        "記憶體族群"
+      ]
+    },
+    {
+      "date": "4月份",
+      "event": "半導體成熟製程全面調漲報價",
+      "tickers": [
+        "2303.TW",
+        "3702.TW"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "GTC 大會持續進行與技術發表",
+      "tickers": [
+        "NVDA",
+        "AI概念股"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/3/17(二)黃仁勳喊衝 輝達漲不動?油價摔一跤 美股卻反攻?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-3-17",
+      "sentiment": "neutral",
+      "oneLiner": "通膨隱憂再現，AI 估值面臨現金流檢驗，私募信貸風險升溫",
+      "detailedSummary": "本集節目聚焦中東局勢對全球通膨與供應鏈的衝擊，以及 AI 科技股的估值重塑。主持人指出，油價波動與塑化、半導體成熟製程的漲價潮，顯示通膨壓力正在升溫；同時，黃金與美債未發揮避險作用，反映市場更擔憂流動性與私募信貸風險。AI 板塊在 GTC 大會後表現冷靜，顯示市場資金已從追逐題材轉向檢視實質現金流。整體而言，目前處於資產估值回調的再平衡階段，長線投資者可耐心等待佈局良機。",
+      "highlights": [
+        "中東戰火引發塑化供應鏈危機，台塑等上游業者面臨斷鏈風險",
+        "AI 產能排擠效應顯現，聯電等成熟製程預計 4 月調漲報價一成",
+        "輝達 GTC 大會後股價未大漲，市場開始要求實質現金流",
+        "黃金與美債避險失靈，市場真正恐懼的是通膨與流動性風險",
+        "私募信貸面臨百億美元贖回潮，需警惕潛在違約風險",
+        "今年半數資產下跌，視為健康的估值回調與再平衡機會"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/03/17 (二）輝達GTC最大亮點是什麼？AI將顛覆整個商業模式？",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/21b16317-2d8b-4e2c-baaa-00806a75602f",
+      "sentiment": "bullish",
+      "oneLiner": "GTC 大會確立 AI 推論落地趨勢，看好輝達生態系與記憶體產業",
+      "detailedSummary": "本集重點聚焦於輝達 GTC 大會帶來的 AI 產業變革，指出 AI 競爭已從模型轉向資料處理與推論落地。主持人高度看好輝達及其生態系（如接獲 Meta 大單的 Nebius），並強調記憶體（如美光）已轉變為 AI 核心資產。總經方面，提醒留意高於預期的 PCE 通膨數據及中東地緣政治對油價的影響，建議投資人著眼長期生產力提升的 AI 趨勢，避開短線投機。",
+      "highlights": [
+        "輝達 GTC 預告 Vera Rubin 晶片，2027 年底算力訂單上看一兆美元",
+        "Nebius 獲 Meta 270 億美元合約及輝達投資，確立 AI 基礎建設地位",
+        "美光獲上調目標價，記憶體進入結構性定價強勢期",
+        "AI 瓶頸轉向資料處理，Snowflake 與 Databricks 重要性大增",
+        "中東衝突升級但油價回落，市場預期美國將加速停戰談判",
+        "PCE 通膨數據高於預期，聯準會利率決議成焦點"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1057｜GTC開展！記憶體、散熱、太空捧場，CPO為何又遇壓？龍蝦和費曼帶動的新商機？公布配息就漲停的通路股？ft.選股教練 陳唯泰.",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/6c14ef07-d276-4595-9830-34370e2c4c38",
+      "sentiment": "bullish",
+      "oneLiner": "台股內資當道，IC 通路與散熱利基股受惠，CPO 短線承壓",
+      "detailedSummary": "本集探討 GTC 大會對台股的影響，雖然外資因強勢美元偏向賣方，但內資帶動中小型股持續創高。節目特別看好受惠於半導體通膨與高殖利率的 IC 通路商（如大聯大、文曄）。散熱與低軌衛星族群亦受 GTC 題材帶動，但需留意部分漲多個股的獲利了結賣壓。主持人建議投資人採取均衡配置，避免 FOMO 情緒。",
+      "highlights": [
+        "台股中小型股在內資點火下持續創高，不受外資賣壓影響",
+        "IC 通路商受惠半導體漲價與高殖利率，股價表現強勢",
+        "散熱族群短線有獲利了結跡象，關注切入液冷接頭的利基廠",
+        "輝達強調銅線傳輸，導致光通訊（CPO）族群短線承壓",
+        "記憶體與低軌衛星族群受 GTC 題材激勵表現亮眼",
+        "建議採取槓鈴策略，配置債券與高殖利率股對抗波動"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "最大接盘侠消失💸💸💸。NaNa说美股(2026.03.17)",
+      "episodeLink": "https://www.youtube.com/watch?v=8LBUW7R-L3o",
+      "sentiment": "neutral",
+      "oneLiner": "AI 應用端落地，QQQ 面臨關鍵支撐保衛戰，避開基本面轉弱個股",
+      "detailedSummary": "本集節目探討中東局勢對油價與通膨的短期干擾，以及美股在關鍵支撐位的多空博弈。AI 依然是市場主線，輝達 GTC 大會帶動資金流向邊緣概念與應用端（如 Uber、Lyft）。總經方面，基金經理人大幅提高現金比例，風險焦點轉向地緣政治與通膨。技術面上，QQQ 的 595-600 區間為關鍵防守線。個股方面，達美航空展現強勁基本面，而 SoFi 與高通則分別面臨做空與基本面疲軟的挑戰。",
+      "highlights": [
+        "中東局勢短暫推升油價，但隨後回落，美債殖利率跌破 4.2%",
+        "輝達 GTC 帶動 AI 外溢效應，Uber 與 Lyft 導入技術象徵 AI 落地",
+        "QQQ 的 595-600 區間為多空關鍵防守線，跌破恐加速下行",
+        "基金經理人現金水位創高，擔憂地緣政治與通膨風險",
+        "渾水做空 SoFi 指控財務造假，高通回購難掩基本面疲軟",
+        "達美航空需求強勁，顯示美國經濟仍具韌性"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
