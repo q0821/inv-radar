@@ -1,0 +1,421 @@
+{
+  "date": "2026-03-19",
+  "quickDigest": [
+    "油價重返百元加劇通膨擔憂，聯準會降息預期恐大幅延後",
+    "AI資金轉向光通訊與記憶體，看好光聖、群聯及美光",
+    "避開無實績高估值股，首選具EPS支撐的奇鋐與京元電",
+    "輝達與台積電先進製程供不應求，龍頭地位穩固長線續抱"
+  ],
+  "marketMood": "通膨陰影再現，資金棄作夢股轉向具業績支撐AI族群",
+  "totalSources": 5,
+  "bullishSignals": [
+    {
+      "ticker": "TSM (2330.TW)",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "谢孟恭",
+          "reason": "NVIDIA 採雙軌制下單，且台積電先進製程產能依然供不應求，無「盔甲出現裂口」狀況",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "在先進製程領域難以被超越，擁有絕對定價權，是輝達 Vera Rubin 架構核心製造的唯一選擇",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "NVDA",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "谢孟恭",
+          "reason": "轉型為全方位 AI Factory 供應商，提供一站式解決方案，長期發展契機大",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "AI 領域具備絕對領導地位，積極拓展生態系。短期不漲僅是利多出盡，長期仍具成長潛力",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "光通訊族群 (AAOI, LITE, 6442.TW, 3665.TW)",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "AI 基礎設施需求持續加速，行業供不應求，看好 AAOI, LITE, COHR",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "看好具實質 EPS 支撐的光聖 (6442) 與貿聯 (3665)，銅線與光纖將並存",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "拉長 3-5 年看，光傳輸是不可逆的長期趨勢，不會賣出持股",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "記憶體族群 (MU, 8299.TW, 3260.TW, 2337.TW)",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "谢孟恭",
+          "reason": "群聯 (8299)、威剛 (3260) 擁有低價庫存優勢，旺宏 (2337) 產品報價大幅調漲",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "AI 從訓練走向推論，將大幅帶動記憶體需求，長線極度看好",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "美光 HBM4 將量產，AI Agent 帶動 DRAM/NAND 需求",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "封測族群 (2449.TW, 6239.TW)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "受惠台積電 CoWoS 產能外溢效應，封測訂單滿載，看好京元電 (2449) 與力成 (6239)",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "支撐 210 (力成)"
+    },
+    {
+      "ticker": "3017.TW (奇鋐)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "具備高 EPS 支撐，本益比相對合理，技術面打底完成後強勢突破",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "支撐 120-130, 壓力 190"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "美國商辦房地產",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "高利率環境持續，導致商辦空置率居高不下，後疫情時代企業搬離都會區加劇此現象",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "空置率：西雅圖27%、舊金山24%"
+    },
+    {
+      "ticker": "3363.TW (上銓)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "本益比過高且無實質EPS支撐，純靠台積電合作題材作夢，隊長表示已於40元以上獲利了結",
+          "action": "停利",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "3653.TW (健策)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "雖然微通道蓋板技術領先，但本益比高得離譜，籌碼多由法人短線拱起，估值風險較高",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "黃金",
+      "consensus": "KOL 分歧",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "跌破關鍵價位，未發揮避險作用，反而因流動性收緊和降息預期延後而遭到拋售",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "避險需求雖在，但因通膨預期升高導致聯準會維持高利率，使金價卡在高檔無法暴漲",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "NaNa 看空因流動性收緊；游庭皓認為卡在高檔整理",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "CF (CF Industries)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "瑞穗分析師轉為看空，認為中東衝突帶來的化肥漲價預期已被充分定價，面臨高位回撤風險",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "M (Macy's)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "Q4業績佳但新財年指引偏弱，受中東局勢、關稅及通脹影響，引發資金獲利了結",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "美股大盤 (S&P 500 / Nasdaq)",
+      "reason": "標普與納指逼近關鍵支撐（年線），上方賣壓沉重，目前靠空單回補支撐，需觀察聯準會態度",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "原油與能源",
+      "reason": "中東戰事升級至生產端，油價重返 100 美元將推升通膨預期，影響央行決策",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "台灣房地產",
+      "reason": "受央行第七波信用管制影響，市場氣氛轉為觀望，交易量收縮但價格僵固",
+      "mentionedBy": [
+        "游庭皓的財經皓角"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "ASIC 產業動態",
+      "reason": "市場傳聞 Google 可能引入聯發科為 ASIC 夥伴，Meta 開發遇瓶頸，值得持續追蹤",
+      "mentionedBy": [
+        "谢孟恭"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    "市場擔憂聯準會因通膨黏性與油價上漲而延後降息，甚至重啟升息選項",
+    "AI 投資邏輯從純硬體轉向「光銅並進」與「記憶體復甦」，資金輪動至次級細分賽道",
+    "全球房地產市場出現扭曲，台灣房市因央行管制進入量縮價穩的觀望期",
+    "投資策略應回歸基本面（EPS 支撐），避免盲目追逐高本益比或純題材的作夢股",
+    "黃金在流動性緊縮環境下可能失去避險功能，甚至成為變現工具"
+  ],
+  "riskAlerts": [
+    "通膨再起風險：油價飆升可能迫使聯準會維持高利率，打破降息預期",
+    "地緣政治風險：中東衝突若擴大，將衝擊全球供應鏈與資產價值",
+    "估值修正風險：AI 概念股若無實質 EPS 支撐，面臨利多出盡與回檔壓力",
+    "商辦違約風險：高利率環境下，美國商辦空置率居高不下",
+    "流動性風險：黃金與股票相關性上升，可能在市場恐慌時同步下跌"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "3/18-3/19",
+      "event": "全球超級央行週（聯準會、台灣央行利率決策）",
+      "tickers": [
+        "USD",
+        "大盤",
+        "黃金"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "OFC 2026 光通信大會",
+      "tickers": [
+        "AAOI",
+        "LITE",
+        "COHR"
+      ]
+    },
+    {
+      "date": "本週五",
+      "event": "美股三巫日（期權交割）",
+      "tickers": [
+        "標普500指數"
+      ]
+    },
+    {
+      "date": "2026年第一季",
+      "event": "美光 HBM4 量產",
+      "tickers": [
+        "MU"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/3/18(三)油價重返100美元 美股止跌?投資人真的 怕通膨風險嗎?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/cjsjjcjnc",
+      "sentiment": "neutral",
+      "oneLiner": "油價重返百元加劇通膨擔憂，全球房市在高利率下呈現扭曲現象。",
+      "detailedSummary": "本集節目主要探討中東戰事升溫導致油價重返 100 美元對全球總經的影響。儘管美股表面抗跌，但實質上是由於避險空單回補所支撐。市場焦點已從單純的通膨擔憂，轉向全球央行（特別是聯準會）是否會因通膨再起而延後降息。此外，節目深度分析了高利率對全球房地產（美國商辦、杜拜、韓國、台灣）的扭曲現象，並指出台灣房市目前處於「量縮價穩」的觀望期，長期將受少子化與年輕人消費觀念轉變的深刻影響。",
+      "highlights": [
+        "中東戰事升溫導致油價重返 100 美元，柴油大漲加劇通膨壓力",
+        "美股表面抗跌，實為避險部位的時間價值消耗與空單回補支撐，並非軋空行情",
+        "全球進入超級央行週，市場擔憂聯準會因通膨壓力延後降息",
+        "美國高利率導致住宅房市量縮價漲，商辦空置率（如西雅圖、舊金山）則創下歷史高位",
+        "杜拜房市因地緣政治風險面臨資金撤出疑慮，房價指數連跌",
+        "韓國強烈打房無效，全租房槓桿效應導致首爾房價持續攀升",
+        "台灣房市受央行信用管制影響進入觀望，建商縮減供給使價格僵固",
+        "台灣年輕人「無三代」觀念與少子化趨勢，將長期改變房地產需求結構"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "謝孟恭",
+      "episode": "EP645 | 🎱",
+      "episodeLink": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/be3e9626-78e1-4ef7-a060-737579556b56",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深度解析 NVIDIA 轉型與台積電優勢，並點名記憶體族群的漲價商機。",
+      "detailedSummary": "本集節目中，主持人分享了自身投資策略的演進，從單純看技術面突破，轉變為結合產業基本面的複合策略。針對科技股，主持人高度肯定 NVIDIA 轉型為全方位 AI 解決方案供應商的潛力，但也提醒其股價反應已逐漸「蘋果化」，利多容易被提前定價。此外，節目破除了台積電遭三星搶單的市場謠言，並深入分析了 ASIC 市場的版圖變化（包含 Meta、微軟、Google 供應鏈傳聞）以及記憶體族群（華邦電、愛普、群聯、威剛、旺宏）在漲價與新技術應用下的投資機會。整體而言，對台美科技股維持偏多看法，但強調需注意市場情緒與價格行為。",
+      "highlights": [
+        "分享家庭生活體悟，反思陪伴小孩的時間比無謂的應酬更重要",
+        "回顧做 Podcast 的初衷是為了獲取產業資訊，最終將產業知識結合技術面，優化了自身的交易策略",
+        "解析 NVIDIA GTC 大會，認為 NVIDIA 正成為全方位的 AI 解決方案供應商",
+        "破除台積電遭三星搶單的謠言，指出 NVIDIA 採雙軌制且台積電產能依然供不應求",
+        "探討 SRAM 與 Pseudo SRAM 的市場炒作，點名華邦電與愛普的潛在機會",
+        "追蹤 ASIC 市場動態，提及 Meta 開發受阻、微軟爭取台積電 N2 產能，以及聯發科有望打入 Google 供應鏈的傳聞",
+        "QA 回覆記憶體族群（群聯、威剛）低價庫存優勢將延續，並確認旺宏產品大幅漲價的真實性"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/03/18 (三）輝達股價，為什麼漲不動？",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/e84755ad-ce6b-4fec-875f-61d09354c6be",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "輝達股價震盪僅為利多出盡，長期看好 AI 生態系帶動光通訊與記憶體需求。",
+      "detailedSummary": "本集節目主要探討美股近期的震盪格局以及輝達在 GTC 大會後股價疲軟的原因。主持人 Jenny 認為，市場因擔憂通膨與聯準會降息延後而出現波動，但整體經濟與科技產業基本面並未改變，拉回即是買點。針對輝達，股價不漲主因是市場預期過高及利多出盡，但其在 AI 軟硬整合與生態系的佈局將持續鞏固領導地位。此外，節目詳細解析了輝達新一代晶片的供應鏈分佈，強調台積電的定價權優勢，並重申光通訊與記憶體板塊在 AI Agent 發展下的長期受惠趨勢。",
+      "highlights": [
+        "分析美股近期因通膨與降息預期改變而震盪，但強調基本面並未改變，拉回是買點",
+        "探討航空股在油價高漲下依然強勢的原因，主要受惠於高端商務艙需求強勁",
+        "警告投資人對於私募信貸基金的反彈應保持謹慎，避免盲目抄底不了解的風險",
+        "深度解析輝達 GTC 大會後股價不漲的三大原因：利多出盡、預期過高、對未來資本支出的疑慮",
+        "釐清光通訊與銅纜的技術應用場景，重申光通訊的長期投資價值，建議投資人抱緊持股",
+        "拆解輝達最新 Vera Rubin 架構的供應鏈分佈，強調台積電的絕對定價權與美光的突破",
+        "解讀輝達 NemoCloud 與 AI Agent 的商業佈局，指出記憶體（DRAM、NAND）需求將隨之爆發"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1058｜中小型股續噴！產能外溢、封測訂單滿，光銅並存、CPO低位階吃香？記憶體還能上車嗎，載板、PCB漲價難擋？ft.產業隊長 張捷",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/60c7ed92-4b86-4e58-a4fb-c0acee221aa1",
+      "sentiment": "bullish",
+      "oneLiner": "AI 產能外溢受惠封測與記憶體，投資應首選具 EPS 支撐的實質受惠股。",
+      "detailedSummary": "本集節目由產業隊長張捷深入解析 AI 產業鏈的最新動態。整體看好台股中小型股與 AI 相關供應鏈，特別指出台積電 CoWoS 產能外溢將大幅受惠京元電、力成等封測廠。針對市場熱議的傳輸規格，隊長定調為「光銅並進」，看好具備 EPS 支撐的貿聯與光聖。此外，強烈看好 AI 推論時代帶動的記憶體需求。投資策略上，隊長呼籲務實選股，偏好有獲利支撐的標的（如奇鋐），並警告避開本益比過高的作夢股（如健策、上銓）。最後，主持人趙華也提醒散戶應主動調整資產配置，避免死抱弱勢股。",
+      "highlights": [
+        "台股中小型股強勢表態，不受國際地緣政治影響，展現強大韌性",
+        "深入解析台積電 CoWoS 產能外溢效應，帶動京元電等封測廠接單爆滿",
+        "破解「光進銅退」迷思，確認輝達 GTC 大會確立「光銅並進」的雙軌發展趨勢",
+        "點出 AI 推論時代來臨，記憶體將成為下一個爆發性成長的關鍵零組件",
+        "比較散熱族群，隊長明確表態偏好具備高 EPS 支撐的奇鋐，提醒留意健策的高估值風險",
+        "解析被動元件漲價真相，提醒投資人挑選伺服器佔比高的標的（如鈺邦），避免盲目追高",
+        "趙華呼籲投資人面對套牢應主動改變配置，適度利用主動型或高股息 ETF 優化投資組合"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "要俯冲脸着地了！NaNa说美股(2026.03.18)",
+      "episodeLink": "https://www.youtube.com/watch?v=J08-H3hXBow",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "通膨黏性與地緣政治雙重夾擊，美股面臨結構性調整與資金輪動。",
+      "detailedSummary": "本集節目聚焦中東局勢升級對原油供應的實質性衝擊，以及美國 2 月 PPI 超預期帶來的通膨黏性問題。聯準會利率決議偏鷹，降息預期大幅延後，加息風險重回桌面，導致美股大盤承壓下探年線。板塊方面，黃金失去避險光環；AI 板塊內部資金輪動至光通訊（如 LITE、AAOI）；消費（M）與週期股（CF）則面臨指引疲軟或預期兌現的回撤壓力。市場整體處於結構性切換與風險定價階段。",
+      "highlights": [
+        "中東衝突升級至上游生產端，波斯灣原油面臨每日 1500 萬桶潛在供應缺口",
+        "美國 2 月 PPI 超預期，通膨具備強黏性，聯準會降息路徑大幅延後",
+        "鮑爾暗示加息選項重回桌面，引發市場對流動性收緊的擔憂",
+        "標普 500 指數跌至年線附近，短期有空頭回補的反彈機會，但下行趨勢未改",
+        "黃金在流動性收緊時成為提款機，打破絕對避險的傳統認知",
+        "美光（MU）財報超預期但股價平淡，顯示利好可能已提前定價",
+        "光通訊板塊（AAOI、LITE、COHR）受惠 AI 需求強勁，走出獨立行情",
+        "化肥股（CF）遭分析師看空，地緣政治帶來的漲價預期已充分反映"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
