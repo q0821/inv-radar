@@ -1,0 +1,362 @@
+{
+  "date": "2026-03-20",
+  "quickDigest": [
+    "美光財報優HBM缺貨，錯殺後浮現AI結構性買點 (MU)",
+    "中東戰事推升油價，聯準會暫緩降息，通膨風險升溫",
+    "資金轉進櫃買中小型股，外資大買推升指數創歷史新高",
+    "長線鎖定台積電與七巨頭，大盤回測年線為分批佈局點"
+  ],
+  "marketMood": "地緣風險壓抑權值，資金輪動中小股，AI長多不變",
+  "totalSources": 4,
+  "bullishSignals": [
+    {
+      "ticker": "MU",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "財報大幅超越預期，HBM 產能吃緊至明年底，產業出現結構性改變",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "毛利率高達 81% 且展望極佳，盤後下跌純粹受市場氛圍拖累，待利空淡化將還其公道",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "盤中跌幅大幅收斂，顯示下方承接買盤積極，仍是 AI 基礎設施主線",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2330.TW / TSM",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "股價重返高點，作為台股權值核心帶動大盤",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "具備先進製程優勢，是害怕追高熱門股時的穩健選擇",
+          "action": "買進",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "AI 趨勢推升長期動能，法人認為 2000 元絕對不是頂部",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "目標價 2000元以上 (李兆華)"
+    },
+    {
+      "ticker": "光通訊/矽光子 (LITE, COHR)",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "受惠 AI 與資料中心需求，產能吃緊，族群強勢",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "受惠 AI 擴展需求，但短期估值已高，建議等待修正後佈局",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "SPY / 美股七巨頭",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "長線投資人遇指數跌破年線為買點，建議分批加碼",
+          "action": "加碼",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "七巨頭財報獲利創高，因總經氛圍下跌不合理，為長線佈局良機",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "年線附近 (SPY)"
+    },
+    {
+      "ticker": "櫃買指數",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "資金結構改變，外資大買櫃買市場，資金擴散至中小型股",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "歷史新高"
+    },
+    {
+      "ticker": "PCB產業",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "具備實質獲利數字支撐，受惠 AI 升級潮，拉回是買點",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "RIVN",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "獲 Uber 投資，佈局無人駕駛出租車，盤面有資金湧入",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "BABA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "財報不及預期，營收微增但調整後淨利潤大幅縮水，導致股價大跌",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "MSFT",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "走勢比輝達更弱，在大盤下跌時表現不佳",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "META",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "走勢比輝達更弱，在大盤下跌時表現不佳",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "原油與通膨風險",
+      "reason": "中東戰事導致油價逼近 100 美元，若持續半年將引發通膨失控與經濟衰退",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny",
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "NVDA (輝達)",
+      "reason": "股價在季線與年線間震盪，需觀察關鍵支撐（如 180 美元）是否守住，為市場信心指標",
+      "mentionedBy": [
+        "財女Jenny",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美股指數 (SPX, QQQ)",
+      "reason": "指數進入極度超賣，適逢三巫日結算，關注 SPX 支撐與 QQQ 595 點關鍵位",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "2317.TW (鴻海)",
+      "reason": "Q4 財報微幅不如預期，但 AI 伺服器基本面未變，若持股痛苦可適度轉換但不建議砍在低點",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "記憶體產業循環",
+      "reason": "業績極佳但股價高點常領先獲利高點，建議順勢操作，有賺可做但不可攤平",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    "聯準會目前處於「停看聽」模式，中東地緣政治與油價成為影響降息步調的最大變數",
+    "AI 基礎設施（HBM、CPO）是結構性成長主線，但需留意估值與資本支出過高風險",
+    "市場呈現「抵抗式下跌」或「資金輪動」（大型轉中小型），長線價值投資買點浮現",
+    "建議採取槓鈴策略或分批佈局，長線鎖定績優股（如台積電、七巨頭），短線操作需汰弱留強",
+    "記憶體雖處超級週期，但本質仍為景氣循環股，操作上嚴禁拉回攤平"
+  ],
+  "riskAlerts": [
+    "PPI 漲幅大於 CPI，企業成本壓力快速累積，恐導致獲利衰退",
+    "中東地緣政治衝突若持續惡化，油價居高不下將壓縮聯準會降息空間",
+    "光通訊概念股短期漲幅過大，估值過高，容錯率極低",
+    "10 年期美債殖利率若突破 4.3% 並上探 4.5%，美股將面臨巨大估值修正壓力",
+    "中小型股目前因資金避險而大漲，但若經濟實質受損，跌幅將比大型股更重",
+    "阿里巴巴財報暴雷，中概股操作需謹慎，不宜逆勢抄底"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "3/20",
+      "event": "三巫日結算，大量空頭倉位平倉可能觸發短線反彈",
+      "tickers": [
+        "SPX",
+        "QQQ"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "OFC 2026 光通訊大會，各廠展示新技術與產品指引",
+      "tickers": [
+        "LITE",
+        "COHR"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "美光 (Micron) 財報效應持續發酵",
+      "tickers": [
+        "MU"
+      ]
+    },
+    {
+      "date": "3月底至4月",
+      "event": "美國 CPI 數據公布，決定聯準會後續降息空間",
+      "tickers": [
+        "美股大盤"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/3/19(四)鮑爾尬川普!聯準會今年 還會降息嗎?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-3-19",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "解析聯準會停看聽態度與油價風險，看好記憶體結構性缺貨與台股中小型股輪動",
+      "detailedSummary": "本集節目重點分析聯準會最新的利率決策與總經局勢。受中東戰事升溫及油價飆漲影響，鮑爾釋出高度不確定性的訊號，市場對今年降息的預期大幅收斂。儘管通膨黏著且 PPI 顯示企業成本壓力增加，但美國經濟仍具韌性。產業方面，美光財報亮眼證實 AI 帶動 HBM 記憶體結構性缺貨，長期 AI 提升生產力有望帶來通縮效應。台股方面，資金明顯輪動至櫃買市場的中小型股，主持人認為目前的高成交量屬市值膨脹的結構性變化，並非非理性繁榮。",
+      "highlights": [
+        "聯準會維持利率不變，受中東局勢影響，鮑爾坦言對經濟前景高度不確定",
+        "伊朗與以色列衝突升溫打擊能源設施，國際油價逼近每桶 100 美元",
+        "美光財報大爆發，HBM 需求強勁，AI 引發記憶體產業長達三到四年的結構性缺貨",
+        "台股資金出現明顯輪動，外資大買櫃買市場，中小型股表現強勢",
+        "美國 PPI 增速超越 CPI 形成剪刀差，企業成本壓力攀升"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/03/19 (四）聯準會按兵不動，今年可能會升息？光通逆勢漲，美光財報佳",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/6dfb2d24-ab52-448b-a7e6-77ca234b8d91",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "聯準會鷹派暫停升息，長線看好光通訊與記憶體，建議大盤跌破年線分批佈局",
+      "detailedSummary": "本集節目探討聯準會維持利率不變的決議及點陣圖變化，指出通膨與中東戰事為主要風險。產業方面，強烈看好光通訊（CPO）與記憶體在 AI 驅動下的長線發展，但警告光通訊板塊估值過高及美光資本支出大增帶來的短期回檔風險。操作上建議長線投資人逢低分批佈局大盤或台積電等穩健標的，避免追高熱門科技股。",
+      "highlights": [
+        "聯準會點陣圖顯示降息預期降溫，中東戰事推升油價成為通膨最大變數",
+        "大盤回檔時，長線投資人可視跌破年線為分批加碼機會",
+        "OFC 光通訊大會釋出樂觀指引，CPO 技術為未來 AI 傳輸關鍵",
+        "光通訊板塊短期漲幅過大，需留意客戶集中度與估值過高風險",
+        "台積電具備先進製程與封裝優勢，為穩健投資首選"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1059｜台股外資怕、內資衝？油價升高憂通膨，期指大跌1000點，中小股拚漲停？美光再度利多不漲，該衝、該等、該換股？ft.蔡明翰",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/da3e5fd3-6d6c-4fc6-b271-fb5bd7b5ae8d",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股內資衝刺中小型股，專家建議趁總經利空佈局績優 AI 供應鏈與美股七巨頭",
+      "detailedSummary": "本集節目探討在通膨升溫、油價上漲及地緣政治風險下，台股呈現「大型股跌、中小型股漲」的矛盾現象。來賓蔡明翰指出，目前市場下跌主因是情緒與總經擔憂，而非 AI 基本面反轉。美光財報極佳卻下跌即是明證。他建議長線投資人可趁機佈局基本面強勁的美股七巨頭或台股績優 AI 供應鏈（如 PCB、散熱），並警告操作記憶體等循環股切勿拉回攤平。",
+      "highlights": [
+        "分析台股近期大盤跌但中小型股飆漲的背後邏輯與隱憂",
+        "解讀美光財報極佳但股價下跌原因，定調為市場氛圍影響",
+        "AI 投資應分散佈局於晶片、散熱、PCB，避免單押單一族群",
+        "PCB 產業具備實質獲利支撐，對比記憶體產業的景氣循環操作風險",
+        "建議散戶善用市值型或主動型 ETF 穩定投資心態"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "明天先吃两斤壮阳药！NaNa说美股(2026.03.19)",
+      "episodeLink": "https://www.youtube.com/watch?v=ad759RGGZYU",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "美股受地緣政治與殖利率雙殺，短線看好三巫日超賣反彈，關注 QQQ 關鍵點位",
+      "detailedSummary": "美股受中東地緣政治緊張與聯準會降息預期破滅雙重打擊，呈現集體下跌。10 年期美債殖利率逼近 4.3% 關鍵水位，對股市估值造成沉重壓力。然而，短線因指數進入極度超賣區間，且適逢三巫日空頭回補，標普 500 有望迎來技術性修復反彈。個股方面，美光財報後低開高走顯示 AI 基礎設施仍受資金青睞；Uber 重金投資 Rivian 佈局自駕車。",
+      "highlights": [
+        "中東衝突與降息預期破滅雙重施壓，美股集體下跌",
+        "10 年期美債殖利率 4.3% 為關鍵防線，突破將重壓估值",
+        "標普 500 進入極度超賣，配合三巫日空頭回補，短線有望反彈",
+        "QQQ 面臨 595 點關鍵生命線保衛戰，若無法站回將確認雙頂結構",
+        "阿里巴巴財報獲利衰退導致股價重挫，重申中概股不逆勢抄底原則"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
