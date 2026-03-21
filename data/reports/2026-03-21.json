@@ -1,0 +1,401 @@
+{
+  "date": "2026-03-21",
+  "quickDigest": [
+    "流動性緊縮致股債金齊跌，保留現金應對波動",
+    "央行鬆綁房貸，資金回流營建股成短線避風港",
+    "AI硬體仍強，鎖定CPO與設備股6442、6187",
+    "SMCI爆雷大資金撤出，伺服器單轉向DELL"
+  ],
+  "marketMood": "流動性枯竭引發股債雙殺，現金為王靜待落底",
+  "totalSources": 5,
+  "bullishSignals": [
+    {
+      "ticker": "光通訊與 CPO 板塊 (6442, 6187)",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "CPO 題材熱絡，光聖 (6442) 與聯鈞 (3450) 等股價強勢，萬潤 (6187) 打入設備供應鏈。",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "長線趨勢看好，下跌是佈局機會。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "營建板塊",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "央行放寬第二戶房貸成數加上新青安 2.0，資金回流房市，建商受惠。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "DELL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "預期 SMCI 因醜聞倒下後，伺服器訂單將轉移給 DELL。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "半導體設備 (6515, 2404)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "半導體設備訂單滿手，旺矽 (6515) 確立股后地位，漢唐 (2404) 建議修正時買進。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "記憶體族群 (2408, 2337)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "南亞科 (2408) 無庫存利益問題長線可買；旺宏 (2337) Flash 獲利有望攀升。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "南亞科 102 (頸線), 旺宏 180"
+    },
+    {
+      "ticker": "台光電 (4989)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "取得華通低軌衛星訂單，代工費調漲帶動獲利。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "黃金 (GOLD)",
+      "consensus": "KOL 分歧",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "降息預期延後，黃金失去部分避險特質，回歸高利率時代估值。",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "流動性危機導致投資者無差別拋售黃金以換取現金。",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "長期具備避險與對沖通膨價值，建議配置 10%。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "財女Jenny 視黃金為長期避險資產建議買進，但游庭皓與 NaNa 認為短期受利率與流動性危機影響將下跌。",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "SMCI",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "高管涉嫌走私晶片被捕，面臨巨額罰款、出口禁令及斷供風險，大資金已放棄。",
+          "action": "賣出",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "ADBE",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "UNRIVALED INVESTING",
+          "reason": "CEO 離職，AI 競爭威脅加劇，營收成長放緩，儘管估值低但長期風險高。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "UBER",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "Robotaxi 發展需持續燒錢，且面臨合作夥伴自建平台取代風險，技術面轉弱。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "NVDA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "若美國收緊出口審核，將影響透過第三地轉運至中國的營收。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "銅 (COPPER)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "反映短期經濟壓力與流動性緊縮，價格跌勢甚於股市。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "能源與油價",
+      "reason": "中東戰事與卡達設施遇襲導致能源價格飆升，引發通膨與停滯性通膨擔憂。",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "李兆華",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "日圓 (JPY)",
+      "reason": "日圓走弱推升進口成本，預期日本央行將於四月啟動升息。",
+      "mentionedBy": [
+        "游庭皓的財經皓角"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "TSLA",
+      "reason": "短期技術面弱勢，但長期 Robotaxi 仍有潛力，建議不要重倉 All-in。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "TSM",
+      "reason": "中東戰事可能導致氦氣短缺，影響半導體製造，需持續監控。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "台股大盤",
+      "reason": "需觀察週大量低點是否跌破，若跌破櫃買指數將跟隨下殺。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美股標普 500",
+      "reason": "跌破 6500 點，長線基金清倉，流動性枯竭，隨時可能死貓反彈或繼續崩跌。",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    "當前的資產下跌主要源於流動性緊縮與通膨擔憂，而非 1970 年代的停滯性通膨重演。",
+    "中東衝突影響已從能源擴散至半導體（氦氣）與農業（化肥）供應鏈。",
+    "台灣央行放寬房貸成數，顯示政策轉向，有利資金回流營建股。",
+    "在流動性危機時刻，黃金可能因保證金需求遭拋售，但長期仍具避險價值。",
+    "AI 軟體公司（如 Adobe）面臨管理層變動與技術顛覆的雙重風險，低估值未必是買點。",
+    "建議採取「大水庫（ETF）+ 小水庫（個股）」策略，並保留現金應對極端波動。"
+  ],
+  "riskAlerts": [
+    "中東地緣政治衝突擴大，可能引發能源、半導體（氦氣）與農業供應鏈的結構性斷鏈。",
+    "流動性緊縮導致避險資產（黃金、美債）與風險資產同步下跌，需警惕保證金追繳引發的踩踏。",
+    "SMCI 面臨司法部起訴、罰款及供應鏈斷供風險，股價可能進一步下探。",
+    "Adobe 面臨 AI 顛覆與管理層變動風險，護城河可能被侵蝕。",
+    "台股融資餘額過高，若熱門股跌破 5 日線可能引發多殺多。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "週末",
+      "event": "中東局勢（美伊衝突）發展，決定週一開盤走向",
+      "tickers": [
+        "SPY",
+        "QQQ"
+      ]
+    },
+    {
+      "date": "下週",
+      "event": "全球石油庫存數據與中東停產規模確認",
+      "tickers": [
+        "USO"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "台灣新青安 2.0 上路與央行放寬房貸成數",
+      "tickers": [
+        "營建板塊"
+      ]
+    },
+    {
+      "date": "4月份",
+      "event": "日本央行預計啟動升息",
+      "tickers": [
+        "JPY"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/3/20(五)股債雙殺!黃金美債也跌? 為何所有 資產都在跌?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-3-20",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "解析全球股債雙殺背後的流動性緊縮，並看好台灣營建股受惠於央行政策鬆綁。",
+      "detailedSummary": "本集節目深入分析近期全球「股債雙殺」及黃金下跌的現象，指出其核心原因在於中東戰火導致能源價格飆升，引發市場對通膨再起及央行降息預期落空的擔憂。主持人認為這並非 1970 年代停滯性通膨的重演，而是短期的流動性緊縮。在央行動態方面，預期日本央行將於四月升息，而台灣央行雖維持利率不變，但微幅放寬第二戶房貸成數，此舉被視為房市政策轉向寬鬆的訊號，預期將帶動資金回流，營建股將成為最大受惠者。",
+      "highlights": [
+        "探討股債雙殺與黃金下跌主因：市場擔憂通膨再起與降息延後",
+        "卡達天然氣設施遭襲，全球能源供應鏈面臨結構性風險",
+        "預期日本央行將於四月啟動升息",
+        "台灣央行放寬第二戶房貸成數，視為房市寬鬆訊號",
+        "點名營建股為政策轉向下的最大受惠族群",
+        "分享財務獨立觀念：追求現金流覆蓋開銷而非遙不可及的財富自由"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/03/20(五）供應鏈危機逼近，金銀暴跌，停戰曙光浮現了嗎？",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/61adc369-e4e9-4967-bd26-f89af6d08c3f",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "中東衝突衝擊全球供應鏈，建議配置黃金避險並關注光通訊長線機會。",
+      "detailedSummary": "本集探討中東衝突對全球供應鏈的深遠影響，指出危機已從能源蔓延至半導體（氦氣）、農業（化肥）與醫療物流。Jenny 分析了金銀近期暴跌的原因，並建議在投資組合中配置 10% 黃金以分散風險。個股方面，持續看好光通訊板塊的長線趨勢，對 Uber 投資 Rivian 的自駕計程車計畫持保留態度，並認為特斯拉短期偏弱但長線仍具自駕潛力。",
+      "highlights": [
+        "中東衝突擴散，半導體氦氣與農業化肥供應鏈拉警報",
+        "黃金白銀暴跌後，仍建議維持 10% 配置以對沖長期風險",
+        "光通訊板塊長線趨勢未變，回檔為佈局機會",
+        "Uber 投資 Rivian 發展 Robotaxi 短期燒錢，長期面臨被取代風險",
+        "特斯拉短期技術面弱勢，但長線自駕潛力仍存",
+        "比較 Anthropic 與 OpenAI 的商業模式差異"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1060｜還是得休息，熱門股熄火！大摩降評記憶體，股價和報價的拉鋸，誰贏？金居、富喬、萬潤出關，命運不同？ft.操盤手 黃豐凱",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/9826f1a4-acb1-4753-a6a7-d5eff2a57463",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股高檔震盪，看好半導體設備與 CPO，建議嚴守技術面紀律。",
+      "detailedSummary": "本集節目探討台股大盤與中小型股的走勢分歧，指出地緣政治與油價是近期最大的宏觀變數。KOL 認為熱門強勢股若跌破 5 日線應嚴守紀律減碼。產業方面，記憶體受大摩降評影響震盪，但長線仍看好南亞科與模組廠；CPO 光通訊與半導體設備（如萬潤、漢唐）訂單明確，持續看好。建議投資人以市值型 ETF 作為核心資產，搭配強勢個股進行衛星操作。",
+      "highlights": [
+        "台股中小型股爆量下殺，需留意大盤週大量低點支撐",
+        "地緣政治與油價為關鍵變數，油價若未創高則跌勢有望趨緩",
+        "記憶體雖受降評影響，但南亞科長線具投資價值",
+        "CPO 與半導體設備（萬潤、漢唐）訂單明確，逢回可佈局",
+        "PCB 上游與 ABF 載板呈現輪動，高階產能具優勢",
+        "建議採取「核心 ETF + 衛星強勢股」策略應對震盪"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "亏麻了，错把泻药当伟哥！NaNa说美股(2026.03.20)",
+      "episodeLink": "https://www.youtube.com/watch?v=oGOGCemgvGQ",
+      "sentiment": "bearish",
+      "oneLiner": "流動性危機引發美股與黃金拋售潮，SMCI 爆雷，建議現金為王。",
+      "detailedSummary": "本集節目主要分析美股因三巫日及中東地緣政治衝突升級引發的全面拋售與流動性危機。標普 500 跌破 6500 點，長線基金創紀錄拋售，黃金與美債亦遭拋售以換取現金。個股方面，SMCI 因高管涉嫌走私晶片被捕而暴跌，資金轉向看好 DELL 獲取轉單效應。KOL 強烈建議目前處於極端流動性轉折點，技術指標已失效，應以現金為王。",
+      "highlights": [
+        "美股三巫日重挫，標普 500 跌破 6500 點，長線基金大舉拋售",
+        "中東局勢惡化引發通膨擔憂，市場預期聯準會可能升息",
+        "黃金遭無差別拋售，顯示市場面臨嚴重流動性短缺",
+        "SMCI 高管涉走私被捕股價暴跌，DELL 有望受惠轉單",
+        "流動性危機下技術指標失效，強烈建議現金為王"
+      ],
+      "source": "youtube"
+    },
+    {
+      "podcast": "UNRIVALED INVESTING",
+      "episode": "ADOBE (ADBE STOCK): WHY BURRY JUST BOUGHT...DEEP VALUE?",
+      "episodeLink": "https://www.youtube.com/watch?v=XorktTzMdA8",
+      "sentiment": "neutral",
+      "oneLiner": "儘管 Adobe 估值便宜，但因 CEO 離職與 AI 競爭風險，不建議長期投資。",
+      "detailedSummary": "本集探討 Adobe 是否為一檔深度價值股。雖然 Adobe 目前估值極具吸引力（約 10 倍自由現金流）且吸引了 Michael Burry 等投資人買進，但 KOL 個人選擇不投資。主要原因在於 CEO 在 AI 帶來生存威脅的關鍵時刻離職，且公司的新增經常性收入正在放緩。KOL 認為 Adobe 目前的成長過度依賴向現有客戶推銷 AI 升級，長期面臨 Canva 等對手的競爭壓力。",
+      "highlights": [
+        "Adobe 估值雖低且現金流強勁，但 KOL 選擇不投資",
+        "CEO 在 AI 轉型關鍵時刻離職，引發管理層信心危機",
+        "新增年度經常性收入 (ARR) 放緩，成長動能存疑",
+        "AI 功能雖推動升級，但長期面臨 Canva 與生成式 AI 的顛覆威脅"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
