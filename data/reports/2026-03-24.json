@@ -1,0 +1,376 @@
+{
+  "date": "2026-03-24",
+  "quickDigest": [
+    "輝達PE降至15倍浮現價值，惟需避開遭調查的美超微",
+    "商業航太如LUNR逆勢抗跌，成資金新避風港",
+    "記憶體報價鬆動宜減碼，台積電技術領先可零股佈局",
+    "地緣風險推升油價通膨疑慮，SoFi深陷財報造假風暴"
+  ],
+  "marketMood": "地緣陰影籠罩，多空分歧劇烈，僅航太與龍頭抗跌",
+  "totalSources": 5,
+  "bullishSignals": [
+    {
+      "ticker": "S&P 500",
+      "consensus": "KOL 分歧",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "大盤回落是買點，尚未進入熊市，建議維持紀律定期定額",
+          "action": "買進",
+          "confidence": "high"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "反彈僅為空頭回補，地緣政治風險未除，建議趁反彈減碼",
+          "action": "賣出",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "NVDA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "預估本益比降至15倍，具備強大競爭優勢，長線價值浮現",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "2330.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "技術領先，長期看好，建議以零股或定期定額逢低買進",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "180-190 (零股逢低買進)"
+    },
+    {
+      "ticker": "00985A",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "跌破月線，主持人實際進場加碼撿便宜",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "跌破月線"
+    },
+    {
+      "ticker": "LUNR",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "展現極強抗跌性，營收預期上調，具備NASA合約支撐",
+          "action": "持有",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "目標價 22"
+    },
+    {
+      "ticker": "PL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "財報優異帶動股價暴漲，資金尋找商業航太新方向",
+          "action": "持有",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "矽光子族群 (上詮)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "大廠資本支出暴增，輝達下一代伺服器採用，具長線爆發潛力",
+          "action": "觀望",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "無"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "SMCI",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "面臨美國司法部調查出口管制違規，存在重大公司治理與營運風險，切勿進場接刀",
+          "action": "賣出",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "記憶體族群 (華邦電/威剛)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體為景氣循環股，大摩看空且報價鬆動，輝達新技術將大幅降低需求",
+          "action": "賣出",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "SOFI",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "UNRIVALED INVESTING",
+          "reason": "渾水報告指控財務工程，壞帳註銷率異常，且使用不合理的低折現率美化財報",
+          "action": "賣出",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "美股科技股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "若地緣政治導致通膨與升息，高本益比科技股將面臨估值下修風險",
+          "action": "觀望",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "無"
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "記憶體產業",
+      "reason": "AI資料中心需求強勁（三星），但消費端DDR4/5報價鬆動且受輝達新技術威脅，產業趨勢分歧",
+      "mentionedBy": [
+        "財女Jenny",
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "TSLA",
+      "reason": "TeraFab計畫願景宏大但執行風險高，利潤率與量產時程面臨挑戰",
+      "mentionedBy": [
+        "財女Jenny",
+        "游庭皓"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "10年期美債",
+      "reason": "4.3%為關鍵心理與機械閾值，若維持在此之上將持續抽乾股市流動性",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "原油",
+      "reason": "地緣政治風險未除，油價波動可能引發通膨與升息預期",
+      "mentionedBy": [
+        "NaNa说美股",
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    "面對市場下跌不應恐慌，應維持定期定額買入大盤指數的紀律",
+    "七大科技巨頭估值修正（如輝達PE降至15倍），長線投資價值浮現",
+    "美伊地緣政治衝突若導致油價飆升，可能引發通膨反彈與聯準會升息",
+    "對於面臨司法調查或監管風險的公司（如美超微），應直接剔除，切勿接刀",
+    "馬斯克自建晶圓廠（TeraFab）願景宏大但面臨極高技術壁壘，短期難以實現",
+    "記憶體產業出現分歧：AI需求強勁，但消費端報價鬆動且受新技術威脅",
+    "矽光子產業因大廠資本支出暴增，具備長線「本夢比」投資價值",
+    "量化程式交易壓縮市場週期，加劇波動，對散戶操作構成挑戰",
+    "10年期美債殖利率4.3%是關鍵閾值，高於此水位將持續抽乾股市流動性",
+    "商業航太板塊在宏觀逆風下展現高確定性，成為資金新避風港",
+    "金融機構投資高度依賴對管理層與會計文化的信任，激進的會計處理是重大紅旗"
+  ],
+  "riskAlerts": [
+    "中東地緣政治衝突升溫，油價上漲可能帶動通膨，增加聯準會升息機率",
+    "美超微（SMCI）面臨美國司法部調查，存在重大公司治理風險",
+    "馬斯克自建晶圓廠計畫時間表過於激進，執行難度極高",
+    "記憶體報價反轉風險，大摩示警且輝達新技術降低需求",
+    "台股與美股乖離率過大，需提防補跌修正風險",
+    "10年期美債殖利率若持續高於4.3%，將引發機構拋售風險資產",
+    "量化程式交易導致市場流動性失真，容易觸發踩踏",
+    "SoFi 財報可能存在重大不實陳述，面臨財務重編風險"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "3/27 (本週五)",
+      "event": "美伊談判最後期限，若破裂可能引發市場拋售",
+      "tickers": [
+        "原油",
+        "美股大盤"
+      ]
+    },
+    {
+      "date": "3/31 (月底)",
+      "event": "PCE 通膨數據公布",
+      "tickers": [
+        "USD",
+        "GLD"
+      ]
+    },
+    {
+      "date": "4/1 (下週三)",
+      "event": "FOMC 會議紀要公布",
+      "tickers": [
+        "SPY",
+        "QQQ"
+      ]
+    },
+    {
+      "date": "4月",
+      "event": "台積電法說會",
+      "tickers": [
+        "2330.TW",
+        "TSM"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "美國司法部起訴美超微（SMCI）進度",
+      "tickers": [
+        "SMCI"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/3/23(一)無處可躲!什麼都在跌?AI時代 亞洲能源 政策大轉彎?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-3-23-ai",
+      "sentiment": "Cautiously Optimistic",
+      "oneLiner": "深入探討晶片與電動車產業分歧，並分析短線交易技術位階",
+      "detailedSummary": "本集節目討論晶片製造商的分歧發展與電動車領域的價格戰。重點分析短線交易的技術位階，同時密切關注宏觀經濟指標，特別是利率變動對市場的影響。主持人也針對AMD的圖表型態與特斯拉的利潤率問題進行了深入辯論。",
+      "highlights": [
+        "AMD圖表型態分析",
+        "特斯拉利潤率辯論",
+        "利率影響問答環節",
+        "晶片製造商發展分歧",
+        "電動車價格戰影響"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/03/23 (一）美股不行，馬斯克Terafab能行嗎？ #TSLA #SPACEX",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/c762b367-8eec-4765-be12-1f7255fb4313",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "美股修正提供長線買點，但需避開SMCI並審慎看待特斯拉晶圓廠計畫",
+      "detailedSummary": "本集節目探討近期美股因地緣政治與通膨隱憂導致的修正。KOL認為無需恐慌，應持續定期定額大盤。科技巨頭估值已回落至具吸引力的水準（如輝達預估本益比僅15倍），長線投資人可分批佈局。此外，強烈警告避開深陷司法風暴的美超微（SMCI）。最後深入分析馬斯克自建晶圓廠（TeraFab）的計畫，認為其時間表過於樂觀且面臨巨大技術壁壘，建議投資人對特斯拉保持耐心但不宜重倉押注單一題材。",
+      "highlights": [
+        "美股修正未入熊市，建議持續定期定額",
+        "輝達本益比降至15倍，長線買點浮現",
+        "美超微涉嫌違規出口遭調查，強烈建議避開",
+        "三星與科技巨頭簽訂長期記憶體合約",
+        "馬斯克TeraFab計畫面臨巨大技術壁壘",
+        "2027年量產2奈米目標極不切實際"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1062｜美伊更兇，嗆炸電廠、炸AI中心，通膨起？股債金銀都跌！台積電撐盤，乖離修正恐持續？如何判斷跌到哪裡該加碼、加碼誰？ft.存股教父 股魚",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/1b8b371e-2a83-4545-9455-1cbe6626c3c0",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "地緣政治風險升溫，建議透過定期定額與低檔加碼策略佈局長線",
+      "detailedSummary": "本集節目聚焦美伊衝突升溫對市場的衝擊，擔憂油價飆漲引發通膨與升息，進而壓抑科技股估值。產業方面，股魚警告記憶體報價已見鬆動且受輝達新技術威脅，需留意循環反轉風險；同時看好矽光子因大廠資本支出暴增的長線潛力。面對震盪行情，主持人分享破月線加碼策略，股魚則強烈建議利用平台機制的「定期定額」與「低檔自動加碼」來克服人性弱點，長線佈局優質科技型基金。",
+      "highlights": [
+        "美伊衝突恐引發通膨與升息，壓抑科技股",
+        "記憶體報價鬆動，輝達新技術降低需求",
+        "矽光子受惠大廠資本支出，具長線潛力",
+        "主持人實踐跌破月線加碼策略",
+        "股魚推薦定期定額與低檔自動加碼克服心魔",
+        "盤點長期績效優異的科技型基金"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "美股就是个大型精神病院！NaNa说美股(2026.03.23)",
+      "episodeLink": "https://www.youtube.com/watch?v=HcVP_KkQLVw",
+      "sentiment": "neutral",
+      "oneLiner": "市場反彈僅為空頭回補，建議減碼並關注抗跌的商業航太板塊",
+      "detailedSummary": "本集節目聚焦於川普對中東局勢的反覆發言如何引發美股與全球市場的劇烈震盪。主持人指出，美股近期的反彈主要源於嚴重超賣後的空頭回補，而非多頭實質進場，市場風險並未真正解除。10年期美債殖利率4.3%為關鍵觀察指標。操作上建議投資人若倉位過重應趁反彈減碼，多看少做。此外，特別點出商業航太板塊（如LUNR、PL）在弱勢盤整中展現出強大的資金抱團與突破動能，值得重點關注。",
+      "highlights": [
+        "川普發言引發市場震盪，反彈僅為空頭回補",
+        "美伊談判若破裂，地緣政治壓力將回歸",
+        "10年期美債殖利率4.3%為關鍵流動性指標",
+        "量化交易加劇市場波動與極端走勢",
+        "商業航太板塊展現強大抗跌性與資金動能",
+        "建議倉位過重者趁反彈減碼，控管風險"
+      ],
+      "source": "youtube"
+    },
+    {
+      "podcast": "UNRIVALED INVESTING",
+      "episode": "SOFI STOCK SELL NOW? MUDDY WATERS SHORT REPORTS",
+      "episodeLink": "https://www.youtube.com/watch?v=HwezSzukAtQ",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "渾水做空報告指控 SoFi 財務造假，會計文化缺乏保守性令人擔憂",
+      "detailedSummary": "本集節目深入探討知名做空機構渾水（Muddy Waters）針對 SoFi 發布的兩份做空報告。主持人分析了渾水提出的核心質疑，包括 SoFi 可能透過操控壞帳註銷率、隱瞞真實借貸情況，以及使用不合理的低折現率來美化財報。儘管 SoFi 執行長大舉買進自家股票展現信心，但主持人認為 SoFi 在會計處理上缺乏保守穩健的企業文化（特別是學生貸款折現率竟低於美國十年期公債殖利率），這讓他對投資該公司感到卻步。",
+      "highlights": [
+        "渾水指控 SoFi 財務工程並高估獲利",
+        "SoFi 執行長買進自家股票回應質疑",
+        "壞帳註銷率異常，疑隱瞞不良貸款",
+        "學生貸款折現率低於公債殖利率，極不合理",
+        "SoFi 缺乏保守穩健的財務文化，難以信任"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
