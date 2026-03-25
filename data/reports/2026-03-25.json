@@ -1,0 +1,309 @@
+{
+  "date": "2026-03-25",
+  "quickDigest": [
+    "AI軟硬分歧：台積電(2330)具定價權，微軟(MSFT)陷技術熊市",
+    "流動性收縮：美元獨強壓制資產，股債金齊跌，現金為王",
+    "台股季底作帳：投信進駐成熟製程(6239)，ETF回測月線可佈局",
+    "美股避險策略：個股風險劇增，轉向SPY、QQQ大盤指數防禦"
+  ],
+  "marketMood": "流動性收縮股債金齊跌，資金湧向美元與硬體龍頭",
+  "totalSources": 3,
+  "bullishSignals": [
+    {
+      "ticker": "TSM (2330.TW)",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "台股大型股賣壓沉重，主要靠台積電撐盤",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "2nm 產能排到 2028 年，供不應求具強大定價權，預期連續四年漲價",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "EV Sector (TSLA, BYD)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "油價飆升突破消費者心理門檻，加上快充技術突破，電動車需求重燃",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "TW Mature Tech (6239.TW, 2303.TW)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "股價修正至長天期均線，基本面佳，投信季底作帳買盤進駐",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "半年線/年線 (支撐)"
+    },
+    {
+      "ticker": "TW ETFs (00985, 00981, 00939)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "景氣向上趨勢未變，回測月線為初步加碼點",
+          "action": "加碼",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "月線 (支撐)"
+    },
+    {
+      "ticker": "US Indices (SPY, QQQ)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "個股風險極大，建議買入大盤指數以降低單一公司基本面拐點風險",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "ASML",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "獲得 SK 海力士鉅額設備訂單",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "MSFT",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "技術面出現頭部型態，跌破所有均線且均線下彎，進入熊市",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "跌破長期上升趨勢線，面臨 OpenAI 去依賴化風險，AI 代理恐侵蝕 SaaS 訂閱",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "無",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "支撐位：200週均線"
+    },
+    {
+      "ticker": "SaaS/Software (AMZN, META, ORCL, APP)",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "技術面轉弱，跌破年線失去支撐，反彈無力",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "AI 代理技術進步可能繞過傳統軟體與 SaaS，導致基本面拐點",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "無",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "跌破年線"
+    },
+    {
+      "ticker": "AVGO",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "受制於台積電產能瓶頸，供應鏈約束限制發展",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "無",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "Circle",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "CLARITY 法案可能禁止穩定幣按餘額發放利息，打擊獲利預期",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "無",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "無"
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "黃金 (Gold)",
+      "reason": "NaNa 認為長期看漲可逢低買進；游庭皓則指出黃金與股市同步下跌，反映流動性收縮，觀點出現分歧",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美元",
+      "reason": "在資產齊跌環境下獨強，反映市場進入深層流動性收縮與現金為王預期",
+      "mentionedBy": [
+        "游庭皓的財經皓角"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "2317.TW (鴻海)",
+      "reason": "雖然有 GB200 支撐，但面臨外資賣壓，目前測試年線 190 元支撐",
+      "mentionedBy": [
+        "游庭皓的財經皓角"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美股大盤 (S&P 500)",
+      "reason": "CTA 基金大舉做空，需觀察能否連續三日站穩 200 日均線以確認底部",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    "AI 產業鏈出現重大分歧：硬體（台積電）強者恆強，軟體（SaaS/微軟）面臨 AI 代理取代風險",
+    "市場出現「流動性收縮」訊號，股、債、黃金同步下跌，美元獨強，需提高風險意識",
+    "地緣政治風險（中東）尚未完全解除，但部分觀點認為若爆發短期地面戰可能為利空出盡",
+    "投資策略轉向：避開高估值軟體股，轉向具定價權的硬體龍頭或大盤 ETF，台股則關注投信季底作帳標的"
+  ],
+  "riskAlerts": [
+    "地緣政治風險未除，美軍集結可能意味著準備進行地面戰，隨時可能推升油價與通膨",
+    "科技巨頭（特別是軟體/SaaS）面臨估值修正與 AI 取代風險，微軟已現頭部型態",
+    "流動性收縮風險：股、債、黃金同步遭拋售，資金全面退回美元",
+    "通膨僵固性：企業無法吸收成本將轉嫁消費者，可能粉碎降息希望",
+    "加密貨幣監管風險：CLARITY 法案可能打擊穩定幣獲利模式"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "3月底",
+      "event": "投信季底作帳，法人資金進場低接錯殺股",
+      "tickers": [
+        "6239.TW",
+        "2303.TW"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "美國 CPI 與 PPI 數據公布",
+      "tickers": []
+    },
+    {
+      "date": "4/9",
+      "event": "白宮設定結束中東戰爭目標日，可能發動地面戰",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "原油"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/3/24(二)停攻5天!川普TACO了嗎?現在該追高 還是接刀?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-3-24-5-taco",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "解析中東局勢下的市場波動，示警科技股頭部風險並看好電動車轉機",
+      "detailedSummary": "本集節目深入分析川普延後攻擊伊朗五天所引發的「TACO 行情」。主持人游庭皓指出，雖然市場出現短線反彈，但中東地緣政治風險依舊嚴峻，且美股跌幅尚未滿足歷史地緣衝突的修正幅度。特別值得注意的是，微軟等科技巨頭技術面轉弱，顯示資金正在撤離。然而，高油價意外成為電動車產業的催化劑，特斯拉與比亞迪因燃油成本上升與快充技術突破，需求重新點燃。此外，市場出現股、債、黃金齊跌僅美元獨強的現象，暗示深層的流動性收縮風險。",
+      "highlights": [
+        "川普延後攻擊伊朗引發「TACO 行情」，但地緣風險未除",
+        "微軟跌入熊市，科技七巨頭技術面轉弱",
+        "高油價與快充技術突破，重燃特斯拉與比亞迪需求",
+        "市場出現流動性收縮，股債金齊跌，僅美元獨強",
+        "通膨風險仍在，企業成本轉嫁壓力大"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1063｜停戰羅生門，川劇演到哪？台股千點被沒收，投信、大戶仍進場、第一個拐點出現？檢查一下，愛股契機出現沒？ft.選股教練 陳唯泰",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/8bcb4f2f-1d08-4c54-84e9-3e95d838f9b4",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股震盪中尋找投信作帳標的，建議逢低佈局績優股與 ETF",
+      "detailedSummary": "本集探討川普宣佈美伊停火烏龍事件對台股的影響。來賓陳唯泰認為軍事衝突對市場影響已現拐點，投信法人開始逢低佈局。主持人李兆華強調，在景氣長線向上的背景下，投資人應區分短線雜音與長線趨勢。策略上，建議關注基本面良好但股價修正至半年線或年線的個股（如力成、聯電），並利用大盤回測月線的機會，對強勢 ETF 進行分批加碼。同時提醒投資人不要抱著套牢股票「假裝觀望」，應汰弱留強。",
+      "highlights": [
+        "軍事衝突影響現拐點，投信季底作帳啟動",
+        "看好記憶體封測與成熟製程，力成、聯電浮現買點",
+        "大盤與 ETF 回測月線為初步加碼時機",
+        "建議汰弱留強，建立自主選股邏輯",
+        "矽光子族群估值偏高，需注意資金節奏"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "美以：没有人比我们更懂偷袭！NaNa说美股(2026.03.24)",
+      "episodeLink": "https://www.youtube.com/watch?v=Dl9f8oiPmUw",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "看空 AI 軟體股與 SaaS，看好台積電與大盤指數，等待地緣政治落底",
+      "detailedSummary": "本集重點分析中東局勢與 AI 產業變革。主持人 NaNa 指出，若美軍發動短期地面戰，市場可能利空出盡。目前 CTA 基金大舉做空，建議等待標普 500 站穩 200 日均線。產業方面，AI 代理（Agent）技術的進步正威脅傳統軟體與 SaaS 公司（如微軟、甲骨文），導致資金轉向硬體。台積電因產能滿載具備強大定價權，ASML 亦獲大單，但博通受限於產能瓶頸。建議投資人避開個股風險，轉向佈局 SPY 或 QQQ 等大盤指數。",
+      "highlights": [
+        "美軍若發動地面戰可能促使利空出盡",
+        "AI 代理技術恐取代傳統軟體，看空微軟與 SaaS 板塊",
+        "台積電 2nm 產能滿載，具備長期漲價能力",
+        "建議買入 SPY/QQQ 以規避個股基本面拐點風險",
+        "加密貨幣受監管法案打擊，Circle 股價重挫"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
