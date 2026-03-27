@@ -1,0 +1,681 @@
+{
+  "date": "2026-03-27",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 5,
+  "bullishSignals": [
+    {
+      "ticker": "華通",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "受惠於光模塊新商機，預期下半年進入Rubin時代後，營收獲利將有顯著成長。同時也受惠於低軌衛星題材，且PE有上修空間，應對標AI PCB的30倍PE。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "臻鼎",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "受惠於光模塊新商機，預期下半年進入Rubin時代後，營收獲利將有顯著成長。同時載板業務持續成長，iPhone摺疊機貢獻度也較大。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "欣興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板業務本身表現良好，且缺料問題持續，反映原物料價格上漲。Rubin平台推出後，載板面積需求將暴增，AI PCB訂單持續增加，光模塊也有貢獻。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "金居",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "HVLP4銅箔產能逐季增加，預計第二季到第三季出貨量將明顯增加，有機會在銅箔供不應求的市場中脫穎而出。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "M9製程將用於Q布，預計下半年Rubin平台推出後，部分產品將採用Q布，有助於營收成長。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "AAPL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "在市場動盪中，蘋果表現最為穩定，甚至逆勢收漲。在當前市場情緒下，投資者更青睞有現金流和確定性的公司。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "RDDT",
+      "consensus": "KOL 分歧",
+      "sources": [
+        {
+          "kol": "UNRIVALED INVESTING",
+          "reason": "Reddit 獨立董事 Sarah Ferrell 斥資約 900 萬美元買入公司股票，顯示內部人看好公司前景。公司營收年增長率超過 70%，每用戶平均營收增長 42%，顯示市場份額快速擴大。毛利率高達 90% 以上，調整後 EBITDA 利潤率接近 40%，財務狀況良好。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "記憶體族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "Google Research發表的TurboQuant技術能將AI推論過程中的記憶體需求壓縮至六分之一，速度提升八倍，市場擔憂記憶體未來可能不再缺貨，對記憶體族群構成利空。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "南亞科",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "散戶追高南亞科，開盤漲停後轉頭空，顯示記憶體族群波動大，獲利不易。",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "記憶體模組整體走勢分歧，韓股記憶體下跌，南亞科雖有私募利多，但其他記憶體模組股下跌，顯示產業氣氛不佳。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "長榮航",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "油價上漲對航空業成本衝擊大，長榮航股價跌幅比大盤重，顯示燃料油成本壓力。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "華航",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "油價上漲對航空業成本衝擊大，華航股價跌幅比大盤重，顯示燃料油成本壓力。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "比特幣",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "比特幣近期波動度降低，並非因其避險功能，而是衍生性商品市場的操縱。機構投資人大量賣出上漲期權，做市商為維持部位中性進行機械式對沖，將比特幣價格壓制在75,000美元附近。若談判破裂，可能跌破68,500美元。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "壓力 75,000, 支撐 68,500"
+    },
+    {
+      "ticker": "Circle",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "美國會流出的「清晰法案」草案禁止穩定幣發行商以任何形式支付利息給用戶，直接衝擊Circle的商業模式。Circle主要收入來自美元穩定幣USDC背後等值美元購買短期美債的利息，若此法案通過，其利息收入模式將受影響，需重新評估其成長前景。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "微軟",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "微軟今年以來下跌超過20%，是科技巨頭中表現最差的，面臨內憂外患。",
+          "action": "無",
+          "confidence": "low"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "微軟市值已蒸發近三分之一，週K線跌破200週均線，市場對其定價邏輯可能從「回調」轉變為「趨勢改變」。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "亞翔",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "設備股昨日創歷史新高，今日卻跌停，顯示市場對設備股看法分歧，可能與下周法說會前資金觀望有關。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "META",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "Meta 在一週內連續遭遇兩起重量級敗訴，陪審團認定其平台對用戶造成的傷害。投資者擔憂這將開啟社交媒體平台的「長期法律黑洞」，導致監管和法律風險重新定價。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "GOOG",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "谷歌股價跌破半年線，正在試探年線支撐。市場對其監管風險和法律風險重新定價。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "半導體產業",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "費城半導體指數大跌4.8%，半導體和AI板塊是重災區，光通信概念股、半導體設備、AMD等股票大幅下跌，資金持續流出存儲概念股。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "美光科技",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "美光科技股價連續第六個交易日下跌，顯示資金持續流出存儲概念股。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "黃金",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "黃金反彈2%後大跌4%，失守4500美元/盎司，貴金屬市場遭到猛烈拋售。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "白銀",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "白銀大跌7.6%，貴金屬市場遭到猛烈拋售。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "RDDT",
+      "consensus": "KOL 分歧",
+      "sources": [
+        {
+          "kol": "UNRIVALED INVESTING",
+          "reason": "Reddit 2025 年第四季度營收增長 70%，但 2026 年第一季度財測預計增長 53%，增速放緩。華爾街可能預期更高增長。Reddit 股價曾以超過 20 倍的銷售額交易，估值過高，歷史數據顯示此類股票長期表現不佳。",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "UNRIVALED INVESTING",
+          "reason": "儘管有內部人買入，但同時也有其他內部人出售股票，這可能削弱投資者對公司前景的信心。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "UNRIVALED INVESTING 同時看好其營收增長和內部人買入，但也擔憂增長放緩、估值過高和AI威脅",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "原油價格",
+      "reason": "中東戰事導致油價飆升，市場預期高油價將持續更久，影響通膨與利率預期。",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "李兆華",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美國通膨",
+      "reason": "若油價維持目前水準，美國通膨率可能持續推升至接近4%，對聯準會降息路徑產生壓力。",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美國公債殖利率",
+      "reason": "十年期公債殖利率上漲至4.3%，兩年期公債殖利率上漲至4%，達到去年8月底以來最高水準，顯示市場對聯準會降息預期轉為升息預期，且4.5%被視為川普的紅線，可能引發政策轉向。",
+      "mentionedBy": [
+        "財女Jenny",
+        "李兆華",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "PCB產業",
+      "reason": "AI運算效能提升，訊號傳輸瓶頸需升級到光，光模塊需求將大幅增加。PCB板層數增加，製造難度提高，價格也將上漲。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "黃金",
+      "reason": "黃金期貨價格在過去12個交易日中有10個交易日收跌，從高點下跌近20%，逼近技術性熊市。主要原因是債券殖利率上漲，持有黃金的機會成本變高，且通膨預期上升導致央行可能維持高利率甚至升息，降低黃金吸引力。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "科技股",
+      "reason": "科技股和AI概念股普遍下跌，費城半導體指數下跌4.8%，那斯達克100指數進入回檔修正階段。雖然軟體股有反彈，但可能只是跌深反彈，整體科技巨頭難以帶動市場上漲。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美國經濟",
+      "reason": "非農就業數據下修且表現弱勢，失業率上升，顯示經濟開始趨緩。然而通膨預期卻持續上升，形成滯脹風險。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "載板產業",
+      "reason": "AI需求增加，載板用量將增加，供需失衡可能導致價格上漲。但需注意Rubin平台是否能順利量產，以及良率問題。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "中國玻纖擴產",
+      "reason": "中國巨石擴產電子級玻纖布，可能導致E布供給增加，影響台灣玻纖廠商。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "全球市場配置",
+      "reason": "上半年以亞洲市場為主，下半年或明年應拉高美國市場比例，因CSP業者資本支出高峰後將開始獲利。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美股大盤",
+      "reason": "標普500指數跌破5日均線，顯示下殺慣性未釋放完畢，可能會有「確認破位」動作，若高開可能是誘多。",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "RDDT",
+      "reason": "Reddit 的每用戶變現率僅約 6 美元（美國約 11 美元，國際約 2 美元），遠低於 Meta 的 16-17 美元，顯示未來有巨大的變現潛力。用戶基礎持續增長，日活躍用戶年增近 20% 達 1.2 億，週活躍獨立用戶年增 24% 達近 5 億。",
+      "mentionedBy": [
+        "UNRIVALED INVESTING"
+      ],
+      "timeHorizon": "long"
+    }
+  ],
+  "keyInsights": [
+    "投資成功需策略、風控、估值、紀律兼備，失敗則常因單一環節出錯。",
+    "市場波動加大，散戶資金大量湧入ETF反而使市場結構更脆弱，個股流動性消失導致價格扭曲。",
+    "川普的口頭安撫對市場提振效果越來越弱，市場對其言論的信任度下降。",
+    "中東戰事可能導致荷姆茲海峽長期受阻，油價維持高檔，進一步壓縮利率預期。",
+    "伊朗在西方制裁下，透過影子船隊將原油出口至中國和印度，成為油價飆升的受益者，且美國似乎無意打擊。",
+    "Google TurboQuant技術提升AI生產力，對記憶體族群是利空，但對整體AI產業和消費者是利多，有助於抑制通膨。",
+    "面對外部性衝擊，應讓時間來救援，而非情緒性崩潰，並區分基本面轉變與短期波動。",
+    "川普的政治聯盟是鬆散但有效的，他擅長察覺各方渴望並靈活切換，以交易者身段推進政令。",
+    "市場對聯準會降息預期已轉為升息預期，與年初市場共識大相徑庭。",
+    "債券殖利率被視為市場領先指標，其飆升預示通膨和未來政策轉向的壓力。",
+    "川普政府對油價和債券殖利率的容忍度有紅線，可能導致政策干預以穩定市場。",
+    "黃金的避險屬性在利率上升環境下吸引力下降，但若經濟衰退風險升溫，其利空可能減弱。",
+    "比特幣的近期穩定性可能來自衍生性商品市場的操縱，而非其內在避險價值。",
+    "監管政策變化對加密貨幣相關企業（如Circle）的商業模式構成重大風險。",
+    "AI運算效能瓶頸在於訊號傳輸，需升級到光模塊，將帶動光模塊PCB需求大幅成長。",
+    "地緣政治風險與油價上漲可能導致通膨，進而影響Fed降息時程，甚至引發升息擔憂，對股市評價造成壓力。",
+    "美國公債殖利率反彈會導致高本益比科技股評價下修，這是古典學派的資金流向觀點。",
+    "載板產業受惠於AI需求，但需關注Rubin平台量產進度與良率，以及中國玻纖擴產對E布市場的影響。",
+    "投資策略建議將資金分等份投入，並考慮配置市值型ETF以降低個股風險，同時關注全球市場配置的轉變。",
+    "上半年以亞洲市場為主，下半年或明年應拉高美國市場比例，因CSP業者資本支出高峰後將開始獲利。",
+    "川普利用中東局勢和談判進展，透過社群媒體言論反覆操縱市場情緒，導致市場劇烈波動。",
+    "華爾街已摸清規律：當WTI油價衝向100美元或10年期美債收益率逼近4.5%時，白宮會切換到「安撫模式」降溫；風險偏好回升後，強硬言辭又會捲土重來。",
+    "社交媒體平台面臨新的法律風險，若「社交媒體成癮」被法院認定為平台責任，可能引發大量訴訟，對相關公司估值造成長期影響。",
+    "在市場動盪時期，投資者更青睞有現金流和確定性的公司，而非僅有「夢想」和「故事」的成長股。",
+    "聯準會可能維持「更長時間的高利率」政策，以應對中東衝突引發的通脹風險，儘管勞動力市場穩定。",
+    "Reddit 儘管面臨宏觀經濟逆風和 AI 帶來的潛在顛覆，但其核心廣告業務的強勁增長、高毛利率和巨大的用戶變現潛力仍是其主要吸引力。",
+    "Reddit 的獨特價值在於其「最人性化的網路空間」，匿名性促進了真實且有影響力的對話，這與 TikTok 等平台不同，並可能在 AI 時代保持其價值。",
+    "AI 對 Reddit 的影響是雙面的：一方面，AI 可能會顛覆高價值資訊查詢類別，但另一方面，Reddit 上的即時情感和利基社群內容可能對 AI 具有一定的免疫力。",
+    "Reddit 的估值曾過高，導致股價下跌，但目前價格可能已進入更具吸引力的區間，投資者應根據對其未來增長率的假設來評估。",
+    "廣告業務在經濟衰退期間的脆弱性是 Reddit 面臨的關鍵風險，因為企業會優先削減行銷預算。"
+  ],
+  "riskAlerts": [
+    "記憶體族群因新技術發布面臨重估風險，可能導致股價波動加劇。",
+    "中東戰事持續升溫，可能導致荷姆茲海峽長期受阻，進一步推高油價，影響全球經濟。",
+    "高油價可能導致通膨持續上行，對聯準會降息路徑產生極大壓力，影響市場預期。",
+    "航空業面臨燃料成本上升、航班不穩、旅客需求下降等多重壓力，利潤空間受擠壓。",
+    "新興市場，特別是高度依賴進口能源的國家，可能因油價飆漲而面臨經濟承壓和貨幣貶值風險。",
+    "債券殖利率持續飆升可能對美國財政造成巨大影響，並衝擊所有資產估值。",
+    "通膨預期失控可能導致聯準會維持高利率甚至升息，對經濟增長造成壓力。",
+    "中東地緣政治衝突若無明確方向，可能持續推高油價和通膨，加劇市場不確定性。",
+    "加密貨幣市場的監管風險，特別是針對穩定幣發行商的政策變化，可能顛覆其商業模式。",
+    "算法交易可能加劇市場波動，導致非基本面因素引發的恐慌性拋售。",
+    "經濟數據顯示美國經濟趨緩，但通膨預期上升，存在滯脹風險。",
+    "地緣政治衝突可能導致油價持續高漲，引發通膨並影響Fed降息時程，甚至可能導致升息，對企業擴張和股市評價造成不利影響。",
+    "高本益比科技股在公債殖利率反彈時面臨評價下修風險。",
+    "Rubin平台量產可能存在遞延或良率問題，影響載板和光模塊相關廠商的獲利預期。",
+    "中國玻纖擴產可能導致E布市場供過於求，影響台灣玻纖廠商的營收和獲利。",
+    "市場上存在假冒KOL的詐騙行為，投資人應提高警覺，避免受騙。",
+    "中東地緣政治衝突可能升級，導致原油價格進一步上漲，加劇通脹壓力，對全球經濟和股市造成負面影響。",
+    "社交媒體平台面臨的法律和監管風險可能長期化，若「社交媒體成癮」被廣泛認定為平台責任，將對相關公司造成巨大財務和聲譽損失。",
+    "市場波動性加劇，川普等政治人物的言論可能隨時影響市場情緒，增加投資不確定性。",
+    "科技股，特別是半導體和AI板塊，在經歷前期大漲後，可能面臨估值調整和資金流出壓力。",
+    "聯準會可能維持「更長時間的高利率」政策，對風險資產估值構成壓力。",
+    "Reddit 的廣告業務在經濟衰退期間可能面臨嚴重的預算削減，導致營收增長停滯甚至下降。",
+    "AI 技術的發展可能顛覆 Reddit 的高價值資訊查詢類別，因為 AI 聊天機器人可以直接提供整合答案，減少用戶對 Reddit 的需求。",
+    "Reddit 曾以超過 20 倍的銷售額交易，估值過高，歷史數據顯示此類股票長期表現不佳，存在估值回歸風險。",
+    "儘管有內部人買入，但其他內部人的賣出行為可能影響市場信心。",
+    "TikTok 等其他社群媒體平台可能搶佔 Reddit 的市場份額。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "4月6號晚間 (美東時間)",
+      "event": "川普設定的伊朗能源設施攻擊期限延後",
+      "tickers": []
+    },
+    {
+      "date": "5月中旬",
+      "event": "川習會，簽署進一步協議",
+      "tickers": []
+    },
+    {
+      "date": "1月和12月",
+      "event": "中美領導人互訪會面",
+      "tickers": []
+    },
+    {
+      "date": "未知",
+      "event": "美國會「清晰法案」草案通過",
+      "tickers": [
+        "Circle"
+      ]
+    },
+    {
+      "date": "未知",
+      "event": "中東地緣政治談判進展或破裂",
+      "tickers": [
+        "油價",
+        "黃金",
+        "比特幣"
+      ]
+    },
+    {
+      "date": "未知",
+      "event": "Rubin平台推出",
+      "tickers": [
+        "華通",
+        "臻鼎",
+        "欣興",
+        "金居",
+        "台光電"
+      ]
+    },
+    {
+      "date": "未知",
+      "event": "iPhone摺疊機出貨",
+      "tickers": [
+        "臻鼎"
+      ]
+    },
+    {
+      "date": "4月6日",
+      "event": "川普推遲打擊發電廠計劃的最後期限，此期間市場可能進入更瘋狂的推特震盪期。",
+      "tickers": []
+    },
+    {
+      "date": "2026年第一季度",
+      "event": "Reddit 第一季度財報公布",
+      "tickers": [
+        "RDDT"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/3/27(五)記憶體群崩!川普再TACO?3月CPI壓不住 美股怎麼又崩了?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-3-27-taco-3-cpi",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "深度分析記憶體族群重挫與中東戰事對全球市場的衝擊，探討川普政治手腕與投資紀律的重要性",
+      "detailedSummary": "本集節目分析了當前美股因記憶體族群重挫、中東戰事導致油價飆升而下跌的市場狀況。Google的AI記憶體壓縮技術對記憶體產業造成利空，但長期看好AI生產力提升。中東戰事使油價維持高檔，影響全球通膨和利率預期，並對航空業、新興市場及日圓匯率造成壓力。川普的口頭安撫效果遞減，市場對其言論的提振作用越來越弱。節目也探討了投資紀律的重要性，以及川普的政治手腕。",
+      "highlights": [
+        "記憶體族群因Google AI技術突破而重挫，市場擔憂未來記憶體需求。",
+        "中東戰事導致油價飆升至每桶108美元，市場預期高油價將持續。",
+        "川普口頭安撫效果遞減，市場對其言論提振股市的信任度降低。",
+        "伊朗透過影子船隊將原油出口至中國和印度，成為油價飆升的受益者。",
+        "油價上漲對航空業成本衝擊大，長榮航、華航股價跌幅比大盤重。",
+        "日圓因日本高度依賴石油進口，油價上漲導致日圓貶值壓力加大。",
+        "投資成功需兼備策略、風控、估值、紀律，避免情緒化交易。",
+        "Google TurboQuant技術提升AI生產力，對記憶體族群是利空，但對整體AI產業是利多。"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/03/27 (五）殖利率飆、美債危險，川普急了嗎？",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/b950de98-cd88-4c7f-8462-99de41c7a425",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "探討美股下跌、債券殖利率飆升及通膨預期失控，分析川普政府政策紅線與市場風險",
+      "detailedSummary": "本集節目探討美股近期下跌、債券殖利率飆升及通膨預期失控等現象。主持人認為市場已從降息預期轉為升息預期，並指出川普政府對油價和債券殖利率的容忍紅線。黃金因利率上升吸引力下降，比特幣的穩定性則可能來自衍生性商品市場的操縱。特別關注Circle公司，其商業模式因美國會「清晰法案」草案面臨重大監管風險。整體市場情緒偏向謹慎，科技股表現疲軟。",
+      "highlights": [
+        "美股近期普遍下跌，那斯達克100指數進入回檔修正，費城半導體指數大跌。",
+        "債券殖利率飆升，十年期公債殖利率達4.3%，市場對聯準會降息預期轉為升息。",
+        "美國未來一年通膨預期衝高至5.2%，OECD上調美國全年通膨預測。",
+        "中東地緣政治緊張導致油價上漲，加劇通膨壓力，川普政府可能干預以穩定市場。",
+        "黃金因債券殖利率上漲和升息預期，吸引力下降，逼近技術性熊市。",
+        "比特幣近期波動度降低，可能源於衍生性商品市場的操縱，而非真實避險價值。",
+        "Circle公司因美國會「清晰法案」草案，其穩定幣利息收入模式面臨監管衝擊。",
+        "微軟等科技巨頭表現不佳，市場上漲動能受限。"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1065｜盤中跳水，不安全感轟炸！PCB多檔創高，點名「光模塊」，華通、臻鼎的新商機？中國玻纖擴產，誰不受影響？ft.PCB女王 廖婉婷",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/e018874a-8126-469f-ace9-1bada3ac361b",
+      "sentiment": "neutral",
+      "oneLiner": "深度解析PCB產業光模塊新商機與載板需求，探討地緣政治對台股的影響與投資策略",
+      "detailedSummary": "本集節目探討了台股盤中跳水的原因，主要歸因於中東地緣政治緊張局勢升溫，引發油價上漲和通膨擔憂，進而影響市場對Fed降息時程的預期，導致高本益比科技股評價下修。PCB產業因光模塊新商機而備受關注，華通、臻鼎、欣興等公司受惠。載板產業也因AI需求而看好，但需留意Rubin平台量產進度與良率。節目也提醒投資人注意中國玻纖擴產對E布市場的影響，並建議採取分批投入、配置市值型ETF的策略，同時關注全球市場配置的轉變。",
+      "highlights": [
+        "中東地緣政治緊張導致台股盤中跳水，油價上漲引發通膨擔憂。",
+        "PCB產業受惠於光模塊新商機，華通、臻鼎、欣興等公司表現強勁。",
+        "AI運算效能瓶頸在於訊號傳輸，光模塊需求將大幅增加，帶動相關PCB廠商。",
+        "載板產業因AI需求看好，但需關注Rubin平台量產進度與良率。",
+        "美國公債殖利率反彈可能導致高本益比科技股評價下修。",
+        "中國玻纖擴產可能影響E布市場供需，需留意對台灣廠商的影響。",
+        "建議投資人分批投入，配置市值型ETF，並關注全球市場配置的轉變，上半年亞洲，下半年美國。"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "玩个鸡毛，不玩了！NaNa说美股(2026.03.26)",
+      "episodeLink": "https://www.youtube.com/watch?v=hpJeg41IrIM",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "分析美股慘烈表現與川普言論操縱市場，探討科技巨頭法律風險與投資策略調整",
+      "detailedSummary": "本集節目分析了3月26日美股市場的「慘烈」表現，主要受中東地緣政治衝突和川普言論的雙重影響。三大股指集體重挫，納指跌超2%。主持人指出，川普透過反覆的言論操縱市場，導致油價和美股劇烈波動。科技巨頭中，Meta、谷歌和微軟因法律風險和技術面破位而大跌，而蘋果則因其穩定性和現金流成為市場避險首選。半導體和AI板塊是重災區，貴金屬市場也遭到拋售。主持人建議投資者在當前市場不確定性下，應保持現金，等待明確信號。",
+      "highlights": [
+        "中東地緣政治衝突升級，伊朗首都德黑蘭遭空襲，導致原油期貨上漲，美股承壓。",
+        "川普透過社群媒體言論反覆操縱市場，先是粉碎停火幻想，後又推遲打擊發電廠計劃，導致市場劇烈波動。",
+        "Meta、谷歌因社交媒體成癮相關訴訟面臨長期法律風險，導致股價大跌。",
+        "微軟股價跌破200週均線，市值蒸發近三分之一，市場對其趨勢產生疑慮。",
+        "蘋果在市場動盪中表現穩健，逆勢收漲，顯示市場情緒已轉向青睞有現金流和確定性的公司。",
+        "半導體和AI板塊成為科技股拋售潮的重災區，費城半導體指數大跌。",
+        "黃金和白銀等貴金屬市場遭到猛烈拋售。",
+        "主持人建議在當前市場不確定性下，投資者應保持現金，等待明確信號，避免盲目操作。"
+      ],
+      "source": "youtube"
+    },
+    {
+      "podcast": "UNRIVALED INVESTING",
+      "episode": "Reddit (RDDT STOCK) - TIME TO BUY?",
+      "episodeLink": "https://www.youtube.com/watch?v=otojxPN-k8g",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "深度分析Reddit股票投資價值，探討內部人買入、營收增長與AI威脅的平衡",
+      "detailedSummary": "Reddit 股票近期下跌近 50%，但內部人有大額買入。公司營收和用戶增長強勁，毛利率高，財務狀況良好，且每用戶變現潛力巨大。然而，增長速度放緩、估值過高、經濟衰退風險以及 AI 潛在的顛覆性影響（特別是高價值資訊查詢類別）是其面臨的主要挑戰。儘管 Reddit 具有獨特的社群價值，但其在 AI 時代的搜尋市場份額可能受到侵蝕。整體而言，KOL 認為 Reddit 估值已趨合理，但對其長期增長和 AI 影響持謹慎態度。",
+      "highlights": [
+        "Reddit 獨立董事斥資 900 萬美元買入股票，顯示內部人看好。",
+        "Reddit 營收年增長率超過 70%，每用戶平均營收增長 42%，市場份額快速擴大。",
+        "Reddit 的每用戶變現率遠低於 Meta，未來有巨大增長潛力。",
+        "Reddit 2026 年第一季度財測增長放緩，可能未達華爾街預期。",
+        "全球經濟衰退風險上升，廣告業務可能面臨預算削減。",
+        "AI 模型可能更容易利用 YouTube 內容而非 Reddit 進行訓練，削弱 Reddit 的 AI 數據授權潛力。",
+        "AI 聊天機器人可能取代 Reddit 的資訊查詢功能，構成生存威脅。",
+        "Reddit 估值曾過高，導致股價下跌，目前價格可能更具吸引力。"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
