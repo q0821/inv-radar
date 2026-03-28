@@ -1,0 +1,440 @@
+{
+  "date": "2026-03-28",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 2,
+  "bullishSignals": [
+    {
+      "ticker": "均華",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "為台積電2奈米製程的設備供應商，是妥妥的標股",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "宏碩",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "為CoWoS概念股，有特定題材發酵",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "IET",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "為CPU概念股，今年才要放量，且股價創新高",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "定影",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "本益比相對金像電低，且股價已從低點爬升並創新高",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台耀",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "本益比相對台光電低，股價已從低點爬升並創新高",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "華通",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "低軌衛星概念股，已創歷史新高",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "藥華",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "低軌衛星概念股，可作為華通的替代選擇",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "奇蹟",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "低軌衛星概念股，可作為聲達科的替代選擇",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "光聖",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "CPU族群中經過修正的好股票，有校務基金出脫後被承接",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "聯亞",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "CPU族群的龍頭股",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台灣大車隊",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "具備規模效益且在戰爭時期高股息股票會被關注，去年獲利大幅成長",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "漢唐",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "過去主要受高股息資金青睞，但現在市場重心轉向設備股而非廠務股，導致股價表現較弱",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "MAGS七巨頭",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "MAGS七巨頭已從高點下跌19%，技術面徹底崩壞，嚴重超賣但未見企穩信號。木頭姐大筆清倉科技股，顯示市場對巨頭前景擔憂",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "META",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "META日線走出12連陰，市場正重新評估其法律風險。在未見長下影線前，不宜盲目重倉抄底，只能利用偏離5日均線的機會做超短線反彈",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "心理支撐位500美元"
+    },
+    {
+      "ticker": "TSLA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "特斯拉跌破365美元重要支撐位，從高點回撤約27%。KOL好奇SpaceX上市對特斯拉是引流還是分流，認為馬斯克宇宙全面資本化後，散戶信仰資金可能分散",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "跌破365美元支撐位"
+    },
+    {
+      "ticker": "UNH",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "避險股UNH今日也下跌，顯示市場失去分散風險的可能性，沒有絕對的避風港",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤",
+      "reason": "目前月線再度向下，五日線也跌破，可能回測季線，但季線位置是好的買點",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "櫃買指數",
+      "reason": "月線仍上彎，但壓力在325.6，五日線已向下，短期再大漲不易",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "記憶體產業",
+      "reason": "價格鬆動導致形態人氣潰散，但獲利仍好，可能醞釀反彈",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "中東地緣政治",
+      "reason": "戰爭可能擴大，但伊朗開放五國油輪進出荷姆茲海峽降低油價上漲隱憂，通膨效應遞減",
+      "mentionedBy": [
+        "李兆華",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美國公債殖利率",
+      "reason": "十年期與三十年期殖利率若持續往下掉，可降低市場對戰爭的恐慌",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "半導體設備股",
+      "reason": "2奈米與CoWoS設備是今年重點，相關公司如均華、宏碩值得關注",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "低軌衛星",
+      "reason": "為AI資料中心與軍事應用概念，SpaceX IPO是上半年重要顯學，相關股票經過修正後值得關注",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "封測產業",
+      "reason": "產業前景看好，本益比合理，如矽格、京元電等公司值得參考",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美股大盤",
+      "reason": "標普500指數已連續第五週下跌，跌破50週均線和0.236黃金分割線，中期趨勢轉空。目前市場極度弱勢，每次回抽10日線都是減持機會",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "黃金",
+      "reason": "黃金今日意外上漲，出現明顯避險買盤湧入，大資金對沖下週可能出現的全面戰爭，地緣政治風險暫時蓋過通脹擔憂",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    "台股目前處於高檔系統性風險修正，可能在第二季上半季呈現盤整格局，弱勢股難以反彈，強勢股仍維持強勢",
+    "市場氣氛改變，追價意願降低，投顧老師喊的股票可能引發賣壓",
+    "投資人應收斂資金部位至五六成，並將資金配置於趨勢明確的強勢族群",
+    "等待是為了更好的買點，下半年大盤和櫃買仍樂觀，可利用盤整期篩選股票，在月線附近尋找轉折向上的標的",
+    "操作心法可採「看高買低」，選擇同產業中本益比相對較低或漲幅較小的公司",
+    "對於千元股，可利用零股分批買進，降低單次投入壓力，並在賣出時利用零股交易的價差優勢",
+    "持股應抱牢，避免因短期修正而賣出，可透過小額加碼提升持股信心",
+    "中東地緣政治衝突的發展將是影響美股短期走勢的關鍵因素，市場對此的反應是「買預期，賣事實」，開戰前的不確定性最折磨人，一旦開戰利空出盡反而可能是靴子落地",
+    "標普500指數中期趨勢已轉空，每次回抽10日均線都是減持機會，只有站穩10日均線才能從ICU轉入普通病房",
+    "市場恐慌情緒尚未達到極致（VIX未達35-40），在恐慌達到極致前，反彈高位都是減持機會",
+    "當前市場失去分散風險的可能性，標普500成分股齊漲齊跌，沒有絕對避風港，建議只關注大盤指數和少數最看好的個股",
+    "真正的底部可能需要回測上一個峰值，例如標普500回測6100-6200區間，回撤幅度約12%才能夯實底部",
+    "KOL對科技巨頭（如MAGS）的「祛魅」，認為法律風險、AI顛覆風險和AI泡沫擔憂層出不窮，指數投資可能更省心"
+  ],
+  "riskAlerts": [
+    "台股在高檔進入系統性風險修正，可能導致盤整期拉長",
+    "市場氣氛改變，追價意願降低，個股可能面臨較大賣壓",
+    "台灣大車隊近期爆量，需留意是否爆量不漲，若出現長上影線可能需減碼",
+    "中東地緣政治衝突可能導致美股進一步下跌，尤其若霍爾木茲海峽未能恢復正常通行，可能引發全球金融危機",
+    "市場恐慌情緒尚未達到極致，VIX指數未達35-40，意味著底部尚未真正形成，反彈高位仍是減持機會",
+    "科技巨頭面臨法律風險、AI顛覆風險和AI泡沫擔憂，估值可能面臨壓力",
+    "帶頭寸過週末風險極大，建議大資金提前出逃"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "未知",
+      "event": "中東地緣政治衝突進展",
+      "tickers": [
+        "美股大盤",
+        "油價",
+        "黃金"
+      ]
+    },
+    {
+      "date": "未知",
+      "event": "台積電2奈米放量",
+      "tickers": [
+        "均華"
+      ]
+    },
+    {
+      "date": "未知",
+      "event": "CoWoS產能擴張",
+      "tickers": [
+        "宏碩"
+      ]
+    },
+    {
+      "date": "未知",
+      "event": "CPU今年放量",
+      "tickers": [
+        "IET"
+      ]
+    },
+    {
+      "date": "未知",
+      "event": "SpaceX IPO",
+      "tickers": [
+        "TSLA"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1066｜台股有些怪怪的？無法止戰，會否拖磨指數向下？低軌衛星、矽光子、PCB、設備看高做低的方法？認真等一下的時間到了！ft.操盤手 黃豐凱",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/04dc5506-24cd-41b8-818d-f190e8cd8c92",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股高檔修正期的投資策略，聚焦強勢族群與零股操作心法",
+      "detailedSummary": "本集節目探討台股近期盤勢，認為市場在高檔進入系統性風險修正，可能在第二季上半季盤整。主持人與來賓黃豐凱皆認為，雖然短期有戰爭、通膨等陰霾，但下半年台股仍樂觀。建議投資人收斂資金，關注2奈米設備、CoWoS、低軌衛星、CPU及封測等強勢族群，並可採取「看高買低」策略。強調等待是為了更好的買點，並分享零股操作心法。",
+      "highlights": [
+        "台股目前在高檔進行系統性風險修正，第二季上半季可能呈現盤整格局",
+        "中東戰事雖有擴大可能，但伊朗開放荷姆茲海峽降低油價上漲壓力，通膨效應遞減",
+        "建議投資人收斂資金部位，將資金配置於趨勢明確的強勢族群",
+        "2奈米設備、CoWoS、低軌衛星、CPU及封測等產業為當前市場焦點",
+        "操作可採「看高買低」策略，例如看台光電買台耀，看金像電買定影",
+        "對於千元股，可利用零股分批買進，降低壓力，並利用零股交易優勢賣出",
+        "下半年台股大盤和櫃買仍樂觀，等待是為了更好的買點，不應完全退出市場",
+        "記憶體產業雖短期人氣潰散，但獲利仍好，可能醞釀反彈"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "提前吃上咸菜了！NaNa说美股(2025.03.27)",
+      "episodeLink": "https://www.youtube.com/watch?v=9Bi796mWiyU",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "中東地緣政治衝突重創美股，科技巨頭技術面崩壞",
+      "detailedSummary": "本集節目主要探討了中東地緣政治衝突對美股的衝擊。標普500指數已連續五週下跌，中期趨勢轉空，KOL認為市場極度弱勢，每次反彈都是減持機會。地緣政治風險導致大資金提前出逃，油價上漲。科技巨頭普遍下跌，KOL對其前景表示擔憂，認為市場失去分散風險的可能性。節目預期短期內會有超賣反彈，但若中東局勢惡化，美股可能進一步下跌。",
+      "highlights": [
+        "美股三大股指因中東地緣政治緊張而低開低走，標普500指數連續第五週下跌，中期趨勢轉空",
+        "伊朗關閉霍爾木茲海峽，油價衝上100美元，地緣政治風險成為市場主要擔憂",
+        "KOL指出標普500指數目前極度弱勢，每次回抽10日均線都是減持機會",
+        "MAGS七巨頭技術面崩壞，木頭姐大筆清倉科技股，顯示市場對巨頭前景擔憂",
+        "特斯拉跌破重要支撐位，KOL對SpaceX上市對特斯拉的影響表示好奇",
+        "KOL認為市場恐慌情緒尚未達到極致，真正的底部可能需要更深的回調",
+        "建議在當前市場環境下，只關注大盤指數和少數最看好的個股，避免分散投資"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
