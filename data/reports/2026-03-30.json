@@ -1,0 +1,474 @@
+{
+  "date": "2026-03-30",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 3,
+  "bullishSignals": [
+    {
+      "ticker": "廣達 (2382.TW)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "Meta在2026年將推出的AALC散熱架構（超級機櫃）預計由廣達代工",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台達電 (2308.TW)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "Meta超級機櫃中的液冷設備預計由台達電供應，KOL認為台達電在各方面都具有競爭力",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "昇達科 (3491.TW)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "昇達科為低軌衛星龍頭，股價曾因處置和短線衝高而回測，但近期又因SpaceX上市消息而反彈，KOL認為其跌幅有限且乾淨，可能帶來超額報酬",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "從高點1895跌落至少30%以上"
+    },
+    {
+      "ticker": "IET-KY (4971.TW)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "IET-KY主力產品為光纖網路雷晶和光電二極體(PD)，高階應用從10G升級到40G，且1.6T產品預計2026年持續成長，成長率翻倍，毛利率提升",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "穩懋 (3105.TW)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "穩懋近期股價動起來，主要受惠於SpaceX Starlink低軌衛星供應鏈、光通訊、機器人話題，以及光收發模組和CW Laser底層代工、IMP晶圓代工等",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "創高後修正約20%"
+    },
+    {
+      "ticker": "華通 (2313.TW)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "華通為HDI板廠商，近期股價創歷史新高，受惠於PCB產業動能",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "定穎投控 (3715.TW)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "定穎投控已轉型，不再僅限於車用板，現涉足AI伺服器高階板及非車用DDR5記憶體模組板。預計2026年AI相關營收佔比將達50-60%，是10倍增長",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "CRWD",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "CrowdStrike作為雲端原生資安平台，擁有大量底層數據和累積多年的威脅情報，護城河深厚。其ARR增長強勁，且公司積極將AI代理融入防護架構",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "META",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "Meta近期股價表現不佳，跌幅大，且面臨法律訴訟。KOL認為其在夜冷技術上的佈局雖有進展，但市場買盤尚未進駐，整體缺乏亮點",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "重挫4%，連續兩個交易日下跌12%，市場情緒明顯轉弱，且因法律訴訟面臨賠償，本益比快速修正",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "Meta股價下跌主要受監管壓力影響，而非AI泡沫破裂。社群成癮罰款開先例，未來不確定性增加",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "GOOGL",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "週跌幅達9%，科技巨頭回落，市場情緒轉弱",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "Google股價下跌主要受監管壓力影響，而非AI泡沫破裂",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "MSFT",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "週跌幅達7%，股價呈現超級大M頭，短線失去動能，跌破20日移動平均線",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "NVDA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "週跌幅達3%，跌破年線，且市場上方壓力較大，短期動能偏弱",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "AMZN",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "週跌幅達3%，科技巨頭回落，市場情緒轉弱",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "TSLA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "週跌幅達3%，科技巨頭回落，市場情緒轉弱",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "資安類股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "Anthropic新模型Methods的發布，市場擔憂其強大的網路安全能力可能被駭客利用，或直接取代傳統資安公司，導致資安股大跌",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "記憶體產業",
+      "reason": "Google新演算法TurboCrank雖能大幅降低記憶體需求，但KOL認為並不會影響HBM等內存儲需求，因為市場追求的是更多的算力與容量，且技術進步會降低使用成本，反而激發更大需求",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "液冷散熱",
+      "reason": "Meta的智原晶片功耗飆升，傳統風冷已無法應對，液冷成為重要趨勢。KOL點名齊宏、建策、雙宏、邁科等相關廠商值得關注",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "能源股",
+      "reason": "伊朗衝突升溫，相關ETF持續吸金，能源成為少數持續上漲的板塊",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "大型科技股",
+      "reason": "跌幅比大盤重，納斯達克指數第一季表現為關稅戰以來最差，但部分科技股本益比已大幅回落，甚至與傳統能源股相當，可能吸引價值買盤",
+      "mentionedBy": [
+        "游庭皓的財經皓角"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美伊戰爭",
+      "reason": "美伊戰爭導致地緣政治風險升溫，油價、金價上漲，可能引發全球供應鏈危機，影響能源、糧食、氦氣等關鍵原物料供應，進而衝擊科技和醫療產業",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "氦氣供應鏈",
+      "reason": "中東戰事影響氦氣供應，氦氣為半導體製造和醫療設備關鍵材料，供應鏈收縮導致價格急漲",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "全球通膨",
+      "reason": "油價上漲可能推高通膨，聯準會可能被迫保持鷹派立場，降息通道受阻",
+      "mentionedBy": [
+        "游庭皓的財經皓角"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "納斯達克指數",
+      "reason": "納斯達克指數已進入修正區（從高點下跌10%），市場恐慌情緒蔓延，VIX指數上升至31，顯示波動性加大",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "關稅戰",
+      "reason": "美國因IEPA法案被推翻，轉而使用12條款或301條款對中國及其他國家進行貿易調查，可能導致關稅戰升溫，對AI和半導體供應鏈造成額外衝擊",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    "Google新演算法TurboCrank雖能降低記憶體需求，但整體市場對算力與容量的需求仍會持續增長，記憶體產業前景不變",
+    "液冷散熱技術因高功耗需求而成為重要趨勢，相關供應鏈值得關注",
+    "SpaceX加速上市計畫，將帶動低軌衛星產業鏈的投資熱潮",
+    "光通訊產業受惠於高階應用升級，光電二極體（PD）需求大幅增長",
+    "PCB產業受AI伺服器需求帶動，高階板廠如定穎投控轉型成功，營收將大幅增長",
+    "市場現在卡住的位置是因為不確定性，現金為王的預期感拉升，導致情緒惡化但未失控",
+    "股債雙殺，避險工具失效，債券、黃金、加密貨幣對沖能力下降，除非投資組合主要為石油",
+    "從2022年以來，經濟衝擊多來自供給面而非需求面，導致通膨拉升和利率預期上升，股債替代效果不如以往",
+    "VIX指數突破30，但恐慌情緒遠小於關稅戰、新冠疫情和烏俄戰爭，美銀認為已觸發賣壓訊號但未全面拋售",
+    "市場廣度僅16%，與過去大底的70%-80%不同，顯示目前市場更像是修正中的市場，專挑AI高漲股票修正",
+    "中東戰爭走向不確定，不僅取決於川普，更取決於伊朗、胡塞武裝等多方博弈，任何變數都可能非線性放大風險",
+    "納斯達克指數已進入修正區，市場恐慌情緒升溫，VIX指數突破30，資金可能從成長股轉向防禦型類股",
+    "美伊戰爭引發的全球供應鏈危機不僅影響石油，更可能衝擊氦氣等關鍵半導體原物料，進而影響AI和科技產業的產能與成本",
+    "Anthropic新AI模型Methods的發布引發資安股大跌，市場擔憂AI可能取代傳統資安SaaS公司，或削弱其市佔率",
+    "資安SaaS公司的核心價值在於其累積的底層數據和認證，而非單純的技術，因此不易被新AI模型立即取代",
+    "AI時代下，資安公司需將AI作為輔助工具並融入防護架構，以AI對抗AI威脅，才能在市場中保持競爭力"
+  ],
+  "riskAlerts": [
+    "美光股價因FOMO式下殺，建議等待趨勢穩固再進場，避免追高殺低",
+    "南亞科私募案後股價開盤漲停卻被下殺，顯示市場買盤不足，需留意後續發展",
+    "Meta近期股價表現不佳，且面臨法律訴訟，投資需謹慎",
+    "標股如穩懋、昇達科等，股價創高後可能出現大幅修正，投資者需注意風險",
+    "中東地緣政治緊張局勢升級，可能導致油價進一步上漲，推高全球通膨，並影響聯準會貨幣政策",
+    "關鍵貿易航道（如荷姆茲海峽、蘇伊士運河）受阻，可能對全球能源供應鏈和亞洲供應鏈造成巨大衝擊",
+    "氦氣、化肥等關鍵原物料供應鏈受中東戰事影響，可能導致價格急漲，進而影響半導體、農業等產業",
+    "大型科技股估值修正，短期內可能面臨持續賣壓",
+    "市場不確定性高，投資人情緒容易受到影響，可能導致非理性交易行為",
+    "納斯達克指數已進入修正區，市場恐慌情緒可能導致進一步下跌",
+    "美伊戰爭可能引發全球供應鏈危機，導致關鍵原物料短缺和通膨上升",
+    "氦氣供應短缺可能嚴重衝擊高階半導體和醫療產業的產能",
+    "關稅戰升溫可能對AI和半導體供應鏈造成不確定性",
+    "AI新模型可能對傳統資安SaaS公司的市佔率和成長率造成威脅",
+    "高槓桿投資投機股在當前市場環境下風險極高"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "今年6月",
+      "event": "SpaceX預計掛牌上市",
+      "tickers": [
+        "昇達科 (3491.TW)",
+        "華通 (2313.TW)",
+        "啟碁",
+        "耀華"
+      ]
+    },
+    {
+      "date": "2026年Q3",
+      "event": "定穎投控GPU主板量產",
+      "tickers": [
+        "定穎投控 (3715.TW)"
+      ]
+    },
+    {
+      "date": "2026年Q4",
+      "event": "定穎投控ASIC和Switch產品量產",
+      "tickers": [
+        "定穎投控 (3715.TW)"
+      ]
+    },
+    {
+      "date": "2026年",
+      "event": "Meta AALC散熱架構推出",
+      "tickers": [
+        "廣達 (2382.TW)",
+        "台達電 (2308.TW)"
+      ]
+    },
+    {
+      "date": "2026年",
+      "event": "IET-KY 1.6T產品持續成長",
+      "tickers": [
+        "IET-KY (4971.TW)"
+      ]
+    },
+    {
+      "date": "4/6",
+      "event": "川普針對伊朗發電廠和能源打擊延後",
+      "tickers": []
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "叔叔",
+      "episode": "EP214 | 台、美股重點一次說，低軌衛星產業動能，光電二級體與台股關係，定穎投控轉型，google新技術與記憶體 ？",
+      "episodeLink": "https://player.soundon.fm/p/70907bd6-d0ae-4b64-bc38-2bf48ae4fc36/episodes/6b89f8c2-7075-498f-86fc-17723113c548",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深度分析台美股重點，看好低軌衛星、光通訊、PCB產業鏈投資機會",
+      "detailedSummary": "本集節目分析了台美股重點，首先討論Google新演算法對記憶體產業的影響，KOL認為雖能降低單一記憶體需求，但整體對算力與容量的需求仍會持續增長，記憶體產業前景不變。Meta近期股價表現不佳，但其在液冷散熱技術的佈局值得關注，相關供應鏈如廣達、台達電將受惠。低軌衛星產業因SpaceX加速上市計畫而動能強勁，昇達科等台股供應鏈受惠。光通訊產業受高階應用升級帶動，IET-KY等光電二極體廠商前景看好。PCB產業受AI伺服器需求驅動，華通、定穎投控等高階板廠轉型成功，營收將大幅增長。",
+      "highlights": [
+        "Google新演算法TurboCrank雖降低單一記憶體需求，但整體市場對算力與容量需求仍增長，記憶體產業前景不變",
+        "Meta股價表現不佳，但其在液冷散熱技術的佈局值得關注，廣達、台達電等相關供應鏈將受惠",
+        "SpaceX加速上市計畫，預計今年6月掛牌，帶動低軌衛星產業鏈投資熱潮，昇達科等台股供應鏈受惠",
+        "光通訊產業受高階應用升級，光電二極體（PD）需求大幅增長，IET-KY前景看好",
+        "PCB產業受AI伺服器需求驅動，定穎投控轉型成功，高階板營收預計大幅增長",
+        "KOL建議投資者採取分散風險的策略，以應對當前市場波動"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/3/30(一)股債雙殺 市場還有避風港?美股破底 恐慌潮來了?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-3-30",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "深度解析中東戰事引發的股債雙殺，探討市場避險工具失效與投資策略",
+      "detailedSummary": "本集節目分析了美歐股市因中東地緣政治緊張而出現的股債雙殺局面，VIX指數飆升但整體恐慌情緒未達失控程度。科技巨頭如Alphabet、微軟、輝達、亞馬遜、特斯拉、Meta跌幅顯著，其中Meta因法律訴訟而重挫。節目指出，能源股因衝突升溫而強勢，而大型科技股雖然跌幅重，但部分本益比已回落至與傳統產業股相當，可能吸引價值買盤。同時，節目也深入探討了中東戰事對原物料、氦氣、農糧價格、塑化鏈及水資源供應的影響，並預期油價上漲可能推高通膨，導致聯準會維持鷹派立場。",
+      "highlights": [
+        "美歐股市因中東地緣政治緊張出現股債雙殺，VIX指數飆升但恐慌情緒未失控",
+        "科技巨頭如Alphabet、微軟、輝達、亞馬遜、特斯拉、Meta跌幅顯著，Meta因法律訴訟重挫",
+        "能源股因中東衝突升溫而強勢，成為少數持續上漲的板塊",
+        "大型科技股跌幅重，但部分本益比已回落至與傳統產業股相當，可能吸引價值買盤",
+        "中東戰事對原物料、氦氣、農糧價格、塑化鏈及水資源供應產生廣泛影響",
+        "油價上漲可能推高通膨，導致聯準會維持鷹派立場，降息通道受阻",
+        "市場不確定性是當前賣壓主因，但長期投資者應保持理性，避免頻繁交易",
+        "台灣油價由中油高強度吸收，但其他亞洲國家已出現集體缺油現象"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/03/30 (一）納指進入修正區，美伊戰爭AI衝擊還沒來？科技股下跌 才剛開始？",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/ae29c6a5-8ce9-4488-bef9-ce642939b0ef",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "探討納指修正、美伊戰爭與AI對科技股的多重衝擊，分析資安股下跌原因",
+      "detailedSummary": "本集節目探討美股近期因美伊戰爭、關稅戰及AI發展對科技股的衝擊。納斯達克指數已進入修正區，市場恐慌情緒升溫。主持人強調戰爭不僅影響石油，更可能導致氦氣等關鍵半導體原物料短缺，衝擊AI產業。Anthropic新AI模型Methods的發布引發資安股大跌，市場擔憂AI可能取代傳統資安SaaS公司。主持人認為資安公司如CrowdStrike因其數據護城河和認證優勢，不易被立即取代。建議短期內科技股應保守因應，長期投資者可分批投入。",
+      "highlights": [
+        "納斯達克指數進入修正區，市場恐慌情緒蔓延，VIX指數突破30",
+        "美伊戰爭引發全球供應鏈危機，氦氣供應短缺可能衝擊高階半導體和醫療產業",
+        "關稅戰潛在風險持續升溫，可能對AI和半導體供應鏈造成額外壓力",
+        "科技股已從高點下跌超過10%，主持人建議短期保守因應，避免高槓桿",
+        "Anthropic新AI模型Methods發布導致資安股大跌，市場擔憂AI對傳統資安SaaS公司的影響",
+        "主持人認為CrowdStrike等資安公司因其數據護城河和認證優勢，不易被AI立即取代",
+        "AI時代下，資安公司需將AI融入防護架構，以AI對抗AI威脅"
+      ],
+      "source": "podcast"
+    }
+  ]
+}
