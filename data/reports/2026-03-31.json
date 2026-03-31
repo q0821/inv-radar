@@ -1,0 +1,435 @@
+{
+  "date": "2026-03-31",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 2,
+  "bullishSignals": [
+    {
+      "ticker": "記憶體產業",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "籌碼凌亂問題已解決，資券同減，法人賣超後信心不足者已被清洗。股價回到重要均線支撐，有跌深反彈機會。3月營收預計優於2月，第一季季報獲利良好，國際大廠財報利多，三星5月罷工談判中，產業面仍有後續利多。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "南亞科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "股價跌破私募價格23.9元，具備投資價值。獲得四大咖私募，訂單能見度高。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "私募價格 23.9元"
+    },
+    {
+      "ticker": "台積電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電測季線是正常現象，相較美股跌幅不大。目前1780元左右有吸引力，預計3月營收和法說會表現良好，回季線關卡後更具吸引力。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "1780元左右，接近170元有吸引力"
+    },
+    {
+      "ticker": "低軌衛星",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "盤面主流題材，資金持續尋找機會。SpaceX掛牌預計在6月，題材發酵時間長。投信積極卡位，可關注投信籌碼。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "半導體設備與材料",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "整體趨勢向上，資金輪動。CoWoS相關（弘塑、均華、辛耘、萬潤）強勢，廠務工程（漢唐、亞翔）可能輪動補漲。台積電法說會前易見高點，可關注投信籌碼。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "矽光子",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "產業界非常看好，今年強勢題材，股價維持右上角強勢族群。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "FMCC",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "華爾街大佬比爾·阿克曼唱多，稱其估值低得離譜，股價可能很快上漲10倍。他持有大量兩房股票，是最大個人投資者。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "目標價：上漲10倍"
+    },
+    {
+      "ticker": "旺宏",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體產業中，旺宏的Noflash部分在這一波被錯殺，回到凱基出報告幾乎原點，但籌碼和產業現狀問題不大。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "群聯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "股價委屈，但近期有1.8萬張、280億台幣的私募，預計有大咖資金進入。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "華邦電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "海外可轉債轉換價格為109.5元，目前股價有套利空間。外資賣超可能與此有關，可觀察轉換價格出來後股價反彈空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "轉換價格 109.5元"
+    },
+    {
+      "ticker": "內存行業",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "匯豐認為市場擔憂過度，當前正處於AI驅動的內存超級週期中場，HBM等高端需求強勁，內存短缺可能持續一至兩年。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "AA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "受中東兩家大鋁廠被炸影響，市場擔心鋁供應鏈受擾，提前炒作鋁價上漲預期，股價逆勢大漲。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "半導體板塊",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "全球金融條件收緊，經濟增長預期和風險偏好下降，市場對AI資本開支持續性產生懷疑，導致芯片股、設備股下跌。前期暴漲的存儲、光通信成為暴力擠泡沫重災區。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "美光科技",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "股價已自近期高點回撤32%，散戶買盤資金枯竭，市場對內存行業前景存在嚴重分歧。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "英偉達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "股價自去年高點累跌超過22%，已進入熊市區域，市值蒸發近9千億美元。12個月預期市盈率降至約19.6倍，低於標普500整體均值。主要受美債收益率攀升、雲廠商資本開支降速及AI硬件競爭加劇影響。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "微軟",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "股價在第一季度下跌約26%，朝著2008年全球金融危機以來最糟糕的季度表現邁進。AI資本支出如黑洞，Azure增長放緩，Copilot尚未獲得顯著市場認可。目前遠期市盈率壓至2.0倍以下。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤",
+      "reason": "清明連假前量縮，市場觀望美伊戰爭發展，但台股相對美股強勁，跌不下去。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美伊戰爭",
+      "reason": "市場擔憂美國可能派地面部隊進攻伊朗，導致油價緩步墊高，美股反彈後又破底。一旦地面攻擊發生，市場黑天鵝可能淡化。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "油價",
+      "reason": "油價若爆發性失控（如一天暴漲10美元），可能成為黑天鵝。目前緩步墊高，但若能在4月上旬壓下來，地緣政治風險將淡化。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "中東局勢",
+      "reason": "中東局勢持續緊張，可能導致燃料短缺，拖垮全球經濟，市場邏輯正由加息恐慌切換到衰退定價。",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美股大盤",
+      "reason": "美股技術性反彈脆弱，隨時可能被突發新聞掐滅。標普500指數調整接近10%，技術上需要向6450-6500靠攏反抽修正極端下殺速度。若6300失守，下一個支撐位是6150。",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "聯準會利率政策",
+      "reason": "聯準會主席鮑威爾表示傾向維持利率不變，市場解讀為鴿派表態，緩解加息憂慮。但美債收益率大幅回落可能預示衰退風險。",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "企業盈利",
+      "reason": "美股Q1財報季即將開啟，企業盈利能否支撐當前估值是下一階段走勢的關鍵。",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    "台股在清明連假前量縮，但相對美股強勁，跌不下去，顯示市場有一定支撐力道。",
+    "美伊戰爭是短期市場最大變數，但一旦地面戰發生，不確定性可能反而降低，市場恐慌情緒有望淡化。",
+    "油價走勢是影響市場的關鍵，若能在4月上旬壓下來，將有助於地緣政治風險淡化及美股回穩。",
+    "VIX指數和CNN恐懼貪婪指標顯示市場處於相對低點，是分批進場的好時機，但勝率不高，不宜一次性重倉。",
+    "AI需求和景氣向上趨勢未改變，是長期投資的基礎。",
+    "記憶體產業經過修正後，籌碼沉澱，基本面良好，有跌深反彈機會。",
+    "低軌衛星、半導體設備材料、矽光子是目前盤面上的強勢主流，趨勢向上，但操作難度高，建議以蹲點方式佈局龍頭股。",
+    "台積電供應鏈股票操作難度高，輪動無節奏感，不適合追高，應趁量縮拉回時蹲點。",
+    "封測產業業績良好，是個股修正時可優先考慮的安穩標的。",
+    "投資應賺自己懂的錢，不追求快速暴富，而是長期穩健累積財富。",
+    "一位上班族透過學習K線、產業研究、籌碼分析並搭配主動式ETF，兩年內將60萬資產增值到140萬，證明散戶也能透過學習和紀律投資獲得成功。",
+    "市場邏輯正由加息恐慌悄悄切換到衰退定價，需警惕經濟衰退風險。",
+    "高盛數據顯示對沖基金連續六週賣股做空，但拋售動能正消退，CTA未來一個月將轉為淨買入，可能提供短期不對稱上行空間。",
+    "期權做市商負Gamma敞口月底到期，養老金季末再平衡操作將買入股票，多重技術性壓力有望同步緩解。",
+    "AI資本開支的持續性受到市場懷疑，導致芯片股下跌，但匯豐認為AI驅動的內存超級週期仍在進行中。",
+    "中東衝突對全球經濟和特定產業（如鋁業）產生直接影響，需密切關注地緣政治風險。"
+  ],
+  "riskAlerts": [
+    "美伊戰爭若導致油價爆發性失控，可能成為黑天鵝事件。",
+    "美債殖利率衝高可能導致高本益比科技成長股拉回。",
+    "台積電供應鏈股票輪動無節奏感，追高容易受傷，法人可能在目標價獲利了結。",
+    "私募基金流動性問題可能對美股造成短期衝擊。",
+    "中東局勢持續緊張可能導致燃料短缺，直接拖垮全球經濟，引發衰退風險。",
+    "AI資本開支的持續性受到市場懷疑，可能導致芯片股和相關設備股進一步下跌。",
+    "美股技術性反彈脆弱，隨時可能被突發新聞掐滅，投資者需警惕市場波動。",
+    "企業盈利能否支撐當前估值是關鍵，若盈利不及預期可能引發市場調整。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "4月上旬",
+      "event": "油價走勢與美伊戰爭情勢明朗",
+      "tickers": [
+        "油價"
+      ]
+    },
+    {
+      "date": "4月",
+      "event": "台積電3月營收公布",
+      "tickers": [
+        "台積電"
+      ]
+    },
+    {
+      "date": "4月",
+      "event": "台積電法說會",
+      "tickers": [
+        "台積電"
+      ]
+    },
+    {
+      "date": "4月中旬",
+      "event": "美股Q1財報季開啟",
+      "tickers": []
+    },
+    {
+      "date": "4月下旬",
+      "event": "國際記憶體大廠財報公布",
+      "tickers": [
+        "記憶體產業"
+      ]
+    },
+    {
+      "date": "5/15前",
+      "event": "記憶體第一季季報公布",
+      "tickers": [
+        "記憶體產業"
+      ]
+    },
+    {
+      "date": "5月",
+      "event": "三星罷工談判結果",
+      "tickers": [
+        "記憶體產業"
+      ]
+    },
+    {
+      "date": "6月",
+      "event": "SpaceX掛牌",
+      "tickers": [
+        "低軌衛星產業"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1067｜跌不深又漲不動，清明節前的矛盾？記憶體能反彈嗎？設備要選跌深廠務還是飛天CoWos？低軌、矽光子就是顯學！ft.題材獵人 林漢偉",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/71cd35d9-5f56-4af3-9eba-8f2f47c82251",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深度分析清明連假前台股矛盾情勢，看好記憶體、低軌衛星、矽光子等產業投資機會",
+      "detailedSummary": "本集節目探討清明連假前台股的矛盾情勢，美伊戰爭與油價是短期關鍵變數。儘管市場恐慌，但台股相對強勁，且AI需求與景氣向上趨勢未變。主持人與來賓分析記憶體、低軌衛星、半導體設備材料、矽光子及封測等產業的投資機會，並強調分批佈局、蹲點龍頭股的策略。節目也分享一位上班族透過學習投資，成功累積財富的案例，鼓勵投資人賺自己懂的錢。",
+      "highlights": [
+        "台股在清明連假前量縮，但相對美股強勁，顯示市場有一定支撐",
+        "美伊戰爭情勢與油價走勢是短期市場最大變數，可能影響美股走向",
+        "VIX指數與恐懼貪婪指標顯示市場處於相對低點，可考慮分批佈局",
+        "記憶體產業經過籌碼清洗與基本面利多，有跌深反彈的機會",
+        "低軌衛星、半導體設備材料、矽光子為盤面強勢主流，但操作需謹慎，建議蹲點龍頭股",
+        "台積電供應鏈股票輪動無節奏，不適合追高，應趁拉回時佈局",
+        "封測產業業績良好，是個股修正時可優先考慮的安穩標的",
+        "一位上班族透過學習投資，兩年內將60萬資產增值到140萬，證明散戶也能成功"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "先反弹吧，再搞事儿！NaNa说美股(2026.03.30)",
+      "episodeLink": "https://www.youtube.com/watch?v=4haiH6_ke3I",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "分析美股技術性反彈脆弱性，警示中東局勢與AI資本開支疑慮對市場的衝擊",
+      "detailedSummary": "本集節目分析了當前美股市場面臨的多重挑戰，包括中東局勢緊張、AI資本開支疑慮導致半導體板塊重挫、以及聯準會利率政策的鴿派表態卻引發衰退擔憂。主持人認為美股技術性反彈脆弱，大盤仍處於重症監護室。儘管短期內可能因技術性壓力緩解而出現「不對稱上行空間」，但真正的趨勢反轉仍取決於中東局勢的實質性緩和及企業盈利表現。個股方面，英偉達和微軟表現疲軟，而美國鋁業和兩房則因特定事件或大佬唱多而逆勢上漲。",
+      "highlights": [
+        "中東局勢持續緊張，導致日韓股市下跌，美股開盤高開低走，反彈動能迅速消退",
+        "半導體板塊重挫，市場對AI資本開支持續性產生懷疑，美光科技股價大幅回撤",
+        "聯準會主席鮑威爾鴿派表態，緩解加息憂慮，但美債收益率回落引發衰退定價擔憂",
+        "美股技術性反彈脆弱，大盤仍處於重症監護室，6300點支撐位面臨考驗",
+        "高盛數據顯示對沖基金連續賣股做空，但拋售動能消退，CTA和養老金季末操作可能提供短期上行空間",
+        "英偉達和微軟股價表現疲軟，微軟面臨2008年以來最糟糕季度表現",
+        "美國鋁業因中東衝突導致鋁供應擔憂而股價大漲，兩房因比爾·阿克曼唱多而暴漲"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
