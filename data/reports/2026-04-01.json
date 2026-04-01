@@ -1,0 +1,667 @@
+{
+  "date": "2026-04-01",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 5,
+  "bullishSignals": [
+    {
+      "ticker": "META",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "大摩將其列為首選股，認為市場悲觀情緒見底，15倍市盈率估值處於十年低位，提供戰術性買點。市場押注Meta AI未來能打開新的商業化空間。",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "UNRIVALED INVESTING",
+          "reason": "Bill Ackman 在 2025 年第四季度增持了 META。儘管股價下跌，但基本面持續改善，廣告收入和盈利能力顯著增長。Reality Labs 的虧損預計將達到頂峰並逐漸減少，且公司正將投資轉向可穿戴設備領域的 AI 整合。核心業務以約 15 倍的市盈率交易，被認為估值便宜。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "AMZN",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "UNRIVALED INVESTING",
+          "reason": "Bill Ackman 在 2025 年第四季度增持了 AMZN。公司基本面持續改善，營運收入增長 17%，AWS 業務增長 20%，且 AWS 佔大部分核心盈利。AWS 增長加速，預計將成為未來亞馬遜股價的主要驅動力。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "Fannie Mae",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "UNRIVALED INVESTING",
+          "reason": "億萬富翁投資者 Bill Ackman 和 Michael Bur 都認為 Fannie Mae 股票有巨大的上漲潛力，特別是如果政府最終只收取 5% 到 18% 的利潤，則可能實現 10 倍的增長。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "25-55美元，甚至更高"
+    },
+    {
+      "ticker": "三星 (Samsung)",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "市場預估三星第一季HBM銷售量可能年增三倍以上，且HBM訂單已滿，將出貨HBM4搭載輝達最新處理器，顯示AI基礎建設對記憶體需求強勁。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "統一超",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "統一超近期股價抗跌，且每年配息穩定（約9元現金股利），可作為資金避風港。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "ETF",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "ETF相較於個股，波動性較低，勝率和心情穩定度更高，適合一般投資人。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "優質資產",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "比爾·艾克曼認為全球最優質公司正以極度低估的價格交易，是價值投資者佈局的好時機。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "MRVL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "英偉達投資20億美元與其合作研發硅光子技術，硅光子被視為下一階段AI基礎設施升級的重要方向，市場風險偏好修復時此類標的會率先反彈。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "Core Weave",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "完成85億美元融資安排，且為首筆獲得投資級評級的GPU支持融資，解決了市場對其資金和融資鏈條穩定的擔憂。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "NBIS",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "宣布推進歐洲業務擴張，將在芬蘭建設新的AI數據中心，項目估值超100億美元，預計2027年提供服務，市場對「真擴張、真CapEx、真落地」的AI基礎設施故事給予高溢價。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "食品股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "食品股過去未有效轉嫁成本，但油價上漲可能使其開始反映成本，且部分公司股價位於長線低檔。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "南橋",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "南橋為偏上游原材料公司，若原物料報價上漲，有望反映成本，且股價位於長線低檔。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "水泥股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "水泥股如亞泥長期在低檔打底，獲利與配息表現不錯，殖利率高，值得留意。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "亞泥",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "亞泥獲利與配息表現不錯，殖利率高，股價長期在低檔打底，值得留意。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "裕民",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "裕民為亞東集團股，在盤勢不佳時相對抗跌，集團可能在此時點補貨。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "集團股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在盤勢修正時，集團股可能會有集團內部資金回補自家持股的動作，值得觀察。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "美光",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "記憶體報價鬆動，美光重挫近10%，儘管基本面無問題，但市場正在砍高本益比的股票以降低風險。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "美國股市",
+      "consensus": "KOL 分歧",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "魯比尼認為若油價長期維持高位，將擠壓通膨、消費和企業利潤，導致股市崩盤；戰事拖長將導致金融市場重新利率定價。",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "伊朗國會議長卡利巴夫建議投資人不要追川普消息，認為川普政策反覆，市場只是白宮出貨期間，股價將持續破低。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "游庭皓的財經皓角看空，但其他KOL對長期趨勢仍持樂觀態度",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "股債市",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "新債王剛拉克認為美國40年利率下行週期結束，私人信貸規模重演次貸泡沫，美國債務逼近40兆美元，預期未來幾年股債雙殺。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "全球股市",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "避險基金持續大幅做空，連續六週降低全球股市部位，空頭部位達十年高點，顯示市場結構正在反轉。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "科技股",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "納斯達克100指數已跌超過10%，標普500逐步跟進，歐洲股市3月份表現為六年來最差，顯示科技股面臨壓力。",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "美股七巨頭和大型AI股面臨資本支出回升的不確定性，導致股價下跌。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "記憶體",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體族群在盤中出現重挫，信心崩潰邊緣，DDR4和DDR5報價有鬆動跡象。",
+          "action": "short",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "細光子",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "細光子族群在盤中出現重挫，部分個股亮燈跌停，顯示籌碼面賣壓沉重。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "世芯KY",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "世芯KY因亞馬遜訂單延遲，第一季營收表現不佳，且市場資金已轉向其他族群，股價承壓。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "創意",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "創意股價從高點回檔，資金轉向其他熱門族群，且有ARM自己做IP和晶片的潛在疑慮。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "CEG",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "最新投資者報告未宣布新的數據中心供電協議，且預測2026年利潤低於市場預期。市場對AI供電概念股的要求提高，需有真正落地協議和兌現速度，加上宏觀壓力，導致估值重估。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "NIKE",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "Q3淨利潤同比下降35%，Q4指引疲軟。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "中東戰事與油價",
+      "reason": "中東戰事持續，導致油價上漲，市場預期通膨將常態化高位，並可能影響AI資本支出及估值。油價持續破百，預期將推升3月份CPI，並可能引發第二輪通膨效應。",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny",
+        "李兆華",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "記憶體產業",
+      "reason": "DDR5報價首次回跌，儘管非需求端問題，但市場可能藉此結束記憶體行情，需關注後續合約報價。記憶體價格短期下跌主要集中在舊需求和低毛利產品，AI基礎設施帶動的新需求仍強勁。",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "AI產業",
+      "reason": "AI仍是推動生產力、支撐經濟的長期趨勢，基礎設施、記憶體、網路通訊等需求不會是短期趨勢。AI概念股已進入現金流檢驗期，市場對「AI供電概念股」的要求提高。",
+      "mentionedBy": [
+        "財女Jenny",
+        "NaNa说美股",
+        "UNRIVALED INVESTING"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "聯準會貨幣政策",
+      "reason": "鮑威爾認為能源衝擊來得快去得也快，聯準會不會針對供給型衝擊調整利率路徑，主要作用於需求端。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "台股大盤",
+      "reason": "台股首次跌破季線，但季線扣抵值仍遠，短期內季線不會下彎，預期連假後有跌深反彈機會。KD指標進入超賣區，有望吸引抄底買盤。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美股大盤",
+      "reason": "市場在伊朗總統釋放降溫信號後暴力拉升，但主持人認為這波上漲仍是反彈而非反轉，需觀察能否站穩年線。期權結構顯示6150為二季度核心防線，6840為短期上行天花板。",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "全球經濟",
+      "reason": "密西根大學消費信心指數下滑，通膨預期上升，短期經濟預期惡化，可能出現類停滯性通膨。",
+      "mentionedBy": [
+        "游庭皓的財經皓角"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "科技巨頭訴訟風險",
+      "reason": "大型科技平台面臨越來越多的訴訟風險，可能導致巨額賠償，這對公司的財務狀況構成實質性風險。",
+      "mentionedBy": [
+        "UNRIVALED INVESTING"
+      ],
+      "timeHorizon": "long"
+    }
+  ],
+  "keyInsights": [
+    "中東戰事導致油價飆升，可能引發第二輪通膨效應，影響全球經濟和資產價格。",
+    "AI和半導體板塊開始鬆動，市場正在重新定價高估值股票，即使基本面無問題的公司也面臨補跌壓力。",
+    "全球經濟面臨類停滯性通膨風險，央行政策空間受壓縮，資產價格不確定性增加。",
+    "避險基金大幅做空，全球股市面臨結構性反轉壓力，需關注被動資金是否會出現踩踏。",
+    "地緣政治衝突對市場的影響，會從短期情緒修正轉向長期結構性定價。",
+    "長期來看，全球股市多數呈現上漲格局，每次修正後仍會回歸經濟基本面，且空頭時間可能縮短，反轉速度加快。",
+    "聯準會貨幣政策主要調控需求端，對供給端衝擊（如能源價格）影響有限，因此不會輕易改變利率路徑。",
+    "傑文斯悖論指出，新技術提高效率和降低成本反而會加速需求擴張和普及，記憶體產業的新需求由AI基礎設施主導，長期看好。",
+    "美股最猛的單日漲幅通常出現在熊市中，今日反彈是季末調倉資金和空頭回補的迫切性所致，伊朗消息只是擴大了反彈力度。",
+    "AI概念股已進入現金流檢驗期，市場對「AI供電概念股」的要求提高，需要真正落地協議和兌現速度，而非僅僅是邏輯。",
+    "Bill Ackman 和 Michael Bur 認為市場上存在被嚴重低估的高質量企業，特別點名 Fannie Mae 具有巨大的上漲潛力。",
+    "Meta 在削減 Reality Labs 虧損的同時，將投資重心轉向 AI 整合的可穿戴設備，並大力押注個人超級智慧（Personal Super Intelligence），這是一項高風險高回報的策略。"
+  ],
+  "riskAlerts": [
+    "中東戰事長期化可能導致油價持續高位，擠壓通膨、消費和企業利潤，引發股市崩盤。",
+    "記憶體報價鬆動，AI資本支出可能跟著鬆動，導致相關科技股估值下修。",
+    "全球經濟可能陷入類停滯性通膨，央行政策空間受壓縮，資產價格不確定性增加。",
+    "美國債務逼近40兆美元，利率上升可能導致軟違約或債務重組，引發股債雙殺。",
+    "避險基金大幅做空，全球股市面臨結構性反轉，被動資金可能出現踩踏現象。",
+    "美伊戰爭若持續，可能推高通膨預期，對市場造成負面影響。",
+    "中東局勢仍存在不確定性，伊朗要的安全保障可能觸動美國底線，雙方可能來回拉扯。",
+    "油價雖跳水但仍在100美元以上，若霍爾木茲海峽持續封鎖，石油供應恢復需數周乃至數月。",
+    "AI概念股已進入現金流檢驗期，高CapEx低FCF的企業面臨估值重估風險。",
+    "美股目前仍談不上便宜，巴菲特等謹慎觀點提示市場可能仍有下跌空間。",
+    "Meta 面臨來自社會對大型平台日益增長的訴訟風險，可能導致數千億美元的潛在法律訴訟和賠償。",
+    "Meta 和 Amazon 的高額資本支出（CapEx）用於 AI 基礎設施，投資者需評估這些投資是否能帶來足夠的回報。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "本週",
+      "event": "非農就業數據公布",
+      "tickers": []
+    },
+    {
+      "date": "近期",
+      "event": "三星財報公布",
+      "tickers": [
+        "三星"
+      ]
+    },
+    {
+      "date": "2027年",
+      "event": "NBIS 芬蘭AI數據中心預計提供服務",
+      "tickers": [
+        "NBIS"
+      ]
+    },
+    {
+      "date": "今年",
+      "event": "Amazon Project Kuiper 衛星網路服務預計推出",
+      "tickers": [
+        "AMZN"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/3/31(二)能源危機+記憶體殺盤!美光重挫10%  美股賣壓止不住?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-3-31-10",
+      "sentiment": "bearish",
+      "oneLiner": "深度分析中東戰事引發的能源危機與記憶體殺盤，警示全球經濟面臨類停滯性通膨風險",
+      "detailedSummary": "本集節目深入分析了當前市場面臨的多重挑戰。中東戰事導致油價飆升至百元以上，預期將推升3月份CPI並引發第二輪通膨效應，影響全球經濟。記憶體板塊因美光重挫近10%而鬆動，顯示AI鏈條出現裂縫，市場正在重新定價高估值科技股。全球消費信心下滑，通膨預期上升，可能出現類停滯性通膨。避險基金大幅做空，空頭部位達十年高點，顯示市場結構正在反轉。新債王剛拉克預警股債雙殺，認為美國債務問題和利率上行將導致信用市場失序。",
+      "highlights": [
+        "中東戰事導致油價持續上行，預期將推升3月份CPI並引發第二輪通膨效應",
+        "記憶體板塊鬆動，美光重挫近10%，顯示AI鏈條出現裂縫，市場正在砍高本益比股票",
+        "全球消費信心指數下滑，通膨預期上升，短期經濟預期惡化，可能出現類停滯性通膨",
+        "台灣央行可能採取升息或穩定匯率等措施應對通膨，並將2%視為重要參考門檻",
+        "塑化、不鏽鋼等原物料價格上漲，預計一個季度後傳導至終端市場，形成成本推升型通膨",
+        "菲律賓、澳洲、南韓等國面臨能源依賴風險，可能採取限車或行政手段應對油價衝擊",
+        "美股七巨頭今年表現跑輸大盤，避險基金大幅做空，全球股市面臨結構性反轉壓力",
+        "新債王剛拉克預警股債雙殺，認為美國債務問題和利率上行將導致信用市場失序"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/03/31 (二）鮑威爾放軟，衰退升溫？",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/f1644323-a7e8-45ea-bfd0-48760cbca47d",
+      "sentiment": "bullish",
+      "oneLiner": "分析鮑威爾發言與記憶體產業波動，強調AI長期趨勢不變，建議理性投資分批佈局",
+      "detailedSummary": "本集節目分析了鮑威爾發言、美伊戰爭對市場的影響，以及記憶體產業的短期波動與長期趨勢。主持人認為鮑威爾的言論顯示聯準會不會因能源衝擊而改變利率路徑，但美伊戰爭仍是市場不確定性來源。記憶體產業雖面臨短期價格下跌，但AI基礎設施帶動的新需求仍強勁，長期趨勢未變。建議投資者在市場波動時保持理性，分批佈局，並關注長期基本面和AI相關產業的發展。透過傑文斯悖論解釋新技術降本增效反而會擴大需求，支持AI相關產業的長期發展前景。",
+      "highlights": [
+        "鮑威爾發言安撫市場，認為能源衝擊影響有限，聯準會不輕易調整利率路徑",
+        "美伊戰爭持續帶來不確定性，影響油價和市場情緒",
+        "記憶體產業短期價格下跌，但主要集中在舊需求，AI基礎設施帶動的新需求仍強勁",
+        "主持人強調長期投資的重要性，建議在市場下跌時分批佈局指數或大盤",
+        "傑文斯悖論解釋新技術降本增效反而會擴大需求，支持AI相關產業的長期發展",
+        "三星HBM銷售預期強勁，印證AI基礎建設對記憶體需求的拉動作用",
+        "提醒投資者應關注公司資本支出、產能及營收獲利增長以判斷長期趨勢"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1068｜9個多月來首破季線！清明崩盤的既視感？油價危機是黑天鵝，還是多頭回檔必經之路？資金夠撿一點，資金少等一下？ft.選股教練 陳唯泰",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/17c91b62-68a7-4ad5-8a75-05b4b9e49b64",
+      "sentiment": "neutral",
+      "oneLiner": "台股首次跌破季線分析，探討油價危機影響與投資策略，建議資金充足者可分批佈局",
+      "detailedSummary": "本集節目分析台股9個多月來首次跌破季線的情況，探討油價危機是黑天鵝事件還是多頭回檔的必經之路。主持人與選股教練陳唯泰討論了當前市場面臨的挑戰，包括細光子族群重挫、記憶體族群信心崩潰、世芯KY因亞馬遜訂單延遲而承壓等。同時分析了統一超、水泥股、集團股等防禦性標的的投資機會。節目強調在市場不確定性增加的情況下，資金充足的投資者可以考慮分批佈局，但資金有限者建議等待更明確的信號。",
+      "highlights": [
+        "台股首次跌破季線，但季線扣抵值仍遠，短期內季線不會下彎，預期連假後有跌深反彈機會",
+        "細光子族群在盤中出現重挫，部分個股亮燈跌停，顯示籌碼面賣壓沉重",
+        "記憶體族群信心崩潰邊緣，DDR4和DDR5報價有鬆動跡象",
+        "世芯KY因亞馬遜訂單延遲，第一季營收表現不佳，股價承壓",
+        "統一超近期股價抗跌，且每年配息穩定，可作為資金避風港",
+        "水泥股如亞泥長期在低檔打底，獲利與配息表現不錯，殖利率高",
+        "集團股在盤勢修正時，可能會有集團內部資金回補自家持股的動作",
+        "ETF相較於個股，波動性較低，勝率和心情穩定度更高，適合一般投資人"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "新剧本出来了！NaNa说美股(2026.03.31)",
+      "episodeLink": "https://www.youtube.com/watch?v=SuHnrtiibwE",
+      "sentiment": "neutral",
+      "oneLiner": "分析美股暴力拉升原因與後市展望，認為當前為反彈而非反轉，預期二季度寬幅震盪",
+      "detailedSummary": "本集節目深入分析了3月31日美股的暴力拉升，認為是季末調倉、空頭回補以及伊朗總統釋放降溫信號等多重因素共振的結果。主持人將此波上漲定義為反彈而非反轉，並指出期權結構顯示二季度大盤將在6150至6840之間寬幅震盪。節目中提及了MRVL、Core Weave、NBIS、META等看漲個股，以及CEG、NIKE等看跌個股。主持人也分享了其操作策略，賣出短期Call並保留長期QQQ深度價內Call，體現了對市場謹慎樂觀的態度。",
+      "highlights": [
+        "美股3月31日暴力拉升，標普、道指漲超2%，納指漲超3%，創去年5月以來最大單日漲幅",
+        "伊朗總統釋放降溫信號是市場反彈的催化劑，但季末調倉和空頭回補是更深層次原因",
+        "JPM季度Collar期權大單的效應回歸，推動指數突破6475，做市商回補空頭是上漲動力",
+        "主持人認為當前市場上漲是反彈，而非反轉，需站上年線才能確認趨勢反轉",
+        "期權結構顯示，SPX二季度核心防線在6150，上行天花板在6840，預計為寬幅震盪行情",
+        "巴菲特對當前市場保持謹慎，認為美股不便宜，不會為小幅反彈入場，並對蘋果估值持保留態度",
+        "MRVL、Core Weave、NBIS、META等AI相關個股因利好消息或估值吸引力被看好",
+        "CEG因未宣布新供電協議及利潤預期低於市場預期而下跌，NIKE財報疲軟股價暴跌"
+      ],
+      "source": "youtube"
+    },
+    {
+      "podcast": "UNRIVALED INVESTING",
+      "episode": "BILL ACKMAN \"HIGHEST QUALITY, EXTREMELY CHEAP\" STOCKS? META & AMZN Stock Review",
+      "episodeLink": "https://www.youtube.com/watch?v=j4t8b6fRKsg",
+      "sentiment": "bullish",
+      "oneLiner": "深度解析Bill Ackman看好的極度便宜優質股票，重點分析Fannie Mae、Meta與Amazon投資機會",
+      "detailedSummary": "本集節目深入分析了億萬富翁投資者 Bill Ackman 對市場的看法，他認為一些高質量企業目前估值極其便宜。節目特別探討了 Fannie Mae、Meta 和 Amazon 這三家公司。Fannie Mae 被 Bill Ackman 和 Michael Bur 認為有巨大的上漲潛力，可能實現10倍增長。Meta 儘管面臨 Reality Labs 虧損和訴訟風險，但其核心廣告業務強勁增長，並大力投資 AI 領域。Amazon 的 AWS 業務表現出色，並透過 Project Kuiper 拓展新興市場。主持人對這些投資機會進行了平衡分析，提醒投資者需考慮風險因素。",
+      "highlights": [
+        "Bill Ackman 認為市場上存在被嚴重低估的高質量企業",
+        "Fannie Mae 被 Bill Ackman 和 Michael Bur 視為具有 10 倍潛力的極度便宜股票",
+        "Meta 核心廣告業務強勁增長，並積極削減 Reality Labs 虧損，轉向 AI 整合可穿戴設備",
+        "Meta 大力投資個人超級智慧（Personal Super Intelligence），資本支出顯著增加",
+        "Amazon 的 AWS 業務持續加速增長，是公司價值的主要驅動力",
+        "Amazon 透過 Project Kuiper 進入衛星網路市場，將與 AWS 整合提供創新服務",
+        "主持人提醒投資者，儘管 Bill Ackman 看好，但仍需評估自身風險承受能力及公司面臨的訴訟風險和高額資本支出"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
