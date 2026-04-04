@@ -1,0 +1,196 @@
+{
+  "date": "2026-04-04",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 2,
+  "bullishSignals": [
+    {
+      "ticker": "QQQ",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "美股航海王·傑克·史派羅",
+          "reason": "認為QQQ相對穩健，適合長期持有，回血速度較快",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "TQQQ",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "美股航海王·傑克·史派羅",
+          "reason": "三倍槓桿ETF波動劇烈，不適合長期持有，跌幅後回本所需漲幅極大，應視為「大招」在關鍵時機使用",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "TSLA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "第一季交車數不如預期，庫存堆高，儲能業務部署量大幅萎縮，市場擔心毛利率受損",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "MSFT",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "今年以來下跌超過25%，主要因供給問題：電力容量不足導致Azure訂單無法交付、資本支出過於保守、將有限算力優先供給內部Copilot團隊，以及OpenAI尋求其他合作夥伴導致市場對其未來成長性產生疑慮",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "黃金投資策略",
+      "reason": "不建議投資黃金基金，認為直接購買黃金ETF更有效率且管理費較低",
+      "mentionedBy": [
+        "美股航海王·傑克·史派羅"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "現金管理策略",
+      "reason": "在市場混亂時，保留現金是安全的選擇。若在海外券商（如盈透證券），閒置現金可獲得4%以上的利息",
+      "mentionedBy": [
+        "美股航海王·傑克·史派羅"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美股大盤走勢",
+      "reason": "目前市場波動大，但指數終究會反彈，建議投資者保持耐心，不要過度頻繁抄底",
+      "mentionedBy": [
+        "美股航海王·傑克·史派羅"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "原油期貨與地緣政治",
+      "reason": "WTI原油期貨暴漲1%，油價創下新高，主要受地緣政治（荷姆茲海峽封閉）影響供應，可能導致通膨上升",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "物流成本上升",
+      "reason": "亞馬遜開始收取燃料附加費，美國郵政局調漲部分包裹費率8%，顯示物流成本壓力上升，可能轉嫁給消費者，推升CPI",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "AI算力需求",
+      "reason": "GPU需求強勁，H100租賃價格飆升40%，市場算力一機難求。AI代理將消耗巨大算力，預計Token消耗將指數級成長。企業為獲取生產力，願意不計成本投入",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "雲端巨頭資本支出",
+      "reason": "極大科技巨頭今年資本支出可能達到650-700億美元，持續投入AI基礎設施",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    "在市場混亂時，保留現金是明智之舉，尤其海外券商的閒置現金利息優於定存",
+    "投資黃金應選擇低管理費的ETF而非黃金基金",
+    "槓桿型ETF（如TQQQ）不適合長期持有，其損耗特性導致下跌後回本難度極高，應僅在判斷精準的關鍵時刻使用",
+    "戰爭是短期波段因素，不應作為長期投資決策依據，應關注長期趨勢產業與公司",
+    "市場情緒容易受消息面影響快速翻轉，但總體經濟數據、企業盈餘及未來展望才是評估關鍵",
+    "AI工具帶來的價值遠超過投資成本，企業為獲取巨大生產力，願意不計成本消耗算力",
+    "微軟面臨的核心困境是供給而非需求，電力瓶頸、資本支出策略及OpenAI合作關係變化是影響其股價的關鍵",
+    "大型公司股價推動需要更強大的催化劑，市場永遠追求相對而非絕對的利多"
+  ],
+  "riskAlerts": [
+    "槓桿型ETF（如TQQQ）波動劇烈，下跌後回本所需漲幅極大，不適合長期持有，可能導致巨大虧損",
+    "市場波動大，頻繁抄底可能導致不適",
+    "地緣政治衝突可能導致油價持續高漲，進而推升通膨，影響消費與投資",
+    "企業若無法將上升的燃料成本轉嫁給客戶，可能影響毛利率",
+    "AI概念股若資本支出過高而獲利能力未能同步提升，可能面臨估值下修風險",
+    "微軟若無法有效解決電力瓶頸及算力供給問題，可能影響其在AI領域的競爭力及成長性"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "未知",
+      "event": "微軟即將公布的財報指引",
+      "tickers": [
+        "MSFT"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "美股航海王·傑克·史派羅",
+      "episode": "聊交易🔆船長QA - LIVE 脫口秀（精華）：『我該買理專的黃金基金嗎』、『我推薦女友買QQQ但我買TQQQ對嗎』、『十六萬美金如何轉到海外卷商』、『VIP大學部的價值是』",
+      "episodeLink": "https://open.firstory.me/story/cmnilyl330bwn01wucjr64u0g",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深度解析投資策略與人生規劃，強調現金管理與槓桿ETF風險控制的重要性",
+      "detailedSummary": "本集節目主要回答聽眾QA，內容涵蓋投資策略、海外券商操作、人生規劃及教育觀念。主持人建議在市場混亂時保留現金，並強調黃金投資應選擇ETF而非基金。對於槓桿型ETF（TQQQ），主持人明確指出其高風險不適合長期持有。節目也探討了人生使命、教育方式及職場人際關係等議題，提供全方位的投資與人生建議。",
+      "highlights": [
+        "建議在市場混亂時保留現金，海外券商閒置現金利息高達4%以上",
+        "不建議購買黃金基金，應選擇黃金ETF以降低管理費",
+        "詳細解釋槓桿型ETF（TQQQ）的損耗特性，強調不適合長期持有",
+        "分享海外券商資金與股票轉移的實務操作經驗",
+        "探討人生規劃的重要性，鼓勵聽眾設定五年長期目標",
+        "討論學長學弟制及職場人際關係，建議提升自身實力成為意見領袖",
+        "建議當生活索然無味時，應尋找有意義的工作或新的生活重心"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/04/03 (五）美股為什麼又Ｖ轉了？終於要講微軟....為什麼跌？",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/aead210e-9c8c-497e-96b0-31385978dcc3",
+      "sentiment": "neutral",
+      "oneLiner": "深度剖析美股V轉原因與微軟股價困境，聚焦AI算力供需失衡與地緣政治影響",
+      "detailedSummary": "本集節目探討美股V轉原因及微軟股價下跌的深層問題。主持人認為地緣政治對油價影響大，但戰爭是短期因素，投資應關注長期趨勢。特斯拉因交車數不如預期、庫存堆高、儲能業務萎縮而股價大跌。微軟則因電力瓶頸、資本支出策略保守及OpenAI合作關係變化，導致股價表現不佳。節目強調AI算力需求強勁，但供給受限是當前科技股面臨的核心挑戰。",
+      "highlights": [
+        "美股V轉主要受伊朗與美國和談訊號影響，市場情緒快速反轉",
+        "地緣政治推升油價，可能透過物流成本轉嫁至實體經濟，影響通膨",
+        "特斯拉第一季交車數不及預期，庫存堆高，儲能業務萎縮，導致股價重挫",
+        "微軟股價表現不佳，核心問題在於電力瓶頸、資本支出策略及OpenAI合作關係變化",
+        "AI算力需求極度強勁，GPU租賃價格飆升40%，企業為生產力不計成本投入",
+        "微軟需在即將到來的財報中提供更樂觀指引，修復市場信心，以實現價值重估",
+        "大型科技公司股價推動需要更強大的催化劑，市場追求相對利多而非絕對利多"
+      ],
+      "source": "podcast"
+    }
+  ]
+}
