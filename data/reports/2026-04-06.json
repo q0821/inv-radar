@@ -1,0 +1,343 @@
+{
+  "date": "2026-04-06",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "Rumentum",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "連續震盪後再創歷史新高826美元，自1月底以來一路上漲，顯示光通訊板塊強勢",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "826美元"
+    },
+    {
+      "ticker": "AOI",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "單日上漲20%，顯示光通訊板塊強勢",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "Intel",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "宣布斥資142億美元，阿波羅全球管理公司買回愛爾蘭Fab 34廠9%股權，此廠生產核心AI處理器，有助推升EPS。Intel在2、3月調漲報價10-15%後，5月將再漲價，全年累積漲幅約三成",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "AMD",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "與Intel一同在CPU領域持續往上攻擊，受AI需求帶動",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "CoWoS",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "全球算力需求與CoWoS產能完全掛鉤，台積電CoWoS產能2026年已售罄，2027年需求預計持續追加",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "德宏",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "中高階玻璃纖維布大缺貨，德宏作為台灣主要供應商之一，將持續受惠",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "大量",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "毛利率跳升至37%，年增率8倍，因其高階AI PCB背鑽機技術強勢，精度可達正負1微米，能吃下高階AI PCB需求。南京廠預計2025年12月下旬投產，貢獻營收",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台積電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "手機板塊產能缺口迅速被AI或網通客戶填補，顯示其在先進製程的領先地位和多元客戶結構",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "臻鼎",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "受惠於MSEC瓶頸，動能恢復",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "群聯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "庫存量大，具定價權，即使市場對記憶體動能有疑慮，仍能維持獲利",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "PCB設備廠",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "如大量、揚博、64等持續創新高，受高階AI PCB需求帶動",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "貿聯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "前陣子因光鏡同退話題嚇殺後，因有其他利多而恢復動能",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "6830（飯犬）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "CPU檢測相關廠商，動能起來",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "波諾威",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "快要創下歷史新高，顯示光通訊相關個股強勢",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "245（聯發科）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "手機板塊因記憶體成本上升，壓抑中國智慧型手機需求，導致聯發科訂單縮減、營收蒸發。儘管有Google TPU等利多，但市場焦點仍在手機業務",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "249（晶圓電）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "若手機板塊出貨年減20%，第二季展望將受影響，市場可能不買單其故事而轉向其他族群",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "光通訊板塊",
+      "reason": "整體表現強勢，即使大盤不佳，仍是值得關注的板塊。博通提到光模塊中的小型PCB（MSEC）交期從6週暴增到6個月，顯示需求強勁",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "CPU重要性提升",
+      "reason": "AI架構下，CPU對高功率、低雜訊的連續波激光器要求嚴格，良率需提升。CPU與GPU的搭配比例從1:12提升到1:8或1:4，顯示CPU重要性提高",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "原油價格",
+      "reason": "伊朗戰爭導致原油價格持續在109美元以上高檔震盪，推升通膨預期，可能導致升息議題再次浮現",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "記憶體市場",
+      "reason": "市場對記憶體動能有所疑慮，領頭羊與群聯股價休息。近期指標顯示漲幅不如以往，甚至有下跌趨勢，需觀察是否止穩後再上漲",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美股大盤",
+      "reason": "費半與納斯達克指數在碰到中長線支撐後出現反彈，但需觀察三到五個交易日是否能持續，並留意地緣政治風險",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    "目前市場處於震盪週期，建議投資人不要開太大槓桿，並可選擇低波動個股，避免氣氛值過高的標的",
+    "AI需求帶動CPU重要性提升，CPU與GPU的搭配比例正在改變，從1:12到1:8或1:4，顯示CPU市場潛力",
+    "高階AI PCB需求強勁，帶動相關設備廠如大量、揚博、64等業績成長，且交期大幅拉長",
+    "手機市場需求疲軟，可能影響聯發科、晶圓電等相關供應商的營收與市場熱度，但台積電能迅速填補產能缺口",
+    "CoWoS產能供不應求，中高階玻璃纖維布大缺貨，顯示AI產業鏈上游關鍵材料的稀缺性"
+  ],
+  "riskAlerts": [
+    "伊朗戰爭可能導致原油價格持續高漲，進一步推升通膨，並可能促使聯準會再次考慮升息",
+    "地緣政治風險（如川普言論）可能導致市場在短時間內出現大幅波動，投資人需留意",
+    "手機市場需求疲軟可能影響相關供應鏈廠商的營收與獲利，如聯發科和晶圓電",
+    "記憶體市場漲幅不如預期，甚至有下跌趨勢，可能影響相關廠商的股價表現",
+    "市場處於震盪週期，若開太大槓桿可能面臨較大風險"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "4/30",
+      "event": "幣安學習營活動截止",
+      "tickers": []
+    },
+    {
+      "date": "5月",
+      "event": "Intel進行第三輪漲價",
+      "tickers": [
+        "Intel"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "叔叔",
+      "episode": "EP215 | 台、美股重點一次說，CPU重新被市場重視 ？，Intel的佈局，手機市場與台股關係，PCB設備廠",
+      "episodeLink": "https://player.soundon.fm/p/70907bd6-d0ae-4b64-bc38-2bf48ae4fc36/episodes/8ac3135b-90b0-4323-ab8c-b7b9a53e22b6",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深度分析台美股市場重點，聚焦光通訊板塊強勢、CPU重要性提升與AI產業鏈投資機會",
+      "detailedSummary": "本集節目分析了台美股市場重點。美國非農就業數據良好，但伊朗戰爭導致原油價格高漲，通膨壓力與升息預期可能再起。光通訊板塊表現強勢，Rumentum和AOI創新高。博通指出光模塊小型PCB交期暴增，MSEC相關廠商受惠。AI需求推升CPU重要性，Intel與AMD股價上攻，Intel更宣布漲價。CoWoS產能供不應求，中高階玻璃纖維布大缺貨，德宏受惠。記憶體市場動能有疑慮，但群聯因庫存優勢仍具定價權。PCB設備廠如大量受惠於高階AI PCB需求，營收與毛利率大幅成長。手機市場需求疲軟，聯發科與晶圓電面臨挑戰，但台積電產能迅速被AI客戶填補。整體市場處於震盪週期，建議投資人謹慎操作。",
+      "highlights": [
+        "美國非農就業數據顯示經濟良好，但伊朗戰爭推升原油價格與通膨預期",
+        "光通訊板塊表現強勢，Rumentum和AOI股價創新高",
+        "博通指出光模塊小型PCB交期暴增，MSEC相關廠商如臻鼎、欣興受惠",
+        "AI需求帶動CPU重要性提升，Intel與AMD股價上攻，Intel更宣布漲價",
+        "CoWoS產能供不應求，中高階玻璃纖維布大缺貨，德宏受惠",
+        "PCB設備廠如大量受惠於高階AI PCB需求，營收與毛利率大幅成長",
+        "手機市場需求疲軟，可能影響聯發科與晶圓電，但台積電產能迅速被AI客戶填補",
+        "市場處於震盪週期，建議投資人謹慎操作，避免高波動個股"
+      ],
+      "source": "podcast"
+    }
+  ]
+}
