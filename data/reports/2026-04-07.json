@@ -1,0 +1,172 @@
+{
+  "date": "2026-04-07",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "UNH",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "美國醫療保險和醫療補助服務中心 (CMS) 最終確定 2027 年 MA 私人保險有效費率上調 2.48%，大幅優於初步提案的 0.09%，緩解市場對行業利潤萎縮的擔憂，股價有望觸底回升",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "HUM",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "HUM 對 MA 業務敏感度更高，此前股價受重創，此次最終費率定在 2.48% 大幅緩解市場對其盈利模型惡化的恐慌，有望迎來估值修復",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "TSLA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "股價日內高開低走，拋售加劇，承接力不足，若無法收復 363 或反彈後再次被賣盤打壓，可能下探 300 尋求支撐",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "支撐 300, 壓力 363"
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "美國通脹數據",
+      "reason": "本週二的通脹數據將決定市場接下來是暴力擠空頭還是自由落體",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "伊朗局勢",
+      "reason": "市場經歷初期劇烈宣洩後，目前處於脆弱平衡期，表面平穩更像籌碼真空區，多空雙方博弈最終結果",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "原油市場",
+      "reason": "遠期貼水的原油曲線顯示市場預期衝突不會持續太久，油價幾個月後會回落",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美股指數",
+      "reason": "指數已連續 3 個交易日站穩在 10 日均線之上，技術信號顯示市場正企穩，但多空雙方仍在年線附近僵持",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美債收益率",
+      "reason": "10 年期美債收益率在 4.3% 附近徘徊，市場對年內降息押注接近零，但美聯儲仍保留降息空間，前提是油價中樞不長期釘死在 100 美元以上",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "全球金融市場",
+      "reason": "受復活節假期影響，歐洲與亞太多數市場休市，美股缺乏外盤指引，流動性相對清淡",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "VIX",
+      "reason": "波動率指數 VIX 收在 24 附近，雖然最後期限逼近，但市場並未表現出恐慌",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    "市場目前處於低流動性、低持倉、高博弈的狀態，多空雙方都在等待消息落地",
+    "原油市場的遠期貼水曲線顯示市場普遍預期中東衝突不會長期化，油價將回落",
+    "Citrini Research 等機構發布的報告可能帶有情緒衝擊目的，投資者應保持警惕，尤其在流動性清淡時期",
+    "美聯儲降息的關鍵在於中東衝突是否會重新點燃通脹，若否，降息邏輯只是延後",
+    "醫療保險板塊因 CMS 最終費率上調而迎來估值修復彈性，有望觸底回升，成為資金避險選擇",
+    "川普在中東問題上可能採取「小而美」的軍事行動，以促使伊朗回到談判桌，達成「一贏各表」的協議"
+  ],
+  "riskAlerts": [
+    "市場流動性清淡，容易受到消息面影響而產生劇烈波動",
+    "美國通脹數據公布可能導致市場劇烈波動，無論是暴力擠空頭還是自由落體",
+    "伊朗局勢仍存在不確定性，若談判破裂或局勢升級，可能對市場造成衝擊",
+    "Citrini Research 等機構的報告可能具有誤導性，投資者應謹慎判斷，避免被情緒影響",
+    "特斯拉股價承接力不足，存在進一步下跌風險"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "4/8",
+      "event": "美國通脹數據公布",
+      "tickers": []
+    },
+    {
+      "date": "4/8",
+      "event": "川普給伊朗設定的最後期限",
+      "tickers": []
+    },
+    {
+      "date": "4月底前",
+      "event": "川普希望伊朗回到談判桌",
+      "tickers": []
+    },
+    {
+      "date": "未知",
+      "event": "財報季",
+      "tickers": []
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "NaNa说美股",
+      "episode": "一赢各表！NaNa说美股(2026.04.06)",
+      "episodeLink": "https://www.youtube.com/watch?v=_n-4meH6e20",
+      "sentiment": "neutral",
+      "oneLiner": "深度分析復活節後市場平靜下的潛在波動，聚焦通脹數據與中東局勢對美股走向的關鍵影響",
+      "detailedSummary": "本集節目分析了當前全球金融市場在復活節假期後的平靜與潛在波動。主持人指出，美股在缺乏外盤指引下，多空雙方在年線附近僵持，市場流動性清淡。本週美國通脹數據和伊朗局勢是關鍵變數，將決定市場是暴力擠空頭還是自由落體。原油市場的遠期貼水顯示市場預期衝突不會長期化。個股方面，聯合健康 (UNH) 和 Humana (HUM) 因 CMS 最終費率上調而迎來利好，有望觸底回升；特斯拉 (TSLA) 則面臨拋售壓力，可能下探 300 尋求支撐。",
+      "highlights": [
+        "全球金融市場因復活節假期流動性清淡，美股多空僵持",
+        "本週美國通脹數據將是市場走向的關鍵催化劑",
+        "伊朗局勢處於脆弱平衡，市場博弈停火利好",
+        "原油市場預期中東衝突不會長期化，油價將回落",
+        "聯合健康 (UNH) 和 Humana (HUM) 因 CMS 最終費率上調而迎來估值修復",
+        "特斯拉 (TSLA) 面臨拋售壓力，股價可能下探 300 支撐",
+        "警惕 Citrini Research 等機構在流動性清淡時發布的報告，可能帶有情緒衝擊目的",
+        "美聯儲降息與否的關鍵在於中東衝突是否會重新點燃通脹"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
