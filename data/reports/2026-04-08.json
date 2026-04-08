@@ -1,0 +1,508 @@
+{
+  "date": "2026-04-08",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 4,
+  "bullishSignals": [
+    {
+      "ticker": "AVGO",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "博通與Google簽訂長期協議，負責開發並供應未來世代Google客製化TPU，並為Google下一代AI機架提供網路與其他元件，協議效期至2031年。同時與Anthropic簽署擴大協議，提供3.5GW算力，印證其AI晶片銷售預期樂觀。",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "博通與谷歌達成長期協議，向Anthropic供應TPU芯片，提供英偉達技術替代方案，並簽署供應保障協議至2031年。博通CEO上個月已提及此合作，顯示公司在AI芯片領域的佈局。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "GOOG",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "谷歌與博通達成長期協議，向Anthropic供應TPU芯片，提供英偉達技術替代方案，並簽署供應保障協議至2031年。此合作將為Anthropic提供約3.5吉瓦算力，從2027年開始。此消息在市場情緒熱絡時可能引發股價暴漲。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "MU",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "分析師再度調高美光評級，看好記憶體晶片未來需求強勁。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "INTC",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "分析師調高Intel股價目標至70美元，因市場對CPU需求強勁。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "目標價 70 美元"
+    },
+    {
+      "ticker": "STX",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "摩根士丹利重申真實評級，認為希捷在硬碟市場是首選股票，因AI時代對硬碟需求遠超預期。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "WDC",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "摩根士丹利重申真實評級，認為西部數據在硬碟市場是首選股票，因AI時代對硬碟需求遠超預期。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "UNH",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "美國2027年Medicare Advantage最終費率調漲至2.48%，遠超市場預期，預計可為保險公司帶來超過130億美元的政府撥款，有望帶動股價反轉。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台達電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人認為台達電股價強勢，是市場信心的來源，且其不死，市場仍充滿希望。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "華通",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "華通公布單月獲利不佳，但股價仍大漲，顯示利空不跌，為強勢股表現。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "乙盛",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "乙盛單月獲利約 0.4 元，屬於落後補漲概念股，剛爆大量發動，建議開始建部位。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "新雲",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "新雲與大漲的紅塑做同樣的半導體設備，且今年在嘉義設大廠，從通路轉製造，業績有望爆發，外資持續買進但投信尚未進場，是上車好機會。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台耀",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "CCL 族群中，台耀被升級，市場認可其拿到 800G 份額，且與台光電相比有較大補漲空間，是穩健的選擇。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "科技股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "過去一週QQQ漲幅近4%，SPY漲幅3.5%，羅素2000漲幅3.4%，比特幣漲1.3%，顯示資金從能源股輪動至風險資產科技股，出現逢低買盤。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "TSLA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "交付數低於市場預期，產量高於交付數，可能面臨出清庫存和降價壓力。摩根大通維持減持評級，目標價145美元，認為面臨更大競爭壓力。",
+          "action": "減碼",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "目標價 145 美元"
+    },
+    {
+      "ticker": "OKLO",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "OKLO股價從高點暴跌約78%，公司高管持續賣出股票，打擊投資者信心。該公司最大問題是兌現週期太長，缺乏基本面支撐，僅靠熱錢炒作。在市場流動性不足、美聯儲降息空間受限的情況下，熱錢撤離導致股價下跌。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "微軟",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "微軟股價修正，本益比從40倍跌至23倍，達到2020年烏俄戰事水準，顯示估值有嚴重下滑。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "全訊",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "全訊三月營收大崩盤，可能與國防預算卡關或入帳時間有關，導致股價大跌。主持人長期持有但已不理會，認為其為弱勢股。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "中東地緣政治",
+      "reason": "中東衝突雖未結束，但市場已開始適應新的地緣政治格局，航運並未完全中斷，油輪運輸量逐漸恢復。",
+      "mentionedBy": [
+        "游庭皓的財經皓角"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "油價走勢",
+      "reason": "西德州原油價格已衝高至12美元/桶，準備挑戰歷史新高，預計今年一整年原油通膨都會保持年增。油價居高不下，若持續高位，可能壓抑市場。",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "李兆華",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美國通膨壓力",
+      "reason": "油價上漲、ISM服務業物價指數彈升，通膨壓力攀升，可能影響聯準會政策。3月份CPI環比增長可能高達0.84%，同比增速可能彈回3.25%-3.4%區間。",
+      "mentionedBy": [
+        "財女Jenny",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "AI基礎設施需求",
+      "reason": "AI基礎設施需求強勁，延伸產業鏈表現良好，特別是雲端資料儲存中的HDD需求因Agentic AI大量資料生成而遠超預期。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "記憶體產業",
+      "reason": "記憶體報價有鬆動疑慮，若報價未漲或庫存從高價轉平價，可能導致股價回檔兩三成，需留意。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "台股大盤",
+      "reason": "台股大盤與櫃買指數量能縮小，來到壓力區，目前沒有強度一次過高，顯示單兵作戰，個股表現為主。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美伊關係",
+      "reason": "美伊兩國在霍爾木茲海峽問題上持續進行心理博弈，影響全球股市走勢。市場關注雙方是否能達成停火協議，以及對油價和整體市場的影響。",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    "中東地緣政治衝突的利空影響已鈍化，市場對新的地緣政治格局產生新一輪定價，航運並未完全中斷。",
+    "能源價格上漲對各國影響不對稱，依賴進口且貨幣較弱的國家受衝擊最大。",
+    "台灣政府為穩定民生物價，採取全面凍漲電價、瓦斯費、天然氣及油價，導致國營事業財務壓力巨大。",
+    "全球股市本輪跌幅不大，但少數個股（特別是七巨頭）跌幅較重，顯示資金輪動和估值修正。",
+    "市場情緒管理在投資中扮演重要角色，新手容易追高殺低，老手則可能在反彈中錯失機會。",
+    "地緣政治風險（川普與伊朗衝突）是影響市場的重要因素，但市場可能因多次延期而產生「截止日疲勞」。",
+    "AI基礎設施需求強勁，不僅限於輝達等晶片公司，儲存相關公司（如希捷、西部數據）也將受惠。",
+    "ISM服務業指數顯示物價壓力攀升，就業數據收縮，企業面臨成本壓力並縮減人力，可能影響經濟前景。",
+    "個人投資者應根據自身風險承受能力和投資時間框架（長期或波段）來決定進出場策略，不應盲目追高或殺低。",
+    "AI工具（如Anthropic的Claude）能大幅提高生產力，節省資訊蒐集時間，讓使用者專注於判讀、分析和決策。",
+    "從日常生活中使用的AI產品反推投資機會，將訂閱費轉化為投資獲利，形成正向循環。",
+    "台股目前呈現單兵作戰格局，大盤量能縮小，個股表現為主，強勢股持續走強。",
+    "投資人應專注於自己手中的個股，不要過度關注國際局勢，尤其是在強勢股方面。",
+    "在市場重挫時應勇敢買進有信心的族群，而非追高。",
+    "高股息金融股有支撐大盤的作用，可作為穩健配置的一部分。",
+    "PCB、矽光子、低軌衛星等熱門題材持續發酵，但需注意族群內部的輪動和落後補漲機會。",
+    "在同族群中尋找有潜力但尚未被市場充分發掘的標的，例如外資買進但投信尚未進場的股票。",
+    "投資不能閉著眼睛，要張大眼睛評估風險，尤其是在追逐強勢股時。",
+    "不要空手，即使大盤震盪，仍應持有部分強勢股，避免被軋空手。",
+    "高手只是去槓桿，並未退場，一旦資金回流，強勢股仍有上漲空間。",
+    "市場信心建立在不確定性減少的共識上，而非和平本身。",
+    "美伊衝突的極限拉扯導致股指日內走勢如過山車，反映市場資金的糾結。",
+    "即使達成停火協議，油價維持高位對產業鏈的傷害已造成，且高CPI可能限制美聯儲降息空間。",
+    "蘋果作為超級權重股，在市場動盪時仍是大資金抱團避險的首選。",
+    "AI相關概念股（如小型核反應堆）在熱錢退潮後，若無基本面支撐，股價將大幅回調。",
+    "太空概念股因SpaceX的龍頭效應吸引熱度，成為熱錢追逐的新方向。"
+  ],
+  "riskAlerts": [
+    "中東地緣政治衝突仍有升級可能，川普仍可能採取軍事行動。",
+    "伊朗威脅攻擊中東地區的AI資料中心，可能對科技股造成不確定性。",
+    "油價持續上漲可能導致全球通膨壓力加劇，影響終端需求。",
+    "台灣國營事業因政府補貼政策導致財務壓力累積，可能轉嫁為準財政負擔。",
+    "全球各國為穩定能源供應而瘋狂搶煤，可能導致煤價進一步上漲。",
+    "地緣政治風險可能導致油價上漲，進而推升通膨，對市場造成壓力。",
+    "ISM服務業指數顯示物價壓力攀升，就業數據收縮，企業可能面臨獲利壓力。",
+    "特斯拉面臨交付數不佳及競爭加劇的挑戰，股價可能持續承壓。",
+    "醫保公司雖有政策利多，但仍需觀察公司內部重整狀況是否能完全恢復正常。",
+    "部分科技股已漲多，估值較高，若無更強催化劑，可能面臨震盪或回調。",
+    "記憶體報價有鬆動疑慮，若報價未漲或庫存從高價轉平價，可能導致股價回檔兩三成。",
+    "追高強勢股存在風險，尤其在震盪盤勢中，可能追在高點。",
+    "地緣政治風險（美伊戰爭）可能導致市場波動。",
+    "美伊衝突可能升級，導致油價飆升，引發風險資產拋售。",
+    "高CPI數據可能導致美聯儲維持高利率，限制市場流動性和股指上漲空間。",
+    "缺乏基本面支撐的炒作型概念股，在市場流動性不足時面臨股價大幅回調的風險。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "2026/04/08",
+      "event": "川普對伊朗的最終決定",
+      "tickers": [
+        "整體股市"
+      ]
+    },
+    {
+      "date": "2026/04/11",
+      "event": "美國CPI數據公布",
+      "tickers": [
+        "整體股市",
+        "美聯儲政策"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "美伊談判進展及霍爾木茲海峽開放情況",
+      "tickers": [
+        "國際油價",
+        "整體股市"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "記憶體報價走勢",
+      "tickers": [
+        "記憶體相關股"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "FOMC 會議",
+      "tickers": [
+        "整體股市"
+      ]
+    },
+    {
+      "date": "2027年",
+      "event": "谷歌與博通向Anthropic供應TPU芯片安排開始",
+      "tickers": [
+        "GOOG",
+        "AVGO"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/4/7(二)中東利空鈍化 美股4月能反攻?亞洲能源大亂 各國補貼戰?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-4-7-4",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "中東地緣政治利空鈍化，資金從能源股輪動至科技股，但亞洲各國面臨能源補貼戰壓力",
+      "detailedSummary": "本集節目分析中東地緣政治衝突對全球市場的影響，指出利空已鈍化，市場對新格局進行定價，航運並未完全中斷。油價持續上漲，但資金已從能源股輪動至科技股。亞洲各國面臨能源供應壓力，台灣政府採取補貼政策穩定物價，導致國營事業財務壓力。全球股市整體跌幅不大，但部分科技巨頭跌幅較重，顯示估值修正。",
+      "highlights": [
+        "中東地緣政治衝突利空鈍化，市場對新格局進行定價",
+        "能源股下跌，科技股反彈，顯示資金輪動",
+        "油價持續上漲，西德州原油挑戰歷史新高",
+        "亞洲國家面臨能源供應壓力，各國啟動補貼戰",
+        "台灣政府全面凍漲電價、瓦斯、天然氣及油價，國營事業財務壓力大增",
+        "台電負債比率創高，短期將擴大藍煤發電比重",
+        "部分科技巨頭股價修正，本益比大幅下滑",
+        "市場情緒管理在投資中的重要性"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/04/07 (二）伊朗拒停火， 油價不漲了？博通、Google擴大合作",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/810549c5-b966-4784-8997-0cf41fb4cde8",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "地緣政治風險推升油價，但AI基礎設施需求強勁，博通與Google合作看好長期發展",
+      "detailedSummary": "本集節目分析了美股近期表現，指出地緣政治風險（川普與伊朗衝突）對油價的影響，以及ISM服務業數據反映的通膨壓力與就業市場變化。KOL強調AI基礎設施需求強勁，博通與Google、Anthropic的合作，以及記憶體和硬碟儲存公司（美光、希捷、西部數據）的投資機會。同時，節目也提及特斯拉交付數不佳的利空，以及美國醫保行業（聯合健康）因Medicare Advantage費率調漲而出現轉機。KOL建議投資者應關注長期趨勢，並根據自身風險承受能力調整策略。",
+      "highlights": [
+        "川普與伊朗衝突可能推升油價，但市場對此反應趨於疲勞，需關注後續發展",
+        "ISM服務業指數顯示物價壓力攀升，就業數據收縮，企業面臨成本壓力",
+        "博通與Google、Anthropic擴大合作，鎖定AI基礎設施長期需求至2031年",
+        "美光、希捷、西部數據等儲存相關公司受惠於AI對硬碟需求的增長",
+        "特斯拉交付數低於預期，面臨競爭壓力，摩根大通維持減持評級",
+        "美國醫保行業因Medicare Advantage費率調漲，聯合健康等公司股價有望反轉",
+        "KOL強調AI工具能大幅提高生產力，建議從日常使用的AI產品中尋找投資機會"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1071｜量縮靜等明天結果，自己的股票自己顧？PCB缺料題材續噴，矽光、低軌大人鎖籌碼？油價仍高，上漲不追，切記重跌可勇敢！ft.操盤手 黃豐凱",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/d77de859-4367-41b4-bd87-f388c58b95a1",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股呈現單兵作戰格局，PCB、矽光子等熱門題材持續發酵，建議重挫時勇敢買進",
+      "detailedSummary": "本集節目分析台股在連假後表現強勁，加權指數與櫃買指數均上漲，但量能縮小，顯示市場呈現個股表現的單兵作戰格局。主持人與來賓黃豐凱哥認為，PCB、矽光子、低軌衛星等熱門題材持續發酵，強勢股如台達電、華通表現亮眼。記憶體族群有止穩跡象，金融股也提供大盤支撐。節目提醒投資人應專注於自身持股，在重挫時勇敢買進，並留意落後補漲機會，例如乙盛、新雲。同時，也提醒油價居高不下、美伊戰爭進度以及記憶體報價鬆動等潛在風險。",
+      "highlights": [
+        "台股連假後開盤強勁，加權指數與櫃買指數均上漲，但量能縮小",
+        "PCB、矽光子、低軌衛星等熱門題材持續發酵，強勢股表現亮眼",
+        "台達電股價強勢，被視為市場信心的來源",
+        "華通利空不跌，顯示其為強勢股",
+        "記憶體族群（南亞科、旺宏、力積電）有止穩跡象",
+        "金融股（中信金、國泰金、富邦金）提供大盤支撐",
+        "CCL 族群中，台耀因 800G 份額被市場認可，有補漲空間",
+        "乙盛、新雲等落後補漲股被點名，建議可開始建部位",
+        "油價居高不下，美伊戰爭進度仍是市場關注焦點",
+        "記憶體報價鬆動可能帶來股價回檔風險",
+        "建議投資人不要空手，在重挫時勇敢買進有信心的族群"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "美国佬能搞掂吗？NaNa说美股(2026.04.07)",
+      "episodeLink": "https://www.youtube.com/watch?v=JvvzJFXGM_4",
+      "sentiment": "neutral",
+      "oneLiner": "美伊衝突極限拉扯導致股市如過山車，市場信心建立在不確定性減少的共識上",
+      "detailedSummary": "本集節目主要分析美伊衝突對全球市場的影響，指出市場信心建立在不確定性減少的共識上。主持人提出三種劇本：奇蹟劇本（停火協議）、磨人劇本（延期兩週）和開火劇本（大規模軍事行動），並分析了各自對股指和油價的影響。同時，節目討論了蘋果因可摺疊iPhone技術問題股價波動，但市場視為交易性利空。谷歌和博通因與Anthropic的合作在AI芯片領域取得進展。而OKLO等缺乏基本面支撐的AI概念股則因熱錢撤離而大幅下跌。",
+      "highlights": [
+        "美伊衝突持續，市場關注霍爾木茲海峽問題對油價和股市的影響",
+        "主持人提出美伊衝突的三種劇本：停火、延期或開火，並分析其對市場的潛在影響",
+        "本週五將公布的CPI數據可能偏高，限制美聯儲降息空間，影響市場流動性",
+        "蘋果股價因可摺疊iPhone技術問題短暫下跌，但市場視為交易性利空，大資金仍抱團避險",
+        "谷歌和博通與Anthropic達成AI芯片供應協議，顯示在AI領域的佈局",
+        "OKLO等缺乏基本面支撐的AI概念股，在熱錢退潮後股價大幅回調",
+        "太空概念股因SpaceX效應吸引熱錢，成為新的市場熱點"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
