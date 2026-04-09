@@ -1,0 +1,867 @@
+{
+  "date": "2026-04-09",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 7,
+  "bullishSignals": [
+    {
+      "ticker": "INTC",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "Intel與Tesla合作TeraFab計畫，有望帶來高毛利授權或顧問費用，並可能在Tesla卡關時獲得更多訂單",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "英特爾執行長宣布加入馬斯克的TeraFab AI晶片製造計畫，與特斯拉、SpaceX等合作，有望成為大客戶，為英特爾帶來轉機",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "英特爾宣布加入馬斯克的半導體項目Terafab，目標是每年產出高達1太瓦的計算能力，市場對此消息反應正面，視為其代工業務的利好",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "記憶體產業",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "產業層面仍維持缺料狀態，儘管部分記憶體股票已進入休息",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "記憶體多頭循環尚未結束，NAND Flash因大廠退出中低階市場，下半年缺貨漲價情況明朗，DRAM合約價預期不會大跌",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "半導體產業",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "AI算力需求持續增長，輝達、博通、光通訊等公司作為AI原物料、零組件、硬體設備供應商，具有不可或缺的地位，增長趨勢穩健",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "AI晶片面積變大、層數變多，對PCB（包括載板、硬板、MSAP技術）需求增加，相關個股如欣興、臻鼎KY、華通已創新高",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "光通訊",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "市場主流的光通訊領域，特別是雷晶、雷射晶片、CPU製程設備和AOI，主持人看好其爆發力",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "CPU製程設備",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人重倉的領域，看好其在AI時代的發展",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "AOI",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人買入不少相關設備，看好其在產業中的應用",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "資安股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "AI越強，資安需求越高。Anthropic的Project ClassWin計畫將最強新模型Method先讓Apple、Amazon、微軟、思科等公司測試，並與Palo Alto、CrowdStrike等資安公司合作，AI將成為資安防禦工具",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "6285.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "低軌衛星概念股，SpaceX第一季發射衛星數量年增60%以上，預估全年達2500顆，市場預估IPO市值突破1.75兆",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "CCL概念股，低軌衛星營收佔比約6%，近期營收年增率達50%以上，股價已衝到30元",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "30元"
+    },
+    {
+      "ticker": "啟碁",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "低軌衛星概念股，營收佔比約5%到10%。同時也是光學交換器（OCS）概念股，80G交換器預計2026年第三季後大量出貨，營收貢獻占比達5%",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "信驊",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "BNC概念股，市場獨家，股價已達一萬兩千多塊",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "12000元以上"
+    },
+    {
+      "ticker": "旺矽",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "半導體檢測設備，月產能持續翻倍，碳增卡產能大幅提升",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "穎崴",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "半導體檢測設備，月產能幾乎翻倍",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "智茂",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "SLT系統級測試設備，已通過美系AI大廠認證",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "宏捷科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "受惠CSP的ASIC廠轉向LiP架構，有指定高溫控需求",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "聯茂",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "雷射主要供應商，NVIDIA合作夥伴，已簽訂七年合約，股價創歷史新高",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "8299.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "叔叔",
+          "reason": "記憶體模組廠，庫存充足，Q2報價看好",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "AAPL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "蘋果摺疊手機雖然遇到工程挑戰，但彭博記者反向報導稱上市時間不變，且摺疊iPhone定價高昂，有望拉升平均售價（ASP），增加營收與毛利。Siri導入AI也將是主要催化劑",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "UNH",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "聯邦政府宣布明年Medcare保險給付調升2.48%，遠高於預期，大幅提升市場對保險族群獲利預期",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "CVS",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "聯邦政府宣布明年Medcare保險給付調升2.48%，遠高於預期，大幅提升市場對保險族群獲利預期",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "AVGO",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "博通與Google及Anthropic深化合作，延長並擴大合作契約，激勵股價上漲",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "矽光子",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "Rubin平台下半年將加速導入矽光子技術，上游如穩懋、聯亞等個股大漲，顯示產業趨勢向上",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "旺宏",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "NAND Flash市場下半年缺貨漲價明朗，旺宏為記憶體中表現最強勢個股，回測月線後止穩",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "主動型ETF",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人提到自己買進的主動型ETF（如919、981、982）創歷史新高，認為在AI發展趨勢下，主動型ETF表現優於大盤",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "航空股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "中東停火利好航空、郵輪等出行鏈條，達美航空一季度業績好於預期，且公司主動收縮供給、控制擴張節奏，有助於維持票價和利潤率",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "CCL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "中東停火利好郵輪產業，CCL跳空高開，表現亮眼",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "DAL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "達美航空一季度業績好於預期，且公司主動收縮供給、控制擴張節奏，有助於維持票價和利潤率。此外，煉油廠收益可對沖油價波動",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "Anthropic",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "UNRIVALED INVESTING",
+          "reason": "Anthropic 的 Claude Mythos 模型展現出卓越的網路安全能力，能自主發現數千個零日漏洞並開發利用程式。其營收年化增長率驚人，從 2025 年底的 90 億美元增長到最近的 300 億美元，企業客戶數量也翻倍。預計到 2029 年營收可能達到 1480 億美元，若能維持訓練成本紀律，利潤空間巨大，估值有望達到數兆美元",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "估值有望達到 1 兆美元甚至 2 兆美元"
+    },
+    {
+      "ticker": "GOOG",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "UNRIVALED INVESTING",
+          "reason": "Alphabet (Google) 間接持有 Anthropic 約 14% 的股份，雖然比例不大，但若 Anthropic 成功，這筆投資將成為 Alphabet 的 AI 彩票",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "Tesla",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "Tesla需投入大量資金於晶圓生產製造，且初期良率可能拉不起來，導致持續虧損",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "中國手機廠",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "蘋果和三星市佔率高，中國手機廠面臨砍單潮，預計出貨量可能大幅衰退40%甚至更多",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "平價消費級應用元件",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "手機廠商砍單潮已逐漸出現，供應平價消費級應用的元件股相對危險",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "油氣板塊",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "中東停火協議達成後，油氣、化肥板塊因獲利了結而全線潰敗，但隨著海峽再次被封鎖，股價可能反彈",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台積電法說會",
+      "reason": "即將召開法說會，市場關注其資本支出（CAPEX）是否上調，預期上調將對股價有正面影響",
+      "mentionedBy": [
+        "叔叔",
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "中東地緣政治",
+      "reason": "美伊達成兩週停火協議，油價瞬崩，資金從避險資產撤出，市場暫時鬆一口氣。但兩週後仍充滿變數，需觀察航道是否陸續開放",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美國通膨數據",
+      "reason": "能源和農產品價格上漲已擴散至工業體系，4月份CPI能否回跌是關鍵。若持續上揚，將傳導至終端消費",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "聯準會降息預期",
+      "reason": "市場對聯準會降息預期不斷推遲，甚至有升息可能。需關注油價變化、經濟表現及勞動力市場數據，判斷降息時機與幅度",
+      "mentionedBy": [
+        "財女Jenny",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "AI產業發展",
+      "reason": "AI在未來幾年內仍將是產業主流，應用範圍持續擴大，從娛樂到精準醫療都有潛力。但OpenAI和Anthropic等AI公司燒錢速度快，訓練成本高昂，損益平衡時間點較晚",
+      "mentionedBy": [
+        "李兆華",
+        "財女Jenny",
+        "UNRIVALED INVESTING"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "半導體產業週期",
+      "reason": "本輪AI週期與半導體週期密切相關，但AI週期長度仍是挑戰。若遇大幅回調，是長期投資的買點",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "謝孟恭"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "記憶體產業供需",
+      "reason": "模組廠如群聯、創見Q2報價看好，DRAM報價預期持續上漲。NAND Flash因大廠退出中低階市場，下半年缺貨漲價情況明朗",
+      "mentionedBy": [
+        "叔叔",
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "低軌衛星產業",
+      "reason": "SpaceX發射量持續增長，Amazon也將加大發射量，整體產業趨勢向上",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "網路安全產業",
+      "reason": "Anthropic 的 Mythos 模型展示了 AI 在網路安全領域的巨大潛力，能夠自主發現並利用漏洞。這使得網路攻擊的可能性大幅增加，也凸顯了網路防禦的重要性",
+      "mentionedBy": [
+        "UNRIVALED INVESTING"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "原物料價格",
+      "reason": "原物料及塑化股的漲價主要來自於成本推升而非需求增加，短線受油價波動影響大，不適合中長期投資",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    "在台股市場，抱住股票的重要性，避免因短期波動頻繁交易而累積高額摩擦成本",
+    "散戶和上班族在股市中最重要的武器是時間，只要看好產業，長期持有在零槓桿狀況下相對安全",
+    "EMIB技術的優勢在於無需昂貴的矽中介層，可節省大量矽面積成本，提高設計靈活度與擴充性",
+    "川普的交易模式是先以強硬威脅，再延後或縮手，但仍能達到美國利益優先的目的",
+    "市場擔憂已從地緣政治惡化轉向「沒買到怎麼辦」的FOMO情緒",
+    "投資不等人，市場永遠不會等待完美時機，應在不確定性中行動，長期投資時間是朋友",
+    "市場敘事不一定精準，但有時美麗的誤會也能帶來獲利，重要的是供需關係",
+    "槓桿應在有獲利時加碼，且在大盤波動放大時降低，以避免斷頭風險",
+    "不要因為戰爭這種無法預測的事件改變既有投資策略，長期來看，戰爭結束後市場將回歸基本面",
+    "聯準會降息分為正常化降息與挽救經濟降息，兩者對市場反應和類股表現影響不同",
+    "AI的發展將提升資安需求，AI不僅是威脅，更將成為防禦工具，強化資安產品與服務",
+    "現在的商業世界強調合作共贏，而非單打獨鬥，透過合作創造更大的市場",
+    "AI應用將在未來五到十年內對癌症治療產生革命性影響，精準醫療將成為可能",
+    "投資市場的節奏感非常重要，便宜時敢於佈局，大漲時享受成果，避免追高殺低",
+    "如果選股能力不佳或無法斷捨離，建議從市值型或科技龍頭ETF開始，跟隨大盤表現",
+    "投資的最終目的是享受生活，而非沉迷於短線交易的刺激，應將投資獲利轉化為實際生活體驗",
+    "Anthropic 的 Claude Mythos 模型展示了 AI 在網路安全領域的顛覆性能力，對國家安全構成潛在威脅",
+    "AI 實驗室的商業模式可能從提供通用型 API 服務轉向與特定企業建立合資企業，提供獨家且高度客製化的 AI 解決方案",
+    "AI 發展的速度正在加快，這引發了關於 AI 監管、甚至國有化的討論，以應對其潜在的危險性"
+  ],
+  "riskAlerts": [
+    "台股市場為淺碟市場，消息面容易影響股價，需謹慎判斷",
+    "Intel的兩奈米製程仍有挑戰，與台積電仍有差距，需觀察其後續發展",
+    "AI概念股可能面臨估值過高，下半年資金緊縮的風險",
+    "通膨壓力若未能有效緩解，可能影響聯準會降息路徑",
+    "美伊停火協議兩週後仍充滿變數，地緣政治風險可能再次升溫",
+    "Tesla TeraFab計畫可能面臨大量資金投入與初期良率問題，導致持續虧損",
+    "中國手機廠面臨出貨量大幅衰退的風險，相關供應鏈可能受衝擊",
+    "平價消費級應用元件股因手機砍單潮而相對危險，可能持續破底",
+    "油價若持續上漲至120-130美元以上，可能破壞需求，對股市造成負面影響",
+    "槓桿使用不當可能導致在市場大幅回調時被斷頭",
+    "AI概念股面臨高昂的訓練成本和推論成本，短期內難以實現損益平衡",
+    "大型科技股股價飆漲時不宜FOMO追高，應回歸估值區間和支撐位",
+    "中東局勢仍未完全落幕，未來可能仍有震盪",
+    "原物料及塑化股的漲價動能可能不持久，需留意油價波動",
+    "個股投資若選錯標的或無法有效停損停利，長期可能難以累積正報酬",
+    "中東停火協議僅為試用版，地緣政治風險仍存，可能導致市場反覆震盪",
+    "聯準會會議紀要顯示通膨可能慢於預期，且更多官員提及加息可能性",
+    "科技股估值壓力並未真正消失，需警惕利率環境變化帶來的影響",
+    "AI 模型（如 Mythos）的強大能力可能被惡意利用，導致大規模網路攻擊",
+    "AI 產業的競爭激烈，市場可能商品化，導致利潤壓縮",
+    "AI 發展過快可能導致社會倫理和安全問題，引發政府更嚴格的監管甚至國有化"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "4/10",
+      "event": "台積電法說會",
+      "tickers": [
+        "台積電"
+      ]
+    },
+    {
+      "date": "4/10",
+      "event": "美伊談判開始，若同意可延長",
+      "tickers": []
+    },
+    {
+      "date": "4月份",
+      "event": "4月份CPI數據公布",
+      "tickers": []
+    },
+    {
+      "date": "4月16日",
+      "event": "台積電法說會",
+      "tickers": [
+        "台積電"
+      ]
+    },
+    {
+      "date": "周五",
+      "event": "CPI數據公布",
+      "tickers": [
+        "S&P 500 指數",
+        "QQQ",
+        "IWM"
+      ]
+    },
+    {
+      "date": "6月",
+      "event": "SpaceX IPO",
+      "tickers": []
+    },
+    {
+      "date": "9月",
+      "event": "摺疊iPhone與iPhone 18 Pro/Pro Max發布",
+      "tickers": [
+        "AAPL"
+      ]
+    },
+    {
+      "date": "2026年",
+      "event": "Intel馬來西亞廠啟用",
+      "tickers": [
+        "Intel"
+      ]
+    },
+    {
+      "date": "2026年Q3",
+      "event": "啟碁80G交換器大量出貨",
+      "tickers": [
+        "啟碁"
+      ]
+    },
+    {
+      "date": "2026年",
+      "event": "Anthropic 預計上市",
+      "tickers": [
+        "Anthropic"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "叔叔",
+      "episode": "EP216 | 台、美股重點一次說，台積電法說會前瞻，半導體檢測與光學材料漲價，低軌衛星台廠營收占比",
+      "episodeLink": "https://player.soundon.fm/p/70907bd6-d0ae-4b64-bc38-2bf48ae4fc36/episodes/36d3c196-64af-4a37-9b6a-057fe68e9508",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深度分析台積電法說會前瞻、半導體檢測與光學材料漲價趨勢，以及低軌衛星台廠營收占比，看好多項科技產業發展",
+      "detailedSummary": "本集節目全面探討台股與美股的重點投資機會，特別聚焦於台積電即將召開的法說會及其對市場的潛在影響。主持人詳細分析了半導體檢測設備產業的強勁表現，包括旺矽、穎崴、智茂等公司因AI晶片需求而受惠。同時深入討論低軌衛星產業鏈，SpaceX發射量大增帶動相關台廠如昇達科、華通、台光電等營收成長。節目也涵蓋Intel的EMIB技術突破、生化鎵材料漲價、記憶體產業展望等多個投資主題，強調長期持有優質產業的重要性。",
+      "highlights": [
+        "台股近期士氣重振，千金股領漲，低軌衛星、CCL、記憶體、光通訊等題材股表現強勁",
+        "低軌衛星產業前景看好，SpaceX發射量大增，Amazon也將加大投入，相關台廠如昇達科、華通、文曄、台光電、啟碁營收佔比高",
+        "台積電法說會將至，市場關注其資本支出（CAPEX）是否上調，預期上調將對股價有正面影響",
+        "Intel在EMIB技術上取得進展，並與SpaceX、Tesla合作，股價創歷史新高，但兩奈米製程仍面臨挑戰",
+        "半導體檢測設備廠如旺矽、穎崴、智茂、宏捷科等受惠於AI晶片需求及技術轉變，表現強勁",
+        "生化鎵關鍵金屬報價持續上漲，帶動全新、穩懋、宏觀、聯亞、IET-KY等相關供應商股價",
+        "記憶體模組廠如群聯、創見Q2報價看好，DRAM報價預期持續上漲",
+        "主持人強調在台股市場中長期持有看好產業的重要性，並提醒投資人保持穩健心態，避免追高殺低"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/4/8(三)油價瞬崩17%!美伊停戰兩週!美股現在是買點?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-4-8-17",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "分析美伊停火對油價暴跌的影響，探討地緣政治緩解下的投資機會與通膨風險",
+      "detailedSummary": "本集節目深入分析美伊達成兩週停火協議對全球市場的重大影響。主持人指出油價瞬間暴跌17%反映市場對地緣政治風險的快速反應，但強調通膨壓力仍需關注4月份CPI數據。節目詳細討論川普政策重心轉向國內，大幅增加國防預算的戰略意圖，以及全球對美國信心度下滑的長期影響。主持人認為外部衝擊往往是美股的買點機會，但提醒投資者對AI行情需保持謹慎態度，並強調長期投資的重要性。",
+      "highlights": [
+        "美伊達成兩週停火協議，油價瞬崩17%，市場暫時鬆一口氣",
+        "地緣政治衝突被視為美股買點，但需對AI行情保持謹慎，下半年可能面臨資金緊縮",
+        "能源和農產品價格上漲已擴散至工業體系，4月份CPI能否回跌是通膨關鍵指標",
+        "川普大幅擴張國防軍費支出，佔預算比例創新高，預示未來可能採取更多軍事行動或投入國防AI科技",
+        "全球對美國的信心度下滑，中等實力國家尋求在中美間建立平衡",
+        "美國經濟在AI帶動下表現不錯，非農就業數據增長，為川普2026年經濟表現提供背書",
+        "投資不等人，市場永遠不會等待完美時機，應在不確定性中行動，長期投資時間是朋友",
+        "半導體產業與AI週期密切相關，若遇大幅回調是長期投資機會"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "謝孟恭",
+      "episode": "EP651 | One for all",
+      "episodeLink": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/b9af779d-9d07-437e-8291-d5f5772eaee0",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深度解析Tesla TeraFab計畫對Intel與Samsung的利多影響，以及AI時代下的產業投資機會",
+      "detailedSummary": "本集節目主持人分享對當前市場的深度觀察，特別關注Tesla TeraFab計畫為Intel與Samsung帶來的合作機會。主持人認為台股因GDP成長強勁而表現突出，美股在經歷大漲後若能守住技術面關鍵位置，可能代表跌勢結束。產業分析方面，看好CPU族群在Agentic AI時代的發展潛力，記憶體與被動元件因供需緊張而有投資價值。同時警告中國手機廠面臨嚴重砍單風險，相關供應鏈需謹慎評估。",
+      "highlights": [
+        "台股因GDP成長強勁，表現優於其他亞股",
+        "美股大漲後，若能守住季線，可能代表跌勢結束",
+        "Intel與Samsung因Tesla TeraFab計畫有望受惠，Tesla本身則面臨資金壓力",
+        "中國手機廠面臨嚴重砍單，相關平價消費級應用元件股風險高",
+        "Agentic AI時代對CPU需求增加，CPU族群有潛力",
+        "記憶體與被動元件因缺料或產業循環，未來有機會表現",
+        "槓桿應在有獲利時加碼，並在市場波動大時降低以控制風險",
+        "市場敘事不一定精準，但供需關係是股價上漲的關鍵"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/04/08 (三）停戰再兩週， 這次是真的？",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/87f52cfc-7bc0-4f5b-ac49-7d3822fd4ed0",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "探討美伊衝突緩解對市場的影響，分析聯準會降息預期變化與AI產業投資機會",
+      "detailedSummary": "本集節目深入分析美伊衝突暫緩對全球金融市場的多重影響。主持人詳細討論地緣政治風險趨緩如何影響VIX指數和油價走勢，以及聯準會降息預期因勞動力市場強勁和通膨壓力而推遲的複雜情況。個股分析涵蓋英特爾與馬斯克AI晶片合作的重大利多、蘋果摺疊手機的技術挑戰與商業潛力、保險業因政策利好而受惠等多個投資主題。節目特別強調AI產業的長期發展趨勢，以及資安股在AI時代的重要性。",
+      "highlights": [
+        "美伊衝突暫緩，地緣政治風險趨緩，VIX指數和油價下跌",
+        "聯準會降息預期推遲，JP摩根認為今年不會降息，需關注油價和經濟數據",
+        "英特爾與馬斯克合作開發AI晶片，股價大漲，有望成為重要催化劑",
+        "蘋果摺疊手機雖遇挑戰，但高定價有望拉升ASP，Siri導入AI是另一催化劑",
+        "聯合健康保險和CVS因Medcare保險給付調升而獲利預期大增",
+        "AI產業燒錢速度快，OpenAI和Anthropic短期難獲利，但長期看好AI硬體供應商",
+        "AI將成為資安防禦工具，資安股如CrowdStrike有望受惠於AI發展"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1072｜美伊停火2週，台股暴漲1531點，熱門股、主動ETF多檔創新高，能維持還是會再翻臉？用好的節奏豐收，還有機會？ft.報價天王 林信富",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/2ed752b2-c3f7-490f-8929-586f9adb048c",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "分析台股因美伊停火大漲的投資機會，強調AI產業主流地位與投資節奏的重要性",
+      "detailedSummary": "本集節目討論台股在美伊停火消息刺激下創下史上第二大漲點的市場表現。主持人與來賓深入分析AI產業在未來幾年仍將維持主流地位，特別看好PCB、矽光子、記憶體等相關產業的發展潛力。節目強調投資節奏的重要性，建議投資人在便宜時勇於佈局，大漲時享受成果，避免追高殺低的操作模式。同時提醒原物料股的漲價動能主要來自成本推升而非需求增長，不適合中長期投資策略。",
+      "highlights": [
+        "台股因美伊停火消息大漲153點，創史上第二大漲點",
+        "主持人認為AI仍是未來幾年的產業主流，應用廣泛",
+        "看好PCB、矽光子、記憶體等AI相關產業，多檔個股已創新高",
+        "建議投資人若不擅長個股操作，可考慮主動型或市值型ETF",
+        "提醒原物料及塑化股漲價動能主要來自成本推升，非需求，不適合中長期投資",
+        "強調投資節奏的重要性，避免追高殺低，並將投資獲利轉化為生活體驗",
+        "台積電法說會（4月16日）將是觀察半導體產業的重要催化劑"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "川宝：挣钱嘛 不寒碜！NaNa说美股(2026.04.08)",
+      "episodeLink": "https://www.youtube.com/watch?v=RuV6v_JcIm0",
+      "sentiment": "neutral",
+      "oneLiner": "分析中東停火協議對市場的短期影響，關注美股技術面走勢與通膨壓力",
+      "detailedSummary": "本集節目深入分析中東停火協議對全球金融市場的即時影響。主持人詳細討論國際油價因停火消息跳水的市場反應，以及美股指數暴力反彈後面臨的技術面挑戰。節目特別關注聯準會會議紀要顯示的通膨壓力與加息可能性，以及科技股估值壓力尚未完全消除的風險。同時分析英特爾加入馬斯克半導體項目的利好消息，以及航空、郵輪等出行產業因地緣政治緩解而受惠的投資機會。",
+      "highlights": [
+        "中東停火協議導致國際油價跳水，但供應鏈結構性破壞使其難以深跌",
+        "美股指數暴力反彈，但短期利好已兌現，6800點附近存在阻力",
+        "聯準會會議紀要顯示通膨壓力仍大，加息可能性上升，科技股估值壓力未消",
+        "英特爾加入馬斯克半導體項目，被市場視為利好，股價大漲",
+        "油氣板塊因獲利了結而下跌，但航空、郵輪等出行鏈條表現強勁",
+        "達美航空因主動收縮供給和煉油廠收益，在油價波動環境下抗壓能力較強",
+        "市場波動率指數VIX暴跌，但仍處於20以上，尚未進入舒適區"
+      ],
+      "source": "youtube"
+    },
+    {
+      "podcast": "UNRIVALED INVESTING",
+      "episode": "Anthropic Mythos: AI TOO DANGEROUS TO RELEASE! $1 TRILLION VALUATION?",
+      "episodeLink": "https://www.youtube.com/watch?v=gimB1zAWsR8",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深度探討Anthropic的Claude Mythos模型在網路安全領域的顛覆性能力與兆元估值潛力",
+      "detailedSummary": "本集節目深入探討AI新創公司Anthropic及其最新模型Claude Mythos的驚人能力。主持人詳細分析Mythos在網路安全領域展現的顛覆性力量，能夠自主發現並利用零日漏洞，引發對國家安全和AI監管的深度思考。節目重點討論Anthropic營收增長的驚人速度，從90億美元飆升至300億美元，企業客戶數量迅速翻倍，預計估值有望達到數兆美元。同時探討AI實驗室商業模式的潛在轉變，從通用產品轉向與特定企業的深度合作模式。",
+      "highlights": [
+        "Anthropic 的 Claude Mythos 模型展示了驚人的網路安全能力，能自主發現並利用零日漏洞",
+        "Mythos 的能力促使 Anthropic 與科技巨頭合作發起 Project Glasswing，旨在強化全球數位基礎設施",
+        "Anthropic 的營收年化增長率在三個月內從 90 億美元飆升至 300 億美元，企業客戶數量翻倍",
+        "主持人預計 Anthropic 的估值有望達到數兆美元，遠超當前 380 億美元的估值",
+        "AI 實驗室的商業模式可能轉向與特定產業的企業建立合資企業，提供獨家 AI 解決方案",
+        "Alphabet (Google) 間接持有 Anthropic 約 14% 的股份，是間接投資 Anthropic 的途徑之一",
+        "AI 技術的快速發展引發了對其監管甚至國有化的討論"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
