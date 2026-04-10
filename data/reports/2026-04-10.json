@@ -1,0 +1,558 @@
+{
+  "date": "2026-04-10",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 4,
+  "bullishSignals": [
+    {
+      "ticker": "00981A",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "統一台灣增長主動型ETF，今年以來績效達33.5%，規模已破千億，選股積極且具攻擊性，主持人推薦給妹妹並實際買進",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "20多塊（買進時18塊）"
+    },
+    {
+      "ticker": "00992A",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "群益台灣科技創新主動型ETF，今年以來績效達38.1%，為主動型ETF冠軍，主要著重於有創新能力的科技股",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台積電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "為00992A主要成分股之一，且為台灣科技產業的領頭羊，持續引領半導體風騷",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "甲骨文",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "若看好AI前景，甲骨文轉型期帶來的股價回撤是入場機會，公司透過大規模負債推進數據中心項目，若AI主線兌現，彈性大",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "138附近小量試水，130以下認真考慮，120重倉博弈"
+    },
+    {
+      "ticker": "AI基礎設施板塊",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "資金不敢流向軟體股，轉而抱團確定性高的硬體，如光通信、存儲、晶片等AI基礎設施板塊",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "CoreWeave",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "與Meta擴大AI基礎設施合作，獲得210億美元追加支出，總合約規模達352億美元，客戶結構多元化，印證AI算力需求強勁",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "META",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "Meta 推出新的 AI 模型 Musebox，並同步推出 Shopping Mode 結合社群數據與 AI 進行購物推薦，顯示其 AI 商業化潛力",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "DAL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "達美航空第一季財報優於預期，每股盈餘 0.64 美元（預期 0.61 美元），營收 142 億美元（預期 139.7 億美元）",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "智盛",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "智盛再創歷史新高，顯示設備股在台積電法說會前表現強勁",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "友達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "友達因號稱有矽光子技術，且集團內有富采等小LED轉矽光子，股價鎖漲停",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "波羅威",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人提到波羅威股價從兩三百漲到一千二，顯示其強勁的成長動能，儘管沒有營收獲利支撐，但市場追捧",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "1200"
+    },
+    {
+      "ticker": "高力",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "高力為00992A主要成分股之一，今日已是千元股，顯示其強勁的成長動能",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "千元股"
+    },
+    {
+      "ticker": "台燿",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台燿為00987A主要持股之一，今日創高達80塊，顯示其強勁的成長動能",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "80"
+    },
+    {
+      "ticker": "旺矽",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "旺矽為00992A主要成分股之一，且00992A有加碼，顯示其在科技創新領域的潛力",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "智茂",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "智茂為00992A主要成分股之一，且在設備股中不斷創新高，顯示其強勁的成長動能",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "頎邦",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "頎邦業績好，主持人早已佈局，即使981A買進也是加分，顯示其基本面良好",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "應用軟體股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "AI技術進展被解讀為對傳統軟體的顛覆，導致投資者信心崩潰，估值從疫情高峰的84倍壓縮到22.7倍",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "IGV",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "應用軟體股全線走低，IGV下跌3.9%，在納指暴漲背景下仍下跌1%",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "ServiceNow",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "股價從去年1月峰值回撤約63%，且未見底部，顯示投資者對其未來增長前景擔憂",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "RBRK",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "AI安全軟體股下跌10.6%，股價較高點腰斬，因AI模型發現大量軟體漏洞，引發對傳統安全產品被顛覆的憂慮",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "CRWD",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "NaNa说美股",
+          "reason": "網路安全龍頭股價重挫7.5%，受AI技術對傳統安全產品顛覆的憂慮影響",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "PLTR",
+      "consensus": "KOL 分歧",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "被市場擔憂在 AI 競爭中被 Anthropic 等新創公司取代，其估值過高，股價對負面消息敏感",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "NaNa说美股",
+          "reason": "雖然跌幅較其他軟體股少，但較高點回撤近40%，且有大空頭持續看空，認為其成就可能被AI快速超越",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "兩位KOL均看空，但理由略有不同",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "AI產業",
+      "reason": "AI競爭激烈，從產品亮麗到算力數據壁壘，後期基礎建設和生態系玩家可能反轉。AI技術的快速發展正在顛覆傳統軟體產業",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "油價",
+      "reason": "中東停火協議不確定性，油價可能維持高檔一段時間。地緣政治事件對油價影響巨大，但消息面反覆，導致油價波動劇烈",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "聯準會貨幣政策",
+      "reason": "聯準會會議紀要偏鷹派，多數官員認為通膨下降速度慢，甚至有官員主張升息。停火可能讓降息更難",
+      "mentionedBy": [
+        "財女Jenny",
+        "NaNa说美股"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "主動型ETF",
+      "reason": "主動型ETF在台灣市場蓬勃發展，競爭激烈，績效普遍優於大盤，且透明度高於主動型基金，是投資人參與市場的良好工具",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "設備股",
+      "reason": "台積電法說會前設備股表現強勁，且台灣設備廠因扶植本土廠商關係，接到台積電訂單至2028年，本益比提升",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "矽光子",
+      "reason": "矽光子族群在市場上表現強勁，不受基本面影響，值得持續關注其動向",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美股七巨頭",
+      "reason": "今年大部分跑輸大盤，但本益比已回到較低水準，有減便宜機會",
+      "mentionedBy": [
+        "游庭皓的財經皓角"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "標普500指數",
+      "reason": "指數在6840點面臨大量看漲期權賣單形成的壓力牆，突破困難。下方6720-6750為多頭防線",
+      "mentionedBy": [
+        "NaNa说美股"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    "中東停火協議僅限美伊雙方，不包含第三方國家，戰火可能從正面衝突轉向區域局部衝突，導致資產價格持續上漲",
+    "美國軍事支出大幅擴張，導致財政赤字問題加劇，川普政府將面臨刺激經濟、打通膨和打仗的多重挑戰",
+    "AI產業競爭激烈，初期亮麗的產品可能在後期面臨算力與數據壁壘，長期來看基礎建設和生態系玩家更具優勢",
+    "聯準會會議紀要偏鷹派，停火反而可能讓降息更難，因為通膨壓力仍在且經濟數據不差",
+    "AI技術的快速發展正在顛覆傳統軟體產業，導致軟體股估值承壓，資金轉向AI基礎設施硬體板塊",
+    "台灣ETF市場因高股息和AI風潮而蓬勃發展，且有強大的科技族群和AI族群支撐，與其他國家不同",
+    "台灣設備廠因扶植本土廠商，接到台積電訂單至2028年，本益比大幅提升，顯示其質變",
+    "主動型ETF因其透明度高、選股積極，且績效普遍優於市值型ETF，成為投資人參與市場的良好選擇",
+    "地緣政治事件對市場影響巨大，但消息面反覆，導致市場波動加劇，散戶容易被情緒牽引而錯失機會",
+    "期權市場的Gamma效應和CTA的持續買盤是短期市場走勢的重要驅動力，而非單純的情緒",
+    "散戶投資者在本波反彈中表現出明顯的懷疑態度，逢高賣出，與內幕人士的行為形成鮮明對比"
+  ],
+  "riskAlerts": [
+    "中東停火協議的不確定性，可能導致油價持續高檔，影響全球經濟",
+    "美國財政赤字問題加劇，可能對經濟穩定性造成長期影響",
+    "AI產業競爭激烈，部分公司可能面臨估值下修風險",
+    "摩天樓詛咒：AI資本支出完成後，若無法變現可能導致股市崩盤",
+    "中東停火協議的脆弱性，隨時可能破裂，導致油價再次飆升，影響全球經濟和通膨",
+    "聯準會可能因通膨壓力持續而延後降息，甚至考慮升息，對市場流動性造成壓力",
+    "AI 概念股估值過高，若無法有效將 AI 技術轉化為實際獲利，可能面臨估值下修風險",
+    "軟體股（SaaS）面臨 AI 威脅論，若無法適應 AI 帶來的變革，可能被新興 AI 解決方案取代",
+    "部分熱門股（如波羅威）可能缺乏營收獲利支撐，股價上漲主要靠市場追捧，存在潛在風險",
+    "跟隨主動型ETF的頻繁換股操作可能導致反向操作，因為基金經理人變化快速，可能隔日沖",
+    "AI技術對傳統軟體產業的顛覆可能導致相關公司估值持續承壓，甚至基本面惡化",
+    "高槓桿投資（如甲骨文）在AI主線兌現不如預期時，財務壓力可能被放大",
+    "散戶投資者容易被情緒牽引，可能錯失市場機會或在錯誤時機進行操作",
+    "市場情緒高度透支，若CPI數據超預期，可能引發獲利了結壓力"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "下週",
+      "event": "台積電法說會",
+      "tickers": [
+        "台積電",
+        "智盛",
+        "設備股"
+      ]
+    },
+    {
+      "date": "4/10",
+      "event": "3月CPI數據公布",
+      "tickers": [
+        "標普500指數"
+      ]
+    },
+    {
+      "date": "未知",
+      "event": "中東停火協議進展",
+      "tickers": [
+        "油價相關標的"
+      ]
+    },
+    {
+      "date": "未知",
+      "event": "聯準會未來 FOMC 會議",
+      "tickers": [
+        "整體市場"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/4/9(四)戰事不停 股市沒在怕?費半創史高!台股能跟上?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-4-9",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深度分析中東局勢與美股表現，費半創新高但七巨頭跑輸大盤，AI產業競爭激烈長期看好基礎建設",
+      "detailedSummary": "本集節目分析了中東局勢、美股表現及AI產業競爭。中東停火協議雖達成，但戰火可能轉向區域局部衝突，市場卻樂觀看待。美股費半指數創歷史新高，但七巨頭今年表現跑輸大盤，不過本益比已回落。AI產業競爭激烈，長期看好基礎建設和生態系玩家。台股與費半高度聯動，但散戶操作模式獨特。美國軍事支出大幅擴張導致財政赤字問題加劇，川普政府面臨多重挑戰。",
+      "highlights": [
+        "中東停火協議僅限美伊，戰火可能轉向區域局部衝突，市場樂觀情緒推升股市",
+        "費城半導體指數創歷史新高，部分半導體個股漲幅驚人",
+        "美股七巨頭今年表現跑輸大盤，但本益比已接近歷史低點，提供買入機會",
+        "AI產業競爭激烈，從產品亮麗到算力數據壁壘，長期領先者不一定能完全勝出",
+        "美國軍事支出大幅擴張，導致財政赤字問題加劇，川普政府面臨多重挑戰",
+        "川普政府將政策包裝成對選民有利的故事，以爭取中期選舉支持",
+        "台股與費半高度聯動，但散戶傾向下跌時買進，漲高不追"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/04/09 (四）停戰不同調，  META翻身？",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/1366f7cd-8626-46fb-b52b-e17f12fc872f",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "探討中東停火協議不確定性對油價影響，聯準會偏鷹派立場，Meta憑藉AI新模型展現翻身潛力",
+      "detailedSummary": "本集節目探討中東停火協議的不確定性及其對油價和聯準會政策的影響。儘管市場對停火反應樂觀，但實際情況複雜，油價可能維持高檔。聯準會會議紀要顯示偏鷹派立場，降息可能延後。節目中也分析了油價下跌對航空、郵輪等產業的利多，並提及達美航空財報優於預期。此外，節目深入探討了 AI 產業的發展，Palantir 因競爭擔憂股價下跌，而 Meta 則憑藉新 AI 模型和商業化策略展現翻身潛力。",
+      "highlights": [
+        "中東停火協議仍存在多重不確定性，可能隨時破裂，影響市場情緒",
+        "聯準會會議紀要偏鷹派，通膨下降速度慢，停火可能導致降息更難",
+        "油價下跌對航空、郵輪、娛樂產業是利多，達美航空財報表現優於預期",
+        "Palantir 因 AI 競爭及估值過高，股價受 Anthropic 消息影響下跌",
+        "Meta 推出新 AI 模型 Musebox 及購物推薦功能，展現 AI 商業化潛力",
+        "AI 仍是長期趨勢，但需關注 AI 概念股的現金流及獲利能力",
+        "事件型交易需謹慎，明確進出場時機，避免紙上富貴"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1073｜60幾檔漲停板，用主動式ETF幫忙蒐集？今年以來冠軍是00992A不是00981A？股市賠錢比失戀更容易處理？ft.基金醫生 馮志源",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/f3a25358-2609-4951-9545-21d60706f7c2",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深度解析台股熱門族群表現，主動型ETF興起成投資新選擇，強調投資心態調整的重要性",
+      "detailedSummary": "本集節目探討台股近期表現，儘管大盤冷靜，但中小型股和熱門族群表現強勁，特別是矽光子、設備股和機器人概念股。節目重點介紹主動型ETF的興起，強調其透明度高、選股積極且績效優異，並列舉多檔表現亮眼的主動型ETF。主持人也分享了投資心態的重要性，建議投資人若操作不順應重新調整策略，並提及吉保中心提供的電子投票和股東會紀念品E化領取服務。台灣設備廠因接到台積電訂單至2028年，本益比大幅提升。",
+      "highlights": [
+        "台股中小型股和熱門族群表現強勁，矽光子、設備股和機器人概念股受關注",
+        "主動型ETF在台灣市場蓬勃發展，績效普遍優於大盤，透明度高於主動型基金",
+        "00992A、00994A、00981A、00987A、00991A等主動型ETF今年以來績效亮眼，普遍超過30%",
+        "台灣設備廠因接到台積電訂單至2028年，本益比大幅提升，顯示其產業質變",
+        "投資心態調整的重要性，建議若操作不順應先停下來沉澱，再用穩定的方法重新開始",
+        "吉保中心提供電子投票和股東會紀念品E化領取服務，方便股東參與公司治理",
+        "主持人推薦00981A給妹妹，認為其選股積極且具攻擊性，已實際買進並獲利"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "NaNa说美股",
+      "episode": "原来是轰炸散户啊！NaNa说美股(2026.04.09)",
+      "episodeLink": "https://www.youtube.com/watch?v=d4x5Vuv9tvI",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "分析地緣政治對市場短期影響，AI技術顛覆傳統軟體股，甲骨文AI轉型成潛在機會",
+      "detailedSummary": "本集節目分析了地緣政治對油價和市場的短期影響，以及美國經濟數據的表現。主持人指出，市場在消息面和期權Gamma效應的驅動下出現反彈，但散戶卻普遍錯過。AI技術的快速發展對傳統軟體股造成衝擊，資金轉向AI基礎設施硬體板塊。甲骨文因其AI轉型被視為潛在機會，但其高槓桿也帶來財務風險。散戶投資者在本波反彈中表現出懷疑態度，與內幕人士行為形成對比。",
+      "highlights": [
+        "地緣政治事件導致油價劇烈波動，但隨後消息緩和油價回落",
+        "美國經濟數據顯示通膨壓力仍在，GDP和就業數據偏弱",
+        "標普500指數在消息面和CTA買盤推動下反彈，但上方6840點存在期權壓力牆",
+        "散戶投資者在本波反彈中表現出懷疑態度，逢高賣出，錯失機會",
+        "AI技術進展對傳統軟體股造成顛覆性影響，導致估值壓縮，資金流向AI基礎設施硬體",
+        "甲骨文透過高槓桿投資AI數據中心，被視為AI主線下的潛在機會，但需注意財務風險",
+        "CoreWeave與Meta擴大AI基礎設施合作，印證AI算力需求強勁"
+      ],
+      "source": "youtube"
+    }
+  ]
+}
