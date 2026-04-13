@@ -1,0 +1,133 @@
+{
+  "date": "2026-04-13",
+  "quickDigest": [],
+  "marketMood": "",
+  "totalSources": 1,
+  "bullishSignals": [],
+  "bearishSignals": [],
+  "monitorSignals": [
+    {
+      "topic": "聯發科",
+      "reason": "雖然市場擔憂其手機業務營收，但最新月營收表現不錯，且未來在 Google TPU 相關的 ASIC 貢獻將會是重點，尤其在 2026 年第四季及 2027 年第四季會有顯著成長。",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "博通",
+      "reason": "長期持有標的，在 ASIC 市佔和光通訊領域扮演重要角色，是 Google TPU 第七代及第八代 V8P 的主要設計廠商。",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "台積電",
+      "reason": "在 Google TPU 的技術合作中扮演關鍵角色，特別是 CoreOS 及 CoreOSL 技術。法說會的毛利率（62%-65%）和兩奈米營收將是關注重點。",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "Intel",
+      "reason": "與 Google 在 TPU V8E (HumanFish) 的 ENIB-DashT 技術上有合作，隨著智能晶片發展，Intel 也有利多產生，值得持續關注其變化。",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "先進封裝產業",
+      "reason": "AI 晶片尺寸增大，推動先進封裝產業發展，從圓形晶圓轉向方形面板晶圓。CoWoS 技術是重要方向，特別是玻璃基板的應用。",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "ABF 載板",
+      "reason": "CoWoS 若最終採用玻璃基板，可能省略 ABF 載板層，對 ABF 產業構成潛在風險。但因玻璃基板量產預計在 2028-2029 年，短期內 ABF 載板仍有漲價動能。",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "三泰式",
+      "reason": "台灣公司，主要從事製程的翹曲控制抑制方案，與工研院有合作經驗，並有量產客戶，預期與台積電有較主要合作關係，受益於先進封裝需求。",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "CPO (共同封裝光學)",
+      "reason": "AI 伺服器 GPU 傳輸量暴增，推動光通訊往更短距離的 scale up 發展，CPO 將成為關鍵技術。主要風險在於封裝製程的良率控制，特別是光纖與矽波導的對位精準度。",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "萬潤",
+      "reason": "CPO 相關供應鏈廠商，值得關注。",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "矽品",
+      "reason": "CPO 相關供應鏈廠商，值得關注。",
+      "mentionedBy": [
+        "叔叔"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    "Google TPU 的發展揭示了半導體產業鏈中各巨頭的合作與競爭關係，特別是聯發科、博通、台積電和 Intel 在不同世代 TPU 中的角色。",
+    "先進封裝技術是 AI 晶片發展的關鍵，CoWoS 和玻璃基板的應用將改變產業格局，同時也帶來 ABF 載板的潛在風險。",
+    "CPO 技術是解決 AI 伺服器內部高頻寬傳輸需求的未來方向，但其量產良率是主要挑戰。",
+    "投資半導體相關題材，需注意市場在關鍵事件（如台積電法說會）前後的資金流向，利多消息可能成為出貨時機。",
+    "長期投資應關注產業趨勢的結構性變化，而非短期股價波動，並適時調整對個股的看法。"
+  ],
+  "riskAlerts": [
+    "CoWoS 若最終採用玻璃基板，可能省略 ABF 載板層，對 ABF 產業構成潛在風險，儘管量產時間較遠。",
+    "AI 晶片尺寸增大，內部材料熱膨脹係數不同，可能導致翹曲問題，影響良率。",
+    "CPO 量產的最大風險在於封裝製程的良率，光纖與矽波導的微小對位偏差會導致訊號嚴重損耗。",
+    "台積電法說會等關鍵利多事件，若之前股價已大幅上漲，可能成為市場出貨的時機。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "未知",
+      "event": "台積電法說會",
+      "tickers": [
+        "台積電",
+        "2330.TW"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "叔叔",
+      "episode": "EP217 | 台、美股重點一次說，Google TPU 各代產品結構與台廠供應鏈， 台積電封裝技術進展與風險，CPO量產前注意",
+      "episodeLink": "https://player.soundon.fm/p/70907bd6-d0ae-4b64-bc38-2bf48ae4fc36/episodes/7a5bda6f-2295-497c-b200-2dd60e494050",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深入探討 Google TPU 產業鏈與先進封裝技術，聚焦台廠在 AI 晶片供應鏈的關鍵角色",
+      "detailedSummary": "本集節目深入探討 Google TPU 各代產品的技術結構與台廠供應鏈，特別點出聯發科、博通、台積電和 Intel 在其中的合作關係。節目強調先進封裝技術（如 CoWoS）和 CPO 在 AI 晶片發展中的重要性，並分析其潛在風險與機會。同時提醒投資者在台積電法說會等關鍵事件前後，需留意市場資金動向，避免追高殺低。",
+      "highlights": [
+        "詳細解析 Google TPU 從第七代到第八代的技術演進，以及聯發科、博通、台積電、Intel 在其中的合作角色。",
+        "強調聯發科在 Google TPU 相關 ASIC 訂單的未來貢獻，預期營收將有跳躍式成長。",
+        "分析先進封裝技術（CoWoS）的發展趨勢，特別是玻璃基板的應用對 ABF 載板的潛在影響。",
+        "指出 CPO 技術是解決 AI 伺服器內部傳輸瓶頸的關鍵，但其量產良率是主要挑戰。",
+        "提醒投資者在台積電法說會等關鍵事件前，設備股可能已先行反應，利多公布時需警惕出貨風險。",
+        "探討 AI 晶片尺寸增大帶來的翹曲風險，以及台灣廠商如三泰式在解決此問題上的角色。",
+        "建議投資者關注毛利率和兩奈米營收作為判斷台積電法說會表現的關鍵指標。"
+      ],
+      "source": "podcast"
+    }
+  ]
+}
