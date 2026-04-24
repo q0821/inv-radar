@@ -1,0 +1,741 @@
+{
+  "date": "2026-04-24",
+  "quickDigest": [
+    "台積電創歷史新高領軍，費半16連紅，AI算力主軸三大KOL高度共識看多",
+    "VRT、GEV財報超預期，AI資料中心電力散熱需求爆發，但估值50-67倍須謹慎追價",
+    "ServiceNow盤後跌逾10%，軟體股築底未完，AI行情硬體強、軟體弱分化加劇",
+    "台光電、南電、景碩銅箔基板四月起逐月漲價，載板缺布題材Q2出貨高峰將至",
+    "主動式ETF規模逼近兩千億，五月中資金入場撐盤，但台股短線過熱需防資金退潮"
+  ],
+  "marketMood": "AI算力與硬體基建強勢創高，軟體股拖累下多頭熱烈但分化加劇",
+  "totalSources": 3,
+  "bullishSignals": [
+    {
+      "ticker": "台積電",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "台股這波上漲的關鍵推力來自台積電領軍，整體權值股持續點火，屬於台股多頭核心。",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "台積電先創歷史新高，帶動市場信心；第二季毛利率與展望優於預期，顯示人工智慧需求仍然強勁。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "歷史新高"
+    },
+    {
+      "ticker": "VRT",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "受惠於AI資料中心高耗電與高散熱需求，第一季營收與每股盈餘均優於預期，全年指引上修，直流配電與更高電壓規格將在未來出貨，有助提升單機架含金量。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "遠期本益比接近50倍"
+    },
+    {
+      "ticker": "GEV",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "全球電力系統需求強勁，第一季訂單年增幅大、積壓訂單持續上升，自由現金流大幅超越去年全年，顯示供需極度緊俏且具備定價權。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "估值約67倍"
+    },
+    {
+      "ticker": "TSLA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "第一季汽車毛利率明顯改善，FSD訂閱用戶突破128萬且持續加速，Robotaxi與Optimus也在推進中，顯示公司正往AI與機器人轉型。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "本益比約10多倍到接近20倍"
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "高階銅箔基板需求緊俏，四月起逐月漲價，且在人工智慧與雲端伺服器需求帶動下，基本面強勁。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "股價已大幅上漲至高檔"
+    },
+    {
+      "ticker": "8046.TW（南電）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在短線缺布與漲價環境下，因客戶結構與轉嫁能力較佳，獲利爆發性可能較強。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "3044.TW（景碩）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板缺布題材與先進封裝需求升溫，Rubin世代封裝需求提升，景碩屬於長線受惠者。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "GOOGL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "Google在雲端大會推出第八代張量處理器與企業級AI代理工具，顯示AI運算與推理需求持續擴大，且公司同時採用輝達晶片，競合格局有利需求擴散。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "聯發科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "聯發科持續參與權值股輪動，和台積電一起帶動台股指數上攻，語境偏正面。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "美光",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "美光積極遊說美國推動新一輪半導體法案，若成功可強化對中國半導體與記憶體的出口限制，間接有利其競爭地位。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "比特幣",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "近期資金流入回升，且與納斯達克指數有機會重新連動，短期風向轉佳。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台耀",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "跟進調漲銅箔基板價格，受惠於產能緊俏與規格升級，短中期仍有漲價效應。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "6870.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在雲端與人工智慧新平台第二、三季出貨帶動下，法人資金可能持續關注，屬於供應鏈受惠標的。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "3665.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "切入雲端與人工智慧相關供應鏈，今年下半年毛利改善有機會帶動獲利與股價表現。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "8150.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "已切入亞馬遜相關業務，第二、三季出貨時間點明確，且在新供應鏈中有機會帶來業績改善。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2383.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "掌握雲端新平台出貨機會，在規格升級與新客戶導入下，第二季後營收有望轉強。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "3037.TW（新興）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在載板產業缺布與先進封裝趨勢下，屬於長線受惠標的，雖股價已反映部分利多，但主身段仍在。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "3691.TW（金像電）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "受惠於人工智慧伺服器與雲端需求，第二、三季營收有機會明顯放大。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "6770.TW（高技）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "因雲端訂單與人工智慧相關需求切入，短中期業績成長動能明顯。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "記憶體產業",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "基本面好到年底，雖然市場尚未給足評價，但若資金持續追逐，可能出現補漲。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2317.TW（鴻海）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在資金輪動下走強，且被主動式ETF納入持有，大型權值股仍有資金青睞。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "金居",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在高階材料需求與供需緊張下仍屬受惠族群，板塊內相對便宜標的。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2454.TW（聯發科）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "看好聯發科在人工智慧與相關高速傳輸應用的中長線角色，屬於市場持續關注標的。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "世芯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "隨著第二季出貨與人工智慧題材延續，股價重新大幅上行，趨勢仍強。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "曾回測至 2480 附近"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "NOW（ServiceNow）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "財女Jenny",
+          "reason": "雖然財報表現尚可，但中東地區訂單延遲與併購案影響使公司對前景表態轉趨保守，盤後股價大幅下挫。",
+          "action": "賣出",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "盤後下跌超過10%"
+    },
+    {
+      "ticker": "軟體股",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "本場人工智慧風暴主要反映在軟體股身上，相關指數走勢顯示軟體類股壓力沉重、仍在築底，接近去年關稅戰低位區。",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "財女Jenny",
+          "reason": "軟體族群先前因AI代理工具出現而承壓，市場對AI末日的恐慌雖降溫，但底部型態尚未完全健全，短期波動仍大。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "接近去年關稅戰低位區"
+    },
+    {
+      "ticker": "中國半導體設備商",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "游庭皓的財經皓角",
+          "reason": "美國若推動新法案，將鎖定中國半導體設備與記憶體產業全面打壓，政策風險升高。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "華通",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "低軌衛星題材受馬斯克對人工智慧上太空說法影響，短線題材加分可能下降，若基本面未大幅爆發，股價容易受壓。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "低軌衛星概念股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "馬斯克談人工智慧上太空雖具話題性，但技術與散熱問題仍難克服，題材強度可能不如市場想像。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "費城半導體指數",
+      "reason": "費城半導體指數已連續十六個交易日上漲並創新高，顯示人工智慧與半導體題材持續受資金追捧，短線動能非常強。",
+      "mentionedBy": [
+        "游庭皓的財經皓角"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "人工智慧基礎建設",
+      "reason": "市場資金持續集中在算力、晶片與資料中心，目前領漲主軸仍是人工智慧基礎建設而非軟體。大型雲端業者持續擴張資本支出，各家雲端與晶片廠持續擴增AI基礎設施，AI算力與推理需求持續膨脹，帶動資料中心對電力、散熱、配電與不斷電系統需求快速上升。",
+      "mentionedBy": [
+        "游庭皓的財經皓角",
+        "財女Jenny",
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "中東原油與航運",
+      "reason": "荷姆茲海峽與中東局勢仍緊張，船隻遭攻擊且運輸風險未消，油價與通膨外溢效果仍可能持續。油價一度重新站上一百美元。",
+      "mentionedBy": [
+        "游庭皓的財經皓角"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "軟體股底部觀察",
+      "reason": "軟體族群先前因AI代理工具出現而承壓，市場對AI末日的恐慌已明顯降溫，但短期波動仍大，底部型態尚未完全健全，需持續觀察後續財報與地緣政治變化。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "VRT 估值與整理風險",
+      "reason": "公司基本面強勁但估值已明顯偏高（遠期本益比接近50倍），短線若缺乏更大催化劑，股價可能進入整理消化階段。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "GEV 短線籌碼整理",
+      "reason": "股價已創高且估值溢價明顯（約67倍），雖然長期趨勢仍佳，但短線有整理與籌碼消化的風險。來賓建議財報後可考慮減碼。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "TSLA 資本支出與現金流",
+      "reason": "公司今年資本支出將超過250億美元，六座工廠同時建設或改造，短期自由現金流可能轉弱，市場需要時間驗證投資回報。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "NVDA 算力需求",
+      "reason": "Google宣布同時使用輝達晶片並計畫成為新一代架構首批部署客戶之一，代表算力需求仍強，但股價近期相對震盪。",
+      "mentionedBy": [
+        "財女Jenny"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "台股多空動態",
+      "reason": "台股短線漲幅與集中度過熱，但多頭結構尚未結束，主要是資金行情與企業獲利上修共同推升指數。四萬點為重要觀察關卡，下週多家大型公司法說會與六月Computex為近期關鍵催化劑。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "主動式ETF資金動態",
+      "reason": "主動式ETF已成為台股資金永動機，規模快速成長已逼近兩千億，募集資金將在五月中陸續進場，持續影響市場供需結構。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "台股資金面風險",
+      "reason": "需觀察不限用途借款是否緊縮、融資成本是否上升，以及法人是否因獲利達標而降低持股，這些都可能讓資金退潮。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "半導體與伺服器供應鏈出貨高峰",
+      "reason": "第二、三季是新平台與人工智慧伺服器出貨高峰，相關供應鏈將由訂單轉化為營收成長，為重要觀察窗口。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "載板產業缺布與先進封裝",
+      "reason": "載板主軸是缺布、漲價與先進封裝結構改變，短期看缺布漲價，中長期看Rubin世代與先進封裝升級帶來的主身段。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "人工智慧資本支出長期趨勢",
+      "reason": "人工智慧仍是未來兩到三年的長期趨勢，台股基本面與獲利上修都圍繞著這條主線，大型雲端廠資本支出與新平台導入為核心驅動力。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    }
+  ],
+  "keyInsights": [
+    "市場已進入「跌幅有限、上漲無限」的軋空行情，下跌預期被反覆證偽，空頭回補力量持續推升指數。",
+    "全球經濟正在從效率優先轉向安全優先，軍工、能源、供應鏈自主化將成為中長期主軸。",
+    "人工智慧行情不是全面受惠，真正強勢的是算力、晶片與資料中心，軟體股相對疲弱。",
+    "比特幣目前更像是在修正前期脫鉤狀態，若納斯達克持續走強，兩者可能重新建立聯動。",
+    "中方在半導體策略上已從追求最先進製程，轉為先建立可運轉的自主供應鏈與量產能力。",
+    "川習會、台灣議題、科技管制與供應鏈重組，將是接下來重要的國際博弈焦點。",
+    "AI需求不只在訓練端，推理端與交易量的爆發才是下一階段真正放大的核心，且這會持續推升電力與散熱等底層基礎設施需求。",
+    "資料中心供應鏈的投資邏輯已從單純硬體出貨，轉向看誰能在電力、散熱、配電與服務黏著度上形成更高定價權。",
+    "特斯拉的長期價值更多建立在AI、機器人與自動駕駛的想像空間，但短期必須面對高額資本支出與現金流壓力。",
+    "電力設備與電網相關公司因AI用電需求爆發而進入結構性成長階段，甚至出現訂單價格上調的現象。",
+    "投資組合較適合採取分批與部位調節，而不是在高估值與高預期標的上一次性重押。",
+    "這一波台股上漲不只是本益比擴張，而是企業獲利上修、產業需求強勁與主動式資金流入三者共振。",
+    "主動式ETF已不是單純的產品，而是影響台股供需結構的重要資金引擎。",
+    "現在評價高不等於不能買，關鍵在於標的是否真的有第二、三季營收加速或漲價能力。",
+    "載板族群的主身段不只來自缺布，更來自先進封裝結構改變，這是中長線比短線更重要的邏輯。",
+    "市場上很多股票不是因為基本面突然變好而漲，而是因為資金願意先給評價，等故事與數字在後面補上。",
+    "來賓的核心判斷是多頭未結束，但短線資金行情已經過熱，最需要留意的是資金退潮而非基本面反轉。",
+    "投資人如果心理壓力太大，應該先管理部位而不是硬追高，因為短線波動可能非常劇烈。"
+  ],
+  "riskAlerts": [
+    "中東局勢若再度升級，油價與通膨壓力可能再次外溢。",
+    "人工智慧概念股若基本面跟不上資金期待，仍有估值回檔風險。",
+    "軟體股在本輪人工智慧行情中明顯落後，短線壓力仍大。",
+    "美國若強化對中國半導體的出口限制，相關供應鏈與設備商面臨政策風險。",
+    "台股與美股連續創高後，若財報不如預期，容易出現高檔震盪。",
+    "高估值標的若缺乏新催化劑，容易出現短線修正與籌碼整理。",
+    "特斯拉未來自由現金流可能再度轉弱，市場將嚴格檢驗巨額資本支出的回報。",
+    "地緣政治風險已開始影響企業訂單遞延與財報表現，尤其是跨區域營運公司。",
+    "AI概念股雖趨勢強，但部分個股估值已高，追價風險上升。",
+    "台股短線漲幅過大、評價偏高，若資金退潮容易出現快速修正。",
+    "不限用途借款與融資環境若收緊，可能削弱市場買盤。",
+    "法人若因獲利達標而降低持股，可能讓盤勢失去支撐。",
+    "低軌衛星與人工智慧上太空等題材偏熱，若無實際訂單與獲利貢獻，容易回檔。",
+    "部分高位階個股本益比已難以用傳統方法評估，追價風險提高。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "近期",
+      "event": "川習會登場，牽動台灣議題、中美科技股與半導體產業走向",
+      "tickers": [
+        "台灣議題",
+        "中美科技股",
+        "半導體產業"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "美國可能推動新一輪半導體法案與出口管制",
+      "tickers": [
+        "美光",
+        "中國半導體設備商"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "中東談判與荷姆茲海峽局勢變化，影響原油、航運與通膨相關標的",
+      "tickers": [
+        "原油",
+        "航運",
+        "通膨相關標的"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "特斯拉六座工廠的建設與改造持續推進，觀察是否轉化為實際營收貢獻",
+      "tickers": [
+        "TSLA"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "Google雲端大會後，企業級AI代理工具與第八代張量處理器進一步導入客戶",
+      "tickers": [
+        "GOOGL"
+      ]
+    },
+    {
+      "date": "下週",
+      "event": "多家大型公司公布第一季法說與第二季展望",
+      "tickers": [
+        "台積電",
+        "鴻海",
+        "台達電"
+      ]
+    },
+    {
+      "date": "五月中",
+      "event": "主動式ETF募集資金陸續進場，影響台股供需結構",
+      "tickers": [
+        "981A",
+        "403A"
+      ]
+    },
+    {
+      "date": "六月",
+      "event": "Computex 展會檢視人工智慧與新平台發展進度",
+      "tickers": [
+        "台股AI供應鏈",
+        "台光電",
+        "南電",
+        "景碩"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "游庭皓的財經皓角",
+      "episode": "2026/4/23(四)費半16連紅 AI榮景回來了?台股得了 不會跌的病?【早晨財經速解讀】",
+      "episodeLink": "https://soundcloud.com/l9j0totnyhgh/2026-4-23-16-ai",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "費半十六連紅、台積電創歷史新高，主持人解析AI行情為何只漲晶片不漲軟體，並提醒地緣政治風險仍潛伏。",
+      "detailedSummary": "本集核心觀點是全球資本市場仍由人工智慧與半導體敘事主導，美股、台股與費半同步走強，市場呈現明顯的樂觀風險偏好。主持人強調這一波AI行情的受惠者高度集中在算力、晶片與資料中心，軟體股則相對承壓、仍在築底。台股方面，台積電領軍創歷史新高，帶動整體權值股輪動，指數進入「軋空行情」。地緣政治方面，中東衝突、油價、川習會等變數仍在，美國也可能推出新法案強化對中國半導體出口管制，比特幣則因資金流入回升，有望重新與納斯達克連動。",
+      "highlights": [
+        "費城半導體指數連續十六日上漲並創新高，AI與半導體行情持續升溫。",
+        "台股在台積電領軍下屢創盤中新高，主持人形容市場出現「不會跌的病」。",
+        "中東地緣衝突雖未降溫，油價一度重新站上百美元，但股市選擇持續交易樂觀預期。",
+        "主持人認為全球經濟正從效率導向轉向安全導向，軍工與供應鏈自主化重要性上升。",
+        "AI行情不是全面受惠，真正強勢的是晶片、算力與資料中心，軟體股相對疲弱、接近去年低位區。",
+        "比特幣近期資金流入回升，若與納斯達克重新連動，可能成為風險偏好的延伸指標。",
+        "美國可能透過新法案加強對中國半導體與記憶體的出口管制，美光積極遊說中。",
+        "川習會、台海議題與科技管制將是未來重要談判籌碼，市場需持續留意政策變化。"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "財女Jenny",
+      "episode": "2026/04/23(四)特斯拉財報，狂砸250億擴張AI與機器人版圖，以及其他重點公司的財報！",
+      "episodeLink": "https://player.soundon.fm/p/4a8660a0-e0d0-490b-8d46-c28219606f47/episodes/655be494-e5a3-4c33-a36e-bea7d8ddc0b3",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "深度解析特斯拉財報轉型邏輯、Vertiv與GEV強勁業績，以及ServiceNow因地緣政治踩雷，揭示AI基礎建設與軟體股的明顯分化。",
+      "detailedSummary": "本集主軸聚焦在AI需求持續擴張帶動資料中心電力與散熱基礎設施受惠，以及特斯拉財報所揭示的AI與機器人轉型野心。Vertiv與GE Vernova均繳出優於預期的財報，反映電力設備供需極度緊俏，但主持人提醒估值偏高、短線可能整理。特斯拉汽車毛利率改善、FSD訂閱加速，但今年資本支出超過250億美元，自由現金流壓力不容忽視。相對地，ServiceNow因中東訂單遞延轉趨保守，盤後大跌逾10%，印證軟體股在此輪AI行情中的脆弱性。Google雲端大會推出新晶片與AI代理工具，則進一步確認企業端AI部署持續加速。",
+      "highlights": [
+        "AI需求從訓練走向推理，持續推升資料中心電力與散熱基礎設施的長期成長需求。",
+        "Google推出新一代張量處理器與企業級AI代理基金，企業端AI部署仍在加速。",
+        "Vertiv財報優於預期且全年指引上修，估值已高（遠期本益比近50倍），短線漲多後可能整理。",
+        "GE Vernova訂單與自由現金流表現強勁，電力設備供需極度緊俏，估值約67倍。",
+        "特斯拉汽車毛利率明顯改善，FSD訂閱用戶突破128萬，Robotaxi與Optimus仍是中長期核心敘事。",
+        "特斯拉今年資本支出大幅攀升超過250億美元，市場需觀察能否轉化為實質營收與現金流。",
+        "ServiceNow財報後因中東訂單遞延轉趨保守，盤後股價下跌超過10%，顯示地緣政治仍影響軟體訂閱業務。"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1083｜成交量近2兆！開盤漲千點怕買不到，盤中跌700點嚇爛？981A爆百萬張成交量，多頭沒變，找Q2業績起飛股？ft.統一投顧總經理 廖婉婷",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/0b19e3fe-b995-4542-8594-0ae197c0f5c8",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "統一投顧總經理廖婉婷親解台股天量急漲急跌，多頭未結束但資金過熱，精選Q2業績起飛股：台光電、南電、景碩最受青睞。",
+      "detailedSummary": "本集聚焦台股在歷史巨量與急漲急跌下的多空拉鋸，統一投顧總經理廖婉婷認為多頭結構未變，人工智慧需求、主動式ETF資金與企業獲利上修仍是核心推力，但短線漲幅與資金集中度已過熱，需留意資金退潮、法人降持與高評價風險。個股上最看好台積電、台光電、南電、景碩等受惠人工智慧與載板漲價的標的，並點名銅箔基板族群從四月起逐月漲價，第二、三季出貨放量。載板族群行情分為短線缺布漲價與中長線先進封裝兩個階段，後者才是真正的主身段。主動式ETF規模已逼近兩千億，五月中資金進場將持續支撐市場，但也需警惕不限用途借款緊縮、法人季末調部位等資金退潮訊號。",
+      "highlights": [
+        "台股單日劇烈震盪、成交量創天量，但統一投顧廖婉婷認為多頭格局仍未結束。",
+        "人工智慧需求與企業獲利上修，仍是支撐台股中長線的核心主軸。",
+        "主動式ETF規模逼近兩千億，已成為推升市場供需的重要資金引擎，五月中資金陸續進場。",
+        "短線需警惕不限用途借款收緊、融資與法人低持股等資金退潮訊號。",
+        "台積電、台光電、南電、景碩仍是本集最核心的看好標的，銅箔基板族群四月起逐月漲價。",
+        "載板族群行情分缺布漲價與先進封裝兩階段，Rubin世代帶來的封裝升級才是中長線主身段。",
+        "華通等低軌衛星概念股受馬斯克AI上太空說法影響，題材強度可能下降，短線須留意。"
+      ],
+      "source": "podcast"
+    }
+  ]
+}
