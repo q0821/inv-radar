@@ -1,0 +1,533 @@
+{
+  "date": "2026-05-09",
+  "quickDigest": [
+    "資金輪動主導：聯發科（2454）、瑞昱（3034）、聯詠（2308）接棒，IC設計IP重估行情擴散中",
+    "被動元件補漲：國巨（2325）漲停，低本益比＋籌碼乾淨成資金新寵，族群活化信號確立",
+    "台積電四月營收月減1.8%，AI供應鏈從本夢比轉向現金流實績檢驗，高標準時代來臨",
+    "散熱族群（奇鋐3017、雙鴻3324）震盪加劇，NVIDIA設計路線未定＋中國競爭衝擊，六月試產為關鍵",
+    "櫃買跌破前高至409點，中小題材股整理風險升高，大型權值仍有台積電壓陣"
+  ],
+  "marketMood": "AI主線高標準受檢驗，資金悄悄換跑道，輪動健康但追高需謹慎",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "2454.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "聯發科這一波屬於資金追逐與輪動行情，市場從原本只看 AI，逐漸把注意力轉到具備 IP 與多元產品線的 IC 設計龍頭。TPU 題材與 Google 合作、以及旗下達發的獲利支撐，讓市場開始把它視為除手機之外其他業務也逐步活化的標的。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2325.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "國巨被視為低本益比、仍有補漲空間的被動元件代表，前一週被點名後果然出現漲停表現。當市場資金輪動時，低估值且籌碼相對乾淨的族群更容易吸引熱錢。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "3034.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "瑞昱是這波 IC 設計輪動中的補漲代表之一，市場開始把資金從過熱題材往相對委屈但基本體質不差的大型 IC 設計股移動。其 IP 與產品組合仍具想像空間，籌碼面與族群輪動有利股價表現。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2308.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "聯詠是資金輪動下的強勢 IC 設計股，市場開始重新評價這些大型設計公司所擁有的 IP 與技術能量。盤中甚至出現漲停，顯示資金對於相對委屈的權值設計股有明顯偏好。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2458.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "創意仍在上漲，顯示 IP 與 ASIC 相關題材的熱度尚未退潮。市場把想像延伸到其他具 IP 能力的公司，創意持續受到資金青睞，短線仍有輪動優勢。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "6173.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "信昌電具有籌碼穩定性，大股東持股結構相對集中，市場容易在資金追捧下推升股價。屬於材料與成本轉嫁邏輯較容易成立的個股，只要市場願意想像，股價就可能先反應。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "3036.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "建漢盤中大幅波動後拉回，來賓認為若後續幾天低點不破，代表修正可能已接近結束，反而是較好的介入時點。屬於技術面與題材面結合的觀察，中性偏多。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "大量區上緣"
+    },
+    {
+      "ticker": "2382.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "廣達屬於 AI 供應鏈中仍具實質受惠的公司，修正較偏向漲多整理而非基本面轉弱。只要是真 AI，面對震盪會比較放心，仍被視為 AI 伺服器主線之一，投資邏輯主要來自產業地位與資金輪動。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "3017.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "奇鋐仍在 AI 散熱升級的長線趨勢內，真正要看的是六月之後鴻海兩片式散熱試產結果，以及 NVIDIA 最終是否堅持技術演進。若低點守住，修正反而可能成為再進場機會。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "支撐位待觀察"
+    },
+    {
+      "ticker": "3324.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "雙鴻目前市場疑慮主要來自新設計與客戶端規格變動，但不代表基本面已轉弱。若後續支撐守住，仍有機會在 AI 散熱升級中維持中長線成長，重點是觀察修正是否過度。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "支撐位待觀察"
+    },
+    {
+      "ticker": "6409.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "京元電雖然震盪大，但仍在 AI 供應鏈核心位置，基本面仍有支撐。屬於中性偏多、以產業位置為主的觀察。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "5274.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "四星科技仍在上漲，反映市場對 IP 族群的熱度持續。當市場開始接受大型 IC 設計公司可以把既有 IP 變現時，相關族群就會一起被推升。屬於資金行情中的觀察名單。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2345.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "智邦仍屬於受 AI 供應鏈帶動的核心公司之一。當市場在高位階中尋找真正受惠的標的時，智邦仍會被歸類在相對健康的資金配置中。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "6235.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "華孚與散熱及機殼鏈有關，因 CoolerMaster 與秦城合作的消息，市場開始重新思考台灣相關供應鏈的受惠程度。在機殼與散熱鏈輪動下，相關公司仍有題材想像。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2385.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "群光在光學與相關供應鏈中仍有資金關注，市場仍在尋找具備實質業績的標的，群光這類公司有機會在資金輪動時被重新評價。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2412.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "中華電被放在資金可能轉向的較防禦性板塊討論脈絡中。若 AI 與高波動題材進入整理，市場資金可能往更穩健的族群靠攏，電信股會是較容易被忽略但相對穩定的配置方向。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "2454.TW",
+      "consensus": "單一 KOL（與看多訊號並存，KOL 分歧：中長線看多但短線高預期風險）",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "市場目前給聯發科的期待過高，甚至對其產品的淨利率預期過度樂觀。TPU 產品仍屬練兵階段，今年不太可能拉到市場想像中的高毛利水準，若股價先反映過多，後續就會面臨評價修正壓力。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2382.TW",
+      "consensus": "單一 KOL（與看多訊號並存，KOL 分歧：中長線看多但短線估值過高）",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "市場對 AI 領頭羊的期待已經拉得很高，任何數字若沒有達到市場內心的高標準，就會立刻被視為不及預期。廣達即便基本面沒壞，短線也可能因為估值與預期過高而進入整理。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2363.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "矽統股價被市場追高後，開始面臨估值偏高與預期落差風險。本益比偏高的個股若沒有足夠基本面支撐，後續容易出現急跌或震盪，屬於需要警惕追價風險的案例。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2474.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "可成因 CoolerMaster 及散熱鏈消息間接影響而被市場重新檢視，機殼與散熱相關個股若只是題材被炒高而非真正受惠於明確訂單，後續容易面臨修正。供應鏈消息尚未完全釐清前，股價可能先反映利空或競爭壓力。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "4938.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "和碩若市場只因為題材而追捧，卻缺乏真正明確的 AI 收益或成長驅動，股價很容易先反應後再修正。對這類大型電子代工股的態度偏保守，認為在 AI 主線之外仍要看實際訂單與獲利貢獻。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤",
+      "reason": "台股目前仍處在資金輪動而非全面反轉階段，但指數已來到高位，第三季開始會比較辛苦。盤中急殺又快速拉回，顯示一方面有資金護盤，另一方面也有逢低承接，市場尚未進入明顯轉空，但整理需求升高。加權指數約 20403 點。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "AI 供應鏈",
+      "reason": "AI 相關公司不是不會成長，而是市場已經把期待值拉到非常高，接下來的考驗是能否持續交出超越預期的數字。只要出現月減、成長放緩或規格變動，就容易被市場放大解讀，AI 供應鏈將從本夢比轉向本益比與現金流檢驗。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "台積電",
+      "reason": "台積電公布四月營收月減 1.8%，雖然幅度不大，但已沒有再創歷史新高，顯示市場對 AI 領頭羊的要求被拉得非常高。這不是基本面變差，而是預期已過度拉滿，仍是後續指數的壓陣核心，但也可能進入高標準檢驗期。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "散熱族群",
+      "reason": "散熱族群已從單純的 AI 熱潮，進入技術規格與供應鏈再評價階段。NVIDIA 兩片式與一片式設計仍有變數，加上 CoolerMaster 與秦城合作可能改變競爭結構，散熱相關公司面臨更高的不確定性。六月前後技術規格與試產結果是關鍵觀察點。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "被動元件族群",
+      "reason": "被動元件是本波少數從低本益比出發、且具補漲邏輯的族群。核心邏輯是成本推升、報價轉嫁與籌碼沉澱，使這些公司在資金輪動時更容易成為承接對象。國巨的強勢被視為整個族群重新活化的信號。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "聯發科",
+      "reason": "聯發科不只是個股焦點，也是本波最重要的產業輪動觀察核心之一。市場正從單純追 AI，擴散到具 IP 與多元業務的 IC 設計龍頭，聯發科的強勢就是資金風格轉換的代表，有利盤面健康但也意味著高位階個股的預期會繼續升高。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "櫃買指數",
+      "reason": "櫃買已跌破前高與均線，代表中小型題材股開始進入整理期。相較之下，大盤還有台積電權值壓陣，因此櫃買的風險比加權更早顯現。前高約 416 點，現回落至約 409.3 點，反映資金從中小題材股轉向大型權值與高流動性標的的趨勢。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "軍工族群",
+      "reason": "520 前後與地緣政治氛圍升溫，軍工股開始有些微動作。川習會、兩岸與國防預算等因素會讓市場進入停看聽階段，但目前較像題材性輪動，尚未形成全面主升段。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "重電族群",
+      "reason": "重電類股盤中一度拉起，顯示資金並不只集中在 AI，也開始往先前相對落後的板塊尋找機會。若第三季前資金真的開始從高位階 AI 轉向防禦與落後補漲，重電可能成為輪動受惠族群之一。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "泰國供應鏈",
+      "reason": "很多台廠正在泰國擴廠，顯示供應鏈區域重組正在加速。這代表未來產能、成本與地緣政治風險管理將更依賴東南亞，對 PCB、載板、光電與代工鏈都有中長線影響。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "台股目前不是全面見頂，而是進入高位階下的資金輪動與整理期",
+      "reasoning": "盤中急跌後能迅速拉回，代表市場仍有承接力道，且大盤有台積電壓陣，不至於立刻轉空。另一方面，櫃買已先跌破前高，顯示中小型題材股開始率先整理。綜合來看，行情不是結束，而是從全面上攻轉為族群輪動。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "第三季前後台股 AI 主線會進入休息期，資金將尋找新的輪動方向",
+      "reasoning": "從五月到六月雖然還有空間，但到了第三季會比較辛苦，因為 AI 題材已經漲多。當市場對 AI 領頭羊的期待被拉得過高後，只要營收或獲利無法持續超標，就會進入整理。這意味著資金會逐步往被動元件、重電、軍工等其他族群輪動。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場正在把 IC 設計從手機與單一產品邏輯，重新定價為具 IP 與多元變現能力的平台型公司",
+      "reasoning": "從聯發科、創意、瑞昱、聯詠等個股的表現，推導出資金不再只看單一 AI 受惠，而是看公司是否有可複用的 IP 與多產品線。聯發科的強勢帶動市場重新想像大型 IC 設計的估值，這種重估不是因為短線獲利暴增，而是因為市場願意提前給出更高的成長敘事。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "本波強勢族群的共同特徵不是成長最快，而是籌碼最乾淨、最能被資金集中推動",
+      "reasoning": "公司若不說話、籌碼沉澱、或大股東持股集中，市場就更容易把它當成可操作的標的。國巨、信昌電、聯發科等案例都顯示，當籌碼結構與資金偏好對上時，股價會先行反映。這也解釋了為什麼有些基本面未必最強的公司，反而跑得更快。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "散熱族群的風險在於技術路線仍未完全定案，市場對一片式與兩片式設計的期待落差正在放大",
+      "reasoning": "NVIDIA 的散熱設計仍在演進中，若回到一片式代表技術改善速度不如預期；若持續往兩片式前進，則需要時間與良率驗證。再加上 CoolerMaster 與秦城合作的消息，市場開始擔心競爭結構改變，相關公司雖然長線不一定變差，但短線評價會因不確定性而修正。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台積電與 AI 領頭羊的未來壓力，不在於成長不存在，而在於市場已經把標準設到極高",
+      "reasoning": "以台積電四月營收月減為例，市場已不再接受「很好」這種等級，而是要求「超預期再超預期」。即便公司仍在成長，只要數字沒有創出新高或讓市場驚豔，股價也可能不動甚至回檔。這是典型的高期待、高位階估值壓力。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "真正健康的盤勢不是所有股票一起衝，而是讓資金在不同族群之間順暢輪動",
+      "reasoning": "今天雖然盤中洗盤，但聯詠、瑞昱、國巨等不同族群仍可接棒上漲，表示資金沒有離場，而是在換標的。這種輪動比單一題材獨強更健康，代表市場尚有風險偏好但不再全面追高。只要輪動持續，行情就還沒有真正結束。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "高位階 AI 與題材股漲多後，任何月減或不如預期都可能引發評價修正。",
+    "散熱族群的技術路線仍未完全定案，若一片式與兩片式方案反覆，股價波動會加大。",
+    "籌碼追價過熱時，本益比已偏高的公司若缺乏實質獲利支撐，容易快速回檔。",
+    "櫃買已先跌破前高，中小型題材股整理風險高於權值股。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "5/20前後",
+      "event": "520 相關政策與市場情緒觀察",
+      "tickers": [
+        "台股大盤",
+        "軍工族群"
+      ]
+    },
+    {
+      "date": "6月",
+      "event": "散熱與兩片式設計試產結果觀察",
+      "tickers": [
+        "3017.TW",
+        "3324.TW",
+        "3037.TW"
+      ]
+    },
+    {
+      "date": "第三季",
+      "event": "AI 主線可能進入較明顯休息與整理期",
+      "tickers": [
+        "2454.TW",
+        "2330.TW",
+        "AI 供應鏈"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1093｜盤中洗一下，兩股力量撐著，Q3才休息？台積電營收月減，IC龍頭股來補漲？載板、CPO、散熱震盪看法？操盤手 黃豐凱",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/132e9393-eb94-48f7-99a7-ee98f91794c3",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股 AI 主線進入高標準檢驗期，資金轉向 IC 設計與被動元件補漲，散熱族群因技術路線不確定性而震盪。",
+      "detailedSummary": "本集主持人李兆華與來賓黃豐凱深度分析台股盤中急跌後快速回穩的現象，認為市場仍有兩股力量在撐盤，尚未進入全面轉空。台積電四月營收月減 1.8% 雖幅度不大，卻反映出市場已把 AI 領頭羊的標準拉到極高，稍有不如預期就引發修正壓力。資金焦點轉向聯發科、瑞昱、聯詠、國巨等 IC 設計與被動元件族群，這些標的以低估值、乾淨籌碼或 IP 題材吸引熱錢接棒。散熱族群則因 NVIDIA 設計路線仍未定案、加上 CoolerMaster 與中國廠合作消息衝擊競爭結構，短線出現劇烈震盪，需等待六月試產結果才能明確評價方向。來賓建議投資人把握輪動邏輯，避免在高位追入已反映過多預期的標的，並提醒第三季前後 AI 主線可能進入更明顯的整理期。",
+      "highlights": [
+        "台股盤中急跌後快速回穩，顯示市場仍有資金護盤與逢低承接的兩股力量，尚未進入全面轉空。",
+        "台積電四月營收月減 1.8%，市場對 AI 領頭羊的容忍度極低，任何數字未超預期都可能引發評價修正。",
+        "聯發科、瑞昱、聯詠、創意等大型 IC 設計股成資金新焦點，市場開始重新定價具 IP 與多元產品線的平台型公司。",
+        "國巨漲停、信昌電走強，被動元件族群以低本益比與籌碼沉澱邏輯吸引資金輪動承接。",
+        "散熱族群（奇鋐、雙鴻、建漢）因 NVIDIA 一片式與兩片式設計路線仍未定案、加上 CoolerMaster 合作消息，短線劇烈震盪，需等六月試產結果才能明確評價。",
+        "櫃買指數跌破前高 416 點至約 409.3 點，中小型題材股整理風險高於大型權值股。",
+        "來賓明確指出第三季將比第二季辛苦，AI 主線漲多後，策略應以順著輪動為主、避免盲目追高。",
+        "台廠持續赴泰設廠，供應鏈區域重組加速，是值得中長線追蹤的產業結構性變化。"
+      ],
+      "source": "podcast"
+    }
+  ]
+}
