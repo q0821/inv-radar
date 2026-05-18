@@ -61,6 +61,28 @@ function fmtScore(s: number) {
   if (typeof s !== 'number' || isNaN(s)) return '0';
   return s > 0 ? `+${s}` : `${s}`;
 }
+
+// 把站上 symbol 轉成 TradingView 接受的格式
+// - 台股 XXXX.TW → TPE:XXXX
+// - 港股 XXXX.HK → HKEX:XXXX（補 4 位數）
+// - 美股 1-5 英文字母 → NASDAQ:XXX（NASDAQ 涵蓋率高、未涵蓋的 TV 內部會 fallback；少數仍會 error，由 fallback UI 承接）
+// - 其他（中文 ticker / 族群名 / 商品名等）→ 回 null，頁面顯示 fallback 文字
+function toTradingViewSymbol(sym: string): string | null {
+  if (!sym) return null;
+  const s = String(sym).trim();
+  const twMatch = s.match(/^(\d{4,6})\.TW$/i);
+  if (twMatch) return `TPE:${twMatch[1]}`;
+  const hkMatch = s.match(/^0*(\d{1,5})\.HK$/i);
+  if (hkMatch) {
+    // 港股 ticker 一般 4 位數（不足補 0），TradingView 格式如 HKEX:0700
+    const padded = hkMatch[1].padStart(4, '0');
+    return `HKEX:${padded}`;
+  }
+  if (/^[A-Z]{1,5}$/.test(s)) return `NASDAQ:${s}`;
+  return null;
+}
+
+const tvSymbol = toTradingViewSymbol(symbol || '');
 ---
 <BaseLayout title={`${symbol} 趨勢 - 投資訊號日報`}>
   <nav class="nav">
@@ -106,6 +128,19 @@ function fmtScore(s: number) {
             <span class={`trend-score ${scoreClass(score.all || 0)}`}>{fmtScore(score.all || 0)}</span>
           </div>
         </div>
+      </div>
+
+      <div class="tv-chart-wrapper" data-tv-symbol={tvSymbol || ''}>
+        <div style="font-size:0.85em;color:var(--c-text-muted);margin-bottom:0.4em;">即時 K 線（TradingView）</div>
+        {tvSymbol ? (
+          <div class="tv-chart-slot" data-tv-pending>
+            <div class="tv-chart-placeholder">圖表載入中…</div>
+          </div>
+        ) : (
+          <div class="tv-chart-fallback">
+            此標的「{symbol}」不在 TradingView 涵蓋範圍（中文族群名或非標準 ticker），暫不顯示 K 線。
+          </div>
+        )}
       </div>
 
       {timeline.length >= 2 && (
@@ -154,4 +189,121 @@ function fmtScore(s: number) {
       )}
     </div>
   </div>
+
+  <script>
+    // TradingView Advanced Real-Time Chart lazy loader
+    // - 只在 wrapper 進入 viewport 後才注入 TradingView script，避免拖累首屏
+    // - 響應 prefers-color-scheme，切換 theme
+    // - 每個頁面只會嵌入一個 widget，所以這邊不做多 wrapper 處理
+    (function () {
+      const wrapper = document.querySelector('.tv-chart-wrapper');
+      if (!wrapper) return;
+      const tvSymbol = wrapper.getAttribute('data-tv-symbol') || '';
+      if (!tvSymbol) return; // fallback 文字已由 SSR 處理
+      const slot = wrapper.querySelector('.tv-chart-slot');
+      if (!slot) return;
+
+      let loaded = false;
+
+      function getTheme() {
+        try {
+          return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+            ? 'dark'
+            : 'light';
+        } catch (_e) {
+          return 'light';
+        }
+      }
+
+      function clearSlot() {
+        while (slot.firstChild) slot.removeChild(slot.firstChild);
+      }
+
+      function setPlaceholder(text) {
+        clearSlot();
+        const p = document.createElement('div');
+        p.className = 'tv-chart-placeholder';
+        p.textContent = text;
+        slot.appendChild(p);
+      }
+
+      function loadWidget() {
+        if (loaded) return;
+        loaded = true;
+        clearSlot();
+
+        // TradingView 標準 embed pattern（container > widget div + 外部 script，config 以 textContent 注入）
+        const container = document.createElement('div');
+        container.className = 'tradingview-widget-container';
+        container.style.width = '100%';
+        container.style.height = '100%';
+
+        const widgetDiv = document.createElement('div');
+        widgetDiv.className = 'tradingview-widget-container__widget';
+        widgetDiv.style.width = '100%';
+        widgetDiv.style.height = '100%';
+        container.appendChild(widgetDiv);
+
+        const config = {
+          autosize: true,
+          symbol: tvSymbol,
+          interval: 'D',
+          timezone: 'Asia/Taipei',
+          theme: getTheme(),
+          style: '1',
+          locale: 'zh_TW',
+          enable_publishing: false,
+          hide_side_toolbar: false,
+          allow_symbol_change: false,
+          calendar: false,
+          support_host: 'https://www.tradingview.com'
+        };
+
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.async = true;
+        script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
+        // TradingView 規範：config 以 textContent 形式塞進 script tag（非 innerHTML / src）
+        script.appendChild(document.createTextNode(JSON.stringify(config)));
+        container.appendChild(script);
+
+        slot.appendChild(container);
+      }
+
+      // IntersectionObserver lazy load
+      if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver((entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting) {
+              loadWidget();
+              io.disconnect();
+              break;
+            }
+          }
+        }, { rootMargin: '200px' });
+        io.observe(wrapper);
+      } else {
+        // 老瀏覽器直接載
+        loadWidget();
+      }
+
+      // 監聽 prefers-color-scheme 變動，重新載入 widget
+      try {
+        const mq = window.matchMedia('(prefers-color-scheme: dark)');
+        const onChange = function () {
+          if (!loaded) return;
+          loaded = false;
+          setPlaceholder('圖表重新載入中…');
+          loadWidget();
+        };
+        if (mq.addEventListener) {
+          mq.addEventListener('change', onChange);
+        } else if (mq.addListener) {
+          mq.addListener(onChange);
+        }
+      } catch (_e) {
+        // ignore
+      }
+    })();
+  </script>
 </BaseLayout>
