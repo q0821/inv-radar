@@ -63,21 +63,16 @@ function fmtScore(s: number) {
 }
 
 // 把站上 symbol 轉成 TradingView 接受的格式
-// - 台股 XXXX.TW  (證交所上市) → TWSE:XXXX
-// - 台股 XXXX.TWO (櫃買中心上櫃) → TPEX:XXXX
 // - 港股 XXXX.HK → HKEX:XXXX（補 4 位數）
-// - 美股 1-5 英文字母 → NASDAQ:XXX（NASDAQ 涵蓋率高、未涵蓋的 TV 內部會 fallback；少數仍會 error，由 fallback UI 承接）
+// - 美股 1-5 英文字母 → NASDAQ:XXX（NASDAQ 涵蓋率高、未涵蓋的 TV 內部會 fallback）
+// - 台股 .TW / .TWO → 回 null（TradingView 對台股資料的免費 embed 授權有限制，
+//   widget 會顯示「此商品僅在 TradingView 上可用」。改走 Yahoo 連結 fallback）
 // - 其他（中文 ticker / 族群名 / 商品名等）→ 回 null，頁面顯示 fallback 文字
 function toTradingViewSymbol(sym: string): string | null {
   if (!sym) return null;
   const s = String(sym).trim();
-  const twoMatch = s.match(/^(\d{4,6})\.TWO$/i);
-  if (twoMatch) return `TPEX:${twoMatch[1]}`;
-  const twMatch = s.match(/^(\d{4,6})\.TW$/i);
-  if (twMatch) return `TWSE:${twMatch[1]}`;
   const hkMatch = s.match(/^0*(\d{1,5})\.HK$/i);
   if (hkMatch) {
-    // 港股 ticker 一般 4 位數（不足補 0），TradingView 格式如 HKEX:0700
     const padded = hkMatch[1].padStart(4, '0');
     return `HKEX:${padded}`;
   }
@@ -85,7 +80,17 @@ function toTradingViewSymbol(sym: string): string | null {
   return null;
 }
 
+// 對 ticker-shape 的 symbol 回傳 Yahoo Finance（台股版）連結
+// 台股 .TW / .TWO、港股 .HK、美股、ETF 等都可以開
+function toYahooFinanceUrl(sym: string): string | null {
+  if (!sym) return null;
+  const s = String(sym).trim();
+  if (!/^[A-Z0-9.\-]+$/i.test(s)) return null; // 純中文 / 含全形字 → 不給連結
+  return `https://tw.stock.yahoo.com/quote/${encodeURIComponent(s)}`;
+}
+
 const tvSymbol = toTradingViewSymbol(symbol || '');
+const yahooUrl = toYahooFinanceUrl(symbol || '');
 ---
 <BaseLayout title={`${symbol} 趨勢 - 投資訊號日報`}>
   <nav class="nav">
@@ -134,14 +139,23 @@ const tvSymbol = toTradingViewSymbol(symbol || '');
       </div>
 
       <div class="tv-chart-wrapper" data-tv-symbol={tvSymbol || ''}>
-        <div style="font-size:0.85em;color:var(--c-text-muted);margin-bottom:0.4em;">即時 K 線（TradingView）</div>
         {tvSymbol ? (
-          <div class="tv-chart-slot" data-tv-pending>
-            <div class="tv-chart-placeholder">圖表載入中…</div>
+          <>
+            <div style="font-size:0.85em;color:var(--c-text-muted);margin-bottom:0.4em;">即時 K 線（TradingView）</div>
+            <div class="tv-chart-slot" data-tv-pending>
+              <div class="tv-chart-placeholder">圖表載入中…</div>
+            </div>
+          </>
+        ) : yahooUrl ? (
+          <div class="tv-chart-fallback">
+            <div style="margin-bottom:0.4em;">TradingView 對台股 / 上櫃股的免費 embed 授權有限制，無法直接嵌入 K 線。</div>
+            <a href={yahooUrl} target="_blank" rel="noopener noreferrer" class="tv-chart-fallback-link">
+              到 Yahoo 股市看 {symbol} K 線 →
+            </a>
           </div>
         ) : (
           <div class="tv-chart-fallback">
-            此標的「{symbol}」不在 TradingView 涵蓋範圍（中文族群名或非標準 ticker），暫不顯示 K 線。
+            此標的「{symbol}」為中文族群名或非標準 ticker，暫不顯示 K 線。
           </div>
         )}
       </div>

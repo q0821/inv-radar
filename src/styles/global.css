@@ -875,6 +875,21 @@ a:hover {
   line-height: 1.5;
 }
 
+.tv-chart-fallback-link {
+  display: inline-block;
+  margin-top: 0.4em;
+  padding: 0.5em 1.1em;
+  background: var(--c-catalyst);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+}
+
+.tv-chart-fallback-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 640px) {
   .tv-chart-slot {
     height: 380px;
