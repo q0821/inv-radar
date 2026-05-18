@@ -186,9 +186,33 @@ function horizonLabel(h: string) {
     <div class="card-body">
       <h2 class="section-title insight">KOL 獨特觀點</h2>
       <div class="insight-block">
-        <ul>
-          {insights.map((ins: string) => <li>{ins}</li>)}
-        </ul>
+        {insights.map((ins: any) => {
+          if (typeof ins === 'string') {
+            return <div class="insight-item insight-item-simple">{ins}</div>;
+          }
+          const sourceText = Array.isArray(ins.source)
+            ? ins.source.join('、')
+            : (ins.source || '');
+          return (
+            <div class="insight-item">
+              {(ins.sector || ins.timeHorizon) && (
+                <div class="insight-tags">
+                  {ins.sector && <span class="badge badge-sector">{ins.sector}</span>}
+                  {ins.timeHorizon && (
+                    <span class={`badge badge-horizon-${ins.timeHorizon}`}>{horizonLabel(ins.timeHorizon)}</span>
+                  )}
+                </div>
+              )}
+              <div class="insight-headline">{ins.insight}</div>
+              {ins.reasoning && (
+                <div class="insight-reasoning">
+                  <strong>推導邏輯：</strong>{ins.reasoning}
+                </div>
+              )}
+              {sourceText && <div class="insight-source">— {sourceText}</div>}
+            </div>
+          );
+        })}
       </div>
     </div>
   </div>

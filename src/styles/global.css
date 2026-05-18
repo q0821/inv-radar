@@ -366,6 +366,55 @@ a:hover {
   font-size: 0.9em;
 }
 
+.insight-item {
+  background: var(--c-surface);
+  padding: 0.85em 1em;
+  margin-bottom: 0.6em;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--c-border);
+  border-left: 3px solid var(--c-insight);
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+
+.insight-item:last-child {
+  margin-bottom: 0;
+}
+
+.insight-tags {
+  margin-bottom: 0.4em;
+}
+
+.insight-headline {
+  font-size: 0.95em;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.insight-reasoning {
+  margin-top: 0.5em;
+  padding: 0.5em 0.7em;
+  background: var(--c-insight-bg);
+  border-radius: var(--radius-sm);
+  font-size: 0.88em;
+  line-height: 1.6;
+}
+
+.insight-reasoning strong {
+  color: var(--c-text-muted);
+}
+
+.insight-source {
+  margin-top: 0.4em;
+  font-size: 0.82em;
+  color: var(--c-text-muted);
+}
+
+.badge-sector {
+  background: var(--c-insight-bg);
+  color: var(--c-insight);
+}
+
 /* ── Episode Card ── */
 .episode-card {
   background: var(--c-surface);
