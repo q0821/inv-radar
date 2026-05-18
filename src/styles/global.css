@@ -996,6 +996,25 @@ a:hover {
   color: var(--c-text-muted);
 }
 
+.tech-row-explain {
+  font-size: 0.78em;
+  color: var(--c-text-muted);
+  line-height: 1.5;
+  margin: -0.2em 0 0.55em 0;
+  padding-left: 0.8em;
+  border-left: 2px solid var(--c-border);
+}
+
+.tech-verdict-explain {
+  margin-top: 0.6em;
+  font-size: 0.82em;
+  color: var(--c-text-secondary);
+  line-height: 1.55;
+  padding: 0.5em 0.7em;
+  background: var(--c-bg);
+  border-radius: var(--radius-xs);
+}
+
 /* 東亞配色：漲紅、跌綠 */
 .tech-value-up { color: var(--c-bearish); }
 .tech-value-down { color: var(--c-bullish); }

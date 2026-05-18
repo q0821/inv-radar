@@ -95,6 +95,73 @@ function verdictTagClass(tag: string) {
   return '';
 }
 
+// ── 白話說明 helpers ───────────────────────────────────────────
+function vsMaExplain(p: number | null | undefined, span: '中' | '長') {
+  if (typeof p !== 'number' || isNaN(p)) return '';
+  if (span === '中') {
+    return p >= 0 ? '短中期偏多，跌破要留意' : '短中期偏弱，需觀察是否回穩';
+  }
+  return p >= 0 ? '長期趨勢偏多' : '長期趨勢偏弱';
+}
+
+function slopeExplain(p: number | null | undefined) {
+  if (typeof p !== 'number' || isNaN(p)) return '';
+  if (p > 0.3) return '趨勢仍在加速';
+  if (p < -0.3) return '趨勢開始減弱';
+  return '趨勢動能停滯';
+}
+
+function crossExplain(type: string | null | undefined) {
+  if (type === 'golden') return '短均線從下方穿過長均線，常見短線轉強訊號';
+  if (type === 'death') return '短均線從上方跌破長均線，常見短線轉弱訊號';
+  return '近期均線交叉未明顯改變，趨勢延續或盤整中';
+}
+
+function rsiExplain(r: number | null | undefined) {
+  if (typeof r !== 'number' || isNaN(r)) return '';
+  if (r >= 70) return '短期漲幅過大，留意回檔風險';
+  if (r <= 30) return '短期跌幅過大，可能出現技術反彈';
+  if (r >= 60) return '動能強但尚未過熱（>=70 才警示）';
+  if (r < 40) return '動能弱但尚未恐慌（<=30 才警示）';
+  return '動能中性，無明顯訊號';
+}
+
+function volumeExplain(v: number | null | undefined) {
+  if (typeof v !== 'number' || isNaN(v)) return '';
+  if (v >= 1.5) return '明顯放量，買賣力道增強';
+  if (v <= 0.7) return '明顯縮量，買盤觀望中';
+  return '量能正常';
+}
+
+function pvRelExplain(r: string | null | undefined) {
+  if (r === 'sync') return '漲跌與量同方向，量價結構健康';
+  if (r === 'divergence_up_low_vol') return '漲勢缺乏成交支撐，留意假突破';
+  if (r === 'divergence_down_high_vol') return '賣壓加重，下跌伴隨放量，需謹慎';
+  return '近期量價無明顯訊號';
+}
+
+function verdictExplain(verdict: string[]) {
+  if (!verdict || verdict.length === 0) return '';
+  const hasBull = verdict.includes('中長線偏多');
+  const hasBear = verdict.includes('中長線偏空');
+  const hasShortStrong = verdict.includes('短線轉強');
+  const hasShortWeak = verdict.includes('短線轉弱');
+  const hot = verdict.includes('過熱');
+  const cold = verdict.includes('超賣');
+  const divergence = verdict.includes('量價背離警訊');
+
+  const parts: string[] = [];
+  if (hasBull && hasShortStrong) parts.push('中長期偏多 + 短期動能轉強，整體結構偏強');
+  else if (hasBear && hasShortWeak) parts.push('中長期偏空 + 短期動能轉弱，整體結構偏弱');
+  else if (hasBull) parts.push('長線結構偏多，短線無明顯轉折');
+  else if (hasBear) parts.push('長線結構偏空，短線無明顯轉折');
+  if (hot) parts.push('動能過強 — 短期回檔風險上升');
+  if (cold) parts.push('動能過弱 — 短期反彈機率提高');
+  if (divergence) parts.push('量價背離 — 訊號信賴度降低');
+  if (parts.length === 0) parts.push('趨勢不明顯，建議搭配其他指標觀察');
+  return parts.join('；');
+}
+
 const mentions = ticker.mentions || {};
 const score = ticker.sentimentScore || {};
 const mentionedBy = ticker.mentionedBy || [];
@@ -256,19 +323,24 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
               <span class={`tech-row-value ${pctClass(tech.priceVsMa20Pct)}`}>{fmtPct(tech.priceVsMa20Pct)}</span>
               <span class="tech-row-hint">{vsMaLabel(tech.priceVsMa20Pct)}中線</span>
             </div>
+            <div class="tech-row-explain">{vsMaExplain(tech.priceVsMa20Pct, '中')}</div>
             <div class="tech-row">
               <span class="tech-row-label">vs 60MA</span>
               <span class={`tech-row-value ${pctClass(tech.priceVsMa60Pct)}`}>{fmtPct(tech.priceVsMa60Pct)}</span>
               <span class="tech-row-hint">{vsMaLabel(tech.priceVsMa60Pct)}長線</span>
             </div>
+            <div class="tech-row-explain">{vsMaExplain(tech.priceVsMa60Pct, '長')}</div>
             {(() => {
               const s = slopeLabel(tech.ma20Slope5dPct);
               return (
-                <div class="tech-row">
-                  <span class="tech-row-label">MA20 斜率</span>
-                  <span class={`tech-row-value ${pctClass(tech.ma20Slope5dPct)}`}>{s.symbol} {s.text}</span>
-                  <span class="tech-row-hint">近 5 日 {fmtPct(tech.ma20Slope5dPct)}</span>
-                </div>
+                <>
+                  <div class="tech-row">
+                    <span class="tech-row-label">MA20 斜率</span>
+                    <span class={`tech-row-value ${pctClass(tech.ma20Slope5dPct)}`}>{s.symbol} {s.text}</span>
+                    <span class="tech-row-hint">近 5 日 {fmtPct(tech.ma20Slope5dPct)}</span>
+                  </div>
+                  <div class="tech-row-explain">{slopeExplain(tech.ma20Slope5dPct)}</div>
+                </>
               );
             })()}
           </div>
@@ -276,28 +348,40 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
           <div class="tech-section">
             <div class="tech-section-title">短線訊號</div>
             {tech.cross5_20 && tech.cross5_20.type === 'golden' && tech.cross5_20.daysAgo != null ? (
-              <div class="tech-row">
-                <span class="tech-row-label">5/20 均線</span>
-                <span class="tech-row-value tech-cross-golden">⚡ {tech.cross5_20.daysAgo} 天前形成金叉</span>
-              </div>
+              <>
+                <div class="tech-row">
+                  <span class="tech-row-label">5/20 均線</span>
+                  <span class="tech-row-value tech-cross-golden">⚡ {tech.cross5_20.daysAgo} 天前形成金叉</span>
+                </div>
+                <div class="tech-row-explain">{crossExplain('golden')}</div>
+              </>
             ) : tech.cross5_20 && tech.cross5_20.type === 'death' && tech.cross5_20.daysAgo != null ? (
-              <div class="tech-row">
-                <span class="tech-row-label">5/20 均線</span>
-                <span class="tech-row-value tech-cross-death">⚡ {tech.cross5_20.daysAgo} 天前形成死叉</span>
-              </div>
+              <>
+                <div class="tech-row">
+                  <span class="tech-row-label">5/20 均線</span>
+                  <span class="tech-row-value tech-cross-death">⚡ {tech.cross5_20.daysAgo} 天前形成死叉</span>
+                </div>
+                <div class="tech-row-explain">{crossExplain('death')}</div>
+              </>
             ) : (
-              <div class="tech-row">
-                <span class="tech-row-label">5/20 均線</span>
-                <span class="tech-row-value tech-value-neutral">近期無金叉 / 死叉</span>
-              </div>
+              <>
+                <div class="tech-row">
+                  <span class="tech-row-label">5/20 均線</span>
+                  <span class="tech-row-value tech-value-neutral">近期無金叉 / 死叉</span>
+                </div>
+                <div class="tech-row-explain">{crossExplain('none')}</div>
+              </>
             )}
             {(() => {
               const r = rsiLabel(tech.rsi14);
               return (
-                <div class="tech-row">
-                  <span class="tech-row-label">RSI 14</span>
-                  <span class={`tech-row-value ${r.cls}`}>{typeof tech.rsi14 === 'number' ? tech.rsi14.toFixed(1) : '—'} {r.text}</span>
-                </div>
+                <>
+                  <div class="tech-row">
+                    <span class="tech-row-label">RSI 14</span>
+                    <span class={`tech-row-value ${r.cls}`}>{typeof tech.rsi14 === 'number' ? tech.rsi14.toFixed(1) : '—'} {r.text}</span>
+                  </div>
+                  <div class="tech-row-explain">{rsiExplain(tech.rsi14)}</div>
+                </>
               );
             })()}
           </div>
@@ -307,20 +391,26 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
             {(() => {
               const v = volumeLabel(tech.volumeRatio);
               return (
-                <div class="tech-row">
-                  <span class="tech-row-label">量比</span>
-                  <span class={`tech-row-value ${v.cls}`}>{typeof tech.volumeRatio === 'number' ? `${tech.volumeRatio.toFixed(1)}× 均量` : '—'}</span>
-                  <span class="tech-row-hint">{v.text}</span>
-                </div>
+                <>
+                  <div class="tech-row">
+                    <span class="tech-row-label">量比</span>
+                    <span class={`tech-row-value ${v.cls}`}>{typeof tech.volumeRatio === 'number' ? `${tech.volumeRatio.toFixed(1)}× 均量` : '—'}</span>
+                    <span class="tech-row-hint">{v.text}</span>
+                  </div>
+                  <div class="tech-row-explain">{volumeExplain(tech.volumeRatio)}</div>
+                </>
               );
             })()}
             {(() => {
               const pv = pvRelLabel(tech.priceVolumeRelation);
               return (
-                <div class="tech-row">
-                  <span class="tech-row-label">價量</span>
-                  <span class={`tech-row-value ${pv.cls}`}>{pv.text}</span>
-                </div>
+                <>
+                  <div class="tech-row">
+                    <span class="tech-row-label">價量</span>
+                    <span class={`tech-row-value ${pv.cls}`}>{pv.text}</span>
+                  </div>
+                  <div class="tech-row-explain">{pvRelExplain(tech.priceVolumeRelation)}</div>
+                </>
               );
             })()}
           </div>
@@ -333,6 +423,7 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
                   <span class={`tech-verdict-tag ${verdictTagClass(tag)}`}>{tag}</span>
                 ))}
               </div>
+              <div class="tech-verdict-explain">{verdictExplain(tech.verdict)}</div>
             </div>
           )}
 
