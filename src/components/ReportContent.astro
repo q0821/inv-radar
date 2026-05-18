@@ -32,6 +32,39 @@ function horizonLabel(h: string) {
   const map: Record<string, string> = { short: '短線', medium: '中線', long: '長線' };
   return map[h] || '中線';
 }
+
+function fmtPct(v: number | null | undefined) {
+  if (v == null || Number.isNaN(v)) return null;
+  const sign = v > 0 ? '+' : '';
+  return sign + v.toFixed(1) + '%';
+}
+
+function trendClass(v: number | null | undefined) {
+  if (v == null || Number.isNaN(v)) return 'neutral';
+  if (v > 0) return 'up';
+  if (v < 0) return 'down';
+  return 'neutral';
+}
+
+function currencyPrefix(c: string | null | undefined) {
+  if (c === 'TWD') return 'NT$';
+  if (c === 'HKD') return 'HK$';
+  return '$';
+}
+
+function rsiClass(rsi: number | null | undefined) {
+  if (rsi == null || Number.isNaN(rsi)) return '';
+  if (rsi >= 70) return 'rsi-hot';
+  if (rsi <= 30) return 'rsi-cold';
+  return '';
+}
+
+function rsiNote(rsi: number | null | undefined) {
+  if (rsi == null || Number.isNaN(rsi)) return '';
+  if (rsi >= 70) return ' 超買';
+  if (rsi <= 30) return ' 超賣';
+  return '';
+}
 ---
 
 <!-- Header -->
@@ -86,6 +119,34 @@ function horizonLabel(h: string) {
               <span class={`badge badge-confidence-${s.confidence || 'medium'}`}>{confidenceLabel(s.confidence)}</span>
             </div>
           ))}
+          {sig.technicals && (
+            <div class="signal-technicals">
+              <span class="signal-technicals-label">行情</span>
+              {sig.technicals.currentPrice != null && (
+                <span class="signal-technicals-price">
+                  {currencyPrefix(sig.technicals.currency)}{sig.technicals.currentPrice}
+                </span>
+              )}
+              {sig.technicals.priceVsMa20Pct != null && (
+                <span class={`signal-technicals-item ${trendClass(sig.technicals.priceVsMa20Pct)}`}>
+                  vs 20MA {fmtPct(sig.technicals.priceVsMa20Pct)}
+                </span>
+              )}
+              {sig.technicals.rsi14 != null && (
+                <span class={`signal-technicals-item rsi ${rsiClass(sig.technicals.rsi14)}`}>
+                  RSI {sig.technicals.rsi14}{rsiNote(sig.technicals.rsi14)}
+                </span>
+              )}
+              {sig.technicals.changePct5d != null && (
+                <span class={`signal-technicals-item ${trendClass(sig.technicals.changePct5d)}`}>
+                  5D {fmtPct(sig.technicals.changePct5d)}
+                </span>
+              )}
+              {sig.technicals.volumeRatio != null && (
+                <span class="signal-technicals-item">量 {sig.technicals.volumeRatio}× 均量</span>
+              )}
+            </div>
+          )}
           {sig.priceLevel && sig.priceLevel !== '無' && sig.priceLevel !== 'N/A' && sig.priceLevel.trim() !== '' && (
             <div class="price-level">{sig.priceLevel}</div>
           )}
@@ -115,6 +176,34 @@ function horizonLabel(h: string) {
               <span class={`badge badge-confidence-${s.confidence || 'medium'}`}>{confidenceLabel(s.confidence)}</span>
             </div>
           ))}
+          {sig.technicals && (
+            <div class="signal-technicals">
+              <span class="signal-technicals-label">行情</span>
+              {sig.technicals.currentPrice != null && (
+                <span class="signal-technicals-price">
+                  {currencyPrefix(sig.technicals.currency)}{sig.technicals.currentPrice}
+                </span>
+              )}
+              {sig.technicals.priceVsMa20Pct != null && (
+                <span class={`signal-technicals-item ${trendClass(sig.technicals.priceVsMa20Pct)}`}>
+                  vs 20MA {fmtPct(sig.technicals.priceVsMa20Pct)}
+                </span>
+              )}
+              {sig.technicals.rsi14 != null && (
+                <span class={`signal-technicals-item rsi ${rsiClass(sig.technicals.rsi14)}`}>
+                  RSI {sig.technicals.rsi14}{rsiNote(sig.technicals.rsi14)}
+                </span>
+              )}
+              {sig.technicals.changePct5d != null && (
+                <span class={`signal-technicals-item ${trendClass(sig.technicals.changePct5d)}`}>
+                  5D {fmtPct(sig.technicals.changePct5d)}
+                </span>
+              )}
+              {sig.technicals.volumeRatio != null && (
+                <span class="signal-technicals-item">量 {sig.technicals.volumeRatio}× 均量</span>
+              )}
+            </div>
+          )}
           {sig.divergence && (
             <div class="divergence-note">分歧: {sig.divergence}</div>
           )}

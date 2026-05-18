@@ -232,6 +232,39 @@ a:hover {
   color: var(--c-text-secondary);
 }
 
+/* ── Signal technicals (mini snapshot) ── */
+.signal-technicals {
+  margin-top: 0.5em;
+  padding: 0.45em 0.65em;
+  background: var(--c-bg);
+  border-radius: var(--radius-xs);
+  font-size: 0.8em;
+  line-height: 1.7;
+  color: var(--c-text-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25em 0.55em;
+}
+.signal-technicals-label {
+  font-weight: 600;
+  color: var(--c-text-muted);
+}
+.signal-technicals-price {
+  font-weight: 600;
+  color: var(--c-text);
+}
+.signal-technicals-item {
+  color: var(--c-text-secondary);
+  white-space: nowrap;
+}
+/* 東亞慣例：正紅、負綠 */
+.signal-technicals-item.up { color: var(--c-bearish); }
+.signal-technicals-item.down { color: var(--c-bullish); }
+.signal-technicals-item.neutral { color: var(--c-text-secondary); }
+.signal-technicals-item.rsi-hot { color: var(--c-bearish); font-weight: 600; }
+.signal-technicals-item.rsi-cold { color: var(--c-bullish); font-weight: 600; }
+
 /* ── Quick Digest ── */
 .quick-digest {
   background: linear-gradient(135deg, var(--c-header-from), var(--c-header-to));
