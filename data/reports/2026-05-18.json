@@ -1,0 +1,657 @@
+{
+  "date": "2026-05-18",
+  "quickDigest": [
+    "群聯單月獲利近乎第一季一半，本益比持續下修，記憶體族群最強標的；被動元件國巨外資目標價上看625元接棒領漲",
+    "台積電疑似處分世界先進持股，集團股世界先進鎖跌停，精材、采鈺同步承壓，短線情緒衝擊大",
+    "機器人題材業績化：上銀獲投信買超，大銀微系統、新代有實際出貨，電腦展6月為近期催化劑",
+    "5/21輝達財報為本週最關鍵驗證點，結果將牽動台光電、聯茂等整條AI供應鏈短期方向",
+    "美債殖利率快速上行壓縮高本益比估值，AI核心股操作邏輯轉為回測月線、季線再分批承接"
+  ],
+  "marketMood": "AI主線未變，但利率與輪動壓力逼使資金從追高轉向低接價值",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "群聯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "來賓直接點名群聯是目前記憶體與儲存相關族群中最強的公司之一，第四月獲利高到幾乎賺贏第一季的一半，股價越漲本益比越低，下半年若需求延續，有機會成為台股獲利表現最突出的代表之一。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "本益比持續下修至合理區間"
+    },
+    {
+      "ticker": "043A",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人表示自己在盤中主動進場加碼，雖然這檔主動式ETF才剛掛牌，但在大跌與破發時仍出現溢價，顯示市場承接力道不弱。短線若出現月線附近拉回，仍可視為觀察與分批布局的機會。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "破發區附近約9.7元，曾見小幅溢價"
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "高階銅箔基板族群雖然短線回檔，但從AI供應鏈升級角度看，台光電仍是可以拉回尋找買點的核心標的。AI伺服器帶動規格提升，高階材料需求仍在，短線落到月線、季線甚至半年線，反而被視為分批承接的機會。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "月線、季線、半年線分批接"
+    },
+    {
+      "ticker": "台耀",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "高階銅箔基板中值得留意的標的，AI相關材料股雖然近期股價震盪，但中長線仍受惠於規格升級與AI伺服器需求。若回測關鍵均線，反而可以當作布局點。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "月線、季線"
+    },
+    {
+      "ticker": "聯茂",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與台光電並列為AI供應鏈中可考慮拉回承接的高階材料股。AI應用與伺服器規格升級仍在進行，短線回檔較像資金輪動，而非基本面轉差。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "季線附近觀察"
+    },
+    {
+      "ticker": "金居",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "高階銅箔基板相關族群中屬於可以留意的拉回標的，AI與高速傳輸需求仍在，且族群整體仍處於升級趨勢。只要產業前景沒有變，拉回就是承接機會。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "月線、季線"
+    },
+    {
+      "ticker": "上銀",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "近期重新獲得投信買超，機器人題材開始獲得法人青睞。上銀屬於工具機與機器人核心零組件的大哥型公司，較容易成為資金鎖定對象。若電腦展與機器人專區帶動市場關注，後續仍有延續性。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "大銀微系統",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "機器人族群中較早動起來的標的之一，與半導體設備也有連結，具備較強的題材與產業交集。機器人題材開始有業績支撐，公司切入半導體設備與自動化領域，市場願意給予較高的想像空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "所羅門",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "機器人題材重新轉強的代表股之一，機器視覺與自動化應用仍有市場期待。機器人正從概念走向商用，物流、工廠無人化等場景逐漸清晰，相關個股有持續性。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件正在接棒，國巨是其中的大型指標股。全球資金正從高本益比股票轉向價值型與低位階標的，被動元件又有漲價題材與法人重新調高評價的空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "外資目標價上看625元"
+    },
+    {
+      "ticker": "華邦電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體族群中逆勢翻紅，背後原因與主動式ETF加碼及籌碼面轉強有關。記憶體仍屬於業績有保底、產業趨勢未變的族群，若三星相關變數持續干擾供給，仍有利於報價維持強勢。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "五日線以上觀察"
+    },
+    {
+      "ticker": "愛普",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "傳出與台積電合作的消息，股價因此逆勢上衝。市場對其與先進製程或相關技術合作的想像空間仍高，若後續合作細節更明朗，股價仍可能獲得支撐。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "新代",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "工具機與機器人題材中率先表態、且具備業績支撐的代表公司。能把題材從想像帶到營運面的標的之一，若機器人應用持續擴大，仍有長線想像空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台灣精銳",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "機器人題材中可以留意的標的，關節零組件與精密機械鏈受到市場關注。具備高毛利與專利門檻的零組件公司更有機會成為中期受惠者。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2317.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "仍是市場資金輪動中的核心標的之一，在AI供應鏈、台股核心大盤股的討論脈絡中屬於值得持續關注的權值核心。若AI與電腦展題材延續，相關大型供應鏈仍有受惠機會。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 248.5,
+        "ma20": 235.05,
+        "ma60": null,
+        "priceVsMa20Pct": 5.7,
+        "priceVsMa60Pct": null,
+        "rsi14": 65,
+        "changePct5d": -1.4,
+        "changePct20d": 20.6,
+        "volumeRatio": 0.64,
+        "currency": "TWD",
+        "asOf": "2026-05-18T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "富喬",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "AI相關材料與高階銅箔基板升級題材的一環。具備核心競爭力、產業地位較高的材料股，若回到關鍵均線，仍可納入低接名單。催化劑來自AI供應鏈需求延續與電腦展題材。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "月線、季線"
+    },
+    {
+      "ticker": "羅昇",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "上一批機器人族群中重新被資金點火的個股之一，市場開始把注意力轉回具題材性的自動化與機器人零組件。從盤面輪動來看，該族群已開始脫離純夢想階段，轉為市場有實際交易熱度的標的。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "鈺創",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與群聯、愛普同屬記憶體與高獲利成長族群中的強勢標的，市場正在尋找具有業績支撐的記憶體個股。若記憶體價格與需求維持強勢，相關個股仍具波段機會。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "立誠",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體族群的相對落後補漲股，近期股價表現開始轉強。市場開始轉向挑選有業績保底與籌碼較佳的個股，立誠正好符合低位階、補漲的輪動特徵。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "智邦",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體通路相關個股中因市場對三星變數的反應而出現慶祝性上漲，在記憶體供給與報價疑慮下，通路與相關受惠股仍有短線交易機會。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "世界先進",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "因傳出台積電處分持股而直接鎖跌停，市場短線對母公司持股調整極度敏感。雖不代表公司基本面變差，但短期一定會引發擔心與估值修正，在事件尚未證實前，市場先行賣壓非常重。若處分傳聞繼續擴大，股價可能維持高波動。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "TSM",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電可能持續降低對部分轉投資公司的持股比重，市場因此對台積電集團股出現擔憂。這不是對台積電本身基本面的看空，但反映市場開始擔心母公司若進一步處分子公司持股，相關集團股短線可能面臨估值壓力。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 396.51,
+        "ma20": 399.35,
+        "ma60": 368.41,
+        "priceVsMa20Pct": -0.7,
+        "priceVsMa60Pct": 7.6,
+        "rsi14": 52,
+        "changePct5d": -2,
+        "changePct20d": 8.3,
+        "volumeRatio": 0.37,
+        "currency": "USD",
+        "asOf": "2026-05-18T15:09:12.000Z"
+      }
+    },
+    {
+      "ticker": "精材",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與台積電集團持股調整的傳聞高度相關，市場擔心若台積電不只處分世界先進，還可能進一步調整其他轉投資公司的持股，精材也會受波及。在傳聞未釐清前，股價短線容易被情緒壓抑。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "采鈺",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被納入市場聯想中的台積電集團受影響標的，投資人開始擔心母公司若降低持股，集團股整體估值會同步受壓。短線最重要的是先觀察事件是否屬實，以及市場是否過度反應。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "南電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板族群近期面臨籌碼不穩的壓力，所屬族群正在經歷估值修正與籌碼整理，短線風險偏高。若產業需求未能明顯回升，股價修復速度可能偏慢。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "中探針",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "所屬PCB族群整體面臨籌碼鬆動與資金轉向的壓力。PCB雖然長線仍有升級與漲價題材，但短線因高位階股票太多，資金已開始從該族群撤出。若市場持續偏好被動元件與機器人，PCB族群仍可能相對疲弱。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "美債殖利率",
+      "reason": "美國與全球主要國家的公債殖利率持續上升，已開始對高估值成長股造成壓力。當利率斜率快速上行時，市場會重新估值，成長股與高本益比族群將首當其衝。若殖利率繼續往上逼近更高區間，對全球股市都會是壓力。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short",
+      "priceLevel": "美債殖利率觀察4.6%至4.8%"
+    },
+    {
+      "topic": "輝達財報",
+      "reason": "5月21日的輝達財報被視為市場的重要轉折點，目前AI大行情能否延續，輝達的財報與展望是關鍵。前面財報大多偏正面，理論上仍偏利多，但在股價已創新高的背景下，市場對展望的要求更高。若財報或指引不佳，會提高整體AI供應鏈的風險意識。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short",
+      "catalyst": "2026-05-21 輝達財報"
+    },
+    {
+      "topic": "機器人產業",
+      "reason": "機器人已從純夢想題材逐步走向商用與業績題材，全球資金正重新追捧這個方向。從日本、韓國到台灣，都可看到機器人零組件與自動化相關股票轉強，顯示題材有跨市場共振。若電腦展與工廠物流應用持續落地，機器人會是下半年的主軸之一。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium",
+      "catalyst": "電腦展機器人專區與商用場景擴大"
+    },
+    {
+      "topic": "被動元件族群",
+      "reason": "被動元件正在接棒成為台股新的資金主流，族群內的大哥國巨與小型股同步轉強。高位階的AI與PCB股回檔後，資金自然往低位階且具漲價題材的族群移動，被動元件的位階與法人調價空間正好符合這波輪動。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium",
+      "catalyst": "漲價題材與資金輪動持續"
+    },
+    {
+      "topic": "記憶體族群",
+      "reason": "三星罷工變數、供給疑慮與報價上升，持續讓記憶體成為市場焦點。記憶體已有不少利多反映，後續更應該看籌碼與線型，而不是盲目追價。若輝達財報再度強化AI需求，記憶體情緒仍可能被帶動。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short",
+      "catalyst": "三星產能變數與輝達財報"
+    },
+    {
+      "topic": "AI眼鏡產業",
+      "reason": "AI眼鏡被視為下半年很可能放量的邊緣裝置題材，繼機器人之後另一個重要的成長方向。AI模型已趨成熟，配合手機與穿戴裝置整合後，使用場景會大幅擴大。若Google、三星、蘋果相繼推出新品，整條供應鏈都可能受惠。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium",
+      "catalyst": "Google發表會、三星7月新品、蘋果後續新品"
+    },
+    {
+      "topic": "油價",
+      "reason": "地緣政治風險仍在，尤其美國、伊朗與以色列之間的不確定性，加上戰備原油庫存釋放接近尾聲，可能使油價再度加速上行。油價上升會推升通膨預期，進一步影響全球資金成本與資產估值。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short",
+      "catalyst": "戰備原油庫存釋放結束與地緣風險升高"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "利率快速上行會迫使全球高估值股票重新估值",
+      "reasoning": "美國、日本與英國等主要市場的公債殖利率同步走高，這不只是債市問題，而是會直接壓縮成長股估值。當殖利率上升斜率過快時，市場會從追逐成長轉向重估資產價格，AI、高本益比與高位階個股最容易受傷。若利率只是反映經濟回升，壓力尚可接受，但若是通膨升溫、成長放緩的組合，風險就明顯升高。",
+      "sector": "總經",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 仍是台股與全球資金最核心的主線，但買點要回到核心供應鏈",
+      "reasoning": "AI 不是短期題材，而是這一代投資人少數能真正改變財富分配的主軸。只是現在高估值股票開始受到利率與資金輪動壓力，因此操作上不能再追最熱、最貴的標的，而要回到具核心競爭力、產業地位高的供應鏈。這也是反覆建議在拉回時分批承接台光電、聯茂、台耀等核心股的原因。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "機器人題材已從夢想走向業績，物流與工業應用是最先落地的場景",
+      "reasoning": "機器人之所以重新吸引資金，是因為開始能看到實際應用，而不只是概念展示。從工廠物流、無人化流程到電腦展專區，市場可以明確想像出商用落地的路徑，這讓上銀、大銀微系統、羅昇等公司從題材股逐漸變成業績股。只要有領頭羊與實際出貨，題材就會持續。",
+      "sector": "其他",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "被動元件正在接棒成為市場新主流，但漲價速度決定評價上修的節奏",
+      "reasoning": "被動元件與記憶體相比，兩者都有漲價與資金輪動的味道，但被動元件的漲價節奏沒有記憶體那麼快，因此評價上修會比較慢。這使得國巨等龍頭可以先吸引法人調高目標價，而中小型股則在資金追逐下同步活躍。整體來看，這是一個高低位階持續輪動的市場結構。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "四萬點不是必守點，重點是資金退守後的下檔空間是否有限",
+      "reasoning": "與其糾結台股四萬點能不能守住，不如判斷這波修正是不是只是資金轉向與縮手，而非基本面轉差。AI與出口數據仍強，代表市場不一定進入景氣反轉，只是估值需要重新整理。只要產業前景沒變，破月線、破季線甚至回測半年線，都可能是分批布局的機會。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台積電若調整轉投資持股，市場會先交易情緒而非基本面",
+      "reasoning": "台積電處分世界先進等集團股的消息，短期會讓市場先看情緒與聯想，因為投資人會擔心後續還有其他子公司跟進。雖然從基本面看，母公司減持不代表子公司接不到單，但在消息未證實前，股價常常先反應賣壓。這提醒投資人不要只看公司好不好，還要看籌碼與母公司策略是否改變。",
+      "sector": "半導體",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 眼鏡是下半年最值得期待的邊緣裝置革命之一",
+      "reasoning": "AI 模型成熟後，真正能放大量的硬體會是能長時間佔據使用者注意力的裝置，而眼鏡正符合這個條件。Google、三星與蘋果接力推出相關產品，代表供應鏈不只是想像，而是有機會在下半年進入出貨放大的階段。若鏡頭、軟板與貼合技術同步升級，相關供應鏈可望受惠。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "美債殖利率若持續快速上升，AI與高本益比成長股可能進一步修正。",
+    "油價若因地緣政治持續走高，通膨壓力將再度擴大。",
+    "輝達財報與展望若不如預期，AI 供應鏈情緒可能受挫。",
+    "台積電集團持股調整傳聞若擴大，相關子公司短線波動會加劇。",
+    "PCB 與部分高位階材料股已出現籌碼鬆動，追高風險上升。",
+    "記憶體族群利多多半已反映，沒有籌碼優勢時不宜盲目追價。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "2026-05-18",
+      "event": "台積電集團股因世界先進處分傳聞出現劇烈波動",
+      "tickers": [
+        "TSM",
+        "世界先進",
+        "精材",
+        "采鈺"
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "event": "輝達財報公布",
+      "tickers": [
+        "NVDA",
+        "台股AI供應鏈"
+      ]
+    },
+    {
+      "date": "2026-05-下旬",
+      "event": "資金持續轉向被動元件、機器人與低位階價值股",
+      "tickers": [
+        "國巨",
+        "上銀",
+        "大銀微系統"
+      ]
+    },
+    {
+      "date": "2026-06",
+      "event": "電腦展與機器人專區題材發酵",
+      "tickers": [
+        "上銀",
+        "大銀微系統",
+        "羅昇",
+        "所羅門"
+      ]
+    },
+    {
+      "date": "2026-06",
+      "event": "記憶體供需與報價進入重要觀察期",
+      "tickers": [
+        "華邦電",
+        "群聯",
+        "鈺創",
+        "南亞科"
+      ]
+    },
+    {
+      "date": "2026-07",
+      "event": "三星預計發表新一代AI眼鏡",
+      "tickers": [
+        "台郡",
+        "大立光",
+        "聯發科",
+        "TPK-KY"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1099｜美債殖利率衝，美股壓力大？盤中回檔1000點，測4萬點正常？PCB、CPO何時能撿，被動、機器人接棒好事，台積下一檔賣誰？ft.題材獵人 林漢偉",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/567dfde0-2311-4518-ac3b-d2eeaf2f08a6",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "利率與資金輪動正在重塑市場結構，但AI主線未變，操作重心轉向分批低接核心供應鏈。",
+      "detailedSummary": "本集主持人李兆華與題材獵人林漢偉深入分析當前市場環境，認為美債殖利率上升、地緣政治風險與通膨壓力三重夾擊，正讓高估值AI族群與PCB相關個股面臨估值修正壓力。兩人均強調AI長線主線未變，但布局邏輯應從追漲改為拉回分批承接，優先挑選回到月線、季線附近的核心供應鏈個股，如台光電、聯茂、群聯等。機器人題材方面，上銀、大銀微系統已開始獲得法人買超，被視為從夢想走向業績的重要訊號；被動元件族群以國巨為首，被視為接棒AI成為盤面新主流。台積電疑似處分世界先進持股的傳聞在盤中引發集團股連鎖跌停，主持人提醒這屬於情緒性賣壓，需等待事件釐清。5月21日輝達財報是本週最重要的觀察節點，結果將決定AI供應鏈短期方向。",
+      "highlights": [
+        "美債殖利率上升與地緣政治風險，讓全球成長股面臨重新估值壓力，AI與高本益比族群首當其衝。",
+        "台股千點回檔被視為資金退守而非基本面轉差，四萬點非必守點，拉回反為布局機會。",
+        "AI長線主線不變，操作重心轉向核心供應鏈：台光電、聯茂、台耀拉回至月線、季線可分批承接。",
+        "機器人題材從夢想走向業績，上銀獲投信買超，大銀微系統與新代均有實際業績支撐，電腦展為近期催化劑。",
+        "被動元件接棒成為台股新主流，國巨外資目標價上看625元，漲價題材搭配法人調升評價。",
+        "台積電疑似處分世界先進持股，引發世界先進鎖跌停，精材、采鈺同步承壓，需等待事件真偽釐清。",
+        "群聯單月獲利近乎等於第一季一半，本益比持續下修，為記憶體族群中最強個股。",
+        "AI眼鏡被視為下半年新硬體革命，三星7月新品、Google發表會為重要催化劑，鏡頭與軟板供應鏈值得追蹤。",
+        "5月21日輝達財報是市場關鍵轉折點，結果將牽動整體AI供應鏈短期方向與信心。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
