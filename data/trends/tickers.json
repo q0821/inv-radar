@@ -1,35 +1,106 @@
 {
-  "generatedAt": "2026-05-18T02:38:11.156Z",
+  "generatedAt": "2026-05-18T05:57:11.131Z",
   "anchorDate": "2026-05-16",
-  "count": 411,
+  "count": 380,
   "tickers": [
     {
       "symbol": "2330.TW",
       "mentions": {
-        "7d": 2,
-        "30d": 16,
-        "90d": 17,
-        "all": 17
+        "7d": 4,
+        "30d": 21,
+        "90d": 29,
+        "all": 29
       },
       "sentimentScore": {
-        "7d": 3,
-        "30d": 29,
-        "90d": 30.5,
-        "all": 30.5
+        "7d": 9,
+        "30d": 42.5,
+        "90d": 58,
+        "all": 58
       },
       "mentionedBy": [
         "叔叔",
         "李兆華",
         "游庭皓的財經皓角",
-        "謝孟恭"
+        "謝孟恭",
+        "財女Jenny"
       ],
       "timeline": [
+        {
+          "date": "2026-03-20",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "游庭皓的財經皓角",
+          "reason": "股價重返高點，作為台股權值核心帶動大盤",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 2
+        },
+        {
+          "date": "2026-03-20",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "財女Jenny",
+          "reason": "具備先進製程優勢，是害怕追高熱門股時的穩健選擇",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 3
+        },
+        {
+          "date": "2026-03-20",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "AI 趨勢推升長期動能，法人認為 2000 元絕對不是頂部",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 3
+        },
         {
           "date": "2026-03-24",
           "signal_type": "bullish",
           "confidence": "high",
           "kol": "李兆華",
           "reason": "技術領先，長期看好，建議以零股或定期定額逢低買進",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-03-31",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "台積電測季線是正常現象，相較美股跌幅不大。目前1780元左右有吸引力，預計3月營收和法說會表現良好，回季線關卡後更具吸引力。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-03",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "17字頭是合理買點，短線急衝可獲利了結，長線投資人可在17字頭分批買進，甚至16字頭。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-06",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "叔叔",
+          "reason": "手機板塊產能缺口迅速被AI或網通客戶填補，顯示其在先進製程的領先地位和多元客戶結構",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-10",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "為00992A主要成分股之一，且為台灣科技產業的領頭羊，持續引領半導體風騷",
           "consensus": "單一 KOL",
           "timeHorizon": "long",
           "weight": 1.5
@@ -53,6 +124,26 @@
           "consensus": "單一 KOL",
           "timeHorizon": "long",
           "weight": 0.5
+        },
+        {
+          "date": "2026-04-24",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "游庭皓的財經皓角",
+          "reason": "台股這波上漲的關鍵推力來自台積電領軍，整體權值股持續點火，屬於台股多頭核心。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "medium",
+          "weight": 3
+        },
+        {
+          "date": "2026-04-24",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "台積電先創歷史新高，帶動市場信心；第二季毛利率與展望優於預期，顯示人工智慧需求仍然強勁。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "medium",
+          "weight": 3
         },
         {
           "date": "2026-04-25",
@@ -175,6 +266,16 @@
           "weight": 1.5
         },
         {
+          "date": "2026-05-08",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "台積電仍是指數重要支撐核心，本益比約二十三倍仍低於過去高檔區間二十五至二十八倍，主動式基金持股上限調整後，未來遇回檔時將有低接買盤進場。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
           "date": "2026-05-12",
           "signal_type": "bullish",
           "confidence": "high",
@@ -193,6 +294,435 @@
           "consensus": "單一 KOL",
           "timeHorizon": "long",
           "weight": 1.5
+        },
+        {
+          "date": "2026-05-14",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "謝孟恭",
+          "reason": "主持人多次把台積電視為核心持股與防守型標的之一，表示自己已把部分部位調整到台積電。即使市場風格偏向高估值動能股，台積電的財務數字與產業地位仍然穩固，進入防守時是配置核心。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 3
+        },
+        {
+          "date": "2026-05-14",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "主持人認為台積電是目前台股指數的重要穩盤工具，基本面與長期成長藍圖仍然清楚，在整體盤面族群互相拉扯時仍是市場最核心的權值支撐，中長線仍被視為核心配置標的。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "symbol": "2454.TW",
+      "mentions": {
+        "7d": 6,
+        "30d": 23,
+        "90d": 23,
+        "all": 23
+      },
+      "sentimentScore": {
+        "7d": 6,
+        "30d": 30.5,
+        "90d": 30.5,
+        "all": 30.5
+      },
+      "mentionedBy": [
+        "叔叔",
+        "李兆華",
+        "李兆華（蔡明翰）",
+        "游庭皓的財經皓角",
+        "謝孟恭",
+        "財女Jenny"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-20",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "叔叔",
+          "reason": "聯發科所屬的晶片設計族群已明顯回溫，市場對這類高階設計公司重新給予關注。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "叔叔",
+          "reason": "近期重新受到市場關注，股價自約一百五十元快速上漲至約兩百三十元，主因是市場開始重視其在客製化晶片與人工智慧加速器相關業務的成長潛力，手機晶片疑慮持續降低。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "short",
+          "weight": 3
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "謝孟恭",
+          "reason": "連續出現兩根漲停，股價動能非常強，屬於自己持有且語氣偏正面的標的。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "short",
+          "weight": 3
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "與谷歌第八代張量處理器題材連動，跨入中央處理器與人工智慧運算相關布局，屬於市場核心強者，市場開始重新定價其成長性。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "short",
+          "weight": 3
+        },
+        {
+          "date": "2026-04-24",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "游庭皓的財經皓角",
+          "reason": "聯發科持續參與權值股輪動，和台積電一起帶動台股指數上攻，語境偏正面。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-24",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "看好聯發科在人工智慧與相關高速傳輸應用的中長線角色，屬於市場持續關注標的。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-04-25",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "聯發科同樣受惠於北美技術論壇與單一持股上限放寬，主持人對其經營階層與長期競爭力持正面看法，認為值得持續關注。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-27",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "叔叔",
+          "reason": "聯發科可受惠於人工智慧加速器、中央處理器與先進封裝相關題材，兩奈米量產在即，可能與博通分別在不同路線共同受惠。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-28",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "聯發科在資金往大型權值股移動的過程中仍有吸引力，屬於低位階中受惠的大型權值股，後續資金仍可能持續加碼。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-29",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "叔叔",
+          "reason": "台達電在人工智慧電源、伺服器電源與高階電力架構上具備明確成長故事，伺服器電源營收年增超過九成，且液冷、電源機櫃與固態變壓器等題材持續推進。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-29",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "財女Jenny",
+          "reason": "OpenAI 正在與聯發科合作開發客製化手機晶片，有助於提升聯發科在全球人工智慧硬體鏈中的品牌能見度與估值想像。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-30",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華（蔡明翰）",
+          "reason": "明年成長動能相對明確，屬於值得持續關注的強勢標的。今年動能不算特別突出，真正市場反映可能要等接近明年獲利預期逐步被確認。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-01",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "法說不太可能講得太差，市場期待其在雲端與端側處理器的新布局。聯發科可望透過協助 Google 開發 TPU，以及自身投入 CPU 研發，切入雲端接收端的成長方向。催化劑是法說當日與後續市場對 TPU 進度的再評價。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-05",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "聯發科法說釋出人工智慧專用晶片（特殊應用晶片）今年營收有望高於原本預期，成為市場重新評價的核心理由。股價連續跳空大漲反映籌碼被鎖得很漂亮，帶動整個發哥集團與台股晶片設計族群同步上攻，法說後法人持續上調目標價與資金追價。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-05-06",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "聯發科在盤面出現一字鎖漲停，屬於明顯的強勢族群代表，並帶動整體電子權值股氣氛。市場資金持續追捧半導體與電子權值，此類強勢股在市場高檔整理期間通常仍具備續航力。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-07",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "謝孟恭",
+          "reason": "今年最大的意外，股價出現多根漲停，市場對其題材與預期給予極強反應。整體仍被視為強勢主線之一，籌碼與市場情緒高度正面。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-05-08",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "近期能直接鎖漲停或強勢表態，顯示資金正往大型權值與低估龍頭移動，市場出現健康輪動，主動式基金與投信持續對大型電子權值調整配置。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-09",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "聯發科這一波屬於資金追逐與輪動行情，市場從原本只看 AI，逐漸把注意力轉到具備 IP 與多元產品線的 IC 設計龍頭。TPU 題材與 Google 合作、以及旗下達發的獲利支撐，讓市場開始把它視為除手機之外其他業務也逐步活化的標的。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-05-09",
+          "signal_type": "bearish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "市場目前給聯發科的期待過高，甚至對其產品的淨利率預期過度樂觀。TPU 產品仍屬練兵階段，今年不太可能拉到市場想像中的高毛利水準，若股價先反映過多，後續就會面臨評價修正壓力。",
+          "consensus": "單一 KOL（與看多訊號並存，KOL 分歧：中長線看多但短線高預期風險）",
+          "timeHorizon": "short",
+          "weight": -0.5
+        },
+        {
+          "date": "2026-05-12",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "聯發科被列為主動式 ETF 與盤面資金輪動受惠標的之一，近期資金偏好大型成長股與主動式 ETF 持股調整，相關權重股有機會受資金追捧。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-13",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "節目中提到聯發科近期再度創高，且來賓用它作為大型電子權值股估值與市場氣氛升溫的例子。雖然也提到市場對其獲利預估可能過度樂觀，但整體語氣仍是正面看待其股價表現與資金偏好。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-14",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "謝孟恭",
+          "reason": "主持人已把部分資金調整到聯發科，屬於核心部位之一。在市場高檔震盪時，聯發科被視為可承接資金的高品質科技股，偏向資金配置與高品質標的輪動，非短線追價。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "medium",
+          "weight": 2
+        },
+        {
+          "date": "2026-05-14",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "節目提到台積電休息時，市場資金已輪到聯發科等新神山接棒，顯示半導體權值內部正在做輪動，聯發科是目前盤面中仍有關注價值的強勢標的之一。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "medium",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "symbol": "MU",
+      "mentions": {
+        "7d": 0,
+        "30d": 3,
+        "90d": 13,
+        "all": 13
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 1,
+        "90d": 13.5,
+        "all": 13.5
+      },
+      "mentionedBy": [
+        "NaNa说美股",
+        "李兆華",
+        "游庭皓的財經皓角",
+        "財女Jenny",
+        "財女Jenny（看多）"
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-18",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "財女Jenny",
+          "reason": "記憶體進入結構性定價強勢期，獲 RBC 上調目標價",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 3
+        },
+        {
+          "date": "2026-03-18",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "AI 需求帶動記憶體報價上漲，GTC 大會確認需求強勁",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 3
+        },
+        {
+          "date": "2026-03-20",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "游庭皓的財經皓角",
+          "reason": "財報大幅超越預期，HBM 產能吃緊至明年底，產業出現結構性改變",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 3
+        },
+        {
+          "date": "2026-03-20",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "毛利率高達 81% 且展望極佳，盤後下跌純粹受市場氛圍拖累，待利空淡化將還其公道",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 3
+        },
+        {
+          "date": "2026-03-20",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "NaNa说美股",
+          "reason": "盤中跌幅大幅收斂，顯示下方承接買盤積極，仍是 AI 基礎設施主線",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 2
+        },
+        {
+          "date": "2026-03-27",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "NaNa说美股",
+          "reason": "美光科技股價連續第六個交易日下跌，顯示資金持續流出存儲概念股。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1.5
+        },
+        {
+          "date": "2026-03-31",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "NaNa说美股",
+          "reason": "股價已自近期高點回撤32%，散戶買盤資金枯竭，市場對內存行業前景存在嚴重分歧。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1.5
+        },
+        {
+          "date": "2026-04-01",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "游庭皓的財經皓角",
+          "reason": "記憶體報價鬆動，美光重挫近10%，儘管基本面無問題，但市場正在砍高本益比的股票以降低風險。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1.5
+        },
+        {
+          "date": "2026-04-03",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "游庭皓的財經皓角",
+          "reason": "美光暴漲 8.2%，市場重新評估其超大型資料中心長約商談，預期透過基本出貨量鎖定及預付款，有望支撐下半年利潤水準。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-08",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "財女Jenny",
+          "reason": "分析師再度調高美光評級，看好記憶體晶片未來需求強勁。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-24",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "游庭皓的財經皓角",
+          "reason": "美光積極遊說美國推動新一輪半導體法案，若成功可強化對中國半導體與記憶體的出口限制，間接有利其競爭地位。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-29",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "財女Jenny（看多）",
+          "reason": "記憶體對人工智慧客戶已成為不可或缺的關鍵零件，需求呈現指數型成長，受到機構上調目標價。",
+          "consensus": "KOL 分歧",
+          "timeHorizon": "long",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-04-29",
+          "signal_type": "bearish",
+          "confidence": "low",
+          "kol": "財女Jenny",
+          "reason": "記憶體與儲存相關個股近期漲多後可能出現獲利了結與價格修正，屬於高波動區間。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -0.5
         }
       ]
     },
@@ -353,6 +883,291 @@
       ]
     },
     {
+      "symbol": "MSFT",
+      "mentions": {
+        "7d": 0,
+        "30d": 3,
+        "90d": 12,
+        "all": 12
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 4,
+        "90d": -12,
+        "all": -12
+      },
+      "mentionedBy": [
+        "NaNa说美股",
+        "游庭皓的財經皓角",
+        "財女Jenny"
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-20",
+          "signal_type": "bearish",
+          "confidence": "low",
+          "kol": "NaNa说美股",
+          "reason": "走勢比輝達更弱，在大盤下跌時表現不佳",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -0.5
+        },
+        {
+          "date": "2026-03-25",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "游庭皓的財經皓角",
+          "reason": "技術面出現頭部型態，跌破所有均線且均線下彎，進入熊市",
+          "consensus": "KOL 共識",
+          "timeHorizon": "medium",
+          "weight": -3
+        },
+        {
+          "date": "2026-03-25",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "NaNa说美股",
+          "reason": "跌破長期上升趨勢線，面臨 OpenAI 去依賴化風險，AI 代理恐侵蝕 SaaS 訂閱",
+          "consensus": "KOL 共識",
+          "timeHorizon": "medium",
+          "weight": -3
+        },
+        {
+          "date": "2026-03-27",
+          "signal_type": "bearish",
+          "confidence": "low",
+          "kol": "財女Jenny",
+          "reason": "微軟今年以來下跌超過20%，是科技巨頭中表現最差的，面臨內憂外患。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "medium",
+          "weight": -1
+        },
+        {
+          "date": "2026-03-27",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "NaNa说美股",
+          "reason": "微軟市值已蒸發近三分之一，週K線跌破200週均線，市場對其定價邏輯可能從「回調」轉變為「趨勢改變」。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "medium",
+          "weight": -3
+        },
+        {
+          "date": "2026-03-30",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "游庭皓的財經皓角",
+          "reason": "週跌幅達7%，股價呈現超級大M頭，短線失去動能，跌破20日移動平均線",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1.5
+        },
+        {
+          "date": "2026-03-31",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "NaNa说美股",
+          "reason": "股價在第一季度下跌約26%，朝著2008年全球金融危機以來最糟糕的季度表現邁進。AI資本支出如黑洞，Azure增長放緩，Copilot尚未獲得顯著市場認可。目前遠期市盈率壓至2.0倍以下。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1.5
+        },
+        {
+          "date": "2026-04-04",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "財女Jenny",
+          "reason": "今年以來下跌超過25%，主要因供給問題：電力容量不足導致Azure訂單無法交付、資本支出過於保守、將有限算力優先供給內部Copilot團隊，以及OpenAI尋求其他合作夥伴導致市場對其未來成長性產生疑慮",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": -1.5
+        },
+        {
+          "date": "2026-04-08",
+          "signal_type": "bearish",
+          "confidence": "medium",
+          "kol": "游庭皓的財經皓角",
+          "reason": "微軟股價修正，本益比從40倍跌至23倍，達到2020年烏俄戰事水準，顯示估值有嚴重下滑。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1
+        },
+        {
+          "date": "2026-04-28",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "游庭皓的財經皓角",
+          "reason": "微軟股價先前回落較多、本益比已降至相對合理區間，且巴菲特級別資金態度偏向回補，屬於具防禦與成長兼具的標的。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-29",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "游庭皓的財經皓角",
+          "reason": "微軟屬低本益比、即將公布業績的標的，具備重新吸引資金回流的可能。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-29",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "財女Jenny",
+          "reason": "微軟雖然與 OpenAI 的合作關係調整，但仍是大型科技與雲端基礎建設的重要核心，長線不會缺席人工智慧大趨勢。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "long",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "symbol": "2408.TW",
+      "mentions": {
+        "7d": 2,
+        "30d": 9,
+        "90d": 12,
+        "all": 12
+      },
+      "sentimentScore": {
+        "7d": 3,
+        "30d": 4.75,
+        "90d": 1.25,
+        "all": 1.25
+      },
+      "mentionedBy": [
+        "李兆華",
+        "李兆華（看多）",
+        "李兆華（看空）",
+        "游庭皓的財經皓角"
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-27",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "游庭皓的財經皓角",
+          "reason": "散戶追高南亞科，開盤漲停後轉頭空，顯示記憶體族群波動大，獲利不易。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "short",
+          "weight": -3
+        },
+        {
+          "date": "2026-03-27",
+          "signal_type": "bearish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "記憶體模組整體走勢分歧，韓股記憶體下跌，南亞科雖有私募利多，但其他記憶體模組股下跌，顯示產業氣氛不佳。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "short",
+          "weight": -2
+        },
+        {
+          "date": "2026-03-31",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "股價跌破私募價格23.9元，具備投資價值。獲得四大咖私募，訂單能見度高。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華（看多）",
+          "reason": "若記憶體合約價持續上漲、產業氛圍轉強，仍可能出現技術性反彈。",
+          "consensus": "KOL 分歧",
+          "timeHorizon": "medium",
+          "weight": 0.25
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華（看空）",
+          "reason": "套牢壓力大、雜音多，且下半年DDR漲價動能可能放緩，短線壓力較其他記憶體標的更重。",
+          "consensus": "KOL 分歧",
+          "timeHorizon": "medium",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bearish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "套牢壓力大、雜音多，且下半年DDR漲價動能可能放緩，短線壓力較其他記憶體標的更重。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": -1
+        },
+        {
+          "date": "2026-04-28",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "南亞科因市場傳出可能打入輝達次世代伺服器供應鏈，有助於改變市場對傳統記憶體的想像。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-06",
+          "signal_type": "bearish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "雖然南亞科股價連續兩天轉強，但整體看法未翻多，DRAM 現貨報價持續下滑對純 DRAM 族群是直接壓力。即使季報與法說可能持續報喜，但報價高點到獲利高點通常有兩季落差，若現貨趨勢向下，短線追高風險仍高。定位為可做短波段，不適合在轉弱時追價。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1
+        },
+        {
+          "date": "2026-05-07",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "記憶體族群中最看好的 Maker 類型，能直接受惠於上游供給緊縮與產品漲價。第一季獲利表現亮眼、第二季報價仍在上行、法人對未來單月獲利持續上修，以及私募案吸引凱俠等策略性資金進場。還有封裝外溢與台積電合作題材，獲利與題材雙主軸。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-05-07",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "曾被列為舊愛持股，若型態轉弱但基本面未被否定，先換股或部分調整是合理做法；仍具業績支撐且位階合適，可視為關注名單。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-12",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "怡悅第一季獲利表現非常亮眼，每股盈餘接近五十八元，庫存水位由前一季約五十三億大幅提高到八十三億，顯示公司正積極備貨，對後續第二、三季毛利率維持高檔有利。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-05-15",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "記憶體族群補漲與新一輪景氣循環核心，南亞科先前位階低、曾大幅回落，但近期已重新站回今年初高點。全球記憶體龍頭如海力士、三星、美光股價持續創高，合約價一路往年底墊高，現貨價由跌轉漲，三星罷工風險進一步支撐供給端。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
       "symbol": "NVDA",
       "mentions": {
         "7d": 0,
@@ -487,18 +1302,18 @@
       ]
     },
     {
-      "symbol": "2454.TW",
+      "symbol": "2313.TW",
       "mentions": {
-        "7d": 3,
-        "30d": 11,
+        "7d": 1,
+        "30d": 7,
         "90d": 11,
         "all": 11
       },
       "sentimentScore": {
-        "7d": 1.5,
-        "30d": 10,
-        "90d": 10,
-        "all": 10
+        "7d": 1,
+        "30d": -2,
+        "90d": 4,
+        "all": 4
       },
       "mentionedBy": [
         "叔叔",
@@ -506,114 +1321,114 @@
       ],
       "timeline": [
         {
-          "date": "2026-04-20",
+          "date": "2026-03-27",
           "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "叔叔",
-          "reason": "聯發科所屬的晶片設計族群已明顯回溫，市場對這類高階設計公司重新給予關注。",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "受惠於光模塊新商機，預期下半年進入Rubin時代後，營收獲利將有顯著成長。同時也受惠於低軌衛星題材，且PE有上修空間，應對標AI PCB的30倍PE。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
-          "weight": 0.5
+          "weight": 1.5
+        },
+        {
+          "date": "2026-03-28",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "低軌衛星概念股，已創歷史新高",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-03-30",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "叔叔",
+          "reason": "華通為HDI板廠商，近期股價創歷史新高，受惠於PCB產業動能",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-08",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "華通公布單月獲利不佳，但股價仍大漲，顯示利空不跌，為強勢股表現。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "雖然短線回檔，但在低軌衛星天線板與人工智慧伺服器高密度互連板領域具護城河，且下半年業績貢獻可望放大，是中長線值得關注的強勢回檔股。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
         },
         {
           "date": "2026-04-24",
+          "signal_type": "bearish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "低軌衛星題材受馬斯克對人工智慧上太空說法影響，短線題材加分可能下降，若基本面未大幅爆發，股價容易受壓。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1
+        },
+        {
+          "date": "2026-04-25",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "華通被明確點名為本波低軌衛星題材退潮後的弱勢指標，出現增量收黑與法人持續賣超，籌碼轉弱且修正可能較深較久。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1.5
+        },
+        {
+          "date": "2026-04-28",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "華通因低軌衛星題材漲多後遭遇投信賣壓，若不是早就持有，不要急著低接，先觀察籌碼是否止穩。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1.5
+        },
+        {
+          "date": "2026-05-01",
           "signal_type": "bullish",
           "confidence": "low",
           "kol": "李兆華",
-          "reason": "看好聯發科在人工智慧與相關高速傳輸應用的中長線角色，屬於市場持續關注標的。",
+          "reason": "華通所屬的低軌衛星與資料中心相關敘事仍具長線想像空間，台灣在此領域具獨特位置。市場一度因題材誤解而賣壓偏重，但若下半年出貨與應用持續擴大，股價有機會重新獲得資金青睞。",
           "consensus": "單一 KOL",
           "timeHorizon": "long",
           "weight": 0.5
         },
         {
-          "date": "2026-04-25",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "聯發科同樣受惠於北美技術論壇與單一持股上限放寬，主持人對其經營階層與長期競爭力持正面看法，認為值得持續關注。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-27",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "叔叔",
-          "reason": "聯發科可受惠於人工智慧加速器、中央處理器與先進封裝相關題材，兩奈米量產在即，可能與博通分別在不同路線共同受惠。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1
-        },
-        {
-          "date": "2026-04-28",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "聯發科在資金往大型權值股移動的過程中仍有吸引力，屬於低位階中受惠的大型權值股，後續資金仍可能持續加碼。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-04-29",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "叔叔",
-          "reason": "台達電在人工智慧電源、伺服器電源與高階電力架構上具備明確成長故事，伺服器電源營收年增超過九成，且液冷、電源機櫃與固態變壓器等題材持續推進。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-05-05",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "聯發科法說釋出人工智慧專用晶片（特殊應用晶片）今年營收有望高於原本預期，成為市場重新評價的核心理由。股價連續跳空大漲反映籌碼被鎖得很漂亮，帶動整個發哥集團與台股晶片設計族群同步上攻，法說後法人持續上調目標價與資金追價。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
           "date": "2026-05-06",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "聯發科在盤面出現一字鎖漲停，屬於明顯的強勢族群代表，並帶動整體電子權值股氣氛。市場資金持續追捧半導體與電子權值，此類強勢股在市場高檔整理期間通常仍具備續航力。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-09",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "聯發科這一波屬於資金追逐與輪動行情，市場從原本只看 AI，逐漸把注意力轉到具備 IP 與多元產品線的 IC 設計龍頭。TPU 題材與 Google 合作、以及旗下達發的獲利支撐，讓市場開始把它視為除手機之外其他業務也逐步活化的標的。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-05-09",
           "signal_type": "bearish",
           "confidence": "medium",
           "kol": "李兆華",
-          "reason": "市場目前給聯發科的期待過高，甚至對其產品的淨利率預期過度樂觀。TPU 產品仍屬練兵階段，今年不太可能拉到市場想像中的高毛利水準，若股價先反映過多，後續就會面臨評價修正壓力。",
-          "consensus": "單一 KOL（與看多訊號並存，KOL 分歧：中長線看多但短線高預期風險）",
+          "reason": "對 DRAM 類股態度偏保守，雖然華邦電第一季繳出不錯成績，但現貨報價仍在下跌，這會壓抑後續股價表現。現貨價走勢是更重要的領先訊號，市場聽到的合約價與獲利好消息屬落後反映，短線不建議追價。適合報價與股價整理後的區間操作。",
+          "consensus": "單一 KOL",
           "timeHorizon": "short",
-          "weight": -0.5
+          "weight": -1
         },
         {
           "date": "2026-05-12",
           "signal_type": "bullish",
-          "confidence": "low",
+          "confidence": "medium",
           "kol": "李兆華",
-          "reason": "聯發科被列為主動式 ETF 與盤面資金輪動受惠標的之一，近期資金偏好大型成長股與主動式 ETF 持股調整，相關權重股有機會受資金追捧。",
+          "reason": "群創因年報與媒體報導被市場解讀為與台積電先進封裝、供應鏈合作有關，導致股價漲停。雖然公司未正式承認，但外界早已知道其轉型方向，相關動作顯示公司站在先進封裝第一線。屬於題材性強的事件驅動行情。",
           "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 0.5
+          "timeHorizon": "short",
+          "weight": 1
         }
       ]
     },
@@ -742,84 +1557,223 @@
       ]
     },
     {
-      "symbol": "聯發科",
+      "symbol": "2308.TW",
       "mentions": {
         "7d": 1,
-        "30d": 10,
+        "30d": 6,
         "90d": 10,
         "all": 10
       },
       "sentimentScore": {
-        "7d": 0.5,
-        "30d": 16.5,
-        "90d": 16.5,
-        "all": 16.5
+        "7d": 1,
+        "30d": 6.5,
+        "90d": 12.5,
+        "all": 12.5
       },
       "mentionedBy": [
         "叔叔",
         "李兆華",
-        "李兆華（蔡明翰）",
-        "游庭皓的財經皓角",
-        "謝孟恭",
-        "財女Jenny"
+        "李兆華（蔡明翰）"
       ],
       "timeline": [
         {
-          "date": "2026-04-23",
+          "date": "2026-03-30",
           "signal_type": "bullish",
           "confidence": "high",
           "kol": "叔叔",
-          "reason": "近期重新受到市場關注，股價自約一百五十元快速上漲至約兩百三十元，主因是市場開始重視其在客製化晶片與人工智慧加速器相關業務的成長潛力，手機晶片疑慮持續降低。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "short",
-          "weight": 3
+          "reason": "Meta超級機櫃中的液冷設備預計由台達電供應，KOL認為台達電在各方面都具有競爭力",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1.5
         },
         {
-          "date": "2026-04-23",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "謝孟恭",
-          "reason": "連續出現兩根漲停，股價動能非常強，屬於自己持有且語氣偏正面的標的。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "short",
-          "weight": 3
-        },
-        {
-          "date": "2026-04-23",
+          "date": "2026-04-03",
           "signal_type": "bullish",
           "confidence": "high",
           "kol": "李兆華",
-          "reason": "與谷歌第八代張量處理器題材連動，跨入中央處理器與人工智慧運算相關布局，屬於市場核心強者，市場開始重新定價其成長性。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "short",
-          "weight": 3
-        },
-        {
-          "date": "2026-04-24",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "游庭皓的財經皓角",
-          "reason": "聯發科持續參與權值股輪動，和台積電一起帶動台股指數上攻，語境偏正面。",
+          "reason": "不僅是電力公司，更是散熱龍頭，受惠散熱和電力需求，穩健上漲，是引領大盤的趙子龍。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-08",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "主持人認為台達電股價強勢，是市場信心的來源，且其不死，市場仍充滿希望。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-11",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "在AI浪潮中為重要指標股，基本面相對良好，資金湧入，且具備「三綠三生」優勢，克服AI升級漲價難關。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "持續創高，反映資金回流到大型權值與電源供應鏈，市場對其在人工智慧伺服器電源的想像持續升溫。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-27",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "叔叔",
+          "reason": "玻璃纖維布與先進封裝缺口仍大，市場仍需要相關材料與載板供應，人工智慧伺服器與先進封裝擴產帶動需求，對供應鏈龍頭是利多。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-30",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華（蔡明翰）",
+          "reason": "非常看好台達電，股價持續創高，市場對基本面與法說預期很高，資金仍持續追捧。若明天法說內容超出預期，股價有機會再度跳空走高。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-05-01",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "法說值得關注，市場對其期待很高，重點在於能否持續交出雙率同步提升的成績。公司過去多季都展現良好表現，若法說再度證實成長動能，將強化電力與算力基礎設施題材的延續性。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-08",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "AI 伺服器升級持續帶動電源架構與散熱規格往上，台達電在電源與散熱雙題材下具備長期受惠位置，持續創歷史新高，市場資金偏好此類權值型龍頭。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-05-09",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "聯詠是資金輪動下的強勢 IC 設計股，市場開始重新評價這些大型設計公司所擁有的 IP 與技術能量。盤中甚至出現漲停，顯示資金對於相對委屈的權值設計股有明顯偏好。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "symbol": "2337.TW",
+      "mentions": {
+        "7d": 0,
+        "30d": 8,
+        "90d": 10,
+        "all": 10
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 7.5,
+        "90d": 10,
+        "all": 10
+      },
+      "mentionedBy": [
+        "叔叔",
+        "李兆華",
+        "謝孟恭"
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-31",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "記憶體產業中，旺宏的Noflash部分在這一波被錯殺，回到凱基出報告幾乎原點，但籌碼和產業現狀問題不大。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-09",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "NAND Flash市場下半年缺貨漲價明朗，旺宏為記憶體中表現最強勢個股，回測月線後止穩",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "屬於記憶體族群中可留意的低位階標的，若整體族群資金回流，有機會跟著補漲。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-04-28",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "旺宏下午法說有機會給出偏正面的說法，若法說內容配合缺貨與產業景氣改善，將有助記憶體族群續強。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
           "weight": 1
         },
         {
           "date": "2026-04-29",
           "signal_type": "bullish",
           "confidence": "high",
-          "kol": "財女Jenny",
-          "reason": "OpenAI 正在與聯發科合作開發客製化手機晶片，有助於提升聯發科在全球人工智慧硬體鏈中的品牌能見度與估值想像。",
+          "kol": "叔叔",
+          "reason": "旺宏法說後股價強勢，第一季毛利率回升，且第二季合約價仍有約一成漲幅，受惠於競爭者退出特定利基市場後的供給缺口。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "short",
+          "weight": 3
+        },
+        {
+          "date": "2026-04-29",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "旺宏法說會雖然第一季獲利不算亮眼，但公司對下半年與明年展望偏正面，且法說後股價漲停帶動族群人氣。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "short",
+          "weight": 2
+        },
+        {
+          "date": "2026-04-29",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "威剛在記憶體族群回溫時同步漲停，顯示模組廠在本波景氣與價格循環中仍具吸引力。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
-          "weight": 1.5
+          "weight": 0.5
         },
         {
           "date": "2026-04-30",
           "signal_type": "bullish",
           "confidence": "medium",
-          "kol": "李兆華（蔡明翰）",
-          "reason": "明年成長動能相對明確，屬於值得持續關注的強勢標的。今年動能不算特別突出，真正市場反映可能要等接近明年獲利預期逐步被確認。",
+          "kol": "謝孟恭",
+          "reason": "法說會上管理層對後市轉為超級正面，MLC NAND 與 NOR 報價漲勢明顯，基本面與報價同步轉強。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1
@@ -827,351 +1781,123 @@
         {
           "date": "2026-05-01",
           "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "法說不太可能講得太差，市場期待其在雲端與端側處理器的新布局。聯發科可望透過協助 Google 開發 TPU，以及自身投入 CPU 研發，切入雲端接收端的成長方向。催化劑是法說當日與後續市場對 TPU 進度的再評價。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-07",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "謝孟恭",
-          "reason": "今年最大的意外，股價出現多根漲停，市場對其題材與預期給予極強反應。整體仍被視為強勢主線之一，籌碼與市場情緒高度正面。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-05-08",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "近期能直接鎖漲停或強勢表態，顯示資金正往大型權值與低估龍頭移動，市場出現健康輪動，主動式基金與投信持續對大型電子權值調整配置。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-13",
-          "signal_type": "bullish",
           "confidence": "low",
           "kol": "李兆華",
-          "reason": "節目中提到聯發科近期再度創高，且來賓用它作為大型電子權值股估值與市場氣氛升溫的例子。雖然也提到市場對其獲利預估可能過度樂觀，但整體語氣仍是正面看待其股價表現與資金偏好。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 0.5
-        }
-      ]
-    },
-    {
-      "symbol": "MU",
-      "mentions": {
-        "7d": 0,
-        "30d": 2,
-        "90d": 8,
-        "all": 8
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 15.5,
-        "all": 15.5
-      },
-      "mentionedBy": [
-        "NaNa说美股",
-        "李兆華",
-        "游庭皓的財經皓角",
-        "財女Jenny",
-        "財女Jenny（看多）"
-      ],
-      "timeline": [
-        {
-          "date": "2026-03-18",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "財女Jenny",
-          "reason": "記憶體進入結構性定價強勢期，獲 RBC 上調目標價",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
-          "weight": 3
-        },
-        {
-          "date": "2026-03-18",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "AI 需求帶動記憶體報價上漲，GTC 大會確認需求強勁",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
-          "weight": 3
-        },
-        {
-          "date": "2026-03-20",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "游庭皓的財經皓角",
-          "reason": "財報大幅超越預期，HBM 產能吃緊至明年底，產業出現結構性改變",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
-          "weight": 3
-        },
-        {
-          "date": "2026-03-20",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "毛利率高達 81% 且展望極佳，盤後下跌純粹受市場氛圍拖累，待利空淡化將還其公道",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
-          "weight": 3
-        },
-        {
-          "date": "2026-03-20",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "NaNa说美股",
-          "reason": "盤中跌幅大幅收斂，顯示下方承接買盤積極，仍是 AI 基礎設施主線",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
-          "weight": 2
-        },
-        {
-          "date": "2026-04-08",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "財女Jenny",
-          "reason": "分析師再度調高美光評級，看好記憶體晶片未來需求強勁。",
+          "reason": "奇邦已從一百四十幾漲到一百七八十，是投信一路養上去的代表之一。若封測族群熱度延續，仍有機會繼續被資金追捧。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-29",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "財女Jenny（看多）",
-          "reason": "記憶體對人工智慧客戶已成為不可或缺的關鍵零件，需求呈現指數型成長，受到機構上調目標價。",
-          "consensus": "KOL 分歧",
-          "timeHorizon": "long",
           "weight": 0.5
         },
         {
-          "date": "2026-04-29",
+          "date": "2026-05-06",
           "signal_type": "bearish",
-          "confidence": "low",
-          "kol": "財女Jenny",
-          "reason": "記憶體與儲存相關個股近期漲多後可能出現獲利了結與價格修正，屬於高波動區間。",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "旺宏屬於記憶體中的 Flash 類型，雖然相較純 DRAM 族群基本面略好，但同樣受記憶體報價週期影響。DRAM 現貨走弱後，整體記憶體族群難完全脫鉤，股價轉弱時建議退出或降低曝險。更適合短線價差，不宜過度戀戰。",
           "consensus": "單一 KOL",
           "timeHorizon": "short",
-          "weight": -0.5
+          "weight": -1
         }
       ]
     },
     {
-      "symbol": "MSFT",
+      "symbol": "2383.TW",
       "mentions": {
         "7d": 0,
-        "30d": 3,
-        "90d": 8,
-        "all": 8
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 4,
-        "90d": -5.5,
-        "all": -5.5
-      },
-      "mentionedBy": [
-        "NaNa说美股",
-        "游庭皓的財經皓角",
-        "財女Jenny"
-      ],
-      "timeline": [
-        {
-          "date": "2026-03-20",
-          "signal_type": "bearish",
-          "confidence": "low",
-          "kol": "NaNa说美股",
-          "reason": "走勢比輝達更弱，在大盤下跌時表現不佳",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -0.5
-        },
-        {
-          "date": "2026-03-25",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "游庭皓的財經皓角",
-          "reason": "技術面出現頭部型態，跌破所有均線且均線下彎，進入熊市",
-          "consensus": "KOL 共識",
-          "timeHorizon": "medium",
-          "weight": -3
-        },
-        {
-          "date": "2026-03-25",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "NaNa说美股",
-          "reason": "跌破長期上升趨勢線，面臨 OpenAI 去依賴化風險，AI 代理恐侵蝕 SaaS 訂閱",
-          "consensus": "KOL 共識",
-          "timeHorizon": "medium",
-          "weight": -3
-        },
-        {
-          "date": "2026-03-30",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "游庭皓的財經皓角",
-          "reason": "週跌幅達7%，股價呈現超級大M頭，短線失去動能，跌破20日移動平均線",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1.5
-        },
-        {
-          "date": "2026-04-04",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "財女Jenny",
-          "reason": "今年以來下跌超過25%，主要因供給問題：電力容量不足導致Azure訂單無法交付、資本支出過於保守、將有限算力優先供給內部Copilot團隊，以及OpenAI尋求其他合作夥伴導致市場對其未來成長性產生疑慮",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": -1.5
-        },
-        {
-          "date": "2026-04-28",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "游庭皓的財經皓角",
-          "reason": "微軟股價先前回落較多、本益比已降至相對合理區間，且巴菲特級別資金態度偏向回補，屬於具防禦與成長兼具的標的。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1
-        },
-        {
-          "date": "2026-04-29",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "游庭皓的財經皓角",
-          "reason": "微軟屬低本益比、即將公布業績的標的，具備重新吸引資金回流的可能。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
-          "weight": 1
-        },
-        {
-          "date": "2026-04-29",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "財女Jenny",
-          "reason": "微軟雖然與 OpenAI 的合作關係調整，但仍是大型科技與雲端基礎建設的重要核心，長線不會缺席人工智慧大趨勢。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
-          "weight": 2
-        }
-      ]
-    },
-    {
-      "symbol": "南亞科",
-      "mentions": {
-        "7d": 1,
         "30d": 5,
         "90d": 8,
         "all": 8
       },
       "sentimentScore": {
-        "7d": 1.5,
-        "30d": 2.75,
-        "90d": -0.75,
-        "all": -0.75
+        "7d": 0,
+        "30d": 6,
+        "90d": 10,
+        "all": 10
       },
       "mentionedBy": [
-        "李兆華",
-        "李兆華（看多）",
-        "李兆華（看空）",
-        "游庭皓的財經皓角"
+        "叔叔",
+        "李兆華"
       ],
       "timeline": [
         {
+          "date": "2026-03-21",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "取得華通低軌衛星訂單，代工費調漲帶動獲利。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
           "date": "2026-03-27",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "游庭皓的財經皓角",
-          "reason": "散戶追高南亞科，開盤漲停後轉頭空，顯示記憶體族群波動大，獲利不易。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "short",
-          "weight": -3
-        },
-        {
-          "date": "2026-03-27",
-          "signal_type": "bearish",
+          "signal_type": "bullish",
           "confidence": "medium",
           "kol": "李兆華",
-          "reason": "記憶體模組整體走勢分歧，韓股記憶體下跌，南亞科雖有私募利多，但其他記憶體模組股下跌，顯示產業氣氛不佳。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "short",
-          "weight": -2
+          "reason": "M9製程將用於Q布，預計下半年Rubin平台推出後，部分產品將採用Q布，有助於營收成長。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
         },
         {
-          "date": "2026-03-31",
+          "date": "2026-04-09",
           "signal_type": "bullish",
           "confidence": "high",
-          "kol": "李兆華",
-          "reason": "股價跌破私募價格23.9元，具備投資價值。獲得四大咖私募，訂單能見度高。",
+          "kol": "叔叔",
+          "reason": "CCL概念股，低軌衛星營收佔比約6%，近期營收年增率達50%以上，股價已衝到30元",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1.5
         },
         {
-          "date": "2026-04-23",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華（看多）",
-          "reason": "若記憶體合約價持續上漲、產業氛圍轉強，仍可能出現技術性反彈。",
-          "consensus": "KOL 分歧",
-          "timeHorizon": "medium",
-          "weight": 0.25
-        },
-        {
-          "date": "2026-04-23",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華（看空）",
-          "reason": "套牢壓力大、雜音多，且下半年DDR漲價動能可能放緩，短線壓力較其他記憶體標的更重。",
-          "consensus": "KOL 分歧",
-          "timeHorizon": "medium",
-          "weight": 0.5
-        },
-        {
-          "date": "2026-04-23",
-          "signal_type": "bearish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "套牢壓力大、雜音多，且下半年DDR漲價動能可能放緩，短線壓力較其他記憶體標的更重。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": -1
-        },
-        {
-          "date": "2026-05-07",
+          "date": "2026-04-20",
           "signal_type": "bullish",
           "confidence": "high",
-          "kol": "李兆華",
-          "reason": "記憶體族群中最看好的 Maker 類型，能直接受惠於上游供給緊縮與產品漲價。第一季獲利表現亮眼、第二季報價仍在上行、法人對未來單月獲利持續上修，以及私募案吸引凱俠等策略性資金進場。還有封裝外溢與台積電合作題材，獲利與題材雙主軸。",
+          "kol": "叔叔",
+          "reason": "高階銅箔基板需求仍強，受惠於人工智慧圖形處理器與特殊應用晶片需求，以及高階材料與低軌衛星題材，供需持續偏緊。",
           "consensus": "單一 KOL",
-          "timeHorizon": "medium",
+          "timeHorizon": "long",
           "weight": 1.5
         },
         {
-          "date": "2026-05-15",
+          "date": "2026-04-24",
           "signal_type": "bullish",
           "confidence": "high",
           "kol": "李兆華",
-          "reason": "記憶體族群補漲與新一輪景氣循環核心，南亞科先前位階低、曾大幅回落，但近期已重新站回今年初高點。全球記憶體龍頭如海力士、三星、美光股價持續創高，合約價一路往年底墊高，現貨價由跌轉漲，三星罷工風險進一步支撐供給端。",
+          "reason": "高階銅箔基板需求緊俏，四月起逐月漲價，且在人工智慧與雲端伺服器需求帶動下，基本面強勁。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-24",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "掌握雲端新平台出貨機會，在規格升級與新客戶導入下，第二季後營收有望轉強。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
-          "weight": 1.5
+          "weight": 1
+        },
+        {
+          "date": "2026-04-29",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "叔叔",
+          "reason": "台光電在市場熱度過高時已先出現休息，但長線仍被視為可持續關注的龍頭標的，且受惠於主動式指數商品與基金配置。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-05",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "南亞科是記憶體族群中最具代表性的強勢股之一，今日漲停對整體記憶體信心有重要提振作用。國際記憶體大廠股價回到歷史高檔，台廠多數個股自高點已修正三成以上，後續有利多反應空間。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
         }
       ]
     },
@@ -1278,63 +2004,52 @@
       ]
     },
     {
-      "symbol": "台達電",
+      "symbol": "8299.TW",
       "mentions": {
-        "7d": 0,
-        "30d": 4,
+        "7d": 1,
+        "30d": 5,
         "90d": 8,
         "all": 8
       },
       "sentimentScore": {
-        "7d": 0,
-        "30d": 4.5,
-        "90d": 10.5,
-        "all": 10.5
+        "7d": 1.5,
+        "30d": 6,
+        "90d": 9.5,
+        "all": 9.5
       },
       "mentionedBy": [
         "叔叔",
-        "李兆華",
-        "李兆華（蔡明翰）"
+        "李兆華"
       ],
       "timeline": [
         {
-          "date": "2026-03-30",
+          "date": "2026-03-31",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "股價委屈，但近期有1.8萬張、280億台幣的私募，預計有大咖資金進入。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-06",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "叔叔",
+          "reason": "庫存量大，具定價權，即使市場對記憶體動能有疑慮，仍能維持獲利",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-09",
           "signal_type": "bullish",
           "confidence": "high",
           "kol": "叔叔",
-          "reason": "Meta超級機櫃中的液冷設備預計由台達電供應，KOL認為台達電在各方面都具有競爭力",
+          "reason": "記憶體模組廠，庫存充足，Q2報價看好",
           "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-03",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "不僅是電力公司，更是散熱龍頭，受惠散熱和電力需求，穩健上漲，是引領大盤的趙子龍。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-08",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "主持人認為台達電股價強勢，是市場信心的來源，且其不死，市場仍充滿希望。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-11",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "在AI浪潮中為重要指標股，基本面相對良好，資金湧入，且具備「三綠三生」優勢，克服AI升級漲價難關。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
+          "timeHorizon": "short",
           "weight": 1.5
         },
         {
@@ -1342,37 +2057,47 @@
           "signal_type": "bullish",
           "confidence": "medium",
           "kol": "李兆華",
-          "reason": "持續創高，反映資金回流到大型權值與電源供應鏈，市場對其在人工智慧伺服器電源的想像持續升溫。",
+          "reason": "快閃記憶體缺貨與漲價趨勢有利群聯等快閃相關個股，中線仍有反攻機會。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1
         },
         {
-          "date": "2026-04-30",
+          "date": "2026-04-28",
           "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華（蔡明翰）",
-          "reason": "非常看好台達電，股價持續創高，市場對基本面與法說預期很高，資金仍持續追捧。若明天法說內容超出預期，股價有機會再度跳空走高。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-05-01",
-          "signal_type": "bullish",
-          "confidence": "low",
+          "confidence": "medium",
           "kol": "李兆華",
-          "reason": "法說值得關注，市場對其期待很高，重點在於能否持續交出雙率同步提升的成績。公司過去多季都展現良好表現，若法說再度證實成長動能，將強化電力與算力基礎設施題材的延續性。",
+          "reason": "群聯納入記憶體族群輪動的受惠股之一，若記憶體故事被市場重新定價，模組與控制晶片相關個股有補漲空間。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
-          "weight": 0.5
+          "weight": 1
+        },
+        {
+          "date": "2026-05-07",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "兩週前就已出現籌碼先行改善，千張大戶增加、散戶減少，顯示主力資金已提前布局。記憶體價格上漲帶動獲利上修，且群聯在記憶體景氣回升時往往是高彈性的受惠股。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
         },
         {
           "date": "2026-05-08",
           "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "在 AI 硬碟與固態硬碟架構下受惠於快閃記憶體應用，與 AI 儲存需求連結明確，比單純顆粒記憶體更具結構性成長。催化劑為 AI 儲存需求提升與固態硬碟滲透率增加。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-12",
+          "signal_type": "bullish",
           "confidence": "high",
           "kol": "李兆華",
-          "reason": "AI 伺服器升級持續帶動電源架構與散熱規格往上，台達電在電源與散熱雙題材下具備長期受惠位置，持續創歷史新高，市場資金偏好此類權值型龍頭。",
+          "reason": "群聯第一季財報明顯優於預期，毛利率由市場預估五十多趴提升至六十多趴，獲利約達六十多元，庫存水位升高代表公司正積極往更高毛利產品與邊緣運算方案發展。電腦展前後還有更多利多可能釋放。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1.5
@@ -1484,6 +2209,98 @@
       ]
     },
     {
+      "symbol": "2303.TW",
+      "mentions": {
+        "7d": 2,
+        "30d": 5,
+        "90d": 7,
+        "all": 7
+      },
+      "sentimentScore": {
+        "7d": -0.5,
+        "30d": 6.5,
+        "90d": 12.5,
+        "all": 12.5
+      },
+      "mentionedBy": [
+        "叔叔",
+        "李兆華",
+        "游庭皓的財經皓角"
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-18",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "游庭皓的財經皓角",
+          "reason": "AI 排擠產能，成熟製程供不應求，4 月全面調漲報價",
+          "consensus": "KOL 共識",
+          "timeHorizon": "short",
+          "weight": 3
+        },
+        {
+          "date": "2026-03-18",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "受惠半導體成熟製程漲價，帶動 IC 通路商獲利提升",
+          "consensus": "KOL 共識",
+          "timeHorizon": "short",
+          "weight": 3
+        },
+        {
+          "date": "2026-04-20",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "叔叔",
+          "reason": "成熟製程晶圓價格出現漲價風潮，聯電已快速跟進宣布漲價，反映成熟製程景氣回升。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "叔叔",
+          "reason": "八吋晶圓代工進入漲價循環，受惠於成熟製程報價上調與產能利用率改善，市場對成熟製程缺口的認知正在升溫。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "medium",
+          "weight": 3
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "宣布成熟製程代工調漲，成為本波IC設計與相關供應鏈轉強的重要催化劑之一。",
+          "consensus": "KOL 共識",
+          "timeHorizon": "medium",
+          "weight": 3
+        },
+        {
+          "date": "2026-05-13",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "節目中提到聯電在盤面上出現漲停，且來賓把這類股價反應解讀為台積電外溢效應與市場正循環的一部分。雖然沒有明講基本面轉強的細節，但語氣明顯偏正面，顯示與晶片供應鏈、代工相關的標的正受到資金青睞。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-14",
+          "signal_type": "bearish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "因英特爾相關消息大漲後，當英特爾夜間休息，聯電也順勢回檔。這類回落不像公司出了問題，而是題材與比價反應後的正常休息。主要是題材面與短線資金流退潮，而非基本面轉弱。短線追價風險較高。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1
+        }
+      ]
+    },
+    {
       "symbol": "TSM",
       "mentions": {
         "7d": 0,
@@ -1580,18 +2397,18 @@
       ]
     },
     {
-      "symbol": "華通",
+      "symbol": "2382.TW",
       "mentions": {
-        "7d": 0,
-        "30d": 3,
+        "7d": 4,
+        "30d": 5,
         "90d": 7,
         "all": 7
       },
       "sentimentScore": {
         "7d": 0,
-        "30d": -1,
-        "90d": 5,
-        "all": 5
+        "30d": 0.5,
+        "90d": 3,
+        "all": 3
       },
       "mentionedBy": [
         "叔叔",
@@ -1599,166 +2416,74 @@
       ],
       "timeline": [
         {
-          "date": "2026-03-27",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "受惠於光模塊新商機，預期下半年進入Rubin時代後，營收獲利將有顯著成長。同時也受惠於低軌衛星題材，且PE有上修空間，應對標AI PCB的30倍PE。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-03-28",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "低軌衛星概念股，已創歷史新高",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1.5
-        },
-        {
           "date": "2026-03-30",
           "signal_type": "bullish",
-          "confidence": "high",
+          "confidence": "medium",
           "kol": "叔叔",
-          "reason": "華通為HDI板廠商，近期股價創歷史新高，受惠於PCB產業動能",
+          "reason": "Meta在2026年將推出的AALC散熱架構（超級機櫃）預計由廣達代工",
           "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1.5
+          "timeHorizon": "long",
+          "weight": 1
         },
         {
-          "date": "2026-04-08",
+          "date": "2026-04-11",
           "signal_type": "bullish",
           "confidence": "high",
           "kol": "李兆華",
-          "reason": "華通公布單月獲利不佳，但股價仍大漲，顯示利空不跌，為強勢股表現。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-23",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "雖然短線回檔，但在低軌衛星天線板與人工智慧伺服器高密度互連板領域具護城河，且下半年業績貢獻可望放大，是中長線值得關注的強勢回檔股。",
+          "reason": "在AI浪潮中為重要指標股，基本面相對良好，資金湧入，且形態強勁。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1.5
-        },
-        {
-          "date": "2026-04-24",
-          "signal_type": "bearish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "低軌衛星題材受馬斯克對人工智慧上太空說法影響，短線題材加分可能下降，若基本面未大幅爆發，股價容易受壓。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1
         },
         {
           "date": "2026-04-28",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "廣達被視為資金往大型權值與老AI回流時可能受惠的標的，只要AI趨勢未改，老AI與大型電子仍有表現空間。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-09",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "廣達屬於 AI 供應鏈中仍具實質受惠的公司，修正較偏向漲多整理而非基本面轉弱。只要是真 AI，面對震盪會比較放心，仍被視為 AI 伺服器主線之一，投資邏輯主要來自產業地位與資金輪動。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-09",
+          "signal_type": "bearish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "市場對 AI 領頭羊的期待已經拉得很高，任何數字若沒有達到市場內心的高標準，就會立刻被視為不及預期。廣達即便基本面沒壞，短線也可能因為估值與預期過高而進入整理。",
+          "consensus": "單一 KOL（與看多訊號並存，KOL 分歧：中長線看多但短線估值過高）",
+          "timeHorizon": "short",
+          "weight": -0.5
+        },
+        {
+          "date": "2026-05-12",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "光寶科為電源與電池備援系統族群的強勢代表，受惠於 AI 伺服器機櫃需求擴大。族群在供應鏈中地位提升，資金輪動與主動式基金偏好市值較大、成長性明確的標的，短線已連續強勢創高。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-16",
           "signal_type": "bearish",
           "confidence": "high",
           "kol": "李兆華",
-          "reason": "華通因低軌衛星題材漲多後遭遇投信賣壓，若不是早就持有，不要急著低接，先觀察籌碼是否止穩。",
+          "reason": "第一季季報呈現三綠三降，部分 AI 供應鏈公司雖然題材熱，但財報開始進入檢驗期，市場對毛利率與獲利動能的容忍度下降，雖然第二季可能回升，但短線股價壓力偏大。",
           "consensus": "單一 KOL",
           "timeHorizon": "short",
           "weight": -1.5
-        }
-      ]
-    },
-    {
-      "symbol": "台積電",
-      "mentions": {
-        "7d": 0,
-        "30d": 3,
-        "90d": 7,
-        "all": 7
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 7.5,
-        "90d": 13.5,
-        "all": 13.5
-      },
-      "mentionedBy": [
-        "叔叔",
-        "李兆華",
-        "游庭皓的財經皓角"
-      ],
-      "timeline": [
-        {
-          "date": "2026-03-31",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "台積電測季線是正常現象，相較美股跌幅不大。目前1780元左右有吸引力，預計3月營收和法說會表現良好，回季線關卡後更具吸引力。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-03",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "17字頭是合理買點，短線急衝可獲利了結，長線投資人可在17字頭分批買進，甚至16字頭。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-06",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "叔叔",
-          "reason": "手機板塊產能缺口迅速被AI或網通客戶填補，顯示其在先進製程的領先地位和多元客戶結構",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-10",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "為00992A主要成分股之一，且為台灣科技產業的領頭羊，持續引領半導體風騷",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-24",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "游庭皓的財經皓角",
-          "reason": "台股這波上漲的關鍵推力來自台積電領軍，整體權值股持續點火，屬於台股多頭核心。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "medium",
-          "weight": 3
-        },
-        {
-          "date": "2026-04-24",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "台積電先創歷史新高，帶動市場信心；第二季毛利率與展望優於預期，顯示人工智慧需求仍然強勁。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "medium",
-          "weight": 3
-        },
-        {
-          "date": "2026-05-08",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "台積電仍是指數重要支撐核心，本益比約二十三倍仍低於過去高檔區間二十五至二十八倍，主動式基金持股上限調整後，未來遇回檔時將有低接買盤進場。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
         }
       ]
     },
@@ -1845,87 +2570,6 @@
       ]
     },
     {
-      "symbol": "台光電",
-      "mentions": {
-        "7d": 0,
-        "30d": 3,
-        "90d": 6,
-        "all": 6
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 4,
-        "90d": 8,
-        "all": 8
-      },
-      "mentionedBy": [
-        "叔叔",
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-03-21",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "取得華通低軌衛星訂單，代工費調漲帶動獲利。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-03-27",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "M9製程將用於Q布，預計下半年Rubin平台推出後，部分產品將採用Q布，有助於營收成長。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-04-09",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "叔叔",
-          "reason": "CCL概念股，低軌衛星營收佔比約6%，近期營收年增率達50%以上，股價已衝到30元",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-20",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "叔叔",
-          "reason": "高階銅箔基板需求仍強，受惠於人工智慧圖形處理器與特殊應用晶片需求，以及高階材料與低軌衛星題材，供需持續偏緊。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-24",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "高階銅箔基板需求緊俏，四月起逐月漲價，且在人工智慧與雲端伺服器需求帶動下，基本面強勁。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-29",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "叔叔",
-          "reason": "台光電在市場熱度過高時已先出現休息，但長線仍被視為可持續關注的龍頭標的，且受惠於主動式指數商品與基金配置。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1
-        }
-      ]
-    },
-    {
       "symbol": "記憶體產業",
       "mentions": {
         "7d": 0,
@@ -2007,88 +2651,6 @@
       ]
     },
     {
-      "symbol": "旺宏",
-      "mentions": {
-        "7d": 0,
-        "30d": 4,
-        "90d": 6,
-        "all": 6
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 6.5,
-        "90d": 9,
-        "all": 9
-      },
-      "mentionedBy": [
-        "叔叔",
-        "李兆華",
-        "謝孟恭"
-      ],
-      "timeline": [
-        {
-          "date": "2026-03-31",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "記憶體產業中，旺宏的Noflash部分在這一波被錯殺，回到凱基出報告幾乎原點，但籌碼和產業現狀問題不大。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-04-09",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "NAND Flash市場下半年缺貨漲價明朗，旺宏為記憶體中表現最強勢個股，回測月線後止穩",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-23",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "屬於記憶體族群中可留意的低位階標的，若整體族群資金回流，有機會跟著補漲。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 0.5
-        },
-        {
-          "date": "2026-04-29",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "叔叔",
-          "reason": "旺宏法說後股價強勢，第一季毛利率回升，且第二季合約價仍有約一成漲幅，受惠於競爭者退出特定利基市場後的供給缺口。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "short",
-          "weight": 3
-        },
-        {
-          "date": "2026-04-29",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "旺宏法說會雖然第一季獲利不算亮眼，但公司對下半年與明年展望偏正面，且法說後股價漲停帶動族群人氣。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "short",
-          "weight": 2
-        },
-        {
-          "date": "2026-04-30",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "謝孟恭",
-          "reason": "法說會上管理層對後市轉為超級正面，MLC NAND 與 NOR 報價漲勢明顯，基本面與報價同步轉強。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        }
-      ]
-    },
-    {
       "symbol": "UNH",
       "mentions": {
         "7d": 0,
@@ -2160,21 +2722,20 @@
       ]
     },
     {
-      "symbol": "群聯",
+      "symbol": "2344.TW",
       "mentions": {
-        "7d": 0,
-        "30d": 3,
+        "7d": 2,
+        "30d": 4,
         "90d": 5,
         "all": 5
       },
       "sentimentScore": {
-        "7d": 0,
-        "30d": 3.5,
-        "90d": 5.5,
-        "all": 5.5
+        "7d": 2.5,
+        "30d": 5,
+        "90d": 6,
+        "all": 6
       },
       "mentionedBy": [
-        "叔叔",
         "李兆華"
       ],
       "timeline": [
@@ -2183,27 +2744,17 @@
           "signal_type": "bullish",
           "confidence": "medium",
           "kol": "李兆華",
-          "reason": "股價委屈，但近期有1.8萬張、280億台幣的私募，預計有大咖資金進入。",
+          "reason": "海外可轉債轉換價格為109.5元，目前股價有套利空間。外資賣超可能與此有關，可觀察轉換價格出來後股價反彈空間。",
           "consensus": "單一 KOL",
-          "timeHorizon": "medium",
+          "timeHorizon": "short",
           "weight": 1
         },
         {
-          "date": "2026-04-06",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "叔叔",
-          "reason": "庫存量大，具定價權，即使市場對記憶體動能有疑慮，仍能維持獲利",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-04-23",
+          "date": "2026-04-28",
           "signal_type": "bullish",
           "confidence": "medium",
           "kol": "李兆華",
-          "reason": "快閃記憶體缺貨與漲價趨勢有利群聯等快閃相關個股，中線仍有反攻機會。",
+          "reason": "華邦電為記憶體族群位階偏低、具反彈空間的標的，若記憶體故事從傳統景氣循環轉向高階應用，評價有機會提升。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1
@@ -2213,20 +2764,170 @@
           "signal_type": "bullish",
           "confidence": "high",
           "kol": "李兆華",
-          "reason": "兩週前就已出現籌碼先行改善，千張大戶增加、散戶減少，顯示主力資金已提前布局。記憶體價格上漲帶動獲利上修，且群聯在記憶體景氣回升時往往是高彈性的受惠股。",
+          "reason": "記憶體族群中的重要觀察標的，法說後直接帶動股價強攻。記憶體漲價趨勢明確、籌碼面逐步沉澱，市場開始重估相關公司的獲利能力。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1.5
         },
         {
-          "date": "2026-05-08",
+          "date": "2026-05-12",
           "signal_type": "bullish",
           "confidence": "medium",
           "kol": "李兆華",
-          "reason": "在 AI 硬碟與固態硬碟架構下受惠於快閃記憶體應用，與 AI 儲存需求連結明確，比單純顆粒記憶體更具結構性成長。催化劑為 AI 儲存需求提升與固態硬碟滲透率增加。",
+          "reason": "華邦電屬於記憶體族群中具比價效應的標的，只要南亞科與整體族群續強，後續仍有補漲空間。全球記憶體股正改用本益比重新評價，台灣記憶體已與美光、海力士、三星走在同一上升趨勢。籌碼較凌亂需留意。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-15",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "被動元件族群先前明顯落後，但近期開始全面表態，資金正在補漲。日本村田、太陽誘電等國際大廠先行大漲，台廠跟進補回，且國巨多次對外強調 AI 比重提升，顯示需求非單一題材炒作。AI 伺服器對高階被動元件用量顯著增加，投信與外資開始認可。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "symbol": "2317.TW",
+      "mentions": {
+        "7d": 1,
+        "30d": 5,
+        "90d": 5,
+        "all": 5
+      },
+      "sentimentScore": {
+        "7d": 1,
+        "30d": 3.5,
+        "90d": 3.5,
+        "all": 3.5
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "外資資金回流帶動老牌人工智慧伺服器供應鏈回神，作為大型代工與伺服器組裝代表，有機會跟著中小型熱門題材同步轉強。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-04-24",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "在資金輪動下走強，且被主動式ETF納入持有，大型權值股仍有資金青睞。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-04-28",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "鴻海被點名為可被主動式資金調高比重的大型權值股之一，若市場資金持續往權值集中，鴻海有機會受惠於比價效應與權值重估。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-06",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "鴻海受聯發科與電子族群強勢帶動，當日大漲超過 5%，顯示資金仍願意往大型電子權值集中。若 AI 與消費電子需求同步回溫，鴻海仍可能受惠，被視為本波電子與供應鏈延續強勢的受惠者之一。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-14",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "在新的晶片與光電相關題材中有切入空間，且主動式資金曾經加碼，代表市場並未放棄其中長線題材。公司橫跨不同題材，有機會成為資金重新配置的標的。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "symbol": "8046.TW",
+      "mentions": {
+        "7d": 1,
+        "30d": 5,
+        "90d": 5,
+        "all": 5
+      },
+      "sentimentScore": {
+        "7d": -1.5,
+        "30d": 3,
+        "90d": 3,
+        "all": 3
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "在短線缺布與漲價環境下，因客戶結構與轉嫁能力較佳，獲利爆發性可能較強。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-25",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "南電雖然早盤漲停後打開，但仍被列為載板強勢股，載板與銅箔基板目前都是資金追捧的主流。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-01",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "載板族群整體轉強，匯豐證券已正式上調欣興目標價到一千元以上，連帶帶動南電成為千元股與強勢股之一。受惠於第二季漲價題材、上游供需改善，以及市場資金集中在漲價與高階封裝相關標的。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-07",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "載板族群中最值得看好的標的之一，明年 EPS 預估被拉高至 15 元以上，載板走勢通常一走就是兩到三年。AI、CPU 與高階封裝需求對 ABF 與相關載板形成支撐，中長線看法仍偏多。",
           "consensus": "單一 KOL",
           "timeHorizon": "long",
           "weight": 1
+        },
+        {
+          "date": "2026-05-16",
+          "signal_type": "bearish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "載板族群中相對最弱的一檔，南亞申報轉讓消息對籌碼面造成明顯殺傷，已跌破較早期的大量低點，比景碩與欣興更弱，短線仍不宜急著接刀，需等籌碼與型態確認。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1.5
         }
       ]
     },
@@ -2302,6 +3003,77 @@
       ]
     },
     {
+      "symbol": "2327.TW",
+      "mentions": {
+        "7d": 2,
+        "30d": 5,
+        "90d": 5,
+        "all": 5
+      },
+      "sentimentScore": {
+        "7d": 2,
+        "30d": 5.5,
+        "90d": 5.5,
+        "all": 5.5
+      },
+      "mentionedBy": [
+        "李兆華",
+        "謝孟恭"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-01",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "光寶科屬於有趨勢、有題材但股價仍相對委屈的標的，主要受惠於電力與算力概念延伸。基本面正在慢慢回升，若回到前波大量區附近可能是較好的布局點。短線法說後雖有震盪，但整體仍偏正面。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-01",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "國巨已透過併購擴張成大型集團，可把多種高階元件整合成模組出貨給高階客戶。近年股價型態已悄悄創高，外資持續買進，若未來有外資上調目標價，可能引發市場重新評價。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-08",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "被動元件族群進入漲價與用量提升循環，國巨為龍頭且併購後毛利率接近四成，在全球彈性電容市占率高，並已切入車用、工控與 AI 伺服器電源模組新應用。漲價函、庫藏股買回與投信大幅買進帶動族群比價效應。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-05-14",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "謝孟恭",
+          "reason": "台系被動元件廠已開始跟上國際趨勢，不再是單純落後補漲。高階規格料件需求增加、不同料號之間出現排擠效應，以及整體產業進入漲價循環；雖然最頂級的料仍在日韓大廠手上，但台廠仍有吃到外溢機會。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-16",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "資金正在尋找相對低位階、尚未大漲的標的，國巨屬於這一類，被動元件整體補漲且國巨先前相對落後，較容易吸引資金回流。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "symbol": "AVGO",
       "mentions": {
         "7d": 0,
@@ -2363,64 +3135,62 @@
       ]
     },
     {
-      "symbol": "微軟",
+      "symbol": "3037.TW",
       "mentions": {
         "7d": 0,
-        "30d": 0,
+        "30d": 3,
         "90d": 4,
         "all": 4
       },
       "sentimentScore": {
         "7d": 0,
-        "30d": 0,
-        "90d": -6.5,
-        "all": -6.5
+        "30d": 2.5,
+        "90d": 4,
+        "all": 4
       },
       "mentionedBy": [
-        "NaNa说美股",
-        "游庭皓的財經皓角",
-        "財女Jenny"
+        "李兆華"
       ],
       "timeline": [
         {
           "date": "2026-03-27",
-          "signal_type": "bearish",
-          "confidence": "low",
-          "kol": "財女Jenny",
-          "reason": "微軟今年以來下跌超過20%，是科技巨頭中表現最差的，面臨內憂外患。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "medium",
-          "weight": -1
-        },
-        {
-          "date": "2026-03-27",
-          "signal_type": "bearish",
+          "signal_type": "bullish",
           "confidence": "high",
-          "kol": "NaNa说美股",
-          "reason": "微軟市值已蒸發近三分之一，週K線跌破200週均線，市場對其定價邏輯可能從「回調」轉變為「趨勢改變」。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "medium",
-          "weight": -3
-        },
-        {
-          "date": "2026-03-31",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "NaNa说美股",
-          "reason": "股價在第一季度下跌約26%，朝著2008年全球金融危機以來最糟糕的季度表現邁進。AI資本支出如黑洞，Azure增長放緩，Copilot尚未獲得顯著市場認可。目前遠期市盈率壓至2.0倍以下。",
+          "kol": "李兆華",
+          "reason": "載板業務本身表現良好，且缺料問題持續，反映原物料價格上漲。Rubin平台推出後，載板面積需求將暴增，AI PCB訂單持續增加，光模塊也有貢獻。",
           "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1.5
+          "timeHorizon": "medium",
+          "weight": 1.5
         },
         {
-          "date": "2026-04-08",
-          "signal_type": "bearish",
+          "date": "2026-04-24",
+          "signal_type": "bullish",
           "confidence": "medium",
-          "kol": "游庭皓的財經皓角",
-          "reason": "微軟股價修正，本益比從40倍跌至23倍，達到2020年烏俄戰事水準，顯示估值有嚴重下滑。",
+          "kol": "李兆華",
+          "reason": "在載板產業缺布與先進封裝趨勢下，屬於長線受惠標的，雖股價已反映部分利多，但主身段仍在。",
           "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1
+          "timeHorizon": "long",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-05",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "華碩相關記憶體與模組標的在多頭輪動下仍有表現空間，尤其若市場繼續偏好高業績與高題材並存的公司，資金會持續流向這類個股。記憶體族群強勢擴散與模組廠法人買盤回流為主要依據。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-07",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "載板族群中的重要標的，法人圈對其明年 EPS 估值已有明顯上修。ABF 載板需求持續、AI 伺服器與高階封裝帶動載板用量，籌碼與基本面都還有延續空間。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1
         }
       ]
     },
@@ -2608,6 +3378,67 @@
       ]
     },
     {
+      "symbol": "5274.TW",
+      "mentions": {
+        "7d": 2,
+        "30d": 3,
+        "90d": 4,
+        "all": 4
+      },
+      "sentimentScore": {
+        "7d": 2,
+        "30d": 3.5,
+        "90d": 5,
+        "all": 5
+      },
+      "mentionedBy": [
+        "叔叔",
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-09",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "叔叔",
+          "reason": "BNC概念股，市場獨家，股價已達一萬兩千多塊",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-04-23",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "叔叔",
+          "reason": "受惠於代理式人工智慧帶動的中央處理器市場擴張，尤其需要更高階的管理與協作能力，推升資料中心相關需求與營運動能。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "long",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-05-09",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "四星科技仍在上漲，反映市場對 IP 族群的熱度持續。當市場開始接受大型 IC 設計公司可以把既有 IP 變現時，相關族群就會一起被推升。屬於資金行情中的觀察名單。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-12",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "南亞科有國際大咖參與私募（私募價格較低、三年內鎖定），且市場傳聞其新產品與先進記憶體布局有機會進一步打入 AI 供應鏈。短線若股價突破前高，可能帶動同族群比價效應。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
       "symbol": "軟體股",
       "mentions": {
         "7d": 0,
@@ -2665,368 +3496,6 @@
           "consensus": "KOL 共識",
           "timeHorizon": "short",
           "weight": -2
-        }
-      ]
-    },
-    {
-      "symbol": "聯電",
-      "mentions": {
-        "7d": 1,
-        "30d": 4,
-        "90d": 4,
-        "all": 4
-      },
-      "sentimentScore": {
-        "7d": 0.5,
-        "30d": 7.5,
-        "90d": 7.5,
-        "all": 7.5
-      },
-      "mentionedBy": [
-        "叔叔",
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-20",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "叔叔",
-          "reason": "成熟製程晶圓價格出現漲價風潮，聯電已快速跟進宣布漲價，反映成熟製程景氣回升。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-04-23",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "叔叔",
-          "reason": "八吋晶圓代工進入漲價循環，受惠於成熟製程報價上調與產能利用率改善，市場對成熟製程缺口的認知正在升溫。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "medium",
-          "weight": 3
-        },
-        {
-          "date": "2026-04-23",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "宣布成熟製程代工調漲，成為本波IC設計與相關供應鏈轉強的重要催化劑之一。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "medium",
-          "weight": 3
-        },
-        {
-          "date": "2026-05-13",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "節目中提到聯電在盤面上出現漲停，且來賓把這類股價反應解讀為台積電外溢效應與市場正循環的一部分。雖然沒有明講基本面轉強的細節，但語氣明顯偏正面，顯示與晶片供應鏈、代工相關的標的正受到資金青睞。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 0.5
-        }
-      ]
-    },
-    {
-      "symbol": "2313.TW",
-      "mentions": {
-        "7d": 1,
-        "30d": 4,
-        "90d": 4,
-        "all": 4
-      },
-      "sentimentScore": {
-        "7d": 1,
-        "30d": -1,
-        "90d": -1,
-        "all": -1
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-25",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "華通被明確點名為本波低軌衛星題材退潮後的弱勢指標，出現增量收黑與法人持續賣超，籌碼轉弱且修正可能較深較久。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1.5
-        },
-        {
-          "date": "2026-05-01",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "華通所屬的低軌衛星與資料中心相關敘事仍具長線想像空間，台灣在此領域具獨特位置。市場一度因題材誤解而賣壓偏重，但若下半年出貨與應用持續擴大，股價有機會重新獲得資金青睞。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 0.5
-        },
-        {
-          "date": "2026-05-06",
-          "signal_type": "bearish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "對 DRAM 類股態度偏保守，雖然華邦電第一季繳出不錯成績，但現貨報價仍在下跌，這會壓抑後續股價表現。現貨價走勢是更重要的領先訊號，市場聽到的合約價與獲利好消息屬落後反映，短線不建議追價。適合報價與股價整理後的區間操作。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1
-        },
-        {
-          "date": "2026-05-12",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "群創因年報與媒體報導被市場解讀為與台積電先進封裝、供應鏈合作有關，導致股價漲停。雖然公司未正式承認，但外界早已知道其轉型方向，相關動作顯示公司站在先進封裝第一線。屬於題材性強的事件驅動行情。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "2408.TW",
-      "mentions": {
-        "7d": 1,
-        "30d": 4,
-        "90d": 4,
-        "all": 4
-      },
-      "sentimentScore": {
-        "7d": 1.5,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-28",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "南亞科因市場傳出可能打入輝達次世代伺服器供應鏈，有助於改變市場對傳統記憶體的想像。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-06",
-          "signal_type": "bearish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "雖然南亞科股價連續兩天轉強，但整體看法未翻多，DRAM 現貨報價持續下滑對純 DRAM 族群是直接壓力。即使季報與法說可能持續報喜，但報價高點到獲利高點通常有兩季落差，若現貨趨勢向下，短線追高風險仍高。定位為可做短波段，不適合在轉弱時追價。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1
-        },
-        {
-          "date": "2026-05-07",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "曾被列為舊愛持股，若型態轉弱但基本面未被否定，先換股或部分調整是合理做法；仍具業績支撐且位階合適，可視為關注名單。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 0.5
-        },
-        {
-          "date": "2026-05-12",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "怡悅第一季獲利表現非常亮眼，每股盈餘接近五十八元，庫存水位由前一季約五十三億大幅提高到八十三億，顯示公司正積極備貨，對後續第二、三季毛利率維持高檔有利。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        }
-      ]
-    },
-    {
-      "symbol": "2337.TW",
-      "mentions": {
-        "7d": 0,
-        "30d": 4,
-        "90d": 4,
-        "all": 4
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-28",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "旺宏下午法說有機會給出偏正面的說法，若法說內容配合缺貨與產業景氣改善，將有助記憶體族群續強。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1
-        },
-        {
-          "date": "2026-04-29",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "威剛在記憶體族群回溫時同步漲停，顯示模組廠在本波景氣與價格循環中仍具吸引力。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 0.5
-        },
-        {
-          "date": "2026-05-01",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "奇邦已從一百四十幾漲到一百七八十，是投信一路養上去的代表之一。若封測族群熱度延續，仍有機會繼續被資金追捧。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 0.5
-        },
-        {
-          "date": "2026-05-06",
-          "signal_type": "bearish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "旺宏屬於記憶體中的 Flash 類型，雖然相較純 DRAM 族群基本面略好，但同樣受記憶體報價週期影響。DRAM 現貨走弱後，整體記憶體族群難完全脫鉤，股價轉弱時建議退出或降低曝險。更適合短線價差，不宜過度戀戰。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1
-        }
-      ]
-    },
-    {
-      "symbol": "2382.TW",
-      "mentions": {
-        "7d": 3,
-        "30d": 4,
-        "90d": 4,
-        "all": 4
-      },
-      "sentimentScore": {
-        "7d": 1.5,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-28",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "廣達被視為資金往大型權值與老AI回流時可能受惠的標的，只要AI趨勢未改，老AI與大型電子仍有表現空間。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 0.5
-        },
-        {
-          "date": "2026-05-09",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "廣達屬於 AI 供應鏈中仍具實質受惠的公司，修正較偏向漲多整理而非基本面轉弱。只要是真 AI，面對震盪會比較放心，仍被視為 AI 伺服器主線之一，投資邏輯主要來自產業地位與資金輪動。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-09",
-          "signal_type": "bearish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "市場對 AI 領頭羊的期待已經拉得很高，任何數字若沒有達到市場內心的高標準，就會立刻被視為不及預期。廣達即便基本面沒壞，短線也可能因為估值與預期過高而進入整理。",
-          "consensus": "單一 KOL（與看多訊號並存，KOL 分歧：中長線看多但短線估值過高）",
-          "timeHorizon": "short",
-          "weight": -0.5
-        },
-        {
-          "date": "2026-05-12",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "光寶科為電源與電池備援系統族群的強勢代表，受惠於 AI 伺服器機櫃需求擴大。族群在供應鏈中地位提升，資金輪動與主動式基金偏好市值較大、成長性明確的標的，短線已連續強勢創高。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "國巨",
-      "mentions": {
-        "7d": 2,
-        "30d": 4,
-        "90d": 4,
-        "all": 4
-      },
-      "sentimentScore": {
-        "7d": 2,
-        "30d": 4.5,
-        "90d": 4.5,
-        "all": 4.5
-      },
-      "mentionedBy": [
-        "李兆華",
-        "謝孟恭"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-01",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "國巨已透過併購擴張成大型集團，可把多種高階元件整合成模組出貨給高階客戶。近年股價型態已悄悄創高，外資持續買進，若未來有外資上調目標價，可能引發市場重新評價。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-08",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "被動元件族群進入漲價與用量提升循環，國巨為龍頭且併購後毛利率接近四成，在全球彈性電容市占率高，並已切入車用、工控與 AI 伺服器電源模組新應用。漲價函、庫藏股買回與投信大幅買進帶動族群比價效應。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-05-14",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "謝孟恭",
-          "reason": "台系被動元件廠已開始跟上國際趨勢，不再是單純落後補漲。高階規格料件需求增加、不同料號之間出現排擠效應，以及整體產業進入漲價循環；雖然最頂級的料仍在日韓大廠手上，但台廠仍有吃到外溢機會。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-16",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "資金正在尋找相對低位階、尚未大漲的標的，國巨屬於這一類，被動元件整體補漲且國巨先前相對落後，較容易吸引資金回流。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
         }
       ]
     },
@@ -3129,58 +3598,6 @@
           "reason": "拉長 3-5 年看，光傳輸是不可逆的長期趨勢，不會賣出持股",
           "consensus": "KOL 共識",
           "timeHorizon": "medium",
-          "weight": 3
-        }
-      ]
-    },
-    {
-      "symbol": "2330.TW ／ TSM",
-      "mentions": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 3,
-        "all": 3
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 8,
-        "all": 8
-      },
-      "mentionedBy": [
-        "李兆華",
-        "游庭皓的財經皓角",
-        "財女Jenny"
-      ],
-      "timeline": [
-        {
-          "date": "2026-03-20",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "游庭皓的財經皓角",
-          "reason": "股價重返高點，作為台股權值核心帶動大盤",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
-          "weight": 2
-        },
-        {
-          "date": "2026-03-20",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "財女Jenny",
-          "reason": "具備先進製程優勢，是害怕追高熱門股時的穩健選擇",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
-          "weight": 3
-        },
-        {
-          "date": "2026-03-20",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "AI 趨勢推升長期動能，法人認為 2000 元絕對不是頂部",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
           "weight": 3
         }
       ]
@@ -3441,57 +3858,6 @@
       ]
     },
     {
-      "symbol": "廣達",
-      "mentions": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 3,
-        "all": 3
-      },
-      "sentimentScore": {
-        "7d": -1.5,
-        "30d": -1.5,
-        "90d": 1,
-        "all": 1
-      },
-      "mentionedBy": [
-        "叔叔",
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-03-30",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "叔叔",
-          "reason": "Meta在2026年將推出的AALC散熱架構（超級機櫃）預計由廣達代工",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1
-        },
-        {
-          "date": "2026-04-11",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "在AI浪潮中為重要指標股，基本面相對良好，資金湧入，且形態強勁。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-05-16",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "第一季季報呈現三綠三降，部分 AI 供應鏈公司雖然題材熱，但財報開始進入檢驗期，市場對毛利率與獲利動能的容忍度下降，雖然第二季可能回升，但短線股價壓力偏大。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1.5
-        }
-      ]
-    },
-    {
       "symbol": "GOOGL",
       "mentions": {
         "7d": 0,
@@ -3588,56 +3954,6 @@
           "confidence": "medium",
           "kol": "叔叔",
           "reason": "邁威爾受惠於輝達資本投入與高速模組出貨成長，股價已隨合作題材走強，單月相關投資規模超過60億美元。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "美光",
-      "mentions": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 3,
-        "all": 3
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "mentionedBy": [
-        "游庭皓的財經皓角"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-01",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "游庭皓的財經皓角",
-          "reason": "記憶體報價鬆動，美光重挫近10%，儘管基本面無問題，但市場正在砍高本益比的股票以降低風險。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1.5
-        },
-        {
-          "date": "2026-04-03",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "游庭皓的財經皓角",
-          "reason": "美光暴漲 8.2%，市場重新評估其超大型資料中心長約商談，預期透過基本出貨量鎖定及預付款，有望支撐下半年利潤水準。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-24",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "游庭皓的財經皓角",
-          "reason": "美光積極遊說美國推動新一輪半導體法案，若成功可強化對中國半導體與記憶體的出口限制，間接有利其競爭地位。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1
@@ -3799,7 +4115,7 @@
       ]
     },
     {
-      "symbol": "8299.TW",
+      "symbol": "2409.TW",
       "mentions": {
         "7d": 1,
         "30d": 2,
@@ -3807,22 +4123,21 @@
         "all": 3
       },
       "sentimentScore": {
-        "7d": 1.5,
-        "30d": 2.5,
-        "90d": 4,
-        "all": 4
+        "7d": 1,
+        "30d": 1.5,
+        "90d": 3,
+        "all": 3
       },
       "mentionedBy": [
-        "叔叔",
         "李兆華"
       ],
       "timeline": [
         {
-          "date": "2026-04-09",
+          "date": "2026-04-10",
           "signal_type": "bullish",
           "confidence": "high",
-          "kol": "叔叔",
-          "reason": "記憶體模組廠，庫存充足，Q2報價看好",
+          "kol": "李兆華",
+          "reason": "友達因號稱有矽光子技術，且集團內有富采等小LED轉矽光子，股價鎖漲停",
           "consensus": "單一 KOL",
           "timeHorizon": "short",
           "weight": 1.5
@@ -3830,22 +4145,22 @@
         {
           "date": "2026-04-28",
           "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "轉錄中提到高位階調節後低位階記憶體與低本益比個股受惠的整體邏輯，記憶體相關標的因位階低而被看好。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-14",
+          "signal_type": "bullish",
           "confidence": "medium",
           "kol": "李兆華",
-          "reason": "群聯納入記憶體族群輪動的受惠股之一，若記憶體故事被市場重新定價，模組與控制晶片相關個股有補漲空間。",
+          "reason": "被視為群創帶動下的補漲標的，外資近期開始加碼，市場對面板相關資產轉型題材的接受度提升。股價已開始靠近前波高點，反映資金正在對同族群做比價，是市場重新評價轉型與題材延伸的邏輯。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1
-        },
-        {
-          "date": "2026-05-12",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "群聯第一季財報明顯優於預期，毛利率由市場預估五十多趴提升至六十多趴，獲利約達六十多元，庫存水位升高代表公司正積極往更高毛利產品與邊緣運算方案發展。電腦展前後還有更多利多可能釋放。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
         }
       ]
     },
@@ -3901,7 +4216,7 @@
       ]
     },
     {
-      "symbol": "2317.TW",
+      "symbol": "3189.TW",
       "mentions": {
         "7d": 0,
         "30d": 3,
@@ -3910,143 +4225,43 @@
       },
       "sentimentScore": {
         "7d": 0,
-        "30d": 1.5,
-        "90d": 1.5,
-        "all": 1.5
+        "30d": 2,
+        "90d": 2,
+        "all": 2
       },
       "mentionedBy": [
         "李兆華"
       ],
       "timeline": [
         {
-          "date": "2026-04-24",
+          "date": "2026-04-23",
           "signal_type": "bullish",
-          "confidence": "low",
+          "confidence": "medium",
           "kol": "李兆華",
-          "reason": "在資金輪動下走強，且被主動式ETF納入持有，大型權值股仍有資金青睞。",
+          "reason": "在投信持續買盤支持下維持強勢，屬於主動資金偏好的熱門中小型股。",
           "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 0.5
+          "timeHorizon": "short",
+          "weight": 1
         },
         {
-          "date": "2026-04-28",
+          "date": "2026-04-25",
           "signal_type": "bullish",
           "confidence": "low",
           "kol": "李兆華",
-          "reason": "鴻海被點名為可被主動式資金調高比重的大型權值股之一，若市場資金持續往權值集中，鴻海有機會受惠於比價效應與權值重估。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 0.5
-        },
-        {
-          "date": "2026-05-06",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "鴻海受聯發科與電子族群強勢帶動，當日大漲超過 5%，顯示資金仍願意往大型電子權值集中。若 AI 與消費電子需求同步回溫，鴻海仍可能受惠，被視為本波電子與供應鏈延續強勢的受惠者之一。",
+          "reason": "景碩同樣被視為載板族群的強勢股，雖然籌碼不穩定，但仍屬於本波資金焦點。",
           "consensus": "單一 KOL",
           "timeHorizon": "short",
           "weight": 0.5
-        }
-      ]
-    },
-    {
-      "symbol": "2344.TW",
-      "mentions": {
-        "7d": 2,
-        "30d": 3,
-        "90d": 3,
-        "all": 3
-      },
-      "sentimentScore": {
-        "7d": 2.5,
-        "30d": 3.5,
-        "90d": 3.5,
-        "all": 3.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-28",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "華邦電為記憶體族群位階偏低、具反彈空間的標的，若記憶體故事從傳統景氣循環轉向高階應用，評價有機會提升。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-12",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "華邦電屬於記憶體族群中具比價效應的標的，只要南亞科與整體族群續強，後續仍有補漲空間。全球記憶體股正改用本益比重新評價，台灣記憶體已與美光、海力士、三星走在同一上升趨勢。籌碼較凌亂需留意。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-15",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "被動元件族群先前明顯落後，但近期開始全面表態，資金正在補漲。日本村田、太陽誘電等國際大廠先行大漲，台廠跟進補回，且國巨多次對外強調 AI 比重提升，顯示需求非單一題材炒作。AI 伺服器對高階被動元件用量顯著增加，投信與外資開始認可。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        }
-      ]
-    },
-    {
-      "symbol": "南電",
-      "mentions": {
-        "7d": 1,
-        "30d": 3,
-        "90d": 3,
-        "all": 3
-      },
-      "sentimentScore": {
-        "7d": -1.5,
-        "30d": 0.5,
-        "90d": 0.5,
-        "all": 0.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-01",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "載板族群整體轉強，匯豐證券已正式上調欣興目標價到一千元以上，連帶帶動南電成為千元股與強勢股之一。受惠於第二季漲價題材、上游供需改善，以及市場資金集中在漲價與高階封裝相關標的。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
         },
         {
           "date": "2026-05-07",
           "signal_type": "bullish",
-          "confidence": "medium",
+          "confidence": "low",
           "kol": "李兆華",
-          "reason": "載板族群中最值得看好的標的之一，明年 EPS 預估被拉高至 15 元以上，載板走勢通常一走就是兩到三年。AI、CPU 與高階封裝需求對 ABF 與相關載板形成支撐，中長線看法仍偏多。",
+          "reason": "在記憶體相關載板與高階載板需求升溫下具備受惠空間，市場開始對明年獲利重新估值，載板景氣在過去每一輪上行循環都能延續較長時間。",
           "consensus": "單一 KOL",
           "timeHorizon": "long",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-16",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "載板族群中相對最弱的一檔，南亞申報轉讓消息對籌碼面造成明顯殺傷，已跌破較早期的大量低點，比景碩與欣興更弱，短線仍不宜急著接刀，需等籌碼與型態確認。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1.5
+          "weight": 0.5
         }
       ]
     },
@@ -4204,43 +4419,102 @@
       ]
     },
     {
-      "symbol": "2303.TW",
+      "symbol": "2301.TW",
       "mentions": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 2,
-        "all": 2
+        "7d": 2,
+        "30d": 3,
+        "90d": 3,
+        "all": 3
       },
       "sentimentScore": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 6,
-        "all": 6
+        "7d": -0.5,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
       },
       "mentionedBy": [
-        "李兆華",
-        "游庭皓的財經皓角"
+        "李兆華"
       ],
       "timeline": [
         {
-          "date": "2026-03-18",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "游庭皓的財經皓角",
-          "reason": "AI 排擠產能，成熟製程供不應求，4 月全面調漲報價",
-          "consensus": "KOL 共識",
-          "timeHorizon": "short",
-          "weight": 3
-        },
-        {
-          "date": "2026-03-18",
+          "date": "2026-05-08",
           "signal_type": "bullish",
           "confidence": "high",
           "kol": "李兆華",
-          "reason": "受惠半導體成熟製程漲價，帶動 IC 通路商獲利提升",
-          "consensus": "KOL 共識",
+          "reason": "同時具備電源與散熱相關題材，在台達電領先後出現補漲，屬於資金輪動中的低位階權值補漲標的。過去股性偏弱但近期連續大漲甚至漲停，顯示市場重新評價老 AI 與電源族群。",
+          "consensus": "單一 KOL",
           "timeHorizon": "short",
-          "weight": 3
+          "weight": 1.5
+        },
+        {
+          "date": "2026-05-13",
+          "signal_type": "bullish",
+          "confidence": "low",
+          "kol": "李兆華",
+          "reason": "主持人與來賓都提到光寶科近期走勢強勁，且已連續出現很兇悍的上漲表現，顯示市場資金正持續往電子權值與供應鏈相關族群流入。雖然未詳細展開基本面，但從語境來看屬於受到資金追捧、值得持續關注的正面標的。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": 0.5
+        },
+        {
+          "date": "2026-05-14",
+          "signal_type": "bearish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "先前連續大漲三根停板，當天直接跌停。主要原因不是基本面出問題，而是股價短線漲太多，市場進入獲利了結與休息階段。籌碼與技術面過熱，而非公司營運惡化；屬於高檔震盪與修正風險較高的標的。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1
+        }
+      ]
+    },
+    {
+      "symbol": "3481.TW",
+      "mentions": {
+        "7d": 3,
+        "30d": 3,
+        "90d": 3,
+        "all": 3
+      },
+      "sentimentScore": {
+        "7d": 1.5,
+        "30d": 1.5,
+        "90d": 1.5,
+        "all": 1.5
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-12",
+          "signal_type": "bullish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "創建在記憶體景氣反轉下開始大幅增加庫存，第一季庫存由上一季約五十幾億增至一百零四億，增幅接近一倍，公司態度明顯轉趨積極。若後續記憶體價格維持高檔，第二季獲利有望延續。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1
+        },
+        {
+          "date": "2026-05-14",
+          "signal_type": "bullish",
+          "confidence": "high",
+          "kol": "李兆華",
+          "reason": "群創已被市場重新用新邏輯評價，不再只看面板循環，而是當成切入晶片相關題材與技術合作的標的。這一波是漲想像溢價，市場接受度已從法說後的失望中修復，技術面上外資買進、五日均線未破，趨勢仍偏多；中線仍有持續比價與轉型想像空間。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "medium",
+          "weight": 1.5
+        },
+        {
+          "date": "2026-05-14",
+          "signal_type": "bearish",
+          "confidence": "medium",
+          "kol": "李兆華",
+          "reason": "彩晶這一波盤中觸及漲停比較像是跟風與美麗的誤會，並不是面板景氣復甦本身。若投資人把群創當成面板循環股來買，可能會誤判題材本質。這屬於對個股追價的風險提醒。",
+          "consensus": "單一 KOL",
+          "timeHorizon": "short",
+          "weight": -1
         }
       ]
     },
@@ -4898,46 +5172,6 @@
       ]
     },
     {
-      "symbol": "欣興",
-      "mentions": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 2.5,
-        "all": 2.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-03-27",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "載板業務本身表現良好，且缺料問題持續，反映原物料價格上漲。Rubin平台推出後，載板面積需求將暴增，AI PCB訂單持續增加，光模塊也有貢獻。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-05-07",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "載板族群中的重要標的，法人圈對其明年 EPS 估值已有明顯上修。ABF 載板需求持續、AI 伺服器與高階封裝帶動載板用量，籌碼與基本面都還有延續空間。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1
-        }
-      ]
-    },
-    {
       "symbol": "比特幣",
       "mentions": {
         "7d": 0,
@@ -4975,46 +5209,6 @@
           "consensus": "單一 KOL",
           "timeHorizon": "short",
           "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "美光科技",
-      "mentions": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0,
-        "90d": -3,
-        "all": -3
-      },
-      "mentionedBy": [
-        "NaNa说美股"
-      ],
-      "timeline": [
-        {
-          "date": "2026-03-27",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "NaNa说美股",
-          "reason": "美光科技股價連續第六個交易日下跌，顯示資金持續流出存儲概念股。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1.5
-        },
-        {
-          "date": "2026-03-31",
-          "signal_type": "bearish",
-          "confidence": "high",
-          "kol": "NaNa说美股",
-          "reason": "股價已自近期高點回撤32%，散戶買盤資金枯竭，市場對內存行業前景存在嚴重分歧。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1.5
         }
       ]
     },
@@ -5215,46 +5409,6 @@
           "confidence": "high",
           "kol": "李兆華",
           "reason": "Rubin平台下半年將加速導入矽光子技術，上游如穩懋、聯亞等個股大漲，顯示產業趨勢向上",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        }
-      ]
-    },
-    {
-      "symbol": "華邦電",
-      "mentions": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 1.5,
-        "90d": 2.5,
-        "all": 2.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-03-31",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "海外可轉債轉換價格為109.5元，目前股價有套利空間。外資賣超可能與此有關，可觀察轉換價格出來後股價反彈空間。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-07",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "記憶體族群中的重要觀察標的，法說後直接帶動股價強攻。記憶體漲價趨勢明確、籌碼面逐步沉澱，市場開始重估相關公司的獲利能力。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1.5
@@ -5542,46 +5696,6 @@
           "consensus": "單一 KOL",
           "timeHorizon": "short",
           "weight": 0.5
-        }
-      ]
-    },
-    {
-      "symbol": "信驊",
-      "mentions": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 1.5,
-        "90d": 3,
-        "all": 3
-      },
-      "mentionedBy": [
-        "叔叔"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-09",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "叔叔",
-          "reason": "BNC概念股，市場獨家，股價已達一萬兩千多塊",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-23",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "叔叔",
-          "reason": "受惠於代理式人工智慧帶動的中央處理器市場擴張，尤其需要更高階的管理與協作能力，推升資料中心相關需求與營運動能。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1.5
         }
       ]
     },
@@ -5913,18 +6027,18 @@
       ]
     },
     {
-      "symbol": "景碩",
+      "symbol": "2412.TW",
       "mentions": {
-        "7d": 0,
+        "7d": 1,
         "30d": 2,
         "90d": 2,
         "all": 2
       },
       "sentimentScore": {
-        "7d": 0,
-        "30d": 1.5,
-        "90d": 1.5,
-        "all": 1.5
+        "7d": 0.5,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
       },
       "mentionedBy": [
         "李兆華"
@@ -5933,21 +6047,21 @@
         {
           "date": "2026-04-23",
           "signal_type": "bullish",
-          "confidence": "medium",
+          "confidence": "low",
           "kol": "李兆華",
-          "reason": "在投信持續買盤支持下維持強勢，屬於主動資金偏好的熱門中小型股。",
+          "reason": "聽眾分享曾將大量資金配置在中華電等高殖利率防禦股，作為資產配置的一部分，節目語氣偏正面。",
           "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1
+          "timeHorizon": "long",
+          "weight": 0.5
         },
         {
-          "date": "2026-05-07",
+          "date": "2026-05-09",
           "signal_type": "bullish",
           "confidence": "low",
           "kol": "李兆華",
-          "reason": "在記憶體相關載板與高階載板需求升溫下具備受惠空間，市場開始對明年獲利重新估值，載板景氣在過去每一輪上行循環都能延續較長時間。",
+          "reason": "中華電被放在資金可能轉向的較防禦性板塊討論脈絡中。若 AI 與高波動題材進入整理，市場資金可能往更穩健的族群靠攏，電信股會是較容易被忽略但相對穩定的配置方向。",
           "consensus": "單一 KOL",
-          "timeHorizon": "long",
+          "timeHorizon": "medium",
           "weight": 0.5
         }
       ]
@@ -5994,55 +6108,15 @@
       ]
     },
     {
-      "symbol": "8046.TW",
+      "symbol": "8150.TW",
       "mentions": {
-        "7d": 0,
+        "7d": 1,
         "30d": 2,
         "90d": 2,
         "all": 2
       },
       "sentimentScore": {
-        "7d": 0,
-        "30d": 2.5,
-        "90d": 2.5,
-        "all": 2.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "在短線缺布與漲價環境下，因客戶結構與轉嫁能力較佳，獲利爆發性可能較強。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-04-25",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "南電雖然早盤漲停後打開，但仍被列為載板強勢股，載板與銅箔基板目前都是資金追捧的主流。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "2383.TW",
-      "mentions": {
-        "7d": 0,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 0,
+        "7d": 1,
         "30d": 2,
         "90d": 2,
         "all": 2
@@ -6056,60 +6130,20 @@
           "signal_type": "bullish",
           "confidence": "medium",
           "kol": "李兆華",
-          "reason": "掌握雲端新平台出貨機會，在規格升級與新客戶導入下，第二季後營收有望轉強。",
+          "reason": "已切入亞馬遜相關業務，第二、三季出貨時間點明確，且在新供應鏈中有機會帶來業績改善。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1
         },
         {
-          "date": "2026-05-05",
+          "date": "2026-05-14",
           "signal_type": "bullish",
           "confidence": "medium",
           "kol": "李兆華",
-          "reason": "南亞科是記憶體族群中最具代表性的強勢股之一，今日漲停對整體記憶體信心有重要提振作用。國際記憶體大廠股價回到歷史高檔，台廠多數個股自高點已修正三成以上，後續有利多反應空間。",
+          "reason": "跨入新晶片題材的受惠股之一，同時具備記憶體封測本業與新題材想像，被市場視為新的小型強勢標的。雖然近期外資有連續減碼，但基本面的多元題材與第一季財報成長仍支撐其偏多結構。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "3037.TW",
-      "mentions": {
-        "7d": 0,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 1.5,
-        "90d": 1.5,
-        "all": 1.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "在載板產業缺布與先進封裝趨勢下，屬於長線受惠標的，雖股價已反映部分利多，但主身段仍在。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-05",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "華碩相關記憶體與模組標的在多頭輪動下仍有表現空間，尤其若市場繼續偏好高業績與高題材並存的公司，資金會持續流向這類個股。記憶體族群強勢擴散與模組廠法人買盤回流為主要依據。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 0.5
         }
       ]
     },
@@ -6272,47 +6306,6 @@
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1.5
-        }
-      ]
-    },
-    {
-      "symbol": "2308.TW",
-      "mentions": {
-        "7d": 1,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 1,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "mentionedBy": [
-        "叔叔",
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-27",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "叔叔",
-          "reason": "玻璃纖維布與先進封裝缺口仍大，市場仍需要相關材料與載板供應，人工智慧伺服器與先進封裝擴產帶動需求，對供應鏈龍頭是利多。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        },
-        {
-          "date": "2026-05-09",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "聯詠是資金輪動下的強勢 IC 設計股，市場開始重新評價這些大型設計公司所擁有的 IP 與技術能量。盤中甚至出現漲停，顯示資金對於相對委屈的權值設計股有明顯偏好。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
         }
       ]
     },
@@ -6602,7 +6595,7 @@
       ]
     },
     {
-      "symbol": "世界先進",
+      "symbol": "5347.TW",
       "mentions": {
         "7d": 1,
         "30d": 2,
@@ -6639,208 +6632,6 @@
           "consensus": "單一 KOL",
           "timeHorizon": "short",
           "weight": -1.5
-        }
-      ]
-    },
-    {
-      "symbol": "光寶科",
-      "mentions": {
-        "7d": 1,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 0.5,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-08",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "同時具備電源與散熱相關題材，在台達電領先後出現補漲，屬於資金輪動中的低位階權值補漲標的。過去股性偏弱但近期連續大漲甚至漲停，顯示市場重新評價老 AI 與電源族群。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-05-13",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "主持人與來賓都提到光寶科近期走勢強勁，且已連續出現很兇悍的上漲表現，顯示市場資金正持續往電子權值與供應鏈相關族群流入。雖然未詳細展開基本面，但從語境來看屬於受到資金追捧、值得持續關注的正面標的。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 0.5
-        }
-      ]
-    },
-    {
-      "symbol": "5274.TW",
-      "mentions": {
-        "7d": 2,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 2,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-09",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "四星科技仍在上漲，反映市場對 IP 族群的熱度持續。當市場開始接受大型 IC 設計公司可以把既有 IP 變現時，相關族群就會一起被推升。屬於資金行情中的觀察名單。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 0.5
-        },
-        {
-          "date": "2026-05-12",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "南亞科有國際大咖參與私募（私募價格較低、三年內鎖定），且市場傳聞其新產品與先進記憶體布局有機會進一步打入 AI 供應鏈。短線若股價突破前高，可能帶動同族群比價效應。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        }
-      ]
-    },
-    {
-      "symbol": "台積電 ／ 2330.TW",
-      "mentions": {
-        "7d": 2,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 6,
-        "30d": 6,
-        "90d": 6,
-        "all": 6
-      },
-      "mentionedBy": [
-        "李兆華",
-        "謝孟恭"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-14",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "謝孟恭",
-          "reason": "主持人多次把台積電視為核心持股與防守型標的之一，表示自己已把部分部位調整到台積電。即使市場風格偏向高估值動能股，台積電的財務數字與產業地位仍然穩固，進入防守時是配置核心。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
-          "weight": 3
-        },
-        {
-          "date": "2026-05-14",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "主持人認為台積電是目前台股指數的重要穩盤工具，基本面與長期成長藍圖仍然清楚，在整體盤面族群互相拉扯時仍是市場最核心的權值支撐，中長線仍被視為核心配置標的。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "long",
-          "weight": 3
-        }
-      ]
-    },
-    {
-      "symbol": "聯發科 ／ 2454.TW",
-      "mentions": {
-        "7d": 2,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 4,
-        "30d": 4,
-        "90d": 4,
-        "all": 4
-      },
-      "mentionedBy": [
-        "李兆華",
-        "謝孟恭"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-14",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "謝孟恭",
-          "reason": "主持人已把部分資金調整到聯發科，屬於核心部位之一。在市場高檔震盪時，聯發科被視為可承接資金的高品質科技股，偏向資金配置與高品質標的輪動，非短線追價。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "medium",
-          "weight": 2
-        },
-        {
-          "date": "2026-05-14",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "節目提到台積電休息時，市場資金已輪到聯發科等新神山接棒，顯示半導體權值內部正在做輪動，聯發科是目前盤面中仍有關注價值的強勢標的之一。",
-          "consensus": "KOL 共識",
-          "timeHorizon": "medium",
-          "weight": 2
-        }
-      ]
-    },
-    {
-      "symbol": "群創 ／ 3443.TW",
-      "mentions": {
-        "7d": 2,
-        "30d": 2,
-        "90d": 2,
-        "all": 2
-      },
-      "sentimentScore": {
-        "7d": 0.5,
-        "30d": 0.5,
-        "90d": 0.5,
-        "all": 0.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-14",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "群創已被市場重新用新邏輯評價，不再只看面板循環，而是當成切入晶片相關題材與技術合作的標的。這一波是漲想像溢價，市場接受度已從法說後的失望中修復，技術面上外資買進、五日均線未破，趨勢仍偏多；中線仍有持續比價與轉型想像空間。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1.5
-        },
-        {
-          "date": "2026-05-14",
-          "signal_type": "bearish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "彩晶這一波盤中觸及漲停比較像是跟風與美麗的誤會，並不是面板景氣復甦本身。若投資人把群創當成面板循環股來買，可能會誤判題材本質。這屬於對個股追價的風險提醒。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1
         }
       ]
     },
@@ -7595,7 +7386,7 @@
       ]
     },
     {
-      "symbol": "長榮航",
+      "symbol": "2618.TW",
       "mentions": {
         "7d": 0,
         "30d": 0,
@@ -10415,36 +10206,6 @@
       ]
     },
     {
-      "symbol": "友達",
-      "mentions": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 1.5,
-        "all": 1.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-10",
-          "signal_type": "bullish",
-          "confidence": "high",
-          "kol": "李兆華",
-          "reason": "友達因號稱有矽光子技術，且集團內有富采等小LED轉矽光子，股價鎖漲停",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 1.5
-        }
-      ]
-    },
-    {
       "symbol": "波羅威",
       "mentions": {
         "7d": 0,
@@ -10865,36 +10626,6 @@
       ]
     },
     {
-      "symbol": "鴻海",
-      "mentions": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-23",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "外資資金回流帶動老牌人工智慧伺服器供應鏈回神，作為大型代工與伺服器組裝代表，有機會跟著中小型熱門題材同步轉強。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        }
-      ]
-    },
-    {
       "symbol": "威剛",
       "mentions": {
         "7d": 0,
@@ -10981,36 +10712,6 @@
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "中華電",
-      "mentions": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0.5,
-        "90d": 0.5,
-        "all": 0.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-23",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "聽眾分享曾將大量資金配置在中華電等高殖利率防禦股，作為資產配置的一部分，節目語氣偏正面。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "long",
-          "weight": 0.5
         }
       ]
     },
@@ -11405,36 +11106,6 @@
       ]
     },
     {
-      "symbol": "8150.TW",
-      "mentions": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "已切入亞馬遜相關業務，第二、三季出貨時間點明確，且在新供應鏈中有機會帶來業績改善。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        }
-      ]
-    },
-    {
       "symbol": "3691.TW",
       "mentions": {
         "7d": 0,
@@ -11671,36 +11342,6 @@
           "consensus": "單一 KOL",
           "timeHorizon": "long",
           "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "3189.TW",
-      "mentions": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0.5,
-        "90d": 0.5,
-        "all": 0.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-25",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "景碩同樣被視為載板族群的強勢股，雖然籌碼不穩定，但仍屬於本波資金焦點。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": 0.5
         }
       ]
     },
@@ -12028,36 +11669,6 @@
           "confidence": "low",
           "kol": "李兆華",
           "reason": "華科與華邦電同屬記憶體族群的低位階受惠股，若市場接受記憶體需求改善與高階應用延伸的敘事，股價仍有彈性。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 0.5
-        }
-      ]
-    },
-    {
-      "symbol": "2409.TW",
-      "mentions": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0.5,
-        "90d": 0.5,
-        "all": 0.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-28",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "轉錄中提到高位階調節後低位階記憶體與低本益比個股受惠的整體邏輯，記憶體相關標的因位階低而被看好。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 0.5
@@ -13145,36 +12756,6 @@
       ]
     },
     {
-      "symbol": "2327.TW",
-      "mentions": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-01",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "光寶科屬於有趨勢、有題材但股價仍相對委屈的標的，主要受惠於電力與算力概念延伸。基本面正在慢慢回升，若回到前波大量區附近可能是較好的布局點。短線法說後雖有震盪，但整體仍偏正面。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        }
-      ]
-    },
-    {
       "symbol": "台慶科",
       "mentions": {
         "7d": 0,
@@ -14105,36 +13686,6 @@
       ]
     },
     {
-      "symbol": "2412.TW",
-      "mentions": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 0.5,
-        "30d": 0.5,
-        "90d": 0.5,
-        "all": 0.5
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-09",
-          "signal_type": "bullish",
-          "confidence": "low",
-          "kol": "李兆華",
-          "reason": "中華電被放在資金可能轉向的較防禦性板塊討論脈絡中。若 AI 與高波動題材進入整理，市場資金可能往更穩健的族群靠攏，電信股會是較容易被忽略但相對穩定的配置方向。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 0.5
-        }
-      ]
-    },
-    {
       "symbol": "2363.TW",
       "mentions": {
         "7d": 1,
@@ -14280,36 +13831,6 @@
           "reason": "正文科在低軌衛星族群中屬於強勢反彈標的，受惠於國際太空防衛科技題材升溫。美國相關太空與不明飛行物體議題帶動市場想像，台股低軌供應鏈籌碼逐步轉穩。",
           "consensus": "單一 KOL",
           "timeHorizon": "short",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "3481.TW",
-      "mentions": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-12",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "創建在記憶體景氣反轉下開始大幅增加庫存，第一季庫存由上一季約五十幾億增至一百零四億，增幅接近一倍，公司態度明顯轉趨積極。若後續記憶體價格維持高檔，第二季獲利有望延續。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
           "weight": 1
         }
       ]
@@ -14645,37 +14166,7 @@
       ]
     },
     {
-      "symbol": "友達 ／ 2409.TW",
-      "mentions": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-14",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "被視為群創帶動下的補漲標的，外資近期開始加碼，市場對面板相關資產轉型題材的接受度提升。股價已開始靠近前波高點，反映資金正在對同族群做比價，是市場重新評價轉型與題材延伸的邏輯。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "台表科 ／ 6278.TWO",
+      "symbol": "6278.TWO",
       "mentions": {
         "7d": 1,
         "30d": 1,
@@ -14698,66 +14189,6 @@
           "confidence": "medium",
           "kol": "李兆華",
           "reason": "因切入新應用與新客戶而出現重新上修的期待，法人目標價已向上調整。不只是原本的打件業務，而是跨入更多與晶片、光電相關的代工合作，使未來每股盈餘有上修空間；屬於由基本面改善帶動的估值重評。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "南茂 ／ 8150.TW",
-      "mentions": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-14",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "跨入新晶片題材的受惠股之一，同時具備記憶體封測本業與新題材想像，被市場視為新的小型強勢標的。雖然近期外資有連續減碼，但基本面的多元題材與第一季財報成長仍支撐其偏多結構。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "medium",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "symbol": "鴻海 ／ 2301.TW",
-      "mentions": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-14",
-          "signal_type": "bullish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "在新的晶片與光電相關題材中有切入空間，且主動式資金曾經加碼，代表市場並未放棄其中長線題材。公司橫跨不同題材，有機會成為資金重新配置的標的。",
           "consensus": "單一 KOL",
           "timeHorizon": "medium",
           "weight": 1
@@ -15095,67 +14526,7 @@
       ]
     },
     {
-      "symbol": "光寶科 ／ 2485.TW",
-      "mentions": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": -1,
-        "30d": -1,
-        "90d": -1,
-        "all": -1
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-14",
-          "signal_type": "bearish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "先前連續大漲三根停板，當天直接跌停。主要原因不是基本面出問題，而是股價短線漲太多，市場進入獲利了結與休息階段。籌碼與技術面過熱，而非公司營運惡化；屬於高檔震盪與修正風險較高的標的。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1
-        }
-      ]
-    },
-    {
-      "symbol": "聯電 ／ 2382.TW",
-      "mentions": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": -1,
-        "30d": -1,
-        "90d": -1,
-        "all": -1
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-14",
-          "signal_type": "bearish",
-          "confidence": "medium",
-          "kol": "李兆華",
-          "reason": "因英特爾相關消息大漲後，當英特爾夜間休息，聯電也順勢回檔。這類回落不像公司出了問題，而是題材與比價反應後的正常休息。主要是題材面與短線資金流退潮，而非基本面轉弱。短線追價風險較高。",
-          "consensus": "單一 KOL",
-          "timeHorizon": "short",
-          "weight": -1
-        }
-      ]
-    },
-    {
-      "symbol": "彩晶 ／ 3441.TW",
+      "symbol": "3441.TW",
       "mentions": {
         "7d": 1,
         "30d": 1,

@@ -9,8 +9,35 @@ const REPORTS_DIR = join(process.cwd(), 'data', 'reports');
 const TRENDS_DIR = join(process.cwd(), 'data', 'trends');
 const TICKERS_OUT = join(TRENDS_DIR, 'tickers.json');
 const SECTORS_OUT = join(TRENDS_DIR, 'sectors.json');
+const ALIASES_PATH = join(TRENDS_DIR, 'aliases.json');
 
 // ── helpers ────────────────────────────────────────────────────────────────
+
+// Alias map (raw / normalized ticker string → canonical ticker).
+// Loaded once at startup; keys prefixed with `_` are ignored (used for comments).
+let TICKER_ALIASES = {};
+async function loadAliases() {
+  try {
+    const raw = await readFile(ALIASES_PATH, 'utf8');
+    const obj = JSON.parse(raw);
+    const cleaned = {};
+    for (const [k, v] of Object.entries(obj)) {
+      if (k.startsWith('_')) continue;
+      if (typeof v !== 'string' || !v) continue;
+      cleaned[k] = v;
+    }
+    TICKER_ALIASES = cleaned;
+  } catch {
+    TICKER_ALIASES = {};
+  }
+}
+
+function applyAlias(key) {
+  if (key && Object.prototype.hasOwnProperty.call(TICKER_ALIASES, key)) {
+    return TICKER_ALIASES[key];
+  }
+  return null;
+}
 
 /**
  * Normalize ticker symbol.
@@ -26,6 +53,11 @@ function normalizeTicker(raw) {
   let s = raw.trim();
   if (!s) return null;
 
+  // Alias lookup #1: raw trimmed string (covers LLM outputs like
+  // `台積電`、`聯發科 ／ 2454.TW`、`鴻海 ／ 2301.TW` 寫錯 ticker 等)
+  const aliasFromRaw = applyAlias(s);
+  if (aliasFromRaw) return aliasFromRaw;
+
   // Strip Chinese parenthetical hints: `SNDK（短線）` → `SNDK`, `3363.TW (上銓)` → `3363.TW`
   s = s.replace(/[（(].*?[)）]/g, '').trim();
   if (!s) return null;
@@ -33,23 +65,26 @@ function normalizeTicker(raw) {
   // Already has .TW / .HK suffix
   const suffixMatch = s.match(/^([0-9A-Za-z]+)\.(tw|hk)$/i);
   if (suffixMatch) {
-    return `${suffixMatch[1].toUpperCase()}.${suffixMatch[2].toUpperCase()}`;
+    const out = `${suffixMatch[1].toUpperCase()}.${suffixMatch[2].toUpperCase()}`;
+    return applyAlias(out) || out;
   }
 
   // Pure 4-digit numeric → 台股 → append .TW
   if (/^\d{4}$/.test(s)) {
-    return `${s}.TW`;
+    const out = `${s}.TW`;
+    return applyAlias(out) || out;
   }
 
   // Pure alphabetic / alphanumeric (likely US ticker) → uppercase
   if (/^[A-Za-z][A-Za-z0-9.\-]*$/.test(s)) {
-    return s.toUpperCase();
+    const out = s.toUpperCase();
+    return applyAlias(out) || out;
   }
 
   // Otherwise (likely Chinese name) → return trimmed original
   // 把 `/` 與 `\` 換成全形版本，避免 URL segment 中斷
   s = s.replace(/\//g, '／').replace(/\\/g, '＼');
-  return s;
+  return applyAlias(s) || s;
 }
 
 /**
@@ -129,6 +164,7 @@ function incScore(obj, age, w) {
 // ── main ───────────────────────────────────────────────────────────────────
 
 async function buildTrends() {
+  await loadAliases();
   let files;
   try {
     files = await readdir(REPORTS_DIR);
