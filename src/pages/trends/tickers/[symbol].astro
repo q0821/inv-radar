@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Sparkline from '../../../components/Sparkline.astro';
+import technicalsData from '../../../../data/trends/technicals.json';
 
 const base = import.meta.env.BASE_URL;
 
@@ -20,6 +21,79 @@ interface Props {
 
 const { ticker, anchorDate } = Astro.props;
 const { symbol } = Astro.params;
+
+// 技術面資料（build-technicals.mjs 產生），可能為 undefined（中文族群名、404 等）
+const technicalsAll = (technicalsData as any) || {};
+const tech = technicalsAll?.tickers?.[symbol || ''] || null;
+const technicalsAnchor = technicalsAll?.anchorDate || anchorDate || '';
+
+// ── 技術面文字判讀 helpers ────────────────────────────────────────────────
+function fmtPrice(p: number | null | undefined, currency?: string | null) {
+  if (typeof p !== 'number' || isNaN(p)) return '—';
+  const sym = currency === 'TWD' ? 'NT$' : currency === 'USD' ? '$' : currency === 'HKD' ? 'HK$' : '';
+  // 千分位
+  const fixed = p >= 100 ? p.toFixed(0) : p.toFixed(2);
+  const parts = fixed.split('.');
+  parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  return `${sym}${parts.join('.')}`;
+}
+
+function fmtPct(p: number | null | undefined, withSign = true) {
+  if (typeof p !== 'number' || isNaN(p)) return '—';
+  const fixed = p.toFixed(1);
+  if (!withSign) return `${fixed}%`;
+  return p >= 0 ? `+${fixed}%` : `${fixed}%`;
+}
+
+// 東亞配色：漲紅、跌綠
+function pctClass(p: number | null | undefined) {
+  if (typeof p !== 'number' || isNaN(p)) return 'tech-value-neutral';
+  if (p > 0) return 'tech-value-up';
+  if (p < 0) return 'tech-value-down';
+  return 'tech-value-neutral';
+}
+
+function vsMaLabel(p: number | null | undefined) {
+  if (typeof p !== 'number' || isNaN(p)) return '—';
+  return p >= 0 ? '站上' : '跌破';
+}
+
+function slopeLabel(p: number | null | undefined) {
+  if (typeof p !== 'number' || isNaN(p)) return { text: '—', symbol: '→' };
+  if (p > 0.3) return { text: '上彎', symbol: '↑' };
+  if (p < -0.3) return { text: '下彎', symbol: '↓' };
+  return { text: '持平', symbol: '→' };
+}
+
+function rsiLabel(r: number | null | undefined) {
+  if (typeof r !== 'number' || isNaN(r)) return { text: '—', cls: 'tech-value-neutral' };
+  if (r >= 70) return { text: '超買', cls: 'tech-rsi-hot' };
+  if (r <= 30) return { text: '超賣', cls: 'tech-rsi-cold' };
+  if (r >= 60) return { text: '偏強', cls: 'tech-rsi-strong' };
+  if (r < 40) return { text: '偏弱', cls: 'tech-rsi-weak' };
+  return { text: '中性', cls: 'tech-value-neutral' };
+}
+
+function volumeLabel(v: number | null | undefined) {
+  if (typeof v !== 'number' || isNaN(v)) return { text: '—', cls: 'tech-value-neutral' };
+  if (v >= 1.5) return { text: '大量', cls: 'tech-value-up' };
+  if (v <= 0.7) return { text: '量縮', cls: 'tech-value-down' };
+  return { text: '正常', cls: 'tech-value-neutral' };
+}
+
+function pvRelLabel(r: string | null | undefined) {
+  if (r === 'sync') return { text: '量價同步 ✓', cls: 'tech-pv-sync' };
+  if (r === 'divergence_up_low_vol') return { text: '漲勢無量', cls: 'tech-volume-warning' };
+  if (r === 'divergence_down_high_vol') return { text: '跌勢放量', cls: 'tech-volume-warning' };
+  return { text: '無明顯訊號', cls: 'tech-value-neutral' };
+}
+
+function verdictTagClass(tag: string) {
+  if (tag === '中長線偏多' || tag === '短線轉強') return 'bull';
+  if (tag === '中長線偏空' || tag === '短線轉弱') return 'bear';
+  if (tag === '過熱' || tag === '超賣' || tag === '量價背離警訊') return 'warning';
+  return '';
+}
 
 const mentions = ticker.mentions || {};
 const score = ticker.sentimentScore || {};
@@ -159,6 +233,114 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
           </div>
         )}
       </div>
+
+      {tech && (
+        <div class="tech-card">
+          <div class="tech-card-header">
+            <span class="tech-card-title">技術面快速判讀</span>
+            <span class="tech-card-anchor">截至 {technicalsAnchor}</span>
+          </div>
+
+          <div class="tech-card-price">
+            <span class="tech-card-symbol">{symbol}</span>
+            <span class="tech-card-price-value">現價：{fmtPrice(tech.currentPrice, tech.currency)}</span>
+            <span class={`tech-card-price-change ${pctClass(tech.changePct1d)}`}>
+              ({fmtPct(tech.changePct1d)})
+            </span>
+          </div>
+
+          <div class="tech-section">
+            <div class="tech-section-title">均線結構</div>
+            <div class="tech-row">
+              <span class="tech-row-label">vs 20MA</span>
+              <span class={`tech-row-value ${pctClass(tech.priceVsMa20Pct)}`}>{fmtPct(tech.priceVsMa20Pct)}</span>
+              <span class="tech-row-hint">{vsMaLabel(tech.priceVsMa20Pct)}中線</span>
+            </div>
+            <div class="tech-row">
+              <span class="tech-row-label">vs 60MA</span>
+              <span class={`tech-row-value ${pctClass(tech.priceVsMa60Pct)}`}>{fmtPct(tech.priceVsMa60Pct)}</span>
+              <span class="tech-row-hint">{vsMaLabel(tech.priceVsMa60Pct)}長線</span>
+            </div>
+            {(() => {
+              const s = slopeLabel(tech.ma20Slope5dPct);
+              return (
+                <div class="tech-row">
+                  <span class="tech-row-label">MA20 斜率</span>
+                  <span class={`tech-row-value ${pctClass(tech.ma20Slope5dPct)}`}>{s.symbol} {s.text}</span>
+                  <span class="tech-row-hint">近 5 日 {fmtPct(tech.ma20Slope5dPct)}</span>
+                </div>
+              );
+            })()}
+          </div>
+
+          <div class="tech-section">
+            <div class="tech-section-title">短線訊號</div>
+            {tech.cross5_20 && tech.cross5_20.type === 'golden' && tech.cross5_20.daysAgo != null ? (
+              <div class="tech-row">
+                <span class="tech-row-label">5/20 均線</span>
+                <span class="tech-row-value tech-cross-golden">⚡ {tech.cross5_20.daysAgo} 天前形成金叉</span>
+              </div>
+            ) : tech.cross5_20 && tech.cross5_20.type === 'death' && tech.cross5_20.daysAgo != null ? (
+              <div class="tech-row">
+                <span class="tech-row-label">5/20 均線</span>
+                <span class="tech-row-value tech-cross-death">⚡ {tech.cross5_20.daysAgo} 天前形成死叉</span>
+              </div>
+            ) : (
+              <div class="tech-row">
+                <span class="tech-row-label">5/20 均線</span>
+                <span class="tech-row-value tech-value-neutral">近期無金叉 / 死叉</span>
+              </div>
+            )}
+            {(() => {
+              const r = rsiLabel(tech.rsi14);
+              return (
+                <div class="tech-row">
+                  <span class="tech-row-label">RSI 14</span>
+                  <span class={`tech-row-value ${r.cls}`}>{typeof tech.rsi14 === 'number' ? tech.rsi14.toFixed(1) : '—'} {r.text}</span>
+                </div>
+              );
+            })()}
+          </div>
+
+          <div class="tech-section">
+            <div class="tech-section-title">量能</div>
+            {(() => {
+              const v = volumeLabel(tech.volumeRatio);
+              return (
+                <div class="tech-row">
+                  <span class="tech-row-label">量比</span>
+                  <span class={`tech-row-value ${v.cls}`}>{typeof tech.volumeRatio === 'number' ? `${tech.volumeRatio.toFixed(1)}× 均量` : '—'}</span>
+                  <span class="tech-row-hint">{v.text}</span>
+                </div>
+              );
+            })()}
+            {(() => {
+              const pv = pvRelLabel(tech.priceVolumeRelation);
+              return (
+                <div class="tech-row">
+                  <span class="tech-row-label">價量</span>
+                  <span class={`tech-row-value ${pv.cls}`}>{pv.text}</span>
+                </div>
+              );
+            })()}
+          </div>
+
+          {tech.verdict && tech.verdict.length > 0 && (
+            <div class="tech-section">
+              <div class="tech-section-title">綜合判讀</div>
+              <div class="tech-verdict">
+                {tech.verdict.map((tag: string) => (
+                  <span class={`tech-verdict-tag ${verdictTagClass(tag)}`}>{tag}</span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div class="tech-disclaimer">
+            資料源：Yahoo Finance（每日 build 時更新）・僅供參考，不構成投資建議
+          </div>
+        </div>
+      )}
 
       {timeline.length >= 2 && (
         <div class="trend-detail-spark">
