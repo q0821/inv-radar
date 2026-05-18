@@ -63,15 +63,18 @@ function fmtScore(s: number) {
 }
 
 // 把站上 symbol 轉成 TradingView 接受的格式
-// - 台股 XXXX.TW → TPE:XXXX
+// - 台股 XXXX.TW  (證交所上市) → TWSE:XXXX
+// - 台股 XXXX.TWO (櫃買中心上櫃) → TPEX:XXXX
 // - 港股 XXXX.HK → HKEX:XXXX（補 4 位數）
 // - 美股 1-5 英文字母 → NASDAQ:XXX（NASDAQ 涵蓋率高、未涵蓋的 TV 內部會 fallback；少數仍會 error，由 fallback UI 承接）
 // - 其他（中文 ticker / 族群名 / 商品名等）→ 回 null，頁面顯示 fallback 文字
 function toTradingViewSymbol(sym: string): string | null {
   if (!sym) return null;
   const s = String(sym).trim();
+  const twoMatch = s.match(/^(\d{4,6})\.TWO$/i);
+  if (twoMatch) return `TPEX:${twoMatch[1]}`;
   const twMatch = s.match(/^(\d{4,6})\.TW$/i);
-  if (twMatch) return `TPE:${twMatch[1]}`;
+  if (twMatch) return `TWSE:${twMatch[1]}`;
   const hkMatch = s.match(/^0*(\d{1,5})\.HK$/i);
   if (hkMatch) {
     // 港股 ticker 一般 4 位數（不足補 0），TradingView 格式如 HKEX:0700
