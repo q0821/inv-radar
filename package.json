@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/build-search-index.mjs && astro build",
+    "build": "node scripts/build-search-index.mjs && node scripts/build-trends.mjs && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

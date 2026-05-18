@@ -1,0 +1,52 @@
+---
+// 一張 ticker / sector 趨勢卡片：名稱 + 提及數 + 情緒分 + sparkline。
+// 用於 leaderboard 列表。
+import Sparkline from './Sparkline.astro';
+
+interface Props {
+  href: string;
+  label: string;
+  mentions: number;
+  sentimentScore: number;
+  mentionedBy?: string[];
+  timeline?: Array<{ date: string; weight: number }>;
+  rank?: number;
+}
+
+const {
+  href,
+  label,
+  mentions,
+  sentimentScore,
+  mentionedBy = [],
+  timeline = [],
+  rank,
+} = Astro.props;
+
+let scoreClass = 'trend-score-neutral';
+if (sentimentScore > 0.5) scoreClass = 'trend-score-bull';
+else if (sentimentScore < -0.5) scoreClass = 'trend-score-bear';
+
+const scoreLabel = sentimentScore > 0 ? `+${sentimentScore}` : `${sentimentScore}`;
+const kolText = mentionedBy.length > 3
+  ? `${mentionedBy.slice(0, 3).join('、')} +${mentionedBy.length - 3}`
+  : mentionedBy.join('、');
+---
+<a href={href} class="trend-card">
+  <div class="trend-card-main">
+    {rank !== undefined && <span class="trend-rank">#{rank}</span>}
+    <span class="trend-label">{label}</span>
+  </div>
+  <div class="trend-card-stats">
+    <span class="trend-mentions">提及 {mentions}</span>
+    <span class={`trend-score ${scoreClass}`}>{scoreLabel}</span>
+  </div>
+  {timeline.length > 0 && (
+    <div class="trend-card-spark">
+      <Sparkline timeline={timeline} width={180} height={32} />
+    </div>
+  )}
+  {kolText && (
+    <div class="trend-card-kol">{kolText}</div>
+  )}
+</a>

@@ -1,0 +1,183 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TrendCard from '../../components/TrendCard.astro';
+
+const base = import.meta.env.BASE_URL;
+
+// Load trends data at build time
+const tickersData: any = (await import('../../../data/trends/tickers.json')).default;
+const sectorsData: any = (await import('../../../data/trends/sectors.json')).default;
+
+const tickers = (tickersData?.tickers || []) as any[];
+const sectors = (sectorsData?.sectors || []) as any[];
+const anchorDate = tickersData?.anchorDate || '';
+
+type WindowKey = '7d' | '30d' | '90d';
+const windows: WindowKey[] = ['7d', '30d', '90d'];
+
+// 為每個窗口排序並取 top N。排序：先看絕對 sentimentScore，再看 mentions（兩者相關但不一樣）
+function topTickers(win: WindowKey, n: number) {
+  return tickers
+    .filter(t => (t.mentions?.[win] || 0) > 0)
+    .slice() // copy
+    .sort((a, b) => {
+      const sa = Math.abs(a.sentimentScore?.[win] || 0);
+      const sb = Math.abs(b.sentimentScore?.[win] || 0);
+      if (sb !== sa) return sb - sa;
+      return (b.mentions?.[win] || 0) - (a.mentions?.[win] || 0);
+    })
+    .slice(0, n);
+}
+
+function topSectors(win: WindowKey, n: number) {
+  return sectors
+    .filter(s => (s.mentions?.[win] || 0) > 0)
+    .slice()
+    .sort((a, b) => (b.mentions?.[win] || 0) - (a.mentions?.[win] || 0))
+    .slice(0, n);
+}
+
+const tickersByWindow: Record<WindowKey, any[]> = {
+  '7d': topTickers('7d', 20),
+  '30d': topTickers('30d', 20),
+  '90d': topTickers('90d', 20),
+};
+
+const sectorsByWindow: Record<WindowKey, any[]> = {
+  '7d': topSectors('7d', 10),
+  '30d': topSectors('30d', 10),
+  '90d': topSectors('90d', 10),
+};
+
+const windowLabels: Record<WindowKey, string> = {
+  '7d': '近 7 天',
+  '30d': '近 30 天',
+  '90d': '近 90 天',
+};
+---
+<BaseLayout title="趨勢觀察 - 投資訊號日報">
+  <nav class="nav">
+    <a href={base}>最新報告</a>
+    <a href={`${base}archive/`}>歷史報告</a>
+    <a href={`${base}trends/`}><strong>趨勢觀察</strong></a>
+  </nav>
+
+  <div class="card">
+    <div class="card-body">
+      <h1 class="section-title">趨勢觀察</h1>
+      <p style="font-size:0.9em;color:var(--c-text-secondary);margin-bottom:0.8em;">
+        統計各 ticker 與題材在 KOL 投資訊號中的提及熱度與情緒分數。
+        資料截至 {anchorDate}，涵蓋 {tickers.length} 個標的、{sectors.length} 個題材。
+      </p>
+      <div class="trend-window-tabs" role="tablist">
+        {windows.map(w => (
+          <button
+            type="button"
+            class="trend-window-tab"
+            data-window={w}
+            role="tab"
+            aria-selected={w === '30d' ? 'true' : 'false'}
+          >{windowLabels[w]}</button>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Tickers leaderboard -->
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title bullish">熱門標的 Top 20</h2>
+      {windows.map(w => (
+        <div
+          class="trend-pane"
+          data-pane={w}
+          data-default={w === '30d' ? 'true' : 'false'}
+          style={w === '30d' ? '' : 'display:none;'}
+        >
+          {tickersByWindow[w].length === 0 ? (
+            <p class="no-data" style="padding:1em;">{windowLabels[w]}尚無資料</p>
+          ) : (
+            <div class="trend-grid">
+              {tickersByWindow[w].map((t, i) => (
+                <TrendCard
+                  href={`${base}trends/tickers/${encodeURIComponent(t.symbol)}/`}
+                  label={t.symbol}
+                  mentions={t.mentions?.[w] || 0}
+                  sentimentScore={t.sentimentScore?.[w] || 0}
+                  mentionedBy={t.mentionedBy || []}
+                  timeline={(t.timeline || []).filter((x: any) => {
+                    if (!anchorDate) return true;
+                    const dayMs = 24*60*60*1000;
+                    const cutoff = new Date(`${anchorDate}T00:00:00+08:00`).getTime() -
+                      (w === '7d' ? 7 : w === '30d' ? 30 : 90) * dayMs;
+                    return new Date(`${x.date}T00:00:00+08:00`).getTime() >= cutoff;
+                  })}
+                  rank={i + 1}
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Sectors leaderboard -->
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title insight">熱門題材 Top 10</h2>
+      {windows.map(w => (
+        <div
+          class="trend-pane"
+          data-pane-sector={w}
+          style={w === '30d' ? '' : 'display:none;'}
+        >
+          {sectorsByWindow[w].length === 0 ? (
+            <p class="no-data" style="padding:1em;">{windowLabels[w]}尚無資料</p>
+          ) : (
+            <div class="trend-grid">
+              {sectorsByWindow[w].map((s, i) => (
+                <TrendCard
+                  href={`${base}trends/sectors/${encodeURIComponent(s.sector)}/`}
+                  label={s.sector}
+                  mentions={s.mentions?.[w] || 0}
+                  sentimentScore={s.sentimentScore?.[w] || 0}
+                  mentionedBy={s.mentionedBy || []}
+                  timeline={[]}
+                  rank={i + 1}
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <script>
+    // 切換窗口 tab
+    const tabs = document.querySelectorAll<HTMLButtonElement>('.trend-window-tab');
+    const tickerPanes = document.querySelectorAll<HTMLElement>('[data-pane]');
+    const sectorPanes = document.querySelectorAll<HTMLElement>('[data-pane-sector]');
+
+    function activate(win: string) {
+      tabs.forEach(t => {
+        const active = t.dataset.window === win;
+        t.setAttribute('aria-selected', active ? 'true' : 'false');
+      });
+      tickerPanes.forEach(p => {
+        p.style.display = p.dataset.pane === win ? '' : 'none';
+      });
+      sectorPanes.forEach(p => {
+        p.style.display = p.dataset.paneSector === win ? '' : 'none';
+      });
+    }
+
+    tabs.forEach(t => {
+      t.addEventListener('click', () => {
+        const win = t.dataset.window;
+        if (win) activate(win);
+      });
+    });
+  </script>
+</BaseLayout>

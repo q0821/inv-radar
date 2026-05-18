@@ -1,0 +1,157 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Sparkline from '../../../components/Sparkline.astro';
+
+const base = import.meta.env.BASE_URL;
+
+export async function getStaticPaths() {
+  const data: any = (await import('../../../../data/trends/tickers.json')).default;
+  const tickers = (data?.tickers || []) as any[];
+  return tickers.map(t => ({
+    params: { symbol: t.symbol },
+    props: { ticker: t, anchorDate: data?.anchorDate || '' },
+  }));
+}
+
+interface Props {
+  ticker: any;
+  anchorDate: string;
+}
+
+const { ticker, anchorDate } = Astro.props;
+const { symbol } = Astro.params;
+
+const mentions = ticker.mentions || {};
+const score = ticker.sentimentScore || {};
+const mentionedBy = ticker.mentionedBy || [];
+const timeline = (ticker.timeline || []) as Array<any>;
+
+// 倒序時間軸供顯示（最新在上）
+const timelineDesc = timeline.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+
+function signalLabel(t: string) {
+  if (t === 'bullish') return '看漲';
+  if (t === 'bearish') return '看空';
+  return '關注';
+}
+
+function signalClass(t: string) {
+  if (t === 'bullish') return 'bullish';
+  if (t === 'bearish') return 'bearish';
+  return 'monitor';
+}
+
+function confidenceLabel(c: string) {
+  const m: Record<string, string> = { high: '高信心', medium: '中信心', low: '低信心' };
+  return m[c] || (c || '');
+}
+
+function horizonLabel(h: string) {
+  const m: Record<string, string> = { short: '短線', medium: '中線', long: '長線' };
+  return m[h] || (h || '');
+}
+
+function scoreClass(s: number) {
+  if (s > 0.5) return 'trend-score-bull';
+  if (s < -0.5) return 'trend-score-bear';
+  return 'trend-score-neutral';
+}
+
+function fmtScore(s: number) {
+  if (typeof s !== 'number' || isNaN(s)) return '0';
+  return s > 0 ? `+${s}` : `${s}`;
+}
+---
+<BaseLayout title={`${symbol} 趨勢 - 投資訊號日報`}>
+  <nav class="nav">
+    <a href={base}>最新報告</a>
+    <a href={`${base}archive/`}>歷史報告</a>
+    <a href={`${base}trends/`}>趨勢觀察</a>
+    <span style="color:var(--c-text-muted);font-size:0.9em;">/ {symbol}</span>
+  </nav>
+
+  <div class="card">
+    <div class="card-body">
+      <h1 class="section-title" style="margin-bottom:0.4em;">{symbol}</h1>
+      <p style="font-size:0.85em;color:var(--c-text-muted);margin-bottom:1em;">
+        資料截至 {anchorDate}・共 {mentions.all || 0} 次提及
+      </p>
+
+      <div class="trend-stat-grid">
+        <div class="trend-stat">
+          <div class="trend-stat-label">近 7 天</div>
+          <div class="trend-stat-row">
+            <span class="trend-stat-mentions">{mentions['7d'] || 0} 次</span>
+            <span class={`trend-score ${scoreClass(score['7d'] || 0)}`}>{fmtScore(score['7d'] || 0)}</span>
+          </div>
+        </div>
+        <div class="trend-stat">
+          <div class="trend-stat-label">近 30 天</div>
+          <div class="trend-stat-row">
+            <span class="trend-stat-mentions">{mentions['30d'] || 0} 次</span>
+            <span class={`trend-score ${scoreClass(score['30d'] || 0)}`}>{fmtScore(score['30d'] || 0)}</span>
+          </div>
+        </div>
+        <div class="trend-stat">
+          <div class="trend-stat-label">近 90 天</div>
+          <div class="trend-stat-row">
+            <span class="trend-stat-mentions">{mentions['90d'] || 0} 次</span>
+            <span class={`trend-score ${scoreClass(score['90d'] || 0)}`}>{fmtScore(score['90d'] || 0)}</span>
+          </div>
+        </div>
+        <div class="trend-stat">
+          <div class="trend-stat-label">累積</div>
+          <div class="trend-stat-row">
+            <span class="trend-stat-mentions">{mentions.all || 0} 次</span>
+            <span class={`trend-score ${scoreClass(score.all || 0)}`}>{fmtScore(score.all || 0)}</span>
+          </div>
+        </div>
+      </div>
+
+      {timeline.length >= 2 && (
+        <div class="trend-detail-spark">
+          <div style="font-size:0.85em;color:var(--c-text-muted);margin-bottom:0.4em;">情緒分數累積走勢</div>
+          <Sparkline timeline={timeline} width={680} height={80} maxPoints={90} />
+        </div>
+      )}
+
+      {mentionedBy.length > 0 && (
+        <p style="margin-top:0.8em;font-size:0.9em;">
+          <strong style="color:var(--c-text-muted);">提及來源：</strong>{mentionedBy.join('、')}
+        </p>
+      )}
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title">時間軸</h2>
+      {timelineDesc.length === 0 ? (
+        <p class="no-data" style="padding:1em;">尚無時間軸資料</p>
+      ) : (
+        <div class="trend-timeline">
+          {timelineDesc.map((t: any) => (
+            <div class={`trend-timeline-row ${signalClass(t.signal_type)}`}>
+              <div class="trend-timeline-meta">
+                <a href={`${base}reports/${t.date}/`} class="trend-timeline-date">{t.date}</a>
+                <span class={`badge badge-confidence-${t.confidence || 'medium'}`}>{signalLabel(t.signal_type)}</span>
+                {t.confidence && <span class={`badge badge-confidence-${t.confidence}`}>{confidenceLabel(t.confidence)}</span>}
+                {t.timeHorizon && <span class={`badge badge-horizon-${t.timeHorizon}`}>{horizonLabel(t.timeHorizon)}</span>}
+                {t.consensus && (t.consensus.includes('共識') || t.consensus.includes('分歧')) && (
+                  <span class={`badge ${t.consensus.includes('共識') ? 'badge-consensus' : 'badge-divergence'}`}>{t.consensus}</span>
+                )}
+              </div>
+              {(t.kol || t.reason) && (
+                <div class="trend-timeline-body">
+                  {t.kol && <strong>{t.kol}</strong>}
+                  {t.kol && t.reason && '：'}
+                  {t.reason}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+</BaseLayout>

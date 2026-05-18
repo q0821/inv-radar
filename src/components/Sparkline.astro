@@ -1,0 +1,104 @@
+---
+// Inline SVG sparkline. Accepts an array of {date, weight} or a simple number array.
+// 視覺：以 0 為基線，正分（看漲）綠色、負分（看空）紅色；每點為連續累積分數。
+interface Props {
+  timeline: Array<{ date: string; weight: number }> | number[];
+  width?: number;
+  height?: number;
+  maxPoints?: number;
+}
+
+const {
+  timeline = [],
+  width = 200,
+  height = 40,
+  maxPoints = 30,
+} = Astro.props;
+
+// Normalize: if array of objects, sort by date and accumulate weight.
+// 結果為「累積情緒分數隨時間變化」的折線。
+let values: number[] = [];
+if (Array.isArray(timeline) && timeline.length > 0) {
+  if (typeof timeline[0] === 'number') {
+    values = timeline as number[];
+  } else {
+    const sorted = (timeline as Array<{ date: string; weight: number }>)
+      .slice()
+      .sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+    let acc = 0;
+    values = sorted.map(t => {
+      acc += (typeof t.weight === 'number' ? t.weight : 0);
+      return acc;
+    });
+  }
+}
+
+// Cap to maxPoints (從尾端取最近的 N 個)
+if (values.length > maxPoints) {
+  values = values.slice(-maxPoints);
+}
+
+const hasData = values.length >= 2;
+let pathD = '';
+let baselineY = height / 2;
+let lastVal = 0;
+let trendColor = 'var(--c-text-muted)';
+
+if (hasData) {
+  const min = Math.min(...values, 0);
+  const max = Math.max(...values, 0);
+  const range = max - min || 1;
+  const n = values.length;
+
+  // Map y so 0 is at correct position; pad 4px top/bottom
+  const padding = 4;
+  const innerH = height - padding * 2;
+  function yFor(v: number) {
+    return padding + innerH - ((v - min) / range) * innerH;
+  }
+  baselineY = yFor(0);
+
+  pathD = values
+    .map((v, i) => {
+      const x = (i / (n - 1)) * width;
+      const y = yFor(v);
+      return `${i === 0 ? 'M' : 'L'}${x.toFixed(2)},${y.toFixed(2)}`;
+    })
+    .join(' ');
+
+  lastVal = values[values.length - 1];
+  if (lastVal > 0.5) trendColor = 'var(--c-bullish)';
+  else if (lastVal < -0.5) trendColor = 'var(--c-bearish)';
+  else trendColor = 'var(--c-text-muted)';
+}
+---
+{hasData ? (
+  <svg
+    class="sparkline"
+    viewBox={`0 0 ${width} ${height}`}
+    width={width}
+    height={height}
+    preserveAspectRatio="none"
+    aria-hidden="true"
+  >
+    <line
+      x1="0"
+      y1={baselineY}
+      x2={width}
+      y2={baselineY}
+      stroke="var(--c-border)"
+      stroke-width="1"
+      stroke-dasharray="2,2"
+    />
+    <path
+      d={pathD}
+      fill="none"
+      stroke={trendColor}
+      stroke-width="1.75"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+    />
+  </svg>
+) : (
+  <span class="sparkline-empty">—</span>
+)}
