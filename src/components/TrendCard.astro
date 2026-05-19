@@ -6,6 +6,7 @@ import Sparkline from './Sparkline.astro';
 interface Props {
   href: string;
   label: string;
+  subLabel?: string;
   mentions: number;
   sentimentScore: number;
   mentionedBy?: string[];
@@ -16,6 +17,7 @@ interface Props {
 const {
   href,
   label,
+  subLabel = '',
   mentions,
   sentimentScore,
   mentionedBy = [],
@@ -36,6 +38,7 @@ const kolText = mentionedBy.length > 3
   <div class="trend-card-main">
     {rank !== undefined && <span class="trend-rank">#{rank}</span>}
     <span class="trend-label">{label}</span>
+    {subLabel && <span class="trend-sublabel">{subLabel}</span>}
   </div>
   <div class="trend-card-stats">
     <span class="trend-mentions">提及 {mentions}</span>

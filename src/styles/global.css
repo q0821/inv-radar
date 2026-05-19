@@ -708,6 +708,13 @@ a:hover {
   word-break: break-word;
 }
 
+.trend-sublabel {
+  margin-left: 0.4em;
+  font-size: 0.85em;
+  font-weight: 500;
+  color: var(--c-text-muted);
+}
+
 .trend-card-stats {
   display: flex;
   align-items: center;

@@ -2,6 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Sparkline from '../../../components/Sparkline.astro';
 import technicalsData from '../../../../data/trends/technicals.json';
+import { getChineseName } from '../../../lib/ticker-names';
 
 const base = import.meta.env.BASE_URL;
 
@@ -244,7 +245,12 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
 
   <div class="card">
     <div class="card-body">
-      <h1 class="section-title" style="margin-bottom:0.4em;">{symbol}</h1>
+      <h1 class="section-title" style="margin-bottom:0.4em;">
+        {symbol}
+        {getChineseName(symbol || '') && (
+          <span style="margin-left:0.5em;font-size:0.7em;font-weight:600;color:var(--c-text-muted);">{getChineseName(symbol || '')}</span>
+        )}
+      </h1>
       <p style="font-size:0.85em;color:var(--c-text-muted);margin-bottom:1em;">
         資料截至 {anchorDate}・共 {mentions.all || 0} 次提及
       </p>

@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import TrendCard from '../../components/TrendCard.astro';
+import { getChineseName } from '../../lib/ticker-names';
 
 const base = import.meta.env.BASE_URL;
 
@@ -103,6 +104,7 @@ const windowLabels: Record<WindowKey, string> = {
                 <TrendCard
                   href={`${base}trends/tickers/${encodeURIComponent(t.symbol)}/`}
                   label={t.symbol}
+                  subLabel={getChineseName(t.symbol)}
                   mentions={t.mentions?.[w] || 0}
                   sentimentScore={t.sentimentScore?.[w] || 0}
                   mentionedBy={t.mentionedBy || []}
