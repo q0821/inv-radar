@@ -1,0 +1,381 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const base = import.meta.env.BASE_URL;
+
+// 整體流程圖（mermaid flowchart TD）
+// 設計策略：
+// - subgraph 分階段：Trigger / Source / Transcribe / LLM / Anomaly+Technicals / Output
+// - YouTube 路線標示「已暫停」、停用 RSS 標示 disabled（用 stroke-dasharray + 較淡顏色）
+// - Phase 2/3 兩條分支：anomaly+technicals 上分支、mention_history append 下分支
+const mermaidGraph = `flowchart TD
+  TRIG["每日執行<br/>週一至六 23:00"]
+
+  subgraph SRC["資料來源 Source"]
+    direction TB
+    R1["RSS 股癌"]:::active
+    R2["RSS 兆華與股惑仔"]:::active
+    R3["RSS 美股航海王"]:::disabled
+    R4["RSS 韭菜畢業班"]:::disabled
+    R5["RSS 美股投資學"]:::disabled
+    R6["RSS 游庭皓的財經皓角"]:::disabled
+    MERGE_RSS["合併 RSS Feeds"]:::active
+    FILTER_RSS["過濾新 Episodes<br/>(48hr 視窗)"]:::active
+    DEDUPE_RSS["Google Sheets<br/>去重 (guid)"]:::active
+
+    YT_CFG["YouTube 頻道設定<br/>(已暫停 / channels 空)"]:::paused
+    YT_QUERY["查詢 YouTube 影片"]:::paused
+    YT_DETAIL["取得影片詳情"]:::paused
+    YT_FILTER["過濾 YouTube 影片<br/>(48hr + ≥5min + ≥1000 views)"]:::paused
+    YT_NO["無新 YouTube 影片"]:::paused
+  end
+
+  subgraph TRSC["語音 / 字幕擷取 Transcribe"]
+    direction TB
+    AAI_CREATE["AssemblyAI 建立任務"]:::active
+    AAI_WAIT["等待處理"]:::active
+    AAI_POLL["輪詢轉錄狀態"]:::active
+    AAI_CHECK["檢查完成"]:::active
+    LOOP_PC["Loop Over Podcasts"]:::active
+    PROC_PC["處理 Podcast 轉錄"]:::active
+    MERGE_PC["合併 Podcast 轉錄結果"]:::active
+    LLM_IN_PC["準備 LLM 輸入"]:::active
+
+    LOOP_YT["Loop Over YouTube Videos"]:::paused
+    APIFY["Apify 取得字幕"]:::paused
+    YT_PROC["處理字幕結果"]:::paused
+    YT_WAIT["YouTube 等待"]:::paused
+    YT_MERGE["合併 YouTube 字幕結果"]:::paused
+    LLM_IN_YT["準備 YouTube LLM 輸入"]:::paused
+  end
+
+  MERGE_ALL["合併所有來源"]:::active
+  FILTER_VALID["過濾有效項目"]:::active
+  CHECK_ANY["檢查是否有內容分析"]:::active
+  NO_CONTENT["無內容可分析"]:::active
+
+  subgraph LLM["LLM 分析 (Anthropic Claude)"]
+    direction TB
+    AGENT["AI 投資分析 Agent<br/>(逐集分析)"]:::llm
+    PARSE["解析 LLM 回應"]:::llm
+    AGG["彙整所有分析結果"]:::llm
+    REPORT["AI 投資報告整合<br/>(綜合報告)"]:::llm
+  end
+
+  subgraph ANOM["突發共識 + 技術面 Phase 2/3"]
+    direction TB
+    SHEETS_GET["Sheets get<br/>歷史 mentions"]:::anomaly
+    DETECT["突發共識檢測<br/>(新進榜 / 突發共識 / 分歧加劇)"]:::anomaly
+    EXTRACT["萃取 ticker 列表<br/>(symbol normalize + aliases.json)"]:::anomaly
+    YF["Yahoo Finance 查詢"]:::anomaly
+    CALC["計算技術指標<br/>(MA20/60、RSI14、量比)"]:::anomaly
+    SUM_TECH["彙總技術指標"]:::anomaly
+
+    EXPAND["擴展 ticker 記錄"]:::sidebranch
+    SHEETS_APPEND["Sheets append<br/>mention_history"]:::sidebranch
+  end
+
+  subgraph OUT["產出 Output"]
+    direction TB
+    BLOCKS["生成確定性 HTML 區塊<br/>(含 signal mini snapshot)"]:::output
+    CREATIVE["AI 生成分析摘要<br/>(Anthropic)"]:::output
+    ASSEMBLE["組裝 Email"]:::output
+    GMAIL["發送 Gmail"]:::sink
+    PREP_GH["準備 GitHub JSON"]:::output
+    PUT_GH["GitHub Contents API<br/>PUT data/reports/YYYY-MM-DD.json"]:::sink
+    EXPAND_GUID["展開處理記錄"]:::output
+    SHEETS_GUID["Google Sheets<br/>append 已處理 GUID"]:::sink
+  end
+
+  %% Trigger
+  TRIG --> R1
+  TRIG --> R2
+  TRIG -. disabled .-> R3
+  TRIG -. disabled .-> R4
+  TRIG -. disabled .-> R5
+  TRIG -. disabled .-> R6
+  TRIG -. 已暫停 .-> YT_CFG
+
+  %% RSS pipeline
+  R1 --> MERGE_RSS
+  R2 --> MERGE_RSS
+  R3 -. disabled .-> MERGE_RSS
+  R4 -. disabled .-> MERGE_RSS
+  R5 -. disabled .-> MERGE_RSS
+  R6 -. disabled .-> MERGE_RSS
+  MERGE_RSS --> FILTER_RSS --> DEDUPE_RSS --> AAI_CREATE
+  AAI_CREATE --> AAI_WAIT --> AAI_POLL --> AAI_CHECK
+  AAI_CHECK --> LOOP_PC --> PROC_PC --> LOOP_PC
+  LOOP_PC -- done --> MERGE_PC --> LLM_IN_PC
+
+  %% YouTube pipeline (paused)
+  YT_CFG -. .-> YT_QUERY
+  YT_QUERY -. .-> YT_DETAIL
+  YT_DETAIL -. .-> YT_FILTER
+  YT_FILTER -. 無 .-> YT_NO
+  YT_FILTER -. 有 .-> LOOP_YT
+  LOOP_YT -. .-> APIFY
+  APIFY -. .-> YT_PROC
+  YT_PROC -. .-> YT_WAIT
+  YT_WAIT -. .-> LOOP_YT
+  LOOP_YT -. done .-> YT_MERGE
+  YT_MERGE -. .-> LLM_IN_YT
+
+  %% Merge sources
+  LLM_IN_PC --> MERGE_ALL
+  LLM_IN_YT -. .-> MERGE_ALL
+  MERGE_ALL --> FILTER_VALID --> CHECK_ANY
+  CHECK_ANY -- 無 --> NO_CONTENT
+  CHECK_ANY -- 有 --> AGENT
+  AGENT --> PARSE --> AGG --> REPORT
+
+  %% Phase 2/3 fan-out from REPORT
+  REPORT --> SHEETS_GET
+  REPORT --> EXPAND
+
+  SHEETS_GET --> DETECT --> EXTRACT --> YF --> CALC --> SUM_TECH
+  EXPAND --> SHEETS_APPEND
+
+  %% Back to output (main)
+  SUM_TECH --> BLOCKS
+  BLOCKS --> CREATIVE --> ASSEMBLE
+  ASSEMBLE --> GMAIL
+  ASSEMBLE --> PREP_GH --> PUT_GH
+  ASSEMBLE --> EXPAND_GUID --> SHEETS_GUID
+
+  classDef active fill:#eaf6ff,stroke:#2980b9,stroke-width:1.5px,color:#0f3460;
+  classDef paused fill:#f4f4f4,stroke:#bbb,stroke-width:1px,color:#999,stroke-dasharray: 4 3;
+  classDef disabled fill:#fafafa,stroke:#ccc,stroke-width:1px,color:#aaa,stroke-dasharray: 3 3;
+  classDef llm fill:#f9f5ff,stroke:#8e44ad,stroke-width:1.5px,color:#5b2c87;
+  classDef anomaly fill:#fef9e7,stroke:#d29922,stroke-width:1.5px,color:#7a5c00;
+  classDef sidebranch fill:#fdf2f2,stroke:#e74c3c,stroke-width:1.2px,color:#7a1f1f;
+  classDef output fill:#d5f5e3,stroke:#27ae60,stroke-width:1.5px,color:#1e6c3a;
+  classDef sink fill:#27ae60,stroke:#1e6c3a,stroke-width:1.5px,color:#fff;
+`;
+
+// Mention history 子流程圖
+const mermaidSubMention = `flowchart LR
+  R["AI 投資報告整合<br/>(report.bullishSignals/<br/>bearishSignals/monitorList)"]
+  E["擴展 ticker 記錄<br/>flatten 成 row"]
+  H["Sheets mention_history<br/>(date / ticker / sector / signal_type /<br/>kol / confidence / consensus)"]
+  G["Sheets get 歷史 mentions<br/>(過去 30 天)"]
+  D["突發共識檢測<br/>新進榜 / 突發共識 / 分歧加劇"]
+  A["report.anomalies"]
+
+  R --> E --> H
+  R --> G --> D --> A
+
+  classDef src fill:#f9f5ff,stroke:#8e44ad,color:#5b2c87;
+  classDef store fill:#fdf2f2,stroke:#e74c3c,color:#7a1f1f;
+  classDef proc fill:#fef9e7,stroke:#d29922,color:#7a5c00;
+  class R src;
+  class E,H store;
+  class G,D,A proc;
+`;
+
+// Technical map 子流程圖
+const mermaidSubTech = `flowchart LR
+  S["report.bullishSignals[]<br/>+ bearishSignals[]"]
+  X["萃取 ticker 列表<br/>(normalize: 純數字+.TW、<br/>BRK.B→BRK-B、跳過中文)"]
+  AL["aliases.json (GitHub raw)<br/>台積電→2330.TW 等"]
+  Y["Yahoo Finance chart API<br/>(無 auth, 4 個月日線,<br/>timeout 5s + retry 2)"]
+  C["計算技術指標<br/>price/ma20/ma60/rsi14/<br/>volRatio/changePct5d"]
+  M["指標 map<br/>{ticker: indicators}"]
+  B["signal card 行情 mini snapshot<br/>+ JSON technicals 欄位"]
+
+  AL --> X
+  S --> X --> Y --> C --> M --> B
+
+  classDef src fill:#f9f5ff,stroke:#8e44ad,color:#5b2c87;
+  classDef proc fill:#fef9e7,stroke:#d29922,color:#7a5c00;
+  classDef out fill:#d5f5e3,stroke:#27ae60,color:#1e6c3a;
+  class S src;
+  class X,Y,C,M proc;
+  class AL src;
+  class B out;
+`;
+
+const services = [
+  { name: 'RSS Feeds', role: '資料來源', position: '股癌、兆華與股惑仔（active）；4 個備援頻道（disabled）' },
+  { name: 'YouTube Data API', role: '資料來源', position: '查詢頻道新影片（目前已暫停，channels 陣列被清空）' },
+  { name: 'Google Sheets (去重)', role: '記錄去重', position: '記錄已處理 podcast/video GUID，48hr 視窗內重疊不重複觸發' },
+  { name: 'AssemblyAI', role: '語音轉錄', position: 'Podcast MP3 → 中文文字（universal-2 模型）' },
+  { name: 'Apify', role: '字幕擷取', position: 'YouTube channel 字幕擷取（目前隨 YouTube 路線一起暫停）' },
+  { name: 'Anthropic Claude', role: '主要 LLM', position: '投資分析 Agent + 報告整合 + 生成摘要（4 個 chat model 節點）' },
+  { name: 'OpenAI', role: '備援 LLM', position: '1 個 chat model 節點（備援使用）' },
+  { name: 'Google Sheets (mention_history)', role: '歷史累積', position: '每日 ticker 提及攤平寫入，供突發共識檢測讀過去 30 天比對' },
+  { name: 'GitHub raw (aliases.json)', role: 'Ticker 對照', position: '中文名 / 變體 → 標準 ticker 對照（萃取 ticker 列表時讀取）' },
+  { name: 'Yahoo Finance', role: '行情 / 技術指標', position: 'unofficial chart API，4 個月日線，計算 MA / RSI / 量比' },
+  { name: 'Gmail OAuth2', role: '輸出 Email', position: '寄送日報 HTML' },
+  { name: 'GitHub Contents API', role: '輸出 JSON', position: 'PUT data/reports/YYYY-MM-DD.json 到 investment-report-site repo' },
+];
+---
+<BaseLayout title="Workflow 流程圖 - 投資訊號日報">
+  <nav class="nav">
+    <a href={base}>最新報告</a>
+    <a href={`${base}archive/`}>歷史報告</a>
+    <a href={`${base}trends/`}>趨勢觀察</a>
+    <a href={`${base}workflow/`}><strong>workflow 流程圖</strong></a>
+  </nav>
+
+  <div class="card">
+    <div class="card-body">
+      <h1 class="section-title">Workflow 流程圖</h1>
+      <p style="font-size:0.92em;color:var(--c-text-secondary);margin-bottom:0.6em;">
+        這頁呈現 n8n workflow「Podcast 投資訊號監控」整條 pipeline。從每日排程觸發開始，
+        經過 <strong>資料來源（RSS / YouTube）</strong> → <strong>語音轉錄 / 字幕擷取</strong> →
+        <strong>3 階段 LLM 分析（Anthropic Claude）</strong> →
+        <strong>突發共識預警 + 技術指標 snapshot（Phase 2/3）</strong> →
+        最終 <strong>3 條輸出（Gmail / GitHub / Sheets）</strong>。
+      </p>
+      <p style="font-size:0.88em;color:var(--c-text-muted);margin-bottom:0;">
+        圖內顏色說明：藍 = active node、紫 = LLM 階段、黃 = 突發共識/技術面（Phase 2/3）、
+        紅 = mention_history 旁支、綠 = 產出 / 寫入。灰色虛線為 disabled 或目前暫停的 node。
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title">整體流程圖</h2>
+      <div class="workflow-mermaid" data-mermaid-lazy>
+        <pre class="mermaid">{mermaidGraph}</pre>
+      </div>
+      <p style="font-size:0.8em;color:var(--c-text-muted);margin-top:0.6em;">
+        若圖在手機上太擠，可橫向捲動。實際 workflow JSON 共 66 個 node（含已停用），
+        本流程圖把同階段的 node 用 subgraph 區分，主要 active 路徑突出顯示。
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title">外部服務串接</h2>
+      <div style="overflow-x:auto;">
+        <table class="workflow-service-table">
+          <thead>
+            <tr>
+              <th>服務</th>
+              <th>角色</th>
+              <th>在流程中的位置</th>
+            </tr>
+          </thead>
+          <tbody>
+            {services.map(s => (
+              <tr>
+                <td><strong>{s.name}</strong></td>
+                <td>{s.role}</td>
+                <td>{s.position}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title insight">主要 invariant：mention_history 流轉</h2>
+      <p style="font-size:0.9em;color:var(--c-text-secondary);margin-bottom:0.6em;">
+        每次 LLM 產生報告後，<strong>同一份 report 同時被 fan-out 成兩條路</strong>：
+        一條把當日所有 ticker 提及攤平 append 到 Google Sheets（建立未來能查的歷史），
+        另一條去 Google Sheets 讀過去 30 天歷史跑三條 anomaly 規則回填到 report.anomalies。
+        兩個 Sheets node 都走 <code>continueOnFail + alwaysOutputData</code>，失敗也不阻擋 email 發送，anomalies 區塊降級為空。
+      </p>
+      <div class="workflow-mermaid" data-mermaid-lazy>
+        <pre class="mermaid">{mermaidSubMention}</pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title monitor">主要 invariant：技術指標 map 流轉</h2>
+      <p style="font-size:0.9em;color:var(--c-text-secondary);margin-bottom:0.6em;">
+        當日 bullish + bearish signals 萃取出 distinct ticker 後，做 symbol normalization
+        （純數字 4-6 位加 <code>.TW</code>、<code>BRK.B</code> → <code>BRK-B</code>、中文族群名直接跳過），
+        並查 site 端 <code>aliases.json</code> 對照中文名 / 變體 → 標準 ticker。
+        之後一次拉 Yahoo Finance 4 個月日線、算出指標 map，最後注入每個 signal 的
+        「行情」mini snapshot，並寫進 GitHub JSON 的 <code>technicals</code> 欄位。
+        Yahoo unofficial / ticker 不存在 → <code>technicals: null</code>，渲染端 gracefully skip。
+      </p>
+      <div class="workflow-mermaid" data-mermaid-lazy>
+        <pre class="mermaid">{mermaidSubTech}</pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h2 class="section-title">FAQ：為什麼某些 signal 的 mini snapshot 是空的？</h2>
+      <ul style="font-size:0.9em;color:var(--c-text-secondary);line-height:1.7;padding-left:1.2em;margin:0;">
+        <li>LLM 直接寫成 ticker code（例：<code>2330.TW</code>、<code>TSM</code>）→ 直接查得到，有 snapshot。</li>
+        <li>LLM 只寫中文公司名（例：「台積電」）→ 要看 site 端 <code>aliases.json</code> 是否有對照表；有就能對到，沒有就跳過。</li>
+        <li>中文族群名（例：「AI 概念股」、「半導體」）→ 不是個別標的，刻意跳過查詢。</li>
+        <li>新上市 / Yahoo 資料不足 / ticker 拼錯 → unofficial API 回 null，gracefully skip。</li>
+        <li>實例：某日 26 個 ticker 中只 2 個（<code>2317.TW</code> + <code>TSM</code>）有 snapshot，是因為大多以中文名出現且 alias 還沒補；補上 alias 後預期約 16 個能對到。</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Mermaid lazy load via CDN -->
+  <script is:inline>
+    (function () {
+      const els = document.querySelectorAll('[data-mermaid-lazy]');
+      if (!els.length) return;
+
+      let mermaidLoaded = false;
+      let loadPromise = null;
+
+      function loadMermaid() {
+        if (loadPromise) return loadPromise;
+        loadPromise = new Promise((resolve, reject) => {
+          const s = document.createElement('script');
+          s.src = 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js';
+          s.async = true;
+          s.onload = () => resolve(window.mermaid);
+          s.onerror = reject;
+          document.head.appendChild(s);
+        });
+        return loadPromise;
+      }
+
+      function isDark() {
+        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      }
+
+      async function renderAll() {
+        if (mermaidLoaded) return;
+        mermaidLoaded = true;
+        try {
+          const mermaid = await loadMermaid();
+          mermaid.initialize({
+            startOnLoad: false,
+            theme: isDark() ? 'dark' : 'default',
+            flowchart: { htmlLabels: true, curve: 'basis' },
+            securityLevel: 'loose',
+          });
+          await mermaid.run({ querySelector: '.mermaid' });
+        } catch (e) {
+          console.error('mermaid load failed', e);
+        }
+      }
+
+      if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver((entries) => {
+          for (const en of entries) {
+            if (en.isIntersecting) {
+              renderAll();
+              io.disconnect();
+              break;
+            }
+          }
+        }, { rootMargin: '200px' });
+        els.forEach(el => io.observe(el));
+      } else {
+        renderAll();
+      }
+    })();
+  </script>
+</BaseLayout>

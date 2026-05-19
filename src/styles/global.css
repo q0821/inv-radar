@@ -1093,3 +1093,80 @@ a:hover {
     min-width: 4.5em;
   }
 }
+
+/* ── Workflow 流程圖頁面 ── */
+.workflow-mermaid {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.8em 0.6em;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  margin: 0.4em 0;
+}
+
+.workflow-mermaid pre.mermaid {
+  margin: 0;
+  background: transparent;
+  font-family: inherit;
+  line-height: 1.4;
+  white-space: pre;
+  min-width: max-content;
+}
+
+.workflow-mermaid svg {
+  max-width: none;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.workflow-service-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88em;
+  margin-top: 0.4em;
+}
+
+.workflow-service-table th,
+.workflow-service-table td {
+  padding: 0.55em 0.7em;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--c-border);
+  line-height: 1.5;
+}
+
+.workflow-service-table thead th {
+  background: var(--c-bg);
+  font-weight: 700;
+  color: var(--c-text-secondary);
+  font-size: 0.85em;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.workflow-service-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.workflow-service-table tbody tr:hover {
+  background: var(--c-bg);
+}
+
+.workflow-service-table td:first-child {
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .workflow-service-table {
+    font-size: 0.82em;
+  }
+  .workflow-service-table th,
+  .workflow-service-table td {
+    padding: 0.5em 0.55em;
+  }
+  .workflow-service-table td:first-child {
+    white-space: normal;
+  }
+}
