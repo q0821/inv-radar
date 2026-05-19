@@ -109,21 +109,21 @@ const mermaidGraph = `flowchart TD
   LOOP_PC -- done --> MERGE_PC --> LLM_IN_PC
 
   %% YouTube pipeline (paused)
-  YT_CFG -. .-> YT_QUERY
-  YT_QUERY -. .-> YT_DETAIL
-  YT_DETAIL -. .-> YT_FILTER
+  YT_CFG -.-> YT_QUERY
+  YT_QUERY -.-> YT_DETAIL
+  YT_DETAIL -.-> YT_FILTER
   YT_FILTER -. 無 .-> YT_NO
   YT_FILTER -. 有 .-> LOOP_YT
-  LOOP_YT -. .-> APIFY
-  APIFY -. .-> YT_PROC
-  YT_PROC -. .-> YT_WAIT
-  YT_WAIT -. .-> LOOP_YT
+  LOOP_YT -.-> APIFY
+  APIFY -.-> YT_PROC
+  YT_PROC -.-> YT_WAIT
+  YT_WAIT -.-> LOOP_YT
   LOOP_YT -. done .-> YT_MERGE
-  YT_MERGE -. .-> LLM_IN_YT
+  YT_MERGE -.-> LLM_IN_YT
 
   %% Merge sources
   LLM_IN_PC --> MERGE_ALL
-  LLM_IN_YT -. .-> MERGE_ALL
+  LLM_IN_YT -.-> MERGE_ALL
   MERGE_ALL --> FILTER_VALID --> CHECK_ANY
   CHECK_ANY -- 無 --> NO_CONTENT
   CHECK_ANY -- 有 --> AGENT
