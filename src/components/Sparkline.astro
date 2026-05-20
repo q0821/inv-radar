@@ -1,6 +1,6 @@
 ---
 // Inline SVG sparkline. Accepts an array of {date, weight} or a simple number array.
-// 視覺：以 0 為基線，正分（看漲）綠色、負分（看空）紅色；每點為連續累積分數。
+// 視覺：以 0 為基線，正分（看漲）紅色、負分（看空）綠色（台股慣例）；每點為連續累積分數。
 interface Props {
   timeline: Array<{ date: string; weight: number }> | number[];
   width?: number;
@@ -67,8 +67,9 @@ if (hasData) {
     .join(' ');
 
   lastVal = values[values.length - 1];
-  if (lastVal > 0.5) trendColor = 'var(--c-bullish)';
-  else if (lastVal < -0.5) trendColor = 'var(--c-bearish)';
+  // 台股慣例：看漲累積（正）紅、看空（負）綠
+  if (lastVal > 0.5) trendColor = 'var(--c-bearish)';
+  else if (lastVal < -0.5) trendColor = 'var(--c-bullish)';
   else trendColor = 'var(--c-text-muted)';
 }
 ---

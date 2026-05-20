@@ -2,9 +2,10 @@
 interface Props {
   title: string;
   description?: string;
+  width?: 'narrow' | 'wide';
 }
 
-const { title, description = '投資訊號日報 - AI 自動分析產生的每日投資報告' } = Astro.props;
+const { title, description = '投資訊號日報 - AI 自動分析產生的每日投資報告', width = 'narrow' } = Astro.props;
 
 import '../styles/global.css';
 ---
@@ -94,7 +95,7 @@ import '../styles/global.css';
 
   <!-- Main Content (hidden until authenticated) -->
   <div class="site-content" id="site-content" data-locked>
-    <div class="site-wrapper">
+    <div class={`site-wrapper${width === 'wide' ? ' site-wrapper--wide' : ''}`}>
       <slot />
       <footer class="site-footer">
         <p>本站內容由 AI 自動轉錄與分析產生，可能存在錯誤或遺漏。所有資訊僅供參考，不構成任何投資建議。請自行研究 (DYOR)，投資風險自負。</p>

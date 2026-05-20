@@ -56,7 +56,7 @@ const windowLabels: Record<WindowKey, string> = {
   '90d': '近 90 天',
 };
 ---
-<BaseLayout title="趨勢觀察 - 投資訊號日報">
+<BaseLayout title="趨勢觀察 - 投資訊號日報" width="wide">
   <nav class="nav">
     <a href={base}>最新報告</a>
     <a href={`${base}archive/`}>歷史報告</a>
@@ -73,7 +73,7 @@ const windowLabels: Record<WindowKey, string> = {
       </p>
       <p style="font-size:0.8em;color:var(--c-text-muted);margin-bottom:0.8em;line-height:1.6;">
         卡片小圖＝該窗口內情緒分累積走勢：線往上＝KOL 越來越看漲、往下＝越來越看空、走平＝近期沒被討論。
-        <span style="color:var(--c-bullish);font-weight:600;">綠</span>＝偏多、<span style="color:var(--c-bearish);font-weight:600;">紅</span>＝偏空。點卡片可看完整時間軸與技術面。
+        <span style="color:var(--c-bearish);font-weight:600;">紅</span>＝偏多、<span style="color:var(--c-bullish);font-weight:600;">綠</span>＝偏空（台股慣例）。點卡片可看完整時間軸與技術面。
       </p>
       <div class="trend-window-tabs" role="tablist">
         {windows.map(w => (

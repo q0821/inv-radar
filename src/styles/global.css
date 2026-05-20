@@ -8,33 +8,67 @@
 }
 
 :root {
-  --c-bg: #f4f7f9;
-  --c-surface: #ffffff;
-  --c-text: #1a1a2e;
-  --c-text-secondary: #555;
-  --c-text-muted: #888;
-  --c-border: #e0e0e0;
-  --c-bullish: #27ae60;
-  --c-bullish-bg: #d5f5e3;
-  --c-bearish: #e74c3c;
-  --c-bearish-bg: #fdf2f2;
-  --c-monitor: #f39c12;
-  --c-monitor-bg: #fef9e7;
+  /* Tinted neutrals — 朝品牌冷藍微微 tint，避免死白 / 純黑的廉價感 */
+  --c-bg: #f1f4f8;
+  --c-surface: #fbfcfe;
+  --c-surface-2: #f6f8fb;
+  --c-text: #18202e;
+  --c-text-secondary: #4f5a68;
+  --c-text-muted: #8a93a0;
+  --c-border: #e3e7ee;
+  --c-border-strong: #d3d9e2;
+
+  --c-bullish: #1f9d57;
+  --c-bullish-bg: #eef8f1;
+  --c-bullish-tint: #f4faf6;
+  --c-bearish: #df3f33;
+  --c-bearish-bg: #fcf0ef;
+  --c-bearish-tint: #fdf6f5;
+  --c-monitor: #e08e0b;
+  --c-monitor-bg: #fdf6e6;
+  --c-monitor-tint: #fdfaf1;
   --c-insight: #8e44ad;
-  --c-insight-bg: #f9f5ff;
+  --c-insight-bg: #f7f1fb;
+  --c-insight-tint: #faf6fc;
   --c-catalyst: #2980b9;
-  --c-catalyst-bg: #eaf6ff;
+  --c-catalyst-bg: #eaf4fb;
+  --c-catalyst-tint: #f4f9fc;
+
   --c-header-from: #1a1a2e;
   --c-header-to: #0f3460;
-  --c-card-shadow: rgba(0, 0, 0, 0.08);
-  --c-badge-high-bg: #d5f5e3;
-  --c-badge-high-text: #1e8449;
-  --c-badge-med-bg: #fef9e7;
-  --c-badge-med-text: #b7950b;
-  --c-badge-low-bg: #f2f3f4;
-  --c-badge-low-text: #7f8c8d;
-  --radius: 12px;
-  --radius-sm: 8px;
+
+  /* Elevation scale — 漸進式陰影層級 */
+  --shadow-1: 0 1px 2px rgba(20, 30, 50, 0.04), 0 1px 1px rgba(20, 30, 50, 0.03);
+  --shadow-2: 0 1px 3px rgba(20, 30, 50, 0.05), 0 4px 12px rgba(20, 30, 50, 0.05);
+  --shadow-3: 0 2px 6px rgba(20, 30, 50, 0.06), 0 12px 28px rgba(20, 30, 50, 0.08);
+  --c-card-shadow: rgba(20, 30, 50, 0.06);
+
+  --c-badge-high-bg: #eef8f1;
+  --c-badge-high-text: #1a7f46;
+  --c-badge-med-bg: #fdf6e6;
+  --c-badge-med-text: #a8780a;
+  --c-badge-low-bg: #eef1f5;
+  --c-badge-low-text: #7a838f;
+
+  /* Spacing scale (4 / 8 / 12 / 16 / 24 / 32 / 48) */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+
+  /* Type scale (≈1.25 ratio) */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: 1.75rem;
+
+  --radius: 14px;
+  --radius-sm: 9px;
   --radius-xs: 6px;
 }
 
@@ -42,26 +76,40 @@
   :root {
     --c-bg: #0d1117;
     --c-surface: #161b22;
+    --c-surface-2: #1c222b;
     --c-text: #e6edf3;
     --c-text-secondary: #b0b8c4;
     --c-text-muted: #7d8590;
-    --c-border: #30363d;
+    --c-border: #2a3038;
+    --c-border-strong: #3a424d;
+
     --c-bullish: #3fb950;
-    --c-bullish-bg: #1a3a2a;
+    --c-bullish-bg: #15291d;
+    --c-bullish-tint: #121e17;
     --c-bearish: #f85149;
-    --c-bearish-bg: #3d1f1f;
+    --c-bearish-bg: #311a1a;
+    --c-bearish-tint: #221416;
     --c-monitor: #d29922;
-    --c-monitor-bg: #3d2e00;
+    --c-monitor-bg: #2e2300;
+    --c-monitor-tint: #1d1808;
     --c-insight: #bc8cff;
-    --c-insight-bg: #2a1a3e;
+    --c-insight-bg: #221634;
+    --c-insight-tint: #181228;
     --c-catalyst: #58a6ff;
-    --c-catalyst-bg: #0d2744;
+    --c-catalyst-bg: #102036;
+    --c-catalyst-tint: #0e1825;
+
     --c-header-from: #0d1117;
     --c-header-to: #161b22;
-    --c-card-shadow: rgba(0, 0, 0, 0.3);
-    --c-badge-high-bg: #1a3a2a;
+
+    --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-2: 0 1px 3px rgba(0, 0, 0, 0.35), 0 4px 12px rgba(0, 0, 0, 0.3);
+    --shadow-3: 0 2px 6px rgba(0, 0, 0, 0.4), 0 12px 28px rgba(0, 0, 0, 0.45);
+    --c-card-shadow: rgba(0, 0, 0, 0.35);
+
+    --c-badge-high-bg: #15291d;
     --c-badge-high-text: #3fb950;
-    --c-badge-med-bg: #3d2e00;
+    --c-badge-med-bg: #2e2300;
     --c-badge-med-text: #d29922;
     --c-badge-low-bg: #21262d;
     --c-badge-low-text: #7d8590;
@@ -96,75 +144,110 @@ a:hover {
   padding: 1.5em 1em;
 }
 
+/* 寬版：grid / 流程圖型頁面（leaderboard、archive、workflow）利用桌機橫向空間 */
+.site-wrapper--wide {
+  max-width: 1180px;
+}
+
+@media (min-width: 768px) {
+  .site-wrapper--wide {
+    padding: 2em 2em;
+  }
+}
+
 /* ── Header ── */
 .site-header {
   background: linear-gradient(135deg, var(--c-header-from), var(--c-header-to));
-  padding: 2em 1em;
+  padding: var(--sp-6) var(--sp-4);
   border-radius: var(--radius) var(--radius) 0 0;
   text-align: center;
 }
 
 .site-header h1 {
   color: #fff;
-  font-size: 1.6em;
+  font-size: var(--fs-xl);
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
 }
 
 .site-header .subtitle {
-  color: #e0e6f0;
-  font-size: 0.9em;
-  margin-top: 0.4em;
+  color: #c4cde0;
+  font-size: var(--fs-sm);
+  font-variant-numeric: tabular-nums;
+  margin-top: var(--sp-2);
 }
 
 /* ── Cards ── */
 .card {
   background: var(--c-surface);
+  border: 1px solid var(--c-border);
   border-radius: var(--radius);
-  box-shadow: 0 2px 8px var(--c-card-shadow);
-  margin-bottom: 1em;
+  box-shadow: var(--shadow-2);
+  margin-bottom: var(--sp-5);
   overflow: hidden;
 }
 
 .card-body {
-  padding: 1.25em;
+  padding: var(--sp-5);
+}
+
+@media (max-width: 640px) {
+  .card-body { padding: var(--sp-4); }
 }
 
 /* ── Section ── */
 .section-title {
-  font-size: 1.15em;
+  font-size: var(--fs-md);
   font-weight: 700;
-  margin-bottom: 0.8em;
+  letter-spacing: -0.01em;
+  margin-bottom: var(--sp-4);
 }
 
-.section-title.bullish { color: var(--c-bullish); }
-.section-title.bearish { color: var(--c-bearish); }
+.section-title.bullish { color: var(--c-bearish); }
+.section-title.bearish { color: var(--c-bullish); }
 .section-title.monitor { color: var(--c-monitor); }
 .section-title.insight { color: var(--c-insight); }
 .section-title.catalyst { color: var(--c-catalyst); }
 .section-title.risk { color: var(--c-bearish); }
 
-/* ── Signal Card ── */
+/* ── Signal Card ──
+   去除側邊色條：改用全框線 + 極淡語意 tint 背景，語意色由「粗體彩色 ticker + 前導圓點」帶出。 */
 .signal-card {
-  border-left: 4px solid var(--c-border);
-  background: var(--c-surface);
-  padding: 1em;
-  margin-bottom: 0.75em;
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  box-shadow: 0 1px 3px var(--c-card-shadow);
+  border: 1px solid var(--c-border);
+  background: var(--c-surface-2);
+  padding: var(--sp-4);
+  margin-bottom: var(--sp-3);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-1);
 }
 
-.signal-card.bullish { border-left-color: var(--c-bullish); }
-.signal-card.bearish { border-left-color: var(--c-bearish); }
-.signal-card.monitor { border-left-color: var(--c-monitor); }
+.signal-card:last-child { margin-bottom: 0; }
+
+.signal-card.bullish { background: var(--c-bearish-tint); border-color: var(--c-bearish-bg); }
+.signal-card.bearish { background: var(--c-bullish-tint); border-color: var(--c-bullish-bg); }
+.signal-card.monitor { background: var(--c-monitor-tint); border-color: var(--c-monitor-bg); }
 
 .signal-ticker {
-  font-size: 1.15em;
+  font-size: var(--fs-md);
   font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
-.signal-ticker.bullish { color: var(--c-bullish); }
-.signal-ticker.bearish { color: var(--c-bearish); }
+/* 前導語意圓點 */
+.signal-ticker::before {
+  content: '';
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  margin-right: 0.45em;
+  vertical-align: middle;
+  background: currentColor;
+}
+
+.signal-ticker.bullish { color: var(--c-bearish); }
+.signal-ticker.bearish { color: var(--c-bullish); }
 .signal-ticker.monitor { color: var(--c-monitor); }
 
 /* ── Badges ── */
@@ -196,8 +279,8 @@ a:hover {
   margin-left: 0.3em;
 }
 
-.badge-action.bullish { background: var(--c-bullish); }
-.badge-action.bearish { background: var(--c-bearish); }
+.badge-action.bullish { background: var(--c-bearish); }
+.badge-action.bearish { background: var(--c-bullish); }
 
 .badge-confidence-high { background: var(--c-badge-high-bg); color: var(--c-badge-high-text); }
 .badge-confidence-medium { background: var(--c-badge-med-bg); color: var(--c-badge-med-text); }
@@ -215,30 +298,34 @@ a:hover {
 
 /* ── Source detail row ── */
 .source-row {
-  margin: 0.3em 0;
-  padding: 0.4em 0.6em;
-  background: var(--c-bg);
+  margin: var(--sp-2) 0;
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-xs);
-  font-size: 0.85em;
+  font-size: var(--fs-sm);
+  line-height: 1.55;
 }
 
 /* ── Price level ── */
 .price-level {
-  margin-top: 0.5em;
-  padding: 0.4em 0.6em;
-  background: var(--c-bg);
+  margin-top: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-xs);
-  font-size: 0.8em;
+  font-size: var(--fs-xs);
   color: var(--c-text-secondary);
 }
 
 /* ── Signal technicals (mini snapshot) ── */
 .signal-technicals {
-  margin-top: 0.5em;
-  padding: 0.45em 0.65em;
-  background: var(--c-bg);
+  margin-top: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-xs);
-  font-size: 0.8em;
+  font-size: var(--fs-xs);
   line-height: 1.7;
   color: var(--c-text-secondary);
   display: flex;
@@ -268,26 +355,31 @@ a:hover {
 /* ── Quick Digest ── */
 .quick-digest {
   background: linear-gradient(135deg, var(--c-header-from), var(--c-header-to));
-  padding: 1.25em;
+  padding: var(--sp-5);
   border-radius: var(--radius);
-  margin-bottom: 1em;
+  box-shadow: var(--shadow-2);
+  margin-bottom: var(--sp-5);
 }
 
 .quick-digest h2 {
   color: #fff;
-  font-size: 1.1em;
-  margin-bottom: 0.8em;
+  font-size: var(--fs-md);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: var(--sp-4);
 }
 
 .quick-digest li {
-  color: #fff;
-  font-size: 0.95em;
-  margin-bottom: 0.6em;
+  color: #eef2f8;
+  font-size: var(--fs-sm);
+  margin-bottom: var(--sp-3);
   list-style: none;
-  padding-left: 1.5em;
+  padding-left: 1.6em;
   position: relative;
-  line-height: 1.5;
+  line-height: 1.55;
 }
+
+.quick-digest li:last-child { margin-bottom: 0; }
 
 .quick-digest li::before {
   content: '\26A1';
@@ -305,12 +397,12 @@ a:hover {
 }
 
 .thermometer-bull {
-  background: linear-gradient(90deg, #27ae60, #2ecc71);
+  background: linear-gradient(90deg, #df3f33, #e85d52);
   height: 100%;
 }
 
 .thermometer-bear {
-  background: linear-gradient(90deg, #e74c3c, #c0392b);
+  background: linear-gradient(90deg, #1f9d57, #28b866);
   height: 100%;
 }
 
@@ -327,8 +419,8 @@ a:hover {
   white-space: nowrap;
 }
 
-.thermometer-label.bull { color: var(--c-bullish); }
-.thermometer-label.bear { color: var(--c-bearish); }
+.thermometer-label.bull { color: var(--c-bearish); }
+.thermometer-label.bear { color: var(--c-bullish); }
 
 .market-mood {
   font-size: 0.95em;
@@ -340,21 +432,25 @@ a:hover {
 
 /* ── Risk / Catalyst / Insight blocks ── */
 .risk-block {
-  border-left: 4px solid var(--c-bearish);
-  background: var(--c-bearish-bg);
-  padding: 1em;
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  border: 1px solid var(--c-bearish-bg);
+  background: var(--c-bearish-tint);
+  padding: var(--sp-4) var(--sp-4) var(--sp-4) var(--sp-5);
+  border-radius: var(--radius-sm);
 }
 
 .risk-block li {
-  margin-bottom: 0.4em;
-  font-size: 0.9em;
+  margin-bottom: var(--sp-2);
+  font-size: var(--fs-sm);
   color: var(--c-bearish);
+  line-height: 1.55;
 }
 
+.risk-block li:last-child { margin-bottom: 0; }
+
 .catalyst-block {
-  background: var(--c-catalyst-bg);
-  padding: 1em;
+  background: var(--c-catalyst-tint);
+  border: 1px solid var(--c-catalyst-bg);
+  padding: var(--sp-4);
   border-radius: var(--radius-sm);
 }
 
@@ -388,26 +484,41 @@ a:hover {
 }
 
 .insight-block {
-  background: var(--c-insight-bg);
-  padding: 1em;
+  background: var(--c-insight-tint);
+  padding: var(--sp-4);
   border-radius: var(--radius-sm);
-  border-left: 4px solid var(--c-insight);
+  border: 1px solid var(--c-insight-bg);
 }
 
 .insight-block li {
-  margin-bottom: 0.5em;
-  font-size: 0.9em;
+  margin-bottom: var(--sp-2);
+  font-size: var(--fs-sm);
 }
 
 .insight-item {
   background: var(--c-surface);
-  padding: 0.85em 1em;
-  margin-bottom: 0.6em;
+  padding: var(--sp-4);
+  margin-bottom: var(--sp-3);
   border-radius: var(--radius-sm);
   border: 1px solid var(--c-border);
-  border-left: 3px solid var(--c-insight);
-  font-size: 0.9em;
-  line-height: 1.55;
+  box-shadow: var(--shadow-1);
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+}
+
+/* 語意由 headline 前的彩色標記帶出，取代側邊色條 */
+.insight-headline {
+  position: relative;
+}
+.insight-item .insight-headline::before {
+  content: '';
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  background: var(--c-insight);
 }
 
 .insight-item:last-child {
@@ -419,18 +530,20 @@ a:hover {
 }
 
 .insight-headline {
-  font-size: 0.95em;
-  font-weight: 600;
+  font-size: var(--fs-base);
+  font-weight: 700;
   line-height: 1.5;
+  letter-spacing: -0.005em;
 }
 
 .insight-reasoning {
-  margin-top: 0.5em;
-  padding: 0.5em 0.7em;
-  background: var(--c-insight-bg);
-  border-radius: var(--radius-sm);
-  font-size: 0.88em;
-  line-height: 1.6;
+  margin-top: var(--sp-3);
+  padding: var(--sp-3);
+  background: var(--c-insight-tint);
+  border: 1px solid var(--c-insight-bg);
+  border-radius: var(--radius-xs);
+  font-size: var(--fs-sm);
+  line-height: 1.65;
 }
 
 .insight-reasoning strong {
@@ -450,12 +563,15 @@ a:hover {
 
 /* ── Episode Card ── */
 .episode-card {
-  background: var(--c-surface);
-  padding: 1.25em;
-  margin-bottom: 1em;
-  border-radius: var(--radius);
-  box-shadow: 0 2px 8px var(--c-card-shadow);
+  background: var(--c-surface-2);
+  padding: var(--sp-5);
+  margin-bottom: var(--sp-4);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-1);
 }
+
+.episode-card:last-child { margin-bottom: 0; }
 
 .episode-meta {
   display: flex;
@@ -504,13 +620,14 @@ a:hover {
 }
 
 .episode-summary {
-  margin-top: 0.6em;
-  padding: 0.8em;
-  background: var(--c-bg);
+  margin-top: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-xs);
-  font-size: 0.85em;
+  font-size: var(--fs-sm);
   color: var(--c-text-secondary);
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 .episode-link {
@@ -554,8 +671,14 @@ a:hover {
 }
 
 .archive-item {
-  padding: 0.8em 0;
+  padding: var(--sp-3) var(--sp-2);
+  border-radius: var(--radius-xs);
   border-bottom: 1px solid var(--c-border);
+  transition: background-color 0.15s ease-out;
+}
+
+.archive-item:hover {
+  background: var(--c-surface-2);
 }
 
 .archive-item:last-child {
@@ -564,13 +687,14 @@ a:hover {
 
 .archive-date {
   font-weight: 700;
-  font-size: 1em;
+  font-size: var(--fs-base);
+  font-variant-numeric: tabular-nums;
 }
 
 .archive-meta {
-  font-size: 0.85em;
+  font-size: var(--fs-sm);
   color: var(--c-text-muted);
-  margin-top: 0.2em;
+  margin-top: var(--sp-1);
 }
 
 /* ── Search ── */
@@ -607,13 +731,13 @@ a:hover {
 /* ── Nav ── */
 .nav {
   display: flex;
-  gap: 1em;
-  margin-bottom: 1.5em;
+  gap: var(--sp-4);
+  margin-bottom: var(--sp-5);
   flex-wrap: wrap;
 }
 
 .nav a {
-  font-size: 0.9em;
+  font-size: var(--fs-sm);
   font-weight: 600;
 }
 
@@ -667,44 +791,56 @@ a:hover {
 
 .trend-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 0.6em;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--sp-3);
 }
 
 .trend-card {
   display: block;
-  padding: 0.75em 0.9em;
+  padding: var(--sp-4);
   border-radius: var(--radius-sm);
   border: 1px solid var(--c-border);
   background: var(--c-surface);
   color: var(--c-text);
   text-decoration: none;
-  transition: border-color 0.15s, transform 0.15s;
+  box-shadow: var(--shadow-1);
+  transition: border-color 0.18s ease-out, box-shadow 0.18s ease-out, transform 0.18s ease-out;
 }
 
 .trend-card:hover {
   text-decoration: none;
-  border-color: var(--c-catalyst);
-  transform: translateY(-1px);
+  border-color: var(--c-border-strong);
+  box-shadow: var(--shadow-3);
+  transform: translateY(-2px);
 }
 
 .trend-card-main {
   display: flex;
   align-items: baseline;
-  gap: 0.5em;
-  margin-bottom: 0.3em;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-2);
 }
 
 .trend-rank {
-  font-size: 0.75em;
-  font-weight: 700;
+  font-size: var(--fs-sm);
+  font-weight: 800;
   color: var(--c-text-muted);
-  min-width: 1.8em;
+  font-variant-numeric: tabular-nums;
+  min-width: 2em;
+  letter-spacing: -0.02em;
+}
+
+/* leaderboard 前三名 rank 視覺強調 */
+.trend-card:nth-child(1) .trend-rank,
+.trend-card:nth-child(2) .trend-rank,
+.trend-card:nth-child(3) .trend-rank {
+  color: var(--c-catalyst);
 }
 
 .trend-label {
-  font-size: 1em;
+  font-size: var(--fs-md);
   font-weight: 700;
+  letter-spacing: -0.01em;
   word-break: break-word;
 }
 
@@ -717,9 +853,9 @@ a:hover {
 
 .trend-card-stats {
   display: flex;
-  align-items: center;
-  gap: 0.6em;
-  font-size: 0.8em;
+  align-items: baseline;
+  gap: var(--sp-3);
+  font-size: var(--fs-sm);
 }
 
 .trend-mentions {
@@ -727,12 +863,14 @@ a:hover {
 }
 
 .trend-score {
-  font-weight: 700;
+  font-weight: 800;
+  font-size: var(--fs-base);
   font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
 }
 
-.trend-score-bull { color: var(--c-bullish); }
-.trend-score-bear { color: var(--c-bearish); }
+.trend-score-bull { color: var(--c-bearish); }
+.trend-score-bear { color: var(--c-bullish); }
 .trend-score-neutral { color: var(--c-text-muted); }
 
 .trend-card-spark {
@@ -771,16 +909,17 @@ a:hover {
 }
 
 .trend-stat {
-  padding: 0.6em 0.7em;
+  padding: var(--sp-3);
   border: 1px solid var(--c-border);
   border-radius: var(--radius-sm);
-  background: var(--c-bg);
+  background: var(--c-surface-2);
 }
 
 .trend-stat-label {
-  font-size: 0.75em;
+  font-size: var(--fs-xs);
   color: var(--c-text-muted);
-  margin-bottom: 0.25em;
+  margin-bottom: var(--sp-1);
+  letter-spacing: 0.02em;
 }
 
 .trend-stat-row {
@@ -825,12 +964,12 @@ a:hover {
 }
 
 .spark-legend-up {
-  color: var(--c-bullish);
+  color: var(--c-bearish);
   font-weight: 600;
 }
 
 .spark-legend-down {
-  color: var(--c-bearish);
+  color: var(--c-bullish);
   font-weight: 600;
 }
 
@@ -842,29 +981,42 @@ a:hover {
 }
 
 .trend-timeline-row {
-  padding: 0.7em 0.85em;
-  background: var(--c-surface);
-  border-left: 3px solid var(--c-border);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--c-surface-2);
+  border-radius: var(--radius-sm);
   border: 1px solid var(--c-border);
-  border-left-width: 3px;
 }
 
-.trend-timeline-row.bullish { border-left-color: var(--c-bullish); }
-.trend-timeline-row.bearish { border-left-color: var(--c-bearish); }
-.trend-timeline-row.monitor { border-left-color: var(--c-monitor); }
+.trend-timeline-row.bullish { background: var(--c-bearish-tint); border-color: var(--c-bearish-bg); }
+.trend-timeline-row.bearish { background: var(--c-bullish-tint); border-color: var(--c-bullish-bg); }
+.trend-timeline-row.monitor { background: var(--c-monitor-tint); border-color: var(--c-monitor-bg); }
 
 .trend-timeline-meta {
   display: flex;
   align-items: center;
-  gap: 0.4em;
+  gap: var(--sp-2);
   flex-wrap: wrap;
-  margin-bottom: 0.3em;
+  margin-bottom: var(--sp-1);
 }
+
+/* 語意前導圓點取代側邊色條 */
+.trend-timeline-date::before {
+  content: '';
+  display: inline-block;
+  width: 0.45em;
+  height: 0.45em;
+  border-radius: 50%;
+  margin-right: 0.45em;
+  vertical-align: middle;
+  background: var(--c-text-muted);
+}
+.trend-timeline-row.bullish .trend-timeline-date::before { background: var(--c-bearish); }
+.trend-timeline-row.bearish .trend-timeline-date::before { background: var(--c-bullish); }
+.trend-timeline-row.monitor .trend-timeline-date::before { background: var(--c-monitor); }
 
 .trend-timeline-date {
   font-weight: 700;
-  font-size: 0.9em;
+  font-size: var(--fs-sm);
   font-variant-numeric: tabular-nums;
 }
 
@@ -933,9 +1085,9 @@ a:hover {
 
 /* ── 技術面快速判讀（ticker 詳情頁） ── */
 .tech-card {
-  margin-top: 1em;
-  padding: 0.9em 1em 0.8em;
-  background: var(--c-bg);
+  margin-top: var(--sp-4);
+  padding: var(--sp-4);
+  background: var(--c-surface-2);
   border: 1px solid var(--c-border);
   border-radius: var(--radius-sm);
 }
