@@ -16,12 +16,55 @@ const insights = report.keyInsights || [];
 const risks = report.riskAlerts || [];
 const catalysts = report.upcomingCatalysts || [];
 const episodes = report.episodeSummaries || [];
+const anomalies = report.anomalies || {};
 
 const bullCount = bullish.length;
 const bearCount = bearish.length;
+const monitorCount = monitor.length;
 const total = bullCount + bearCount || 1;
 const bullPct = Math.round((bullCount / total) * 100);
 const bearPct = 100 - bullPct;
+
+// 突發共識 / 預警：anomalies 各類加總
+const anomalyCount =
+  (anomalies.consensus?.length || 0) +
+  (anomalies.repeatStress?.length || 0) +
+  (anomalies.divergenceRising?.length || 0) +
+  (anomalies.sectorHeat?.length || 0);
+
+// Hero 定調標題：marketMood 優先，其次 quickDigest 第一句，再不然用預設
+const heroHeadline = marketMood || quickDigest[0] || '今日投資訊號摘要';
+
+// 市場溫度判讀（看漲占比）
+let moodWord = '中性';
+let moodClass = 'flat';
+if (bullCount + bearCount === 0) {
+  moodWord = '無訊號';
+  moodClass = 'flat';
+} else if (bullPct >= 60) {
+  moodWord = '偏多';
+  moodClass = 'bull';
+} else if (bullPct <= 40) {
+  moodWord = '偏空';
+  moodClass = 'bear';
+} else {
+  moodWord = '中性';
+  moodClass = 'flat';
+}
+
+// 半圓 gauge：180° arc，半徑 54，圓心 (60,60)
+// 左端（180°）= 全空（綠），右端（0°）= 全多（紅）。指針角度依 bullPct。
+const R = 54;
+const CX = 60;
+const CY = 60;
+const arcLen = Math.PI * R; // 半圓弧長
+// 看漲占比對應的填充（從右側紅端往左填）
+const fillLen = (bullPct / 100) * arcLen;
+// 指針角度：bullPct=100 → 0°（右），bullPct=0 → 180°（左）
+const needleAngle = Math.PI * (1 - bullPct / 100);
+const needleLen = R - 6;
+const needleX = CX + needleLen * Math.cos(needleAngle);
+const needleY = CY - needleLen * Math.sin(needleAngle);
 
 function confidenceLabel(c: string) {
   const map: Record<string, string> = { high: '高信心', medium: '中信心', low: '低信心' };
@@ -67,10 +110,76 @@ function rsiNote(rsi: number | null | undefined) {
 }
 ---
 
-<!-- Header -->
-<div class="site-header">
-  <h1>投資訊號日報</h1>
-  <p class="subtitle">{date} | 分析 {totalSources} 個來源</p>
+<!-- Hero 定調標題 -->
+<div class="report-hero">
+  <div class="report-hero-eyebrow">
+    <span class="dot"></span>
+    <span>今日定調</span>
+  </div>
+  <h1>{heroHeadline}</h1>
+  <p class="report-hero-sub">{date}・分析 {totalSources} 個來源</p>
+</div>
+
+<!-- KPI tiles -->
+<div class="kpi-grid">
+  <div class="kpi">
+    <div class="kpi-label">今日來源</div>
+    <div class="kpi-value">{totalSources}</div>
+    <div class="kpi-sub">Podcast / YouTube</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-label">看漲訊號</div>
+    <div class="kpi-value bull">{bullCount}</div>
+    <div class="kpi-sub">看多標的數</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-label">看空訊號</div>
+    <div class="kpi-value bear">{bearCount}</div>
+    <div class="kpi-sub">看空標的數</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-label">突發共識 / 預警</div>
+    <div class="kpi-value">{anomalyCount > 0 ? anomalyCount : '0'}</div>
+    <div class="kpi-sub">{anomalyCount > 0 ? '異常訊號' : '累積中'}</div>
+  </div>
+  <div class="kpi kpi-gauge">
+    <div class="kpi-label">市場溫度</div>
+    <div class="gauge">
+      <svg viewBox="0 0 120 70" role="img" aria-label={`市場溫度 ${moodWord}，看漲占比 ${bullPct}%`}>
+        <defs>
+          <linearGradient id="gaugeGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="var(--c-bullish)" />
+            <stop offset="0.5" stop-color="var(--c-monitor)" />
+            <stop offset="1" stop-color="var(--c-bearish)" />
+          </linearGradient>
+        </defs>
+        <!-- 底色軌 -->
+        <path
+          class="gauge-arc-track"
+          d={`M ${CX - R} ${CY} A ${R} ${R} 0 0 1 ${CX + R} ${CY}`}
+          fill="none"
+          stroke-width="10"
+          stroke-linecap="round"
+        />
+        <!-- 漸層填充（從綠到紅，依 bullPct 顯示填充長度） -->
+        <path
+          d={`M ${CX - R} ${CY} A ${R} ${R} 0 0 1 ${CX + R} ${CY}`}
+          fill="none"
+          stroke="url(#gaugeGrad)"
+          stroke-width="10"
+          stroke-linecap="round"
+          stroke-dasharray={`${fillLen} ${arcLen}`}
+        />
+        <!-- 指針 -->
+        <line x1={CX} y1={CY} x2={needleX} y2={needleY} stroke="var(--c-text)" stroke-width="2.5" stroke-linecap="round" />
+        <circle cx={CX} cy={CY} r="4" fill="var(--c-text)" />
+      </svg>
+    </div>
+    <div class="gauge-readout">
+      <div class={`gauge-mood ${moodClass}`}>{moodWord}</div>
+      <div class="gauge-pct">看漲占比 {bullPct}%</div>
+    </div>
+  </div>
 </div>
 
 <!-- Quick Digest -->
@@ -82,22 +191,6 @@ function rsiNote(rsi: number | null | undefined) {
     </ul>
   </div>
 )}
-
-<!-- Thermometer -->
-<div class="card">
-  <div class="card-body">
-    <h2 class="section-title">市場溫度計</h2>
-    <div class="thermometer-row">
-      <span class="thermometer-label bull">看漲 {bullCount}</span>
-      <div class="thermometer-bar" style="flex:1;">
-        <div class="thermometer-bull" style={`width:${bullPct}%`}></div>
-        <div class="thermometer-bear" style={`width:${bearPct}%`}></div>
-      </div>
-      <span class="thermometer-label bear">看空 {bearCount}</span>
-    </div>
-    {marketMood && <p class="market-mood">「{marketMood}」</p>}
-  </div>
-</div>
 
 <!-- Bullish Signals -->
 {bullish.length > 0 && (

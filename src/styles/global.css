@@ -135,30 +135,136 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ── Theme toggle ── */
-.theme-toggle {
-  position: fixed;
-  top: 0.9rem;
-  right: 0.9rem;
-  z-index: 50;
-  width: 2.4rem;
-  height: 2.4rem;
+/* ── App shell（桌機側欄 / 手機頂 bar） ── */
+.app-shell {
+  display: grid;
+  grid-template-columns: 232px 1fr;
+  min-height: 100vh;
+}
+
+/* 側欄 */
+.app-sidebar {
+  background: var(--c-surface);
+  border-right: 1px solid var(--c-border);
+  display: flex;
+  flex-direction: column;
+  padding: var(--sp-5) var(--sp-4);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.sb-brand {
   display: flex;
   align-items: center;
-  justify-content: center;
-  border: 1px solid var(--c-border);
-  border-radius: 50%;
-  background: var(--c-surface);
-  color: var(--c-text-secondary);
-  box-shadow: var(--shadow-1);
+  gap: 0.65em;
+  padding: 0.3em 0.5em var(--sp-5);
+}
+
+.sb-logo {
+  width: 30px;
+  height: 30px;
+  flex: none;
+  border-radius: var(--radius-sm);
+  background: var(--c-bearish);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.sb-brand b {
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+}
+
+.sb-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+.sb-nav a {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  padding: 0.6em 0.7em;
+  border-radius: var(--radius-sm);
+  color: var(--c-text-muted);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.sb-nav a svg {
+  width: 17px;
+  height: 17px;
+  flex: none;
+}
+
+.sb-nav a:hover {
+  color: var(--c-text);
+  background: var(--c-surface-2);
+  text-decoration: none;
+}
+
+.sb-nav a.active {
+  background: var(--c-surface-2);
+  color: var(--c-text);
+  font-weight: 600;
+}
+
+.sb-foot {
+  margin-top: auto;
+  padding-top: var(--sp-4);
+  border-top: 1px solid var(--c-border);
+}
+
+/* ── Theme toggle ── */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  width: 100%;
+  padding: 0.6em 0.7em;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--c-text-muted);
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
   cursor: pointer;
-  transition: color 0.15s, border-color 0.15s;
+  transition: background-color 0.15s, color 0.15s;
 }
 
 .theme-toggle:hover {
-  color: var(--c-catalyst);
-  border-color: var(--c-catalyst);
+  background: var(--c-surface-2);
+  color: var(--c-text);
 }
+
+.theme-toggle svg {
+  width: 17px;
+  height: 17px;
+  flex: none;
+}
+
+/* 手機頂 bar 上的圖示型 toggle（無文字、方框） */
+.theme-toggle--icon {
+  width: 2.3rem;
+  height: 2.3rem;
+  flex: none;
+  justify-content: center;
+  gap: 0;
+  padding: 0;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  background: var(--c-surface);
+}
+
+.theme-toggle--icon .theme-toggle-label { display: none; }
 
 /* 亮色模式顯示月亮（點了切深色）；暗色模式顯示太陽（點了切淺色）*/
 .theme-toggle .icon-sun { display: none; }
@@ -166,22 +272,100 @@ a:hover {
 :root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
 :root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 
-/* ── Layout ── */
-.site-wrapper {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 1.5em 1em;
+/* 手機頂 bar（桌機隱藏） */
+.app-topbar { display: none; }
+.app-scrim { display: none; }
+
+/* ── 主內容區 ── */
+.app-main {
+  min-width: 0;
 }
 
-/* 寬版：grid / 流程圖型頁面（leaderboard、archive、workflow）利用桌機橫向空間 */
+.site-wrapper {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.75em 1.25em;
+}
+
+/* 寬版：grid / 流程圖型頁面（leaderboard、archive、workflow）利用橫向空間 */
 .site-wrapper--wide {
-  max-width: 1180px;
+  max-width: 1100px;
 }
 
 @media (min-width: 768px) {
-  .site-wrapper--wide {
-    padding: 2em 2em;
+  .site-wrapper { padding: 2em 2em; }
+  .site-wrapper--wide { padding: 2em 2.25em; }
+}
+
+/* ── 手機：側欄收起、改 sticky 頂 bar ── */
+@media (max-width: 767px) {
+  .app-shell {
+    display: block;
   }
+
+  .app-topbar {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    position: sticky;
+    top: 0;
+    z-index: 60;
+    height: 54px;
+    padding: 0 0.85em;
+    background: var(--c-surface);
+    border-bottom: 1px solid var(--c-border);
+  }
+
+  .topbar-menu {
+    width: 2.3rem;
+    height: 2.3rem;
+    flex: none;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--c-border);
+    border-radius: var(--radius-sm);
+    background: var(--c-surface);
+    color: var(--c-text-secondary);
+    cursor: pointer;
+  }
+  .topbar-menu:hover { color: var(--c-text); }
+
+  .topbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+  .topbar-brand .sb-logo { width: 26px; height: 26px; font-size: 0.85rem; }
+
+  .app-topbar .theme-toggle--icon { margin-left: auto; }
+
+  /* 側欄改成從左側滑出的抽屜 */
+  .app-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 256px;
+    height: 100vh;
+    z-index: 80;
+    transform: translateX(-100%);
+    transition: transform 0.2s ease-out;
+    box-shadow: var(--shadow-3);
+  }
+  .app-sidebar.is-open {
+    transform: translateX(0);
+  }
+
+  .app-scrim {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 70;
+    background: rgba(10, 14, 22, 0.45);
+  }
+  .app-scrim[hidden] { display: none; }
 }
 
 /* ── Header ──
@@ -792,17 +976,28 @@ a:hover {
 .search-result-tag.bearish { background: var(--c-bearish-bg); color: var(--c-bearish); }
 .search-result-tag.monitor { background: var(--c-monitor-bg); color: var(--c-monitor); }
 
-/* ── Nav ── */
-.nav {
+/* ── Breadcrumb（詳情頁路徑導引；主 nav 已移至 app shell 側欄 / 頂 bar） ── */
+.breadcrumb {
   display: flex;
-  gap: var(--sp-4);
-  margin-bottom: var(--sp-5);
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: var(--sp-4);
+  font-size: var(--fs-sm);
   flex-wrap: wrap;
+  color: var(--c-text-muted);
 }
 
-.nav a {
-  font-size: var(--fs-sm);
+.breadcrumb a {
   font-weight: 600;
+  color: var(--c-text-secondary);
+}
+
+.breadcrumb a:hover {
+  color: var(--c-catalyst);
+}
+
+.breadcrumb-sep {
+  color: var(--c-text-muted);
 }
 
 /* ── Divergence ──
@@ -1434,4 +1629,152 @@ a:hover {
   .workflow-service-table td:first-child {
     white-space: normal;
   }
+}
+
+/* ── 報告頁 dashboard：Hero 定調標題 ── */
+.report-hero {
+  background: linear-gradient(165deg, var(--c-catalyst-tint), var(--c-surface) 70%);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
+  padding: var(--sp-6) var(--sp-5);
+  margin-bottom: var(--sp-5);
+}
+
+.report-hero-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  flex-wrap: wrap;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.04em;
+  color: var(--c-text-muted);
+  margin-bottom: 0.7em;
+}
+
+.report-hero-eyebrow .dot {
+  display: inline-block;
+  width: 0.45em;
+  height: 0.45em;
+  border-radius: 50%;
+  background: var(--c-catalyst);
+}
+
+.report-hero h1 {
+  font-size: clamp(1.5rem, 1.1rem + 1.8vw, 2.1rem);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: var(--c-text);
+}
+
+.report-hero-sub {
+  margin-top: 0.7em;
+  font-size: var(--fs-sm);
+  color: var(--c-text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── KPI tiles ── */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-5);
+}
+
+.kpi {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-2);
+  padding: var(--sp-4);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+  min-width: 0;
+}
+
+.kpi-label {
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  letter-spacing: 0.01em;
+}
+
+.kpi-value {
+  font-size: 1.65rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--c-text);
+}
+
+.kpi-value.is-text { font-size: 1.25rem; }
+.kpi-value.bull { color: var(--c-bearish); }   /* 看漲 = 紅 */
+.kpi-value.bear { color: var(--c-bullish); }   /* 看空 = 綠 */
+
+.kpi-value .kpi-split-sep {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--c-text-muted);
+  margin: 0 0.15em;
+}
+
+.kpi-sub {
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  margin-top: auto;
+}
+
+/* 市場溫度 KPI：含半圓 gauge */
+.kpi-gauge {
+  align-items: center;
+  text-align: center;
+  gap: 0.2em;
+}
+
+.gauge {
+  position: relative;
+  width: 100%;
+  max-width: 132px;
+  margin: 0.1em auto 0;
+}
+
+.gauge svg { display: block; width: 100%; height: auto; }
+
+.gauge-arc-track { stroke: var(--c-border); }
+
+.gauge-readout {
+  margin-top: -0.2em;
+  line-height: 1.1;
+}
+
+.gauge-mood {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.gauge-mood.bull { color: var(--c-bearish); }
+.gauge-mood.bear { color: var(--c-bullish); }
+.gauge-mood.flat { color: var(--c-text-secondary); }
+
+.gauge-pct {
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 1080px) {
+  .kpi-grid { grid-template-columns: repeat(3, 1fr); }
+  .kpi-gauge { grid-column: span 3; }
+  .gauge { max-width: 150px; }
+}
+
+@media (max-width: 640px) {
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); gap: var(--sp-2); }
+  .kpi { padding: var(--sp-3); }
+  .kpi-value { font-size: 1.4rem; }
+  .kpi-gauge { grid-column: span 2; }
+  .report-hero { padding: var(--sp-5) var(--sp-4); }
 }

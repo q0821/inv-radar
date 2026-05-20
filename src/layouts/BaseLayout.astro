@@ -8,6 +8,41 @@ interface Props {
 const { title, description = '投資訊號日報 - AI 自動分析產生的每日投資報告', width = 'narrow' } = Astro.props;
 
 import '../styles/global.css';
+
+const base = import.meta.env.BASE_URL;
+
+// 當前路徑（去掉結尾斜線以便比對）
+const rawPath = Astro.url.pathname;
+const path = rawPath !== '/' && rawPath.endsWith('/') ? rawPath.slice(0, -1) : rawPath;
+const norm = (p: string) => (p !== '/' && p.endsWith('/') ? p.slice(0, -1) : p);
+
+const navItems = [
+  {
+    href: base,
+    label: '最新報告',
+    // 報告詳情頁（/reports/...）也歸在「最新報告」群組
+    match: (p: string) => p === norm(base) || p.startsWith(norm(base) + 'reports'),
+    icon: '<path d="M3 13h8V3H3zM13 21h8V3h-8zM3 21h8v-6H3z"/>',
+  },
+  {
+    href: `${base}archive/`,
+    label: '歷史報告',
+    match: (p: string) => p.startsWith(norm(`${base}archive`)),
+    icon: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  },
+  {
+    href: `${base}trends/`,
+    label: '趨勢觀察',
+    match: (p: string) => p.startsWith(norm(`${base}trends`)),
+    icon: '<path d="M3 17l6-6 4 4 7-7"/><path d="M14 8h6v6"/>',
+  },
+  {
+    href: `${base}workflow/`,
+    label: 'workflow 流程圖',
+    match: (p: string) => p.startsWith(norm(`${base}workflow`)),
+    icon: '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><path d="M10 6.5h4M6.5 10v4M17.5 14v-4"/>',
+  },
+];
 ---
 <!DOCTYPE html>
 <html lang="zh-TW">
@@ -107,16 +142,61 @@ import '../styles/global.css';
 
   <!-- Main Content (hidden until authenticated) -->
   <div class="site-content" id="site-content" data-locked>
-    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="切換亮色 / 暗色">
-      <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-      <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
-    </button>
-    <div class={`site-wrapper${width === 'wide' ? ' site-wrapper--wide' : ''}`}>
-      <slot />
-      <footer class="site-footer">
-        <p>本站內容由 AI 自動轉錄與分析產生，可能存在錯誤或遺漏。所有資訊僅供參考，不構成任何投資建議。請自行研究 (DYOR)，投資風險自負。</p>
-        <p>由 Podcast 投資訊號監控系統自動產生</p>
-      </footer>
+    <div class="app-shell">
+      <!-- 桌機側欄 / 手機展開選單共用的品牌 + nav -->
+      <aside class="app-sidebar" id="app-sidebar">
+        <div class="sb-brand">
+          <span class="sb-logo">訊</span>
+          <b>投資訊號日報</b>
+        </div>
+        <nav class="sb-nav" aria-label="主選單">
+          {navItems.map((item) => {
+            const active = item.match(path);
+            return (
+              <a href={item.href} class={active ? 'active' : ''} aria-current={active ? 'page' : undefined}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={item.icon}></svg>
+                <span>{item.label}</span>
+              </a>
+            );
+          })}
+        </nav>
+        <div class="sb-foot">
+          <button type="button" class="theme-toggle" id="theme-toggle" aria-label="切換亮色 / 暗色">
+            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
+            <span class="theme-toggle-label">切換主題</span>
+          </button>
+        </div>
+      </aside>
+
+      <!-- 手機 sticky 頂部 bar -->
+      <header class="app-topbar">
+        <button type="button" class="topbar-menu" id="topbar-menu" aria-label="開啟選單" aria-expanded="false" aria-controls="app-sidebar">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"></path></svg>
+        </button>
+        <div class="topbar-brand">
+          <span class="sb-logo">訊</span>
+          <b>投資訊號日報</b>
+        </div>
+        <button type="button" class="theme-toggle theme-toggle--icon" id="theme-toggle-mobile" aria-label="切換亮色 / 暗色">
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
+        </button>
+      </header>
+
+      <!-- 手機選單展開時的遮罩 -->
+      <div class="app-scrim" id="app-scrim" hidden></div>
+
+      <!-- 主內容區 -->
+      <main class="app-main">
+        <div class={`site-wrapper${width === 'wide' ? ' site-wrapper--wide' : ''}`}>
+          <slot />
+          <footer class="site-footer">
+            <p>本站內容由 AI 自動轉錄與分析產生，可能存在錯誤或遺漏。所有資訊僅供參考，不構成任何投資建議。請自行研究 (DYOR)，投資風險自負。</p>
+            <p>由 Podcast 投資訊號監控系統自動產生</p>
+          </footer>
+        </div>
+      </main>
     </div>
   </div>
 
@@ -127,13 +207,13 @@ import '../styles/global.css';
     const AUTH_KEY = 'report_auth';
     const gate = document.getElementById('auth-gate');
     const content = document.getElementById('site-content');
-    const input = document.getElementById('auth-input');
+    const input = document.getElementById('auth-input') as HTMLInputElement | null;
     const btn = document.getElementById('auth-btn');
     const error = document.getElementById('auth-error');
 
     function unlock() {
-      gate.style.display = 'none';
-      content.removeAttribute('data-locked');
+      if (gate) gate.style.display = 'none';
+      if (content) content.removeAttribute('data-locked');
     }
 
     // Check if already authenticated
@@ -141,32 +221,53 @@ import '../styles/global.css';
       unlock();
     }
 
-    btn.addEventListener('click', () => {
-      if (input.value === SITE_PASSWORD) {
-        localStorage.setItem(AUTH_KEY, SITE_PASSWORD);
-        unlock();
-      } else {
-        error.textContent = '密碼錯誤，請重試';
-        input.value = '';
-        input.focus();
-      }
-    });
+    if (btn && input && error) {
+      btn.addEventListener('click', () => {
+        if (input.value === SITE_PASSWORD) {
+          localStorage.setItem(AUTH_KEY, SITE_PASSWORD);
+          unlock();
+        } else {
+          error.textContent = '密碼錯誤，請重試';
+          input.value = '';
+          input.focus();
+        }
+      });
 
-    input.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') btn.click();
-    });
-
-    // 亮 / 暗主題切換
-    const themeToggle = document.getElementById('theme-toggle');
-    if (themeToggle) {
-      themeToggle.addEventListener('click', () => {
-        const cur = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
-        const next = cur === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', next);
-        try { localStorage.setItem('theme', next); } catch (e) {}
-        window.dispatchEvent(new CustomEvent('themechange', { detail: next }));
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') (btn as HTMLButtonElement).click();
       });
     }
+
+    // 亮 / 暗主題切換（桌機側欄 + 手機頂 bar 兩顆按鈕共用邏輯）
+    function toggleTheme() {
+      const cur = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      const next = cur === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      window.dispatchEvent(new CustomEvent('themechange', { detail: next }));
+    }
+    document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme);
+    document.getElementById('theme-toggle-mobile')?.addEventListener('click', toggleTheme);
+
+    // 手機漢堡選單展開 / 收起
+    const menuBtn = document.getElementById('topbar-menu');
+    const sidebar = document.getElementById('app-sidebar');
+    const scrim = document.getElementById('app-scrim');
+    function closeMenu() {
+      sidebar?.classList.remove('is-open');
+      scrim?.setAttribute('hidden', '');
+      menuBtn?.setAttribute('aria-expanded', 'false');
+    }
+    function openMenu() {
+      sidebar?.classList.add('is-open');
+      scrim?.removeAttribute('hidden');
+      menuBtn?.setAttribute('aria-expanded', 'true');
+    }
+    menuBtn?.addEventListener('click', () => {
+      if (sidebar?.classList.contains('is-open')) closeMenu();
+      else openMenu();
+    });
+    scrim?.addEventListener('click', closeMenu);
   </script>
 </body>
 </html>
