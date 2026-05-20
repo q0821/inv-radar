@@ -72,8 +72,7 @@
   --radius-xs: 6px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+:root[data-theme="dark"] {
     --c-bg: #0d1117;
     --c-surface: #161b22;
     --c-surface-2: #1c222b;
@@ -113,7 +112,6 @@
     --c-badge-med-text: #d29922;
     --c-badge-low-bg: #21262d;
     --c-badge-low-text: #7d8590;
-  }
 }
 
 html {
@@ -136,6 +134,37 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* ── Theme toggle ── */
+.theme-toggle {
+  position: fixed;
+  top: 0.9rem;
+  right: 0.9rem;
+  z-index: 50;
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--c-border);
+  border-radius: 50%;
+  background: var(--c-surface);
+  color: var(--c-text-secondary);
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.theme-toggle:hover {
+  color: var(--c-catalyst);
+  border-color: var(--c-catalyst);
+}
+
+/* 亮色模式顯示月亮（點了切深色）；暗色模式顯示太陽（點了切淺色）*/
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle .icon-moon { display: block; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 
 /* ── Layout ── */
 .site-wrapper {
@@ -305,11 +334,9 @@ a:hover {
 .badge-horizon-medium { background: #eaf2f8; color: #2980b9; }
 .badge-horizon-long { background: #f4ecf7; color: #8e44ad; }
 
-@media (prefers-color-scheme: dark) {
-  .badge-horizon-short { background: #3d2e00; color: #d29922; }
-  .badge-horizon-medium { background: #0d2744; color: #58a6ff; }
-  .badge-horizon-long { background: #2a1a3e; color: #bc8cff; }
-}
+:root[data-theme="dark"] .badge-horizon-short { background: #3d2e00; color: #d29922; }
+:root[data-theme="dark"] .badge-horizon-medium { background: #0d2744; color: #58a6ff; }
+:root[data-theme="dark"] .badge-horizon-long { background: #2a1a3e; color: #bc8cff; }
 
 /* ── Source detail row ──
    扁平化：純文字，不再是帶框白底盒子。KOL 名粗體，多個來源靠間距分隔。 */
