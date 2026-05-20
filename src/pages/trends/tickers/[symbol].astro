@@ -552,6 +552,9 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
 
       function getTheme() {
         try {
+          // 優先用站上手動切換的 data-theme，否則跟隨系統
+          var dt = document.documentElement.getAttribute('data-theme');
+          if (dt === 'dark' || dt === 'light') return dt;
           return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
             ? 'dark'
             : 'light';
@@ -632,15 +635,16 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
         loadWidget();
       }
 
-      // 監聽 prefers-color-scheme 變動，重新載入 widget
+      // 主題變動（手動切換 themechange 事件 或 系統 prefers-color-scheme）→ 重載 widget
       try {
-        const mq = window.matchMedia('(prefers-color-scheme: dark)');
         const onChange = function () {
           if (!loaded) return;
           loaded = false;
           setPlaceholder('圖表重新載入中…');
           loadWidget();
         };
+        window.addEventListener('themechange', onChange);
+        const mq = window.matchMedia('(prefers-color-scheme: dark)');
         if (mq.addEventListener) {
           mq.addEventListener('change', onChange);
         } else if (mq.addListener) {

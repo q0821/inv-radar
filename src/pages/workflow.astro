@@ -342,7 +342,23 @@ const services = [
       }
 
       function isDark() {
+        // 優先用站上手動切換的 data-theme，否則跟隨系統
+        var dt = document.documentElement.getAttribute('data-theme');
+        if (dt === 'dark' || dt === 'light') return dt === 'dark';
         return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      }
+
+      // 保存每個 .mermaid 的原始 source（純文字），供主題切換時重新渲染
+      const sources = [];
+      document.querySelectorAll('.mermaid').forEach(el => sources.push({ el: el, src: el.textContent }));
+
+      function mermaidInit(mermaid) {
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: isDark() ? 'dark' : 'default',
+          flowchart: { htmlLabels: true, curve: 'basis' },
+          securityLevel: 'loose',
+        });
       }
 
       async function renderAll() {
@@ -350,17 +366,24 @@ const services = [
         mermaidLoaded = true;
         try {
           const mermaid = await loadMermaid();
-          mermaid.initialize({
-            startOnLoad: false,
-            theme: isDark() ? 'dark' : 'default',
-            flowchart: { htmlLabels: true, curve: 'basis' },
-            securityLevel: 'loose',
-          });
+          mermaidInit(mermaid);
           await mermaid.run({ querySelector: '.mermaid' });
         } catch (e) {
           console.error('mermaid load failed', e);
         }
       }
+
+      // 主題切換 → 還原原始 source（textContent）後用新主題重繪
+      window.addEventListener('themechange', async function () {
+        if (!mermaidLoaded || !window.mermaid) return;
+        try {
+          sources.forEach(s => { s.el.textContent = s.src; s.el.removeAttribute('data-processed'); });
+          mermaidInit(window.mermaid);
+          await window.mermaid.run({ querySelector: '.mermaid' });
+        } catch (e) {
+          console.error('mermaid re-render failed', e);
+        }
+      });
 
       if ('IntersectionObserver' in window) {
         const io = new IntersectionObserver((entries) => {
