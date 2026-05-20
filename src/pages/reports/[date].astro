@@ -25,7 +25,7 @@ interface Props {
 const { date } = Astro.params;
 const { report } = Astro.props;
 ---
-<BaseLayout title={`投資訊號日報 - ${date}`}>
+<BaseLayout title={`投資訊號日報 - ${date}`} width="wide">
   <nav class="breadcrumb" aria-label="麵包屑">
     <a href={`${base}archive/`}>歷史報告</a>
     <span class="breadcrumb-sep">/</span>

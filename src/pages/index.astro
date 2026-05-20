@@ -15,7 +15,7 @@ const reports = Object.entries(reportFiles)
 
 const latestReport = reports[0] || null;
 ---
-<BaseLayout title={latestReport ? `投資訊號日報 - ${latestReport.date}` : '投資訊號日報'}>
+<BaseLayout title={latestReport ? `投資訊號日報 - ${latestReport.date}` : '投資訊號日報'} width="wide">
   {latestReport ? (
     <ReportContent report={latestReport} />
   ) : (

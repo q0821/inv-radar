@@ -292,6 +292,17 @@ a:hover {
   max-width: 1100px;
 }
 
+/* 報告 dashboard 面板區：桌機 2 欄 masonry（變高度卡片自然分欄），手機單欄 */
+@media (min-width: 880px) {
+  .report-panels {
+    columns: 2;
+    column-gap: var(--sp-5);
+  }
+  .report-panels > .card {
+    break-inside: avoid;
+  }
+}
+
 @media (min-width: 768px) {
   .site-wrapper { padding: 2em 2em; }
   .site-wrapper--wide { padding: 2em 2.25em; }
