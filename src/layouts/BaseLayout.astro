@@ -52,6 +52,12 @@ const navItems = [
   <meta name="robots" content="noindex, nofollow" />
   <meta name="description" content={description} />
   <title>{title}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap"
+  />
   <script is:inline>
     // 在 paint 前決定主題（避免 FOUC）：localStorage 優先，否則跟隨系統
     (function () {

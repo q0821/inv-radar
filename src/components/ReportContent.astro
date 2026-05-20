@@ -1,9 +1,24 @@
 ---
+import Sparkline from './Sparkline.astro';
+
+const base = import.meta.env.BASE_URL;
+
 interface Props {
   report: any;
+  topTickers?: Array<{ symbol: string; name: string; mentions30d: number; score30d: number }>;
+  topTechnical?: {
+    symbol: string;
+    name: string;
+    timeline?: Array<{ date: string; weight: number }>;
+    currentPrice?: number | null;
+    currency?: string | null;
+    priceVsMa20Pct?: number | null;
+    rsi14?: number | null;
+    volumeRatio?: number | null;
+  } | null;
 }
 
-const { report } = Astro.props;
+const { report, topTickers = [], topTechnical = null } = Astro.props;
 
 const date = report.date || '';
 const totalSources = report.totalSources || 0;
@@ -108,6 +123,27 @@ function rsiNote(rsi: number | null | undefined) {
   if (rsi <= 30) return ' 超賣';
   return '';
 }
+
+// 千分位價格（無小數點以上整數）
+function fmtPriceComma(p: number | null | undefined) {
+  if (p == null || Number.isNaN(p)) return '—';
+  const fixed = p >= 100 ? p.toFixed(0) : p.toFixed(2);
+  const parts = fixed.split('.');
+  parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  return parts.join('.');
+}
+
+// 情緒分數帶 +/- 號
+function fmtScore(s: number | null | undefined) {
+  if (s == null || Number.isNaN(s)) return '0';
+  return s > 0 ? `+${s}` : `${s}`;
+}
+
+// 台股漲紅跌綠：正=紅(bearish var)、負=綠(bullish var)
+function scoreColorClass(v: number | null | undefined) {
+  if (v == null || Number.isNaN(v) || v === 0) return 'neutral';
+  return v > 0 ? 'up' : 'down';
+}
 ---
 
 <!-- Hero 定調標題 -->
@@ -189,6 +225,79 @@ function rsiNote(rsi: number | null | undefined) {
     <ul>
       {quickDigest.map((point: string) => <li>{point}</li>)}
     </ul>
+  </div>
+)}
+
+<!-- 借用面板：熱門提及排行 top5 + 第 1 名技術面（僅最新報告頁有；歷史頁不傳 props） -->
+{(topTickers.length > 0 || topTechnical) && (
+  <div class="report-top-grid">
+    {topTickers.length > 0 && (
+      <div class="card">
+        <div class="card-body">
+          <h2 class="section-title">熱門提及排行</h2>
+          <p class="top-rank-note">近 30 天 KOL 提及熱度（依情緒分排序）</p>
+          <ol class="top-rank-list">
+            {topTickers.map((t, i) => (
+              <li class="top-rank-item">
+                <a href={`${base}trends/tickers/${t.symbol}/`} class="top-rank-link">
+                  <span class="top-rank-no">{i + 1}</span>
+                  <span class="top-rank-id">
+                    <span class="top-rank-code">{t.symbol}</span>
+                    {t.name && <span class="top-rank-name">{t.name}</span>}
+                  </span>
+                  <span class="top-rank-stats">
+                    <span class="top-rank-mentions">提及 {t.mentions30d}</span>
+                    <span class={`top-rank-score ${scoreColorClass(t.score30d)}`}>{fmtScore(t.score30d)}</span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+    )}
+    {topTechnical && (
+      <div class="card">
+        <div class="card-body">
+          <h2 class="section-title">
+            技術面 · <span class="top-tech-code">{topTechnical.symbol}</span>
+            {topTechnical.name && <span class="top-tech-name">{topTechnical.name}</span>}
+          </h2>
+          <div class="top-tech-metrics">
+            <div class="top-tech-metric">
+              <span class="top-tech-metric-label">現價</span>
+              <span class="top-tech-metric-value">
+                {currencyPrefix(topTechnical.currency)} {fmtPriceComma(topTechnical.currentPrice)}
+              </span>
+            </div>
+            <div class="top-tech-metric">
+              <span class="top-tech-metric-label">vs 月線</span>
+              <span class={`top-tech-metric-value ${trendClass(topTechnical.priceVsMa20Pct)}`}>
+                {fmtPct(topTechnical.priceVsMa20Pct) || '—'}
+              </span>
+            </div>
+            <div class="top-tech-metric">
+              <span class="top-tech-metric-label">RSI</span>
+              <span class={`top-tech-metric-value ${rsiClass(topTechnical.rsi14)}`}>
+                {topTechnical.rsi14 != null ? topTechnical.rsi14 : '—'}
+              </span>
+            </div>
+            <div class="top-tech-metric">
+              <span class="top-tech-metric-label">量能</span>
+              <span class="top-tech-metric-value">
+                {topTechnical.volumeRatio != null ? `${topTechnical.volumeRatio}×` : '—'}
+              </span>
+            </div>
+          </div>
+          {topTechnical.timeline && topTechnical.timeline.length >= 2 && (
+            <div class="top-tech-spark">
+              <div class="top-tech-spark-label">KOL 情緒走勢（近 30 次提及）</div>
+              <Sparkline timeline={topTechnical.timeline} width={460} height={56} maxPoints={30} />
+            </div>
+          )}
+        </div>
+      </div>
+    )}
   </div>
 )}
 

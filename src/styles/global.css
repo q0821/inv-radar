@@ -122,7 +122,7 @@ html {
 body {
   background: var(--c-bg);
   color: var(--c-text);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   min-height: 100vh;
 }
 
@@ -303,6 +303,150 @@ a:hover {
   }
 }
 
+/* ── 借用面板：熱門提及排行 + #1 技術面（2 欄 grid，手機單欄） ── */
+.report-top-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-4);
+  margin-bottom: var(--sp-5);
+}
+@media (min-width: 880px) {
+  .report-top-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* 熱門提及排行 */
+.top-rank-note {
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  margin-bottom: var(--sp-3);
+}
+.top-rank-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.top-rank-item {
+  border-top: 1px solid var(--c-border);
+}
+.top-rank-item:first-child {
+  border-top: none;
+}
+.top-rank-link {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3) 0;
+  color: inherit;
+  text-decoration: none;
+}
+.top-rank-link:hover {
+  color: inherit;
+}
+.top-rank-link:hover .top-rank-code {
+  text-decoration: underline;
+}
+.top-rank-no {
+  flex: 0 0 auto;
+  width: 1.6em;
+  height: 1.6em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--c-surface-2);
+  border: 1px solid var(--c-border);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--c-text-secondary);
+}
+.top-rank-id {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+.top-rank-code {
+  font-weight: 700;
+  font-size: var(--fs-md);
+  letter-spacing: -0.01em;
+}
+.top-rank-name {
+  font-size: var(--fs-sm);
+  color: var(--c-text-muted);
+}
+.top-rank-stats {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-3);
+  font-variant-numeric: tabular-nums;
+}
+.top-rank-mentions {
+  font-size: var(--fs-sm);
+  color: var(--c-text-secondary);
+}
+.top-rank-score {
+  font-size: var(--fs-md);
+  font-weight: 700;
+}
+/* 台股漲紅跌綠 */
+.top-rank-score.up { color: var(--c-bearish); }
+.top-rank-score.down { color: var(--c-bullish); }
+.top-rank-score.neutral { color: var(--c-text-muted); }
+
+/* #1 技術面卡 */
+.top-tech-code {
+  font-weight: 700;
+}
+.top-tech-name {
+  margin-left: 0.4em;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--c-text-muted);
+}
+.top-tech-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--sp-3);
+}
+.top-tech-metric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+.top-tech-metric-label {
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+}
+.top-tech-metric-value {
+  font-size: var(--fs-md);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+}
+.top-tech-metric-value.up { color: var(--c-bearish); }
+.top-tech-metric-value.down { color: var(--c-bullish); }
+.top-tech-metric-value.neutral { color: var(--c-text); }
+.top-tech-metric-value.rsi-hot { color: var(--c-bearish); }
+.top-tech-metric-value.rsi-cold { color: var(--c-bullish); }
+.top-tech-spark {
+  margin-top: var(--sp-4);
+}
+.top-tech-spark-label {
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  margin-bottom: 0.3em;
+}
+.top-tech-spark .sparkline {
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 768px) {
   .site-wrapper { padding: 2em 2em; }
   .site-wrapper--wide { padding: 2em 2.25em; }
@@ -439,12 +583,14 @@ a:hover {
   border-bottom: 1px solid var(--c-border);
 }
 
-.section-title.bullish { color: var(--c-bearish); }
-.section-title.bearish { color: var(--c-bullish); }
-.section-title.monitor { color: var(--c-monitor); }
-.section-title.insight { color: var(--c-insight); }
-.section-title.catalyst { color: var(--c-catalyst); }
-.section-title.risk { color: var(--c-bearish); }
+/* 去花花綠綠：section-title 不再用語意色，統一中性黑（保留下方 hairline）。
+   語意紅綠只留在 ticker 代碼 + 前導圓點、KPI 大數字、gauge。 */
+.section-title.bullish,
+.section-title.bearish,
+.section-title.monitor,
+.section-title.insight,
+.section-title.catalyst,
+.section-title.risk { color: var(--c-text); }
 
 /* ── Signal Card ──
    去除側邊色條：改用全框線 + 極淡語意 tint 背景，語意色由「粗體彩色 ticker + 前導圓點」帶出。
@@ -461,9 +607,10 @@ a:hover {
 
 .signal-card:last-child { margin-bottom: 0; }
 
-.signal-card.bullish { background: var(--c-bearish-tint); border-color: var(--c-bearish-bg); }
-.signal-card.bearish { background: var(--c-bullish-tint); border-color: var(--c-bullish-bg); }
-.signal-card.monitor { background: var(--c-monitor-tint); border-color: var(--c-monitor-bg); }
+/* 去花花綠綠：卡片底色一律中性，語意紅綠改由 .signal-ticker 圓點 + 代碼帶出 */
+.signal-card.bullish,
+.signal-card.bearish,
+.signal-card.monitor { background: var(--c-surface-2); border-color: var(--c-border); }
 
 /* ticker header 與下方內容拉開一點間距，建立層級 */
 .signal-card-head {
@@ -698,9 +845,10 @@ a:hover {
 }
 
 /* ── Risk / Catalyst / Insight blocks ── */
+/* 去花花綠綠：改中性 surface，語意紅只留在 li::marker 圓點 */
 .risk-block {
-  border: 1px solid var(--c-bearish-bg);
-  background: var(--c-bearish-tint);
+  border: 1px solid var(--c-border);
+  background: var(--c-surface-2);
   padding: var(--sp-4) var(--sp-4) var(--sp-4) var(--sp-5);
   border-radius: var(--radius-sm);
 }
@@ -759,12 +907,12 @@ a:hover {
   gap: var(--sp-3);
 }
 
-/* insight-item：每則觀點唯一的盒子（淡 insight tint），語意由 headline 前圓點帶出。 */
+/* 去花花綠綠：改中性 surface，語意色只留在 headline 前圓點。 */
 .insight-item {
-  background: var(--c-insight-tint);
+  background: var(--c-surface-2);
   padding: var(--sp-4);
   border-radius: var(--radius-sm);
-  border: 1px solid var(--c-insight-bg);
+  border: 1px solid var(--c-border);
   font-size: var(--fs-sm);
   line-height: 1.6;
 }
@@ -803,7 +951,7 @@ a:hover {
 .insight-reasoning {
   margin-top: var(--sp-3);
   padding-top: var(--sp-3);
-  border-top: 1px solid var(--c-insight-bg);
+  border-top: 1px solid var(--c-border);
   font-size: var(--fs-sm);
   line-height: 1.65;
   color: var(--c-text-secondary);
@@ -1270,9 +1418,10 @@ a:hover {
   border: 1px solid var(--c-border);
 }
 
-.trend-timeline-row.bullish { background: var(--c-bearish-tint); border-color: var(--c-bearish-bg); }
-.trend-timeline-row.bearish { background: var(--c-bullish-tint); border-color: var(--c-bullish-bg); }
-.trend-timeline-row.monitor { background: var(--c-monitor-tint); border-color: var(--c-monitor-bg); }
+/* 去花花綠綠：時間軸列底色一律中性，語意紅綠改由日期前導圓點帶出 */
+.trend-timeline-row.bullish,
+.trend-timeline-row.bearish,
+.trend-timeline-row.monitor { background: var(--c-surface-2); border-color: var(--c-border); }
 
 .trend-timeline-meta {
   display: flex;
@@ -1307,6 +1456,8 @@ a:hover {
   font-size: 0.88em;
   color: var(--c-text-secondary);
   line-height: 1.5;
+  /* 寬版下避免長文一行過寬：限制單一文字區塊約 75 字寬 */
+  max-width: 75ch;
 }
 
 /* ── TradingView widget ── */
@@ -1675,8 +1826,9 @@ a:hover {
 }
 
 .report-hero h1 {
+  font-family: 'Noto Serif TC', serif;
   font-size: clamp(1.5rem, 1.1rem + 1.8vw, 2.1rem);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.015em;
   color: var(--c-text);

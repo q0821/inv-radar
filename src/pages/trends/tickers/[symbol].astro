@@ -255,7 +255,7 @@ function toYahooFinanceUrl(sym: string): string | null {
 const tvSymbol = toTradingViewSymbol(symbol || '');
 const yahooUrl = toYahooFinanceUrl(symbol || '');
 ---
-<BaseLayout title={`${symbol} 趨勢 - 投資訊號日報`}>
+<BaseLayout title={`${symbol} 趨勢 - 投資訊號日報`} width="wide">
   <nav class="breadcrumb" aria-label="麵包屑">
     <a href={`${base}trends/`}>趨勢觀察</a>
     <span class="breadcrumb-sep">/</span>

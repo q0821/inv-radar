@@ -1,6 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ReportContent from '../components/ReportContent.astro';
+import tickersData from '../../data/trends/tickers.json';
+import technicalsData from '../../data/trends/technicals.json';
+import { getChineseName } from '../lib/ticker-names';
 
 const base = import.meta.env.BASE_URL;
 
@@ -14,10 +17,44 @@ const reports = Object.entries(reportFiles)
   .sort((a, b) => b.date.localeCompare(a.date));
 
 const latestReport = reports[0] || null;
+
+// ── 借用面板資料：熱門提及排行 top5 + 第 1 名技術面 ──
+// 排序與 leaderboard 一致：30 天 sentimentScore 絕對值；同分再比 mentions
+const allTickers = ((tickersData as any)?.tickers || []) as any[];
+const top5 = allTickers
+  .filter((t) => (t.mentions?.['30d'] || 0) > 0)
+  .slice()
+  .sort((a, b) => {
+    const sa = Math.abs(a.sentimentScore?.['30d'] || 0);
+    const sb = Math.abs(b.sentimentScore?.['30d'] || 0);
+    if (sb !== sa) return sb - sa;
+    return (b.mentions?.['30d'] || 0) - (a.mentions?.['30d'] || 0);
+  })
+  .slice(0, 5);
+
+const topTickers = top5.map((t) => ({
+  symbol: t.symbol,
+  name: getChineseName(t.symbol),
+  mentions30d: t.mentions?.['30d'] || 0,
+  score30d: t.sentimentScore?.['30d'] || 0,
+}));
+
+const topSymbol = top5[0]?.symbol || '';
+const topTimeline = top5[0]?.timeline || [];
+const technicalsAll = (technicalsData as any)?.tickers || {};
+const topTechRaw = topSymbol ? technicalsAll[topSymbol] || null : null;
+const topTechnical = topTechRaw
+  ? {
+      symbol: topSymbol,
+      name: getChineseName(topSymbol),
+      timeline: topTimeline,
+      ...topTechRaw,
+    }
+  : null;
 ---
 <BaseLayout title={latestReport ? `投資訊號日報 - ${latestReport.date}` : '投資訊號日報'} width="wide">
   {latestReport ? (
-    <ReportContent report={latestReport} />
+    <ReportContent report={latestReport} topTickers={topTickers} topTechnical={topTechnical} />
   ) : (
     <div class="no-data">
       <p>目前尚無報告資料</p>
