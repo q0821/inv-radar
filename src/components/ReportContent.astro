@@ -129,7 +129,7 @@ function rsiNote(rsi: number | null | undefined) {
               )}
               {sig.technicals.priceVsMa20Pct != null && (
                 <span class={`signal-technicals-item ${trendClass(sig.technicals.priceVsMa20Pct)}`}>
-                  vs 20MA {fmtPct(sig.technicals.priceVsMa20Pct)}
+                  vs 月線 {fmtPct(sig.technicals.priceVsMa20Pct)}
                 </span>
               )}
               {sig.technicals.rsi14 != null && (
@@ -186,7 +186,7 @@ function rsiNote(rsi: number | null | undefined) {
               )}
               {sig.technicals.priceVsMa20Pct != null && (
                 <span class={`signal-technicals-item ${trendClass(sig.technicals.priceVsMa20Pct)}`}>
-                  vs 20MA {fmtPct(sig.technicals.priceVsMa20Pct)}
+                  vs 月線 {fmtPct(sig.technicals.priceVsMa20Pct)}
                 </span>
               )}
               {sig.technicals.rsi14 != null && (

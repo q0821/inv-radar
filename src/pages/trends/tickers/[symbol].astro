@@ -113,9 +113,9 @@ function slopeExplain(p: number | null | undefined) {
 }
 
 function crossExplain(type: string | null | undefined) {
-  if (type === 'golden') return '短均線從下方穿過長均線，常見短線轉強訊號';
-  if (type === 'death') return '短均線從上方跌破長均線，常見短線轉弱訊號';
-  return '近期均線交叉未明顯改變，趨勢延續或盤整中';
+  if (type === 'golden') return '週線（5 日）由下往上穿過月線（20 日），常見短線轉強訊號';
+  if (type === 'death') return '週線（5 日）由上往下跌破月線（20 日），常見短線轉弱訊號';
+  return '近期週線與月線未出現交叉，趨勢延續或盤整中';
 }
 
 function rsiExplain(r: number | null | undefined) {
@@ -347,15 +347,15 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
           <div class="tech-section">
             <div class="tech-section-title">均線結構</div>
             <div class="tech-row">
-              <span class="tech-row-label">vs 20MA</span>
+              <span class="tech-row-label">月線</span>
               <span class={`tech-row-value ${pctClass(tech.priceVsMa20Pct)}`}>{fmtPct(tech.priceVsMa20Pct)}</span>
-              <span class="tech-row-hint">{vsMaLabel(tech.priceVsMa20Pct)}中線</span>
+              <span class="tech-row-hint">{vsMaLabel(tech.priceVsMa20Pct)}月線（20 日均）</span>
             </div>
             <div class="tech-row-explain">{vsMaExplain(tech.priceVsMa20Pct, '中')}</div>
             <div class="tech-row">
-              <span class="tech-row-label">vs 60MA</span>
+              <span class="tech-row-label">季線</span>
               <span class={`tech-row-value ${pctClass(tech.priceVsMa60Pct)}`}>{fmtPct(tech.priceVsMa60Pct)}</span>
-              <span class="tech-row-hint">{vsMaLabel(tech.priceVsMa60Pct)}長線</span>
+              <span class="tech-row-hint">{vsMaLabel(tech.priceVsMa60Pct)}季線（60 日均）</span>
             </div>
             <div class="tech-row-explain">{vsMaExplain(tech.priceVsMa60Pct, '長')}</div>
             {(() => {
@@ -363,7 +363,7 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
               return (
                 <>
                   <div class="tech-row">
-                    <span class="tech-row-label">MA20 斜率</span>
+                    <span class="tech-row-label">月線斜率</span>
                     <span class={`tech-row-value ${pctClass(tech.ma20Slope5dPct)}`}>{s.symbol} {s.text}</span>
                     <span class="tech-row-hint">近 5 日 {fmtPct(tech.ma20Slope5dPct)}</span>
                   </div>
@@ -378,7 +378,7 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
             {tech.cross5_20 && tech.cross5_20.type === 'golden' && tech.cross5_20.daysAgo != null ? (
               <>
                 <div class="tech-row">
-                  <span class="tech-row-label">5/20 均線</span>
+                  <span class="tech-row-label">週線×月線</span>
                   <span class="tech-row-value tech-cross-golden">⚡ {tech.cross5_20.daysAgo} 天前形成金叉</span>
                 </div>
                 <div class="tech-row-explain">{crossExplain('golden')}</div>
@@ -386,7 +386,7 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
             ) : tech.cross5_20 && tech.cross5_20.type === 'death' && tech.cross5_20.daysAgo != null ? (
               <>
                 <div class="tech-row">
-                  <span class="tech-row-label">5/20 均線</span>
+                  <span class="tech-row-label">週線×月線</span>
                   <span class="tech-row-value tech-cross-death">⚡ {tech.cross5_20.daysAgo} 天前形成死叉</span>
                 </div>
                 <div class="tech-row-explain">{crossExplain('death')}</div>
@@ -394,7 +394,7 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
             ) : (
               <>
                 <div class="tech-row">
-                  <span class="tech-row-label">5/20 均線</span>
+                  <span class="tech-row-label">週線×月線</span>
                   <span class="tech-row-value tech-value-neutral">近期無金叉 / 死叉</span>
                 </div>
                 <div class="tech-row-explain">{crossExplain('none')}</div>
@@ -487,7 +487,7 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
           ))}
           <div class="spark-legend">
             線＝<strong>選定窗口內</strong>歷次 KOL 提及的加權情緒分（看漲 +、看空 −）累加。
-            採<strong>日曆日</strong>（含週末，與技術面 MA 的「交易日」不同）。
+            採<strong>日曆日</strong>（含週末，與下方月線 / 季線用的「交易日」不同）。
             <span class="spark-legend-up">上升</span>＝看漲情緒累積、
             <span class="spark-legend-down">下降</span>＝看空累積。
             切短窗口（近 7 天）看最近熱度、長窗口（近 90 天）看整季趨勢；斜率比絕對高度重要。
