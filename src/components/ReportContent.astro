@@ -456,7 +456,7 @@ function scoreColorClass(v: number | null | undefined) {
 
 <!-- Monitor Signals -->
 {monitor.length > 0 && (
-  <div class="card">
+  <div class="card report-panel-full">
     <div class="card-body">
       <h2 class="section-title monitor">值得關注 ({monitor.length})</h2>
       {monitor.map((sig: any) => (
@@ -477,7 +477,7 @@ function scoreColorClass(v: number | null | undefined) {
 
 <!-- Key Insights -->
 {insights.length > 0 && (
-  <div class="card">
+  <div class="card report-panel-full">
     <div class="card-body">
       <h2 class="section-title insight">KOL 獨特觀點</h2>
       <div class="insight-list">
@@ -515,9 +515,10 @@ function scoreColorClass(v: number | null | undefined) {
 
 <!-- Episode Summaries -->
 {episodes.length > 0 && (
-  <div class="card">
+  <div class="card report-panel-full">
     <div class="card-body">
       <h2 class="section-title">節目重點摘要</h2>
+      <div class="episode-list">
       {episodes.map((ep: any) => {
         const icon = ep.source === 'youtube' ? '🎬' : '🎧';
         const linkClass = ep.source === 'youtube' ? 'youtube' : 'podcast';
@@ -547,6 +548,7 @@ function scoreColorClass(v: number | null | undefined) {
           </div>
         );
       })}
+      </div>
     </div>
   </div>
 )}

@@ -292,13 +292,30 @@ a:hover {
   max-width: 1100px;
 }
 
-/* 報告 dashboard 面板區：桌機 2 欄 masonry（變高度卡片自然分欄），手機單欄 */
+/* 報告 dashboard 面板區：配對列式。
+   桌機 2 欄 grid（看漲｜看空、風險｜催化劑 各成一列），整欄區塊用 .report-panel-full 跨兩欄；
+   手機單欄。card margin-bottom 在 grid 內不需要（用 gap），故歸零。 */
 @media (min-width: 880px) {
   .report-panels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sp-5);
+    align-items: start;
+  }
+  .report-panels > .card {
+    margin-bottom: 0;
+  }
+  .report-panels > .report-panel-full {
+    grid-column: 1 / -1;
+  }
+  /* 整欄長文區塊（KOL 觀點 / 節目摘要）內部項目改 2 欄，避免寬版下文字一行過長 */
+  .report-panel-full .insight-list,
+  .report-panel-full .episode-list {
     columns: 2;
     column-gap: var(--sp-5);
   }
-  .report-panels > .card {
+  .report-panel-full .insight-item,
+  .report-panel-full .episode-card {
     break-inside: avoid;
   }
 }
