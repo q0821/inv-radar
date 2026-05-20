@@ -463,7 +463,7 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
 
       {timeline.length >= 2 && (
         <div class="trend-detail-spark">
-          <div style="font-size:0.85em;color:var(--c-text-muted);margin-bottom:0.2em;">情緒分數累積走勢（日曆日窗口）</div>
+          <div style="font-size:0.85em;color:var(--c-text-muted);margin-bottom:0.2em;">KOL 情緒走勢</div>
           <div class="spark-subtitle">線往上＝KOL 越來越看漲，往下＝越來越看空，走平＝近期沒被討論</div>
           <div class="trend-window-tabs spark-tabs" role="tablist">
             {sparkWindows.map(w => (
