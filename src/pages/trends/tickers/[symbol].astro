@@ -171,6 +171,27 @@ const timeline = (ticker.timeline || []) as Array<any>;
 // 倒序時間軸供顯示（最新在上）
 const timelineDesc = timeline.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
+// 情緒 sparkline 的窗口切換（日曆日，與 leaderboard 一致；與技術面 MA 交易日不同）
+type SparkWin = '7d' | '30d' | '90d';
+const sparkWindows: SparkWin[] = ['7d', '30d', '90d'];
+const sparkLabels: Record<SparkWin, string> = {
+  '7d': '近 7 天',
+  '30d': '近 30 天',
+  '90d': '近 90 天',
+};
+function filterTimelineByWindow(win: SparkWin) {
+  if (!anchorDate) return timeline;
+  const dayMs = 24 * 60 * 60 * 1000;
+  const days = win === '7d' ? 7 : win === '30d' ? 30 : 90;
+  const cutoff = new Date(`${anchorDate}T00:00:00+08:00`).getTime() - days * dayMs;
+  return timeline.filter((x: any) => new Date(`${x.date}T00:00:00+08:00`).getTime() >= cutoff);
+}
+const sparkByWindow: Record<SparkWin, any[]> = {
+  '7d': filterTimelineByWindow('7d'),
+  '30d': filterTimelineByWindow('30d'),
+  '90d': filterTimelineByWindow('90d'),
+};
+
 function signalLabel(t: string) {
   if (t === 'bullish') return '看漲';
   if (t === 'bearish') return '看空';
@@ -442,8 +463,34 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
 
       {timeline.length >= 2 && (
         <div class="trend-detail-spark">
-          <div style="font-size:0.85em;color:var(--c-text-muted);margin-bottom:0.4em;">情緒分數累積走勢</div>
-          <Sparkline timeline={timeline} width={680} height={80} maxPoints={90} />
+          <div style="font-size:0.85em;color:var(--c-text-muted);margin-bottom:0.4em;">情緒分數累積走勢（日曆日窗口）</div>
+          <div class="trend-window-tabs spark-tabs" role="tablist">
+            {sparkWindows.map(w => (
+              <button
+                type="button"
+                class="trend-window-tab spark-tab"
+                data-spark-window={w}
+                role="tab"
+                aria-selected={w === '30d' ? 'true' : 'false'}
+              >{sparkLabels[w]}</button>
+            ))}
+          </div>
+          {sparkWindows.map(w => (
+            <div class="spark-pane" data-spark-pane={w} style={w === '30d' ? '' : 'display:none;'}>
+              {sparkByWindow[w].length >= 2 ? (
+                <Sparkline timeline={sparkByWindow[w]} width={680} height={80} maxPoints={90} />
+              ) : (
+                <p class="no-data" style="padding:0.6em 0;font-size:0.85em;">{sparkLabels[w]}內提及不足（少於 2 次），無法畫線</p>
+              )}
+            </div>
+          ))}
+          <div class="spark-legend">
+            線＝<strong>選定窗口內</strong>歷次 KOL 提及的加權情緒分（看漲 +、看空 −）累加。
+            採<strong>日曆日</strong>（含週末，與技術面 MA 的「交易日」不同）。
+            <span class="spark-legend-up">上升</span>＝看漲情緒累積、
+            <span class="spark-legend-down">下降</span>＝看空累積。
+            切短窗口（近 7 天）看最近熱度、長窗口（近 90 天）看整季趨勢；斜率比絕對高度重要。
+          </div>
         </div>
       )}
 
@@ -601,6 +648,27 @@ const yahooUrl = toYahooFinanceUrl(symbol || '');
       } catch (_e) {
         // ignore
       }
+    })();
+  </script>
+
+  <script>
+    // 情緒 sparkline 窗口切換
+    (function () {
+      const tabs = document.querySelectorAll('.spark-tab');
+      const panes = document.querySelectorAll('[data-spark-pane]');
+      if (!tabs.length) return;
+      function activate(win) {
+        tabs.forEach(t => t.setAttribute('aria-selected', t.getAttribute('data-spark-window') === win ? 'true' : 'false'));
+        panes.forEach(p => {
+          p.style.display = p.getAttribute('data-spark-pane') === win ? '' : 'none';
+        });
+      }
+      tabs.forEach(t => {
+        t.addEventListener('click', () => {
+          const win = t.getAttribute('data-spark-window');
+          if (win) activate(win);
+        });
+      });
     })();
   </script>
 </BaseLayout>

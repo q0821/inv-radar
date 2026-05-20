@@ -806,6 +806,27 @@ a:hover {
   height: 80px;
 }
 
+.spark-tabs {
+  margin-bottom: 0.6em;
+}
+
+.spark-legend {
+  margin-top: 0.5em;
+  font-size: 0.78em;
+  line-height: 1.6;
+  color: var(--c-text-muted);
+}
+
+.spark-legend-up {
+  color: var(--c-bullish);
+  font-weight: 600;
+}
+
+.spark-legend-down {
+  color: var(--c-bearish);
+  font-weight: 600;
+}
+
 /* ── Trend timeline ── */
 .trend-timeline {
   display: flex;
