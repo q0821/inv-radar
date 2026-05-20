@@ -67,9 +67,13 @@ const windowLabels: Record<WindowKey, string> = {
   <div class="card">
     <div class="card-body">
       <h1 class="section-title">趨勢觀察</h1>
-      <p style="font-size:0.9em;color:var(--c-text-secondary);margin-bottom:0.8em;">
+      <p style="font-size:0.9em;color:var(--c-text-secondary);margin-bottom:0.5em;">
         統計各 ticker 與題材在 KOL 投資訊號中的提及熱度與情緒分數。
         資料截至 {anchorDate}，涵蓋 {tickers.length} 個標的、{sectors.length} 個題材。
+      </p>
+      <p style="font-size:0.8em;color:var(--c-text-muted);margin-bottom:0.8em;line-height:1.6;">
+        卡片小圖＝該窗口內情緒分累積走勢：線往上＝KOL 越來越看漲、往下＝越來越看空、走平＝近期沒被討論。
+        <span style="color:var(--c-bullish);font-weight:600;">綠</span>＝偏多、<span style="color:var(--c-bearish);font-weight:600;">紅</span>＝偏空。點卡片可看完整時間軸與技術面。
       </p>
       <div class="trend-window-tabs" role="tablist">
         {windows.map(w => (
