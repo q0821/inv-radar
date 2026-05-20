@@ -1,5 +1,6 @@
 ---
 import Sparkline from './Sparkline.astro';
+import { resolveTicker } from '../lib/ticker-names';
 
 const base = import.meta.env.BASE_URL;
 
@@ -84,6 +85,12 @@ const needleY = CY - needleLen * Math.sin(needleAngle);
 function confidenceLabel(c: string) {
   const map: Record<string, string> = { high: '高信心', medium: '中信心', low: '低信心' };
   return map[c] || '中信心';
+}
+
+// 標題列右側灰字用：只回信心程度詞（「高 / 中高 / 低」），前綴「信心」由 markup 補上
+function confidenceWord(c: string | undefined | null) {
+  const map: Record<string, string> = { high: '高', medium: '中高', low: '低' };
+  return map[c || ''] || '中高';
 }
 
 function horizonLabel(h: string) {
@@ -307,21 +314,38 @@ function scoreColorClass(v: number | null | undefined) {
 {bullish.length > 0 && (
   <div class="card">
     <div class="card-body">
-      <h2 class="section-title bullish">看漲訊號 ({bullish.length})</h2>
-      {bullish.map((sig: any) => (
-        <div class="signal-card bullish">
+      <h2 class="section-title bullish">看漲訊號 <span class="section-count">{bullish.length} 則</span></h2>
+      {bullish.map((sig: any) => {
+        const t = resolveTicker(sig.ticker);
+        const head = (
+          <span class="signal-id">
+            <span class="signal-code bullish">{t.code || t.display}</span>
+            {t.code && t.name && t.name !== t.code && <span class="signal-name">{t.name}</span>}
+          </span>
+        );
+        return (
+        <div class="signal-row bullish">
           <div class="signal-card-head">
-            <span class="signal-ticker bullish">{sig.ticker}</span>
-            {sig.consensus?.includes('共識') && <span class="badge badge-consensus">{sig.consensus}</span>}
-            {sig.consensus?.includes('分歧') && <span class="badge badge-divergence">{sig.consensus}</span>}
-            <span class={`badge badge-horizon-${sig.timeHorizon || 'medium'}`}>{horizonLabel(sig.timeHorizon)}</span>
+            <div class="signal-head-main">
+              {t.code ? (
+                <a href={`${base}trends/tickers/${encodeURIComponent(t.code)}/`} class="signal-ticker-link">{head}</a>
+              ) : head}
+              <span class="signal-pill bullish">看漲</span>
+              {sig.consensus?.includes('共識') && <span class="signal-meta-tag consensus">{sig.consensus}</span>}
+              {sig.consensus?.includes('分歧') && <span class="signal-meta-tag divergence">{sig.consensus}</span>}
+            </div>
+            <div class="signal-head-meta">
+              <span class="signal-meta-horizon">{horizonLabel(sig.timeHorizon)}</span>
+              <span class="signal-meta-conf">信心 {confidenceWord(sig.overallConfidence || sig.sources?.[0]?.confidence)}</span>
+            </div>
           </div>
           {sig.sources?.map((s: any) => (
             <div class="source-row">
-              <strong>{s.kol}</strong>
-              <span class={`badge badge-confidence-${s.confidence || 'medium'}`}>{confidenceLabel(s.confidence)}</span>
-              ：{s.reason}
-              {s.action && s.action !== '無' && <span class="badge-action bullish">{s.action}</span>}
+              <p class="source-reason">{s.reason}</p>
+              <div class="source-attr">
+                <span class="source-attr-by">{s.kol}</span>
+                {s.action && s.action !== '無' && <span class="badge-action bullish">{s.action}</span>}
+              </div>
             </div>
           ))}
           {sig.technicals && (
@@ -356,7 +380,8 @@ function scoreColorClass(v: number | null | undefined) {
             <div class="price-level">{sig.priceLevel}</div>
           )}
         </div>
-      ))}
+      );
+      })}
     </div>
   </div>
 )}
@@ -365,21 +390,38 @@ function scoreColorClass(v: number | null | undefined) {
 {bearish.length > 0 && (
   <div class="card">
     <div class="card-body">
-      <h2 class="section-title bearish">看空訊號 ({bearish.length})</h2>
-      {bearish.map((sig: any) => (
-        <div class="signal-card bearish">
+      <h2 class="section-title bearish">看空訊號 <span class="section-count">{bearish.length} 則</span></h2>
+      {bearish.map((sig: any) => {
+        const t = resolveTicker(sig.ticker);
+        const head = (
+          <span class="signal-id">
+            <span class="signal-code bearish">{t.code || t.display}</span>
+            {t.code && t.name && t.name !== t.code && <span class="signal-name">{t.name}</span>}
+          </span>
+        );
+        return (
+        <div class="signal-row bearish">
           <div class="signal-card-head">
-            <span class="signal-ticker bearish">{sig.ticker}</span>
-            {sig.consensus?.includes('共識') && <span class="badge badge-consensus">{sig.consensus}</span>}
-            {sig.consensus?.includes('分歧') && <span class="badge badge-divergence">{sig.consensus}</span>}
-            <span class={`badge badge-horizon-${sig.timeHorizon || 'medium'}`}>{horizonLabel(sig.timeHorizon)}</span>
+            <div class="signal-head-main">
+              {t.code ? (
+                <a href={`${base}trends/tickers/${encodeURIComponent(t.code)}/`} class="signal-ticker-link">{head}</a>
+              ) : head}
+              <span class="signal-pill bearish">看空</span>
+              {sig.consensus?.includes('共識') && <span class="signal-meta-tag consensus">{sig.consensus}</span>}
+              {sig.consensus?.includes('分歧') && <span class="signal-meta-tag divergence">{sig.consensus}</span>}
+            </div>
+            <div class="signal-head-meta">
+              <span class="signal-meta-horizon">{horizonLabel(sig.timeHorizon)}</span>
+              <span class="signal-meta-conf">信心 {confidenceWord(sig.overallConfidence || sig.sources?.[0]?.confidence)}</span>
+            </div>
           </div>
           {sig.sources?.map((s: any) => (
             <div class="source-row">
-              <strong>{s.kol}</strong>
-              <span class={`badge badge-confidence-${s.confidence || 'medium'}`}>{confidenceLabel(s.confidence)}</span>
-              ：{s.reason}
-              {s.action && s.action !== '無' && <span class="badge-action bearish">{s.action}</span>}
+              <p class="source-reason">{s.reason}</p>
+              <div class="source-attr">
+                <span class="source-attr-by">{s.kol}</span>
+                {s.action && s.action !== '無' && <span class="badge-action bearish">{s.action}</span>}
+              </div>
             </div>
           ))}
           {sig.technicals && (
@@ -417,7 +459,8 @@ function scoreColorClass(v: number | null | undefined) {
             <div class="price-level">{sig.priceLevel}</div>
           )}
         </div>
-      ))}
+      );
+      })}
     </div>
   </div>
 )}
@@ -460,7 +503,7 @@ function scoreColorClass(v: number | null | undefined) {
     <div class="card-body">
       <h2 class="section-title monitor">值得關注 ({monitor.length})</h2>
       {monitor.map((sig: any) => (
-        <div class="signal-card monitor">
+        <div class="signal-row monitor">
           <div class="signal-card-head">
             <span class="signal-ticker monitor">{sig.topic}</span>
             <span class={`badge badge-horizon-${sig.timeHorizon || 'medium'}`}>{horizonLabel(sig.timeHorizon)}</span>

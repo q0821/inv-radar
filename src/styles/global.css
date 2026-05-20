@@ -613,34 +613,109 @@ a:hover {
    去除側邊色條：改用全框線 + 極淡語意 tint 背景，語意色由「粗體彩色 ticker + 前導圓點」帶出。
    扁平化原則：card 是唯一的盒子，內部用排版層級 + 最多一條 hairline 分隔，
    不再每段（觀點 / 行情 / 價位）各包一個帶框白底盒子。 */
-.signal-card {
-  border: 1px solid var(--c-border);
-  background: var(--c-surface-2);
-  padding: var(--sp-4);
-  margin-bottom: var(--sp-3);
-  border-radius: var(--radius-sm);
-  box-shadow: var(--shadow-1);
+
+/* ── Signal Row（看漲 / 看空）──
+   不再是獨立小卡：移除 border / 背景 / 陰影 / 圓角，
+   改在外層 section card 內用 hairline（border-top）分隔每個訊號。
+   第一個不用上線，訊號之間用 padding 拉開。 */
+.signal-row {
+  padding: var(--sp-4) 0;
+}
+.signal-row:first-child { padding-top: 0; }
+.signal-row:last-child { padding-bottom: 0; }
+.signal-row + .signal-row {
+  border-top: 1px solid var(--c-border);
 }
 
-.signal-card:last-child { margin-bottom: 0; }
-
-/* 去花花綠綠：卡片底色一律中性，語意紅綠改由 .signal-ticker 圓點 + 代碼帶出 */
-.signal-card.bullish,
-.signal-card.bearish,
-.signal-card.monitor { background: var(--c-surface-2); border-color: var(--c-border); }
-
-/* ticker header 與下方內容拉開一點間距，建立層級 */
+/* ── Signal head（標題列）──
+   左側：代碼（上色）+ 空格 + 名稱（深色 600）+ 看漲/看空 pill；
+   右側（同列靠右）：時間維度 + 信心，皆為低調灰字。
+   桌機一列兩端對齊，窄螢幕自動換行。 */
 .signal-card-head {
   margin-bottom: var(--sp-2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.3em 0.6em;
 }
 
+.signal-head-main {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4em;
+  min-width: 0;
+}
+
+/* 代碼 + 名稱：空格分隔，代碼上色、名稱深色稍粗 */
+.signal-id {
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+.signal-code {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.signal-code.bullish { color: var(--c-bearish); }  /* 看漲＝台股紅 */
+.signal-code.bearish { color: var(--c-bullish); }  /* 看空＝台股綠 */
+.signal-code.monitor { color: var(--c-monitor); }
+.signal-name {
+  margin-left: 0.4em;
+  font-weight: 600;
+  color: var(--c-text);
+}
+
+/* 整個代碼+名稱可點 → 個股詳細頁，hover 變色提示 */
+.signal-ticker-link {
+  text-decoration: none;
+  color: inherit;
+}
+.signal-ticker-link:hover .signal-id,
+.signal-ticker-link:focus-visible .signal-id {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+/* 看漲 / 看空 pill：淡色底、語意色字 */
+.signal-pill {
+  align-self: center;
+  padding: 0.1em 0.5em;
+  border-radius: 999px;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  line-height: 1.4;
+}
+.signal-pill.bullish { background: var(--c-bearish-bg); color: var(--c-bearish); }  /* 看漲＝紅 */
+.signal-pill.bearish { background: var(--c-bullish-bg); color: var(--c-bullish); }  /* 看空＝綠 */
+
+/* 共識 / 分歧：低調文字標，不搶眼 */
+.signal-meta-tag {
+  align-self: center;
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+}
+
+/* 右側灰字：時間維度 + 信心，低調不做彩色 badge */
+.signal-head-meta {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.7em;
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  white-space: nowrap;
+}
+.signal-meta-horizon,
+.signal-meta-conf {
+  color: var(--c-text-muted);
+}
+
+/* monitor 區仍沿用舊 .signal-ticker（topic 不上 code/name 結構） */
 .signal-ticker {
-  font-size: var(--fs-md);
+  font-size: 1.05rem;
   font-weight: 700;
   letter-spacing: -0.01em;
 }
-
-/* 前導語意圓點 */
 .signal-ticker::before {
   content: '';
   display: inline-block;
@@ -651,10 +726,15 @@ a:hover {
   vertical-align: middle;
   background: currentColor;
 }
-
-.signal-ticker.bullish { color: var(--c-bearish); }
-.signal-ticker.bearish { color: var(--c-bullish); }
 .signal-ticker.monitor { color: var(--c-monitor); }
+
+/* section 標題右側「N 則」灰字 */
+.section-count {
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  color: var(--c-text-muted);
+  margin-left: 0.4em;
+}
 
 /* ── Badges ── */
 .badge {
@@ -701,22 +781,36 @@ a:hover {
 :root[data-theme="dark"] .badge-horizon-long { background: #2a1a3e; color: #bc8cff; }
 
 /* ── Source detail row ──
-   扁平化：純文字，不再是帶框白底盒子。KOL 名粗體，多個來源靠間距分隔。 */
+   扁平化：純文字，不再是帶框白底盒子。
+   先顯示 reason 描述（輕字重、舒服行距），下方再放 attribution「— KOL · 信心」。 */
 .source-row {
   margin: var(--sp-2) 0;
-  font-size: var(--fs-sm);
-  line-height: 1.6;
-  color: var(--c-text-secondary);
 }
 
-.source-row strong {
+/* 描述內文：減輕字重、放鬆行距，讀起來輕鬆 */
+.source-reason {
+  margin: 0;
+  font-size: var(--fs-sm);
+  font-weight: 400;
+  line-height: 1.7;
   color: var(--c-text);
+}
+
+/* attribution：描述下方的小字 — KOL · 信心，弱化 */
+.source-attr {
+  margin-top: 0.4em;
+  font-size: var(--fs-xs);
+  line-height: 1.5;
+  color: var(--c-text-muted);
+}
+.source-attr-by {
+  color: var(--c-text-muted);
 }
 
 /* 第二個以後的來源用極淡 hairline 區隔，避免擠在一起又不致變成盒子 */
 .source-row + .source-row {
-  margin-top: var(--sp-2);
-  padding-top: var(--sp-2);
+  margin-top: var(--sp-3);
+  padding-top: var(--sp-3);
   border-top: 1px solid var(--c-border);
 }
 
@@ -863,38 +957,49 @@ a:hover {
 
 /* ── Risk / Catalyst / Insight blocks ── */
 /* 去花花綠綠：改中性 surface，語意紅只留在 li::marker 圓點 */
-.risk-block {
-  border: 1px solid var(--c-border);
-  background: var(--c-surface-2);
-  padding: var(--sp-4) var(--sp-4) var(--sp-4) var(--sp-5);
-  border-radius: var(--radius-sm);
+/* 去卡中卡：不再用內層盒子，li 直接貼在 section card 內，用 hairline 分隔 */
+.risk-block ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .risk-block li {
-  margin-bottom: var(--sp-2);
+  position: relative;
+  padding: var(--sp-3) 0 var(--sp-3) 1.3em;
   font-size: var(--fs-sm);
   color: var(--c-text-secondary);
   line-height: 1.6;
 }
 
-.risk-block li::marker { color: var(--c-bearish); }
-
-.risk-block li:last-child { margin-bottom: 0; }
-
-.catalyst-block {
-  background: var(--c-catalyst-tint);
-  border: 1px solid var(--c-catalyst-bg);
-  padding: var(--sp-4);
-  border-radius: var(--radius-sm);
+.risk-block li::before {
+  content: '';
+  position: absolute;
+  left: 0.1em;
+  top: calc(var(--sp-3) + 0.55em);
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 50%;
+  background: var(--c-bearish);
 }
 
+.risk-block li:first-child { padding-top: 0; }
+.risk-block li:first-child::before { top: 0.55em; }
+.risk-block li:last-child { padding-bottom: 0; }
+.risk-block li + li { border-top: 1px solid var(--c-border); }
+
+/* 去卡中卡：催化劑改 hairline 分隔，不再是內層 tint 盒子 */
 .catalyst-item {
-  margin-bottom: 0.6em;
+  padding: var(--sp-3) 0;
   display: flex;
   align-items: flex-start;
   gap: 0.5em;
   flex-wrap: wrap;
 }
+
+.catalyst-item:first-child { padding-top: 0; }
+.catalyst-item:last-child { padding-bottom: 0; }
+.catalyst-item + .catalyst-item { border-top: 1px solid var(--c-border); }
 
 .catalyst-date {
   display: inline-block;
@@ -921,18 +1026,17 @@ a:hover {
 .insight-list {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-3);
 }
 
-/* 去花花綠綠：改中性 surface，語意色只留在 headline 前圓點。 */
+/* 去卡中卡：移除每則觀點的盒子，改 hairline 分隔，語意色只留在 headline 前圓點。 */
 .insight-item {
-  background: var(--c-surface-2);
-  padding: var(--sp-4);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--c-border);
+  padding: var(--sp-4) 0;
   font-size: var(--fs-sm);
   line-height: 1.6;
 }
+
+.insight-item:first-child { padding-top: 0; }
+.insight-item + .insight-item { border-top: 1px solid var(--c-border); }
 
 /* 語意由 headline 前的彩色標記帶出，取代側邊色條 */
 .insight-headline {
@@ -950,7 +1054,7 @@ a:hover {
 }
 
 .insight-item:last-child {
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .insight-tags {
@@ -989,17 +1093,15 @@ a:hover {
   color: var(--c-insight);
 }
 
-/* ── Episode Card ── */
+/* ── Episode（節目摘要）── */
+/* 去卡中卡：移除每集的盒子與陰影，改 hairline 分隔 */
 .episode-card {
-  background: var(--c-surface-2);
-  padding: var(--sp-5);
-  margin-bottom: var(--sp-4);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-sm);
-  box-shadow: var(--shadow-1);
+  padding: var(--sp-5) 0;
 }
 
-.episode-card:last-child { margin-bottom: 0; }
+.episode-card:first-child { padding-top: 0; }
+.episode-card:last-child { padding-bottom: 0; }
+.episode-card + .episode-card { border-top: 1px solid var(--c-border); }
 
 .episode-meta {
   display: flex;
