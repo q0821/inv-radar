@@ -377,6 +377,9 @@ a:hover {
     background: rgba(10, 14, 22, 0.45);
   }
   .app-scrim[hidden] { display: none; }
+
+  /* 抽屜開啟時隱藏頂 bar 重複的主題鈕（抽屜底部已有切換主題）*/
+  body.drawer-open .theme-toggle--icon { display: none; }
 }
 
 /* ── Header ──
@@ -1724,6 +1727,8 @@ a:hover {
 .kpi-value.is-text { font-size: 1.25rem; }
 .kpi-value.bull { color: var(--c-bearish); }   /* 看漲 = 紅 */
 .kpi-value.bear { color: var(--c-bullish); }   /* 看空 = 綠 */
+.kpi-value.warn { color: var(--c-monitor); }   /* 有突發/預警 = 橘警示 */
+.kpi-value.muted { color: var(--c-text-muted); } /* 0 件 = 中性灰 */
 
 .kpi-value .kpi-split-sep {
   font-size: 1rem;

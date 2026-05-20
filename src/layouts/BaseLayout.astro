@@ -257,17 +257,25 @@ const navItems = [
       sidebar?.classList.remove('is-open');
       scrim?.setAttribute('hidden', '');
       menuBtn?.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('drawer-open');
     }
     function openMenu() {
       sidebar?.classList.add('is-open');
       scrim?.removeAttribute('hidden');
       menuBtn?.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('drawer-open');
     }
     menuBtn?.addEventListener('click', () => {
       if (sidebar?.classList.contains('is-open')) closeMenu();
       else openMenu();
     });
     scrim?.addEventListener('click', closeMenu);
+    // 點側欄 nav 連結後關閉抽屜（同頁導航也順手收起）
+    sidebar?.querySelectorAll('.sb-nav a').forEach((a) => a.addEventListener('click', closeMenu));
+    // Escape 關閉
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && sidebar?.classList.contains('is-open')) closeMenu();
+    });
   </script>
 </body>
 </html>

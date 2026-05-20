@@ -139,8 +139,8 @@ function rsiNote(rsi: number | null | undefined) {
   </div>
   <div class="kpi">
     <div class="kpi-label">突發共識 / 預警</div>
-    <div class="kpi-value">{anomalyCount > 0 ? anomalyCount : '0'}</div>
-    <div class="kpi-sub">{anomalyCount > 0 ? '異常訊號' : '累積中'}</div>
+    <div class={`kpi-value${anomalyCount > 0 ? ' warn' : ' muted'}`}>{anomalyCount}</div>
+    <div class="kpi-sub">{anomalyCount > 0 ? '件異常訊號' : '今日無突發'}</div>
   </div>
   <div class="kpi kpi-gauge">
     <div class="kpi-label">市場溫度</div>
