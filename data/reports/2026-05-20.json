@@ -1,0 +1,647 @@
+{
+  "date": "2026-05-20",
+  "quickDigest": [
+    "被動元件漲價循環進入初升段：國巨（2327）RSI達84、20日漲61%，高階MLCC缺貨擴散至電感、電阻，兩位KOL高信心共識",
+    "聯發科（2454）矽中介層營收翻倍展望驅動外資目標價上看5000元，但近5日回落7.6%，量縮觀察追價意願",
+    "資金輪動路徑清晰：AI主線從晶片→成熟製程（聯電目標138元）→被動元件，次族群日電貿、信昌電、臺慶科接力",
+    "明日輝達財報為最大催化劑，AI資本支出方向是整體供應鏈多空分水嶺",
+    "台股月線下方震盪，外資目標價需搭配成交金額驗證，金流才是真正指標"
+  ],
+  "marketMood": "被動元件接棒領漲，資金健康輪動中但高位追價需謹慎",
+  "totalSources": 2,
+  "bullishSignals": [
+    {
+      "ticker": "被動元件族群",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "被動元件漲價循環正在延續，不是單一事件而是逐步擴散的產業性上升趨勢。Panasonic 漲價訊號、高階料號斷供、現貨市場掃貨，顯示供需快速吃緊。",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "被動元件全面進入漲價與補庫存階段，國巨、日電貿等營收已創新高，市場正在複製過去記憶體族群的漲價邏輯，目前仍處在初升段。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "MLCC",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "高階 MLCC 是被動元件中最明顯的強勢細項，特定料號需求逼近缺貨，廠商提前掃貨、通路斷供，目前只有少數廠商擴產，供給面短期仍偏緊。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "被動元件漲價循環核心受惠者，供需持續吃緊。",
+          "action": "無",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "近期成交金額與股價表現顯示市場正在追逐此題材，若後續切入人工智慧供應鏈，評價仍有上修空間；外資目標價最高給到六百五十元，相對保守。催化劑為法說會、論壇與後續人工智慧應用宣布。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "目標價六百五十元",
+      "technicals": {
+        "currentPrice": 520,
+        "ma20": 381.7,
+        "ma60": null,
+        "priceVsMa20Pct": 36.2,
+        "priceVsMa60Pct": null,
+        "rsi14": 84,
+        "changePct5d": 23.8,
+        "changePct20d": 61,
+        "volumeRatio": 1.61,
+        "currency": "TWD",
+        "asOf": "2026-05-20T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "聯發科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "法說會釋出矽中介層相關業務有機會翻倍，帶動市場重新評價成長性。基本面與題材面同步轉強，市場已開始提前反映後年的獲利想像，外資連續上修目標價。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "目標價五千元",
+      "technicals": {
+        "currentPrice": 3230,
+        "ma20": 3060.5,
+        "ma60": null,
+        "priceVsMa20Pct": 5.5,
+        "priceVsMa60Pct": null,
+        "rsi14": 60,
+        "changePct5d": -7.6,
+        "changePct20d": 54.5,
+        "volumeRatio": 0.61,
+        "currency": "TWD",
+        "asOf": "2026-05-20T05:30:14.000Z"
+      }
+    },
+    {
+      "ticker": "電感",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "連電感都開始出現漲價，顯示被動元件不是單點復甦，而是整個元件鏈條一起變強。漲價現象正在蔓延，通常從單一料號延伸到相近品項。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "電阻",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "電容、電感、電阻都在漲價，市場採購開始改變行為，反映供需緊俏不是短線雜音，漲價潮已擴散到更廣泛的被動元件。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "愛普",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "曾被市場低估，後來因相關應用重新站上舞台而又被重視。當 AI 或相關載板應用曝光度提升時，原本被冷落的公司可能重新受益。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 973,
+        "ma20": 926.1,
+        "ma60": null,
+        "priceVsMa20Pct": 5.1,
+        "priceVsMa60Pct": null,
+        "rsi14": 59,
+        "changePct5d": -6.4,
+        "changePct20d": 35.1,
+        "volumeRatio": 1.08,
+        "currency": "TWD",
+        "asOf": "2026-05-20T05:30:03.000Z"
+      }
+    },
+    {
+      "ticker": "聯電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "成熟製程族群正被外資重新聚焦，聯電相對世界先進更受看好。成熟製程最壞情況可能已過，若漲價趨勢延續有機會受惠；美國相關成熟製程需求與供應鏈重組提供想像空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "目標價一三八元",
+      "technicals": {
+        "currentPrice": 108,
+        "ma20": 90.88,
+        "ma60": null,
+        "priceVsMa20Pct": 18.8,
+        "priceVsMa60Pct": null,
+        "rsi14": 69,
+        "changePct5d": 9.8,
+        "changePct20d": 41.7,
+        "volumeRatio": 0.89,
+        "currency": "TWD",
+        "asOf": "2026-05-20T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "輝達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "市場對輝達的短期悲觀可能過頭，路線圖仍照既定節奏前進。毛利率低谷可能只是一兩季的短期現象，後續產品量產與毛利率回升為催化劑。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台積電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "擴產方式相對克制，維持有紀律的節奏，不容易讓泡沫一下子吹太大，可降低產業劇烈失衡風險。中長期催化劑仍是先進製程與高階 AI 需求。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 2185,
+        "ma20": 2218,
+        "ma60": null,
+        "priceVsMa20Pct": -1.5,
+        "priceVsMa60Pct": null,
+        "rsi14": 52,
+        "changePct5d": -1.6,
+        "changePct20d": 6.6,
+        "volumeRatio": 0.88,
+        "currency": "TWD",
+        "asOf": "2026-05-20T05:30:09.000Z"
+      }
+    },
+    {
+      "ticker": "日電貿",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群中的強勢標的，營收已創歷史新高，股價在法說前後出現連續上攻。基本面與籌碼面同步轉強，短線催化劑來自法說會後資金延續追價。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "信昌電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與電源、人工智慧及上游材料鏈條連動的標的，營收已創新高。市場會先買進有實際營收驗證的公司，若後續電源管理與 AI 需求持續放大，股價仍有延伸空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "臺慶科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與台達電合作密切、營收已創歷史新高，是被動元件族群裡相對容易被資金認可的標的。AI 電力鏈與電源應用題材延伸，讓市場願意給更高關注度。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "博通",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "客製晶片路線仍有延伸空間，後續可能出現更大的雙晶片拼接版本，產品演進並未中斷。催化劑是新一代產品設計與載板方案逐步曝光，但市場目前對老 AI 偏好較低。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "華新科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群資金不只集中在國巨，也開始往次族群擴散。被動元件進入補漲與漲價階段，若成交金額維持高檔，華新科有機會跟著族群輪動。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "合晶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "矽晶圓有漲價想像，合晶為潛在受惠者之一。產業面出現報價上調預期，市場資金開始往還沒漲滿的族群找標的。若上游需求持續回升，有機會跟著反映。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "環球晶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電處分世界先進後環球晶未被看淡，前一陣子也已大漲，市場主要在交易矽晶圓漲價與供需改善。當漲價題材往後端擴散時，材料股仍可能有表現。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "高估值老 AI 族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "資金已開始輪動，市場對這些標的的偏好下降。部分老 AI 標的進入技術性休息與籌碼鬆動階段。若 AI 資本支出若暫停，題材會更明顯受壓；但若後續產品重新成為市場焦點，這些標的又可能迅速翻身。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "光通族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "市場當下並沒有出現真正的新刺激，近期表現偏弱。台積電技術論壇雖提到光通相關內容，但市場反應仍直直落，利多可能已部分反映。主持人仍不否認中長期成長性。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "世界先進",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電處分世界先進持股後，市場對其評價與籌碼穩定性產生疑慮。台積電持股降至二成以下後母公司光環減弱，市場難免重新調整本益比。若要介入也應分批而非一次重壓。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "被動元件產業",
+      "reason": "被動元件正在進入上升循環，不是一次性脈衝而是會持續蔓延的產業趨勢。現貨市場掃貨、通路缺貨、報價上調、客戶收不到料，供需失衡正在成形。中期重點是持續追蹤擴產是否出現，一旦大家同步擴產，循環可能提早結束。",
+      "mentionedBy": [
+        "謝孟恭",
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "市場輪動",
+      "reason": "目前不是全面崩盤，而是資金正在健康輪動，強勢股休息、弱勢股補跌的結構很明顯。4 月那種萬物齊漲的環境已經結束，現在進入題材分化與資金輪替的階段。短中期催化劑是新的強勢族群能否接棒；若連強勢族群都失去動能，才需要提高警覺。",
+      "mentionedBy": [
+        "謝孟恭",
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "AI 資本支出",
+      "reason": "AI 投資是否降溫是整個市場的核心分水嶺，只要 AI 資本支出沒有明顯壓軟，很多題材都還有支撐。輝達、載板、客製晶片與半導體供應鏈的延伸邏輯鏈仍在。催化劑是大型雲端與晶片廠的下一輪資本支出與產品發布；風險是 AI 投資若突然放緩，相關族群會一起受傷。",
+      "mentionedBy": [
+        "謝孟恭",
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "台股",
+      "reason": "台股目前仍在月線下方，短線守住四萬點整數關卡，但盤勢偏震盪，市場信心尚未完全恢復。應觀察金流與成交金額是否持續支持漲勢。外資有提出台股上看五萬點的說法，但真正重要的是市場資金是否真的願意追價。台股能否延續仍要看通膨、殖利率與美股科技股壓力是否緩解。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "被動元件正在形成可持續的漲價循環，目前仍處在初升段，類似過去記憶體族群的邏輯。",
+      "reasoning": "謝孟恭從 Panasonic 漲價訊號、通路缺貨、高階料號斷供到現貨市場掃貨，拼出供需持續吃緊的畫面，認為這不是亂炒而是採購在實際補貨、廠商在主動守價格。李兆華則指出從成交金額排行與報告數量看，被動元件已成市場新資金聚焦點，國巨、日電貿等營收已創新高，基本面開始配合，若漲價趨勢持續，主線還有機會延伸。",
+      "sector": "被動元件",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台股這波核心主軸仍是 AI 硬體供應鏈，但資金已從最上游往中下游擴散，從晶片到成熟製程再到被動元件都在接棒。",
+      "reasoning": "李兆華觀察到資金輪動有明顯擴散跡象，從最初的組裝、記憶體，到現在的成熟製程、被動元件與電源管理晶片。謝孟恭也認為 AI 資本支出是核心變數，只要大型客戶持續投入，很多看似老舊的零組件或設計方案都可能重新被市場重估。只要每一棒都有新族群接手，市場就不容易出現全面崩跌。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場目前比較像健康輪動，而不是全面崩盤。",
+      "reasoning": "謝孟恭觀察到 4 月那種普漲已經結束，現在是強勢股休息、弱勢股承壓、資金轉向新故事的階段。只要市場裡還有強勢族群，就不應直接判定為熊市，反而應把它視為多頭中的正常換手。真正要擔心的是連強勢題材都失去動能。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "外資報告對台股的影響力已不如以往，真正決定行情的是內資與金流，觀察成交金額排行比盯報告更有效。",
+      "reasoning": "李兆華指出近年內資與本土資金規模大幅提升，外資報告雖仍能提供方向，但若股價沒有跟著反應代表市場並不買單。他會用不同市場的成交金額排行來比對，若同一題材在多個市場都居前列，代表它不是單點炒作而是全球資金共同認同的方向。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "外資目標價本質上更像藝術而非精密科學，重點在於背後想推什麼標的，有無資金配合才是關鍵。",
+      "reasoning": "李兆華多次強調外資給出的指數區間與個股目標價常帶有行銷與溝通目的，並不等於可直接照單全收的數學結果。真正關鍵是報告是否在為後續的買進評級與客戶溝通鋪路，若市場資金願意接力，目標價才有意義。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "老 AI 題材未必結束，只是市場暫時不喜歡；供應鏈路線仍在推進，未來有機會重新被看見。",
+      "reasoning": "謝孟恭反覆強調不要把資金輪動誤解成題材終結。他從供應鏈看到產品路線仍在推進、部分晶片只是換代或延後而非消失，代表故事還在只是市場注意力先轉走。等未來產品重新站上舞台，現在被冷落的標的可能再度回到核心。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "成熟製程最壞情況可能已過，後續關鍵在漲價與需求回補是否兌現。",
+      "reasoning": "李兆華認為聯電等成熟製程公司近期受到關注，並不是因為現在財報已經很好，而是市場開始交易未來報價回升與需求改善。外資報告與資金流向顯示市場願意提前為可能的復甦買單。若後續營收與毛利率能逐步印證，整個族群評價還有上修空間。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "光通族群長期仍有成長性，但短線容易被利多出盡干擾，需忍受劇烈震盪。",
+      "reasoning": "謝孟恭認為台積電論壇提到光通，短線未必能直接帶動股價，因為市場可能早已反映一部分預期。他更重視的是產業長線成長空間而不是單一論壇或新聞的即時反應。題材有價值，但要忍受過程中的劇烈震盪。",
+      "sector": "光通訊",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "股價研究不能只看報牌，重點是看產業與實際供需；投資也必須事先設計分批、停損與資金配置計畫。",
+      "reasoning": "謝孟恭強調更重視業內人士的說法、報價變化、庫存與採購行為，這些才是能真正驗證產業趨勢的資料。李兆華則用旅遊比喻說明，很多投資人只在看到折價時衝動買進，卻沒有先想好如果續跌怎麼辦，真正重點是事先設計分批、停損與資金配置，讓自己能承受波動。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "若被動元件產業後續出現大規模擴產，這波漲價循環可能提早結束。",
+    "若 AI 資本支出突然放緩，老 AI、供應鏈與相關題材都可能一起承壓。",
+    "高估值題材在市場輪動時容易出現快速修正，短線追價風險升高。",
+    "台股仍在月線下方，若金流無法延續，短線震盪後可能再度修正。",
+    "外資目標價與報告若沒有成交金額配合，題材容易快速失溫。",
+    "國巨與被動元件族群雖然強勢，但若評價先行反映過多，短線可能出現獲利了結。",
+    "成熟製程與矽晶圓多數仍屬預期交易，若後續營收未兌現，股價容易回檔。",
+    "投資人若只因折價或暴跌就進場，沒有分批與退場規劃，容易被續跌套牢。",
+    "網路詐騙與假冒帳號會主動私訊邀請加通訊軟體，需特別提高警覺。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "2026-05-20",
+      "event": "Google 開發者大會與人工智慧新品進展釋出",
+      "tickers": [
+        "GOOGL"
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "event": "台股持續觀察四萬點與月線得失",
+      "tickers": [
+        "台股"
+      ]
+    },
+    {
+      "date": "2026-05-21",
+      "event": "輝達財報公布",
+      "tickers": [
+        "NVDA"
+      ]
+    },
+    {
+      "date": "未定",
+      "event": "聯發科矽中介層營收翻倍預期持續被市場消化",
+      "tickers": [
+        "2454.TW"
+      ]
+    },
+    {
+      "date": "未定",
+      "event": "被動元件族群法說會與漲價效應延續",
+      "tickers": [
+        "2327.TW",
+        "2492.TW",
+        "2498.TW",
+        "2420.TW"
+      ]
+    },
+    {
+      "date": "未明確提及",
+      "event": "被動元件報價持續上調與缺貨擴散",
+      "tickers": [
+        "被動元件族群",
+        "MLCC",
+        "電感",
+        "電阻"
+      ]
+    },
+    {
+      "date": "未明確提及",
+      "event": "光通相關新產品或新應用訊息",
+      "tickers": [
+        "光通族群"
+      ]
+    },
+    {
+      "date": "未明確提及",
+      "event": "AI 供應鏈後續產品與資本支出節點",
+      "tickers": [
+        "輝達",
+        "博通",
+        "台積電",
+        "愛普"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "謝孟恭",
+      "episode": "EP663 | 🦘",
+      "episodeLink": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/a3324cb1-b7be-4483-a739-d3ebfc534277",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "被動元件漲價循環悄然成形，市場健康輪動中、AI 供應鏈故事尚未終結。",
+      "detailedSummary": "本集前半段分享主持人個人健康與重訓心得，後半段轉入市場觀察。主持人認為被動元件正在進入明確的漲價循環，高階 MLCC、電感、電阻都出現供需吃緊跡象，採購行為已然改變，這是可延續的產業趨勢而非單一脈衝。對於整體市場，他判斷目前屬於健康輪動而非全面崩盤，資金從強勢族群轉向新故事是正常換手。老 AI 題材雖暫不受青睞，但供應鏈路線仍在推進，未來有機會重新站上舞台。主持人特別強調研究股票要看產業供需與業內訊號，不要迷信社群報牌。",
+      "highlights": [
+        "被動元件族群出現明顯漲價與缺貨訊號，Panasonic 率先調價後蔓延至多個料號，主持人判斷這是可延續的產業循環。",
+        "高階 MLCC 需求逼近缺貨狀態，廠商提前至現貨市場掃貨，通路端也出現斷供，目前擴產者仍少、供給面短期偏緊。",
+        "電感、電阻也相繼出現漲價，顯示被動元件不是單點復甦，而是整個元件鏈條一起走強。",
+        "市場不是全面崩盤，而是進入健康輪動階段——4 月萬物齊漲的環境已結束，現在是題材分化與資金輪替。",
+        "老 AI 題材暫時不受市場青睞，但主持人從供應鏈觀察到產品路線仍在推進，只是市場注意力先轉走，未來有機會重新被看見。",
+        "光通族群短線偏弱，台積電論壇提及光通但市場反應直直落，利多可能已部分反映；主持人仍不否認其長期成長性。",
+        "AI 資本支出是整個市場的核心分水嶺，輝達、載板、客製晶片與供應鏈串成的邏輯鏈只要不斷，市場就不容易全面轉弱。",
+        "主持人強調研究股票要看業內訊號、報價變化與採購行為，不要太迷信社群報牌或看誰準不準。"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1101｜外資看台股5萬、聯發科5000元，為何只給國巨最高650元？外資報告解密，從金流看台股熱門族群，不擔心！ft.外資捕手 不魯",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/1b41176d-818e-4a06-b0cf-62d9cc537451",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "外資報告解密：目標價是藝術不是科學，真正選股要跟著金流走、看成交量排行。",
+      "detailedSummary": "本集核心聚焦在外資報告解讀、台股金流分析與熱門族群輪動。來賓認為外資給出的指數區間與個股目標價帶有行銷目的，真正影響行情的是成交金額與資金是否追價；台股當前在四萬點附近震盪，仍屬偏多但未全面轉強，月線仍是重要觀察指標。產業面以聯發科（矽中介層營收翻倍展望）、聯電（成熟製程報價回升）與被動元件族群（國巨、日電貿、信昌電等）最受外資與市場關注，顯示資金正從 AI 主線向中下游擴散。來賓也分享透過全球成交金額排行辨識真正主流資金方向的方法，並提醒投資人必須事先建立分批與風控計畫，不要只看折價或題材就衝動進場。",
+      "highlights": [
+        "外資目標價與指數區間不必過度迷信，本質是行銷工具；真正要看的是報告出來後市場資金是否真的追價。",
+        "台股目前仍在月線下方，四萬點附近有機會形成關鍵支撐，但需觀察金流與成交金額能否持續撐盤。",
+        "聯發科因法說會揭露矽中介層營收翻倍展望，成為外資與市場最熱門的題材，目標價上看五千元。",
+        "成熟製程族群重新受到外資關注，聯電相對世界先進更被看好，目標價一三八元；成熟製程最壞情況可能已過。",
+        "台積電處分世界先進持股後，市場對世界先進的評價與籌碼穩定性產生疑慮，本益比可能需要重新調整。",
+        "國巨領軍的被動元件族群進入漲價與輪動階段，資金從國巨延伸至日電貿、信昌電、臺慶科、華新科等次族群。",
+        "來賓建議用全球成交金額排行追蹤主流資金，若同一題材在多個市場都居前列，才是真正全球共識的方向。",
+        "投資前要先設計分批、停損與加碼策略，避免只會進場卻沒有退場計畫，強調風控紀律的重要性。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
