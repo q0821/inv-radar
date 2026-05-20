@@ -155,24 +155,28 @@ a:hover {
   }
 }
 
-/* ── Header ── */
+/* ── Header ──
+   亮色卡片（與全站亮色一致，深色模式靠 CSS 變數自動轉深）。 */
 .site-header {
-  background: linear-gradient(135deg, var(--c-header-from), var(--c-header-to));
+  background: linear-gradient(165deg, var(--c-catalyst-tint), var(--c-surface) 70%);
   padding: var(--sp-6) var(--sp-4);
-  border-radius: var(--radius) var(--radius) 0 0;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-1);
+  margin-bottom: var(--sp-5);
   text-align: center;
 }
 
 .site-header h1 {
-  color: #fff;
+  color: var(--c-text);
   font-size: var(--fs-xl);
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  font-weight: 800;
+  letter-spacing: 0.02em;
   line-height: 1.2;
 }
 
 .site-header .subtitle {
-  color: #c4cde0;
+  color: var(--c-text-muted);
   font-size: var(--fs-sm);
   font-variant-numeric: tabular-nums;
   margin-top: var(--sp-2);
@@ -196,12 +200,16 @@ a:hover {
   .card-body { padding: var(--sp-4); }
 }
 
-/* ── Section ── */
+/* ── Section ──
+   區塊標題：清楚的 section 起點，掃讀時一眼定位。語意色 + 略大字級 + 細分隔線，
+   不加盒子。 */
 .section-title {
-  font-size: var(--fs-md);
+  font-size: var(--fs-lg);
   font-weight: 700;
   letter-spacing: -0.01em;
   margin-bottom: var(--sp-4);
+  padding-bottom: var(--sp-3);
+  border-bottom: 1px solid var(--c-border);
 }
 
 .section-title.bullish { color: var(--c-bearish); }
@@ -212,7 +220,9 @@ a:hover {
 .section-title.risk { color: var(--c-bearish); }
 
 /* ── Signal Card ──
-   去除側邊色條：改用全框線 + 極淡語意 tint 背景，語意色由「粗體彩色 ticker + 前導圓點」帶出。 */
+   去除側邊色條：改用全框線 + 極淡語意 tint 背景，語意色由「粗體彩色 ticker + 前導圓點」帶出。
+   扁平化原則：card 是唯一的盒子，內部用排版層級 + 最多一條 hairline 分隔，
+   不再每段（觀點 / 行情 / 價位）各包一個帶框白底盒子。 */
 .signal-card {
   border: 1px solid var(--c-border);
   background: var(--c-surface-2);
@@ -227,6 +237,11 @@ a:hover {
 .signal-card.bullish { background: var(--c-bearish-tint); border-color: var(--c-bearish-bg); }
 .signal-card.bearish { background: var(--c-bullish-tint); border-color: var(--c-bullish-bg); }
 .signal-card.monitor { background: var(--c-monitor-tint); border-color: var(--c-monitor-bg); }
+
+/* ticker header 與下方內容拉開一點間距，建立層級 */
+.signal-card-head {
+  margin-bottom: var(--sp-2);
+}
 
 .signal-ticker {
   font-size: var(--fs-md);
@@ -296,35 +311,54 @@ a:hover {
   .badge-horizon-long { background: #2a1a3e; color: #bc8cff; }
 }
 
-/* ── Source detail row ── */
+/* ── Source detail row ──
+   扁平化：純文字，不再是帶框白底盒子。KOL 名粗體，多個來源靠間距分隔。 */
 .source-row {
   margin: var(--sp-2) 0;
-  padding: var(--sp-2) var(--sp-3);
-  background: var(--c-surface);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-xs);
   font-size: var(--fs-sm);
-  line-height: 1.55;
-}
-
-/* ── Price level ── */
-.price-level {
-  margin-top: var(--sp-2);
-  padding: var(--sp-2) var(--sp-3);
-  background: var(--c-surface);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-xs);
-  font-size: var(--fs-xs);
+  line-height: 1.6;
   color: var(--c-text-secondary);
 }
 
-/* ── Signal technicals (mini snapshot) ── */
-.signal-technicals {
+.source-row strong {
+  color: var(--c-text);
+}
+
+/* 第二個以後的來源用極淡 hairline 區隔，避免擠在一起又不致變成盒子 */
+.source-row + .source-row {
   margin-top: var(--sp-2);
-  padding: var(--sp-2) var(--sp-3);
+  padding-top: var(--sp-2);
+  border-top: 1px solid var(--c-border);
+}
+
+/* ── Price level ──
+   扁平化：純文字註解，加「價位」label 前綴，不再是盒子。 */
+.price-level {
+  margin-top: var(--sp-3);
+  font-size: var(--fs-xs);
+  color: var(--c-text-secondary);
+  line-height: 1.6;
+}
+
+.price-level::before {
+  content: '價位';
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 0.05em 0.45em;
+  border-radius: var(--radius-xs);
+  font-weight: 600;
+  font-size: 0.9em;
+  color: var(--c-text-muted);
   background: var(--c-surface);
   border: 1px solid var(--c-border);
-  border-radius: var(--radius-xs);
+}
+
+/* ── Signal technicals (mini snapshot) ──
+   扁平化：用一條 hairline（border-top）與上方 KOL 觀點分隔，不再整個包盒子。 */
+.signal-technicals {
+  margin-top: var(--sp-3);
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--c-border);
   font-size: var(--fs-xs);
   line-height: 1.7;
   color: var(--c-text-secondary);
@@ -352,31 +386,38 @@ a:hover {
 .signal-technicals-item.rsi-hot { color: var(--c-bearish); font-weight: 600; }
 .signal-technicals-item.rsi-cold { color: var(--c-bullish); font-weight: 600; }
 
-/* ── Quick Digest ── */
+/* ── Quick Digest ──
+   亮色卡片（與全站一致，深色模式靠 CSS 變數自動轉深）。
+   是「今日重點」最先被掃讀的區塊，所以用 catalyst tint 帶一點點品牌色把它與下方
+   一般白卡做出層級區隔，但維持亮色、不再用深色塊避免接縫。 */
 .quick-digest {
-  background: linear-gradient(135deg, var(--c-header-from), var(--c-header-to));
+  background: linear-gradient(165deg, var(--c-catalyst-tint), var(--c-surface) 70%);
   padding: var(--sp-5);
+  border: 1px solid var(--c-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow-2);
   margin-bottom: var(--sp-5);
 }
 
 .quick-digest h2 {
-  color: #fff;
-  font-size: var(--fs-md);
+  color: var(--c-text);
+  font-size: var(--fs-sm);
   font-weight: 700;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-catalyst);
   margin-bottom: var(--sp-4);
 }
 
 .quick-digest li {
-  color: #eef2f8;
-  font-size: var(--fs-sm);
+  color: var(--c-text);
+  font-size: var(--fs-base);
+  font-weight: 500;
   margin-bottom: var(--sp-3);
   list-style: none;
   padding-left: 1.6em;
   position: relative;
-  line-height: 1.55;
+  line-height: 1.6;
 }
 
 .quick-digest li:last-child { margin-bottom: 0; }
@@ -385,6 +426,7 @@ a:hover {
   content: '\26A1';
   position: absolute;
   left: 0;
+  color: var(--c-monitor);
 }
 
 /* ── Thermometer ── */
@@ -441,9 +483,11 @@ a:hover {
 .risk-block li {
   margin-bottom: var(--sp-2);
   font-size: var(--fs-sm);
-  color: var(--c-bearish);
-  line-height: 1.55;
+  color: var(--c-text-secondary);
+  line-height: 1.6;
 }
+
+.risk-block li::marker { color: var(--c-bearish); }
 
 .risk-block li:last-child { margin-bottom: 0; }
 
@@ -483,25 +527,19 @@ a:hover {
   border: 1px solid var(--c-catalyst);
 }
 
-.insight-block {
+/* insight-list：不是盒子，只是 insight-item 的容器，避免「外 tint 盒 + 內白盒」巢狀。 */
+.insight-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+/* insight-item：每則觀點唯一的盒子（淡 insight tint），語意由 headline 前圓點帶出。 */
+.insight-item {
   background: var(--c-insight-tint);
   padding: var(--sp-4);
   border-radius: var(--radius-sm);
   border: 1px solid var(--c-insight-bg);
-}
-
-.insight-block li {
-  margin-bottom: var(--sp-2);
-  font-size: var(--fs-sm);
-}
-
-.insight-item {
-  background: var(--c-surface);
-  padding: var(--sp-4);
-  margin-bottom: var(--sp-3);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--c-border);
-  box-shadow: var(--shadow-1);
   font-size: var(--fs-sm);
   line-height: 1.6;
 }
@@ -536,18 +574,18 @@ a:hover {
   letter-spacing: -0.005em;
 }
 
+/* 扁平化：推導邏輯用一條 hairline 與上方 headline 分隔，不再是 item 內的巢狀盒子。 */
 .insight-reasoning {
   margin-top: var(--sp-3);
-  padding: var(--sp-3);
-  background: var(--c-insight-tint);
-  border: 1px solid var(--c-insight-bg);
-  border-radius: var(--radius-xs);
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--c-insight-bg);
   font-size: var(--fs-sm);
   line-height: 1.65;
+  color: var(--c-text-secondary);
 }
 
 .insight-reasoning strong {
-  color: var(--c-text-muted);
+  color: var(--c-insight);
 }
 
 .insight-source {
@@ -619,12 +657,11 @@ a:hover {
   top: 0.3em;
 }
 
+/* 扁平化：節目摘要用 hairline 與上方重點清單分隔，不再是 episode-card 內的巢狀白盒。 */
 .episode-summary {
   margin-top: var(--sp-3);
-  padding: var(--sp-3) var(--sp-4);
-  background: var(--c-surface);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius-xs);
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--c-border);
   font-size: var(--fs-sm);
   color: var(--c-text-secondary);
   line-height: 1.65;
@@ -741,14 +778,25 @@ a:hover {
   font-weight: 600;
 }
 
-/* ── Divergence ── */
+/* ── Divergence ──
+   扁平化：純文字註解 + 「分歧」label 前綴，不再是盒子（與 price-level 同手法）。 */
 .divergence-note {
-  margin-top: 0.4em;
-  padding: 0.4em 0.6em;
-  background: var(--c-monitor-bg);
-  border-radius: var(--radius-xs);
-  font-size: 0.8em;
+  margin-top: var(--sp-2);
+  font-size: var(--fs-xs);
   color: var(--c-monitor);
+  line-height: 1.6;
+}
+
+.divergence-note::before {
+  content: '分歧';
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 0.05em 0.45em;
+  border-radius: var(--radius-xs);
+  font-weight: 600;
+  font-size: 0.9em;
+  color: var(--c-monitor);
+  background: var(--c-monitor-bg);
 }
 
 /* ── No data ── */
@@ -934,10 +982,9 @@ a:hover {
 }
 
 .trend-detail-spark {
-  margin-top: 1em;
-  padding: 0.75em;
-  background: var(--c-bg);
-  border-radius: var(--radius-sm);
+  margin-top: var(--sp-5);
+  padding-top: var(--sp-5);
+  border-top: 1px solid var(--c-border);
 }
 
 .trend-detail-spark .sparkline {
@@ -1139,9 +1186,9 @@ a:hover {
 }
 
 .tech-section {
-  margin-top: 0.7em;
-  padding-top: 0.6em;
-  border-top: 1px dashed var(--c-border);
+  margin-top: var(--sp-4);
+  padding-top: var(--sp-4);
+  border-top: 1px solid var(--c-border);
 }
 
 .tech-section:first-of-type {
@@ -1187,9 +1234,13 @@ a:hover {
   font-size: 0.78em;
   color: var(--c-text-muted);
   line-height: 1.5;
-  margin: -0.2em 0 0.55em 0;
-  padding-left: 0.8em;
-  border-left: 2px solid var(--c-border);
+  margin: 0 0 0.55em 5.5em;
+}
+
+@media (max-width: 640px) {
+  .tech-row-explain {
+    margin-left: 0;
+  }
 }
 
 .tech-verdict-explain {

@@ -106,7 +106,7 @@ function rsiNote(rsi: number | null | undefined) {
       <h2 class="section-title bullish">看漲訊號 ({bullish.length})</h2>
       {bullish.map((sig: any) => (
         <div class="signal-card bullish">
-          <div>
+          <div class="signal-card-head">
             <span class="signal-ticker bullish">{sig.ticker}</span>
             {sig.consensus?.includes('共識') && <span class="badge badge-consensus">{sig.consensus}</span>}
             {sig.consensus?.includes('分歧') && <span class="badge badge-divergence">{sig.consensus}</span>}
@@ -114,9 +114,10 @@ function rsiNote(rsi: number | null | undefined) {
           </div>
           {sig.sources?.map((s: any) => (
             <div class="source-row">
-              <strong>{s.kol}</strong>: {s.reason}
-              {s.action && s.action !== '無' && <span class="badge-action bullish">{s.action}</span>}
+              <strong>{s.kol}</strong>
               <span class={`badge badge-confidence-${s.confidence || 'medium'}`}>{confidenceLabel(s.confidence)}</span>
+              ：{s.reason}
+              {s.action && s.action !== '無' && <span class="badge-action bullish">{s.action}</span>}
             </div>
           ))}
           {sig.technicals && (
@@ -124,7 +125,7 @@ function rsiNote(rsi: number | null | undefined) {
               <span class="signal-technicals-label">行情</span>
               {sig.technicals.currentPrice != null && (
                 <span class="signal-technicals-price">
-                  {currencyPrefix(sig.technicals.currency)}{sig.technicals.currentPrice}
+                  {currencyPrefix(sig.technicals.currency)} {Number(sig.technicals.currentPrice).toLocaleString("en-US")}
                 </span>
               )}
               {sig.technicals.priceVsMa20Pct != null && (
@@ -163,7 +164,7 @@ function rsiNote(rsi: number | null | undefined) {
       <h2 class="section-title bearish">看空訊號 ({bearish.length})</h2>
       {bearish.map((sig: any) => (
         <div class="signal-card bearish">
-          <div>
+          <div class="signal-card-head">
             <span class="signal-ticker bearish">{sig.ticker}</span>
             {sig.consensus?.includes('共識') && <span class="badge badge-consensus">{sig.consensus}</span>}
             {sig.consensus?.includes('分歧') && <span class="badge badge-divergence">{sig.consensus}</span>}
@@ -171,9 +172,10 @@ function rsiNote(rsi: number | null | undefined) {
           </div>
           {sig.sources?.map((s: any) => (
             <div class="source-row">
-              <strong>{s.kol}</strong>: {s.reason}
-              {s.action && s.action !== '無' && <span class="badge-action bearish">{s.action}</span>}
+              <strong>{s.kol}</strong>
               <span class={`badge badge-confidence-${s.confidence || 'medium'}`}>{confidenceLabel(s.confidence)}</span>
+              ：{s.reason}
+              {s.action && s.action !== '無' && <span class="badge-action bearish">{s.action}</span>}
             </div>
           ))}
           {sig.technicals && (
@@ -181,7 +183,7 @@ function rsiNote(rsi: number | null | undefined) {
               <span class="signal-technicals-label">行情</span>
               {sig.technicals.currentPrice != null && (
                 <span class="signal-technicals-price">
-                  {currencyPrefix(sig.technicals.currency)}{sig.technicals.currentPrice}
+                  {currencyPrefix(sig.technicals.currency)} {Number(sig.technicals.currentPrice).toLocaleString("en-US")}
                 </span>
               )}
               {sig.technicals.priceVsMa20Pct != null && (
@@ -205,7 +207,7 @@ function rsiNote(rsi: number | null | undefined) {
             </div>
           )}
           {sig.divergence && (
-            <div class="divergence-note">分歧: {sig.divergence}</div>
+            <div class="divergence-note">{sig.divergence}</div>
           )}
           {sig.priceLevel && sig.priceLevel !== '無' && sig.priceLevel !== 'N/A' && sig.priceLevel.trim() !== '' && (
             <div class="price-level">{sig.priceLevel}</div>
@@ -255,13 +257,13 @@ function rsiNote(rsi: number | null | undefined) {
       <h2 class="section-title monitor">值得關注 ({monitor.length})</h2>
       {monitor.map((sig: any) => (
         <div class="signal-card monitor">
-          <div>
+          <div class="signal-card-head">
             <span class="signal-ticker monitor">{sig.topic}</span>
             <span class={`badge badge-horizon-${sig.timeHorizon || 'medium'}`}>{horizonLabel(sig.timeHorizon)}</span>
           </div>
-          <p style="margin:0.5em 0 0.25em;font-size:0.9em;">{sig.reason}</p>
-          <p style="font-size:0.8em;color:var(--c-text-muted);">
-            提及來源: {(sig.mentionedBy || []).join(', ')}
+          <p style="margin:0;font-size:var(--fs-sm);line-height:1.6;color:var(--c-text-secondary);">{sig.reason}</p>
+          <p style="margin-top:0.4em;font-size:var(--fs-xs);color:var(--c-text-muted);">
+            提及來源：{(sig.mentionedBy || []).join('、')}
           </p>
         </div>
       ))}
@@ -274,7 +276,7 @@ function rsiNote(rsi: number | null | undefined) {
   <div class="card">
     <div class="card-body">
       <h2 class="section-title insight">KOL 獨特觀點</h2>
-      <div class="insight-block">
+      <div class="insight-list">
         {insights.map((ins: any) => {
           if (typeof ins === 'string') {
             return <div class="insight-item insight-item-simple">{ins}</div>;

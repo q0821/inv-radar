@@ -1,18 +1,19 @@
 {
-  "generatedAt": "2026-05-18T06:23:07.439Z",
-  "anchorDate": "2026-05-16",
-  "count": 100,
-  "skippedCount": 123,
+  "generatedAt": "2026-05-20T11:02:32.118Z",
+  "anchorDate": "2026-05-19",
+  "count": 107,
+  "skippedCount": 127,
   "errors": [
     "8299.TW: HTTP 404",
+    "8358.TW: HTTP 404",
     "5274.TW: HTTP 404",
     "AOI: no closes",
+    "5347.TW: HTTP 404",
     "IET-KY: HTTP 404",
     "INTEL: HTTP 404",
     "MARVELL: HTTP 404",
     "BROADCOM: HTTP 404",
     "ALPHABET: HTTP 404",
-    "5347.TW: HTTP 404",
     "VHM: no closes",
     "CURSOR: HTTP 404",
     "491: HTTP 404",
@@ -39,126 +40,129 @@
     "403A: HTTP 404",
     "6278.TWO: no closes",
     "5536.TW: HTTP 404",
-    "3441.TW: HTTP 404"
+    "3441.TW: HTTP 404",
+    "043A: HTTP 404",
+    "1815.TW: HTTP 404",
+    "5351.TW: HTTP 404",
+    "3374.TW: HTTP 404",
+    "6217.TW: HTTP 404"
   ],
   "tickers": {
     "2330.TW": {
-      "currentPrice": 2240,
+      "currentPrice": 2185,
       "currency": "TWD",
-      "prevClose": 2265,
-      "changePct1d": -1.1,
-      "ma5": 2250,
-      "ma20": 2202.25,
-      "ma60": 2001.5,
-      "priceVsMa20Pct": 1.71,
-      "priceVsMa60Pct": 11.92,
-      "ma20Slope5dPct": 2.35,
+      "prevClose": 2205,
+      "changePct1d": -0.91,
+      "ma5": 2233,
+      "ma20": 2218,
+      "ma60": 2013.0833,
+      "priceVsMa20Pct": -1.49,
+      "priceVsMa60Pct": 8.54,
+      "ma20Slope5dPct": 2.06,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 47.8,
-      "changePct5d": 0.22,
-      "changePct20d": 10.34,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "neutral",
+      "rsi14": 50.5,
+      "changePct5d": -1.58,
+      "changePct20d": 6.59,
+      "volumeRatio": 0.9,
+      "priceVolumeRelation": "sync",
       "verdict": [
         "中長線偏多"
       ]
     },
     "2454.TW": {
-      "currentPrice": 3400,
+      "currentPrice": 3230,
       "currency": "TWD",
-      "prevClose": 3260,
-      "changePct1d": 4.29,
-      "ma5": 3452,
-      "ma20": 2940.75,
-      "ma60": 2117.75,
-      "priceVsMa20Pct": 15.62,
-      "priceVsMa60Pct": 60.55,
-      "ma20Slope5dPct": 16.45,
+      "prevClose": 3155,
+      "changePct1d": 2.38,
+      "ma5": 3290,
+      "ma20": 3060.5,
+      "ma60": 2162.9167,
+      "priceVsMa20Pct": 5.54,
+      "priceVsMa60Pct": 49.34,
+      "ma20Slope5dPct": 12.6,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 70.9,
-      "changePct5d": -12.37,
-      "changePct20d": 76.62,
-      "volumeRatio": 0.5,
+      "rsi14": 63.6,
+      "changePct5d": -7.58,
+      "changePct20d": 54.55,
+      "volumeRatio": 0.6,
       "priceVolumeRelation": "sync",
       "verdict": [
-        "中長線偏多",
-        "過熱"
+        "中長線偏多"
       ]
     },
     "MU": {
-      "currentPrice": 724.66,
+      "currentPrice": 698.74,
       "currency": "USD",
-      "prevClose": 776.01,
-      "changePct1d": -6.62,
-      "ma5": 773.242,
-      "ma20": 605.6645,
-      "ma60": 473.7688,
-      "priceVsMa20Pct": 19.65,
-      "priceVsMa60Pct": 52.96,
-      "ma20Slope5dPct": 15.28,
+      "prevClose": 681.54,
+      "changePct1d": 2.52,
+      "ma5": 736.916,
+      "ma20": 629.7885,
+      "ma60": 482.6212,
+      "priceVsMa20Pct": 10.95,
+      "priceVsMa60Pct": 44.78,
+      "ma20Slope5dPct": 12.69,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 70.1,
-      "changePct5d": -2.97,
-      "changePct20d": 59.24,
-      "volumeRatio": 1,
-      "priceVolumeRelation": "neutral",
+      "rsi14": 67.2,
+      "changePct5d": -8.85,
+      "changePct20d": 55.49,
+      "volumeRatio": 1.3,
+      "priceVolumeRelation": "divergence_up_low_vol",
       "verdict": [
         "中長線偏多",
-        "過熱"
+        "量價背離警訊"
       ]
     },
     "MSFT": {
-      "currentPrice": 421.92,
+      "currentPrice": 417.42,
       "currency": "USD",
-      "prevClose": 409.43,
-      "changePct1d": 3.05,
-      "ma5": 411.398,
-      "ma20": 417.4055,
-      "ma60": 398.956,
-      "priceVsMa20Pct": 1.08,
-      "priceVsMa60Pct": 5.76,
-      "ma20Slope5dPct": 0.3,
+      "prevClose": 423.54,
+      "changePct1d": -1.44,
+      "ma5": 415.504,
+      "ma20": 417.342,
+      "ma60": 399.9437,
+      "priceVsMa20Pct": 0.02,
+      "priceVsMa60Pct": 4.37,
+      "ma20Slope5dPct": -0.23,
       "cross5_20": {
         "type": "death",
-        "daysAgo": 5
+        "daysAgo": 7
       },
-      "rsi14": 48.1,
-      "changePct5d": 1.64,
-      "changePct20d": -0.21,
-      "volumeRatio": 1.5,
+      "rsi14": 45.4,
+      "changePct5d": 2.37,
+      "changePct20d": -1.59,
+      "volumeRatio": 0.9,
       "priceVolumeRelation": "neutral",
       "verdict": [
-        "中長線偏多",
         "短線轉弱"
       ]
     },
     "2408.TW": {
-      "currentPrice": 305,
+      "currentPrice": 275,
       "currency": "TWD",
-      "prevClose": 311.5,
-      "changePct1d": -2.09,
-      "ma5": 319.9,
-      "ma20": 260.575,
-      "ma60": 246.8083,
-      "priceVsMa20Pct": 17.05,
-      "priceVsMa60Pct": 23.58,
-      "ma20Slope5dPct": 11.06,
+      "prevClose": 274.5,
+      "changePct1d": 0.18,
+      "ma5": 301.4,
+      "ma20": 266.7,
+      "ma60": 246.875,
+      "priceVsMa20Pct": 3.11,
+      "priceVsMa60Pct": 11.39,
+      "ma20Slope5dPct": 9.1,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 67.8,
-      "changePct5d": 1.33,
-      "changePct20d": 45.24,
+      "rsi14": 58.4,
+      "changePct5d": -14.33,
+      "changePct20d": 25,
       "volumeRatio": 0.9,
       "priceVolumeRelation": "neutral",
       "verdict": [
@@ -166,170 +170,195 @@
       ]
     },
     "NVDA": {
-      "currentPrice": 225.32,
+      "currentPrice": 220.61,
       "currency": "USD",
-      "prevClose": 235.74,
-      "changePct1d": -4.42,
-      "ma5": 225.422,
-      "ma20": 210.301,
-      "ma60": 191.9055,
-      "priceVsMa20Pct": 7.14,
-      "priceVsMa60Pct": 17.41,
-      "ma20Slope5dPct": 3.5,
+      "prevClose": 222.32,
+      "changePct1d": -0.77,
+      "ma5": 225.964,
+      "ma20": 212.3505,
+      "ma60": 192.9315,
+      "priceVsMa20Pct": 3.89,
+      "priceVsMa60Pct": 14.35,
+      "ma20Slope5dPct": 3.13,
       "cross5_20": {
         "type": "golden",
-        "daysAgo": 6
+        "daysAgo": 8
       },
-      "rsi14": 56.2,
-      "changePct5d": 4.7,
-      "changePct20d": 11.72,
-      "volumeRatio": 1.2,
-      "priceVolumeRelation": "sync",
+      "rsi14": 58.5,
+      "changePct5d": -0.08,
+      "changePct20d": 10.37,
+      "volumeRatio": 0.9,
+      "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏多",
         "短線轉強"
       ]
     },
     "2313.TW": {
-      "currentPrice": 259,
+      "currentPrice": 255,
       "currency": "TWD",
-      "prevClose": 235.5,
-      "changePct1d": 9.98,
-      "ma5": 247.4,
-      "ma20": 245.675,
-      "ma60": 235.6,
-      "priceVsMa20Pct": 5.42,
-      "priceVsMa60Pct": 9.93,
-      "ma20Slope5dPct": -1.68,
+      "prevClose": 256,
+      "changePct1d": -0.39,
+      "ma5": 250.2,
+      "ma20": 245.975,
+      "ma60": 238.1917,
+      "priceVsMa20Pct": 3.67,
+      "priceVsMa60Pct": 7.06,
+      "ma20Slope5dPct": -0.78,
       "cross5_20": {
         "type": "golden",
-        "daysAgo": 0
+        "daysAgo": 2
       },
-      "rsi14": 56.5,
-      "changePct5d": 7.02,
-      "changePct20d": -0.96,
-      "volumeRatio": 1.2,
-      "priceVolumeRelation": "sync",
+      "rsi14": 57.3,
+      "changePct5d": 7.59,
+      "changePct20d": 0.2,
+      "volumeRatio": 1.1,
+      "priceVolumeRelation": "neutral",
       "verdict": [
         "短線轉強"
       ]
     },
     "META": {
-      "currentPrice": 614.23,
+      "currentPrice": 602.61,
       "currency": "USD",
-      "prevClose": 618.43,
-      "changePct1d": -0.68,
-      "ma5": 610.23,
-      "ma20": 634.7115,
-      "ma60": 627.0262,
-      "priceVsMa20Pct": -3.23,
-      "priceVsMa60Pct": -2.04,
-      "ma20Slope5dPct": -2.18,
+      "prevClose": 611.21,
+      "changePct1d": -1.41,
+      "ma5": 612.622,
+      "ma20": 628.415,
+      "ma60": 625.708,
+      "priceVsMa20Pct": -4.11,
+      "priceVsMa60Pct": -3.69,
+      "ma20Slope5dPct": -2.43,
       "cross5_20": {
-        "type": "death",
-        "daysAgo": 9
+        "type": "none",
+        "daysAgo": null
       },
-      "rsi14": 25.3,
-      "changePct5d": 0.75,
-      "changePct20d": -10.79,
-      "volumeRatio": 0.8,
+      "rsi14": 24.9,
+      "changePct5d": -0.06,
+      "changePct20d": -9.9,
+      "volumeRatio": 0.7,
       "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏空",
-        "短線轉弱",
         "超賣"
       ]
     },
     "2308.TW": {
-      "currentPrice": 2020,
+      "currentPrice": 1915,
       "currency": "TWD",
-      "prevClose": 2075,
-      "changePct1d": -2.65,
-      "ma5": 2122,
-      "ma20": 2119.5,
-      "ma60": 1679.9167,
-      "priceVsMa20Pct": -4.69,
-      "priceVsMa60Pct": 20.24,
-      "ma20Slope5dPct": 4.05,
+      "prevClose": 1915,
+      "changePct1d": 0,
+      "ma5": 2016,
+      "ma20": 2115.25,
+      "ma60": 1704.3333,
+      "priceVsMa20Pct": -9.47,
+      "priceVsMa60Pct": 12.36,
+      "ma20Slope5dPct": 1.67,
       "cross5_20": {
-        "type": "none",
-        "daysAgo": null
+        "type": "death",
+        "daysAgo": 1
       },
-      "rsi14": 50,
-      "changePct5d": -10.02,
-      "changePct20d": 9.78,
-      "volumeRatio": 0.8,
-      "priceVolumeRelation": "sync",
+      "rsi14": 31.6,
+      "changePct5d": -11.55,
+      "changePct20d": -4.96,
+      "volumeRatio": 1,
+      "priceVolumeRelation": "neutral",
       "verdict": [
-        "中長線偏多"
+        "中長線偏多",
+        "短線轉弱"
       ]
     },
     "2337.TW": {
-      "currentPrice": 160,
+      "currentPrice": 141,
       "currency": "TWD",
-      "prevClose": 162.5,
-      "changePct1d": -1.54,
-      "ma5": 162.5,
-      "ma20": 152.375,
-      "ma60": 132.6183,
-      "priceVsMa20Pct": 5,
-      "priceVsMa60Pct": 20.65,
-      "ma20Slope5dPct": 3.31,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 56.8,
-      "changePct5d": 0.31,
-      "changePct20d": 22.14,
-      "volumeRatio": 0.4,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "2383.TW": {
-      "currentPrice": 4545,
-      "currency": "TWD",
-      "prevClose": 4615,
-      "changePct1d": -1.52,
-      "ma5": 4782,
-      "ma20": 4571.75,
-      "ma60": 3350.75,
-      "priceVsMa20Pct": -0.59,
-      "priceVsMa60Pct": 35.64,
-      "ma20Slope5dPct": 6.44,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 44.8,
-      "changePct5d": -6.29,
-      "changePct20d": 19.61,
-      "volumeRatio": 1.1,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "TSLA": {
-      "currentPrice": 422.24,
-      "currency": "USD",
-      "prevClose": 443.3,
-      "changePct1d": -4.75,
-      "ma5": 437.852,
-      "ma20": 401.32,
-      "ma60": 389.929,
-      "priceVsMa20Pct": 5.21,
-      "priceVsMa60Pct": 8.29,
+      "prevClose": 144,
+      "changePct1d": -2.08,
+      "ma5": 155.3,
+      "ma20": 153.975,
+      "ma60": 134.395,
+      "priceVsMa20Pct": -8.43,
+      "priceVsMa60Pct": 4.91,
       "ma20Slope5dPct": 3.76,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 66.7,
-      "changePct5d": -1.43,
-      "changePct20d": 5.4,
+      "rsi14": 37.9,
+      "changePct5d": -16.07,
+      "changePct20d": 6.42,
+      "volumeRatio": 0.6,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "2383.TW": {
+      "currentPrice": 4395,
+      "currency": "TWD",
+      "prevClose": 4535,
+      "changePct1d": -3.09,
+      "ma5": 4602,
+      "ma20": 4628.25,
+      "ma60": 3429.8333,
+      "priceVsMa20Pct": -5.04,
+      "priceVsMa60Pct": 28.14,
+      "ma20Slope5dPct": 4.24,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 0
+      },
+      "rsi14": 48.5,
+      "changePct5d": -10.85,
+      "changePct20d": 11.27,
+      "volumeRatio": 0.7,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多",
+        "短線轉弱"
+      ]
+    },
+    "TSM": {
+      "currentPrice": 392.61,
+      "currency": "USD",
+      "prevClose": 395.95,
+      "changePct1d": -0.84,
+      "ma5": 402.086,
+      "ma20": 400.552,
+      "ma60": 368.7767,
+      "priceVsMa20Pct": -1.98,
+      "priceVsMa60Pct": 6.46,
+      "ma20Slope5dPct": 2.13,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 49.4,
+      "changePct5d": -1.18,
+      "changePct20d": 6.66,
+      "volumeRatio": 1,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "TSLA": {
+      "currentPrice": 404.11,
+      "currency": "USD",
+      "prevClose": 409.99,
+      "changePct1d": -1.43,
+      "ma5": 424.982,
+      "ma20": 403.079,
+      "ma60": 389.9698,
+      "priceVsMa20Pct": 0.26,
+      "priceVsMa60Pct": 3.63,
+      "ma20Slope5dPct": 2.08,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 60.9,
+      "changePct5d": -6.77,
+      "changePct20d": 4.58,
       "volumeRatio": 0.8,
       "priceVolumeRelation": "neutral",
       "verdict": [
@@ -337,172 +366,122 @@
       ]
     },
     "INTC": {
-      "currentPrice": 108.77,
+      "currentPrice": 110.8,
       "currency": "USD",
-      "prevClose": 115.93,
-      "changePct1d": -6.18,
-      "ma5": 119.008,
-      "ma20": 97.5715,
-      "ma60": 65.4488,
-      "priceVsMa20Pct": 11.48,
-      "priceVsMa60Pct": 66.19,
-      "ma20Slope5dPct": 15.65,
+      "prevClose": 108.17,
+      "changePct1d": 2.43,
+      "ma5": 112.792,
+      "ma20": 101.922,
+      "ma60": 67.636,
+      "priceVsMa20Pct": 8.71,
+      "priceVsMa60Pct": 63.82,
+      "ma20Slope5dPct": 12.72,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 64.7,
-      "changePct5d": -12.93,
-      "changePct20d": 58.79,
+      "rsi14": 60.9,
+      "changePct5d": -8.13,
+      "changePct20d": 67.22,
       "volumeRatio": 0.9,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "量價背離警訊"
-      ]
-    },
-    "2303.TW": {
-      "currentPrice": 111,
-      "currency": "TWD",
-      "prevClose": 110,
-      "changePct1d": 0.91,
-      "ma5": 106.38,
-      "ma20": 87.49,
-      "ma60": 69.8117,
-      "priceVsMa20Pct": 26.87,
-      "priceVsMa60Pct": 59,
-      "ma20Slope5dPct": 13.54,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 80.8,
-      "changePct5d": 16.84,
-      "changePct20d": 52.05,
-      "volumeRatio": 1,
       "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多",
-        "過熱"
-      ]
-    },
-    "TSM": {
-      "currentPrice": 404.35,
-      "currency": "USD",
-      "prevClose": 417.72,
-      "changePct1d": -3.2,
-      "ma5": 404.738,
-      "ma20": 397.84,
-      "ma60": 367.977,
-      "priceVsMa20Pct": 1.64,
-      "priceVsMa60Pct": 9.88,
-      "ma20Slope5dPct": 2.12,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 49.7,
-      "changePct5d": -1.78,
-      "changePct20d": 9.14,
-      "volumeRatio": 0.8,
-      "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏多"
       ]
     },
-    "2382.TW": {
-      "currentPrice": 300,
+    "2303.TW": {
+      "currentPrice": 108,
       "currency": "TWD",
-      "prevClose": 306,
-      "changePct1d": -1.96,
-      "ma5": 324.2,
-      "ma20": 328.225,
-      "ma60": 304.7167,
-      "priceVsMa20Pct": -8.6,
-      "priceVsMa60Pct": -1.55,
-      "ma20Slope5dPct": 0.44,
+      "prevClose": 113,
+      "changePct1d": -4.42,
+      "ma5": 110,
+      "ma20": 90.885,
+      "ma60": 71.415,
+      "priceVsMa20Pct": 18.83,
+      "priceVsMa60Pct": 51.23,
+      "ma20Slope5dPct": 11.91,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 75.3,
+      "changePct5d": 9.76,
+      "changePct20d": 41.73,
+      "volumeRatio": 0.9,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多",
+        "過熱"
+      ]
+    },
+    "2382.TW": {
+      "currentPrice": 290,
+      "currency": "TWD",
+      "prevClose": 290,
+      "changePct1d": 0,
+      "ma5": 304.1,
+      "ma20": 323.775,
+      "ma60": 304.9,
+      "priceVsMa20Pct": -10.43,
+      "priceVsMa60Pct": -4.89,
+      "ma20Slope5dPct": -1.5,
       "cross5_20": {
         "type": "death",
-        "daysAgo": 0
+        "daysAgo": 2
       },
-      "rsi14": 37.6,
-      "changePct5d": -12.66,
-      "changePct20d": -7.12,
-      "volumeRatio": 1.5,
+      "rsi14": 35,
+      "changePct5d": -14.83,
+      "changePct20d": -14.71,
+      "volumeRatio": 1.6,
       "priceVolumeRelation": "divergence_down_high_vol",
       "verdict": [
+        "中長線偏空",
         "短線轉弱",
         "量價背離警訊"
       ]
     },
-    "UNH": {
-      "currentPrice": 393.85,
-      "currency": "USD",
-      "prevClose": 399.09,
-      "changePct1d": -1.31,
-      "ma5": 394.986,
-      "ma20": 369.525,
-      "ma60": 314.8205,
-      "priceVsMa20Pct": 6.58,
-      "priceVsMa60Pct": 25.1,
-      "ma20Slope5dPct": 5.61,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 77.4,
-      "changePct5d": 3.65,
-      "changePct20d": 21.32,
-      "volumeRatio": 1.1,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多",
-        "過熱"
-      ]
-    },
     "2344.TW": {
-      "currentPrice": 130.5,
+      "currentPrice": 115.5,
       "currency": "TWD",
-      "prevClose": 129.5,
-      "changePct1d": 0.77,
-      "ma5": 127.5,
-      "ma20": 104.7,
-      "ma60": 104.5533,
-      "priceVsMa20Pct": 24.64,
-      "priceVsMa60Pct": 24.82,
-      "ma20Slope5dPct": 9.52,
+      "prevClose": 117.5,
+      "changePct1d": -1.7,
+      "ma5": 125.4,
+      "ma20": 107.51,
+      "ma60": 104.92,
+      "priceVsMa20Pct": 7.43,
+      "priceVsMa60Pct": 10.08,
+      "ma20Slope5dPct": 9.28,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 75.8,
-      "changePct5d": 11.06,
-      "changePct20d": 48.63,
-      "volumeRatio": 0.9,
+      "rsi14": 64,
+      "changePct5d": -5.33,
+      "changePct20d": 26.78,
+      "volumeRatio": 0.7,
       "priceVolumeRelation": "sync",
       "verdict": [
-        "中長線偏多",
-        "過熱"
+        "中長線偏多"
       ]
     },
     "2317.TW": {
-      "currentPrice": 248.5,
+      "currentPrice": 240,
       "currency": "TWD",
-      "prevClose": 248.5,
-      "changePct1d": 0,
-      "ma5": 248.5,
-      "ma20": 235.05,
-      "ma60": 219.1417,
-      "priceVsMa20Pct": 5.72,
-      "priceVsMa60Pct": 13.4,
-      "ma20Slope5dPct": 4.78,
+      "prevClose": 245,
+      "changePct1d": -2.04,
+      "ma5": 245.3,
+      "ma20": 238.375,
+      "ma60": 219.9,
+      "priceVsMa20Pct": 0.68,
+      "priceVsMa60Pct": 9.14,
+      "ma20Slope5dPct": 4.09,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 66.7,
-      "changePct5d": -1.39,
-      "changePct20d": 20.63,
+      "rsi14": 61.2,
+      "changePct5d": -4.38,
+      "changePct20d": 13.74,
       "volumeRatio": 0.6,
       "priceVolumeRelation": "neutral",
       "verdict": [
@@ -510,24 +489,24 @@
       ]
     },
     "8046.TW": {
-      "currentPrice": 791,
+      "currentPrice": 829,
       "currency": "TWD",
-      "prevClose": 786,
-      "changePct1d": 0.64,
-      "ma5": 840.8,
-      "ma20": 882.95,
-      "ma60": 656.8833,
-      "priceVsMa20Pct": -10.41,
-      "priceVsMa60Pct": 20.42,
-      "ma20Slope5dPct": 4.76,
+      "prevClose": 798,
+      "changePct1d": 3.88,
+      "ma5": 810.2,
+      "ma20": 885.05,
+      "ma60": 670.2333,
+      "priceVsMa20Pct": -6.33,
+      "priceVsMa60Pct": 23.69,
+      "ma20Slope5dPct": 2.11,
       "cross5_20": {
         "type": "death",
-        "daysAgo": 1
+        "daysAgo": 3
       },
-      "rsi14": 37.6,
-      "changePct5d": -12.89,
-      "changePct20d": 9.25,
-      "volumeRatio": 0.6,
+      "rsi14": 41.2,
+      "changePct5d": -5.8,
+      "changePct20d": 5.07,
+      "volumeRatio": 0.7,
       "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏多",
@@ -535,797 +514,148 @@
       ]
     },
     "2327.TW": {
-      "currentPrice": 501,
+      "currentPrice": 520,
       "currency": "TWD",
-      "prevClose": 455.5,
-      "changePct1d": 9.99,
-      "ma5": 451.6,
-      "ma20": 362.975,
-      "ma60": 302.9167,
-      "priceVsMa20Pct": 38.03,
-      "priceVsMa60Pct": 65.39,
-      "ma20Slope5dPct": 10.32,
+      "prevClose": 497,
+      "changePct1d": 4.63,
+      "ma5": 487.1,
+      "ma20": 381.7,
+      "ma60": 311.4667,
+      "priceVsMa20Pct": 36.23,
+      "priceVsMa60Pct": 66.95,
+      "ma20Slope5dPct": 12.19,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 89.4,
-      "changePct5d": 27.97,
-      "changePct20d": 58.29,
-      "volumeRatio": 1.9,
+      "rsi14": 89.6,
+      "changePct5d": 23.81,
+      "changePct20d": 60.99,
+      "volumeRatio": 1.6,
       "priceVolumeRelation": "sync",
       "verdict": [
         "中長線偏多",
         "過熱"
       ]
     },
-    "3037.TW": {
-      "currentPrice": 816,
+    "4746.TW": {
+      "currentPrice": 51.6,
       "currency": "TWD",
-      "prevClose": 821,
-      "changePct1d": -0.61,
-      "ma5": 857,
-      "ma20": 825.2,
-      "ma60": 611.5667,
-      "priceVsMa20Pct": -1.11,
-      "priceVsMa60Pct": 33.43,
-      "ma20Slope5dPct": 7.53,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 47.5,
-      "changePct5d": -5.23,
-      "changePct20d": 26.91,
-      "volumeRatio": 0.9,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "AMZN": {
-      "currentPrice": 264.14,
-      "currency": "USD",
-      "prevClose": 267.22,
-      "changePct1d": -1.15,
-      "ma5": 267.26,
-      "ma20": 264.527,
-      "ma60": 232.3463,
-      "priceVsMa20Pct": -0.15,
-      "priceVsMa60Pct": 13.68,
-      "ma20Slope5dPct": 1.9,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 53.9,
-      "changePct5d": -3.13,
-      "changePct20d": 5.42,
-      "volumeRatio": 0.9,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "AAPL": {
-      "currentPrice": 300.23,
-      "currency": "USD",
-      "prevClose": 298.21,
-      "changePct1d": 0.68,
-      "ma5": 296.958,
-      "ma20": 281.5465,
-      "ma60": 266.25,
-      "priceVsMa20Pct": 6.64,
-      "priceVsMa60Pct": 12.76,
-      "ma20Slope5dPct": 3.05,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 87.9,
-      "changePct5d": 2.36,
-      "changePct20d": 11.1,
-      "volumeRatio": 1.1,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多",
-        "過熱"
-      ]
-    },
-    "GOOGL": {
-      "currentPrice": 396.78,
-      "currency": "USD",
-      "prevClose": 401.07,
-      "changePct1d": -1.07,
-      "ma5": 395.292,
-      "ma20": 372.892,
-      "ma60": 328.676,
-      "priceVsMa20Pct": 6.41,
-      "priceVsMa60Pct": 20.72,
-      "ma20Slope5dPct": 4.3,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 75.5,
-      "changePct5d": -1,
-      "changePct20d": 16.13,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多",
-        "過熱"
-      ]
-    },
-    "MRVL": {
-      "currentPrice": 176.89,
-      "currency": "USD",
-      "prevClose": 182.58,
-      "changePct1d": -3.12,
-      "ma5": 174.552,
-      "ma20": 164.5955,
-      "ma60": 119.9882,
-      "priceVsMa20Pct": 7.47,
-      "priceVsMa60Pct": 47.42,
-      "ma20Slope5dPct": 6.47,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 61.7,
-      "changePct5d": 3.97,
-      "changePct20d": 26.63,
-      "volumeRatio": 0.9,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "2409.TW": {
-      "currentPrice": 19.25,
-      "currency": "TWD",
-      "prevClose": 19.05,
-      "changePct1d": 1.05,
-      "ma5": 19.75,
-      "ma20": 18.3675,
-      "ma60": 17.0292,
-      "priceVsMa20Pct": 4.8,
-      "priceVsMa60Pct": 13.04,
-      "ma20Slope5dPct": 0.1,
-      "cross5_20": {
-        "type": "golden",
-        "daysAgo": 4
-      },
-      "rsi14": 63.2,
-      "changePct5d": 2.12,
-      "changePct20d": -3.02,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多",
-        "短線轉強"
-      ]
-    },
-    "3034.TW": {
-      "currentPrice": 475.5,
-      "currency": "TWD",
-      "prevClose": 466.5,
-      "changePct1d": 1.93,
-      "ma5": 481.7,
-      "ma20": 443.325,
-      "ma60": 404.9833,
-      "priceVsMa20Pct": 7.26,
-      "priceVsMa60Pct": 17.41,
-      "ma20Slope5dPct": 4.52,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 69.5,
-      "changePct5d": -4.23,
-      "changePct20d": 14.58,
-      "volumeRatio": 0.8,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "量價背離警訊"
-      ]
-    },
-    "3189.TW": {
-      "currentPrice": 505,
-      "currency": "TWD",
-      "prevClose": 486,
-      "changePct1d": 3.91,
-      "ma5": 500.9,
-      "ma20": 497.9,
-      "ma60": 386.5083,
-      "priceVsMa20Pct": 1.43,
-      "priceVsMa60Pct": 30.66,
-      "ma20Slope5dPct": 6.39,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 48.1,
-      "changePct5d": 0.4,
-      "changePct20d": 28.99,
-      "volumeRatio": 0.6,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "2301.TW": {
-      "currentPrice": 207.5,
-      "currency": "TWD",
-      "prevClose": 204.5,
-      "changePct1d": 1.47,
-      "ma5": 213,
-      "ma20": 187.65,
-      "ma60": 170.175,
-      "priceVsMa20Pct": 10.58,
-      "priceVsMa60Pct": 21.93,
-      "ma20Slope5dPct": 7.81,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 66.2,
-      "changePct5d": -7.37,
-      "changePct20d": 28.09,
-      "volumeRatio": 0.6,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "量價背離警訊"
-      ]
-    },
-    "3481.TW": {
-      "currentPrice": 38.7,
-      "currency": "TWD",
-      "prevClose": 36.1,
-      "changePct1d": 7.2,
-      "ma5": 36.64,
-      "ma20": 28.83,
-      "ma60": 26.9742,
-      "priceVsMa20Pct": 34.24,
-      "priceVsMa60Pct": 43.47,
-      "ma20Slope5dPct": 9.27,
-      "cross5_20": {
-        "type": "golden",
-        "daysAgo": 7
-      },
-      "rsi14": 85.8,
-      "changePct5d": 19.81,
-      "changePct20d": 49.42,
-      "volumeRatio": 1.9,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多",
-        "短線轉強",
-        "過熱"
-      ]
-    },
-    "QCOM": {
-      "currentPrice": 201.49,
-      "currency": "USD",
-      "prevClose": 200.08,
-      "changePct1d": 0.7,
-      "ma5": 212.516,
-      "ma20": 176.826,
-      "ma60": 147.777,
-      "priceVsMa20Pct": 13.95,
-      "priceVsMa60Pct": 36.35,
-      "ma20Slope5dPct": 12.57,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 66.6,
-      "changePct5d": -8.03,
-      "changePct20d": 47.94,
-      "volumeRatio": 0.9,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "3017.TW": {
-      "currentPrice": 2410,
-      "currency": "TWD",
-      "prevClose": 2455,
-      "changePct1d": -1.83,
-      "ma5": 2505,
-      "ma20": 2631.25,
-      "ma60": 2179.9167,
-      "priceVsMa20Pct": -8.41,
-      "priceVsMa60Pct": 10.55,
-      "ma20Slope5dPct": 1.64,
+      "prevClose": 51.6,
+      "changePct1d": 0,
+      "ma5": 52.4,
+      "ma20": 53.725,
+      "ma60": 54.02,
+      "priceVsMa20Pct": -3.96,
+      "priceVsMa60Pct": -4.48,
+      "ma20Slope5dPct": -0.3,
       "cross5_20": {
         "type": "death",
-        "daysAgo": 5
-      },
-      "rsi14": 29.7,
-      "changePct5d": -5.68,
-      "changePct20d": 0.42,
-      "volumeRatio": 0.9,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多",
-        "短線轉弱",
-        "超賣"
-      ]
-    },
-    "QQQ": {
-      "currentPrice": 708.93,
-      "currency": "USD",
-      "prevClose": 719.79,
-      "changePct1d": -1.51,
-      "ma5": 712.792,
-      "ma20": 680.358,
-      "ma60": 627.558,
-      "priceVsMa20Pct": 4.2,
-      "priceVsMa60Pct": 12.97,
-      "ma20Slope5dPct": 2.96,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 73.3,
-      "changePct5d": -0.32,
-      "changePct20d": 9.26,
-      "volumeRatio": 1.3,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多",
-        "過熱"
-      ]
-    },
-    "AMD": {
-      "currentPrice": 424.1,
-      "currency": "USD",
-      "prevClose": 449.7,
-      "changePct1d": -5.69,
-      "ma5": 445.276,
-      "ma20": 371.712,
-      "ma60": 266.2843,
-      "priceVsMa20Pct": 14.09,
-      "priceVsMa60Pct": 59.27,
-      "ma20Slope5dPct": 13.94,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 67.6,
-      "changePct5d": -6.83,
-      "changePct20d": 52.34,
-      "volumeRatio": 0.6,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "量價背離警訊"
-      ]
-    },
-    "6285.TW": {
-      "currentPrice": 286,
-      "currency": "TWD",
-      "prevClose": 260,
-      "changePct1d": 10,
-      "ma5": 272.1,
-      "ma20": 242.1,
-      "ma60": 205.4417,
-      "priceVsMa20Pct": 18.13,
-      "priceVsMa60Pct": 39.21,
-      "ma20Slope5dPct": 2.41,
-      "cross5_20": {
-        "type": "golden",
-        "daysAgo": 6
-      },
-      "rsi14": 75.8,
-      "changePct5d": 10.42,
-      "changePct20d": 8.13,
-      "volumeRatio": 1.3,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多",
-        "短線轉強",
-        "過熱"
-      ]
-    },
-    "2412.TW": {
-      "currentPrice": 137,
-      "currency": "TWD",
-      "prevClose": 138,
-      "changePct1d": -0.72,
-      "ma5": 137.1,
-      "ma20": 136.45,
-      "ma60": 135.5833,
-      "priceVsMa20Pct": 0.4,
-      "priceVsMa60Pct": 1.04,
-      "ma20Slope5dPct": 0.24,
-      "cross5_20": {
-        "type": "golden",
         "daysAgo": 2
       },
-      "rsi14": 50,
-      "changePct5d": 1.11,
-      "changePct20d": -0.36,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多",
-        "短線轉強"
-      ]
-    },
-    "VRT": {
-      "currentPrice": 370.94,
-      "currency": "USD",
-      "prevClose": 376.23,
-      "changePct1d": -1.41,
-      "ma5": 370.442,
-      "ma20": 336.537,
-      "ma60": 289.235,
-      "priceVsMa20Pct": 10.22,
-      "priceVsMa60Pct": 28.25,
-      "ma20Slope5dPct": 5.31,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 68.1,
-      "changePct5d": 9.11,
-      "changePct20d": 20.69,
-      "volumeRatio": 0.8,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "8150.TW": {
-      "currentPrice": 82.3,
-      "currency": "TWD",
-      "prevClose": 80.9,
-      "changePct1d": 1.73,
-      "ma5": 83.92,
-      "ma20": 79.355,
-      "ma60": 66.9333,
-      "priceVsMa20Pct": 3.71,
-      "priceVsMa60Pct": 22.96,
-      "ma20Slope5dPct": 5.71,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 64.1,
-      "changePct5d": -9.56,
-      "changePct20d": 22.29,
+      "rsi14": 35.3,
+      "changePct5d": -2.46,
+      "changePct20d": -2.09,
       "volumeRatio": 0.4,
       "priceVolumeRelation": "sync",
       "verdict": [
-        "中長線偏多"
+        "中長線偏空",
+        "短線轉弱"
       ]
     },
-    "2458.TW": {
-      "currentPrice": 145,
-      "currency": "TWD",
-      "prevClose": 142.5,
-      "changePct1d": 1.75,
-      "ma5": 145,
-      "ma20": 140.9,
-      "ma60": 133.875,
-      "priceVsMa20Pct": 2.91,
-      "priceVsMa60Pct": 8.31,
-      "ma20Slope5dPct": 1.48,
+    "UNH": {
+      "currentPrice": 389.24,
+      "currency": "USD",
+      "prevClose": 391.13,
+      "changePct1d": -0.48,
+      "ma5": 394.894,
+      "ma20": 375.069,
+      "ma60": 318.2877,
+      "priceVsMa20Pct": 3.78,
+      "priceVsMa60Pct": 22.29,
+      "ma20Slope5dPct": 4.89,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 59.8,
-      "changePct5d": -3.33,
-      "changePct20d": 5.07,
-      "volumeRatio": 0.5,
+      "rsi14": 65.4,
+      "changePct5d": -1.8,
+      "changePct20d": 12.49,
+      "volumeRatio": 0.6,
       "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏多"
       ]
     },
-    "2368.TW": {
-      "currentPrice": 1250,
+    "3037.TW": {
+      "currentPrice": 823,
       "currency": "TWD",
-      "prevClose": 1290,
-      "changePct1d": -3.1,
-      "ma5": 1342,
-      "ma20": 1357.75,
-      "ma60": 1064,
-      "priceVsMa20Pct": -7.94,
-      "priceVsMa60Pct": 17.48,
-      "ma20Slope5dPct": 3.82,
+      "prevClose": 818,
+      "changePct1d": 0.61,
+      "ma5": 831.8,
+      "ma20": 837.85,
+      "ma60": 626.9333,
+      "priceVsMa20Pct": -1.77,
+      "priceVsMa60Pct": 31.27,
+      "ma20Slope5dPct": 5.44,
       "cross5_20": {
         "type": "death",
         "daysAgo": 0
       },
-      "rsi14": 38.2,
-      "changePct5d": -10.71,
-      "changePct20d": 6.38,
-      "volumeRatio": 1.4,
-      "priceVolumeRelation": "divergence_down_high_vol",
-      "verdict": [
-        "中長線偏多",
-        "短線轉弱",
-        "量價背離警訊"
-      ]
-    },
-    "2345.TW": {
-      "currentPrice": 2495,
-      "currency": "TWD",
-      "prevClose": 2505,
-      "changePct1d": -0.4,
-      "ma5": 2527,
-      "ma20": 2361,
-      "ma60": 1834.3333,
-      "priceVsMa20Pct": 5.68,
-      "priceVsMa60Pct": 36.02,
-      "ma20Slope5dPct": 6.42,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 60.2,
-      "changePct5d": -3.67,
-      "changePct20d": 20.53,
-      "volumeRatio": 0.6,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "量價背離警訊"
-      ]
-    },
-    "3008.TW": {
-      "currentPrice": 3290,
-      "currency": "TWD",
-      "prevClose": 3445,
-      "changePct1d": -4.5,
-      "ma5": 3103,
-      "ma20": 2704.75,
-      "ma60": 2472.5833,
-      "priceVsMa20Pct": 21.64,
-      "priceVsMa60Pct": 33.06,
-      "ma20Slope5dPct": 4.18,
-      "cross5_20": {
-        "type": "golden",
-        "daysAgo": 3
-      },
-      "rsi14": 74.4,
-      "changePct5d": 29.27,
-      "changePct20d": 26.3,
-      "volumeRatio": 2.3,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多",
-        "短線轉強",
-        "過熱"
-      ]
-    },
-    "6869.TW": {
-      "currentPrice": 78.8,
-      "currency": "TWD",
-      "prevClose": 81.1,
-      "changePct1d": -2.84,
-      "ma5": 82.94,
-      "ma20": 84.505,
-      "ma60": 92.8633,
-      "priceVsMa20Pct": -6.75,
-      "priceVsMa60Pct": -15.14,
-      "ma20Slope5dPct": -0.68,
-      "cross5_20": {
-        "type": "death",
-        "daysAgo": 1
-      },
-      "rsi14": 44.8,
-      "changePct5d": -9.32,
-      "changePct20d": -9.63,
-      "volumeRatio": 1.2,
-      "priceVolumeRelation": "divergence_down_high_vol",
-      "verdict": [
-        "中長線偏空",
-        "短線轉弱",
-        "量價背離警訊"
-      ]
-    },
-    "NKE": {
-      "currentPrice": 41.88,
-      "currency": "USD",
-      "prevClose": 42.02,
-      "changePct1d": -0.33,
-      "ma5": 42.196,
-      "ma20": 44.045,
-      "ma60": 49.9823,
-      "priceVsMa20Pct": -4.92,
-      "priceVsMa60Pct": -16.21,
-      "ma20Slope5dPct": -1.49,
-      "cross5_20": {
-        "type": "death",
-        "daysAgo": 9
-      },
-      "rsi14": 23,
-      "changePct5d": -5.12,
-      "changePct20d": -9.02,
-      "volumeRatio": 1.3,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏空",
-        "短線轉弱",
-        "超賣"
-      ]
-    },
-    "0050.TW": {
-      "currentPrice": 94.9,
-      "currency": "TWD",
-      "prevClose": 95.4,
-      "changePct1d": -0.52,
-      "ma5": 95.74,
-      "ma20": 92.735,
-      "ma60": 82.5592,
-      "priceVsMa20Pct": 2.33,
-      "priceVsMa60Pct": 14.95,
-      "ma20Slope5dPct": 3.44,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 57,
-      "changePct5d": -2.06,
-      "changePct20d": 12.77,
-      "volumeRatio": 1.2,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "SNDK": {
-      "currentPrice": 1407.61,
-      "currency": "USD",
-      "prevClose": 1382.72,
-      "changePct1d": 1.8,
-      "ma5": 1447.428,
-      "ma20": 1217.489,
-      "ma60": 872.6075,
-      "priceVsMa20Pct": 15.62,
-      "priceVsMa60Pct": 61.31,
-      "ma20Slope5dPct": 12,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 67.3,
-      "changePct5d": -9.9,
-      "changePct20d": 52.84,
-      "volumeRatio": 0.9,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "量價背離警訊"
-      ]
-    },
-    "3443.TW": {
-      "currentPrice": 4740,
-      "currency": "TWD",
-      "prevClose": 4845,
-      "changePct1d": -2.17,
-      "ma5": 5112,
-      "ma20": 4594.25,
-      "ma60": 3213.25,
-      "priceVsMa20Pct": 3.17,
-      "priceVsMa60Pct": 47.51,
-      "ma20Slope5dPct": 12.3,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 61.6,
-      "changePct5d": -17.28,
-      "changePct20d": 45.62,
-      "volumeRatio": 1.2,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "8299.TWO": {
-      "currentPrice": 2735,
-      "currency": "TWD",
-      "prevClose": 2650,
-      "changePct1d": 3.21,
-      "ma5": 2722,
-      "ma20": 2194.25,
-      "ma60": 1907.4167,
-      "priceVsMa20Pct": 24.64,
-      "priceVsMa60Pct": 43.39,
-      "ma20Slope5dPct": 13.87,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 73.6,
-      "changePct5d": 2.43,
-      "changePct20d": 74.2,
+      "rsi14": 52.3,
+      "changePct5d": -7.74,
+      "changePct20d": 15.92,
       "volumeRatio": 0.9,
       "priceVolumeRelation": "sync",
       "verdict": [
         "中長線偏多",
-        "過熱"
+        "短線轉弱"
       ]
     },
-    "LLY": {
-      "currentPrice": 1004.92,
+    "AAPL": {
+      "currentPrice": 298.97,
       "currency": "USD",
-      "prevClose": 1006.7,
-      "changePct1d": -0.18,
-      "ma5": 996.846,
-      "ma20": 944.4455,
-      "ma60": 953.905,
-      "priceVsMa20Pct": 6.4,
-      "priceVsMa60Pct": 5.35,
-      "ma20Slope5dPct": 2.14,
+      "prevClose": 297.84,
+      "changePct1d": 0.38,
+      "ma5": 298.824,
+      "ma20": 284.426,
+      "ma60": 267.3508,
+      "priceVsMa20Pct": 5.11,
+      "priceVsMa60Pct": 11.83,
+      "ma20Slope5dPct": 2.8,
       "cross5_20": {
-        "type": "golden",
-        "daysAgo": 8
+        "type": "none",
+        "daysAgo": null
       },
-      "rsi14": 74,
-      "changePct5d": 5.95,
-      "changePct20d": 8.4,
-      "volumeRatio": 0.8,
+      "rsi14": 83.5,
+      "changePct5d": 1.41,
+      "changePct20d": 12.32,
+      "volumeRatio": 0.9,
       "priceVolumeRelation": "divergence_up_low_vol",
       "verdict": [
         "中長線偏多",
-        "短線轉強",
         "過熱",
         "量價背離警訊"
       ]
     },
-    "NVO": {
-      "currentPrice": 44.74,
+    "AMZN": {
+      "currentPrice": 259.34,
       "currency": "USD",
-      "prevClose": 45.8,
-      "changePct1d": -2.31,
-      "ma5": 46.204,
-      "ma20": 43.2695,
-      "ma60": 39.8317,
-      "priceVsMa20Pct": 3.4,
-      "priceVsMa60Pct": 12.32,
-      "ma20Slope5dPct": 3.77,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 67.6,
-      "changePct5d": -2.89,
-      "changePct20d": 10.41,
-      "volumeRatio": 0.9,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "量價背離警訊"
-      ]
-    },
-    "GEV": {
-      "currentPrice": 1049.23,
-      "currency": "USD",
-      "prevClose": 1090.53,
-      "changePct1d": -3.79,
-      "ma5": 1069.478,
-      "ma20": 1077.3865,
-      "ma60": 947.8573,
-      "priceVsMa20Pct": -2.61,
-      "priceVsMa60Pct": 10.69,
-      "ma20Slope5dPct": 1.9,
+      "prevClose": 264.86,
+      "changePct1d": -2.08,
+      "ma5": 265.138,
+      "ma20": 265.8275,
+      "ma60": 234.16,
+      "priceVsMa20Pct": -2.44,
+      "priceVsMa60Pct": 10.75,
+      "ma20Slope5dPct": 1.5,
       "cross5_20": {
         "type": "death",
-        "daysAgo": 2
+        "daysAgo": 0
       },
-      "rsi14": 39.7,
-      "changePct5d": 0.87,
-      "changePct20d": 4.64,
+      "rsi14": 45.5,
+      "changePct5d": -2.44,
+      "changePct20d": 3.77,
       "volumeRatio": 0.9,
       "priceVolumeRelation": "neutral",
       "verdict": [
@@ -1333,268 +663,1030 @@
         "短線轉弱"
       ]
     },
-    "3044.TW": {
-      "currentPrice": 469,
+    "2345.TW": {
+      "currentPrice": 2355,
       "currency": "TWD",
-      "prevClose": 477.5,
-      "changePct1d": -1.78,
-      "ma5": 493.7,
-      "ma20": 473.875,
-      "ma60": 405.1333,
-      "priceVsMa20Pct": -1.03,
-      "priceVsMa60Pct": 15.76,
-      "ma20Slope5dPct": 5.45,
+      "prevClose": 2390,
+      "changePct1d": -1.46,
+      "ma5": 2484,
+      "ma20": 2388.5,
+      "ma60": 1868.5,
+      "priceVsMa20Pct": -1.4,
+      "priceVsMa60Pct": 26.04,
+      "ma20Slope5dPct": 4.71,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 46.6,
-      "changePct5d": -4.19,
-      "changePct20d": 13.97,
-      "volumeRatio": 0.6,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "3665.TW": {
-      "currentPrice": 2025,
-      "currency": "TWD",
-      "prevClose": 2095,
-      "changePct1d": -3.34,
-      "ma5": 2329,
-      "ma20": 2620.5,
-      "ma60": 2050.9167,
-      "priceVsMa20Pct": -22.72,
-      "priceVsMa60Pct": -1.26,
-      "ma20Slope5dPct": 0.03,
-      "cross5_20": {
-        "type": "death",
-        "daysAgo": 2
-      },
-      "rsi14": 31.4,
-      "changePct5d": -30.29,
-      "changePct20d": -14.38,
-      "volumeRatio": 1.5,
-      "priceVolumeRelation": "divergence_down_high_vol",
-      "verdict": [
-        "短線轉弱",
-        "量價背離警訊"
-      ]
-    },
-    "6770.TW": {
-      "currentPrice": 62,
-      "currency": "TWD",
-      "prevClose": 62.8,
-      "changePct1d": -1.27,
-      "ma5": 61.92,
-      "ma20": 57.355,
-      "ma60": 61.1417,
-      "priceVsMa20Pct": 8.1,
-      "priceVsMa60Pct": 1.4,
-      "ma20Slope5dPct": 3.68,
-      "cross5_20": {
-        "type": "golden",
-        "daysAgo": 8
-      },
-      "rsi14": 65.4,
-      "changePct5d": -0.8,
-      "changePct20d": 17.87,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "短線轉強",
-        "量價背離警訊"
-      ]
-    },
-    "NOW": {
-      "currentPrice": 95.07,
-      "currency": "USD",
-      "prevClose": 90.5,
-      "changePct1d": 5.05,
-      "ma5": 90.622,
-      "ma20": 91.9045,
-      "ma60": 101.2127,
-      "priceVsMa20Pct": 3.44,
-      "priceVsMa60Pct": -6.07,
-      "ma20Slope5dPct": -0.6,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 58.1,
-      "changePct5d": 4.27,
-      "changePct20d": -1.64,
-      "volumeRatio": 1.2,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏空"
-      ]
-    },
-    "4977.TW": {
-      "currentPrice": 209,
-      "currency": "TWD",
-      "prevClose": 226.5,
-      "changePct1d": -7.73,
-      "ma5": 237,
-      "ma20": 229.2,
-      "ma60": 194.5167,
-      "priceVsMa20Pct": -8.81,
-      "priceVsMa60Pct": 7.45,
-      "ma20Slope5dPct": 3.55,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 51.3,
-      "changePct5d": -15.04,
-      "changePct20d": -11.25,
-      "volumeRatio": 0.5,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "3661.TW": {
-      "currentPrice": 4590,
-      "currency": "TWD",
-      "prevClose": 4605,
-      "changePct1d": -0.33,
-      "ma5": 4823,
-      "ma20": 4415.5,
-      "ma60": 3580.5833,
-      "priceVsMa20Pct": 3.95,
-      "priceVsMa60Pct": 28.19,
-      "ma20Slope5dPct": 9.45,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 58.2,
-      "changePct5d": -14.6,
-      "changePct20d": 30.58,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "ARM": {
-      "currentPrice": 209.16,
-      "currency": "USD",
-      "prevClose": 228.5,
-      "changePct1d": -8.46,
-      "ma5": 215.888,
-      "ma20": 208.986,
-      "ma60": 160.7883,
-      "priceVsMa20Pct": 0.08,
-      "priceVsMa60Pct": 30.08,
-      "ma20Slope5dPct": 6.97,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 47.6,
-      "changePct5d": -1.93,
-      "changePct20d": 25.45,
-      "volumeRatio": 0.9,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "3019.TW": {
-      "currentPrice": 147,
-      "currency": "TWD",
-      "prevClose": 144.5,
-      "changePct1d": 1.73,
-      "ma5": 144.6,
-      "ma20": 140.6,
-      "ma60": 135.5083,
-      "priceVsMa20Pct": 4.55,
-      "priceVsMa60Pct": 8.48,
-      "ma20Slope5dPct": 3,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 55.7,
-      "changePct5d": 0.34,
-      "changePct20d": 13.95,
+      "rsi14": 54.8,
+      "changePct5d": -3.29,
+      "changePct20d": 7.53,
       "volumeRatio": 0.8,
       "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏多"
       ]
     },
-    "6669.TW": {
-      "currentPrice": 5090,
-      "currency": "TWD",
-      "prevClose": 5115,
-      "changePct1d": -0.49,
-      "ma5": 5402,
-      "ma20": 4883,
-      "ma60": 4149.3333,
-      "priceVsMa20Pct": 4.24,
-      "priceVsMa60Pct": 22.67,
-      "ma20Slope5dPct": 9.39,
+    "GOOGL": {
+      "currentPrice": 387.66,
+      "currency": "USD",
+      "prevClose": 396.94,
+      "changePct1d": -2.34,
+      "ma5": 397.014,
+      "ma20": 378.6365,
+      "ma60": 331.3115,
+      "priceVsMa20Pct": 2.38,
+      "priceVsMa60Pct": 17.01,
+      "ma20Slope5dPct": 4.13,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 54,
-      "changePct5d": -4.68,
-      "changePct20d": 33.77,
-      "volumeRatio": 0.5,
+      "rsi14": 68.9,
+      "changePct5d": 0.08,
+      "changePct20d": 16.66,
+      "volumeRatio": 1.4,
       "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏多"
       ]
     },
-    "8271.TW": {
-      "currentPrice": 236,
-      "currency": "TWD",
-      "prevClose": 242,
-      "changePct1d": -2.48,
-      "ma5": 245.4,
-      "ma20": 231.85,
-      "ma60": 175.5417,
-      "priceVsMa20Pct": 1.79,
-      "priceVsMa60Pct": 34.44,
-      "ma20Slope5dPct": 9.67,
+    "MRVL": {
+      "currentPrice": 176.27,
+      "currency": "USD",
+      "prevClose": 168.93,
+      "changePct1d": 4.35,
+      "ma5": 176.524,
+      "ma20": 166.898,
+      "ma60": 123.1203,
+      "priceVsMa20Pct": 5.62,
+      "priceVsMa60Pct": 43.17,
+      "ma20Slope5dPct": 5.56,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 63,
-      "changePct5d": -7.81,
-      "changePct20d": 31.48,
+      "rsi14": 61.3,
+      "changePct5d": 7.16,
+      "changePct20d": 16.5,
+      "volumeRatio": 1,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "2409.TW": {
+      "currentPrice": 18.75,
+      "currency": "TWD",
+      "prevClose": 19.15,
+      "changePct1d": -2.09,
+      "ma5": 19.15,
+      "ma20": 18.355,
+      "ma60": 17.165,
+      "priceVsMa20Pct": 2.15,
+      "priceVsMa60Pct": 9.23,
+      "ma20Slope5dPct": -0.81,
+      "cross5_20": {
+        "type": "golden",
+        "daysAgo": 6
+      },
+      "rsi14": 59.7,
+      "changePct5d": -7.18,
+      "changePct20d": -0.79,
+      "volumeRatio": 0.4,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "短線轉強"
+      ]
+    },
+    "3034.TW": {
+      "currentPrice": 472.5,
+      "currency": "TWD",
+      "prevClose": 466,
+      "changePct1d": 1.39,
+      "ma5": 474.7,
+      "ma20": 448.725,
+      "ma60": 408.1417,
+      "priceVsMa20Pct": 5.3,
+      "priceVsMa60Pct": 15.77,
+      "ma20Slope5dPct": 3.59,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 70.1,
+      "changePct5d": -2.88,
+      "changePct20d": 13.72,
+      "volumeRatio": 0.8,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多",
+        "過熱"
+      ]
+    },
+    "6531.TW": {
+      "currentPrice": 973,
+      "currency": "TWD",
+      "prevClose": 1025,
+      "changePct1d": -5.07,
+      "ma5": 1052.6,
+      "ma20": 926.1,
+      "ma60": 642.0083,
+      "priceVsMa20Pct": 5.06,
+      "priceVsMa60Pct": 51.56,
+      "ma20Slope5dPct": 12.38,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 61.1,
+      "changePct5d": -6.44,
+      "changePct20d": 35.14,
+      "volumeRatio": 1.1,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "3189.TW": {
+      "currentPrice": 504,
+      "currency": "TWD",
+      "prevClose": 513,
+      "changePct1d": -1.75,
+      "ma5": 506,
+      "ma20": 503.55,
+      "ma60": 394.9833,
+      "priceVsMa20Pct": 0.09,
+      "priceVsMa60Pct": 27.6,
+      "ma20Slope5dPct": 4.76,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 49.3,
+      "changePct5d": 1.31,
+      "changePct20d": 6.44,
+      "volumeRatio": 1.1,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "4576.TW": {
+      "currentPrice": 236.5,
+      "currency": "TWD",
+      "prevClose": 252,
+      "changePct1d": -6.15,
+      "ma5": 250.8,
+      "ma20": 227.725,
+      "ma60": 167.825,
+      "priceVsMa20Pct": 3.85,
+      "priceVsMa60Pct": 40.92,
+      "ma20Slope5dPct": 6.54,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 60.7,
+      "changePct5d": -4.83,
+      "changePct20d": 21.91,
+      "volumeRatio": 0.7,
+      "priceVolumeRelation": "divergence_up_low_vol",
+      "verdict": [
+        "中長線偏多",
+        "量價背離警訊"
+      ]
+    },
+    "2301.TW": {
+      "currentPrice": 204,
+      "currency": "TWD",
+      "prevClose": 206.5,
+      "changePct1d": -1.21,
+      "ma5": 205.9,
+      "ma20": 191.35,
+      "ma60": 171.1667,
+      "priceVsMa20Pct": 6.61,
+      "priceVsMa60Pct": 19.18,
+      "ma20Slope5dPct": 5.84,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 64.3,
+      "changePct5d": -3.55,
+      "changePct20d": 18.95,
+      "volumeRatio": 0.5,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "3481.TW": {
+      "currentPrice": 36.95,
+      "currency": "TWD",
+      "prevClose": 37.45,
+      "changePct1d": -1.34,
+      "ma5": 36.92,
+      "ma20": 29.9425,
+      "ma60": 27.5117,
+      "priceVsMa20Pct": 23.4,
+      "priceVsMa60Pct": 34.31,
+      "ma20Slope5dPct": 9.45,
+      "cross5_20": {
+        "type": "golden",
+        "daysAgo": 9
+      },
+      "rsi14": 80.4,
+      "changePct5d": -1.47,
+      "changePct20d": 42.12,
+      "volumeRatio": 1.2,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多",
+        "短線轉強",
+        "過熱"
+      ]
+    },
+    "QCOM": {
+      "currentPrice": 195.61,
+      "currency": "USD",
+      "prevClose": 203.64,
+      "changePct1d": -3.94,
+      "ma5": 202.798,
+      "ma20": 183.1345,
+      "ma60": 149.7097,
+      "priceVsMa20Pct": 6.81,
+      "priceVsMa60Pct": 30.66,
+      "ma20Slope5dPct": 10.14,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 62.5,
+      "changePct5d": -6.99,
+      "changePct20d": 44.3,
       "volumeRatio": 0.6,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "3017.TW": {
+      "currentPrice": 2340,
+      "currency": "TWD",
+      "prevClose": 2390,
+      "changePct1d": -2.09,
+      "ma5": 2430,
+      "ma20": 2615,
+      "ma60": 2205.0833,
+      "priceVsMa20Pct": -10.52,
+      "priceVsMa60Pct": 6.12,
+      "ma20Slope5dPct": -0.13,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 7
+      },
+      "rsi14": 25.4,
+      "changePct5d": -9.48,
+      "changePct20d": -8.77,
+      "volumeRatio": 0.6,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "短線轉弱",
+        "超賣"
+      ]
+    },
+    "QQQ": {
+      "currentPrice": 701.53,
+      "currency": "USD",
+      "prevClose": 705.88,
+      "changePct1d": -0.62,
+      "ma5": 710.168,
+      "ma20": 686.1725,
+      "ma60": 630.8445,
+      "priceVsMa20Pct": 2.24,
+      "priceVsMa60Pct": 11.2,
+      "ma20Slope5dPct": 2.49,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 71.5,
+      "changePct5d": -0.81,
+      "changePct20d": 8.88,
+      "volumeRatio": 1.2,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多",
+        "過熱"
+      ]
+    },
+    "AMD": {
+      "currentPrice": 414.05,
+      "currency": "USD",
+      "prevClose": 420.99,
+      "changePct1d": -1.65,
+      "ma5": 430.868,
+      "ma20": 385.492,
+      "ma60": 273.5892,
+      "priceVsMa20Pct": 7.41,
+      "priceVsMa60Pct": 51.34,
+      "ma20Slope5dPct": 11.26,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 66.1,
+      "changePct5d": -7.64,
+      "changePct20d": 45.54,
+      "volumeRatio": 0.8,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "6285.TW": {
+      "currentPrice": 279,
+      "currency": "TWD",
+      "prevClose": 292,
+      "changePct1d": -4.45,
+      "ma5": 275.8,
+      "ma20": 245.6,
+      "ma60": 209.2,
+      "priceVsMa20Pct": 13.6,
+      "priceVsMa60Pct": 33.37,
+      "ma20Slope5dPct": 2.15,
+      "cross5_20": {
+        "type": "golden",
+        "daysAgo": 8
+      },
+      "rsi14": 71.6,
+      "changePct5d": 3.14,
+      "changePct20d": 11.82,
+      "volumeRatio": 1.4,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多",
+        "短線轉強",
+        "過熱"
+      ]
+    },
+    "6213.TW": {
+      "currentPrice": 236.5,
+      "currency": "TWD",
+      "prevClose": 240.5,
+      "changePct1d": -1.66,
+      "ma5": 248.6,
+      "ma20": 271.9,
+      "ma60": 200.675,
+      "priceVsMa20Pct": -13.02,
+      "priceVsMa60Pct": 17.85,
+      "ma20Slope5dPct": -1.4,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 3
+      },
+      "rsi14": 44.2,
+      "changePct5d": -13.53,
+      "changePct20d": -17.31,
+      "volumeRatio": 0.7,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "短線轉弱"
+      ]
+    },
+    "2412.TW": {
+      "currentPrice": 139,
+      "currency": "TWD",
+      "prevClose": 142.5,
+      "changePct1d": -2.46,
+      "ma5": 138.8,
+      "ma20": 136.825,
+      "ma60": 135.8667,
+      "priceVsMa20Pct": 1.59,
+      "priceVsMa60Pct": 2.31,
+      "ma20Slope5dPct": 0.39,
+      "cross5_20": {
+        "type": "golden",
+        "daysAgo": 4
+      },
+      "rsi14": 57.6,
+      "changePct5d": 1.09,
+      "changePct20d": 1.46,
+      "volumeRatio": 1.8,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多",
+        "短線轉強"
+      ]
+    },
+    "VRT": {
+      "currentPrice": 322.63,
+      "currency": "USD",
+      "prevClose": 339.73,
+      "changePct1d": -5.03,
+      "ma5": 355.904,
+      "ma20": 338.3125,
+      "ma60": 292.1215,
+      "priceVsMa20Pct": -4.64,
+      "priceVsMa60Pct": 10.44,
+      "ma20Slope5dPct": 3.84,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 55,
+      "changePct5d": -12.12,
+      "changePct20d": 3.26,
+      "volumeRatio": 1.5,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "8150.TW": {
+      "currentPrice": 74.4,
+      "currency": "TWD",
+      "prevClose": 77.6,
+      "changePct1d": -4.12,
+      "ma5": 79.82,
+      "ma20": 79.88,
+      "ma60": 67.69,
+      "priceVsMa20Pct": -6.86,
+      "priceVsMa60Pct": 9.91,
+      "ma20Slope5dPct": 3.2,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 0
+      },
+      "rsi14": 56.4,
+      "changePct5d": -12.98,
+      "changePct20d": 0.4,
+      "volumeRatio": 0.4,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多",
+        "短線轉弱"
+      ]
+    },
+    "2458.TW": {
+      "currentPrice": 153,
+      "currency": "TWD",
+      "prevClose": 147,
+      "changePct1d": 4.08,
+      "ma5": 147.4,
+      "ma20": 142.3,
+      "ma60": 134.9,
+      "priceVsMa20Pct": 7.52,
+      "priceVsMa60Pct": 13.42,
+      "ma20Slope5dPct": 1.86,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 68.6,
+      "changePct5d": 7.37,
+      "changePct20d": 11.68,
+      "volumeRatio": 1.2,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "2368.TW": {
+      "currentPrice": 1235,
+      "currency": "TWD",
+      "prevClose": 1285,
+      "changePct1d": -3.89,
+      "ma5": 1298,
+      "ma20": 1362,
+      "ma60": 1078.6167,
+      "priceVsMa20Pct": -9.32,
+      "priceVsMa60Pct": 14.5,
+      "ma20Slope5dPct": 2.06,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 2
+      },
+      "rsi14": 41.6,
+      "changePct5d": -8.52,
+      "changePct20d": 0.82,
+      "volumeRatio": 1,
+      "priceVolumeRelation": "divergence_down_high_vol",
+      "verdict": [
+        "中長線偏多",
+        "短線轉弱",
+        "量價背離警訊"
+      ]
+    },
+    "3008.TW": {
+      "currentPrice": 3200,
+      "currency": "TWD",
+      "prevClose": 3365,
+      "changePct1d": -4.9,
+      "ma5": 3287,
+      "ma20": 2765.25,
+      "ma60": 2505.0833,
+      "priceVsMa20Pct": 15.72,
+      "priceVsMa60Pct": 27.74,
+      "ma20Slope5dPct": 5.4,
+      "cross5_20": {
+        "type": "golden",
+        "daysAgo": 5
+      },
+      "rsi14": 69.2,
+      "changePct5d": 12.28,
+      "changePct20d": 20.98,
+      "volumeRatio": 0.6,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多",
+        "短線轉強"
+      ]
+    },
+    "6869.TW": {
+      "currentPrice": 78.8,
+      "currency": "TWD",
+      "prevClose": 77.2,
+      "changePct1d": 2.07,
+      "ma5": 79.66,
+      "ma20": 83.43,
+      "ma60": 91.955,
+      "priceVsMa20Pct": -5.55,
+      "priceVsMa60Pct": -14.31,
+      "ma20Slope5dPct": -2.28,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 3
+      },
+      "rsi14": 42.6,
+      "changePct5d": -9.94,
+      "changePct20d": -11.76,
+      "volumeRatio": 0.6,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏空",
+        "短線轉弱"
+      ]
+    },
+    "NKE": {
+      "currentPrice": 42.42,
+      "currency": "USD",
+      "prevClose": 42.57,
+      "changePct1d": -0.35,
+      "ma5": 42.246,
+      "ma20": 43.651,
+      "ma60": 49.2573,
+      "priceVsMa20Pct": -2.82,
+      "priceVsMa60Pct": -13.88,
+      "ma20Slope5dPct": -2.11,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 33.9,
+      "changePct5d": 0.17,
+      "changePct20d": -8.56,
+      "volumeRatio": 1.2,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏空"
+      ]
+    },
+    "0050.TW": {
+      "currentPrice": 92.5,
+      "currency": "TWD",
+      "prevClose": 93.1,
+      "changePct1d": -0.64,
+      "ma5": 94.39,
+      "ma20": 93.4875,
+      "ma60": 83.1617,
+      "priceVsMa20Pct": -1.06,
+      "priceVsMa60Pct": 11.23,
+      "ma20Slope5dPct": 2.64,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 56.4,
+      "changePct5d": -3.14,
+      "changePct20d": 7.56,
+      "volumeRatio": 1.2,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "SNDK": {
+      "currentPrice": 1383.29,
+      "currency": "USD",
+      "prevClose": 1333.01,
+      "changePct1d": 3.77,
+      "ma5": 1390.772,
+      "ma20": 1262.4785,
+      "ma60": 895.9382,
+      "priceVsMa20Pct": 9.57,
+      "priceVsMa60Pct": 54.4,
+      "ma20Slope5dPct": 10.53,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 66.5,
+      "changePct5d": -4.73,
+      "changePct20d": 53.11,
+      "volumeRatio": 0.9,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "3443.TW": {
+      "currentPrice": 4605,
+      "currency": "TWD",
+      "prevClose": 4465,
+      "changePct1d": 3.14,
+      "ma5": 4746,
+      "ma20": 4682,
+      "ma60": 3281.9167,
+      "priceVsMa20Pct": -1.64,
+      "priceVsMa60Pct": 40.31,
+      "ma20Slope5dPct": 7.76,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 56.9,
+      "changePct5d": -13.6,
+      "changePct20d": 23.29,
+      "volumeRatio": 1.6,
       "priceVolumeRelation": "divergence_down_high_vol",
       "verdict": [
         "中長線偏多",
         "量價背離警訊"
       ]
     },
-    "3706.TW": {
-      "currentPrice": 80.1,
+    "8299.TWO": {
+      "currentPrice": 2265,
       "currency": "TWD",
-      "prevClose": 79.9,
-      "changePct1d": 0.25,
-      "ma5": 81.84,
-      "ma20": 83.455,
-      "ma60": 81.1567,
-      "priceVsMa20Pct": -4.02,
-      "priceVsMa60Pct": -1.3,
-      "ma20Slope5dPct": -0.27,
+      "prevClose": 2465,
+      "changePct1d": -8.11,
+      "ma5": 2599,
+      "ma20": 2260.75,
+      "ma60": 1923.75,
+      "priceVsMa20Pct": 0.19,
+      "priceVsMa60Pct": 17.74,
+      "ma20Slope5dPct": 11.9,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 54.5,
+      "changePct5d": -13.55,
+      "changePct20d": 28.33,
+      "volumeRatio": 1.4,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "LLY": {
+      "currentPrice": 1021.41,
+      "currency": "USD",
+      "prevClose": 988.09,
+      "changePct1d": 3.37,
+      "ma5": 1007.374,
+      "ma20": 953.7745,
+      "ma60": 952.9287,
+      "priceVsMa20Pct": 7.09,
+      "priceVsMa60Pct": 7.19,
+      "ma20Slope5dPct": 2.57,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 77.8,
+      "changePct5d": 3.19,
+      "changePct20d": 13.11,
+      "volumeRatio": 1.1,
+      "priceVolumeRelation": "divergence_up_low_vol",
+      "verdict": [
+        "中長線偏多",
+        "過熱",
+        "量價背離警訊"
+      ]
+    },
+    "NVO": {
+      "currentPrice": 44.28,
+      "currency": "USD",
+      "prevClose": 44.28,
+      "changePct1d": 0,
+      "ma5": 45.236,
+      "ma20": 43.7035,
+      "ma60": 39.8568,
+      "priceVsMa20Pct": 1.32,
+      "priceVsMa60Pct": 11.1,
+      "ma20Slope5dPct": 2.83,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 70.8,
+      "changePct5d": -5.79,
+      "changePct20d": 12.33,
+      "volumeRatio": 0.5,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多",
+        "過熱"
+      ]
+    },
+    "GEV": {
+      "currentPrice": 1011.8,
+      "currency": "USD",
+      "prevClose": 1012.25,
+      "changePct1d": -0.04,
+      "ma5": 1045.276,
+      "ma20": 1079.515,
+      "ma60": 953.8908,
+      "priceVsMa20Pct": -6.27,
+      "priceVsMa60Pct": 6.07,
+      "ma20Slope5dPct": 1.3,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 4
+      },
+      "rsi14": 42.1,
+      "changePct5d": -5.61,
+      "changePct20d": 2.07,
+      "volumeRatio": 0.8,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多",
+        "短線轉弱"
+      ]
+    },
+    "3044.TW": {
+      "currentPrice": 462.5,
+      "currency": "TWD",
+      "prevClose": 462.5,
+      "changePct1d": 0,
+      "ma5": 476.7,
+      "ma20": 477.25,
+      "ma60": 407.925,
+      "priceVsMa20Pct": -3.09,
+      "priceVsMa60Pct": 13.38,
+      "ma20Slope5dPct": 3.27,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 0
+      },
+      "rsi14": 52,
+      "changePct5d": -12.57,
+      "changePct20d": 4.17,
+      "volumeRatio": 0.4,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多",
+        "短線轉弱"
+      ]
+    },
+    "3665.TW": {
+      "currentPrice": 1965,
+      "currency": "TWD",
+      "prevClose": 1990,
+      "changePct1d": -1.26,
+      "ma5": 2065,
+      "ma20": 2574,
+      "ma60": 2072.9167,
+      "priceVsMa20Pct": -23.66,
+      "priceVsMa60Pct": -5.21,
+      "ma20Slope5dPct": -3.14,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 4
+      },
+      "rsi14": 23.5,
+      "changePct5d": -21.4,
+      "changePct20d": -18.97,
+      "volumeRatio": 0.6,
+      "priceVolumeRelation": "divergence_down_high_vol",
+      "verdict": [
+        "中長線偏空",
+        "短線轉弱",
+        "超賣",
+        "量價背離警訊"
+      ]
+    },
+    "6770.TW": {
+      "currentPrice": 57.8,
+      "currency": "TWD",
+      "prevClose": 58.5,
+      "changePct1d": -1.2,
+      "ma5": 60.66,
+      "ma20": 57.9,
+      "ma60": 60.945,
+      "priceVsMa20Pct": -0.17,
+      "priceVsMa60Pct": -5.16,
+      "ma20Slope5dPct": 3.4,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 58.1,
+      "changePct5d": -4.46,
+      "changePct20d": 7.04,
+      "volumeRatio": 0.5,
+      "priceVolumeRelation": "sync",
+      "verdict": []
+    },
+    "NOW": {
+      "currentPrice": 101.83,
+      "currency": "USD",
+      "prevClose": 103.42,
+      "changePct1d": -1.54,
+      "ma5": 95.574,
+      "ma20": 92.174,
+      "ma60": 101.2157,
+      "priceVsMa20Pct": 10.48,
+      "priceVsMa60Pct": 0.61,
+      "ma20Slope5dPct": -0.5,
+      "cross5_20": {
+        "type": "golden",
+        "daysAgo": 1
+      },
+      "rsi14": 67.5,
+      "changePct5d": 14.42,
+      "changePct20d": 1.69,
+      "volumeRatio": 1.9,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "短線轉強"
+      ]
+    },
+    "4977.TW": {
+      "currentPrice": 201,
+      "currency": "TWD",
+      "prevClose": 203,
+      "changePct1d": -0.99,
+      "ma5": 215,
+      "ma20": 224.725,
+      "ma60": 196.7417,
+      "priceVsMa20Pct": -10.56,
+      "priceVsMa60Pct": 2.16,
+      "ma20Slope5dPct": -1.39,
       "cross5_20": {
         "type": "death",
         "daysAgo": 1
       },
-      "rsi14": 46.6,
-      "changePct5d": -7.72,
-      "changePct20d": -4.76,
+      "rsi14": 46.8,
+      "changePct5d": -17.45,
+      "changePct20d": -20.24,
+      "volumeRatio": 0.4,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "短線轉弱"
+      ]
+    },
+    "3661.TW": {
+      "currentPrice": 4600,
+      "currency": "TWD",
+      "prevClose": 4430,
+      "changePct1d": 3.84,
+      "ma5": 4611,
+      "ma20": 4486.5,
+      "ma60": 3621.3333,
+      "priceVsMa20Pct": 2.53,
+      "priceVsMa60Pct": 27.03,
+      "ma20Slope5dPct": 6.21,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 60.7,
+      "changePct5d": -3.77,
+      "changePct20d": 15.43,
+      "volumeRatio": 0.8,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "ARM": {
+      "currentPrice": 223.15,
+      "currency": "USD",
+      "prevClose": 215.12,
+      "changePct1d": 3.73,
+      "ma5": 219.428,
+      "ma20": 213.37,
+      "ma60": 163.9368,
+      "priceVsMa20Pct": 4.58,
+      "priceVsMa60Pct": 36.12,
+      "ma20Slope5dPct": 6.44,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 58,
+      "changePct5d": 7.32,
+      "changePct20d": 27.16,
+      "volumeRatio": 1,
+      "priceVolumeRelation": "divergence_up_low_vol",
+      "verdict": [
+        "中長線偏多",
+        "量價背離警訊"
+      ]
+    },
+    "3019.TW": {
+      "currentPrice": 153.5,
+      "currency": "TWD",
+      "prevClose": 149.5,
+      "changePct1d": 2.68,
+      "ma5": 148.3,
+      "ma20": 142.725,
+      "ma60": 135.6083,
+      "priceVsMa20Pct": 7.55,
+      "priceVsMa60Pct": 13.19,
+      "ma20Slope5dPct": 3.48,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 66.2,
+      "changePct5d": 9.25,
+      "changePct20d": 17.62,
+      "volumeRatio": 1.3,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "6669.TW": {
+      "currentPrice": 4910,
+      "currency": "TWD",
+      "prevClose": 4890,
+      "changePct1d": 0.41,
+      "ma5": 5088,
+      "ma20": 4963,
+      "ma60": 4190.75,
+      "priceVsMa20Pct": -1.07,
+      "priceVsMa60Pct": 17.16,
+      "ma20Slope5dPct": 6.45,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 51.3,
+      "changePct5d": -12.01,
+      "changePct20d": 16.35,
+      "volumeRatio": 0.7,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "8271.TW": {
+      "currentPrice": 215,
+      "currency": "TWD",
+      "prevClose": 221.5,
+      "changePct1d": -2.93,
+      "ma5": 233.3,
+      "ma20": 233,
+      "ma60": 178.8083,
+      "priceVsMa20Pct": -7.73,
+      "priceVsMa60Pct": 20.24,
+      "ma20Slope5dPct": 5.68,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 48.4,
+      "changePct5d": -13.31,
+      "changePct20d": -0.69,
+      "volumeRatio": 0.6,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "3706.TW": {
+      "currentPrice": 80.3,
+      "currency": "TWD",
+      "prevClose": 80.7,
+      "changePct1d": -0.5,
+      "ma5": 80.44,
+      "ma20": 83.05,
+      "ma60": 81.2417,
+      "priceVsMa20Pct": -3.31,
+      "priceVsMa60Pct": -1.16,
+      "ma20Slope5dPct": -0.94,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 3
+      },
+      "rsi14": 47.3,
+      "changePct5d": -2.19,
+      "changePct20d": -5.53,
       "volumeRatio": 0.6,
       "priceVolumeRelation": "sync",
       "verdict": [
@@ -1603,49 +1695,49 @@
       ]
     },
     "3231.TW": {
-      "currentPrice": 135.5,
+      "currentPrice": 132.5,
       "currency": "TWD",
-      "prevClose": 135.5,
+      "prevClose": 132.5,
       "changePct1d": 0,
-      "ma5": 138.2,
-      "ma20": 141.1,
-      "ma60": 134.0833,
-      "priceVsMa20Pct": -3.97,
-      "priceVsMa60Pct": 1.06,
-      "ma20Slope5dPct": 0.59,
+      "ma5": 134.8,
+      "ma20": 140.1,
+      "ma60": 134.1583,
+      "priceVsMa20Pct": -5.42,
+      "priceVsMa60Pct": -1.24,
+      "ma20Slope5dPct": -0.51,
       "cross5_20": {
         "type": "death",
-        "daysAgo": 1
+        "daysAgo": 3
       },
-      "rsi14": 39.1,
-      "changePct5d": -2.52,
-      "changePct20d": -0.73,
-      "volumeRatio": 0.6,
+      "rsi14": 37.9,
+      "changePct5d": -5.69,
+      "changePct20d": -8.3,
+      "volumeRatio": 0.4,
       "priceVolumeRelation": "sync",
       "verdict": [
-        "中長線偏多",
+        "中長線偏空",
         "短線轉弱"
       ]
     },
     "2348.TW": {
-      "currentPrice": 69.3,
+      "currentPrice": 69.1,
       "currency": "TWD",
       "prevClose": 69.5,
-      "changePct1d": -0.29,
-      "ma5": 69.94,
-      "ma20": 72.24,
-      "ma60": 74.8567,
-      "priceVsMa20Pct": -4.07,
-      "priceVsMa60Pct": -7.42,
-      "ma20Slope5dPct": -2.77,
+      "changePct1d": -0.58,
+      "ma5": 69.42,
+      "ma20": 71.465,
+      "ma60": 74.6783,
+      "priceVsMa20Pct": -3.31,
+      "priceVsMa60Pct": -7.47,
+      "ma20Slope5dPct": -2.85,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 28.8,
-      "changePct5d": -2.39,
-      "changePct20d": -10.58,
-      "volumeRatio": 0.8,
+      "rsi14": 21.5,
+      "changePct5d": -1.71,
+      "changePct20d": -10.72,
+      "volumeRatio": 0.7,
       "priceVolumeRelation": "divergence_down_high_vol",
       "verdict": [
         "中長線偏空",
@@ -1654,149 +1746,145 @@
       ]
     },
     "SOXX": {
-      "currentPrice": 508.52,
+      "currentPrice": 496.74,
       "currency": "USD",
-      "prevClose": 530.03,
-      "changePct1d": -4.06,
-      "ma5": 523.118,
-      "ma20": 476.1915,
-      "ma60": 392.9015,
-      "priceVsMa20Pct": 6.79,
-      "priceVsMa60Pct": 29.43,
-      "ma20Slope5dPct": 6.69,
+      "prevClose": 495.87,
+      "changePct1d": 0.18,
+      "ma5": 511.89,
+      "ma20": 483.9095,
+      "ma60": 397.5075,
+      "priceVsMa20Pct": 2.65,
+      "priceVsMa60Pct": 24.96,
+      "ma20Slope5dPct": 5.42,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 63.3,
-      "changePct5d": -2.26,
-      "changePct20d": 22.33,
-      "volumeRatio": 1.3,
-      "priceVolumeRelation": "sync",
+      "rsi14": 62.6,
+      "changePct5d": -3.73,
+      "changePct20d": 18.07,
+      "volumeRatio": 1.5,
+      "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏多"
       ]
     },
     "3673.TW": {
-      "currentPrice": 68.6,
+      "currentPrice": 71.7,
       "currency": "TWD",
-      "prevClose": 64.7,
-      "changePct1d": 6.03,
-      "ma5": 64.96,
-      "ma20": 62.76,
-      "ma60": 51.215,
-      "priceVsMa20Pct": 9.31,
-      "priceVsMa60Pct": 33.95,
-      "ma20Slope5dPct": 0.18,
+      "prevClose": 75.4,
+      "changePct1d": -4.91,
+      "ma5": 68.94,
+      "ma20": 63.065,
+      "ma60": 52.39,
+      "priceVsMa20Pct": 13.69,
+      "priceVsMa60Pct": 36.86,
+      "ma20Slope5dPct": -0.26,
       "cross5_20": {
         "type": "golden",
-        "daysAgo": 1
+        "daysAgo": 3
       },
-      "rsi14": 70.3,
-      "changePct5d": 14.72,
-      "changePct20d": -4.85,
-      "volumeRatio": 2,
+      "rsi14": 67.6,
+      "changePct5d": 7.66,
+      "changePct20d": 2.72,
+      "volumeRatio": 2.9,
       "priceVolumeRelation": "sync",
       "verdict": [
-        "中長線偏多",
-        "短線轉強",
-        "過熱"
+        "短線轉強"
       ]
     },
     "CHTR": {
-      "currentPrice": 140.33,
+      "currentPrice": 142.5,
       "currency": "USD",
-      "prevClose": 148,
-      "changePct1d": -5.18,
-      "ma5": 145.42,
-      "ma20": 175.8305,
-      "ma60": 207.1788,
-      "priceVsMa20Pct": -20.19,
-      "priceVsMa60Pct": -32.27,
-      "ma20Slope5dPct": -10.39,
+      "prevClose": 141.21,
+      "changePct1d": 0.91,
+      "ma5": 143.02,
+      "ma20": 165.684,
+      "ma60": 204.2793,
+      "priceVsMa20Pct": -13.99,
+      "priceVsMa60Pct": -30.24,
+      "ma20Slope5dPct": -12.29,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 28,
-      "changePct5d": -9.38,
-      "changePct20d": -40.69,
-      "volumeRatio": 1.4,
+      "rsi14": 37.4,
+      "changePct5d": -3.66,
+      "changePct20d": -41.1,
+      "volumeRatio": 0.9,
       "priceVolumeRelation": "divergence_down_high_vol",
       "verdict": [
         "中長線偏空",
-        "超賣",
         "量價背離警訊"
       ]
     },
     "SMH": {
-      "currentPrice": 556.34,
+      "currentPrice": 543.96,
       "currency": "USD",
-      "prevClose": 578.34,
-      "changePct1d": -3.8,
-      "ma5": 568.94,
-      "ma20": 521.8955,
-      "ma60": 444.2978,
-      "priceVsMa20Pct": 6.6,
-      "priceVsMa60Pct": 25.22,
-      "ma20Slope5dPct": 5.86,
+      "prevClose": 546.16,
+      "changePct1d": -0.4,
+      "ma5": 559.452,
+      "ma20": 529.9705,
+      "ma60": 448.668,
+      "priceVsMa20Pct": 2.64,
+      "priceVsMa60Pct": 21.24,
+      "ma20Slope5dPct": 4.92,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 63.9,
-      "changePct5d": -1.8,
-      "changePct20d": 19.86,
-      "volumeRatio": 1.4,
-      "priceVolumeRelation": "sync",
+      "rsi14": 63.2,
+      "changePct5d": -3.08,
+      "changePct20d": 17.07,
+      "volumeRatio": 1.2,
+      "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏多"
       ]
     },
     "2451.TW": {
-      "currentPrice": 328.5,
+      "currentPrice": 309.5,
       "currency": "TWD",
-      "prevClose": 336,
-      "changePct1d": -2.23,
-      "ma5": 337.4,
-      "ma20": 291.475,
-      "ma60": 255.8333,
-      "priceVsMa20Pct": 12.7,
-      "priceVsMa60Pct": 28.4,
-      "ma20Slope5dPct": 8.39,
+      "prevClose": 306.5,
+      "changePct1d": 0.98,
+      "ma5": 325,
+      "ma20": 296.475,
+      "ma60": 258.825,
+      "priceVsMa20Pct": 4.39,
+      "priceVsMa60Pct": 19.58,
+      "ma20Slope5dPct": 6.61,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 68.6,
-      "changePct5d": -4.37,
-      "changePct20d": 33.27,
+      "rsi14": 60.6,
+      "changePct5d": -5.35,
+      "changePct20d": 16.57,
       "volumeRatio": 0.4,
-      "priceVolumeRelation": "divergence_up_low_vol",
+      "priceVolumeRelation": "neutral",
       "verdict": [
-        "中長線偏多",
-        "量價背離警訊"
+        "中長線偏多"
       ]
     },
     "2850.TW": {
-      "currentPrice": 136.5,
+      "currentPrice": 138.5,
       "currency": "TWD",
-      "prevClose": 132.5,
-      "changePct1d": 3.02,
-      "ma5": 133.4,
-      "ma20": 129.325,
-      "ma60": 121.75,
-      "priceVsMa20Pct": 5.55,
-      "priceVsMa60Pct": 12.11,
-      "ma20Slope5dPct": 1.55,
+      "prevClose": 135.5,
+      "changePct1d": 2.21,
+      "ma5": 135,
+      "ma20": 130.7,
+      "ma60": 122.5333,
+      "priceVsMa20Pct": 5.97,
+      "priceVsMa60Pct": 13.03,
+      "ma20Slope5dPct": 2.01,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 73.6,
-      "changePct5d": 0.37,
-      "changePct20d": 8.76,
-      "volumeRatio": 1.8,
+      "rsi14": 70.4,
+      "changePct5d": 4.14,
+      "changePct20d": 13.06,
+      "volumeRatio": 0.8,
       "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏多",
@@ -1804,48 +1892,47 @@
       ]
     },
     "6005.TW": {
-      "currentPrice": 30.55,
+      "currentPrice": 30.6,
       "currency": "TWD",
-      "prevClose": 31.25,
-      "changePct1d": -2.24,
-      "ma5": 31.42,
-      "ma20": 29.6325,
-      "ma60": 29.0167,
-      "priceVsMa20Pct": 3.1,
-      "priceVsMa60Pct": 5.28,
-      "ma20Slope5dPct": 2.99,
+      "prevClose": 30.65,
+      "changePct1d": -0.16,
+      "ma5": 30.93,
+      "ma20": 29.88,
+      "ma60": 29.0775,
+      "priceVsMa20Pct": 2.41,
+      "priceVsMa60Pct": 5.24,
+      "ma20Slope5dPct": 2.51,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 66.5,
-      "changePct5d": -5.27,
-      "changePct20d": 10.69,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "divergence_up_low_vol",
+      "rsi14": 65.8,
+      "changePct5d": -4.37,
+      "changePct20d": 8.9,
+      "volumeRatio": 0.3,
+      "priceVolumeRelation": "sync",
       "verdict": [
-        "中長線偏多",
-        "量價背離警訊"
+        "中長線偏多"
       ]
     },
     "00905.TW": {
-      "currentPrice": 24.29,
+      "currentPrice": 23.62,
       "currency": "TWD",
-      "prevClose": 24.43,
-      "changePct1d": -0.57,
-      "ma5": 24.696,
-      "ma20": 23.716,
-      "ma60": 21.231,
-      "priceVsMa20Pct": 2.42,
-      "priceVsMa60Pct": 14.41,
-      "ma20Slope5dPct": 3.21,
+      "prevClose": 23.69,
+      "changePct1d": -0.3,
+      "ma5": 24.17,
+      "ma20": 23.885,
+      "ma60": 21.3818,
+      "priceVsMa20Pct": -1.11,
+      "priceVsMa60Pct": 10.47,
+      "ma20Slope5dPct": 2.3,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 67.2,
-      "changePct5d": -3.34,
-      "changePct20d": 9.37,
+      "rsi14": 58,
+      "changePct5d": -4.76,
+      "changePct20d": 6.97,
       "volumeRatio": 0.7,
       "priceVolumeRelation": "neutral",
       "verdict": [
@@ -1853,344 +1940,319 @@
       ]
     },
     "00985A.TW": {
-      "currentPrice": 20.7,
+      "currentPrice": 20.15,
       "currency": "TWD",
-      "prevClose": 20.91,
-      "changePct1d": -1,
-      "ma5": 21.228,
-      "ma20": 20.474,
-      "ma60": 17.6902,
-      "priceVsMa20Pct": 1.1,
-      "priceVsMa60Pct": 17.01,
-      "ma20Slope5dPct": 4.53,
+      "prevClose": 20.27,
+      "changePct1d": -0.59,
+      "ma5": 20.688,
+      "ma20": 20.593,
+      "ma60": 17.8568,
+      "priceVsMa20Pct": -2.15,
+      "priceVsMa60Pct": 12.84,
+      "ma20Slope5dPct": 2.89,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 58.4,
-      "changePct5d": -4.43,
-      "changePct20d": 13.49,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "neutral",
+      "rsi14": 52.6,
+      "changePct5d": -5.89,
+      "changePct20d": 4.73,
+      "volumeRatio": 0.5,
+      "priceVolumeRelation": "sync",
       "verdict": [
         "中長線偏多"
       ]
     },
     "ANET": {
-      "currentPrice": 141.97,
+      "currentPrice": 141.58,
       "currency": "USD",
-      "prevClose": 147.81,
-      "changePct1d": -3.95,
-      "ma5": 141.888,
-      "ma20": 160.0805,
-      "ma60": 143.7103,
-      "priceVsMa20Pct": -11.31,
-      "priceVsMa60Pct": -1.21,
-      "ma20Slope5dPct": -2.33,
+      "prevClose": 141.71,
+      "changePct1d": -0.09,
+      "ma5": 142.752,
+      "ma20": 157.2595,
+      "ma60": 144.0948,
+      "priceVsMa20Pct": -9.97,
+      "priceVsMa60Pct": -1.75,
+      "ma20Slope5dPct": -3.25,
       "cross5_20": {
         "type": "death",
-        "daysAgo": 6
+        "daysAgo": 8
       },
-      "rsi14": 28.8,
-      "changePct5d": 0.14,
-      "changePct20d": -13.55,
-      "volumeRatio": 0.9,
-      "priceVolumeRelation": "sync",
+      "rsi14": 28,
+      "changePct5d": -0.67,
+      "changePct20d": -18.1,
+      "volumeRatio": 0.7,
+      "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏空",
         "短線轉弱",
         "超賣"
       ]
     },
-    "4576.TW": {
-      "currentPrice": 258.5,
-      "currency": "TWD",
-      "prevClose": 265.5,
-      "changePct1d": -2.64,
-      "ma5": 254.4,
-      "ma20": 222.9,
-      "ma60": 163.4833,
-      "priceVsMa20Pct": 15.97,
-      "priceVsMa60Pct": 58.12,
-      "ma20Slope5dPct": 7.62,
+    "DPZ": {
+      "currentPrice": 312.75,
+      "currency": "USD",
+      "prevClose": 308,
+      "changePct1d": 1.54,
+      "ma5": 307.106,
+      "ma20": 329.657,
+      "ma60": 364.2028,
+      "priceVsMa20Pct": -5.13,
+      "priceVsMa60Pct": -14.13,
+      "ma20Slope5dPct": -4.52,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 74.3,
-      "changePct5d": 3.19,
-      "changePct20d": 31.89,
-      "volumeRatio": 1.7,
+      "rsi14": 36.6,
+      "changePct5d": 0.84,
+      "changePct20d": -15.29,
+      "volumeRatio": 0.8,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏空"
+      ]
+    },
+    "2603.TW": {
+      "currentPrice": 212.5,
+      "currency": "TWD",
+      "prevClose": 197,
+      "changePct1d": 7.87,
+      "ma5": 203.8,
+      "ma20": 205.775,
+      "ma60": 204.9083,
+      "priceVsMa20Pct": 3.27,
+      "priceVsMa60Pct": 3.7,
+      "ma20Slope5dPct": 0.44,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 1
+      },
+      "rsi14": 60.6,
+      "changePct5d": 1.19,
+      "changePct20d": 5.46,
+      "volumeRatio": 4.2,
+      "priceVolumeRelation": "divergence_down_high_vol",
+      "verdict": [
+        "中長線偏多",
+        "短線轉弱",
+        "量價背離警訊"
+      ]
+    },
+    "3711.TW": {
+      "currentPrice": 476,
+      "currency": "TWD",
+      "prevClose": 472,
+      "changePct1d": 0.85,
+      "ma5": 510.6,
+      "ma20": 510.05,
+      "ma60": 416.425,
+      "priceVsMa20Pct": -6.68,
+      "priceVsMa60Pct": 14.31,
+      "ma20Slope5dPct": 2.83,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 47.3,
+      "changePct5d": -13.14,
+      "changePct20d": 0.85,
+      "volumeRatio": 1,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "5274.TWO": {
+      "currentPrice": 15560,
+      "currency": "TWD",
+      "prevClose": 15925,
+      "changePct1d": -2.29,
+      "ma5": 16528,
+      "ma20": 16921,
+      "ma60": 13156.1667,
+      "priceVsMa20Pct": -8.04,
+      "priceVsMa60Pct": 18.27,
+      "ma20Slope5dPct": 3.3,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 0
+      },
+      "rsi14": 43.4,
+      "changePct5d": -12.68,
+      "changePct20d": 2.07,
+      "volumeRatio": 0.8,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多",
+        "短線轉弱"
+      ]
+    },
+    "5289.TWO": {
+      "currentPrice": 1675,
+      "currency": "TWD",
+      "prevClose": 1730,
+      "changePct1d": -3.18,
+      "ma5": 1779,
+      "ma20": 1499.5,
+      "ma60": 1154.9833,
+      "priceVsMa20Pct": 11.7,
+      "priceVsMa60Pct": 45.02,
+      "ma20Slope5dPct": 13.32,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 65.7,
+      "changePct5d": -5.1,
+      "changePct20d": 49.55,
+      "volumeRatio": 0.7,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "3013.TW": {
+      "currentPrice": 98.5,
+      "currency": "TWD",
+      "prevClose": 99.7,
+      "changePct1d": -1.2,
+      "ma5": 101.54,
+      "ma20": 107.735,
+      "ma60": 103.995,
+      "priceVsMa20Pct": -8.57,
+      "priceVsMa60Pct": -5.28,
+      "ma20Slope5dPct": -1.57,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 31,
+      "changePct5d": -7.94,
+      "changePct20d": -10.45,
+      "volumeRatio": 0.4,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏空"
+      ]
+    },
+    "2486.TW": {
+      "currentPrice": 258,
+      "currency": "TWD",
+      "prevClose": 251.5,
+      "changePct1d": 2.58,
+      "ma5": 254.1,
+      "ma20": 258.675,
+      "ma60": 189.325,
+      "priceVsMa20Pct": -0.26,
+      "priceVsMa60Pct": 36.27,
+      "ma20Slope5dPct": 6.52,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 1
+      },
+      "rsi14": 51.6,
+      "changePct5d": 1.18,
+      "changePct20d": 26.16,
+      "volumeRatio": 0.2,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多",
+        "短線轉弱"
+      ]
+    },
+    "2457.TW": {
+      "currentPrice": 24.3,
+      "currency": "TWD",
+      "prevClose": 24.05,
+      "changePct1d": 1.04,
+      "ma5": 24.29,
+      "ma20": 24.6525,
+      "ma60": 26.1242,
+      "priceVsMa20Pct": -1.43,
+      "priceVsMa60Pct": -6.98,
+      "ma20Slope5dPct": -0.74,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 2
+      },
+      "rsi14": 52.1,
+      "changePct5d": -3.57,
+      "changePct20d": -4.33,
+      "volumeRatio": 0.5,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏空",
+        "短線轉弱"
+      ]
+    },
+    "3014.TW": {
+      "currentPrice": 138,
+      "currency": "TWD",
+      "prevClose": 134,
+      "changePct1d": 2.99,
+      "ma5": 136.5,
+      "ma20": 131.5,
+      "ma60": 123.15,
+      "priceVsMa20Pct": 4.94,
+      "priceVsMa60Pct": 12.06,
+      "ma20Slope5dPct": 2.63,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 72.6,
+      "changePct5d": 0.36,
+      "changePct20d": 11.29,
+      "volumeRatio": 1.1,
       "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏多",
         "過熱"
       ]
     },
-    "DPZ": {
-      "currentPrice": 302.29,
-      "currency": "USD",
-      "prevClose": 304.01,
-      "changePct1d": -0.57,
-      "ma5": 307.632,
-      "ma20": 335.5525,
-      "ma60": 366.9398,
-      "priceVsMa20Pct": -9.91,
-      "priceVsMa60Pct": -17.62,
-      "ma20Slope5dPct": -4.4,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 28.3,
-      "changePct5d": -6.55,
-      "changePct20d": -18.75,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏空",
-        "超賣"
-      ]
-    },
-    "2603.TW": {
-      "currentPrice": 197.5,
-      "currency": "TWD",
-      "prevClose": 200.5,
-      "changePct1d": -1.5,
-      "ma5": 206.7,
-      "ma20": 205.225,
-      "ma60": 204.2917,
-      "priceVsMa20Pct": -3.76,
-      "priceVsMa60Pct": -3.32,
-      "ma20Slope5dPct": 0.74,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 47.4,
-      "changePct5d": -7.71,
-      "changePct20d": -0.25,
-      "volumeRatio": 1.6,
-      "priceVolumeRelation": "divergence_down_high_vol",
-      "verdict": [
-        "量價背離警訊"
-      ]
-    },
-    "3711.TW": {
-      "currentPrice": 510,
-      "currency": "TWD",
-      "prevClose": 547,
-      "changePct1d": -6.76,
-      "ma5": 541.6,
-      "ma20": 509.325,
-      "ma60": 411.8083,
-      "priceVsMa20Pct": 0.13,
-      "priceVsMa60Pct": 23.84,
-      "ma20Slope5dPct": 5.46,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 53.7,
-      "changePct5d": -5.03,
-      "changePct20d": 15.38,
-      "volumeRatio": 1.1,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "量價背離警訊"
-      ]
-    },
-    "5274.TWO": {
-      "currentPrice": 16150,
-      "currency": "TWD",
-      "prevClose": 17195,
-      "changePct1d": -6.08,
-      "ma5": 17396,
-      "ma20": 16830.25,
-      "ma60": 12945.1667,
-      "priceVsMa20Pct": -4.04,
-      "priceVsMa60Pct": 24.76,
-      "ma20Slope5dPct": 6.19,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 51,
-      "changePct5d": -9.4,
-      "changePct20d": 16.99,
-      "volumeRatio": 1.6,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "5289.TWO": {
-      "currentPrice": 1865,
-      "currency": "TWD",
-      "prevClose": 1760,
-      "changePct1d": 5.97,
-      "ma5": 1810,
-      "ma20": 1436.25,
-      "ma60": 1123.8667,
-      "priceVsMa20Pct": 29.85,
-      "priceVsMa60Pct": 65.94,
-      "ma20Slope5dPct": 13.9,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 81.1,
-      "changePct5d": 5.97,
-      "changePct20d": 85.57,
-      "volumeRatio": 1.1,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "過熱",
-        "量價背離警訊"
-      ]
-    },
-    "3013.TW": {
-      "currentPrice": 101,
-      "currency": "TWD",
-      "prevClose": 103,
-      "changePct1d": -1.94,
-      "ma5": 105.3,
-      "ma20": 108.925,
-      "ma60": 104.3167,
-      "priceVsMa20Pct": -7.28,
-      "priceVsMa60Pct": -3.18,
-      "ma20Slope5dPct": 0,
-      "cross5_20": {
-        "type": "death",
-        "daysAgo": 8
-      },
-      "rsi14": 32.9,
-      "changePct5d": -9.82,
-      "changePct20d": -9.01,
-      "volumeRatio": 0.5,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "短線轉弱"
-      ]
-    },
-    "2486.TW": {
-      "currentPrice": 253,
-      "currency": "TWD",
-      "prevClose": 249,
-      "changePct1d": 1.61,
-      "ma5": 257.3,
-      "ma20": 253.325,
-      "ma60": 185.6333,
-      "priceVsMa20Pct": -0.13,
-      "priceVsMa60Pct": 36.29,
-      "ma20Slope5dPct": 7.41,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 58.9,
-      "changePct5d": -10.12,
-      "changePct20d": 36.76,
-      "volumeRatio": 0.3,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "2457.TW": {
-      "currentPrice": 24.55,
-      "currency": "TWD",
-      "prevClose": 23.85,
-      "changePct1d": 2.94,
-      "ma5": 24.75,
-      "ma20": 24.7725,
-      "ma60": 26.2625,
-      "priceVsMa20Pct": -0.9,
-      "priceVsMa60Pct": -6.52,
-      "ma20Slope5dPct": 0.04,
-      "cross5_20": {
-        "type": "death",
-        "daysAgo": 0
-      },
-      "rsi14": 55.1,
-      "changePct5d": -3.73,
-      "changePct20d": -0.81,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "短線轉弱"
-      ]
-    },
-    "3014.TW": {
-      "currentPrice": 135.5,
-      "currency": "TWD",
-      "prevClose": 136,
-      "changePct1d": -0.37,
-      "ma5": 137.6,
-      "ma20": 130.275,
-      "ma60": 122.625,
-      "priceVsMa20Pct": 4.01,
-      "priceVsMa60Pct": 10.5,
-      "ma20Slope5dPct": 3.21,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 70.4,
-      "changePct5d": -2.52,
-      "changePct20d": 9.27,
-      "volumeRatio": 0.5,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "過熱",
-        "量價背離警訊"
-      ]
-    },
     "0052.TW": {
-      "currentPrice": 55.85,
+      "currentPrice": 54.45,
       "currency": "TWD",
-      "prevClose": 55.95,
-      "changePct1d": -0.18,
-      "ma5": 56.29,
-      "ma20": 54.337,
-      "ma60": 48.8013,
-      "priceVsMa20Pct": 2.78,
-      "priceVsMa60Pct": 14.44,
-      "ma20Slope5dPct": 3.16,
+      "prevClose": 54.8,
+      "changePct1d": -0.64,
+      "ma5": 55.53,
+      "ma20": 54.8425,
+      "ma60": 49.1417,
+      "priceVsMa20Pct": -0.72,
+      "priceVsMa60Pct": 10.8,
+      "ma20Slope5dPct": 2.58,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 55.2,
-      "changePct5d": -1.93,
-      "changePct20d": 11.59,
-      "volumeRatio": 0.7,
+      "rsi14": 57.5,
+      "changePct5d": -3.03,
+      "changePct20d": 9.03,
+      "volumeRatio": 0.6,
       "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏多"
       ]
     },
     "VTI": {
-      "currentPrice": 362.74,
+      "currentPrice": 360.06,
       "currency": "USD",
-      "prevClose": 367.4,
-      "changePct1d": -1.27,
-      "ma5": 364.254,
-      "ma20": 356.5565,
-      "ma60": 339.9688,
-      "priceVsMa20Pct": 1.73,
-      "priceVsMa60Pct": 6.7,
-      "ma20Slope5dPct": 1.4,
+      "prevClose": 362.36,
+      "changePct1d": -0.63,
+      "ma5": 363.454,
+      "ma20": 357.775,
+      "ma60": 340.7303,
+      "priceVsMa20Pct": 0.64,
+      "priceVsMa60Pct": 5.67,
+      "ma20Slope5dPct": 1.09,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 66.1,
-      "changePct5d": -0.04,
-      "changePct20d": 3.48,
+      "rsi14": 65.3,
+      "changePct5d": -0.75,
+      "changePct20d": 3.51,
       "volumeRatio": 1,
       "priceVolumeRelation": "neutral",
       "verdict": [
@@ -2198,50 +2260,51 @@
       ]
     },
     "3036.TW": {
-      "currentPrice": 263.5,
+      "currentPrice": 279,
       "currency": "TWD",
-      "prevClose": 270,
-      "changePct1d": -2.41,
-      "ma5": 272.9,
-      "ma20": 229.5,
-      "ma60": 221.6333,
-      "priceVsMa20Pct": 14.81,
-      "priceVsMa60Pct": 18.89,
-      "ma20Slope5dPct": 4.9,
+      "prevClose": 265,
+      "changePct1d": 5.28,
+      "ma5": 269.8,
+      "ma20": 234.975,
+      "ma60": 225.2917,
+      "priceVsMa20Pct": 18.74,
+      "priceVsMa60Pct": 23.84,
+      "ma20Slope5dPct": 4.91,
       "cross5_20": {
         "type": "golden",
-        "daysAgo": 6
+        "daysAgo": 8
       },
-      "rsi14": 77.3,
-      "changePct5d": -0.38,
-      "changePct20d": 14.57,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "sync",
+      "rsi14": 81.7,
+      "changePct5d": -1.76,
+      "changePct20d": 28.28,
+      "volumeRatio": 1.8,
+      "priceVolumeRelation": "divergence_up_low_vol",
       "verdict": [
         "中長線偏多",
         "短線轉強",
-        "過熱"
+        "過熱",
+        "量價背離警訊"
       ]
     },
     "6409.TW": {
-      "currentPrice": 708,
+      "currentPrice": 668,
       "currency": "TWD",
-      "prevClose": 716,
-      "changePct1d": -1.12,
-      "ma5": 729.2,
-      "ma20": 767.4,
-      "ma60": 788.5833,
-      "priceVsMa20Pct": -7.74,
-      "priceVsMa60Pct": -10.22,
-      "ma20Slope5dPct": -1.12,
+      "prevClose": 694,
+      "changePct1d": -3.75,
+      "ma5": 698.2,
+      "ma20": 758.2,
+      "ma60": 781.7,
+      "priceVsMa20Pct": -11.9,
+      "priceVsMa60Pct": -14.55,
+      "ma20Slope5dPct": -2.75,
       "cross5_20": {
         "type": "death",
-        "daysAgo": 3
+        "daysAgo": 5
       },
-      "rsi14": 37,
-      "changePct5d": -7.33,
-      "changePct20d": -9.35,
-      "volumeRatio": 0.6,
+      "rsi14": 30.9,
+      "changePct5d": -11.29,
+      "changePct20d": -13.58,
+      "volumeRatio": 0.9,
       "priceVolumeRelation": "sync",
       "verdict": [
         "中長線偏空",
@@ -2249,124 +2312,99 @@
       ]
     },
     "6235.TW": {
-      "currentPrice": 40.5,
+      "currentPrice": 39.75,
       "currency": "TWD",
-      "prevClose": 40.15,
-      "changePct1d": 0.87,
-      "ma5": 40.99,
-      "ma20": 43.48,
-      "ma60": 47.7433,
-      "priceVsMa20Pct": -6.85,
-      "priceVsMa60Pct": -15.17,
-      "ma20Slope5dPct": -2.42,
+      "prevClose": 39.7,
+      "changePct1d": 0.13,
+      "ma5": 40.09,
+      "ma20": 42.775,
+      "ma60": 47.1175,
+      "priceVsMa20Pct": -7.07,
+      "priceVsMa60Pct": -15.64,
+      "ma20Slope5dPct": -3.39,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 33,
-      "changePct5d": -7.11,
-      "changePct20d": -11.38,
-      "volumeRatio": 0.6,
-      "priceVolumeRelation": "divergence_down_high_vol",
-      "verdict": [
-        "中長線偏空",
-        "量價背離警訊"
-      ]
-    },
-    "2385.TW": {
-      "currentPrice": 127,
-      "currency": "TWD",
-      "prevClose": 123.5,
-      "changePct1d": 2.83,
-      "ma5": 128.2,
-      "ma20": 127.125,
-      "ma60": 124.5,
-      "priceVsMa20Pct": -0.1,
-      "priceVsMa60Pct": 2.01,
-      "ma20Slope5dPct": 0.61,
-      "cross5_20": {
-        "type": "golden",
-        "daysAgo": 9
-      },
-      "rsi14": 56.7,
-      "changePct5d": -5.93,
-      "changePct20d": 1.2,
-      "volumeRatio": 0.7,
-      "priceVolumeRelation": "neutral",
-      "verdict": [
-        "中長線偏多",
-        "短線轉強"
-      ]
-    },
-    "2363.TW": {
-      "currentPrice": 61.4,
-      "currency": "TWD",
-      "prevClose": 60.5,
-      "changePct1d": 1.49,
-      "ma5": 61.6,
-      "ma20": 57.235,
-      "ma60": 52.6758,
-      "priceVsMa20Pct": 7.28,
-      "priceVsMa60Pct": 16.56,
-      "ma20Slope5dPct": 5.23,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 67.8,
-      "changePct5d": 0.66,
-      "changePct20d": 12.87,
-      "volumeRatio": 0.5,
-      "priceVolumeRelation": "sync",
-      "verdict": [
-        "中長線偏多"
-      ]
-    },
-    "2474.TW": {
-      "currentPrice": 184,
-      "currency": "TWD",
-      "prevClose": 185,
-      "changePct1d": -0.54,
-      "ma5": 193.5,
-      "ma20": 209.075,
-      "ma60": 196.6083,
-      "priceVsMa20Pct": -11.99,
-      "priceVsMa60Pct": -6.41,
-      "ma20Slope5dPct": -0.88,
-      "cross5_20": {
-        "type": "death",
-        "daysAgo": 7
-      },
-      "rsi14": 18.9,
-      "changePct5d": -11.54,
-      "changePct20d": -15.21,
+      "rsi14": 25.9,
+      "changePct5d": -3.64,
+      "changePct20d": -15.69,
       "volumeRatio": 0.5,
       "priceVolumeRelation": "neutral",
       "verdict": [
         "中長線偏空",
-        "短線轉弱",
         "超賣"
       ]
     },
-    "4938.TW": {
-      "currentPrice": 76.5,
+    "2385.TW": {
+      "currentPrice": 128.5,
       "currency": "TWD",
-      "prevClose": 76.5,
-      "changePct1d": 0,
-      "ma5": 78.58,
-      "ma20": 82.06,
-      "ma60": 77.71,
-      "priceVsMa20Pct": -6.78,
-      "priceVsMa60Pct": -1.56,
-      "ma20Slope5dPct": -0.33,
+      "prevClose": 124.5,
+      "changePct1d": 3.21,
+      "ma5": 126,
+      "ma20": 127.425,
+      "ma60": 124.7167,
+      "priceVsMa20Pct": 0.84,
+      "priceVsMa60Pct": 3.03,
+      "ma20Slope5dPct": 0.26,
       "cross5_20": {
         "type": "death",
-        "daysAgo": 2
+        "daysAgo": 1
       },
-      "rsi14": 27.7,
-      "changePct5d": -8.27,
-      "changePct20d": -7.83,
+      "rsi14": 55.4,
+      "changePct5d": -0.39,
+      "changePct20d": 2.8,
+      "volumeRatio": 0.9,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多",
+        "短線轉弱"
+      ]
+    },
+    "2363.TW": {
+      "currentPrice": 60.1,
+      "currency": "TWD",
+      "prevClose": 60.5,
+      "changePct1d": -0.66,
+      "ma5": 61.1,
+      "ma20": 57.625,
+      "ma60": 52.9542,
+      "priceVsMa20Pct": 4.3,
+      "priceVsMa60Pct": 13.49,
+      "ma20Slope5dPct": 3.27,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 69.1,
+      "changePct5d": 0.33,
+      "changePct20d": 5.07,
       "volumeRatio": 0.7,
+      "priceVolumeRelation": "divergence_up_low_vol",
+      "verdict": [
+        "中長線偏多",
+        "量價背離警訊"
+      ]
+    },
+    "2474.TW": {
+      "currentPrice": 183,
+      "currency": "TWD",
+      "prevClose": 184,
+      "changePct1d": -0.54,
+      "ma5": 185.3,
+      "ma20": 206.6,
+      "ma60": 196.2417,
+      "priceVsMa20Pct": -11.42,
+      "priceVsMa60Pct": -6.75,
+      "ma20Slope5dPct": -2.47,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 9
+      },
+      "rsi14": 14,
+      "changePct5d": -9.63,
+      "changePct20d": -12.86,
+      "volumeRatio": 0.5,
       "priceVolumeRelation": "divergence_down_high_vol",
       "verdict": [
         "中長線偏空",
@@ -2375,153 +2413,272 @@
         "量價背離警訊"
       ]
     },
-    "6442.TW": {
-      "currentPrice": 1815,
+    "4938.TW": {
+      "currentPrice": 77.2,
       "currency": "TWD",
-      "prevClose": 1740,
-      "changePct1d": 4.31,
-      "ma5": 1824,
-      "ma20": 1999,
-      "ma60": 2000.6667,
-      "priceVsMa20Pct": -9.2,
-      "priceVsMa60Pct": -9.28,
-      "ma20Slope5dPct": -3.63,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 52.1,
-      "changePct5d": -6.92,
-      "changePct20d": -15.78,
-      "volumeRatio": 0.9,
-      "priceVolumeRelation": "divergence_down_high_vol",
-      "verdict": [
-        "中長線偏空",
-        "量價背離警訊"
-      ]
-    },
-    "4906.TW": {
-      "currentPrice": 38.9,
-      "currency": "TWD",
-      "prevClose": 39.15,
-      "changePct1d": -0.64,
-      "ma5": 38.94,
-      "ma20": 37.295,
-      "ma60": 33.8433,
-      "priceVsMa20Pct": 4.3,
-      "priceVsMa60Pct": 14.94,
-      "ma20Slope5dPct": -0.21,
-      "cross5_20": {
-        "type": "golden",
-        "daysAgo": 5
-      },
-      "rsi14": 60.9,
-      "changePct5d": -3.47,
-      "changePct20d": 3.05,
-      "volumeRatio": 0.5,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "短線轉強",
-        "量價背離警訊"
-      ]
-    },
-    "8112.TW": {
-      "currentPrice": 84.1,
-      "currency": "TWD",
-      "prevClose": 81.6,
-      "changePct1d": 3.06,
-      "ma5": 82.84,
-      "ma20": 84.97,
-      "ma60": 81.19,
-      "priceVsMa20Pct": -1.02,
-      "priceVsMa60Pct": 3.58,
-      "ma20Slope5dPct": -0.32,
+      "prevClose": 76.9,
+      "changePct1d": 0.39,
+      "ma5": 76.82,
+      "ma20": 81.43,
+      "ma60": 77.9333,
+      "priceVsMa20Pct": -5.19,
+      "priceVsMa60Pct": -0.94,
+      "ma20Slope5dPct": -1.48,
       "cross5_20": {
         "type": "death",
-        "daysAgo": 2
+        "daysAgo": 4
       },
-      "rsi14": 41.8,
-      "changePct5d": -3.11,
-      "changePct20d": -3.56,
+      "rsi14": 33.3,
+      "changePct5d": -5.62,
+      "changePct20d": -8.1,
       "volumeRatio": 0.8,
       "priceVolumeRelation": "divergence_down_high_vol",
       "verdict": [
+        "中長線偏空",
         "短線轉弱",
         "量價背離警訊"
       ]
     },
-    "4967.TW": {
-      "currentPrice": 278.5,
+    "6442.TW": {
+      "currentPrice": 1770,
       "currency": "TWD",
-      "prevClose": 276,
-      "changePct1d": 0.91,
-      "ma5": 282.1,
-      "ma20": 277.05,
-      "ma60": 235.5083,
-      "priceVsMa20Pct": 0.52,
-      "priceVsMa60Pct": 18.25,
-      "ma20Slope5dPct": 6.16,
+      "prevClose": 1740,
+      "changePct1d": 1.72,
+      "ma5": 1784,
+      "ma20": 1939,
+      "ma60": 1995.25,
+      "priceVsMa20Pct": -8.72,
+      "priceVsMa60Pct": -11.29,
+      "ma20Slope5dPct": -5.16,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 46.8,
-      "changePct5d": -2.11,
-      "changePct20d": 26.88,
+      "rsi14": 35.8,
+      "changePct5d": -1.94,
+      "changePct20d": -24.36,
+      "volumeRatio": 0.8,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏空"
+      ]
+    },
+    "4906.TW": {
+      "currentPrice": 37.6,
+      "currency": "TWD",
+      "prevClose": 38,
+      "changePct1d": -1.05,
+      "ma5": 38.56,
+      "ma20": 37.1325,
+      "ma60": 34.2242,
+      "priceVsMa20Pct": 1.26,
+      "priceVsMa60Pct": 9.86,
+      "ma20Slope5dPct": -0.32,
+      "cross5_20": {
+        "type": "golden",
+        "daysAgo": 7
+      },
+      "rsi14": 64.3,
+      "changePct5d": -1.05,
+      "changePct20d": -6.82,
+      "volumeRatio": 0.4,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "短線轉強"
+      ]
+    },
+    "8112.TW": {
+      "currentPrice": 84,
+      "currency": "TWD",
+      "prevClose": 83.6,
+      "changePct1d": 0.48,
+      "ma5": 83.56,
+      "ma20": 84.735,
+      "ma60": 81.59,
+      "priceVsMa20Pct": -0.87,
+      "priceVsMa60Pct": 2.95,
+      "ma20Slope5dPct": -0.64,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 4
+      },
+      "rsi14": 48.7,
+      "changePct5d": 2.19,
+      "changePct20d": -3.23,
+      "volumeRatio": 1.7,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "短線轉弱"
+      ]
+    },
+    "4967.TW": {
+      "currentPrice": 261,
+      "currency": "TWD",
+      "prevClose": 257.5,
+      "changePct1d": 1.36,
+      "ma5": 271.6,
+      "ma20": 280.2,
+      "ma60": 237.3083,
+      "priceVsMa20Pct": -6.85,
+      "priceVsMa60Pct": 9.98,
+      "ma20Slope5dPct": 4.75,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 1
+      },
+      "rsi14": 33.6,
+      "changePct5d": -8.58,
+      "changePct20d": 9.43,
       "volumeRatio": 0.2,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多",
+        "短線轉弱"
+      ]
+    },
+    "2455.TW": {
+      "currentPrice": 400.5,
+      "currency": "TWD",
+      "prevClose": 383,
+      "changePct1d": 4.57,
+      "ma5": 377.5,
+      "ma20": 355.725,
+      "ma60": 284.2833,
+      "priceVsMa20Pct": 12.59,
+      "priceVsMa60Pct": 40.88,
+      "ma20Slope5dPct": 5,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 68.8,
+      "changePct5d": 7.09,
+      "changePct20d": 17.79,
+      "volumeRatio": 3.1,
       "priceVolumeRelation": "sync",
       "verdict": [
         "中長線偏多"
       ]
     },
-    "2455.TW": {
-      "currentPrice": 387,
-      "currency": "TWD",
-      "prevClose": 358.5,
-      "changePct1d": 7.95,
-      "ma5": 370.6,
-      "ma20": 350.2,
-      "ma60": 277.275,
-      "priceVsMa20Pct": 10.51,
-      "priceVsMa60Pct": 39.57,
-      "ma20Slope5dPct": 6.12,
-      "cross5_20": {
-        "type": "none",
-        "daysAgo": null
-      },
-      "rsi14": 67.8,
-      "changePct5d": 7.5,
-      "changePct20d": 24.64,
-      "volumeRatio": 0.3,
-      "priceVolumeRelation": "divergence_up_low_vol",
-      "verdict": [
-        "中長線偏多",
-        "量價背離警訊"
-      ]
-    },
     "2376.TW": {
-      "currentPrice": 330.5,
+      "currentPrice": 302,
       "currency": "TWD",
-      "prevClose": 326.5,
-      "changePct1d": 1.23,
-      "ma5": 323.7,
-      "ma20": 297.3,
-      "ma60": 257.6833,
-      "priceVsMa20Pct": 11.17,
-      "priceVsMa60Pct": 28.26,
-      "ma20Slope5dPct": 4.38,
+      "prevClose": 305,
+      "changePct1d": -0.98,
+      "ma5": 318.2,
+      "ma20": 299.275,
+      "ma60": 260.2917,
+      "priceVsMa20Pct": 0.91,
+      "priceVsMa60Pct": 16.02,
+      "ma20Slope5dPct": 3.14,
       "cross5_20": {
         "type": "none",
         "daysAgo": null
       },
-      "rsi14": 74.3,
-      "changePct5d": 1.85,
-      "changePct20d": 17.41,
-      "volumeRatio": 3.2,
+      "rsi14": 63.5,
+      "changePct5d": -3.67,
+      "changePct20d": 4.68,
+      "volumeRatio": 0.9,
       "priceVolumeRelation": "neutral",
       "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "2049.TW": {
+      "currentPrice": 359.5,
+      "currency": "TWD",
+      "prevClose": 376,
+      "changePct1d": -4.39,
+      "ma5": 376.2,
+      "ma20": 334.075,
+      "ma60": 273.2167,
+      "priceVsMa20Pct": 7.61,
+      "priceVsMa60Pct": 31.58,
+      "ma20Slope5dPct": 6.96,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 69,
+      "changePct5d": -1.37,
+      "changePct20d": 19.44,
+      "volumeRatio": 0.8,
+      "priceVolumeRelation": "neutral",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "2359.TW": {
+      "currentPrice": 127.5,
+      "currency": "TWD",
+      "prevClose": 135,
+      "changePct1d": -5.56,
+      "ma5": 131.9,
+      "ma20": 122.125,
+      "ma60": 118.7167,
+      "priceVsMa20Pct": 4.4,
+      "priceVsMa60Pct": 7.4,
+      "ma20Slope5dPct": 3.45,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 61.2,
+      "changePct5d": 2,
+      "changePct20d": 9.91,
+      "volumeRatio": 1,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "8374.TW": {
+      "currentPrice": 96.9,
+      "currency": "TWD",
+      "prevClose": 102,
+      "changePct1d": -5,
+      "ma5": 101.78,
+      "ma20": 89.315,
+      "ma60": 80.2183,
+      "priceVsMa20Pct": 8.49,
+      "priceVsMa60Pct": 20.8,
+      "ma20Slope5dPct": 5.63,
+      "cross5_20": {
+        "type": "none",
+        "daysAgo": null
+      },
+      "rsi14": 63,
+      "changePct5d": 7.31,
+      "changePct20d": 19.33,
+      "volumeRatio": 1.3,
+      "priceVolumeRelation": "sync",
+      "verdict": [
+        "中長線偏多"
+      ]
+    },
+    "6789.TW": {
+      "currentPrice": 519,
+      "currency": "TWD",
+      "prevClose": 519,
+      "changePct1d": 0,
+      "ma5": 549.4,
+      "ma20": 565.175,
+      "ma60": 421.2417,
+      "priceVsMa20Pct": -8.17,
+      "priceVsMa60Pct": 23.21,
+      "ma20Slope5dPct": 4.78,
+      "cross5_20": {
+        "type": "death",
+        "daysAgo": 1
+      },
+      "rsi14": 43.1,
+      "changePct5d": -10.98,
+      "changePct20d": 2.98,
+      "volumeRatio": 0.4,
+      "priceVolumeRelation": "sync",
+      "verdict": [
         "中長線偏多",
-        "過熱"
+        "短線轉弱"
       ]
     }
   }

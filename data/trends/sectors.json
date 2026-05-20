@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-18T05:57:11.133Z",
-  "anchorDate": "2026-05-16",
-  "count": 229,
+  "generatedAt": "2026-05-20T11:01:23.591Z",
+  "anchorDate": "2026-05-19",
+  "count": 240,
   "sectors": [
     {
       "sector": "策略配置",
       "mentions": {
-        "7d": 25,
-        "30d": 46,
-        "90d": 46,
-        "all": 46
+        "7d": 26,
+        "30d": 51,
+        "90d": 51,
+        "all": 51
       },
       "sentimentScore": {
         "7d": 0,
@@ -452,6 +452,56 @@
           "consensus": "",
           "timeHorizon": "medium",
           "weight": 0
+        },
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "被動元件正在接棒成為市場新主流，但漲價速度決定評價上修的節奏",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "四萬點不是必守點，重點是資金退守後的下檔空間是否有限",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "這一波回檔可能比三月更久，因為市場基期已大幅墊高。",
+          "consensus": "",
+          "timeHorizon": "short",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "投資人應該先想好出場邏輯，再決定進場。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "ETF 對股市整體偏正面，但在高價股上可能放大個股層級的賣壓。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
         }
       ]
     },
@@ -459,9 +509,9 @@
       "sector": "半導體",
       "mentions": {
         "7d": 10,
-        "30d": 20,
-        "90d": 20,
-        "all": 20
+        "30d": 22,
+        "90d": 22,
+        "all": 22
       },
       "sentimentScore": {
         "7d": 0,
@@ -674,16 +724,208 @@
           "consensus": "",
           "timeHorizon": "short",
           "weight": 0
+        },
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "台積電若調整轉投資持股，市場會先交易情緒而非基本面",
+          "consensus": "",
+          "timeHorizon": "short",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "台股不容易形成全面性崩盤，關鍵在台積電的基本面與定錨效果。",
+          "consensus": "",
+          "timeHorizon": "long",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "AI",
+      "mentions": {
+        "7d": 5,
+        "30d": 16,
+        "90d": 16,
+        "all": 16
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華",
+        "李兆華（蔡明翰）",
+        "謝孟恭"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華（蔡明翰）、謝孟恭",
+          "reason": "人工智慧總需求仍在擴張，單一平台的波動不代表整體趨勢反轉",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-04-30",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "謝孟恭",
+          "reason": "人工智慧硬體題材不等於所有新裝置都能成功顛覆手機",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-01",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "雲端資本支出題材正從雲端伺服器轉向雲端接收端與端側處理器",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-05",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "人工智慧資本支出仍在上升期，台灣供應鏈有長線受惠機會",
+          "consensus": "",
+          "timeHorizon": "long",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-05",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "矽光子不是追高題材，而是要等拉回承接",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-06",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "現在最值得把握的是 AI 硬體供應鏈，但榮景未必能永久持續，需每季重新檢視風險。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-07",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "謝孟恭",
+          "reason": "AI 主線正從顯性大型晶片股擴散到伺服器、CPU 與應用供應鏈",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-08",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "AI 並沒有結束，而是從輝達單一供應鏈走向多供應鏈百花齊放。",
+          "consensus": "",
+          "timeHorizon": "long",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-08",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "散熱族群的修正比較像錯殺，核心公司仍有下半年機會。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-09",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "散熱族群的風險在於技術路線仍未完全定案，市場對一片式與兩片式設計的期待落差正在放大",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-15",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "AI 紅利短期不會消失，台灣硬體供應鏈仍是主要受益者",
+          "consensus": "",
+          "timeHorizon": "long",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-16",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "機器人題材真正值得看的，是有半導體設備鏈連結的公司，而不是純機器人概念",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "AI 仍是台股與全球資金最核心的主線，但買點要回到核心供應鏈",
+          "consensus": "",
+          "timeHorizon": "long",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "AI 眼鏡是下半年最值得期待的邊緣裝置革命之一",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "人工智慧帶動的成長循環仍在擴張，台灣供應鏈還有中長線紅利。",
+          "consensus": "",
+          "timeHorizon": "long",
+          "weight": 0
         }
       ]
     },
     {
       "sector": "其他",
       "mentions": {
-        "7d": 2,
-        "30d": 15,
-        "90d": 15,
-        "all": 15
+        "7d": 3,
+        "30d": 16,
+        "90d": 16,
+        "all": 16
       },
       "sentimentScore": {
         "7d": 0,
@@ -846,145 +1088,13 @@
           "consensus": "",
           "timeHorizon": "short",
           "weight": 0
-        }
-      ]
-    },
-    {
-      "sector": "AI",
-      "mentions": {
-        "7d": 3,
-        "30d": 13,
-        "90d": 13,
-        "all": 13
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 0,
-        "all": 0
-      },
-      "mentionedBy": [
-        "李兆華",
-        "李兆華（蔡明翰）",
-        "謝孟恭"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-30",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華（蔡明翰）、謝孟恭",
-          "reason": "人工智慧總需求仍在擴張，單一平台的波動不代表整體趨勢反轉",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
         },
         {
-          "date": "2026-04-30",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "謝孟恭",
-          "reason": "人工智慧硬體題材不等於所有新裝置都能成功顛覆手機",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-01",
+          "date": "2026-05-18",
           "signal_type": "monitor",
           "confidence": "",
           "kol": "李兆華",
-          "reason": "雲端資本支出題材正從雲端伺服器轉向雲端接收端與端側處理器",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-05",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "人工智慧資本支出仍在上升期，台灣供應鏈有長線受惠機會",
-          "consensus": "",
-          "timeHorizon": "long",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-05",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "矽光子不是追高題材，而是要等拉回承接",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-06",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "現在最值得把握的是 AI 硬體供應鏈，但榮景未必能永久持續，需每季重新檢視風險。",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-07",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "謝孟恭",
-          "reason": "AI 主線正從顯性大型晶片股擴散到伺服器、CPU 與應用供應鏈",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-08",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "AI 並沒有結束，而是從輝達單一供應鏈走向多供應鏈百花齊放。",
-          "consensus": "",
-          "timeHorizon": "long",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-08",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "散熱族群的修正比較像錯殺，核心公司仍有下半年機會。",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-09",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "散熱族群的風險在於技術路線仍未完全定案，市場對一片式與兩片式設計的期待落差正在放大",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-15",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "AI 紅利短期不會消失，台灣硬體供應鏈仍是主要受益者",
-          "consensus": "",
-          "timeHorizon": "long",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-16",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "機器人題材真正值得看的，是有半導體設備鏈連結的公司，而不是純機器人概念",
+          "reason": "機器人題材已從夢想走向業績，物流與工業應用是最先落地的場景",
           "consensus": "",
           "timeHorizon": "medium",
           "weight": 0
@@ -1107,7 +1217,7 @@
     {
       "sector": "台股大盤",
       "mentions": {
-        "7d": 2,
+        "7d": 1,
         "30d": 5,
         "90d": 10,
         "all": 10
@@ -1323,6 +1433,86 @@
       ]
     },
     {
+      "sector": "總經",
+      "mentions": {
+        "7d": 4,
+        "30d": 6,
+        "90d": 6,
+        "all": 6
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-05",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "台股目前不是基本面出問題，而是情緒過熱與資金輪動過快",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-06",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "台股這一波不是泡沫化行情，而是由 AI 與基本面推升的結構性多頭。",
+          "consensus": "",
+          "timeHorizon": "long",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-13",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "台股真正的主導力量是美股與費半，不是台灣本地情緒",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-15",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "今年台股仍然是多頭年，政治雜音終究會回到基本面定價",
+          "consensus": "",
+          "timeHorizon": "long",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "利率快速上行會迫使全球高估值股票重新估值",
+          "consensus": "",
+          "timeHorizon": "short",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "市場真正的空頭，通常要同時出現基本面轉差與估值明顯過高兩個條件。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        }
+      ]
+    },
+    {
       "sector": "美國公債殖利率",
       "mentions": {
         "7d": 0,
@@ -1446,6 +1636,59 @@
       ]
     },
     {
+      "sector": "油價",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 5,
+        "all": 5
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "NaNa说美股",
+        "李兆華",
+        "游庭皓的財經皓角",
+        "財女Jenny"
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-31",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "油價若爆發性失控（如一天暴漲10美元），可能成為黑天鵝。目前緩步墊高，但若能在4月上旬壓下來，地緣政治風險將淡化。",
+          "consensus": "",
+          "timeHorizon": "short",
+          "weight": 0
+        },
+        {
+          "date": "2026-04-10",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "游庭皓的財經皓角、財女Jenny、NaNa说美股",
+          "reason": "中東停火協議不確定性，油價可能維持高檔一段時間。地緣政治事件對油價影響巨大，但消息面反覆，導致油價波動劇烈",
+          "consensus": "",
+          "timeHorizon": "short",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "地緣政治風險仍在，尤其美國、伊朗與以色列之間的不確定性，加上戰備原油庫存釋放接近尾聲，可能使油價再度加速上行。油價上升會推升通膨預期，進一步影響全球資金成本與資產估值。",
+          "consensus": "",
+          "timeHorizon": "short",
+          "weight": 0
+        }
+      ]
+    },
+    {
       "sector": "原油價格",
       "mentions": {
         "7d": 0,
@@ -1482,49 +1725,6 @@
           "confidence": "",
           "kol": "叔叔",
           "reason": "伊朗戰爭導致原油價格持續在109美元以上高檔震盪，推升通膨預期，可能導致升息議題再次浮現",
-          "consensus": "",
-          "timeHorizon": "short",
-          "weight": 0
-        }
-      ]
-    },
-    {
-      "sector": "油價",
-      "mentions": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 4,
-        "all": 4
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 0,
-        "all": 0
-      },
-      "mentionedBy": [
-        "NaNa说美股",
-        "李兆華",
-        "游庭皓的財經皓角",
-        "財女Jenny"
-      ],
-      "timeline": [
-        {
-          "date": "2026-03-31",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "油價若爆發性失控（如一天暴漲10美元），可能成為黑天鵝。目前緩步墊高，但若能在4月上旬壓下來，地緣政治風險將淡化。",
-          "consensus": "",
-          "timeHorizon": "short",
-          "weight": 0
-        },
-        {
-          "date": "2026-04-10",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "游庭皓的財經皓角、財女Jenny、NaNa说美股",
-          "reason": "中東停火協議不確定性，油價可能維持高檔一段時間。地緣政治事件對油價影響巨大，但消息面反覆，導致油價波動劇烈",
           "consensus": "",
           "timeHorizon": "short",
           "weight": 0
@@ -1677,66 +1877,6 @@
           "reason": "費半連漲十八天創歷史紀錄，顯示半導體與科技股動能強勁，但短線乖離已偏大，空手者不宜急著追高，需同時保留追價與風險控管思維。",
           "consensus": "",
           "timeHorizon": "short",
-          "weight": 0
-        }
-      ]
-    },
-    {
-      "sector": "總經",
-      "mentions": {
-        "7d": 2,
-        "30d": 4,
-        "90d": 4,
-        "all": 4
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 0,
-        "all": 0
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-05",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "台股目前不是基本面出問題，而是情緒過熱與資金輪動過快",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-06",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "台股這一波不是泡沫化行情，而是由 AI 與基本面推升的結構性多頭。",
-          "consensus": "",
-          "timeHorizon": "long",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-13",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "台股真正的主導力量是美股與費半，不是台灣本地情緒",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
-        },
-        {
-          "date": "2026-05-15",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "今年台股仍然是多頭年，政治雜音終究會回到基本面定價",
-          "consensus": "",
-          "timeHorizon": "long",
           "weight": 0
         }
       ]
@@ -1923,7 +2063,7 @@
     {
       "sector": "櫃買指數",
       "mentions": {
-        "7d": 1,
+        "7d": 0,
         "30d": 2,
         "90d": 3,
         "all": 3
@@ -2396,6 +2536,56 @@
           "confidence": "",
           "kol": "叔叔、游庭皓的財經皓角、李兆華",
           "reason": "金管會提高單一持股上限至二十五趴後，市場關注主動式ETF是否會提高台積電配置，但實際上各檔基金仍會依自身策略操作。主動型ETF已成為新的資金收割機，今年多檔產品明顯跑贏大盤。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "被動元件族群",
+      "mentions": {
+        "7d": 1,
+        "30d": 3,
+        "90d": 3,
+        "all": 3
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-29",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "被動元件因人工智慧相關應用拉動需求而補漲，但相較先前的記憶體或印刷電路板漲價題材，漲幅與故事性仍較溫和。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-09",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "被動元件是本波少數從低本益比出發、且具補漲邏輯的族群。核心邏輯是成本推升、報價轉嫁與籌碼沉澱，使這些公司在資金輪動時更容易成為承接對象。國巨的強勢被視為整個族群重新活化的信號。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "被動元件正在接棒成為台股新的資金主流，族群內的大哥國巨與小型股同步轉強。高位階的AI與PCB股回檔後，資金自然往低位階且具漲價題材的族群移動，被動元件的位階與法人調價空間正好符合這波輪動。",
           "consensus": "",
           "timeHorizon": "medium",
           "weight": 0
@@ -2962,7 +3152,7 @@
     {
       "sector": "聯發科",
       "mentions": {
-        "7d": 1,
+        "7d": 0,
         "30d": 1,
         "90d": 2,
         "all": 2
@@ -3003,7 +3193,7 @@
     {
       "sector": "台積電",
       "mentions": {
-        "7d": 1,
+        "7d": 0,
         "30d": 1,
         "90d": 2,
         "all": 2
@@ -3465,7 +3655,7 @@
       ]
     },
     {
-      "sector": "被動元件族群",
+      "sector": "貨幣政策",
       "mentions": {
         "7d": 1,
         "30d": 2,
@@ -3483,23 +3673,63 @@
       ],
       "timeline": [
         {
-          "date": "2026-04-29",
+          "date": "2026-05-08",
           "signal_type": "monitor",
           "confidence": "",
           "kol": "李兆華",
-          "reason": "被動元件因人工智慧相關應用拉動需求而補漲，但相較先前的記憶體或印刷電路板漲價題材，漲幅與故事性仍較溫和。",
+          "reason": "美伊和談與油價穩定後，下一個能帶動市場的關鍵可能是降息預期。",
           "consensus": "",
           "timeHorizon": "medium",
           "weight": 0
         },
         {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "通膨與長天期利率是壓抑高本益比股票的關鍵變數。",
+          "consensus": "",
+          "timeHorizon": "short",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "AI 供應鏈",
+      "mentions": {
+        "7d": 1,
+        "30d": 2,
+        "90d": 2,
+        "all": 2
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
           "date": "2026-05-09",
           "signal_type": "monitor",
           "confidence": "",
           "kol": "李兆華",
-          "reason": "被動元件是本波少數從低本益比出發、且具補漲邏輯的族群。核心邏輯是成本推升、報價轉嫁與籌碼沉澱，使這些公司在資金輪動時更容易成為承接對象。國巨的強勢被視為整個族群重新活化的信號。",
+          "reason": "AI 相關公司不是不會成長，而是市場已經把期待值拉到非常高，接下來的考驗是能否持續交出超越預期的數字。只要出現月減、成長放緩或規格變動，就容易被市場放大解讀，AI 供應鏈將從本夢比轉向本益比與現金流檢驗。",
           "consensus": "",
           "timeHorizon": "medium",
+          "weight": 0
+        },
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "人工智慧帶動的正向循環仍在增強，尚未看到明顯減速。超大型雲端業者持續上修資本支出、台灣供應鏈營收與訂單維持強勢，人工智慧應用持續滲透到生活與企業端。短線雖然評價與波動會受利率影響，但中長線仍是支撐台股與相關供應鏈的核心主軸。",
+          "consensus": "",
+          "timeHorizon": "long",
           "weight": 0
         }
       ]
@@ -7406,69 +7636,9 @@
       ]
     },
     {
-      "sector": "貨幣政策",
-      "mentions": {
-        "7d": 0,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 0,
-        "all": 0
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-08",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "美伊和談與油價穩定後，下一個能帶動市場的關鍵可能是降息預期。",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
-        }
-      ]
-    },
-    {
-      "sector": "AI 供應鏈",
-      "mentions": {
-        "7d": 1,
-        "30d": 1,
-        "90d": 1,
-        "all": 1
-      },
-      "sentimentScore": {
-        "7d": 0,
-        "30d": 0,
-        "90d": 0,
-        "all": 0
-      },
-      "mentionedBy": [
-        "李兆華"
-      ],
-      "timeline": [
-        {
-          "date": "2026-05-09",
-          "signal_type": "monitor",
-          "confidence": "",
-          "kol": "李兆華",
-          "reason": "AI 相關公司不是不會成長，而是市場已經把期待值拉到非常高，接下來的考驗是能否持續交出超越預期的數字。只要出現月減、成長放緩或規格變動，就容易被市場放大解讀，AI 供應鏈將從本夢比轉向本益比與現金流檢驗。",
-          "consensus": "",
-          "timeHorizon": "medium",
-          "weight": 0
-        }
-      ]
-    },
-    {
       "sector": "散熱族群",
       "mentions": {
-        "7d": 1,
+        "7d": 0,
         "30d": 1,
         "90d": 1,
         "all": 1
@@ -7498,7 +7668,7 @@
     {
       "sector": "軍工族群",
       "mentions": {
-        "7d": 1,
+        "7d": 0,
         "30d": 1,
         "90d": 1,
         "all": 1
@@ -7528,7 +7698,7 @@
     {
       "sector": "重電族群",
       "mentions": {
-        "7d": 1,
+        "7d": 0,
         "30d": 1,
         "90d": 1,
         "all": 1
@@ -7558,7 +7728,7 @@
     {
       "sector": "泰國供應鏈",
       "mentions": {
-        "7d": 1,
+        "7d": 0,
         "30d": 1,
         "90d": 1,
         "all": 1
@@ -8329,6 +8499,336 @@
           "confidence": "",
           "kol": "李兆華",
           "reason": "被動元件正在從落後補漲，轉為被 AI 重新定價",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "美債殖利率",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "美國與全球主要國家的公債殖利率持續上升，已開始對高估值成長股造成壓力。當利率斜率快速上行時，市場會重新估值，成長股與高本益比族群將首當其衝。若殖利率繼續往上逼近更高區間，對全球股市都會是壓力。",
+          "consensus": "",
+          "timeHorizon": "short",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "輝達財報",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "5月21日的輝達財報被視為市場的重要轉折點，目前AI大行情能否延續，輝達的財報與展望是關鍵。前面財報大多偏正面，理論上仍偏利多，但在股價已創新高的背景下，市場對展望的要求更高。若財報或指引不佳，會提高整體AI供應鏈的風險意識。",
+          "consensus": "",
+          "timeHorizon": "short",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "機器人產業",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "機器人已從純夢想題材逐步走向商用與業績題材，全球資金正重新追捧這個方向。從日本、韓國到台灣，都可看到機器人零組件與自動化相關股票轉強，顯示題材有跨市場共振。若電腦展與工廠物流應用持續落地，機器人會是下半年的主軸之一。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "記憶體族群",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "三星罷工變數、供給疑慮與報價上升，持續讓記憶體成為市場焦點。記憶體已有不少利多反映，後續更應該看籌碼與線型，而不是盲目追價。若輝達財報再度強化AI需求，記憶體情緒仍可能被帶動。",
+          "consensus": "",
+          "timeHorizon": "short",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "AI眼鏡產業",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-18",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "AI眼鏡被視為下半年很可能放量的邊緣裝置題材，繼機器人之後另一個重要的成長方向。AI模型已趨成熟，配合手機與穿戴裝置整合後，使用場景會大幅擴大。若Google、三星、蘋果相繼推出新品，整條供應鏈都可能受惠。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "總經通膨與利率方向",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "這一波市場震盪核心在通膨與利率方向不明。油價重新走高、長天期利率上升，市場開始重新評估今年是否還有降息空間，甚至出現明年可能再升息的擔憂。五月到六月是利率與通膨觀察的關鍵混沌期，若後續物價沒有失控但也不快速降溫，市場風格可能持續偏向高波動與輪動。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "台灣總體經濟",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "台灣第一季國內生產毛額年增十三點六九％、外銷訂單與出口表現強勁，基本面非常強。淡季都不淡，下半年進入旺季後，整體經濟與企業獲利動能有機會比第一季更強，這是台股能在高位震盪但不易形成大崩盤的重要支撐。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "高價成長股估值風險",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "當美債殖利率反彈、通膨疑慮升溫時，過去享有高本益比溢價的高價成長股會率先承壓。基本面未必轉差，但估值收縮會讓股價出現明顯修正，尤其近期漲多的光通訊、記憶體與部分中小型高價股更容易出現人踩人賣壓。",
+          "consensus": "",
+          "timeHorizon": "short",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "ETF 資金流",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "台灣 ETF 規模快速成長是雙面刃。被動式 ETF 帶來穩定申購與長線買盤，形成股市支撐；但當市場轉弱或持有人轉為短線思維時，ETF 也可能在換股或贖回時造成集中賣壓，對部分高價股形成明顯衝擊。就整體台股市值與成交量而言，仍不至於單靠 ETF 就引發整體崩盤。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "記憶體供需",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "市場會隨基期高低而改變解讀。當前擴產與需求強勁的訊息同時出現，讓市場陷入多空各自解讀；若位階在低檔，擴產不足反而是利多，但在高檔時同樣消息就會被解讀成供需反轉風險。",
+          "consensus": "",
+          "timeHorizon": "medium",
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "sector": "主動式 ETF",
+      "mentions": {
+        "7d": 1,
+        "30d": 1,
+        "90d": 1,
+        "all": 1
+      },
+      "sentimentScore": {
+        "7d": 0,
+        "30d": 0,
+        "90d": 0,
+        "all": 0
+      },
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-19",
+          "signal_type": "monitor",
+          "confidence": "",
+          "kol": "李兆華",
+          "reason": "主動式 ETF 規模成長快速，但以台股目前成交量來看，還不至於單獨造成整體大盤崩盤。不過在某些中小型高價股上，若主動式 ETF 快速調整持股，仍可能放大個股層級的人踩人風險，尤其波動大、籌碼較淺的標的。",
           "consensus": "",
           "timeHorizon": "medium",
           "weight": 0
