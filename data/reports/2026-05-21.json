@@ -1,0 +1,411 @@
+{
+  "date": "2026-05-21",
+  "quickDigest": [
+    "NVDA財報營收年增85%、毛利率75%，需求擴散至企業與主權政府，成長結構更穩健",
+    "台積電(2330.TW)與設備股(3017.TW)為AI供應鏈核心受惠，回檔視為布局機會",
+    "國巨(2327.TW) RSI達88、20日漲81%，外資投信連買，但追價風險需留意",
+    "聯發科(2376.TW)因AI營收翻倍想像被重新評價，法說後動能可持續觀察",
+    "主動式ETF單日漲近6%，反映市場高度集中AI配置，轉弱時波動同步放大"
+  ],
+  "marketMood": "AI需求結構擴散提振信心，但題材追價族群估值過熱風險暗藏",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "NVDA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "輝達財報非常好，營收年增約八成五、毛利率仍維持在七成五左右，雲端業務年增也很強，基本面遠優於市場預期。更重要的是，需求結構已從四大雲端業者擴散至企業客戶、中小型雲端業者與主權政府，代表需求延續性更高。盤後股價未立即大漲，但不影響基本面訊號，短線拉回屬於正常整理。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "財報後的一週內市場消化與資金回流",
+      "technicals": {
+        "currentPrice": 218.75,
+        "ma20": 214.35,
+        "ma60": 193.83,
+        "priceVsMa20Pct": 2.1,
+        "priceVsMa60Pct": 12.9,
+        "rsi14": 57,
+        "changePct5d": -7.2,
+        "changePct20d": 9.6,
+        "volumeRatio": 0.62,
+        "currency": "USD",
+        "asOf": "2026-05-21T15:07:34.000Z"
+      }
+    },
+    {
+      "ticker": "TSMC",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電被視為人工智慧財報鏈的前段關鍵指標，法說表現符合市場高標準。只要基本面沒有反轉，股價回測應被視為修正而非趨勢結束，台積電仍是整體人工智慧循環最核心的受惠者之一。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "catalyst": "後續台積電法說與人工智慧供應鏈訂單驗證"
+    },
+    {
+      "ticker": "2330.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電基本面仍是長期多頭趨勢的重要支撐，沒有看到基本面反轉訊號，目前高位不能簡單視為高點，拉回反而是重新布局的機會。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "catalyst": "半導體法說季與人工智慧需求持續驗證",
+      "technicals": {
+        "currentPrice": 2230,
+        "ma20": 2227,
+        "ma60": 2018.33,
+        "priceVsMa20Pct": 0.1,
+        "priceVsMa60Pct": 10.5,
+        "rsi14": 56,
+        "changePct5d": -1.8,
+        "changePct20d": 8.8,
+        "volumeRatio": 0.65,
+        "currency": "TWD",
+        "asOf": "2026-05-21T05:30:11.000Z"
+      }
+    },
+    {
+      "ticker": "3017.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "設備族群是更標準的人工智慧受惠股，從去年財報到今年營運都持續成長，趨勢未改變。晶片出貨量若持續擴張，台灣相關供應鏈必須持續出貨，在產能仍受限的情況下，設備需求與投資循環還會延續。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "後續設備廠營收與接單持續驗證",
+      "technicals": {
+        "currentPrice": 2495,
+        "ma20": 2605,
+        "ma60": 2219.92,
+        "priceVsMa20Pct": -4.2,
+        "priceVsMa60Pct": 12.4,
+        "rsi14": 52,
+        "changePct5d": -2.3,
+        "changePct20d": -7.4,
+        "volumeRatio": 0.68,
+        "currency": "TWD",
+        "asOf": "2026-05-21T05:30:21.000Z"
+      }
+    },
+    {
+      "ticker": "2327.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "國巨為被動元件族群的重要指標股，基本面不差，營收已有創高與持續加溫跡象。外資與投信連續買超，市場資金確實聚焦在此族群，市場氛圍延續時股價仍有機會續強。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "市場資金持續輪動至被動元件",
+      "technicals": {
+        "currentPrice": 572,
+        "ma20": 394.53,
+        "ma60": 316.73,
+        "priceVsMa20Pct": 45,
+        "priceVsMa60Pct": 80.6,
+        "rsi14": 88,
+        "changePct5d": 23.8,
+        "changePct20d": 81.3,
+        "volumeRatio": 0.45,
+        "currency": "TWD",
+        "asOf": "2026-05-21T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "2376.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "聯發科法說後釋出人工智慧相關營收未來有翻倍想像空間，市場提前重新給評價。目前實際數字尚未明顯噴發，但上下游與公司訊息都支持明年成長動能比今年更強，屬於可順勢關注的標的。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "後續人工智慧與系統級業務營收驗證",
+      "technicals": {
+        "currentPrice": 316.5,
+        "ma20": 300.85,
+        "ma60": 261.74,
+        "priceVsMa20Pct": 5.2,
+        "priceVsMa60Pct": 20.9,
+        "rsi14": 60,
+        "changePct5d": -3.2,
+        "changePct20d": 11.1,
+        "volumeRatio": 1.05,
+        "currency": "TWD",
+        "asOf": "2026-05-21T05:30:11.000Z"
+      }
+    },
+    {
+      "ticker": "鴻海",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "鴻海人工智慧營收比重已接近四成至五成，不能再簡單視為純傳統電子股，已實質參與人工智慧需求擴張，長線仍是受惠於伺服器與相關硬體擴張的重要公司。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "catalyst": "人工智慧伺服器出貨持續放量",
+      "technicals": {
+        "currentPrice": 247.5,
+        "ma20": 239.7,
+        "ma60": 220.24,
+        "priceVsMa20Pct": 3.3,
+        "priceVsMa60Pct": 12.4,
+        "rsi14": 61,
+        "changePct5d": 1.2,
+        "changePct20d": 12,
+        "volumeRatio": 0.52,
+        "currency": "TWD",
+        "asOf": "2026-05-21T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "散熱族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "散熱族群在大幅回檔後出現跌深反彈，建測相關題材的陰霾未必完全消失，但籌碼沉澱後仍可能迎來反彈。主持人定義為事件風險消化後的技術性修復，屬於可持續觀察的族群。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "建測事件後的籌碼重整"
+    },
+    {
+      "ticker": "主動式 ETF",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主動式 ETF 目前能明顯領先，因市場主軸集中在人工智慧，多數主動操作團隊幾乎都滿手人工智慧部位，大盤上漲時表現自然突出。部分領先群當天漲幅接近六個百分點，配置方向與盤面主流一致。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "大盤多頭延續與人工智慧族群輪動"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "題材追價族群（未具名）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "節目未明確點名看空個股，但對於題材上漲幅度過大、基本面尚未完全跟上的族群，主持人多次提醒不要把市場氛圍當成基本面。此類標的若市場情緒反轉，修正幅度可能很大，屬於高風險追價區。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "AI 產業需求結構",
+      "reason": "輝達財報明確證明人工智慧需求沒有問題，需求來源已不再只依賴四大雲端業者，企業客戶、中小型雲端業者與各國主權政府的需求也開始補上，整體需求結構更分散，成長動能沒有改變，短線拉回更像修正而非趨勢反轉。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "台股與人工智慧供應鏈走勢",
+      "reason": "輝達財報釋放強心針後，台股與台灣人工智慧供應鏈將直接受惠，費半、韓股與台股的結構性強勢已形成。短線量能雖未完全跟上，但回檔多半是整理，不應把短線震盪視為基本面轉弱。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "輝達財報證明人工智慧需求沒有問題，而且客戶結構已經明顯分散。",
+      "reasoning": "這次財報不只是數字漂亮，而是需求來源出現結構性改變。過去市場主要看四大雲端業者的資本支出，但現在企業客戶、中小型雲端業者與主權政府的需求也開始接棒，代表成長不是單點驅動，而是擴散式擴張。因此判斷人工智慧趨勢並未轉弱，短線拉回多半只是整理。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "未來看人工智慧股，重點不只看四大雲端業者資本支出，還要看第二層需求是否接上。",
+      "reasoning": "市場原本擔心資本支出越來越接近現金流上限，但輝達在法說中直接補上答案：除了原本的四大雲端業者之外，還有企業與政府需求在擴散。這等於替成長曲線找到第二條腿，即使大型雲端業者未來成長放緩，整體需求仍不容易掉下來。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "短線大漲後的人工智慧與半導體回檔，應被視為修正，不是趨勢反轉。",
+      "reasoning": "從 2023 年以來，人工智慧主軸帶動的多頭趨勢並沒有被破壞。只要基本面持續驗證，大漲之後的震盪整理多半只是市場在消化漲幅。真正要警覺的是數字開始轉弱，而不是單純價格拉回。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "標準人工智慧股與題材輪動股的操作邏輯要分開，不能混為一談。",
+      "reasoning": "設備族群是真正的人工智慧受惠股，有持續成長的財報與產業循環支撐，適合在回檔時買入；但像被動元件、部分第二季才突然轉強的族群，更多是市場氛圍與資金輪動所推動，應順勢操作、強勢時跟進、轉弱時提高警覺。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "國巨與聯發科是觀察市場是否仍偏好次級人工智慧題材的關鍵指標。",
+      "reasoning": "國巨受惠於整體景氣回升與部分題材加持，聯發科則靠著未來人工智慧相關營收想像被重新評價。若這兩檔後續轉弱，代表市場對第二季才被炒熱的題材可能開始退潮；若仍強勢，則意味資金輪動仍在延續。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "主動式 ETF 的強勢，反映的是市場主軸集中，而不是商品本身具有神奇的超額報酬。",
+      "reasoning": "主動式 ETF 近期表現好，是因為多數主動基金經理幾乎都重押人工智慧主流股，在多頭環境下自然領先。但它們本質上仍是高波動商品，指數回檔時壓力也會更大，投資人應把它視為方向配置工具，而非無風險的績效保證。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "領股息不一定代表更有效率，資本利得與現金流必須依個人需求取捨。",
+      "reasoning": "若投資人本來就不需要現金流，卻刻意追求每月配息，實際上可能只是把本來可以繼續複利的資金提早拿出來。反之，若真的需要穩定生活現金流，配息商品才有其價值。關鍵不是「哪個一定比較好」，而是是否符合自己的資金用途。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "若輝達與人工智慧大廠後續成績無法延續高成長，市場對高評價族群的容忍度會快速下降。",
+    "第二季才被市場炒熱的題材股若失去資金關注，修正幅度可能比標準人工智慧股更大。",
+    "主動式 ETF 在指數上漲時表現強，但若市場轉弱，波動與下跌壓力也會同步放大。",
+    "被動元件與部分非核心人工智慧族群的上漲，更多仰賴市場氛圍，基本面若跟不上，風險較高。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "未提及",
+      "event": "輝達財報後的一週市場消化與資金再配置",
+      "tickers": [
+        "NVDA",
+        "台股",
+        "2330.TW"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "未提及",
+      "event": "台積電與人工智慧供應鏈後續法說與營收驗證",
+      "tickers": [
+        "TSMC",
+        "2330.TW",
+        "3017.TW"
+      ],
+      "source": "李兆華"
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1102｜輝達財報證明AI沒問題，客戶更分散，台股直接衝！再遇到回測，一定要有信心！多數族群都回暖，主動ETF領先群6%起？ft.AI達人 蔡明翰",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/7a6be253-8b9b-4fa9-9d6c-85c7a6c0a9ee",
+      "sentiment": "bullish",
+      "oneLiner": "輝達財報確認人工智慧需求擴散至企業與主權政府，台股供應鏈迎來新一波上漲動能。",
+      "detailedSummary": "本集主軸圍繞輝達財報所釋放的人工智慧需求強勁訊號，主持人指出最關鍵的突破在於需求結構的擴散，不再只靠四大雲端業者支撐，企業與政府需求的接棒使成長動能更具持續性。台積電、半導體設備族群（如 3017.TW）被視為最直接受惠的標準人工智慧股，適合在回檔時分批布局；而國巨、聯發科等第二季才轉強的族群，則被歸類為資金輪動型題材，需順勢操作並保持警覺。主持人亦討論主動式 ETF 的強勢本質為市場集中配置於人工智慧，而非商品本身具備超額優勢，並提醒投資人在評估配息商品時應以自身現金流需求為判斷基準，而非一味追求月配息。",
+      "highlights": [
+        "輝達財報營收年增約八成五、毛利率維持七成五，基本面遠超預期，人工智慧需求獲強力驗證。",
+        "需求來源從四大雲端業者擴散至企業客戶、中小型雲端業者與各國主權政府，成長結構更健康分散。",
+        "台積電（2330.TW / TSMC）被視為人工智慧財報鏈的核心指標，基本面支撐長線多頭格局，拉回是機會。",
+        "半導體設備族群（如 3017.TW）是更標準的人工智慧受惠股，產業循環持續向上，優先在回檔時布局。",
+        "國巨（2327.TW）外資與投信連續買超，主持人直接列為買進標的；聯發科（2376.TW）因人工智慧營收翻倍想像而被重新評價。",
+        "主動式 ETF 領先群當天漲幅近六個百分點，反映市場主軸高度集中於人工智慧，但高波動風險不可忽視。",
+        "主持人明確區分「標準人工智慧股」與「題材輪動股」操作邏輯：前者回檔布局，後者順勢操作並及時退出。",
+        "配息商品的價值取決於投資人是否真的需要現金流，盲目追求月配息可能犧牲複利效率。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "世界先進",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
