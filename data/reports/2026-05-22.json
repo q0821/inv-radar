@@ -1,0 +1,602 @@
+{
+  "date": "2026-05-22",
+  "quickDigest": [
+    "台股收盤站上42,000點創新高，NVDA財報、AMD訪台、Google I/O三大催化劑接力驅動，非純資金炒作",
+    "AMD（RSI 73，5日漲10.6%）帶動先進封裝族群，力成6770.TW、華通2313.TW資金明顯卡位",
+    "NVDA客戶結構從四大雲端擴散至各國政府與中小企業，台灣AI供應鏈基本面支撐更具韌性",
+    "智慧眼鏡成下一波AI載體，GOOGL Gemini結合眼鏡概念，大立光2371.TW光學供應鏈值得中長線關注",
+    "國巨2327.TW RSI達90、20日漲113%，追高風險極高；第三季高基期與利多鈍化風險不可忽視"
+  ],
+  "marketMood": "AI三棒接力帶動台股創高，基本面撐盤但追高風險與高基期壓力並存",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "加權指數",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台股這一波先跌破月線後又快速拉回，顯示盤面並非崩跌而是健康震盪。人工智慧相關基本面與資金面同步回溫，收盤站上四萬兩千點創下收盤新高，代表市場風險偏好明顯回升。若再回測反而可以視為更好的分批布局機會。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "收盤站上四萬兩千點，盤中高點接近前高"
+    },
+    {
+      "ticker": "NVDA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "輝達財報顯示人工智慧基本面沒有問題，且客戶結構正在擴散，不再只依賴四大雲端業者。各國企業、政府與中小企業都在使用其服務，未賣中國也不影響整體展望，需求面更具韌性，對台灣供應鏈與整體人工智慧行情都有支撐效果。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 217.24,
+        "ma20": 214.84,
+        "ma60": 194.38,
+        "priceVsMa20Pct": 1.1,
+        "priceVsMa60Pct": 11.8,
+        "rsi14": 55,
+        "changePct5d": -3.6,
+        "changePct20d": 4.3,
+        "volumeRatio": 0.39,
+        "currency": "USD",
+        "asOf": "2026-05-22T15:07:30.000Z"
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "Google 開發者大會釋出 Gemini 進化與人工智慧眼鏡的新想法，證明人工智慧仍會持續落地。軟硬體一起推進後，智慧眼鏡的普及性與實用性提高，人工智慧載體從手機延伸到眼鏡，是人工智慧下一棒的重要催化。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 388.17,
+        "ma20": 385.74,
+        "ma60": 335.2,
+        "priceVsMa20Pct": 0.6,
+        "priceVsMa60Pct": 15.8,
+        "rsi14": 62,
+        "changePct5d": -2.2,
+        "changePct20d": 12.7,
+        "volumeRatio": 0.19,
+        "currency": "USD",
+        "asOf": "2026-05-22T15:07:30.000Z"
+      }
+    },
+    {
+      "ticker": "AMD",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "AMD 送出大禮包到台灣，帶動封測與先進封裝概念股全面走強。AMD 與台灣供應鏈的合作加深，蘇姿丰來台的訊息強化市場對先進封裝需求的想像，市場資金明顯先卡位台灣相關供應鏈。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 469.23,
+        "ma20": 405.98,
+        "ma60": 285.89,
+        "priceVsMa20Pct": 15.6,
+        "priceVsMa60Pct": 64.1,
+        "rsi14": 73,
+        "changePct5d": 10.6,
+        "changePct20d": 34.9,
+        "volumeRatio": 0.34,
+        "currency": "USD",
+        "asOf": "2026-05-22T15:07:30.000Z"
+      }
+    },
+    {
+      "ticker": "6770.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "力成近期大漲不只是記憶體封測題材，而是與其自有的先進封裝技術有關。力成提出的技術設計可與國際大廠先進封裝方案對照，在良率與製程便利性上有優勢，是台灣先進封裝國家隊的重要成員之一。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 63.8,
+        "ma20": 58.55,
+        "ma60": 60.83,
+        "priceVsMa20Pct": 9,
+        "priceVsMa60Pct": 4.9,
+        "rsi14": 59,
+        "changePct5d": 1.6,
+        "changePct20d": 20.6,
+        "volumeRatio": 1.27,
+        "currency": "TWD",
+        "asOf": "2026-05-22T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "3583.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "群創在玻璃基板與先進封裝的佈局受到市場重視，具備鑽孔與金屬鍍膜等相關技術，若未來玻璃基板成為主流方案，群創有機會扮演關鍵角色。題材與技術都有想像空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 875,
+        "ma20": 836.65,
+        "ma60": 615.9,
+        "priceVsMa20Pct": 4.6,
+        "priceVsMa60Pct": 42.1,
+        "rsi14": 60,
+        "changePct5d": -1.5,
+        "changePct20d": -2,
+        "volumeRatio": 0.65,
+        "currency": "TWD",
+        "asOf": "2026-05-22T05:30:40.000Z"
+      }
+    },
+    {
+      "ticker": "2382.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "廣達早一步切入雲端伺服器，長期仍是值得信賴的供應鏈核心。具備大股本與大量資金調度能力，能在新平台切換時快速跟上，雖短線有三個月左右的出貨或良率波動，但下一季常能重新獲得市場認同。在新世代人工智慧伺服器中仍具優勢。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 316,
+        "ma20": 322.13,
+        "ma60": 305.81,
+        "priceVsMa20Pct": -1.9,
+        "priceVsMa60Pct": 3.3,
+        "rsi14": 50,
+        "changePct5d": 3.3,
+        "changePct20d": -1.9,
+        "volumeRatio": 1.48,
+        "currency": "TWD",
+        "asOf": "2026-05-22T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "2317.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "鴻海在人工智慧伺服器與相關新平台切入上具備長期競爭力，在伺服器、雲端與代工領域已累積經驗，市場通常會在落難時給予更好的布局點。被視為人工智慧供應鏈中的核心長線標的之一。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 250,
+        "ma20": 240.95,
+        "ma60": 220.6,
+        "priceVsMa20Pct": 3.8,
+        "priceVsMa60Pct": 13.3,
+        "rsi14": 63,
+        "changePct5d": 0.6,
+        "changePct20d": 11.1,
+        "volumeRatio": 0.59,
+        "currency": "TWD",
+        "asOf": "2026-05-22T05:30:03.000Z"
+      }
+    },
+    {
+      "ticker": "2371.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "大立光所在的光學元件族群，因智慧眼鏡與人工智慧載體擴展而值得持續關注。人工智慧未來不只在手機，還可能在眼鏡等穿戴式裝置落地，台灣在光學元件供應鏈相對完整，若智慧眼鏡普及將成為關鍵受惠方向。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 29.5,
+        "ma20": 29.84,
+        "ma60": 31.54,
+        "priceVsMa20Pct": -1.2,
+        "priceVsMa60Pct": -6.5,
+        "rsi14": 44,
+        "changePct5d": 1.2,
+        "changePct20d": -3.4,
+        "volumeRatio": 1.15,
+        "currency": "TWD",
+        "asOf": "2026-05-22T05:30:26.000Z"
+      }
+    },
+    {
+      "ticker": "6274.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台耀在外資出報告後股價一度弱到開盤就打到跌停，但這兩天又出現大復活。基本面並未出現明顯惡化，在籌碼與消息面修正後快速止跌回升，市場願意重新評價。成本不高者，抱著等反彈是合理做法。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2368.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "建策在前一段急跌後出現強勢反彈，跌深股很容易出現解套波或自救行情。股價從高檔快速腰斬讓市場預期出現過度反應，技術面上常見大幅反彈。既有套牢者應把握反彈減少虧損。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "高點約五百六十八元，低點約二百八十元",
+      "technicals": {
+        "currentPrice": 1330,
+        "ma20": 1367,
+        "ma60": 1094.75,
+        "priceVsMa20Pct": -2.7,
+        "priceVsMa60Pct": 21.5,
+        "rsi14": 54,
+        "changePct5d": 3.1,
+        "changePct20d": 5.1,
+        "volumeRatio": 0.91,
+        "currency": "TWD",
+        "asOf": "2026-05-22T05:30:23.000Z"
+      }
+    },
+    {
+      "ticker": "2313.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "華通在先進封裝與相關封測題材帶動下被市場關注，資金不只看龍頭，也往周邊供應鏈擴散。封裝、載板與板級相關產業在台灣具完整供應鏈，資金願意追逐有基本面與題材並存的標的，屬於人工智慧熱潮外溢受惠族群。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 278,
+        "ma20": 249.3,
+        "ma60": 240.6,
+        "priceVsMa20Pct": 11.5,
+        "priceVsMa60Pct": 15.5,
+        "rsi14": 59,
+        "changePct5d": 18,
+        "changePct20d": 24.9,
+        "volumeRatio": 1.15,
+        "currency": "TWD",
+        "asOf": "2026-05-22T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "2308.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "華通在相關供應鏈中具延續性，台灣在印刷電路板領域具全球市占優勢。當資金集中時，具地位與基本面的公司容易被選中，屬於人工智慧與高速運算外溢受惠。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 2095,
+        "ma20": 2121.75,
+        "ma60": 1730.33,
+        "priceVsMa20Pct": -1.3,
+        "priceVsMa60Pct": 21.1,
+        "rsi14": 56,
+        "changePct5d": 1,
+        "changePct20d": 5.8,
+        "volumeRatio": 0.73,
+        "currency": "TWD",
+        "asOf": "2026-05-22T05:30:12.000Z"
+      }
+    },
+    {
+      "ticker": "2451.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "創見在記憶體族群走強時受惠，封測與記憶體題材同步活絡。記憶體市場在短線有資金回流，搭配相關封測或模組廠的評價修復，讓此類標的出現輪動機會。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 316.5,
+        "ma20": 301.95,
+        "ma60": 262.02,
+        "priceVsMa20Pct": 4.8,
+        "priceVsMa60Pct": 20.8,
+        "rsi14": 58,
+        "changePct5d": -5.8,
+        "changePct20d": 25.8,
+        "volumeRatio": 0.36,
+        "currency": "TWD",
+        "asOf": "2026-05-22T05:30:20.000Z"
+      }
+    },
+    {
+      "ticker": "2327.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "國巨在市場情緒轉熱時再度大漲，被動元件族群也有基本面與資金面共振的機會。公司在被動元件景氣循環中具有龍頭地位，且過往常因併購與財務操作引起市場關注。主持人對其估值較保留，但短線仍屬偏多觀察。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 629,
+        "ma20": 411.23,
+        "ma60": 322.52,
+        "priceVsMa20Pct": 53,
+        "priceVsMa60Pct": 95,
+        "rsi14": 90,
+        "changePct5d": 38.1,
+        "changePct20d": 113.2,
+        "volumeRatio": 1.35,
+        "currency": "TWD",
+        "asOf": "2026-05-22T05:30:15.000Z"
+      }
+    }
+  ],
+  "bearishSignals": [],
+  "monitorSignals": [
+    {
+      "topic": "先進封裝產業",
+      "reason": "先進封裝、玻璃基板與相關封測技術將是未來幾年的重要主題，但真正進入大規模量產可能還要時間。國際大廠與台灣供應鏈都在加速投入，市場對這條產業路徑的認同持續升高。短線資金會先炒作題材，長線則要觀察良率與量產時程。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "智慧眼鏡產業",
+      "reason": "人工智慧的下一個重要載體可能是智慧眼鏡，而不是只有手機。Google 已把 Gemini 與眼鏡概念結合，市場上越來越多廠商投入，商業化機率提高。若應用普及，台灣的光學元件與相關零組件供應鏈會受惠。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "BBU 族群",
+      "reason": "BBU 近期開始補漲，新盛力與順達等標的都有表現，代表資料中心電力備援需求仍在延伸。人工智慧伺服器對電源、備援與散熱需求同步增加，這些族群通常會在下半年較明顯放量。短線屬於輪動補漲，長線則看資料中心建置持續性。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "HVDC 概念",
+      "reason": "高壓直流供電相關供應鏈在今年第四季到明年有機會進入量產或確認規格階段。人工智慧伺服器功耗持續升高，電力架構升級勢在必行，第三季就可能看到送樣與初步確認。這是典型的中長線基礎建設型題材。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "台股這波不是單純反彈，而是由人工智慧基本面與國際科技巨頭接力推升的結構性行情。",
+      "reasoning": "主持人把這一段行情拆成三棒：Google 開發者大會、輝達財報、AMD 對台灣供應鏈的大手筆合作，三者都在強化人工智慧持續落地的證據。即使指數之前一度跌破月線，主持人仍認為那只是健康修正，因為底層支撐是產業基本面而不是純資金拉抬。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "人工智慧的載體正在從手機擴張到智慧眼鏡，這可能是下一波應用放大的關鍵。",
+      "reasoning": "主持人觀察到 Google 已經把 Gemini 與智慧眼鏡結合，認為人工智慧若要真正普及，必須有更自然的互動載體。手機雖然仍重要，但眼鏡的便利性與日常使用情境更貼近普及化，未來有機會帶動光學與穿戴式供應鏈。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "先進封裝與玻璃基板雖然短期還在題材階段，但中長期趨勢方向大致正確。",
+      "reasoning": "主持人引用產業研究者與實務觀察指出，玻璃基板的鑽孔與製程門檻很高，量產不會那麼快，但未來仍是重要方案。由於不只台積電、英特爾與三星在做，連康寧等材料端也投入，代表這條路徑不是單一公司在炒作，而是產業共同前進的方向。",
+      "sector": "半導體",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台灣在封測與先進封裝的地位仍然很強，這一輪資金會先回到最有產業基礎的公司。",
+      "reasoning": "主持人認為台灣在封測、封裝、載板與部分光學元件上有完整聚落，使得先進封裝的題材可以真正落地。就算國際大廠推進新技術，台灣供應鏈仍具備技術深度與製造能力，因此資金會先回到已經有實績的供應鏈。",
+      "sector": "半導體",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "短線行情可能很熱，但第三季仍要注意利多鈍化與高基期風險。",
+      "reasoning": "主持人一方面看好第二季到第三季初的人工智慧延續行情，另一方面也提醒第一季基期已墊高。若第三季進入傳統旺季時利多沒有持續超預期，市場可能會開始對漲多族群重新定價，因此不能只看短線漲勢。",
+      "sector": "總經",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "追強勢股一定要懂得停利，接右下角股票則一定要嚴格停損。",
+      "reasoning": "主持人用建策、台耀等個股說明，右上角股票常出現看得到吃不到的情況，一旦追高後若沒有設停利，容易從獲利變停損。相對地，右下角股票通常處在空頭趨勢，若沒有嚴格停損，風險會比想像中大，因此操作邏輯必須先決定進場後的退出規則。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "投資沒有報酬最大化，只有最適合自己的資產配置。",
+      "reasoning": "主持人強調不同商品各有優缺點，市值型最大的優勢是不容易落隊，但缺點是很難拿到超額報酬；主動式產品能追求更高績效，但波動與回撤也可能更大。每個人的資金、風險承受度與操作能力不同，所以最重要的是找到符合自己狀況的組合，而不是盲目追求最高報酬。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "追高強勢股若沒有停利機制，容易從獲利轉為被套。",
+    "跌深股若沒有嚴格停損，接刀後可能承受更大虧損。",
+    "先進封裝與玻璃基板屬於長線題材，短期股價可能先反映想像空間，若量產進度不如預期會有回檔風險。",
+    "第一季基期已高，若第三季沒有持續超預期利多，人工智慧族群可能面臨利多鈍化。",
+    "部分漲多科技股雖然故事很強，但估值與泡沫風險仍需留意。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "第三季",
+      "event": "高壓直流供電相關供應鏈送樣與規格確認",
+      "tickers": [
+        "BBU 族群",
+        "HVDC 概念"
+      ]
+    },
+    {
+      "date": "未提及明確日期",
+      "event": "Google 開發者大會後續產品落地與智慧眼鏡推進",
+      "tickers": [
+        "GOOGL"
+      ]
+    },
+    {
+      "date": "未提及明確日期",
+      "event": "輝達財報後市場持續重新評價人工智慧供應鏈",
+      "tickers": [
+        "NVDA",
+        "台股人工智慧供應鏈"
+      ]
+    },
+    {
+      "date": "未提及明確日期",
+      "event": "蘇姿丰來台與先進封裝合作延續",
+      "tickers": [
+        "AMD",
+        "6770.TW",
+        "3583.TW",
+        "2330.TW"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1103｜Google、輝達、AMD，一棒接一棒讓台灣漲？創收盤新高，泡沫和基本面的平衡，封測還行！投資沒有報酬率最大化，只有最適合！ft.選股教練 陳唯泰",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/1ded70a9-ec39-4ebf-a4f7-a6f592d53c61",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "Google、輝達、AMD 三棒接力，台股收盤創四萬兩千點新高，先進封裝與智慧眼鏡成為下一波布局主題。",
+      "detailedSummary": "本集主持人與選股教練陳唯泰深度解析台股在人工智慧三大催化劑——Google Gemini 進化、輝達財報超預期、AMD 加碼台灣供應鏈——共同推升下，收盤突破四萬兩千點創新高的結構性意義。主持人特別強調輝達客戶基礎已從四大雲端業者擴散至各國政府與企業，需求韌性更強，同時看好台灣在先進封裝、封測、玻璃基板、BBU 電源備援與 HVDC 高壓直流供電等延伸題材的長線布局機會。對於個股操作，以建策與台耀為例，提醒強勢股要設停利、弱勢反彈股要嚴格停損。節目結尾強調投資沒有報酬最大化，只有依據個人風險承受度量身打造的最適配置。",
+      "highlights": [
+        "台股收盤站上四萬兩千點創新高，主持人認為是人工智慧基本面驅動的結構性行情，非單純資金炒作。",
+        "輝達財報強勁，客戶結構從四大雲端業者擴散至各國政府與中小企業，需求面韌性顯著提升。",
+        "Google 開發者大會將 Gemini 與智慧眼鏡結合，主持人認為智慧眼鏡是人工智慧下一個重要應用載體。",
+        "AMD 蘇姿丰訪台深化供應鏈合作，帶動力成（6770.TW）、群創（3583.TW）等先進封裝與封測族群全面升溫。",
+        "先進封裝與玻璃基板為中長線重要主題，台積電、英特爾、三星、康寧等國際大廠共同投入，產業方向確立。",
+        "BBU 族群（新盛力、順達）開始補漲，HVDC 高壓直流供電預計第三季送樣、第四季確認規格，屬中長線基礎建設題材。",
+        "操作策略上：追強勢股（右上角）需設停利，接跌深股（右下角）需嚴格停損，以建策（2368.TW）與台耀（6274.TW）為案例說明。",
+        "投資沒有報酬最大化，只有最適合自己的資產配置——依風險承受度、資金規模與操作能力選擇合適商品組合。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "世界先進",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
