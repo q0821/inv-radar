@@ -1,0 +1,337 @@
+{
+  "date": "2026-05-23",
+  "quickDigest": [
+    "被動元件全面噴出：高壓MLCC最缺、鋁電容供需偏緊，資料中心高功耗需求驅動漲價循環成形",
+    "Anthropic轉獲利否定AI泡沫論，硬體投資進入更大規模擴張，上游供應鏈資本支出預期持續上修",
+    "Google聯手Blackstone推TPU叢集外銷，算力產能已成戰略資源，晶圓代工與設備供應鏈持續受惠",
+    "高密度機櫃把電力需求移至隔壁櫃位，功率元件與電源架成被忽略的供應鏈瓶頸，補漲空間可期",
+    "房市短期偏冷、資金持續流入股市；選擇權高槓桿死亡率高，新手應嚴控部位"
+  ],
+  "marketMood": "AI硬體缺口從主晶片蔓延至被動元件，供需失衡驅動漲價循環全面引爆",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "被動元件",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "被動元件已成市場核心主題，高壓多層陶瓷電容、鋁電容、電感、電阻與通路商全面漲價漲停，反映資料中心功耗提升與機櫃電力需求大增，缺貨與供需失衡仍是核心邏輯。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "資料中心擴建與高功耗平台導入"
+    },
+    {
+      "ticker": "MLCC",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "高壓多層陶瓷電容是目前最缺的元件之一，部分廠商雖未全面調漲但已明確表示不排除跟進漲價。AI 資料中心用電需求上升帶動高壓規格需求暴增，若回檔後再轉強，高階規格仍會是資金首選。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "高壓規格元件後續報價調整"
+    },
+    {
+      "ticker": "鋁電容",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "市場較少人理解但實際供需偏緊的受惠族群，通路與日系供應鏈皆反映需求龐大，牛角型與高階規格在資料中心與電源應用中持續吃緊，具備後續漲價與補漲空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "資料中心與電源架拉貨需求延續"
+    },
+    {
+      "ticker": "功率元件",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "資料中心高耗電使功率元件與功率半導體受惠，機櫃高密度化與電源架配置外移讓原本被忽略的元件出現新增需求，高密度伺服器與更高規格電源架持續導入是主要催化劑。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "高密度機櫃與電源架升級"
+    },
+    {
+      "ticker": "羅華",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "這波修正中相對抗跌，公司持續控貨、等準備好才釋出，被視為籌碼集中與供給控制，讓價格維持穩定。若後續市場資金回到高端酒類或稀缺標的，控貨模式仍可能支撐價格。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "catalyst": "酒類市場需求回升"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "特斯拉",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "在討論算力出租與 AI 競爭時，隱含提到馬斯克旗下 Grok 發展未如預期順利，馬斯克轉向出租算力來回本，間接反映部分自家 AI 布局執行面存疑。語氣非強烈看空，但透露對相關業務的保留。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "AI 與算力業務後續進展"
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "AI 產業投資",
+      "reason": "Anthropic 已轉為獲利，直接否定 AI 泡沫論。模型商獲利改善與算力需求持續擴張，顯示硬體投資不但沒有停，可能進一步加大，將延長硬體與供應鏈的景氣循環。但若市場過度提前反映，後續仍可能出現估值波動。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "TPU 供應鏈",
+      "reason": "Google 與 Blackstone 合作推動 TPU 叢集與雲端服務，TPU 外銷成長速度超乎預期，相關供應鏈受惠；同時對既有晶片與雲端業者形成競爭壓力，需持續追蹤進展。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "晶圓代工產能",
+      "reason": "更多業者加入 AI 算力競賽，產能成為整個產業的關鍵限制器。市場已出現搶晶片、搶產線、搶零組件現象，連雷射、記憶體與電力元件都出現卡位。短期對上游產能與設備供應鏈是利多，但也可能持續推升估值與炒作風險。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "房市",
+      "reason": "房市目前偏冷，連林口等人口持續流入區域的成交也有壓力。資金大量流入股市，加上房貸條件偏緊、銀行放款態度保守，使房市短期不容易回溫。須關注政策放寬或資金輪動信號。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "原物料",
+      "reason": "銅價、電纜與其他原物料持續上漲，通膨壓力仍在。戰爭造成供應鏈干擾，加上 AI 與資料中心採購不計代價，只要需求沒有明顯降溫，原物料高檔震盪的機率偏高。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "處置制度",
+      "reason": "主持人對台灣處置制度的態度由反感轉為中性，理解在大型個股與法人參與下制度有其必要性。若法人與外資對制度不滿，主管機關可能調整規則，反映市場對流動性與風控敏感度上升，屬於交易制度面的重要觀察。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "選擇權",
+      "reason": "主持人把選擇權形容成好用但死亡率偏高的工具，以朋友沉迷槓桿為例，提醒新手不懂風控很容易被淘汰。屬於交易工具與風險管理面的警示，高槓桿非快速致富捷徑。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "AI 硬體投資不但沒有結束，反而可能進入更大規模擴張階段",
+      "reasoning": "Anthropic 轉為獲利後，等於直接否定 AI 泡沫論。連最燒錢的模型商都能產生現金流，代表市場對算力與硬體的投入是有機會延續更久的結構性需求，也會讓上游供應鏈的資本支出預期繼續上修。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "算力與晶片產能正在變成戰略資源，誰掌握產能誰就掌握市場擴張速度",
+      "reasoning": "Google 推 TPU 叢集、各家雲端業者搶產能、相關零組件被大量卡位，整個產業已進入產能競賽。需求成長速度快於供給時，產能不只是成本問題，而是決定誰能更快把產品推出市場的核心門檻，晶圓代工與設備供應鏈的重要性因此持續上升。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "資料中心的真正受惠者不只是主晶片，電源與被動元件反而更容易出現缺貨與漲價",
+      "reasoning": "高功耗伺服器讓電源架、電容、電感與功率元件需求同步暴增。高密度機櫃把電力需求移到隔壁櫃位，很多原本被忽略的零組件突然變成瓶頸。下一波更值得看的不是單一明星股，而是整條供應鏈的缺口位置。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "被動元件與高壓規格元件的行情，核心不是題材，而是供需失衡與漲價循環",
+      "reasoning": "這波被動元件上漲已從終端需求、供給瓶頸到報價上調形成完整鏈條。廠商開始透露不排除跟進漲價，代表產業已進入價量雙升階段。若回檔後基本面仍維持缺貨，資金可能再度回流真正缺料的標的。",
+      "sector": "其他",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "市場進入全面噴射期後，短線基本面重要性下降，資金會先用價格投票",
+      "reasoning": "當市場集體把注意力放在同一族群時，資金往往直接推升股價表態，而非等待完整基本面驗證。在大漲階段，比起反覆研究，先看線型與資金流更有效率。待第一波漲完後，市場才會開始分辨誰是真受惠、誰只是跟風。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "房市短期偏冷，資金更偏好流向股市與高波動題材",
+      "reasoning": "從銀行貸款條件偏緊與資金持續流入股市推論，房市現在難以像股市一樣持續吸金。題材豐富、報酬率更高的市場持續搶走資金，房市自然進入相對冷卻期，除非政策再度放水否則短期難重啟強勢。",
+      "sector": "房市",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "AI 不是讓工作變少，而是讓有能力的人工作範圍變大、工時變長",
+      "reasoning": "主持人以自身使用 AI 工具的經驗指出，效率提升後並未讓他少工作，反而能處理更多事情。AI 短期內更像是生產力放大器，而非全面取代人力的工具。勞動市場真正的變化可能是工作內容升級，而不是單純消失。",
+      "sector": "其他",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "被動元件與 AI 相關標的已大幅上漲，回檔時容易出現追高風險。",
+    "部分漲勢可能來自資金與題材推升，若後續訂單未如預期，估值可能快速修正。",
+    "原物料與電力相關成本持續上漲，可能對傳產與下游毛利形成壓力。",
+    "選擇權與高槓桿操作容易讓新手快速受傷，需嚴格控管部位。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "未明確提及",
+      "event": "Anthropic 持續公布獲利與擴張進度",
+      "tickers": [
+        "AI 產業投資"
+      ]
+    },
+    {
+      "date": "未明確提及",
+      "event": "Google 推出 TPU 叢集與雲端服務",
+      "tickers": [
+        "TPU 供應鏈"
+      ]
+    },
+    {
+      "date": "未明確提及",
+      "event": "資料中心與高密度機櫃持續建置",
+      "tickers": [
+        "被動元件",
+        "MLCC",
+        "鋁電容",
+        "功率元件"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "謝孟恭",
+      "episode": "EP664 | 🐟",
+      "episodeLink": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/7d6d137a-d8b8-40b4-ad00-a7426407c729",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "從 Anthropic 轉獲利到被動元件全面漲停，主持人拆解 AI 供應鏈的真正缺口在哪裡。",
+      "detailedSummary": "本集核心圍繞 AI 硬體投資持續擴張、算力產能競賽與被動元件全面升溫三大主軸。主持人以 Anthropic 轉獲利為切入點，認為這直接否定了市場上的 AI 泡沫論，並推論上游供應鏈的資本支出預期將繼續上修。在個股層面，高壓 MLCC、鋁電容、功率元件等被忽略的電源相關零組件，因高密度機櫃與高功耗伺服器的需求暴增，已出現真實的缺貨與漲價循環。主持人也觀察到 Google 與 Blackstone 合作推進 TPU 外銷，算力產能正成為戰略資源，晶圓代工與設備供應鏈的重要性持續上升。此外，他提醒房市短期偏冷、選擇權高槓桿風險極高，建議投資人在市場全面噴射期間優先觀察線型與資金流，待第一波結束後再回頭做基本面分辨。",
+      "highlights": [
+        "Anthropic 轉為獲利，被主持人視為直接否定 AI 泡沫論的最強證據，硬體投資可能進入更大規模擴張。",
+        "Google 與 Blackstone 合作推進 TPU 叢集外銷，算力與晶片產能正在變成戰略資源，競爭格局加速改變。",
+        "被動元件全面噴出：高壓 MLCC 最缺、鋁電容供需偏緊、通路與日系供應鏈皆反映需求龐大。",
+        "高密度機櫃把電力需求移到隔壁櫃位，電源架與功率元件成為市場原本忽略的供應鏈瓶頸。",
+        "主持人強調被動元件行情的核心是供需失衡與漲價循環，廠商已明確不排除跟進調漲報價。",
+        "市場全面拉升期間，資金先用價格投票、再回頭驗證基本面；建議優先看線型與資金流向。",
+        "房市短期偏冷：銀行放款保守、資金持續流向股市，除非政策放水否則難重啟強勢行情。",
+        "選擇權與高槓桿工具死亡率高，主持人以身邊案例提醒新手嚴格控管部位，避免快速受傷。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2317.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "世界先進",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
