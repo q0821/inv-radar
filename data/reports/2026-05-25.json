@@ -1,0 +1,821 @@
+{
+  "date": "2026-05-25",
+  "quickDigest": [
+    "🔥 台股衝上4.36萬點高檔，聯發科RSI達76、20日超漲28.8%，過熱警訊明顯",
+    "🔄 AI資金輪動加速：鴻海、廣達、仁寶、金寶等老AI補漲股相繼出現漲停",
+    "⚡ 電力主線成形：華城、中興電、士電受AI高耗電+夏季用電高峰雙催化關注",
+    "💾 記憶體雜音可控：美光擴產衝擊有限，南亞科、華邦電回均線可逢低留意",
+    "📅 近期催化劑密集：5/27黃仁勳動土、6/2電腦展登場，題材提前反映風險升高"
+  ],
+  "marketMood": "百花齊放輪動狂歡，高檔沸騰下估值泡沫悄然積累",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "聯發科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "本波台股最強勢代表之一，四月到五月多次一字鎖漲停，資金力道極強，反映市場對後續展望極度樂觀。催化劑包括電腦展與黃仁勳來台帶動輝達供應鏈情緒。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "股價約從 130 多元漲至 420 元以上，催化劑：電腦展與黃仁勳來台題材持續發酵",
+      "technicals": {
+        "currentPrice": 4245,
+        "ma20": 3296,
+        "ma60": 2265.92,
+        "priceVsMa20Pct": 28.8,
+        "priceVsMa60Pct": 87.3,
+        "rsi14": 76,
+        "changePct5d": 24.9,
+        "changePct20d": 74.3,
+        "volumeRatio": 0.37,
+        "currency": "TWD",
+        "asOf": "2026-05-25T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "台達電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "本波大型權值股中最強代表之一，市場高度認同其在 AI 電力、電源與供應鏈的定位，同時具備基本面與題材雙重支撐。短線催化劑包括電腦展與 AI 電力題材延續。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "創波段新高",
+      "technicals": {
+        "currentPrice": 2290,
+        "ma20": 2132.5,
+        "ma60": 1745.42,
+        "priceVsMa20Pct": 7.4,
+        "priceVsMa60Pct": 31.2,
+        "rsi14": 65,
+        "changePct5d": 13.4,
+        "changePct20d": 10.4,
+        "volumeRatio": 1.06,
+        "currency": "TWD",
+        "asOf": "2026-05-25T05:30:16.000Z"
+      }
+    },
+    {
+      "ticker": "日月光",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "本波台股中表現最突出的權值股之一，與聯發科、台達電一起在大盤高檔領漲，顯示資金對半導體封測龍頭認同仍高。AI 供應鏈擴散效應持續，若台積電休息資金仍可望流入。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "創高"
+    },
+    {
+      "ticker": "鴻海",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "先前被市場嫌沒漲，但本波已創今年新高，顯示資金開始回補先前相對落後的大型 AI 供應鏈個股。直接受惠 AI 伺服器與組裝鏈，若電腦展與 AI 伺服器需求持續，仍有被重新評價空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "今年新高",
+      "technicals": {
+        "currentPrice": 261,
+        "ma20": 242.93,
+        "ma60": 221.08,
+        "priceVsMa20Pct": 7.4,
+        "priceVsMa60Pct": 18.1,
+        "rsi14": 69,
+        "changePct5d": 5,
+        "changePct20d": 17.8,
+        "volumeRatio": 1.38,
+        "currency": "TWD",
+        "asOf": "2026-05-25T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "廣達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "位階變得很甜，屬於近期相對委屈但仍在 AI 供應鏈中的重要標的。AI 伺服器組裝與相關供應鏈仍持續受惠，資金已開始回頭看老 AI 補漲標的。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無明確價位",
+      "technicals": {
+        "currentPrice": 316.5,
+        "ma20": 321.8,
+        "ma60": 306.35,
+        "priceVsMa20Pct": -1.6,
+        "priceVsMa60Pct": 3.3,
+        "rsi14": 50,
+        "changePct5d": 5.5,
+        "changePct20d": -2,
+        "volumeRatio": 1.9,
+        "currency": "TWD",
+        "asOf": "2026-05-25T05:30:09.000Z"
+      }
+    },
+    {
+      "ticker": "緯創",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "老 AI 補漲觀察名單，在 AI 伺服器與組裝題材延續下屬於市場輪動潛在接棒者，若資金繼續尋找相對落後股可望受惠。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "無明確價位"
+    },
+    {
+      "ticker": "仁寶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "近期被市場忽略但突然暴衝的老 AI 之一，與黃仁勳來台、北市科與輝達相關題材連動，資金快速湧入。若北市科與輝達在台話題持續升溫，仍可能反覆表態。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "漲停，催化劑：黃仁勳來台與北市科題材"
+    },
+    {
+      "ticker": "宏碁",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "本波百花齊放行情中出現明顯補漲，主要因市場資金輪動到先前沒漲到的老牌科技股，而非自身基本面突然大幅改善。若台股維持高檔震盪、資金持續尋找低基期標的，仍可能有題材性表現。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "漲停"
+    },
+    {
+      "ticker": "金寶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "因黃仁勳來台、輝達北市科動土與鄰近題材而強勢表態，市場在尋找與輝達、北市科、土地資產連動的受惠標的。若相關活動持續被媒體放大，可能維持高檔熱度。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "漲停，催化劑：輝達北市科動土相關活動"
+    },
+    {
+      "ticker": "康舒",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "電源鏈中的相對落後股，AI 帶動剛性用電需求正在擴散到電源族群，位階相對低具補漲想像空間。若市場持續追捧 AI 用電與電源供應鏈，可列入觀察。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無明確價位"
+    },
+    {
+      "ticker": "華城",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在七八百元區間盤整很久，隨著 AI 用電高峰與電力剛性需求上升，成為值得重新觀察的相對落後標的。重電、電力族群在 AI 時代具備長期需求，若夏季用電吃緊或電力題材升溫有補漲機會。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "七百到八百元區間整理，催化劑：夏季用電高峰與電力題材升溫"
+    },
+    {
+      "ticker": "中興電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "AI 電力與重電概念相對落後族群，用電高峰、電力安全與穩定議題升溫下開始受關注。AI 需求的上游延伸到發電、配電與電力基礎設施，若用電燈號持續轉橘紅或紅燈，可能成為盤面焦點。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無明確價位"
+    },
+    {
+      "ticker": "士電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與華城、中興電並列重電族群，雖屬傳產但在 AI 用電需求推升下具備剛性成長題材。屬於較少動到、但中長線仍有需求支撐的族群，若夏季用電壓力增加有機會受惠。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無明確價位"
+    },
+    {
+      "ticker": "亞力",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "重電族群中可慢慢看的標的，AI 用電與電力基礎建設延伸受惠股。盤面資金已開始關注電力與用電安全，若電力題材持續發酵有補漲空間。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "無明確價位"
+    },
+    {
+      "ticker": "滄河",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "近期很紅的太陽能題材股，網版印刷切入與 AI 相關高能耗應用，市場賦予新想像。偏題材面，股價走勢非常強，資金願意先買題材。若太陽能與 AI 高耗能應用聯想繼續發酵，仍可能維持強勢。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "強勢走高，催化劑：太陽能與 AI 高能耗應用題材發酵"
+    },
+    {
+      "ticker": "碩禾",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "第一季已轉虧為盈，自結每股賺 2.97 元，過去一年已把呆帳一次打消完畢，基本面正在改善。除太陽能導電銀漿題材外，還被賦予 AI 伺服器散熱與第三代半導體延伸想像，屬多題材加持。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "第一季每股賺 2.97 元，催化劑：第二季太陽能需求回溫"
+    },
+    {
+      "ticker": "立碁",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "相對落後股案例，一旦市場認定其屬於 AMD 概念股便快速噴出，題材一旦被市場接受就有強勁補漲力道。若市場繼續搜尋 AI 相關落後補漲標的，仍可能被反覆提起。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "漲停，催化劑：AMD 概念與 AI 題材延續"
+    },
+    {
+      "ticker": "金居",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "PCB 上游關鍵材料中的相對落後股，有外資給出 90 元目標價，市場對其仍有重新評價空間。PCB 與 AI 供應鏈持續升溫，屬於上游材料補漲邏輯較完整的標的。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "外資目標價 90 元"
+    },
+    {
+      "ticker": "光寶科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "電源族群中的相對落後股，因 AI 電力需求與資金輪動而出現漲停，市場開始補位。AI 帶動電源、功率元件與相關供應鏈一起走強，電源族群若持續擴散仍值得關注。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "漲停",
+      "technicals": {
+        "currentPrice": 227.5,
+        "ma20": 197.8,
+        "ma60": 172.53,
+        "priceVsMa20Pct": 15,
+        "priceVsMa60Pct": 31.9,
+        "rsi14": 69,
+        "changePct5d": 9.6,
+        "changePct20d": 34.2,
+        "volumeRatio": 0.8,
+        "currency": "TWD",
+        "asOf": "2026-05-25T05:30:10.000Z"
+      }
+    },
+    {
+      "ticker": "南亞科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "美光擴產 DDR4 消息雖造成短線壓力，但主持人判斷影響有限，因擴產主要針對美國軍規與敏感產業，未全面改變消費型 DDR4 供需結構。三星與海力士已停產消費型 DDR4，缺貨格局不會立刻反轉，回到均線支撐附近可考慮逢低承接。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "重要均線支撐，催化劑：電腦展前後若回到均線支撐",
+      "technicals": {
+        "currentPrice": 296,
+        "ma20": 280.02,
+        "ma60": 247.45,
+        "priceVsMa20Pct": 5.7,
+        "priceVsMa60Pct": 19.6,
+        "rsi14": 56,
+        "changePct5d": -3,
+        "changePct20d": 43.7,
+        "volumeRatio": 1.08,
+        "currency": "TWD",
+        "asOf": "2026-05-25T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "華邦電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體族群中相對強勢，市場賦予雙題材加成（含特殊材料或其他應用），使其在美光擴產消息衝擊下仍能回到接近平盤甚至轉強。若記憶體族群在電腦展前止穩，有機會繼續表現。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "接近歷史新高，催化劑：記憶體族群止穩與雙題材延續",
+      "technicals": {
+        "currentPrice": 128.5,
+        "ma20": 112.56,
+        "ma60": 105.34,
+        "priceVsMa20Pct": 14.2,
+        "priceVsMa60Pct": 22,
+        "rsi14": 63,
+        "changePct5d": -1.5,
+        "changePct20d": 45.7,
+        "volumeRatio": 1.67,
+        "currency": "TWD",
+        "asOf": "2026-05-25T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "群聯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "相較於其他記憶體股更強，被視為電腦展的重要觀察指標，市場同時看重其產品應用與展覽題材，使其在記憶體波動中具備相對韌性。若電腦展帶動儲存與 AI 相關應用話題，仍有續強可能。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無明確價位，催化劑：電腦展"
+    },
+    {
+      "ticker": "凱俠",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "日本記憶體大廠在市場震盪下仍大漲並創歷史新高，顯示記憶體族群的國際大廠並未因美光消息而全面轉弱，供需面仍偏緊，記憶體產業可能仍處於景氣循環上行段。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "歷史新高，催化劑：國際記憶體股續強"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "聯發科",
+      "consensus": "KOL 分歧（同一 KOL 多空並陳）",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "已從約 130 元漲至 420 元以上，短短一個月翻倍，一字鎖漲停多次，市場情緒接近沸騰，過度投機與泡沫成分已出現。高檔追價後容易遭遇劇烈震盪，應注意短線回檔風險。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "約 130 元漲至 420 元以上，催化劑：高檔過熱後的籌碼整理",
+      "technicals": {
+        "currentPrice": 4245,
+        "ma20": 3296,
+        "ma60": 2265.92,
+        "priceVsMa20Pct": 28.8,
+        "priceVsMa60Pct": 87.3,
+        "rsi14": 76,
+        "changePct5d": 24.9,
+        "changePct20d": 74.3,
+        "volumeRatio": 0.37,
+        "currency": "TWD",
+        "asOf": "2026-05-25T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "連續大漲後已超越內外資所有報告目標價，屬於異常注意股票，股價短線漲幅太大脫離合理估值討論，風險顯著上升。若出現關卡或被市場冷卻，容易帶來高檔波動。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "快到 70 元，催化劑：漲多後的關卡與關注度提升",
+      "technicals": {
+        "currentPrice": 691,
+        "ma20": 430.93,
+        "ma60": 329.03,
+        "priceVsMa20Pct": 60.4,
+        "priceVsMa60Pct": 110,
+        "rsi14": 92,
+        "changePct5d": 37.9,
+        "changePct20d": 132.7,
+        "volumeRatio": 1.22,
+        "currency": "TWD",
+        "asOf": "2026-05-25T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "已漲到非常高的位置，股價提前反映到未來兩到三年的題材，估值與預期被過度提前反映。雖然基本面仍被看好，但若市場情緒降溫，本益比回檔可能造成明顯修正。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "創高，催化劑：估值修正與市場降溫",
+      "technicals": {
+        "currentPrice": 5505,
+        "ma20": 4756.25,
+        "ma60": 3571.83,
+        "priceVsMa20Pct": 15.7,
+        "priceVsMa60Pct": 54.1,
+        "rsi14": 73,
+        "changePct5d": 21.1,
+        "changePct20d": 23,
+        "volumeRatio": 0.64,
+        "currency": "TWD",
+        "asOf": "2026-05-25T05:30:25.000Z"
+      }
+    },
+    {
+      "ticker": "南電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板族群普遍創高，但南電因有大股東賣股消息而相對偏弱，籌碼面存在明顯壓力。雖整體產業仍強，但個股籌碼與事件風險使其在族群中相對落後，若賣壓未消化波動可能偏大。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "相對弱勢，催化劑：大股東賣股壓力消化",
+      "technicals": {
+        "currentPrice": 884,
+        "ma20": 895.95,
+        "ma60": 692.13,
+        "priceVsMa20Pct": -1.3,
+        "priceVsMa60Pct": 27.7,
+        "rsi14": 55,
+        "changePct5d": 11.8,
+        "changePct20d": 1.1,
+        "volumeRatio": 1.81,
+        "currency": "TWD",
+        "asOf": "2026-05-25T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "台灣美光供應鏈以外的記憶體純族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "真正受壓的多半是純題材、單一報價敘事較強的標的。若個股沒有第二題材，記憶體族群在高波動環境下仍容易被消息面錯殺。若後續報價或國際大廠再釋出利空，短線波動將很大。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "無明確價位，催化劑：美光擴產消息持續發酵"
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤",
+      "reason": "台股站上高檔且多方結構強，盤中幾乎收在最高點，但市場已進入偏熱狀態，隨時可能出現回測 4 萬點。短線不宜盲目追高，中期趨勢仍偏多，若回測反而是較好的低接時點。目前約在 4 萬 3 千 6 百點高檔區。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "AI 供應鏈",
+      "reason": "AI 訂單台灣吃不完，從伺服器組裝、散熱、機殼、滑軌、網通到 PCB 與電源，整體供應鏈都會輪動受惠。資金從一線龍頭擴散到多個子產業，若黃仁勳來台與電腦展持續發酵，AI 供應鏈仍將是市場主線。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "電力與用電安全",
+      "reason": "AI 時代的剛性需求延伸到電力、電網與用電安全，使重電、電線纜、電源與綠能族群成為未來重點觀察方向。夏季用電高峰、氣溫升高，加上 AI 設施耗電需求擴大，若用電燈號升高，這條主線會更加明顯。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "記憶體產業",
+      "reason": "美光擴產 DDR4 消息不會全面改變供需結構，因擴產主要鎖定美國軍規與敏感產業，消費型 DDR4 仍處於停產與缺貨狀態。記憶體雖然短線波動大，但中長線供需改善不會立刻反轉，若國際大廠與報價沒有同步轉差，族群仍可在回檔後找機會。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "主動與被動式 ETF",
+      "reason": "今年主動與被動式 ETF 都有表現空間，主動式勝在換股速度快，被動式勝在能長抱主流大權值與龍頭股，兩者各有優勢。在高波動與快速輪動行情下，透過 ETF 可降低追高殺低與單押失誤的風險。若市場持續高檔震盪，這是適合採用的配置工具。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "台股目前屬於多方高檔強勢結構，但已進入過熱區，回檔反而是機會",
+      "reasoning": "主持人看到盤中幾乎收在最高點，台股的底氣還在，代表基本面與資金面都很強。不過市場情緒已經沸騰，很多股票動輒漲停，這種情況下不宜盲目追高。若未來出現回測 4 萬點或事件性震盪，反而更適合分批布局。",
+      "sector": "總經",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 題材已從晶片延伸到電力、電源與基礎建設，資金輪動會繼續擴散",
+      "reasoning": "AI 訂單台灣吃不完，受惠的不只是一線晶片公司，而是散熱、機殼、滑軌、組裝、PCB、電源、重電與電線纜等整條供應鏈。市場主線已從單點爆發轉為多點輪動，且用電高峰會讓電力相關族群更受重視。若夏季用電壓力與 AI 需求同步升溫，這條主線有機會持續很久。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "高檔行情下，不應追求報酬最大化，而要追求資產配置最適化",
+      "reasoning": "當市場已漲到高檔且輪動快速時，沒有人能精準押中最強那一檔。與其把資金集中在單一股票，不如控制持股數量、搭配主動與被動 ETF，讓整體組合能跟上大盤。雖然不是最大賺，但能避免在高波動行情中因追高與回檔而失控。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "研發費用高的公司，在 AI 世代更容易成為最後的贏家",
+      "reasoning": "公司若長期把資源投入研發，雖短期可能壓低獲利或股息，但一旦新技術世代來臨就會形成護城河。以研發指標為核心的 ETF（如 00935）能把真正重視技術儲備的公司留在成分股中，當 AI 產品世代不斷更新，這類公司更容易拿到訂單。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "被動式 ETF 也能打敗主動式 ETF，關鍵在於成分股與持有時間",
+      "reasoning": "00935 今年報酬翻倍，是因為持有聯發科、台達電、台積電等高權重強勢股，且持有時間夠久，不會因短線輪動急著換掉。這使它在主動式 ETF 追價高股時，反而具備被抬轎的效果。選股邏輯若正確且穩定，被動式也能在強勢行情中勝出。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台積電休息時，中小型科技股與非台積電權值股反而更有表現空間",
+      "reasoning": "台積電近期沒有持續創高，但市場並未因此轉弱，反而由聯發科、台達電、日月光等大型非台積電權值股接棒。資金並不只集中在單一龍頭，而是在高檔進行更廣泛的擴散。對 ETF 或個股布局來說，非台積電權重較高但同樣具龍頭地位的組合可能更有表現。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "記憶體短線雜音多，但真正的供需逆轉沒有那麼快出現",
+      "reasoning": "美光擴產 DDR4 的消息市場把衝擊想得太大，因擴產主要針對美國軍規與敏感產業，不是全面回到消費型市場。三星與海力士也已停產消費型 DDR4，整體供需仍偏緊，故不會因單一消息就改變景氣循環。記憶體雖然難做，但只要回到均線附近，仍可能出現機會。",
+      "sector": "其他",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "主流題材會輪動，不追高反而更容易找到低風險切入點",
+      "reasoning": "很多股票在拉高後都會再回測，像聯發科、載板、矽光子都曾出現拉回再上攻的過程。與其在急漲時硬追，不如等月線、季線或重要支撐附近再出手，特別是當基本面與題材仍在時。這種等待式操作雖然慢，但能避免高檔追價後的心理壓力。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "高檔漲停潮與市場情緒過熱，追高後容易遇到劇烈回檔。",
+    "聯發科、國巨、台光電等強勢股已反映大量未來預期，估值與本益比修正風險升高。",
+    "記憶體族群雜音多，若後續報價或國際大廠再釋出利空，短線波動會很大。",
+    "電腦展與題材提前反映後，若會場利多不如預期，可能出現獲利了結賣壓。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "2026-05-27",
+      "event": "輝達動土相關活動與黃仁勳在台行程",
+      "tickers": [
+        "仁寶",
+        "金寶",
+        "宏碁",
+        "鴻海"
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "event": "電腦展正式登場",
+      "tickers": [
+        "聯發科",
+        "台達電",
+        "鴻海",
+        "廣達",
+        "緯創",
+        "群聯",
+        "記憶體族群"
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "event": "五月營收陸續公布",
+      "tickers": [
+        "台光電",
+        "聯發科",
+        "台達電",
+        "記憶體族群"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "event": "SpaceX 可能掛牌時間點",
+      "tickers": [
+        "太陽能概念股",
+        "滄河",
+        "碩禾"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1104｜黃仁勳來台、美伊真和談，台股瘋創高！動能、低接都可以等到創新高，主動、被動ETF各有優點，誰是AI相對落後股？ft.題材獵人 林漢偉",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/af536dd4-0e40-4002-98d2-81fe88bf177b",
+      "sentiment": "bullish",
+      "oneLiner": "台股在黃仁勳來台與電腦展題材加持下狂飆創高，主持人帶你找出 AI 供應鏈中還沒漲的相對落後股。",
+      "detailedSummary": "本集主持人李兆華與來賓題材獵人林漢偉深入討論台股在黃仁勳來台、美伊和談與財報利多下持續創高的行情格局，指出大盤雖站上 4 萬 3 千多點高檔，但市場情緒已過熱，漲停潮頻繁出現代表籌碼風險上升。主持人認為 AI 仍是核心主線，資金已從聯發科、台達電等一線龍頭擴散至老 AI（鴻海、廣達、仁寶）、電力重電（華城、中興電、士電）、記憶體（南亞科、華邦電、群聯）與太陽能（滄河、碩禾）等相對落後族群，呈現百花齊放的輪動格局。對於美光擴產 DDR4 的消息，主持人判斷市場反應過度，因擴產主要針對美國軍規產業，消費型供需格局未全面改變。操作策略上，他建議搭配研發導向被動 ETF 與主動式 ETF 分散配置，並耐心等待回檔至均線支撐再進場，避免在高位追價造成的心理與資金壓力。",
+      "highlights": [
+        "台股在多重題材加持下創高至 4 萬 3 千多點，但盤面漲停潮代表情緒已接近沸騰，隨時可能出現回測 4 萬點的整理。",
+        "AI 供應鏈輪動從晶片龍頭擴散至老 AI（鴻海、廣達、緯創、仁寶、宏碁）以及電源、重電、PCB 上游等相對落後族群。",
+        "電力與用電安全成為下一波主線：華城、中興電、士電、康舒等重電與電源族群在 AI 高耗電需求與夏季用電高峰下具補漲潛力。",
+        "記憶體族群受美光擴產消息衝擊但影響有限，主持人認為消費型 DDR4 供需仍偏緊，群聯、華邦電、南亞科可在均線附近低接。",
+        "太陽能題材股滄河（網版印刷切入 AI 高能耗應用）與碩禾（Q1 轉虧為盈、多題材加持）成為盤面新亮點。",
+        "主動式與被動式 ETF 各有優勢，研發導向被動 ETF（如 00935）今年報酬翻倍，顯示持有優質大權值股並堅持持有的策略奏效。",
+        "操作策略：高檔不追高，等回檔至月線、季線或重要支撐附近再分批布局，以資產配置最適化取代報酬最大化。",
+        "風險提示：聯發科、國巨、台光電等強勢股估值已過度反映未來預期，南電因大股東賣壓相對偏弱，電腦展若利多不如預期恐引發獲利了結。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2317.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "世界先進",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "MLCC",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
