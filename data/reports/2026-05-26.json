@@ -1,0 +1,434 @@
+{
+  "date": "2026-05-26",
+  "quickDigest": [
+    "2330.TW 基本面穩固：先進製程產能滿載，分紅雜音屬短期情緒，回檔即布局機會",
+    "聯發科 RSI 76、20日漲幅75%，矽光子族群位階偏高，真正爆發期估在明年",
+    "NVDA 下半年新世代切換存隱憂，若量產節奏不如預期，AI供應鏈短線承壓",
+    "台股資金輪動格局持續：被動元件、記憶體接棒，多頭架構未破但強勢股頻繁切換",
+    "中東地緣利多已充分反映，後續若局勢反覆將偏利空，油價與通膨需持續追蹤"
+  ],
+  "marketMood": "多頭架構穩但族群輪動加速，分批布局優於等待回檔",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "2330.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電長期基本面沒有問題，短線偏弱主要受輝達財報連動影響。先進製程產能接近滿載、資本支出遠高於競爭者總和，產能利用率仍高，需求依舊強勁。分紅雜音屬短期情緒面，不改長線趨勢；若股價回檔，反而是分批布局機會。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "短期休息後分批布局",
+      "technicals": {
+        "currentPrice": 2270,
+        "ma20": 2242.25,
+        "ma60": 2034.25,
+        "priceVsMa20Pct": 1.2,
+        "priceVsMa60Pct": 11.6,
+        "rsi14": 58,
+        "changePct5d": 2.9,
+        "changePct20d": 0.2,
+        "volumeRatio": 0.74,
+        "currency": "TWD",
+        "asOf": "2026-05-26T05:30:11.000Z"
+      }
+    },
+    {
+      "ticker": "台灣設備供應鏈",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台灣半導體設備與工程族群不只吃台積電擴廠訂單，未來也可能受惠三星、Intel 等競爭對手擴產需求。全球先進製程與建廠競賽持續升溫，台灣供應鏈在建廠成本、技術與交期上具優勢。雖有入帳時間不穩、股價波動大的問題，長線業績趨勢仍向上。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "NVDA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "輝達仍是 AI 產業鏈最關鍵的核心公司之一，AI 趨勢仍在。但需留意下半年新產品世代切換是否順利，過去曾因良率與量產問題拖累股價，若實際進度不如預期，短線會有壓力。整體偏多，非看空。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 214.53,
+        "ma20": 214.64,
+        "ma60": 194.97,
+        "priceVsMa20Pct": -0.1,
+        "priceVsMa60Pct": 10,
+        "rsi14": 53,
+        "changePct5d": -3.5,
+        "changePct20d": -1,
+        "volumeRatio": 0.4,
+        "currency": "USD",
+        "asOf": "2026-05-26T15:07:15.000Z"
+      }
+    },
+    {
+      "ticker": "矽光子",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "矽光子概念股仍有中長線題材，真正爆發期偏向明年，市場目前熱度高但位階也不低。產業想像、明年動能可見度高，股東會旺季常帶來正面情緒。短線可做價差，長線應分批布局，不宜一次重押。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "聯發科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與矽光子相似的中長線受惠標的，後續動能主要反映在明年。新平台與新產品導入後成長潛力明顯，市場已開始提前定價。目前漲幅已大、操作難度高，但仍可透過分批方式布局，以時間換取空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 4265,
+        "ma20": 3387.5,
+        "ma60": 2305.83,
+        "priceVsMa20Pct": 25.9,
+        "priceVsMa60Pct": 85,
+        "rsi14": 76,
+        "changePct5d": 35.2,
+        "changePct20d": 75.2,
+        "volumeRatio": 1.69,
+        "currency": "TWD",
+        "asOf": "2026-05-26T05:30:20.000Z"
+      }
+    },
+    {
+      "ticker": "被動元件",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群並未結束，只是股價動能目前強於基本面動能，短線漲多後可能拉長休息時間。族群近期資金集中，個股如國巨、光聖等都出現強勢表現，市場仍在追逐題材。適合分批進場，短線可順勢操作價差。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "記憶體",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體族群近期有回升，顯示市場資金在不同族群間輪動而非全面退潮。屬於可持續觀察的資金接棒方向，語境偏正向。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "台積電分紅雜音",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電員工分紅調整的討論屬短期情緒壓力。公司獲利大幅成長後若調整分配比例，部分基層員工可能覺得相對少而抱怨；但實際入袋金額大多仍高於去年，因此影響有限。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤走勢",
+      "reason": "台股目前仍處於多頭架構，短期震盪屬正常現象，大回檔空間有限。中東戰火相關利多已逐步反映、油價回落有助降低通膨壓力，市場資金仍持續在不同族群間輪動接棒。後續關注美股恢復交易與市場對中東局勢、油價變化的再定價。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "中東局勢",
+      "reason": "中東和談與霍爾木茲海峽相關消息已把先前市場最在意的地緣政治利多大致反映完畢。未來中東風險較偏向利空而非利多，若和談不如預期或海峽開放受阻，仍可能對股市形成壓力。投資人不宜再期待中東戰火提供上行催化。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美國通膨與油價",
+      "reason": "油價高檔曾推升美國通膨數據，對科技股與台股形成實質壓力；若油價因地緣風險緩解而回落，對風險資產偏正面。油價是否失控，將直接影響市場對通膨與聯準會政策的預期，需持續觀察。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "大盤資金輪動",
+      "reason": "台股目前呈現有人休息、有人接棒的輪動格局，資金並未明顯撤出。指數未必會大幅回檔，但強勢族群會不斷切換，投資人應以分批與時間分散來因應，不必猜高點或等待大回檔。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "台股多頭架構未破，大回檔機會有限，重點是資金輪動而非猜高點。",
+      "reasoning": "市場在戰爭與油價等利空逐步鈍化後，整體上行趨勢沒有改變。即使盤中震盪放量，也比較像是漲多後的正常整理，而不是趨勢反轉。投資人如果一直等更低的點，往往會錯過多次進場機會。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "未來不應再期待中東戰火提供股市新的上漲催化，因為相關利多已經反映完畢。",
+      "reasoning": "過去市場曾因中東局勢緊張而擔憂油價與通膨，但現在和談與海峽開放的消息等於把最壞情境的壓力先消化掉。之後若局勢反覆，影響會偏負面；但若沒有新壓力，市場也很難再靠這條線繼續上漲。",
+      "sector": "地緣政治",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "輝達下半年產品世代切換是 AI 族群的潛在風險，但不代表 AI 趨勢結束。",
+      "reasoning": "以過去產品轉換曾因良率與量產問題拖累股價為例，推論這次新世代切換仍可能出現雜音。市場目前假設順利接軌，如果實際節奏不如預期，相關供應鏈會先受壓；但這只是過程問題，不是 AI 產業趨勢反轉。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台積電的核心價值在於技術與人才，不在短期分紅爭議或競爭者搶單。",
+      "reasoning": "台積電先進製程產能接近滿載，且資本支出規模遠超同業，代表技術與執行力差距持續擴大。即便三星與 Intel 可能拿到部分訂單，只要台積電產能利用率仍高，整體營收不會因競爭者出貨而受傷。短期分紅雜音更多是內部情緒與媒體話題。",
+      "sector": "半導體",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "強勢族群要用時間分散，不要用空間猜點位。",
+      "reasoning": "不要硬猜哪個指數點位才是最佳進場點，因為多頭行情常讓等待者錯失整段漲幅。較好的方法是把資金切成多筆，按週或按月分批投入，讓時間去平滑價格波動。這種方法比單次重壓更符合長期資產成長的目標。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "投資的核心不是追求單筆高報酬率，而是讓總資產持續變大。",
+      "reasoning": "台灣投資人常過度關注某一檔股票賺幾倍，卻忽略實際投入金額與部位大小才是決定總獲利的關鍵。即使報酬率看起來不極端，只要在對的趨勢上維持高持股，總金額仍可能大幅成長。這也是建議核心部位與長線持有的原因。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "設備股與工程股是目前最純的 AI 受惠族群之一，但波動與休息期會很長。",
+      "reasoning": "這些公司雖然不直接賣 AI 晶片，卻是 AI 擴產、建廠與先進製程升級的直接受益者。問題在於它們常常漲一段就休息很久，營收入帳時間也不穩定，因此操作上要耐心與分批。若能接受波動，長線報酬並不輸給其他 AI 族群。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "輝達新產品世代切換若不順利，可能拖累 AI 族群短線評價。",
+    "台積電分紅調整若引發內部情緒發酵，可能形成短線雜音。",
+    "被動元件、矽光子等熱門族群漲幅已大，若資金退潮，休息時間可能拉長。",
+    "中東局勢若再度惡化，油價與通膨預期可能重新升溫。",
+    "設備股雖然長線看好，但入帳時點不穩定，短線波動風險高。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "未明確提及",
+      "event": "輝達下半年新產品世代切換",
+      "tickers": [
+        "NVDA",
+        "2330.TW",
+        "AI供應鏈"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "未明確提及",
+      "event": "台積電分紅實際發放與內部溝通",
+      "tickers": [
+        "2330.TW"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "未明確提及",
+      "event": "台積電及全球半導體擴產持續推進",
+      "tickers": [
+        "2330.TW",
+        "台灣設備供應鏈"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "未明確提及",
+      "event": "明年矽光子產業進入較明顯爆發期",
+      "tickers": [
+        "矽光子",
+        "聯發科"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "未明確提及",
+      "event": "股東會旺季帶動市場情緒與題材發酵",
+      "tickers": [
+        "光聖",
+        "矽光子"
+      ],
+      "source": "李兆華"
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1105｜台積電吵分紅，出問題嗎？矽光子來接棒、被動沒結束，台股大回檔機會少，要思考的不是高報酬率，而是總資產成長多少？ft.AI達人 蔡明翰",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/1656db0f-b7e0-4b30-a644-088b1c9fcb94",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股多頭架構穩固、資金輪動持續，分批布局優於猜點、讓總資產在趨勢中長大才是投資核心。",
+      "detailedSummary": "本集主持人認為台股多頭架構未破，短線震盪與放量整理屬正常現象，大回檔機會有限，市場主軸是族群資金輪動。台積電長線基本面依舊強勢，分紅爭議與競爭者搶單屬短期雜音，先進製程產能滿載才是核心價值所在。AI 相關族群包括 NVDA、矽光子、聯發科、半導體設備股與被動元件，仍被視為可持續布局的方向，但多數已漲多，操作上應採分批進場、避免重壓。主持人特別強調投資人應把關注焦點從「單筆報酬率」轉移到「總資產成長」，在對的趨勢中維持核心部位，才能真正讓財富長大。",
+      "highlights": [
+        "台股仍處於多頭趨勢，短線震盪屬正常，市場主軸是族群輪動而非全面回檔。",
+        "中東和談與霍爾木茲海峽開放被視為先前地緣政治利多的最後一段反映，未來不宜再期待此面向帶來上行催化。",
+        "NVDA 下半年新產品切換可能帶來雜音，但 AI 大趨勢沒有改變，短線壓力不代表趨勢反轉。",
+        "台積電長線基本面依舊強勢，分紅爭議與競爭者搶單都不足以動搖核心競爭優勢，回檔即布局機會。",
+        "台灣半導體設備與工程族群被看好，可同時受惠台積電與三星、Intel 等全球競爭對手擴產需求。",
+        "矽光子、聯發科與被動元件都屬於高熱度族群，真正動能偏向明年，適合分批布局，不適合一次重押。",
+        "投資重點不是追求單檔報酬率，而是讓總資產在對的趨勢中持續長大，核心部位與時間分散優於頻繁進出。",
+        "若無法遵守紀律與分批原則，與其頻繁進出，不如專注核心部位與指數型配置。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2317.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "世界先進",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "MLCC",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "鴻海",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
