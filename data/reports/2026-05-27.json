@@ -1,0 +1,734 @@
+{
+  "date": "2026-05-27",
+  "quickDigest": [
+    "台積電長多結構完整，分紅爭議屬短線雜音，AI資本支出擴張下仍是核心持股",
+    "被動元件全球供需同步改善屬結構性重估，國巨RSI達86、國巨20日漲114%，高檔需注意漲價放緩風險",
+    "聯發科5日急漲44%、RSI79，強勢股回測月線才是布局甜蜜點，非追高時機",
+    "記憶體族群受美光帶動資金回流，PCB、矽光子、重電接力，六月Computex為機器人題材潛在點火劑",
+    "SpaceX IPO預期升溫，太空算力概念將帶動載板、散熱、特殊材料供應鏈新敘事"
+  ],
+  "marketMood": "多頭格局未變，但資金輪動加速，高檔追價風險遠大於踏空風險",
+  "totalSources": 2,
+  "bullishSignals": [
+    {
+      "ticker": "台積電",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "台積電分紅變少引發外界不滿，但主持人認為這屬於技術性修正，長期仍會持續向好。台積電仍是台灣少數極強的龍頭企業，整體獲利與產業地位沒有改變，若人工智慧相關資本支出持續擴張，台積電仍受惠。",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "台積電雖近期沒有再創歷史新高，但長多結構沒有被破壞，仍是台股後續續攻的重要核心。台灣經濟成長率未見下修、外資有回補可能，若台積電後續創高，台股自然還有新高可期。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 2300,
+        "ma20": 2246.5,
+        "ma60": 2039.33,
+        "priceVsMa20Pct": 2.4,
+        "priceVsMa60Pct": 12.8,
+        "rsi14": 60,
+        "changePct5d": 5.3,
+        "changePct20d": 3.8,
+        "volumeRatio": 1.06,
+        "currency": "TWD",
+        "asOf": "2026-05-27T05:30:12.000Z"
+      }
+    },
+    {
+      "ticker": "SpaceX",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "不管估值怎麼算都會先卡位，公司不只 Starlink 很強，未來可能把太空資料中心、太空算力與衛星運算包裝成新的高估值故事，成為類似新型雲端概念股。催化劑為預期中的首次公開發行與招股書、路演資訊釋出。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "先卡位兩成到一半"
+    },
+    {
+      "ticker": "TSLA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "仍會壓住馬斯克的故事，但對特斯拉的看法已從單純看電動車交車，轉向關注能源、機器人以及自駕等新敘事。公司估值核心在於馬斯克不斷把故事往前推，而不是單一的汽車出貨數字。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 441.94,
+        "ma20": 415.3,
+        "ma60": 391.56,
+        "priceVsMa20Pct": 6.4,
+        "priceVsMa60Pct": 12.9,
+        "rsi14": 64,
+        "changePct5d": 9.4,
+        "changePct20d": 17.5,
+        "volumeRatio": 0.4,
+        "currency": "USD",
+        "asOf": "2026-05-27T15:12:05.000Z"
+      }
+    },
+    {
+      "ticker": "機器人概念股／機器人族群",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "台股機器人類股持續受資金青睞，市場願意接受題材先行、當下營收占比仍低但明年可能快速放大的估值方式。核心不是當下營收有多少，而是市場買未來成長五倍或十倍的想像。",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "六月 Computex 展有機會讓機器人題材再度點火，若展會帶來新敘事或多題材公司被市場挖掘，仍有機會形成一波輪動。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "AI伺服器供應鏈",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "未來太空運算與衛星資料中心若成形，將直接帶動散熱、特殊材料、載板與相關組裝供應鏈的新需求。人工智慧讓市場更願意相信高難度題材，靠大量資本與工程投入仍可能被解決。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "載板族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "載板族群持續噴出，市場對相關題材的買盤很強，屬於強勢族群，有機會持續被資金追捧。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "聯發科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "聯發科先前從高點修正到月線附近時反而是漂亮的買點，強勢股回檔整理後仍值得蹲點。資金輪動屬於台股常態，只要族群熱度回來，股價就有機會再度發動。主持人也在回檔時有實際進場卡位。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "月線附近",
+      "technicals": {
+        "currentPrice": 4640,
+        "ma20": 3488.75,
+        "ma60": 2350.75,
+        "priceVsMa20Pct": 33,
+        "priceVsMa60Pct": 97.4,
+        "rsi14": 79,
+        "changePct5d": 43.7,
+        "changePct20d": 77.4,
+        "volumeRatio": 1.61,
+        "currency": "TWD",
+        "asOf": "2026-05-27T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "記憶體族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "美光大漲帶動記憶體資金回流，台股記憶體族群同步轉強。先前記憶體因報價停滯而休息，但台灣記憶體股體量不小，資金一旦回來就會形成一波可觀行情。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "被動元件族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件雖多檔進入處置，但籌碼相對安定，法人資金持續買盤明顯。國巨、華新科等龍頭雖被關，盤面仍維持強勢，資金也可能往未處置且有法人同買的標的移動。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "國巨雖被關進處置，但這凸顯被動元件族群的熱度，處置通常代表先前已大漲、籌碼高度被市場關注。被關不一定關得住，資金仍可能在族群內持續流動，若後續族群延續強勢，國巨仍具續航想像。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 701,
+        "ma20": 467.45,
+        "ma60": 341.76,
+        "priceVsMa20Pct": 50,
+        "priceVsMa60Pct": 105.1,
+        "rsi14": 86,
+        "changePct5d": 34.8,
+        "changePct20d": 114.7,
+        "volumeRatio": 0.43,
+        "currency": "TWD",
+        "asOf": "2026-05-27T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "華新科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與國巨同列被動元件處置股，整體族群熱度仍在，資金不會輕易散掉。法人資金常在處置股與未處置股間輪動，華新科若籌碼沉澱後仍可能再吸引資金。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台新科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群中，資金已開始往未處置公司移動，台新科一度攻上漲停。市場不是單押龍頭處置股，而是尋找仍可承接資金的次族群標的，依據為法人資金流向與處置限制帶來的替代效應。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "聯詠科（待確認）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "節目中提及某公司一度攻上漲停，作為被動元件族群資金外溢、尋找未處置標的的例子。公司名因口誤可能有誤，僅保留為低信心觀察。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "光寶科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "電力相關族群中光寶科近兩天表現不錯，資金開始圍繞電力、電源供應器與重電等概念擴散，語氣偏正面，屬於資金輪動中的觀察標的。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 246,
+        "ma20": 204.85,
+        "ma60": 174.53,
+        "priceVsMa20Pct": 20.1,
+        "priceVsMa60Pct": 40.9,
+        "rsi14": 75,
+        "changePct5d": 20.6,
+        "changePct20d": 42.6,
+        "volumeRatio": 1.33,
+        "currency": "TWD",
+        "asOf": "2026-05-27T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "重電族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "盤面重電股接棒上漲，資金開始往電力與重電概念流動。雖族群量體較小，不一定能完全承接大資金，但就短線輪動角度仍是值得關注的方向。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "PCB族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "PCB 被列為台股資金大部隊之一，具備可持續吸納資金的量體，屬於資金輪動中不容忽視的大族群。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "矽光子族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "矽光子曾經很熱，屬於市場可反覆點火的 AI 延伸主流題材之一。新的題材往往又會回扣到原本的老題材，因此矽光子仍值得持續觀察。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台積電供應鏈",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "半導體設備與相關供應鏈是台股可用之兵，屬於資金大部隊。若台積電休息後再創高，相關供應鏈有機會跟著受惠，族群輪動是台股多頭行情的重要特徵。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "被動元件族群（風險提示）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "被動元件整體是全球供需改善的結構性重估，但若漲價速度放緩，市場對獲利成長的預期可能下修。以 2018 年高峰作為對照，若這波上漲只是短期缺貨或題材推升，後續漲價速度放緩後，估值與漲幅將受限。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "以 2018 年高點與毛利率區間作為類比基準"
+    },
+    {
+      "ticker": "台積電（短線風險）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "員工分紅爭議可能讓內部情緒浮動，若溝通處理不當，可能影響士氣與市場觀感，短線雜音會增加。整體非看空，而是提醒治理壓力，屬於低信心風險提示。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "SpaceX 上市進程與太空算力商業化",
+      "reason": "SpaceX 若啟動 IPO，太空資料中心、衛星運算題材將可能帶動一波新的高估值敘事，同時影響相關供應鏈（散熱、特殊材料、載板）。需持續追蹤招股書與路演資訊。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "六月 Computex 展覽",
+      "reason": "Computex 有機會讓機器人、AI 延伸題材再度點火，若展會帶來新敘事或多題材公司被市場挖掘，可能形成一波新的輪動行情。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "台積電分紅爭議後續溝通",
+      "reason": "員工分紅削減引發內部與市場情緒，需觀察公司後續溝通是否能妥善化解，若處理不當可能影響企業凝聚力與市場觀感。",
+      "mentionedBy": [
+        "謝孟恭",
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美光股價與記憶體族群資金動向",
+      "reason": "美光大漲已帶動台股記憶體族群資金回流，需持續觀察報價趨勢與資金是否能維持，以判斷這波輪動的延續性。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "被動元件報價與稼動率趨勢",
+      "reason": "全球多家被動元件同業稼動率與報價同步改善，需追蹤漲價是否能持續，以確認這波是結構性重估還是短期缺貨效應。",
+      "mentionedBy": [
+        "謝孟恭",
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "主動式 ETF 規模與績效變化",
+      "reason": "主動式 ETF 規模持續擴大後，選股彈性可能受限，績效有向市值型靠攏的風險，適合長期持有者持續追蹤規模變化。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "台股仍處於大多頭，回檔是資金輪動與整理的正常過程，不是趨勢反轉",
+      "reasoning": "來賓明確表示目前仍是大多頭格局，台灣經濟成長率沒有下修跡象，長線對指數持續創高維持樂觀。短線已漲很多出現洗刷很正常，但這更像資金在族群間輪動，而非整體趨勢改變。台積電若後續創高，台股自然還有新高可期。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "操作重點不是追強，而是跟著資金流向輪動，維持較高的持股水位",
+      "reasoning": "台股的資金會在記憶體、PCB、矽光子、被動元件等族群之間輪動，投資人應觀察資金流向而不是死守單一族群。若能看出大部隊往哪裡去就跟著走，勝率通常比硬扛原本部位更高。大型族群（PCB、半導體設備、記憶體、電力等）具有足夠量體與資金承接能力，優先關注。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "高檔不適合再加槓桿，急漲後最需要的是風控與節奏",
+      "reasoning": "主持人與來賓都提醒，若在行情已大漲數千點後才加槓桿，風險會明顯升高。相較於回檔修正時用槓桿撿便宜，現在更適合保持資金周轉率與部位控制，避免因情緒追價而失去節奏。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "強勢股回檔到均線附近，往往是比追高更好的切入點",
+      "reasoning": "來賓用聯發科為例，指出前一段大漲後回到月線附近時反而是漂亮的布局位置。這反映對強勢股的判斷不是看是否創高，而是看漲多後的整理是否完成、以及資金是否可能重新輪動回來。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場正在從單一題材炒作，轉向對全球供需改善與結構性成長的重新定價",
+      "reasoning": "被動元件不只是台灣某一家在漲，而是全球多家同業的稼動率、報價與產業情緒同步改善。這不是單純的人為炒作，而是供需環境真的在變好。若後續漲價持續，獲利與估值都有機會被重新往上修正。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "投資要看的是公司故事會不會變，而不是只盯著原始投資理由",
+      "reasoning": "以特斯拉與輝達為例，他們的商業敘事都已從最初的產品，轉向更大、更具想像空間的新業務。長期投資不是一次性決策，而是每次檢視部位時都在重新決定是否續抱。當公司本身持續轉型，估值邏輯也會跟著改變。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "太空運算與衛星資料中心可能成為下一個高估值敘事",
+      "reasoning": "從馬斯克對資料中心、衛星、算力與能源的反覆強調，推論他已看到太空運算的商機。只要發射能力夠強，散熱與特殊材料等工程問題都有機會靠資本與技術被解決，使太空算力有機會從本夢比變成實際的營收故事。",
+      "sector": "其他",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "市場現在願意買的是未來營收占比的成長，而不是當下營收規模",
+      "reasoning": "機器人題材中，很多公司現在營收占比可能只有 2%，但市場看的是明年能不能變成 10%。這種估值方式代表資金願意提前為成長性付費，即使短期基本面還不夠亮眼。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "人應該習慣失去，投資上也要習慣接受部分錯過與部分回吐",
+      "reasoning": "生活與投資本來就充滿失去，不可能每一段行情都完整吃到。與其執著於少賺或賣飛，不如把注意力放在整體報酬與風險控制上。這種心態有助於在強勢盤中持續留在市場。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "台積電分紅若處理不當，會影響士氣，但不一定立刻反映在股價上",
+      "reasoning": "高層可能是基於保留盈餘與長期經營的考量，不是單純苛扣員工，但員工端確實可能產生不滿。從企業治理角度看，溝通若失當會傷到團隊精神；但從股價角度，影響可能有限。",
+      "sector": "半導體",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "主動式 ETF 的核心不是成分股細節，而是基金經理人的選股邏輯與規模管理",
+      "reasoning": "買主動式 ETF 本質上是在買經理人的選股能力，不必過度糾結今天調了哪幾檔成分股。當規模越來越大時，績效可能逐漸貼近市值型，因為太小的中小型股會買不下去。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "太空運算與衛星資料中心仍屬早期想像，若商業化速度不如預期，相關題材可能先漲後跌",
+    "被動元件若漲價速度放緩，市場對獲利成長的預期可能下修",
+    "特斯拉若新業務敘事兌現不如市場期待，估值可能重新承壓",
+    "機器人與題材股營收占比仍低，短線容易出現劇烈波動與快速輪動",
+    "高檔急漲後追價風險升高，若沒有策略容易在盤中洗刷中套牢",
+    "處置股雖強，但進出不便且位階偏高，追價容易面臨波動",
+    "台積電分紅若溝通失當，可能影響員工士氣與企業內部凝聚力",
+    "主動式 ETF 規模變大後，績效可能逐漸向市值型靠攏，爆發力下降"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "近期",
+      "event": "美光股價大漲帶動記憶體族群資金回流",
+      "tickers": [
+        "記憶體族群"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "被動元件處置股輪動與未處置標的資金接棒",
+      "tickers": [
+        "國巨",
+        "華新科",
+        "台新科"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "台積電分紅議題後續溝通與市場觀感變化",
+      "tickers": [
+        "台積電"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "被動元件報價續漲與稼動率維持高檔",
+      "tickers": [
+        "被動元件族群"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "機器人題材營收占比與出貨預期提升",
+      "tickers": [
+        "機器人概念股"
+      ]
+    },
+    {
+      "date": "2026-06",
+      "event": "Computex 展會可能帶動機器人與多題材族群點火",
+      "tickers": [
+        "機器人族群"
+      ]
+    },
+    {
+      "date": "待定",
+      "event": "SpaceX 首次公開發行與招股資訊釋出",
+      "tickers": [
+        "SpaceX"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "謝孟恭",
+      "episode": "EP665 | 🌸",
+      "episodeLink": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/181f554e-900e-4261-bc3c-1a3fe53a902a",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "從 SpaceX 上市、太空算力到被動元件結構性重估，主持人勾勒出下一波高估值題材的投資脈絡",
+      "detailedSummary": "本集前半段多為生活分享，主持人透露使用瘦瘦針後體脂明顯下降，但因持續重訓與攝取足量蛋白質，肌肉量並未顯著流失。進入市場討論後，主持人對被動元件的看法從短線題材升級為全球供需同步改善的結構性重估，並以 2018 年高峰作為對照，認為若漲價延續，獲利與估值空間比市場想像更大。他明確表達對 SpaceX 上市的高度興趣，計劃先卡位兩到五成，視其為太空算力與新雲端概念的起點，並延伸到散熱、載板與特殊材料等供應鏈。對台積電，他認為分紅爭議只是技術性情緒修正，長多結構未變；對特斯拉，他的關注點已從電動車轉向能源、機器人與自駕。整體而言，他鼓勵投資人習慣接受錯過，專注長期留在市場與跟上趨勢。",
+      "highlights": [
+        "被動元件全球多家同業稼動率、報價同步改善，主持人認為這是結構性重估而非短線炒作，以 2018 年高峰作類比，獲利空間可能超出市場預期",
+        "主持人對 SpaceX 上市抱持高度興趣，明確表示不管估值怎麼算都會先卡位兩成到一半，視之為太空算力與新雲端概念的起點",
+        "太空資料中心與衛星運算被視為下一階段高估值敘事，若成形將帶動散熱、特殊材料、載板等供應鏈新需求",
+        "台積電分紅爭議被定性為技術性情緒修正，長多結構未被破壞，人工智慧資本支出持續擴張下仍是受惠標的",
+        "特斯拉的核心投資敘事已從電動車交車數轉向能源、機器人與自駕，估值邏輯跟著馬斯克的故事持續演進",
+        "機器人題材在台股受資金持續青睞，市場願意為未來成長五到十倍的想像提前付溢價，當下營收占比低不是阻礙",
+        "載板族群持續噴出，屬於當前強勢族群，短線資金買盤明顯",
+        "主持人提醒投資要接受錯過與回吐，與其追求每一段行情都完整吃到，不如專注長期留在市場並持續進步"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1106｜又漲了5000點，整理持股、思考出場策略，不是急的時候！被動關不住，記憶體資金回歸，台積電分紅要搞定！ft.紀緯明 小明同學",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/391c3eb0-f683-4801-8ff2-700bfa07d648",
+      "sentiment": "bullish",
+      "oneLiner": "台股漲了五千點仍是大多頭，主持人與來賓教你看懂資金輪動、避開追高陷阱、找到下一個接棒族群",
+      "detailedSummary": "本集主持人李兆華與來賓紀緯明（小明同學）在台股已大漲近五千點的背景下，討論如何整理持股與思考出場策略。兩人一致認為目前仍是大多頭格局，短線震盪與長上影線屬於正常整理，不代表趨勢轉弱。操作上，來賓強調應優先鎖定具有足夠量體可承接大資金的主流族群，包括記憶體（受美光大漲帶動）、被動元件（法人持續參與、籌碼安定）、PCB、半導體設備供應鏈、重電與機器人。被動元件族群雖有多檔進入處置，但資金外溢效應使未處置標的（如台新科）反而一度攻上漲停。聯發科回測月線的案例被來賓作為「強勢股整理後是好買點」的典型示範。台積電分紅爭議被認為影響士氣但對股價衝擊有限，仍是長線核心。六月 Computex 展被視為機器人題材的潛在點火催化劑。主持人最後也討論主動式 ETF 的選擇邏輯，提醒規模擴大後績效可能趨向市值型。",
+      "highlights": [
+        "台股已大漲近五千點，主持人與來賓仍維持大多頭判斷，認為短線洗刷與長上影是正常整理而非趨勢反轉",
+        "來賓建議持股水位維持偏高，但高檔切勿任意加槓桿，風控與節奏比追漲更重要",
+        "美光大漲帶動台股記憶體族群資金回流，先前因報價停滯而休息的記憶體股重新轉強",
+        "被動元件多檔進入處置但法人持續參與、籌碼安定，資金外溢效應使台新科等未處置標的一度攻漲停",
+        "聯發科回測月線是漂亮的整理買點，來賓有實際進場卡位，強調強勢股回檔後比追高更適合布局",
+        "台積電分紅爭議可能影響內部士氣，但主持人認為對股價實際衝擊有限，長多結構仍完整",
+        "六月 Computex 展被視為機器人與多題材族群的重要催化劑，有機會帶來新一輪點火行情",
+        "主動式 ETF 的核心是買經理人選股能力，但規模擴大後績效可能逐漸向市值型靠攏，需持續追蹤"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2317.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "世界先進",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "MLCC",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "鴻海",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
