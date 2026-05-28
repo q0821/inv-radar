@@ -1,0 +1,556 @@
+{
+  "date": "2026-05-28",
+  "quickDigest": [
+    "台股高檔震盪逾千點仍屬換手盤，月線之上量能未縮即多頭未破",
+    "環球晶突破千元創歷史新高，中美晶獲操盤手尾盤實際加倉，矽晶圓族群強勢",
+    "232條款底定，華孚漲停、東陽/堤維西齊噴，車用零組件關稅風險解除重新評價",
+    "國巨20日漲幅逾130%、RSI達87，被動元件高檔翻倍股應避追，資金已向未漲滿族群輪動",
+    "AI主流長線未見頂，但操盤手警告：高檔翻兩三倍後轉弱個股風險報酬比已嚴重惡化"
+  ],
+  "marketMood": "資金推擠盤高檔換手，輪動加速但追高代價正在升高",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "加權指數",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "目前台股屬於資金推擠型行情，雖然盤中震盪劇烈、出現長黑Ｋ與高檔洗刷，但只要成交量沒有快速萎縮，整體多頭結構就還沒有被破壞。量能持續放大、指數仍守在月線之上，以及尾盤有收腳、顯示仍有買盤接手。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "月線之上、盤中高點約四萬五千點附近"
+    },
+    {
+      "ticker": "台積電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電雖然盤中創高後回落，但整體仍屬於多頭整理，且前幾天是在高檔整理後再創高，代表趨勢並未被破壞。夜盤美國相關表現偏正向、台積電仍是大盤領軍族群，分紅爭議若逐步告一段落有助於市場情緒安定。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "盤中高點約2360",
+      "technicals": {
+        "currentPrice": 2295,
+        "ma20": 2252.25,
+        "ma60": 2044.67,
+        "priceVsMa20Pct": 1.9,
+        "priceVsMa60Pct": 12.2,
+        "rsi14": 60,
+        "changePct5d": 2.9,
+        "changePct20d": 5.3,
+        "volumeRatio": 1.28,
+        "currency": "TWD",
+        "asOf": "2026-05-28T05:30:10.000Z"
+      }
+    },
+    {
+      "ticker": "中美晶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "尾盤有加倉中美晶，偏好在熱門主流中找出先修正、再重新發動的標的，而不是追逐已經噴翻的高檔股。該族群同時具備集團題材、功率元件延伸、以及與環球晶等子公司與關聯公司形成的族群聯動。",
+          "action": "加碼",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "環球晶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "環球晶創下歷史新高，是矽晶圓龍頭，具備產業地位與族群指標意義。矽晶圓漲價、龍頭廠市佔與題材修復，以及先前歷經併購失利與大跌後終於重回高點，屬於基本面與情緒面雙重修復。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "創歷史新高、盤中突破千元"
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群仍然很強，用國巨集團作為資金輪動的例子，市場資金已從單一權值股擴散到更廣的集團與中小型題材。被動元件具備漲價效應，且部分公司收益性佳、本益比仍相對合理。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 742,
+        "ma20": 488.45,
+        "ma60": 349.26,
+        "priceVsMa20Pct": 51.9,
+        "priceVsMa60Pct": 112.5,
+        "rsi14": 87,
+        "changePct5d": 29.7,
+        "changePct20d": 130.4,
+        "volumeRatio": 0.45,
+        "currency": "TWD",
+        "asOf": "2026-05-28T05:30:08.000Z"
+      }
+    },
+    {
+      "ticker": "華新科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群近期仍強勢，市場資金正在尋找還沒漲到失控、但又具備延續性的題材股，被動元件在景氣回升與漲價預期下仍有支撐。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "華容",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "華容一度接近漲停，顯示市場對保護元件與相關被動族群仍有追價意願。電相關元件在功率元件、車用與消費電子回溫下具備題材延伸性。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "華孚",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "華孚在汽車零組件題材帶動下漲停，屬於車用零件相關的強勢標的。關稅條款底定、汽車市場回暖後，車用題材重新獲得資金關注，若後續市場認定汽零件具備降關稅與補漲空間，仍可能持續受惠。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "漲停"
+    },
+    {
+      "ticker": "東陽",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "歷史悠久且獲利不錯的汽車零組件公司，在關稅隱憂下降後，車用族群的壓力有機會減輕。汽車零組件受益於關稅條款底定、北美市場機制回歸，以及可能的產業回暖。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "大億",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "汽車零組件題材帶動下市場資金開始回流，關稅不確定性下降後汽零件的風險拿掉一部分，族群有機會從低基期重新評價。若後續北美需求與汽車市場回溫，題材延續度將更高。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "堤維西",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "一開盤就被市場追捧，反映汽零件題材在當天成為主流。關稅條款底定帶來利多預期，加上車用零件本身具備補漲空間。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "美律",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在車用相關應用題材中受到關注，屬於多題材交集的受惠股。現在最好的標的往往不是單一題材，而是同時沾到車用、AI、機器人或消費回溫的公司。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "中美晶集團",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "集團中的子公司與關聯企業因題材共振而一起受惠。市場資金偏好仍未大漲、但具族群輪動與龍頭效應的集團股，能形成更穩定的延續性。整個功率元件、矽晶圓與車用題材繼續發酵。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "高檔翻倍股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "明確表示會避開已經翻了兩三倍、在高檔剛下滑的股票，因為這類標的風險值太高。市場雖然強勢，但資金有可能開始移轉，若追高到已大幅噴發的個股，容易遇到修正。此時的風險報酬比不佳。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "漲翻的被動元件",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "對『已經噴翻的一兩倍被動元件』表示縮手，不願在這時候追價。族群短線漲幅過大，雖然基本面與題材仍在，但價格已反映相當多利多。若資金退潮，這類高漲幅標的容易成為獲利了結的對象。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "傳統汽零件（漲前評價偏弱族群）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "這類傳產過去曾經一路破底，市場一度對其缺乏興趣。之前關稅與競爭隱憂未解，且題材性不如AI或機器人強，因此先前評價偏弱。現在雖然風險減輕，但若北美需求未改善，反彈也可能有限。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "加權指數高檔換手",
+      "reason": "今天指數盤中震盪超過一百五十點、收出長黑Ｋ但尾盤收腳，代表這是一個高檔洗刷而非立即反轉。量能持續放大、指數仍在高檔且月線距離仍遠，顯示市場處於資金推擠而非崩潰狀態。後續要觀察的是成交量是否急速萎縮，以及高檔換手能否持續。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "半導體族群",
+      "reason": "CPU族群今天相對轉弱，主因是美股相關個股盤後表現不佳，牽動台股半導體情緒。雖然主流仍在AI，但族群內部也會隨國際鏈與消息面快速輪動。短線需注意庫存與資金轉向問題。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "功率元件族群",
+      "reason": "功率元件是近期重要主流之一，同時受惠於AI、消費回溫與車用需求改善。用途分散、題材多元，加上部分公司本益比仍相對低，較容易吸引資金延續。後續若車用與消費性電子持續回暖，族群熱度可能維持。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "資金推擠行情",
+      "reason": "目前台股為資金推擠盤，不是基本面瞬間爆發，而是資金在相對有限的標的池中快速移動。上市櫃標的數量增加，但成交金額也同步放大，使得熱門股容易被推到更高的位置。若未來資金動能降溫，整體波動也會跟著放大。關鍵指標：成交量是否持續維持在一兆以上。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "AI 主流延續性",
+      "reason": "目前市場最大主流仍是AI，且這次與過去網路泡沫不同，因為AI已經看得到終端產出與實際收益。企業獲利提升、資本支出增加，以及全球資金在低利率環境下持續湧入。若未來資金繼續圍繞AI鏈，相關龍頭與供應鏈仍是市場核心。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "四萬點以上台股結構",
+      "reason": "台股已站上四萬點上方，且在高檔區域出現劇烈震盪，顯示市場進入新的價格區間。資金充沛、歷史上曾有類似資金推擠期，且目前市場標的數量與成交金額都大幅增加。後續關鍵不在於短線是否回檔，而是整體量能與資金是否續留。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "目前台股是典型的資金推擠盤，不是單純的基本面推升。",
+      "reasoning": "來賓反覆強調現在的市場是資金一直湧進、把熱門標的往上推的盤，而不是只靠單一產業獲利瞬間跳升。從成交量持續放大、熱門股容易輪動、以及指數在高檔仍有買盤來看，這種盤勢更像資金競逐造成的結構性上漲。只要量能不急速萎縮，行情就不容易立刻反轉。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 泡沫與網路泡沫不同，因為這次看得到實際產出與收益。",
+      "reasoning": "來賓認為市場常把AI拿去和網路泡沫比較，但兩者本質不同。網路泡沫時多數公司只有燒錢，缺乏明確收益；AI則已開始反映企業獲利、資本支出與終端應用的實際貢獻。這也是他認為AI主流還有延續空間的原因。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場真正該避開的是高檔翻倍後開始回落的個股。",
+      "reasoning": "來賓不是看空整體市場，而是強調選股上要避開已經漲了兩三倍、在高檔剛轉弱的股票。因為這類標的雖然可能還有題材，但價格已先反映太多利多，一旦資金輪動，回檔幅度往往比想像中大。相較之下，更偏好找尚未漲滿、但開始重新發動的族群。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "資金輪動的核心方向，正在從單一權值擴散到集團與多題材標的。",
+      "reasoning": "節目中一再提到國巨、中美晶、環球晶等集團與族群股，代表市場開始偏好有多題材交集的標的，而不是只追單一主線。當AI、車用、消費回溫與功率元件可以彼此交疊時，股票更容易獲得持續性資金青睞。這種多題材模式會讓資金流向更分散但更穩定。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "車用零組件的壓力正在下降，因為關稅不確定性被拿掉一部分。",
+      "reasoning": "主持人與來賓都提到232條款或相關關稅條款底定後，車用零組件族群立刻出現強勢反應。過去市場最擔心的是關稅與北美市場競爭壓力，如今這些風險至少部分解除，族群因此有機會重新評價。若後續需求面也回溫，車用題材就不只是短線炒作。",
+      "sector": "電動車",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "對年輕投資人來說，先建立穩定本業與現金流，比急著全職交易更重要。",
+      "reasoning": "來賓用自身經歷與朋友案例提醒，沒有經歷完整多空循環的人，很容易在大漲時高估自己，進而在大跌時承受致命風險。即使短期靠股票賺到錢，也不代表能長期靠交易維生，因此先保有穩定收入、再慢慢累積投資底氣，才是比較健康的路徑。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "高檔翻倍股雖然仍有題材，但追價風險顯著升高，容易遭遇資金輪動。",
+    "若成交量無法維持在高檔，資金推擠盤可能快速降溫，指數波動會放大。",
+    "汽車零組件與被動元件雖然強勢，但若短線漲多，容易出現獲利了結賣壓。",
+    "對年輕投資人而言，過度使用槓桿可能在大幅回檔時造成難以承受的損失。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "近日",
+      "event": "汽車零組件關稅條款底定後的題材延續",
+      "tickers": [
+        "東陽",
+        "大億",
+        "堤維西",
+        "華孚"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "近日",
+      "event": "功率元件與被動元件族群持續輪動",
+      "tickers": [
+        "國巨",
+        "華新科",
+        "華容"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "近日",
+      "event": "矽晶圓與集團股續強，帶動相關龍頭創高",
+      "tickers": [
+        "中美晶",
+        "環球晶"
+      ],
+      "source": "李兆華"
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1107｜伊朗又開火，震盪1720點，今天是買還是賣？232條款底定，汽零件全噴給靈感，多題材個股更好！要當全職交易者嗎？ft.冠軍操盤手 楊雲翔",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/73ab428d-3086-43a8-85d2-6e5433fdca7b",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股高檔震盪仍是資金推擠盤，看好功率元件、車用零組件與矽晶圓集團股的輪動機會。",
+      "detailedSummary": "本集主持人李兆華邀請冠軍操盤手楊雲翔，針對台股盤中震盪逾1720點、收長黑Ｋ的行情進行深度解析，兩人一致認為這是高檔換手而非多頭反轉，核心依據是成交量仍維持高檔且指數守住月線。選股策略上，楊雲翔強調要避開已大幅翻倍的高檔股，改找先修正後重新啟動的族群，並在尾盤實際加倉中美晶。節目特別點名232條款底定帶動汽零件族群全面噴發，以及環球晶創歷史新高帶動矽晶圓與集團股題材。此外，楊雲翔也以自身經驗提醒年輕投資人，沒有歷經完整多空循環、貿然走向全職交易風險極高，應先鞏固本業現金流再逐步擴大投資規模。",
+      "highlights": [
+        "台股盤中震盪超過一百五十點，但尾盤收腳，來賓認為只是高檔換手而非正式反轉，多頭結構尚未被破壞。",
+        "目前市場屬於資金推擠盤，成交量若能維持在高檔（一兆以上），指數仍有機會續創新高。",
+        "來賓尾盤實際加倉中美晶，策略是偏好先修正、再重新發動的熱門族群，而非追逐已噴翻的高檔股。",
+        "環球晶盤中突破千元創歷史新高，矽晶圓龍頭與集團股題材持續發酵，來賓特別給予正面評價。",
+        "232條款底定後汽車零組件族群全面噴發，華孚漲停、東陽大億堤維西等齊漲，關稅風險解除帶動族群重新評價。",
+        "被動元件與功率元件仍強，但已大漲一兩倍的高檔標的不宜追價，資金輪動到尚未漲滿的族群更安全。",
+        "來賓強調AI與網路泡沫本質不同，因為這次看得到實際產出與企業獲利貢獻，AI主流長線仍有延續空間。",
+        "年輕投資人應先保有本業與穩定現金流，沒有歷經完整多空循環就急著全職交易，風險遠比想像中高。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2317.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "世界先進",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "MLCC",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "鴻海",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "光寶科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
