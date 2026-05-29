@@ -1,0 +1,764 @@
+{
+  "date": "2026-05-29",
+  "quickDigest": [
+    "🔥 DELL財報AI伺服器年增75%，帶動鴻海、廣達、緯創同日漲停，老AI供應鏈全面接棒",
+    "📡 黃仁勳來台首訪廣達，聯發科人才戰略地位凸顯，AI生態圈台廠地位持續強化",
+    "🔄 資金從被動元件輪出，流向載板（景碩）、車用功率元件（強茂、台半）與機器人概念（能率）",
+    "⚠️ 創意籌碼不穩、高位震盪；電商產業（富邦媒）短線題材難掩長線基本面疑慮",
+    "📅 台北國際電腦展下週登場，鴻海、廣達、聯發科等權值股仍為資金核心配置首選"
+  ],
+  "marketMood": "老AI權值股集體點火，資金輪動不離場，多頭接棒意味濃厚",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "DELL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "財報表現非常漂亮，人工智慧伺服器業務年增達七成五，需求持續爆發，被視為老人工智慧供應鏈再度獲得市場認可的火種，可能帶動相關伺服器與電腦供應鏈評價重估。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "財報優於預期與人工智慧伺服器業務成長",
+      "technicals": {
+        "currentPrice": 413.46,
+        "ma20": 259.63,
+        "ma60": 204.61,
+        "priceVsMa20Pct": 59.3,
+        "priceVsMa60Pct": 102.1,
+        "rsi14": 89,
+        "changePct5d": 63.6,
+        "changePct20d": 97.9,
+        "volumeRatio": 2.97,
+        "currency": "USD",
+        "asOf": "2026-05-29T15:07:39.000Z"
+      }
+    },
+    {
+      "ticker": "鴻海",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "率先漲停，代表老人工智慧權值股重新接棒，先前型態已不錯，伺服器與人工智慧供應鏈相對優勢加上毛利率維持，短線受台北國際電腦展題材與資金回流大型電子股驅動。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "漲停",
+      "catalyst": "台北國際電腦展與盤面資金回流大型電子股",
+      "technicals": {
+        "currentPrice": 289,
+        "ma20": 251.78,
+        "ma60": 223.04,
+        "priceVsMa20Pct": 14.8,
+        "priceVsMa60Pct": 29.6,
+        "rsi14": 78,
+        "changePct5d": 15.6,
+        "changePct20d": 31.7,
+        "volumeRatio": 3.25,
+        "currency": "TWD",
+        "asOf": "2026-05-29T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "廣達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "第二季到第三季有機會扳回一城，黃仁勳來台第一站先到廣達，代表合作關係可能深化。記憶體供應改善後毛利率有望回穩，催化劑在於第二季業績回升與電腦展後新訂單期待。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "漲停",
+      "catalyst": "第二季營運回溫與台北國際電腦展",
+      "technicals": {
+        "currentPrice": 339,
+        "ma20": 321.55,
+        "ma60": 307.88,
+        "priceVsMa20Pct": 5.4,
+        "priceVsMa60Pct": 10.1,
+        "rsi14": 60,
+        "changePct5d": 7.3,
+        "changePct20d": 8.5,
+        "volumeRatio": 2.86,
+        "currency": "TWD",
+        "asOf": "2026-05-29T05:30:11.000Z"
+      }
+    },
+    {
+      "ticker": "緯創",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "老人工智慧族群重新被資金點火，緯創同步漲停，市場對伺服器與人工智慧供應鏈信心回來。大型股接棒能讓多頭延續，不只是短線反彈，依據主要來自產業題材與資金輪動。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "漲停",
+      "catalyst": "人工智慧伺服器題材延續與資金輪動"
+    },
+    {
+      "ticker": "景碩",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在被動元件族群強勢時，人工智慧裡的載板族群並沒有休息，景碩仍持續往上，代表市場資金並未撤出人工智慧主線，高階載板仍受惠於伺服器與人工智慧需求。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "人工智慧伺服器需求持續擴大",
+      "technicals": {
+        "currentPrice": 729,
+        "ma20": 557.78,
+        "ma60": 436.78,
+        "priceVsMa20Pct": 30.7,
+        "priceVsMa60Pct": 66.9,
+        "rsi14": 77,
+        "changePct5d": 19.7,
+        "changePct20d": 38.1,
+        "volumeRatio": 0.26,
+        "currency": "TWD",
+        "asOf": "2026-05-29T05:30:18.000Z"
+      }
+    },
+    {
+      "ticker": "金居",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "市場之前評價過差，實際上並不那麼弱，最近股價恢復原神，出現出關第一天就漲停的走勢。被動元件族群輪動後，相關材料與銅箔概念仍有籌碼與題材支撐，催化劑是籌碼回穩後的補漲與資金回流。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "漲停",
+      "catalyst": "籌碼回穩後的補漲"
+    },
+    {
+      "ticker": "群創",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "先前有被提及要做中央處理器相關布局，並沒有外界想像中那麼差，股價結構與友達不同，最近明顯轉強並亮燈，市場開始重新評價其轉型與潛在題材。催化劑來自股價型態轉強與市場對新業務布局的想像。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "漲停",
+      "catalyst": "股價型態轉強與轉型題材發酵",
+      "technicals": {
+        "currentPrice": 51,
+        "ma20": 37.84,
+        "ma60": 30.04,
+        "priceVsMa20Pct": 34.8,
+        "priceVsMa60Pct": 69.8,
+        "rsi14": 72,
+        "changePct5d": 14.2,
+        "changePct20d": 112.9,
+        "volumeRatio": 1.19,
+        "currency": "TWD",
+        "asOf": "2026-05-29T05:30:00.000Z"
+      }
+    },
+    {
+      "ticker": "聯發科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被人工智慧巨頭挖角的核心人才庫，黃仁勳來台與人才布局凸顯其在高階晶片設計上的重要性。聯發科不只是手機晶片公司，在人工智慧與高階設計能力上具備戰略地位，市場可能重新評價其在人工智慧生態中的地位。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "catalyst": "人工智慧布局持續被市場重估",
+      "technicals": {
+        "currentPrice": 4310,
+        "ma20": 3665.5,
+        "ma60": 2434.17,
+        "priceVsMa20Pct": 17.6,
+        "priceVsMa60Pct": 77.1,
+        "rsi14": 69,
+        "changePct5d": 11.7,
+        "changePct20d": 65.1,
+        "volumeRatio": 2,
+        "currency": "TWD",
+        "asOf": "2026-05-29T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "富邦科技",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "科技股輪動中，科技權重偏高的指數型商品相對吃香，因為台積電、鴻海、聯發科等權值科技股都在動。資金不只集中在單一個股，而是回到科技權重較高的資產配置。催化劑是科技權值股輪動續強。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "科技權值股輪動續強"
+    },
+    {
+      "ticker": "創意",
+      "consensus": "單一 KOL（多空分歧）",
+      "divergence": "KOL 分歧：看多方認為法說後展望正面、市場未否定長線成長；看空方認為籌碼不穩、位階高、波動劇烈，短線風險偏高。",
+      "sources": [
+        {
+          "kol": "李兆華（看多面向）",
+          "reason": "法說後對未來展望偏正面，今天有獲得平反、股價拉起來，市場並未否定其長線成長，聯發科加入競局的壓力已反映，後續訂單能見度若改善則有支撐。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "法說後的後續展望與接單能見度"
+    },
+    {
+      "ticker": "世芯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "市場目前正在等待第二季開始出現實質變化，尤其亞馬遜等客戶訂單是否帶來新進展。市場並未放棄世芯，高階特殊應用晶片市場仍有需求，只是需要新的訂單驗證。催化劑是第二季營運與大客戶訂單變化。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "第二季訂單與營運變化"
+    },
+    {
+      "ticker": "微影",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "仍是一家好公司，採取配股票而非配現金代表管理層相信成長性。未來分拆後股價門檻下降，可能吸引更多資金進場。風險是人工智慧大客戶進來後毛利可能被壓縮。催化劑是配股與未來分拆題材。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "配股與未來分拆題材"
+    },
+    {
+      "ticker": "合晶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "先前很看好的合晶仍沒有休息，被動元件題材輪動後，部分材料與晶圓相關個股仍能延續強勢，市場資金持續尋找未充分反映的個股。催化劑是產業景氣與籌碼持續轉強。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "資金輪動與籌碼續強"
+    },
+    {
+      "ticker": "進倉店",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與合晶並列提到的另一檔看好個股，目前仍未休息，族群內強勢股有機會持續走高。被動元件與相關材料族群只是進入整理，不代表趨勢結束。催化劑是族群整理後續強。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "族群整理後續強"
+    },
+    {
+      "ticker": "奇邦",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "先前提醒時股價約一百元，現在已漲停，封測族群中仍有強勢個股受市場追捧。主持人表示現在再追已不好追，但整體語氣偏正面，屬於先前看好的延伸。催化劑是封測族群資金輪動與基本面題材延續。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "漲停",
+      "catalyst": "封測族群續強"
+    },
+    {
+      "ticker": "立成",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "因接到人工智慧相關訂單而大漲，市場會把吃到訂單的公司直接反映在股價上。有明確訂單就會被市場追價，語氣明顯偏正面。催化劑是人工智慧相關訂單落地。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "人工智慧相關訂單落地"
+    },
+    {
+      "ticker": "能率",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "因與人工智慧機器人合作而漲停，能率與能率亞洲同步亮燈，市場對機器人題材開始重新給予評價。屬於人工智慧延伸到人形機器人與終端應用的題材，具有明確產業想像空間。催化劑是人工智慧機器人合作題材持續發酵。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "漲停",
+      "catalyst": "人工智慧機器人合作題材發酵"
+    },
+    {
+      "ticker": "能率亞洲",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與能率一起漲停，同樣來自與人工智慧機器人合作的題材。主持人視之為市場資金沿著人工智慧應用擴散到中小型個股的例子，代表主線不只在大型權值股，也外溢到相關概念股。催化劑是機器人題材與集團資金聯動。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "漲停",
+      "catalyst": "機器人題材與集團聯動"
+    },
+    {
+      "ticker": "強茂",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "汽車零組件受關稅底定影響走強，強茂同時切入車用市場與人工智慧應用的功率元件，有望受惠車用復甦與人工智慧題材雙重加持，讓原本沉寂的族群出現補漲機會。催化劑是零組件關稅政策落地與車用需求回升。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "汽車零組件關稅底定與車用復甦"
+    },
+    {
+      "ticker": "台半",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "受惠汽車零組件與車用功率元件復甦，同時切入人工智慧與車用市場比單一題材更有支撐。市場資金正在尋找兼具轉型與景氣回溫的標的。催化劑是車用市場復甦與政策底定。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "車用市場復甦"
+    },
+    {
+      "ticker": "矽統",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與創意、世芯等高階設計公司同屬人工智慧供應鏈受關注標的，整體對高階晶片設計族群看法偏正面，只要新訂單與大客戶需求持續，股價仍有支撐。催化劑是新訂單與法說後展望。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "新訂單與展望釋出"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "友達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與群創相比，友達在股價結構與轉型題材上相對沒那麼強。雖有中央處理器布局，但市場反應不如群創，短線相對劣勢。若轉型進度無法被市場認可，資金仍可能持續流向更強的面板股。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "轉型題材是否被市場接受",
+      "technicals": {
+        "currentPrice": 23,
+        "ma20": 19.97,
+        "ma60": 17.85,
+        "priceVsMa20Pct": 15.2,
+        "priceVsMa60Pct": 28.9,
+        "rsi14": 63,
+        "changePct5d": 3.6,
+        "changePct20d": 33.7,
+        "volumeRatio": 1.42,
+        "currency": "TWD",
+        "asOf": "2026-05-29T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "電商產業",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "電商戰場高度廝殺，價格競爭與物流成本都很重，營運壓力很大。部分公司在股東會上表態努力爬回來，但主持人仍認為競爭過度激烈，難以樂觀看待。風險核心是毛利被削弱與獲利模式不穩定。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "無明確催化劑"
+    },
+    {
+      "ticker": "富邦媒",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "雖因股東會與轉型表態而漲停，但整體電商產業仍偏保守，電商市場高度血戰，成本與競爭壓力很大。即使公司喊出要爬回來，關鍵仍在獲利能力而非口號。短線題材偏多但長線基本面仍有疑慮。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "漲停",
+      "catalyst": "股東會後的轉型規劃"
+    },
+    {
+      "ticker": "創意",
+      "consensus": "單一 KOL（多空分歧）",
+      "divergence": "KOL 分歧：看空方認為籌碼不穩、位階高、近期漲跌幅非常大，有法人與市場主力角力，短線風險偏高，若後續訂單不如預期股價容易再度劇烈震盪；看多方則認為法說後展望正面，長線成長未被市場否定。",
+      "sources": [
+        {
+          "kol": "李兆華（看空面向）",
+          "reason": "近期漲跌幅非常大，籌碼不穩定，法人與市場主力角力明顯。雖法說後展望正面，但位階高、波動大，短線風險偏高，較像是高波動整理而非穩健上攻。若後續訂單不如預期，股價容易再度劇烈震盪。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "法說後的後續訂單驗證"
+    }
+  ],
+  "monitorSignals": [],
+  "keyInsights": [
+    {
+      "insight": "老人工智慧族群正在重新接棒，資金沒有離開主線",
+      "reasoning": "緯創、鴻海、廣達等大型電子股在同一天集體漲停，代表老人工智慧權值股重新扮演多頭接棒的訊號。市場之前擔心資金撤出人工智慧，但從盤面看，資金只是輪動到不同環節，並未真正離場。多頭結構仍在，只是由不同子族群輪番表現。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "人工智慧伺服器需求仍在上行，不是只靠高階晶片而已",
+      "reasoning": "戴爾財報大好說明，人工智慧伺服器需求已從單一高階晶片擴散到整體伺服器與周邊供應鏈。高階、中低階、標準型伺服器的量都在上升，不只晶片廠受惠，連電腦代工與 CPU 供應鏈也會一起被帶動，使人工智慧行情的可延續性比外界想像更強。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場資金正在從被動元件輪動到人工智慧與車用相關族群",
+      "reasoning": "原本強勢的被動元件已進入整理，資金開始轉往老人工智慧、載板、車用零組件與功率元件。從國巨漲多、被動元件分歧，到汽車零組件與風力營造股開始動，顯示資金不是退場而是在找下一棒。這種輪動結構意味著多頭還有延續空間。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "第三季可能是人工智慧周邊族群重新發光的時間點",
+      "reasoning": "部分族群目前仍在壓抑，但預期第三季時，中央處理器、基板、以及過去整理很久的趨勢族群會開始改善。供應瓶頸逐步被去化，業績有機會跳出來成為下一批帶頭點火的股票，是主持人對下半年行情延續性的核心判斷。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "聯發科正在成為高階設計人才與人工智慧版圖的重要樞紐",
+      "reasoning": "從黃仁勳來台與聯發科人才流動情況推論，聯發科在高階晶片設計上具備非常重要的位置。雖不是人工智慧伺服器供應鏈最前端，但對人才、設計能力與未來合作的戰略價值正在上升，市場可能因此重新評價其在人工智慧生態中的地位。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "選股難度提高，但大型權值股與 ETF 提供了更穩定的參與方式",
+      "reasoning": "現在盤面熱點很多，但輪動快速，若單押冷門股容易錯過或追高。大型權值股如鴻海、廣達、聯發科，以及科技型 ETF，都是較容易跟上主流資金的方式。這反映在高波動行情中，以配置取代追價的重要性。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台積電短線雖有瓶頸，但讓出空間反而讓其他權值股更容易表現",
+      "reasoning": "台積電近期並非不強，而是暫時卡住，但這不代表行情結束。因為台積電沒有大漲，鴻海、廣達、聯發科等其他大型股反而有機會輪番接棒，推動大盤繼續上行。這是一種權值股內部輪動的結構性看法。",
+      "sector": "半導體",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "人工智慧概念股若漲多後進入現金流與毛利率檢驗期，估值可能承壓。",
+    "高位階個股如創意波動很大，籌碼不穩時容易劇烈震盪。",
+    "電商產業價格戰與物流成本壓力高，獲利模式風險不低。",
+    "若美伊局勢真的升溫，油價與市場風險偏好可能突然反轉。",
+    "六月中聯準會會議可能成為市場新的波動來源。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "下週",
+      "event": "台北國際電腦展開跑",
+      "tickers": [
+        "鴻海",
+        "廣達",
+        "緯創",
+        "台積電",
+        "聯發科",
+        "景碩"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "人工智慧伺服器與相關供應鏈財報與訂單續強",
+      "tickers": [
+        "DELL",
+        "鴻海",
+        "廣達",
+        "緯創",
+        "立成",
+        "景碩"
+      ]
+    },
+    {
+      "date": "六月中",
+      "event": "聯準會利率決策會議",
+      "tickers": [
+        "科技權值股",
+        "台股大盤"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1108｜DELL財報爆衝、兆元宴吃飽，緯創、鴻海、廣達齊漲停，老AI變新火種！下週電腦展開跑，多頭延續到何時？ft.操盤手 黃豐凱",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/af36eacf-8c25-4895-b394-74e28a5f81e7",
+      "sentiment": "bullish",
+      "oneLiner": "老人工智慧權值股集體漲停、DELL 財報爆發，主持人宣告多頭接棒未結束，下半年電腦展與第三季供應鏈改善是下一個引爆點。",
+      "detailedSummary": "本集主持人以 DELL 財報人工智慧伺服器業務年增七成五為開場，驗證需求不只未降溫反而持續擴張。盤面上，鴻海、廣達、緯創同日漲停，被解讀為老人工智慧權值股重新接棒的結構性訊號，而非短線反彈。主持人同步解析資金從被動元件輪動到車用零組件、功率元件與機器人題材的脈絡，認為多頭仍有可用之兵。對於個股，廣達因黃仁勳來台第一站造訪、記憶體瓶頸逐步改善而看好第二至三季，聯發科則因人才戰略地位而被視為人工智慧生態重要樞紐。主持人也提醒，創意籌碼不穩，高位階震盪風險高，電商產業競爭過度激烈長線仍保守，六月中聯準會決策與美伊情勢是短期最大外部變數。",
+      "highlights": [
+        "DELL 財報人工智慧伺服器年增七成五，驗證供應鏈需求仍在上行，非高階晶片獨享。",
+        "鴻海、廣達、緯創同日漲停，老人工智慧權值股正式接棒，多頭結構未破壞。",
+        "廣達獲黃仁勳來台首訪加持，第二至三季業績有望回溫，記憶體瓶頸逐步改善是關鍵。",
+        "資金從被動元件輪動至載板（景碩）、車用功率元件（強茂、台半）與機器人（能率、能率亞洲）。",
+        "聯發科被視為人工智慧人才與設計能力的戰略樞紐，市場可能重新評價其生態地位。",
+        "主持人預期第三季 CPU、基板等周邊族群將是下一批帶頭點火的標的。",
+        "創意籌碼不穩、高位階震盪大，電商產業競爭激烈，長線基本面均偏保守。",
+        "六月中聯準會決策與美伊情勢升溫是短期最需關注的外部風險來源。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2317.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "世界先進",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "MLCC",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "鴻海",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "加權指數",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "光寶科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
