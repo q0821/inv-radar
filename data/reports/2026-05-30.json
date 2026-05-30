@@ -1,0 +1,543 @@
+{
+  "date": "2026-05-30",
+  "quickDigest": [
+    "被動元件族群漲價邏輯升級：MLCC 與鋁電容從成本驅動轉需求驅動，供給缺口逾二成",
+    "軟體股靠成績重新定價：SNOW、OKTA、CRM、NOW 財報亮眼，AI 加分效應獲驗證",
+    "資金健康輪動中：老AI、ODM/OEM 族群重獲青睞，基本面有營收獲利支撐",
+    "AI 競爭勝負手轉移：封閉資料掌握力與企業法遵落地能力，凌駕模型本身",
+    "風險警示：融資槓桿擴張過快，突發利空恐引發超預期回檔"
+  ],
+  "marketMood": "硬體與軟體輪番上攻，多頭百花齊放但槓桿過熱暗藏隱憂",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "被動元件族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "節目中提到被動元件族群持續強勢，且市場已從原本偏向成本驅動的漲價，轉為明顯的需求驅動漲價。主持人觀察到多家被動元件公司在法說與小型場合的口徑已開始改變，顯示產業供需缺口正在擴大，而不是單純的短線題材。催化劑包括後續第三季到年底的報價調整、各家產能擴產落地，以及市場對高階與缺貨料號的重新定價。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "MLCC",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人明確指出市場目前最先注意到的是 MLCC 缺貨與漲價，但他認為這只是被動元件輪動的一部分，背後真正的情況是需求端持續變強。其依據是公司派對景氣的說法已開始轉向，從先前保守看待第三季後漲價，變成承認需求拉動的漲價。短線上只要需求維持，MLCC 仍是族群核心之一，後續還可能搭配其他被動元件一起走強。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "鋁電容族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人特別點名鋁電容出現明顯缺貨，甚至提到某些產品線與全球供給缺口已高達二成以上，顯示不是單一公司或單一市場的局部現象。和市場只看 MLCC 不同，主持人認為鋁電容的缺口更容易被低估，這種被忽略的缺貨標的反而具備後續補漲空間。催化劑是後續缺貨資訊擴散、客戶拉貨與擴產進度驗證。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "老AI族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人認為老AI重新站上舞台，代表資金輪動回到既有硬體與基礎建設供應鏈，而不是 AI 題材結束。市場從先前偏向新題材、光通與高估值標的，轉向老AI、老ODM與硬體實績股，說明資金正在重新評價這些已經有營收與獲利驗證的公司。催化劑是大型雲端與硬體客戶持續下單，以及市場對 AI 基建需求的再確認。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "ODM/OEM族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人明講自己看到大量資金回到老ODM、老OEM，且這些公司持續交出很好的成績，認為這個方向是健康的多頭結構。其推論不是單純追逐短線漲勢，而是看到基本面營收與獲利都有支持，只是先前市場沒有給估值，如今資金重新回流使股價開始反映。短中期催化劑是財報持續優於預期與市場對 AI 伺服器供應鏈的再定價。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "軟體族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人認為軟體股近期出現全面性的爆發，不是單一公司事件，而是市場開始重新接受軟體在 AI 時代仍有成長性。多家軟體公司營收與獲利都開出好成績，顯示 AI 並非只對硬體有利，反而可能推升軟體應用層的價值。催化劑是更多軟體公司財報驗證、以及 AI 應用導入後的商業模式重新定價。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "SNOW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人提到 Snowflake 開出極好的成績，並把它視為軟體股重新獲得市場青睞的例子之一。AI 並沒有讓軟體全面失能，反而在資料處理、資料平台與企業應用層面形成加分效果。若後續財報延續這種成長斜率，市場對軟體估值有機會進一步修復。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 255.55,
+        "ma20": 166.15,
+        "ma60": 159.54,
+        "priceVsMa20Pct": 53.8,
+        "priceVsMa60Pct": 60.2,
+        "rsi14": 87,
+        "changePct5d": 54.4,
+        "changePct20d": 87.3,
+        "volumeRatio": 2.01,
+        "currency": "USD",
+        "asOf": "2026-05-29T20:00:03.000Z"
+      }
+    },
+    {
+      "ticker": "CRM",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人提到 Salesforce 做了正式且規模可觀的買回，並用實際行動證明公司對自身前景有信心。這代表市場對公司看法過度悲觀，而管理層選擇用回購來回應，通常是對未來現金流與估值的正面訊號。催化劑是回購持續執行與 AI 相關業務逐步落地。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 191.1,
+        "ma20": 179.03,
+        "ma60": 183.53,
+        "priceVsMa20Pct": 6.7,
+        "priceVsMa60Pct": 4.1,
+        "rsi14": 61,
+        "changePct5d": 8.4,
+        "changePct20d": 8.3,
+        "volumeRatio": 2.59,
+        "currency": "USD",
+        "asOf": "2026-05-29T20:00:02.000Z"
+      }
+    },
+    {
+      "ticker": "NOW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人提到 ServiceNow 老闆明確反駁外界對 AI 的末日論，認為公司處在很大的順風之上，而且是靠成績慢慢證明。這顯示他看好企業軟體在 AI 導入後的效率提升與商業價值，並不是被 AI 取代。催化劑是企業需求持續升溫與後續財報延續高品質成長。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 124.37,
+        "ma20": 97.38,
+        "ma60": 100.88,
+        "priceVsMa20Pct": 27.7,
+        "priceVsMa60Pct": 23.3,
+        "rsi14": 74,
+        "changePct5d": 24.8,
+        "changePct20d": 40.8,
+        "volumeRatio": 2.37,
+        "currency": "USD",
+        "asOf": "2026-05-29T20:00:03.000Z"
+      }
+    },
+    {
+      "ticker": "OKTA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人把 Okta 列為近期開出極佳成績的軟體公司之一，視為 AI 對軟體產業帶來加分的案例。身分管理與企業安全這類原本就有剛性需求的服務，在 AI 時代反而更容易獲得預算與需求支持。若企業導入規模擴大，股價仍可能持續反映基本面改善。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 123.27,
+        "ma20": 86.03,
+        "ma60": 79.48,
+        "priceVsMa20Pct": 43.3,
+        "priceVsMa60Pct": 55.1,
+        "rsi14": 83,
+        "changePct5d": 37.8,
+        "changePct20d": 67.4,
+        "volumeRatio": 5.44,
+        "currency": "USD",
+        "asOf": "2026-05-29T20:00:00.000Z"
+      }
+    },
+    {
+      "ticker": "TSM",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人雖未在本集明確喊多台積電，但多次提到台積電的前端製程與帶出的外溢效果，認為其放出大量成熟製程與相關供應鏈機會，讓其他硬體與被動元件也跟著受惠。台積電仍是整個科技與供應鏈輪動的核心錨點。催化劑是後續先進製程需求、法說會與 AI 相關訂單持續擴張。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 418.45,
+        "ma20": 407.15,
+        "ma60": 373.56,
+        "priceVsMa20Pct": 2.8,
+        "priceVsMa60Pct": 12,
+        "rsi14": 59,
+        "changePct5d": 2.8,
+        "changePct20d": 5.7,
+        "volumeRatio": 0.86,
+        "currency": "USD",
+        "asOf": "2026-05-29T20:00:02.000Z"
+      }
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "高估值軟體族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "主持人提醒，市場雖然重新追捧軟體，但並不是所有軟體公司都會同步受惠，因為 AI 與資料、商務能力才是關鍵差異。若公司沒有可規則性、沒有業務能力、也無法處理法遵與資料權限問題，單靠講 AI 故事的估值很容易失真。風險在於市場把所有軟體都一視同仁，導致不具備落地能力的公司估值回落。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "AI 基礎建設輪動",
+      "reason": "市場正在從硬體基建潮走向軟體應用潮，這是科技產業常見的周期輪動：先有基礎設施，再有應用層爆發。資金正在同時照顧硬體與軟體，屬於多頭後期常見的百花齊放狀態。短中期要持續觀察資金是否從老AI、ODM/OEM 進一步轉向企業軟體與應用公司。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "企業軟體商務能力",
+      "reason": "未來 AI 軟體的勝負手，不一定是模型本身，而是誰能掌握資料、誰能把業務談進去、誰能做客製化部署。商務能力與落地能力會逐漸凌駕於單純的模型宣傳。這對台灣系統整合商、企業軟體與具法遵能力的供應商特別重要。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "資料與封閉式數據資產",
+      "reason": "未來真正有價值的是能掌握專家資料、特有資料與封閉式資料的公司，而不是只有公開網路資料的通用模型。因為通用資料很容易邊際效應遞減，能拿到稀缺資料並把它轉化成產品的人，才是真正的贏家。這會讓資料擁有者、平台商與整合商的價值提升。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "融資與槓桿風險",
+      "reason": "市場資金樂觀到融資增加速度很快，甚至不少人已經是拿命在搏，這代表盤面雖然強，但槓桿過熱的風險也同步上升。短線若遇到突發利空或國際事件，回檔可能會比較劇烈。屬於需要持續監控的市場風險而非個股基本面風險。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "AI 的勝負關鍵正在從模型能力轉向資料與商務能力",
+      "reasoning": "目前大家在網路上比較的是誰的模型比較強，但因為多數模型都建立在相似的公開資料上，長期邊際差異會縮小。真正拉開差距的是誰能掌握專家資料、封閉資料與企業內部資料，並且把產品成功賣進企業。再加上 AI 會有幻覺與法遵風險，因此能處理客製化、責任歸屬與部署落地的公司，才是最終贏家。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "軟體股的重新定價，核心不是故事，而是實際成績",
+      "reasoning": "多家軟體公司最近財報都開得很好，包括 Snowflake、Okta、Salesforce 與 ServiceNow 等，這表示市場不是單純因為題材而追價，而是因為成績開始證明 AI 對軟體有加分。以前市場擔心 AI 會取代軟體，如今反而看到 AI 讓軟體更有效率、帶來更多商機。這種由成績驅動的上漲，比單純敘事更具持續性。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "被動元件正在進入需求驅動的漲價階段",
+      "reasoning": "被動元件公司對景氣的說法已經從成本驅動漲價，轉向需求驅動漲價，代表產業真實需求比市場先前預期更強。這種變化通常意味著供需缺口不只是短暫修復，而是有機會延續到下一個報價週期。若後續擴產無法快速補上缺口，漲價動能還可能延長。",
+      "sector": "其他",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "多頭市場的健康度來自輪動，而不是所有股票同漲同跌",
+      "reasoning": "現在是百花齊放的多頭，資金會在老AI、ODM/OEM、被動元件與軟體之間輪動。很多人只盯著自己熟悉的那一群，忽略了市場資金其實在往更缺、毛利更高、或更晚被注意到的地方流動。只要輪動持續，整體盤面就仍屬健康。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "企業導入 AI 的重點是可規則性與責任歸屬，而不是單純追求炫技",
+      "reasoning": "消費者可以容忍 AI 亂講話，但企業不能接受資料錯誤、侵權、法遵問題與責任無法追溯。對企業來說，能否找到一個可負責任的供應商、能否做客製化部署、能否處理風險，遠比模型跑分更重要。這代表未來 AI 商機會更偏向精緻化與解決方案化。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "融資擴張速度很快，若遇到突發利空或國際事件，回檔可能會更劇烈。",
+    "不是所有軟體公司都能受惠於 AI，缺乏資料、商務能力與法遵落地的公司可能面臨估值修正。",
+    "被動元件雖然強勢，但若後續供給快速補上，漲價動能可能降溫。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "",
+      "event": "第三季後被動元件報價與需求驗證",
+      "tickers": [
+        "被動元件族群",
+        "MLCC",
+        "鋁電容族群"
+      ]
+    },
+    {
+      "date": "",
+      "event": "AI 軟體公司後續財報持續驗證",
+      "tickers": [
+        "SNOW",
+        "OKTA",
+        "CRM",
+        "NOW"
+      ]
+    },
+    {
+      "date": "",
+      "event": "企業導入 AI 與資料合作案落地",
+      "tickers": [
+        "軟體族群",
+        "企業軟體商務能力",
+        "資料與封閉式數據資產"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "謝孟恭",
+      "episode": "EP666 | 🍐",
+      "episodeLink": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/fd5d4766-183d-4ed9-8d68-958c50d8e730",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "被動元件需求驅動漲價、軟體股靠成績重新定價、AI 勝負關鍵轉向資料與商務落地能力",
+      "detailedSummary": "本集前半段以生活與正念為主，後半段聚焦市場觀察。主持人認為台股與美股均處於強勢多頭，資金在老AI、ODM/OEM、被動元件與軟體族群之間健康輪動，百花齊放的結構代表多頭仍未走弱。被動元件方面，主持人特別指出 MLCC 缺貨與鋁電容供給缺口已逾兩成，且公司派說法已從「成本驅動漲價」轉為「需求驅動漲價」，顯示供需缺口有機會延續至下一個報價週期。軟體方面，Snowflake、Okta、Salesforce、ServiceNow 等皆開出亮眼財報，證明 AI 不僅未取代軟體，反而為應用層帶來更多商機。主持人同時提醒，真正能在 AI 時代長期勝出的公司，靠的不是模型跑分，而是掌握封閉資料、可規則化部署與明確責任歸屬的落地能力；市場融資擴張過快，槓桿風險亦需持續監控。",
+      "highlights": [
+        "主持人認為市場目前是健康的多頭，資金在老AI、ODM/OEM、被動元件與軟體族群之間持續輪動，百花齊放是多頭健康的象徵。",
+        "被動元件族群從「成本驅動漲價」轉為「需求驅動漲價」，主持人特別看好 MLCC 與鋁電容——後者供給缺口已高達二成以上，市場尚未充分定價。",
+        "老AI 與 ODM/OEM 族群重新獲得資金關注，反映 AI 基建需求持續且基本面有實際營收與獲利支持，估值修復仍在進行中。",
+        "軟體股出現全面反彈，Snowflake、Okta、Salesforce、ServiceNow 均被視為「AI 加持軟體」的正面案例，市場正在用成績而非故事重新定價。",
+        "主持人強調 AI 競爭的勝負關鍵不在模型本身，而在於誰能掌握封閉資料、做到商務落地、處理法遵與責任歸屬——這是選股的核心框架。",
+        "未來能掌握專家資料與企業內部資料的公司，將比只靠公開網路資料的通用模型更具競爭優勢，資料稀缺性是長期護城河。",
+        "市場融資增加速度很快，槓桿過熱風險需留意，若遇突發國際利空，回檔幅度可能超出預期。",
+        "高估值但缺乏資料、商務能力與法遵落地能力的軟體公司，是本集點名的潛在看空風險，不宜一視同仁追逐軟體題材。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 5
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "鴻海",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2317.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "世界先進",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "MLCC",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "合晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "加權指數",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "廣達",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "緯創",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "光寶科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
