@@ -1,0 +1,678 @@
+{
+  "date": "2026-06-08",
+  "quickDigest": [
+    "台股急跌非基本面黑天鵝：期貨逆價差+融資斷頭引爆流動性踩踏，多頭結構未破",
+    "台積電（2330）6/10公布5月營收，回檔破月線附近為優先承接區，AI供應鏈核心地位不變",
+    "川湖大跌日仍攻漲停、研華（3034）法人低接，業績實力股展現抗跌韌性",
+    "電力瓶頸族群崛起：光寶科、松川精密（6781）因AI資料中心用電需求成長線主線",
+    "關鍵觀察節點：6/10 CPI數據＋6/17聯準會會議，將決定風險資產再定價方向"
+  ],
+  "marketMood": "流動性踩踏引爆急跌，趨勢未變但震盪未止，靜待CPI與Fed定錨方向",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "2330.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電是整個 AI 供應鏈的瓶頸核心，市場資金在恐慌時會優先回到具備確定性與獲利能力的大型權值股。6 月 10 日公布 5 月營收，若續強將有助重新確認基本面支撐。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "回檔時優先承接，開盤低點附近視為機會區",
+      "catalyst": "6月10日公布5月營收",
+      "technicals": {
+        "currentPrice": 2295,
+        "ma20": 2293,
+        "ma60": 2100.83,
+        "priceVsMa20Pct": 0.1,
+        "priceVsMa60Pct": 9.2,
+        "rsi14": 53,
+        "changePct5d": -2.5,
+        "changePct20d": 2.7,
+        "volumeRatio": 1.56,
+        "currency": "TWD",
+        "asOf": "2026-06-08T05:30:09.000Z"
+      }
+    },
+    {
+      "ticker": "川湖",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "大盤重挫時仍能在開盤數分鐘內攻上漲停，5 月營收明顯優於預期且月營收與年增率雙創高，代表 AI 零組件中具備實際業績支撐的公司不因短線恐慌失去市場認同。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "營收持續創高帶動資金回流"
+    },
+    {
+      "ticker": "0050.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "市值型 ETF 代表核心大盤資產，能降低單一個股風險。恐慌盤中資金優先回到確定性高、權值高的標的，市值型 ETF 符合此資金偏好，可作為長期部位配置。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "catalyst": "",
+      "technicals": {
+        "currentPrice": 100.95,
+        "ma20": 99.84,
+        "ma60": 88.5,
+        "priceVsMa20Pct": 1.1,
+        "priceVsMa60Pct": 14.1,
+        "rsi14": 56,
+        "changePct5d": -4.3,
+        "changePct20d": 4.2,
+        "volumeRatio": 3.55,
+        "currency": "TWD",
+        "asOf": "2026-06-08T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "ETF（市值型／主動型）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "市場劇烈波動時，ETF 可作為分散風險與抄底工具，能較快反映整體市場修復，且可避免單一標的斷頭與流動性風險。主動型 ETF 波動仍大，系統性風險時不一定比個股穩。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": ""
+    },
+    {
+      "ticker": "3034.TW（研華）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "邊緣 AI 與工業電腦龍頭，盤中有資金低接，顯示法人在恐慌時仍偏好有實質業績與應用落地的公司。相較許多已大漲的 AI 標的，位階相對沒那麼高，具備補漲空間。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "邊緣AI題材持續發酵，工業電腦題材回溫"
+    },
+    {
+      "ticker": "2382.TW（景碩）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板族群仍可能是市場主流之一，景碩屬於被市場資金重新聚焦的 AI 供應鏈環節。盤面很快打開，來賓對其保有正面觀察，惟本益比偏高，若市場再度風險趨避波動不小。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "載板族群續強"
+    },
+    {
+      "ticker": "6781.TW（松川精密）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "業績強勁持續強勢，屬於電源供應器相關鏈重要標的，背後與台達電及 AI 電源需求有關。市場資金在尋找真正受惠 AI 擴建與電力需求的公司，而非單純炒題材。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "AI電力與電源需求延續"
+    },
+    {
+      "ticker": "光寶科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "電源供應鏈與 AI 基礎建設高度相關，電力與電源相關族群有資金進駐，回檔時值得觀察。風險是若市場資金轉弱，股性較差的標的可能不易立即展開攻勢。",
+          "action": "買進",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "AI電源與用電需求題材延續",
+      "technicals": {
+        "currentPrice": 218.5,
+        "ma20": 223.7,
+        "ma60": 184.56,
+        "priceVsMa20Pct": -2.3,
+        "priceVsMa60Pct": 18.4,
+        "rsi14": 51,
+        "changePct5d": -6.8,
+        "changePct20d": -2.5,
+        "volumeRatio": 0.53,
+        "currency": "TWD",
+        "asOf": "2026-06-08T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "3653.TW（奇偉）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群中有明顯資金照顧的標的，盤面上被動元件族群在大跌中仍有轉強與打開跌停的現象，代表族群並未失去市場關注。來賓實際低接。",
+          "action": "買進",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "被動元件族群資金輪動"
+    },
+    {
+      "ticker": "5381.TW（光聖）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "重電與光電題材下受到資金關注，公司轉型後兼具電力與光相關題材，對應 AI 伺服器與電力基礎設施需求。若 AI 基建持續擴張，有機會繼續受資金追捧。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "AI基礎建設題材延續"
+    },
+    {
+      "ticker": "2855.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主動式 ETF 在盤中跌停時被低接，認為這類商品在恐慌盤中具備布局價值。若未來市場情緒穩定，有機會較快回復。風險在於主動型商品波動較大，並不適合所有人。",
+          "action": "買進",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "市場情緒修復",
+      "technicals": {
+        "currentPrice": 53.2,
+        "ma20": 45.25,
+        "ma60": 37.6,
+        "priceVsMa20Pct": 17.6,
+        "priceVsMa60Pct": 41.5,
+        "rsi14": 68,
+        "changePct5d": 10.4,
+        "changePct20d": 21.7,
+        "volumeRatio": 2.41,
+        "currency": "TWD",
+        "asOf": "2026-06-08T05:30:16.000Z"
+      }
+    },
+    {
+      "ticker": "981.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "近期相對偏弱的主動型 ETF，來賓仍願意在跌停附近承接，反映對後續反彈空間保有一定期待。屬於特定配置工具的低接邏輯，而非強烈看多。",
+          "action": "買進",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "主動型ETF低接反彈"
+    },
+    {
+      "ticker": "985A",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主動型 ETF 有機會超越大盤，在市場恐慌時可作為替代布局工具。若主動操作能抓到具業績與題材的股票，有機會跑贏指數。風險在於波動較大，並不適合所有人。",
+          "action": "買進",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "大盤震盪後的資金回補"
+    },
+    {
+      "ticker": "065ETF",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "視為回檔可承接的配置工具之一，來賓原本想撿跌停但未成交，對其態度偏正面，認為在恐慌盤中有低接價值。",
+          "action": "買進",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "市場恐慌性賣壓釋放"
+    },
+    {
+      "ticker": "0052.TW（台灣50正2）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "將槓桿型 ETF 視為短線搶反彈工具，若市場短線反彈有更大彈性。來賓認為成交難度高，風險明顯在於波動過大與追價風險，需謹慎操作。",
+          "action": "買進",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "短線反彈"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "2454.TW（聯發科）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "位階高、屬於高本益比標的，在市場風險升高時相對容易被列入減碼名單。若後續市場對高估值科技股再度降評，聯發科可能持續面臨壓力。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "高估值科技股風險重估"
+    },
+    {
+      "ticker": "2409.TW（友達）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "散戶持有較多、本益比支撐不足，法人在恐慌時不會優先買進。市場會先回到具業績與成長性的 AI 與權值股，面板股較可能落後。若無基本面改善，仍偏弱勢。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "法人偏好轉向業績股"
+    },
+    {
+      "ticker": "3481.TW（群創）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "散戶籌碼重、股性偏弱、本益比支撐不足，即使股價看似便宜，法人在恐慌盤中仍未必優先布局。若市場持續風險趨避，此類標的可能仍偏弱。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "市場資金回流業績股"
+    },
+    {
+      "ticker": "5483.TW（矽格）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "盤中一度打到跌停，來賓對其相對沒有太多處理意願，並未列入第一批低接名單，屬於需觀察籌碼與修復力的標的。整體語境偏保守。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "籌碼沉澱後的反彈"
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股盤勢",
+      "reason": "這次大跌的關鍵不是經濟黑天鵝，而是流動性與期貨市場的踩踏，出現台指期接近跌停、逆價差擴大、融資斷頭等現象。來賓判斷仍屬多頭中的劇烈洗盤，而非多頭結束。後續兩到三天以及聯準會會議前，市場仍可能持續震盪。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short",
+      "catalyst": "聯準會利率決策與後續融資清洗"
+    },
+    {
+      "topic": "AI產業趨勢",
+      "reason": "AI 發展方向沒有改變，這次下跌不代表產業趨勢翻空，而是高位震盪下的資金踩踏。多家科技巨頭仍持續大規模資本支出，AI 零組件、伺服器、電源、散熱、記憶體等核心環節仍有需求。短線雖有波動，中長線仍應以產業趨勢看待。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long",
+      "catalyst": "大型科技公司持續擴大資本支出"
+    },
+    {
+      "topic": "記憶體產業",
+      "reason": "記憶體價格過高可能對 AI 伺服器與整體電子產業形成壓力，尤其在高檔位階時，任何供需變化都可能引發市場劇烈反應。目前大廠仍願意接受高價並努力生產更高規格產品，但若成本持續上升，終究可能影響出貨與需求，是 AI 供應鏈的主要風險觀察之一。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium",
+      "catalyst": "AI伺服器規格變動與記憶體成本再評價"
+    },
+    {
+      "topic": "電力與重電族群",
+      "reason": "電力與重電相關個股在大盤重挫時仍有資金點火，原因是 AI 基礎建設推升用電需求，而電力瓶頸將成為 AI 擴張的重要限制。凡屬於卡住 AI 建設瓶頸的產業，後續機會反而更大，電力、電源供應與重電成為值得觀察的主線。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium",
+      "catalyst": "AI資料中心用電需求持續上升"
+    },
+    {
+      "topic": "半導體與載板",
+      "reason": "載板、半導體相關標的在下跌時反而出現法人低接，顯示市場對 AI 核心供應鏈仍有信心。若這些公司具備獲利成長與本益比支撐，法人在恐慌時更願意承接。若未來財報持續創高，這些族群仍可能是資金主線。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium",
+      "catalyst": "第二季財報與第三季展望"
+    },
+    {
+      "topic": "聯準會利率政策",
+      "reason": "只要利率維持現況就已接近科技股可承受的極限，若出現升息預期升高，將對 AI 與高估值成長股構成明顯壓力。這次市場反應劇烈，關鍵在於大家突然擔心降息預期落空，甚至轉向升息。後續 CPI 與聯準會會議將決定風險資產的再定價方向。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium",
+      "catalyst": "6月10日CPI與6月17日聯準會會議"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "這次大跌更像流動性踩踏，不是基本面黑天鵝",
+      "reasoning": "台指期跌停與盤中大跌主要來自期貨與融資的流動性枯竭，而不是像對等關稅那樣的經濟黑天鵝。雖然點數跌幅驚人，但從事件本質看屬於市場恐慌與槓桿清洗，這也是來賓認為多頭尚未結束的核心理由。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 趨勢沒有變，資金會回到有業績的核心公司",
+      "reasoning": "AI 發展方向不變，市場在恐慌時仍會優先選擇有營收、有獲利、能創高的公司。從川湖、研華、散熱、電源到記憶體相關概念，資金都在找能對應 AI 真實需求的標的。回檔時應聚焦業績與瓶頸環節，而不是單純撿便宜。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "多頭行情中，回檔破月線就是分批買點，但必須控制水位",
+      "reasoning": "在多頭趨勢裡，跌破月線往往是第一次承接機會，若再進一步跌破季線才考慮再加碼一批。重點不是預測高低點，而是用分批配置降低風險。若資金滿倉，遇到真正的大波動就會失去操作彈性。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "高檔區不能只靠信仰，技術面紀律比低檔更重要",
+      "reasoning": "低檔區可以用基本面與產業趨勢撐住信仰，但當股價已經漲上來時，不能再只靠信仰不賣。特別是記憶體、AI 供應鏈等高位階標的，一旦跌破月線或季線，就應該按紀律減碼或停損。這是高檔風險管理的核心提醒。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "電力、電源與基礎建設瓶頸股是 AI 成長的關鍵受惠者",
+      "reasoning": "從 AI 巨頭持續加大資本支出、資料中心用電問題、以及晶片出貨受限於基礎設施等角度推論，凡是卡住 AI 瓶頸的產業，未來機會就越大。這是看好電源、重電、散熱與相關供應鏈的核心原因。只要 AI 投資持續，這些瓶頸環節就會反覆受到資金追捧。",
+      "sector": "其他",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "記憶體的高價會影響 AI，但短期還不會改變需求趨勢",
+      "reasoning": "記憶體價格過高可能壓縮 AI 伺服器成本結構，甚至影響部分規格與出貨速度。但目前大廠仍願意接受高價並持續擴產，顯示需求依然強勁。真正需要觀察的是當成本高到某個程度，市場是否會開始調整規格或放緩採購。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "期貨逆價差與融資斷頭顯示市場仍可能出現後續波動。",
+    "聯準會會議與通膨數據若再度偏鷹，科技股估值可能承壓。",
+    "高本益比與散戶籌碼重的個股，在這種盤勢中容易成為弱勢股。",
+    "記憶體成本若持續走高，可能壓縮 AI 伺服器與電子供應鏈利潤。",
+    "主動型 ETF 與槓桿型商品波動大，不適合把子彈一次打完。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "6月10日",
+      "event": "台積電公布五月營收",
+      "tickers": [
+        "2330.TW"
+      ]
+    },
+    {
+      "date": "6月10日",
+      "event": "美國消費者物價指數（CPI）數據公布",
+      "tickers": [
+        "台股盤勢",
+        "AI產業"
+      ]
+    },
+    {
+      "date": "6月17日",
+      "event": "聯準會利率決策會議",
+      "tickers": [
+        "台股盤勢",
+        "AI產業"
+      ]
+    },
+    {
+      "date": "未明確提及",
+      "event": "後續第二季財報與第三季展望陸續公布",
+      "tickers": [
+        "AI產業",
+        "半導體與載板"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1114｜每次都是周末出事，今天能買東西嗎，明天還跌怎麼辦？高槓桿先賣，低持股就買，都不吃虧？AI發展沒變，但升息該怕？ft.題材獵人 林漢偉",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/5f0b292a-68ac-4e45-98ed-468f328f1070",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股劇烈洗盤不代表多頭終結——解析流動性踩踏成因，並給出分批低接的操作地圖。",
+      "detailedSummary": "本集深入剖析 2026 年 6 月台股單日急跌的成因，來賓認為這是典型的槓桿與流動性踩踏事件，台指期盤中逼近跌停、期貨逆價差擴大、融資強制平倉同步發生，而非經濟基本面出現黑天鵝。AI 產業趨勢在大型科技公司資本支出持續擴張的支撐下並未改變，資金在恐慌後將優先回到有業績、有獲利的核心標的，如台積電、川湖、研華等。操作策略上，來賓強調控管水位與分批布局，跌破月線是第一次承接訊號，跌破季線才是加碼時機；高位階標的則必須嚴守技術面停損紀律，不能只靠產業信仰撐持。電力、重電與電源供應鏈因 AI 資料中心用電需求持續攀升，被視為具備長線結構性機會的瓶頸主線，而面板股、高本益比散戶股短線則偏弱勢。後續最關鍵的觀察節點為 6 月 10 日 CPI 數據與 6 月 17 日聯準會利率決策，兩者將決定風險資產再定價的方向。",
+      "highlights": [
+        "這次台股暴跌主因是期貨逆價差擴大與融資斷頭造成的流動性踩踏，而非 AI 產業基本面黑天鵝。",
+        "AI 大趨勢沒有改變，科技巨頭資本支出仍持續擴張，資金終究會回到有業績的核心公司。",
+        "台積電是這波回檔的首選承接標的，6 月 10 日公布 5 月營收將是重要驗證節點。",
+        "川湖在大盤重挫當日仍攻上漲停，印證業績夠強的 AI 零組件公司不受短線恐慌動搖。",
+        "電力、重電與電源供應鏈（光寶科、松川精密等）因 AI 資料中心用電瓶頸成為長線結構性主線。",
+        "研華作為邊緣 AI 與工業電腦龍頭，位階相對不高，具補漲空間，盤中有法人低接跡象。",
+        "記憶體高價是中期潛在風險，可能壓縮 AI 伺服器成本結構，需持續追蹤供需變化。",
+        "操作原則：高槓桿先減碼、低水位可分批承接；破月線是第一承接區，破季線才考慮再加碼；高位階標的必須嚴守技術面紀律，不能只靠產業信仰不停損。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 6
+      },
+      {
+        "ticker": "廣達",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 5
+      },
+      {
+        "ticker": "鴻海",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "緯創",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "光寶科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "宏碁",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華城",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "SNOW",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "被動元件",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "金融股",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [
+      {
+        "ticker": "被動元件",
+        "bullCount": 2,
+        "bearCount": 2
+      }
+    ],
+    "sectorHeat": []
+  }
+}
