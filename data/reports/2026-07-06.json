@@ -1,0 +1,612 @@
+{
+  "date": "2026-07-06",
+  "quickDigest": [
+    "台股七月量縮輪動加速，資金從台光電、金像電等高階電子股撤向功率元件與軍工族群",
+    "記憶體族群（南亞科、鈺創、華邦電）六月營收亮眼，但短線回檔，南亞科法說會為關鍵驗證點",
+    "衝擊高階PCB的研究報告「有真有假」，真正影響是量產時間序，非長期需求消失，金居、聯茂可能受惠轉單",
+    "日月光封測漲價邏輯明確、單量增加，國巨月線附近約900元為被動元件籌碼支撐觀察區",
+    "七月催化劑密集：7/7低軌衛星觀察點、下週台灣生技月、七月底馬斯克第三代機器人發表"
+  ],
+  "marketMood": "籌碼洗盤而非趨勢反轉，多族群輪動加速，選股效率勝過方向判斷",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "日月光投控",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "業界單量明顯增加，且日月光等封測廠已公開提到漲價理由，包括原物料與資本支出擴充，基本面、產業報價與供需缺口共同支撐看多邏輯。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "南亞科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "六月營收表現非常亮眼，月增與年增都不弱，上半年獲利大幅改善，市場等待法說會進一步驗證，若能維持營收與毛利率優勢，後續有補漲空間。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 420.5,
+        "ma20": 417.95,
+        "ma60": 325.98,
+        "priceVsMa20Pct": 0.6,
+        "priceVsMa60Pct": 29,
+        "rsi14": 54,
+        "changePct5d": -7.2,
+        "changePct20d": 16.8,
+        "volumeRatio": 0.56,
+        "currency": "TWD",
+        "asOf": "2026-07-06T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "鈺創",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "四到六月營收都創波段新高，第一季已轉虧為盈，顯示本業有實質營運改善，記憶體價格走升帶動營收表現，是可觀察的補漲標的。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "金像電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "技術能力最強、規格最高的印刷電路板公司受研究報告衝擊，但中高階規格需求未必消失，若後續營收與法人籌碼沒有轉弱，修正後反而可能提供更好的切入點。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "金居",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "因規格與高階機櫃最新設計關聯較低，可能受惠於既有技術與舊規格需求持續放量，市場注意力集中在最先進規格時，能供應成熟規格的廠商有機會接到更多轉單與替代需求。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "聯茂",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在高階材料與標準品升級過程中，有機會因產能配置與需求外溢而受益，若六月營收仍維持創高，回檔時反而可以較安心地分批布局。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 396,
+        "ma20": 306.55,
+        "ma60": 279,
+        "priceVsMa20Pct": 29.2,
+        "priceVsMa60Pct": 41.9,
+        "rsi14": 74,
+        "changePct5d": 15.1,
+        "changePct20d": 55.6,
+        "volumeRatio": 1.86,
+        "currency": "TWD",
+        "asOf": "2026-07-06T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "台耀",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "相較於最強勢的印刷電路板龍頭，台耀回檔幅度更大，若營收仍能維持強勢，回檔反而可能是較好的觀察點，屬於基本面與籌碼面交互驗證的觀察型看多。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 55.1,
+        "ma20": 52.49,
+        "ma60": 52.85,
+        "priceVsMa20Pct": 5,
+        "priceVsMa60Pct": 4.3,
+        "rsi14": 62,
+        "changePct5d": 4,
+        "changePct20d": 3.6,
+        "volumeRatio": 2.91,
+        "currency": "TWD",
+        "asOf": "2026-07-06T05:30:34.000Z"
+      }
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群短線籌碼鬆動，但國巨仍在月線附近獲得支撐，若能守住月線可能形成不錯的進場觀察點，基本面漲價邏輯沒有消失。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "月線附近約九百元區間",
+      "technicals": {
+        "currentPrice": 1005,
+        "ma20": 987.35,
+        "ma60": 643.16,
+        "priceVsMa20Pct": 1.8,
+        "priceVsMa60Pct": 56.3,
+        "rsi14": 57,
+        "changePct5d": -3.4,
+        "changePct20d": 30.7,
+        "volumeRatio": 0.73,
+        "currency": "TWD",
+        "asOf": "2026-07-06T05:30:03.000Z"
+      }
+    },
+    {
+      "ticker": "華邦電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "全球記憶體價格趨勢仍在升級，台股相關個股已先經歷整理，只要國際記憶體景氣沒有反轉，整理後仍有機會再走一段。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 183,
+        "ma20": 190.38,
+        "ma60": 142.01,
+        "priceVsMa20Pct": -3.9,
+        "priceVsMa60Pct": 28.9,
+        "rsi14": 51,
+        "changePct5d": -9.9,
+        "changePct20d": 13,
+        "volumeRatio": 0.7,
+        "currency": "TWD",
+        "asOf": "2026-07-06T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "群聯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "群聯高層在高檔買回自家股票，視為管理層對後續基本面仍有信心的訊號，若公司營運與記憶體景氣持續改善，後續仍有機會重回強勢。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "順達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "電池模組與儲能相關族群中走勢較強的標的之一，整體資金偏好轉向高效率標的時，較容易吸引市場注意，屬於 BBU 族群值得留意的成員。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "雷虎",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "軍工股典型長時間整理後才突然發動的標的，只要產業趨勢沒有改變，遇到事件催化就可能迅速創高，適合耐心蹲點的事件驅動強勢族群。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "新盛力",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "BBU 族群中較活潑、資金效率較高的標的之一，市場轉向尋找能快速反應題材的個股時，這類標的往往比龍頭更容易先發動，適合作為題材輪動的短中期觀察對象。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "6 月營收創歷史新高，但股價在創高後立刻被外部研究報告衝擊而重挫，顯示漲多之後對消息面非常敏感，高階規格標的短線波動極大，估值若先前已反映過度樂觀預期，遇到利空就容易成為資金獲利了結的對象。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "月線附近可視為觀察區",
+      "technicals": {
+        "currentPrice": 5475,
+        "ma20": 5360.75,
+        "ma60": 4830.33,
+        "priceVsMa20Pct": 2.1,
+        "priceVsMa60Pct": 13.3,
+        "rsi14": 54,
+        "changePct5d": 0.5,
+        "changePct20d": 12.1,
+        "volumeRatio": 1.82,
+        "currency": "TWD",
+        "asOf": "2026-07-06T05:30:09.000Z"
+      }
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "半導體產業",
+      "reason": "美股非半導體指數轉弱、加上外資對台股偏空，短線壓抑台股半導體族群評價，但中長期需求並未明顯消失，主持人判斷這更像是高估值族群在洗籌碼，而不是產業趨勢反轉。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "被動元件族群",
+      "reason": "漲價函持續出現，但六月營收尚未完全反映漲價效應，且法人籌碼開始鬆動，短線可能進入高檔震盪期，若後續營收能跟上價格上調，才有機會再度轉強。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "功率元件族群",
+      "reason": "目前是資金避風港，籌碼集中、處置股多，漲停與鎖單形成強烈族群性，但這更像是短期資金擠壓與漲價預期共振，若集體鬆動波動也會很大。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "記憶體族群",
+      "reason": "全球記憶體股同步回檔，但台灣記憶體公司六月營收與上半年獲利表現仍強，屬於資金與消息面壓抑，若國際記憶體價格與美光、海力士等大型廠股價回穩，台股記憶體族群有補漲機會。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "機器人族群",
+      "reason": "七月底馬斯克第三代機器人發表預期，以及中國相關機器人展覽與大會，將成為機器人題材的重要催化劑，若營收與展會消息能同步驗證，有機會持續升溫。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "生技族群",
+      "reason": "下週台灣生技月帶動生技股開始轉強，屬於典型事件驅動的板塊輪動，若展會內容與授權、臨床進度有實質亮點，短線資金可能持續流入。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "低軌衛星族群",
+      "reason": "七月七日為重要觀察點，若低軌衛星相關標的無法進入那斯達克指數成分變化的想像，短線題材可能受到影響，市場仍在等待馬斯克與相關衛星題材的進一步確認。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "這波行情正在從主流電子股轉向多族群輪動，操作難度因此明顯升高",
+      "reasoning": "七月以來大盤量縮，過去強勢的電子股開始出現利空衝擊，而傳產、軍工、生技與化工等族群反而接力上漲。當資金不再集中於單一主流，股價延續性會變差，投資人若還追高原本主流股，容易被洗出場。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "外資籌碼偏空與美股非半導體指數轉弱，是台股短線觀望氣氛升高的主因",
+      "reasoning": "美股非半導體指數已跌破月線並接近季線，加上外資六月賣超台股、期貨空單水位上升，形成籌碼面與國際面雙重壓力，讓市場寧可先觀望。",
+      "sector": "總經",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "這份研究報告的影響力不在於全錯或全對，而在於它提前打到市場的時間序",
+      "reasoning": "報告內容有真有假，像良率偏低、規格切換延遲這些現象本來就存在，但市場最敏感的是它把未來量產時點往後推，導致估值先被修正。報告真正影響的是股價反應節奏，而不一定是否定長期需求。",
+      "sector": "其他",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "高階規格受衝擊，不代表整個供應鏈需求消失，反而可能讓中階或成熟規格廠商受惠",
+      "reasoning": "若最頂規的中板或新架構良率偏低，市場會先懷疑最先進技術的可行性，但這不等於整個需求不見。能供應既有規格、成熟製程或較低階材料的廠商，可能因為替代與外溢需求而取得更多訂單。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "六月營收與第二季財報大致不會有太大烏雲，真正要擔心的是第三季",
+      "reasoning": "第二季財報普遍偏好，目前看到的只是消息面與估值修正，實際營運數據尚未全面轉弱。到了八、九月後漲價與搶貨效應會更明顯，屆時市場才更可能面臨需求與庫存的拉鋸。",
+      "sector": "總經",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "選股要看資金偏好與事件催化，不然基本面再好也可能長時間不動",
+      "reasoning": "以新普、ASKY、軍工股等案例說明，龍頭公司雖然趨勢好，但若缺乏事件與資金點火，股價可能長時間盤整。投資人若想提高效率，應優先挑選近期有營收公布、展會、法說會等催化劑的標的。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "記憶體與印刷電路板是目前最能確認業績成長的兩大主題之一",
+      "reasoning": "整理輝達物料成本與供應鏈結構後，記憶體、印刷電路板與網通三塊是目前較能看到業績底氣的領域。當國際記憶體與電子供應鏈都在修正時，台灣這些營收創高的公司反而更值得在拉回時承接。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "高估值族群在消息面衝擊下波動極大，若基本面未同步驗證，容易快速回檔。",
+    "功率元件與被動元件雖然有漲價題材，但籌碼過熱後也可能出現集體鬆動。",
+    "第三季開始若搶貨與漲價效應鈍化，部分族群可能面臨估值修正。",
+    "研究報告若帶有立場，可能造成市場過度反應，投資人不宜只看單一結論。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "七月七日",
+      "event": "低軌衛星相關題材的市場觀察點",
+      "tickers": [
+        "低軌衛星族群"
+      ]
+    },
+    {
+      "date": "七月十日",
+      "event": "南亞科法說會",
+      "tickers": [
+        "南亞科"
+      ]
+    },
+    {
+      "date": "下週",
+      "event": "台灣生技月",
+      "tickers": [
+        "生技族群"
+      ]
+    },
+    {
+      "date": "六月營收公布期間",
+      "event": "多數電子與記憶體公司陸續公告六月營收",
+      "tickers": [
+        "台光電",
+        "金像電",
+        "南亞科",
+        "華邦電",
+        "群聯",
+        "鈺創",
+        "日月光投控"
+      ]
+    },
+    {
+      "date": "七月底",
+      "event": "馬斯克第三代機器人預計發表",
+      "tickers": [
+        "機器人族群"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1133｜洗籌碼時間，研調機構說輝達機櫃延後出，真假判斷？CCL、載板、被動被殺，勇敢接誰？籌碼躲在功率和軍工，要追嗎？ft.題材獵人 林漢偉",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/2dddf0f1-ef0e-47d5-9339-23c148883efd",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股進入洗籌碼輪動期，研調報告重創高階電子股，主持人與來賓教你如何辨真假、找下一個資金避風港。",
+      "detailedSummary": "本集主軸是台股七月進入洗籌碼與輪動加速階段，量縮、傳言與研究報告造成高估值電子股大幅震盪，尤其台光電等高階印刷電路板標的在創歷史新高後隨即重挫，主持人與來賓共同分析這份報告的真實性，認為良率偏低與量產時點延後確有其事，但長期需求並未消失。資金面上，功率元件與軍工股因籌碼集中成為短線避風港，而記憶體族群則因六月營收亮眼提供補漲想像。來賓強調，在多族群輪動加速的環境下，選股必須優先考量事件催化劑，包括六月營收公布、南亞科法說會、台灣生技月與七月底馬斯克機器人發表，才能在震盪市況中提高操作效率，而非盲目追高或抄底。",
+      "highlights": [
+        "台股七月量縮、觀望升溫，資金從電子主流轉向多族群輪動，操作難度明顯上升。",
+        "外資偏空與美股非半導體指數跌破月線，形成籌碼面與國際面雙重壓力。",
+        "衝擊高階機櫃與印刷電路板的研究報告「有真有假」，真正影響的是量產時間序而非長期需求。",
+        "功率元件因籌碼集中與漲價題材成為短線資金避風港，但過熱後集體鬆動風險同樣需警惕。",
+        "被動元件與載板族群籌碼鬆動，高檔震盪加劇，國巨月線附近約九百元是關鍵支撐觀察點。",
+        "記憶體族群六月營收普遍亮眼，南亞科、鈺創、群聯（高層買回自家股）成為重要補漲觀察標的。",
+        "封測族群（以日月光為代表）獲得較高信心，因單量增加與報價調升有實質基本面支撐。",
+        "機器人、生技、低軌衛星等事件型題材將成為下一階段輪動焦點，七月七日、生技月與七月底為關鍵節點。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "富鼎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "亞翔",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "2330.TW（台積電）",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "功率元件族群",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "功率元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "載板族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "漢唐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "軍工族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "雷虎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "中光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "中美晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
