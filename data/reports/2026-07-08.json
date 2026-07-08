@@ -1,0 +1,1176 @@
+{
+  "date": "2026-07-08",
+  "quickDigest": [
+    "台股量能跌破兆元，操作邏輯應從追強轉向「低位階＋六月營收創高」反彈標的",
+    "AI敘事資金從硬體（CPU）輪動至軟體：NET近5日漲10%、PLTR漲16%，動能明顯",
+    "TSM與NVDA估值反而偏便宜，周邊標的估值過高——台積電法說是近期最關鍵催化劑",
+    "生技（6446.TW 20日漲54%）與軍工籌碼洗乾淨後快速題材化，但追後段風險大增",
+    "TSLA已被KOL部分減碼，定位從基本面股降格為「信仰配置」，未來押注轉向SpaceX"
+  ],
+  "marketMood": "資金輪動取代趨勢追漲，耐心與低位階選股成為低量磨人盤的生存關鍵",
+  "totalSources": 2,
+  "bullishSignals": [
+    {
+      "ticker": "NVDA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "長期便宜且明確受惠於 AI 趨勢的公司，從顯卡時代一路持有到 AI 轉型後，認為其強者恆強特質沒有改變，長線邏輯仍在。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "便宜",
+      "technicals": {
+        "currentPrice": 196.93,
+        "ma20": 201.92,
+        "ma60": 207.63,
+        "priceVsMa20Pct": -2.5,
+        "priceVsMa60Pct": -5.2,
+        "rsi14": 44,
+        "changePct5d": 1,
+        "changePct20d": -4,
+        "volumeRatio": 0.8,
+        "currency": "USD",
+        "asOf": "2026-07-07T20:00:01.000Z"
+      }
+    },
+    {
+      "ticker": "TSM",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "台股與 AI 供應鏈最核心標的，估值不算貴，只要長期趨勢不變仍值得持有。後續法說與財報是關鍵觀察點。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "估值偏便宜但市場預期偏高",
+      "technicals": {
+        "currentPrice": 432.57,
+        "ma20": 438.88,
+        "ma60": 413.71,
+        "priceVsMa20Pct": -1.4,
+        "priceVsMa60Pct": 4.6,
+        "rsi14": 49,
+        "changePct5d": -5,
+        "changePct20d": 4.2,
+        "volumeRatio": 0.98,
+        "currency": "USD",
+        "asOf": "2026-07-07T20:00:02.000Z"
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "個人偏愛軟體股之一，AI 與軟體族群基本面改善，Token 成本下降後獲利能力重新被評價，若資金從 CPU 輪動至軟體股，有機會受惠。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 134.37,
+        "ma20": 125.45,
+        "ma60": 135.26,
+        "priceVsMa20Pct": 7.1,
+        "priceVsMa60Pct": -0.7,
+        "rsi14": 56,
+        "changePct5d": 16.1,
+        "changePct20d": -0.9,
+        "volumeRatio": 1.21,
+        "currency": "USD",
+        "asOf": "2026-07-07T20:00:00.000Z"
+      }
+    },
+    {
+      "ticker": "NET",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "最喜歡的軟體股之一，目前型態不錯，Token 成本下降後 AI 相關軟體敘事逐漸轉強，若股價續強有機會加碼。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 268.83,
+        "ma20": 235.1,
+        "ma60": 221.99,
+        "priceVsMa20Pct": 14.3,
+        "priceVsMa60Pct": 21.1,
+        "rsi14": 67,
+        "changePct5d": 10.3,
+        "changePct20d": 7.5,
+        "volumeRatio": 1.8,
+        "currency": "USD",
+        "asOf": "2026-07-07T20:03:59.000Z"
+      }
+    },
+    {
+      "ticker": "CRWV",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "喜歡的軟體股之一，型態仍不錯，市場正重新評價 Token 成本下降後軟體公司的獲利能力。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 83.53,
+        "ma20": 99.77,
+        "ma60": 108.71,
+        "priceVsMa20Pct": -16.3,
+        "priceVsMa60Pct": -23.2,
+        "rsi14": 37,
+        "changePct5d": -12.5,
+        "changePct20d": -16.8,
+        "volumeRatio": 0.75,
+        "currency": "USD",
+        "asOf": "2026-07-07T20:00:01.000Z"
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "若 CPU 相關部位轉弱，可能把資金往 Apple 靠攏，巨頭現金流穩定、資金承接能力強，在市場震盪時相對有防守性。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 310.66,
+        "ma20": 295.04,
+        "ma60": 290.29,
+        "priceVsMa20Pct": 5.3,
+        "priceVsMa60Pct": 7,
+        "rsi14": 61,
+        "changePct5d": 10.3,
+        "changePct20d": 1.1,
+        "volumeRatio": 0.61,
+        "currency": "USD",
+        "asOf": "2026-07-07T20:00:01.000Z"
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "可能轉向配置的標的之一，巨頭現金流與生態系優勢在資金輪動時較有承接力。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 367.03,
+        "ma20": 358.18,
+        "ma60": 365.63,
+        "priceVsMa20Pct": 2.5,
+        "priceVsMa60Pct": 0.4,
+        "rsi14": 54,
+        "changePct5d": 3.8,
+        "changePct20d": -0.4,
+        "volumeRatio": 0.64,
+        "currency": "USD",
+        "asOf": "2026-07-07T20:00:01.000Z"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "consensus": "KOL 分歧",
+      "divergence": "謝孟恭同時看多（信仰角度，看好馬斯克長期事業體）與看空（已部分賣出，坦承非估值導向），屬於情感驅動的矛盾持股，請見 bearishSignals 中的對應條目。",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "信仰股角度偏正面，喜歡馬斯克，看好其事業體長期可能性；但已賣出部分轉去別的資產，未來可能更集中配置在 SpaceX。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 402.9,
+        "ma20": 399.82,
+        "ma60": 402.83,
+        "priceVsMa20Pct": 0.8,
+        "priceVsMa60Pct": 0,
+        "rsi14": 50,
+        "changePct5d": -2.2,
+        "changePct20d": 3,
+        "volumeRatio": 0.75,
+        "currency": "USD",
+        "asOf": "2026-07-07T20:00:00.000Z"
+      }
+    },
+    {
+      "ticker": "2345.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "低位階且六月營收創新高，在盤勢不佳時逆勢上漲，屬於低位階加上基本面轉強的典型切入點。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "低位階、接近季線",
+      "technicals": {
+        "currentPrice": 2415,
+        "ma20": 2475.75,
+        "ma60": 2407.58,
+        "priceVsMa20Pct": -2.5,
+        "priceVsMa60Pct": 0.3,
+        "rsi14": 47,
+        "changePct5d": -9.2,
+        "changePct20d": -2.4,
+        "volumeRatio": 1.07,
+        "currency": "TWD",
+        "asOf": "2026-07-08T05:30:17.000Z"
+      }
+    },
+    {
+      "ticker": "生技族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "資金開始往生技移動，藥華藥從四月底起漲後大幅走高，在低量盤與高估值科技股震盪時，市場有尋找避風港需求。有藥證、營收能見度高、剛從底部發動的生技股值得用『看老大做老二』方式關注。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "6446.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "全球布局與併購帶來長線成長潛力，基本面維持每股盈餘水準，市場預期在併購利息逐步結束後獲利將明顯釋放。典型長線價值重估題材。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "市場推估每股盈餘可望上看三十元以上",
+      "technicals": {
+        "currentPrice": 1530,
+        "ma20": 1190.6,
+        "ma60": 903.92,
+        "priceVsMa20Pct": 28.5,
+        "priceVsMa60Pct": 69.3,
+        "rsi14": 89,
+        "changePct5d": 12.5,
+        "changePct20d": 54.5,
+        "volumeRatio": 1.45,
+        "currency": "TWD",
+        "asOf": "2026-07-08T05:30:09.000Z"
+      }
+    },
+    {
+      "ticker": "軍工族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "籌碼被洗乾淨後的強勢族群，訊息一發酵就可能快速拉升。第一根發動時最值得進場，若回檔到適當位置仍可能出現連續推升。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2357.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "盤面極弱時仍能突然翻身漲停，籌碼與股性在低量盤中特別容易急拉，若位在低位階接近支撐後的反彈角度值得注意。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "接近支撐區",
+      "technicals": {
+        "currentPrice": 687,
+        "ma20": 738.25,
+        "ma60": 698.17,
+        "priceVsMa20Pct": -6.9,
+        "priceVsMa60Pct": -1.6,
+        "rsi14": 42,
+        "changePct5d": 4.6,
+        "changePct20d": -19.2,
+        "volumeRatio": 0.92,
+        "currency": "TWD",
+        "asOf": "2026-07-08T05:30:37.000Z"
+      }
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群重要代表，仍偏正面但更重視風險控管；若一千元整數關卡失守，考慮先出場。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "一千元關卡",
+      "technicals": {
+        "currentPrice": 891,
+        "ma20": 998.3,
+        "ma60": 663.28,
+        "priceVsMa20Pct": -10.7,
+        "priceVsMa60Pct": 34.3,
+        "rsi14": 48,
+        "changePct5d": -21.8,
+        "changePct20d": 7.9,
+        "volumeRatio": 1.17,
+        "currency": "TWD",
+        "asOf": "2026-07-08T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "6499.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "剛好落在季線位置，從高點回檔幅度已深，若在季線附近止跌，反彈空間可能不小，尾盤有拉起顯示低位階仍有買盤。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "季線附近"
+    },
+    {
+      "ticker": "群聯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "基本面與獲利相當強，若回到季線附近可作為反彈交易，以季線作支撐風險可控，反彈幅度可能不小。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "季線附近"
+    },
+    {
+      "ticker": "3035.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "回到季線後可關注，以支撐區作切入點有機會吃到一段反彈，獲利強但股價一路向下，位置夠低值得用反彈邏輯觀察。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "季線附近",
+      "technicals": {
+        "currentPrice": 216,
+        "ma20": 209.25,
+        "ma60": 194.43,
+        "priceVsMa20Pct": 3.2,
+        "priceVsMa60Pct": 11.1,
+        "rsi14": 54,
+        "changePct5d": 1.9,
+        "changePct20d": 16.1,
+        "volumeRatio": 1.15,
+        "currency": "TWD",
+        "asOf": "2026-07-08T05:30:23.000Z"
+      }
+    },
+    {
+      "ticker": "聯亞",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "六月營收創高且位階非常低，直接亮燈漲停，典型基本面轉強且短線有籌碼爆發力的標的。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "低位階"
+    },
+    {
+      "ticker": "廣達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "盤勢很差時仍逆勢反應六月營收創高，大型電子股基本面夠強在弱盤中可維持相對抗跌，呼應 AI 供應鏈長線仍是核心主軸。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 377,
+        "ma20": 371.95,
+        "ma60": 346.82,
+        "priceVsMa20Pct": 1.4,
+        "priceVsMa60Pct": 8.7,
+        "rsi14": 57,
+        "changePct5d": 1.3,
+        "changePct20d": 0.5,
+        "volumeRatio": 0.73,
+        "currency": "TWD",
+        "asOf": "2026-07-08T05:30:17.000Z"
+      }
+    },
+    {
+      "ticker": "3014.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "電力相關個股，位階低且有六月營收撐腰，在低量環境下先前冷門但基期低的標的較有機會。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 153.5,
+        "ma20": 155.78,
+        "ma60": 142.82,
+        "priceVsMa20Pct": -1.5,
+        "priceVsMa60Pct": 7.5,
+        "rsi14": 50,
+        "changePct5d": -6.1,
+        "changePct20d": 9.3,
+        "volumeRatio": 0.8,
+        "currency": "TWD",
+        "asOf": "2026-07-08T05:30:24.000Z"
+      }
+    },
+    {
+      "ticker": "8299.TWO",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體相關標的落回季線，以反彈角度切入風險報酬比較好，在低位階、營收強勁情況下可用支撐觀察。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "季線附近",
+      "technicals": {
+        "currentPrice": 2140,
+        "ma20": 2331,
+        "ma60": 2282.5,
+        "priceVsMa20Pct": -8.2,
+        "priceVsMa60Pct": -6.2,
+        "rsi14": 41,
+        "changePct5d": -5.7,
+        "changePct20d": -9.3,
+        "volumeRatio": 0.68,
+        "currency": "TWD",
+        "asOf": "2026-07-08T05:30:18.000Z"
+      }
+    },
+    {
+      "ticker": "南亞科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "曾因認真研究而承接並獲利，顯示記憶體族群基本面並非全面看空，用資金管理方式分批參與可作為波段交易工具。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 396,
+        "ma20": 422.78,
+        "ma60": 331.96,
+        "priceVsMa20Pct": -6.3,
+        "priceVsMa60Pct": 19.3,
+        "rsi14": 49,
+        "changePct5d": -5.9,
+        "changePct20d": 9.1,
+        "volumeRatio": 0.59,
+        "currency": "TWD",
+        "asOf": "2026-07-08T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "旺宏",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "六月營收創高，列入觀察名單，在低量盤中營收改善仍是吸引資金的核心條件。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 138.5,
+        "ma20": 154.93,
+        "ma60": 153.07,
+        "priceVsMa20Pct": -10.6,
+        "priceVsMa60Pct": -9.5,
+        "rsi14": 40,
+        "changePct5d": -3.5,
+        "changePct20d": -4.8,
+        "volumeRatio": 0.61,
+        "currency": "TWD",
+        "asOf": "2026-07-08T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "華邦電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "六月營收創高名單成員，記憶體族群雖股價疲弱但基本面與營收仍是市場願意回頭看的因素，若量能回升較容易出現輪動反彈。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 168.5,
+        "ma20": 191.98,
+        "ma60": 144.58,
+        "priceVsMa20Pct": -12.2,
+        "priceVsMa60Pct": 16.5,
+        "rsi14": 45,
+        "changePct5d": -11.3,
+        "changePct20d": 7.7,
+        "volumeRatio": 0.64,
+        "currency": "TWD",
+        "asOf": "2026-07-08T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "鈺創",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體族群中相對強勢的標的，即便整體族群不好做，仍有個股因營收或股性優勢脫穎而出，適合在低量盤中作為強勢股觀察名單。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "威剛",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "六月營收創高，記憶體模組族群仍有基本面支撐，若回檔到季線附近比追高更符合操作偏好。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "季線附近"
+    },
+    {
+      "ticker": "玉晶光",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "六月營收創高名單成員，在低量盤下營收創高仍是吸引市場關注的關鍵訊號，屬於基本面轉強值得留意的個股。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "建策",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "六月營收創高，設備相關族群雖盤面不強，但有營收支撐，若後續量能回溫可能成為輪動受惠者。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "TSLA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "坦言特斯拉比較偏信仰股而非估值導向，已賣掉部分轉去別的資產，未來想把對馬斯克的押注集中到 SpaceX，若缺乏新題材支撐，股價容易只靠信仰而波動。",
+          "action": "賣出",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "謝孟恭對 TSLA 看法矛盾：情感上偏正面（信仰馬斯克），但實際上已部分賣出，屬信仰持股而非基本面支撐。",
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 402.9,
+        "ma20": 399.82,
+        "ma60": 402.83,
+        "priceVsMa20Pct": 0.8,
+        "priceVsMa60Pct": 0,
+        "rsi14": 50,
+        "changePct5d": -2.2,
+        "changePct20d": 3,
+        "volumeRatio": 0.75,
+        "currency": "USD",
+        "asOf": "2026-07-07T20:00:00.000Z"
+      }
+    },
+    {
+      "ticker": "CPU 相關標的",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "CPU 雖然之前吸走了他預計投入軟體股的資金，但已出現大回檔與走弱跡象，若資金輪動不續強，可能不再是最佳選擇，有意減碼轉往軟體股。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "短線投機題材（泛指）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "許多被市場放大的研調報告與短線消息，往往只是修正部分短期樂觀預期，不代表長線基本面改變。提醒不要追高短線題材，屬於對投機交易環境的負面觀察。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤與量能",
+      "reason": "台股成交量已跌破一兆元（今日約九千五百八十三億元），盤勢仍偏多但上攻動能明顯減弱，多次出現長下影線代表下方仍有承接，需持續觀察量能是否回升。",
+      "mentionedBy": [
+        "謝孟恭",
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "台股族群輪動方向",
+      "reason": "市場資金集中少數族群，造成高位階個股體感不佳。低位階、回檔到季線附近且有六月營收支撐的標的，比追高大型權值股更有利，需觀察月營收公告後資金重新分配。",
+      "mentionedBy": [
+        "謝孟恭",
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "TSM 法說與展望",
+      "reason": "後續最值得觀察的關鍵是台積電釋出的訊息，只要法說沒有明顯轉壞，整體市場就不容易立刻翻空；反之則可能引發系統性修正。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "功率元件族群",
+      "reason": "目前仍屬相對強勢族群，股價大致守在五日線與十日線之上，代表資金仍願意停留，但市值不大，需觀察是否有更適合承接大資金的新族群出現。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "被動元件族群",
+      "reason": "先前能容納較大法人資金的重要族群，但近期已有不少個股進入修正，資金退潮中，需觀察整理完成後能否再次吸引法人回補。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "CCL 族群",
+      "reason": "目前仍維持強勢，是市場行情尚未全面結束的重要佐證之一，需觀察是否持續創高。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "WAFER 族群",
+      "reason": "同樣維持強勢，顯示市場仍有可供資金輪動的主流方向，代表當前盤勢比較像輪動而不是崩盤，需觀察後續是否延續強勢。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "中小型股走勢",
+      "reason": "近期波動明顯放大，部分個股跌破季線後容易被視為轉弱，市場正進行較劇烈的降槓桿與資金整理，需觀察能否止穩並重新站回季線。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "避險部位配置策略",
+      "reason": "選擇權空單成本過高，來賓改以反向部位與長天期債券作為防禦配置，在高波動低量盤中，資產配置比單純追求資金效率更重要，市場波動擴大時防禦效果更明顯。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "台股仍在多頭結構內，但已進入明顯輪動與降槓桿階段",
+      "reasoning": "謝孟恭觀察到加權指數仍在右上角，大方向沒有壞掉，但中小型股波動加劇，部分標的跌破季線後轉弱。他認為這比較像資金在做板塊切換與槓桿整理，而不是整體行情馬上結束。李兆華也指出成交量已縮至一兆元以下，盤勢未壞但缺少足夠的資金火力去推升大型權值股。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "低量盤下，選股邏輯應從追強勢股轉向『低位階加上六月營收創高』的反彈交易",
+      "reasoning": "李兆華強調，成交量縮到一兆元以下時，推升大型權值股需要更大力道，相對地低位階、已回檔到季線附近且搭配六月營收創高的個股，風險報酬比更容易被市場接受，更容易出現反彈行情。謝孟恭也認為觀察資金流向比追問誰唱衰更重要。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 主線沒有壞掉，但短期資金從硬體敘事轉向軟體受惠，長線台積電與 NVIDIA 仍是核心",
+      "reasoning": "謝孟恭指出 Token 成本下降後，部分軟體股的財報已開始反映成長改善，市場敘事從 AI 搶工作逐漸轉成 AI 創造更多工作。李兆華也認同，雖然生技、軍工、傳產近期有資金流入，但真正能推動台股長線再創高的仍是台積電與其相關供應鏈。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "資金正在尋找避風港，生技與軍工有機會承接部分輪動資金，但進場時機至關重要",
+      "reasoning": "謝孟恭與李兆華都提到當科技股高估值震盪、量能不足時，市場自然去找較能避險的題材。生技因藥證與高毛利受關注，軍工則因籌碼洗乾淨後容易連續拉抬。但來賓也特別強調，軍工這類訊息驅動股通常第一根最強，等到後面幾根才進場風險大幅提高。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場對 AI 核心公司往往給了錯誤的估值分配，TSM 與 NVDA 反而交易在相對便宜的位置",
+      "reasoning": "謝孟恭指出台股 AI 核心應是 TSM，美股則是 NVDA，但這兩者反而常交易在相對便宜的估值；相對地，一些周邊的標的卻估值更高。這代表市場不是完全理性，容易把熱度與敘事給到錯的位置。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "技術與產品必須分開看，許多所謂利空其實只是時程延後，不是需求消失",
+      "reasoning": "謝孟恭以多個 AI 案例說明，市場常把研發中、尚未量產的技術當成已成熟的產品來交易，導致預期過高後又急殺。他認為很多報告指出的只是遞延與路徑修正，長線該發生的產品與需求仍可能照樣出現。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "軟體股正出現新一輪基本面改善跡象，過去的悲觀敘事未必成立",
+      "reasoning": "謝孟恭提到部分軟體公司在最新財報中已顯示 Token 成本下降帶來的正面效果，且過去市場對資安與 SaaS 的悲觀敘事也未必成立。很多軟體股其實已走回右上角，證明市場常把短期恐慌放大。",
+      "sector": "其他",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "投資最重要的不是避免所有虧損，而是不要讓大虧毀掉生活，耐心與資產配置優先於拼命操作",
+      "reasoning": "謝孟恭提醒高槓桿遇到大跌停可能讓整個部位被掃掉，主張先守住再談放大報酬。李兆華則不再硬做高成本選擇權空單，改用反向部位與長債防禦；主持人也認為資產到一定規模後應同時有穩定部位與進攻部位，才能在波動時保持心態與彈性。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "特斯拉更像是信仰配置而非純基本面配置，未來對馬斯克的押注可能集中到 SpaceX",
+      "reasoning": "謝孟恭明講自己喜歡馬斯克，持有特斯拉有很高比例是情感與信念驅動，未來想把對馬斯克的押注集中到 SpaceX。這說明他把特斯拉視為可配置但不完全理性的資產，投資人應理解其中的情感成分。",
+      "sector": "電動車",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "生技族群的再評價關鍵不只在題材，而在全球市場布局與獲利可見度",
+      "reasoning": "李兆華以美時（6446.TW）為例，指出市場過去低估的是它透過併購打進全球市場的能力，而非單純藥品題材。若未來併購利息負擔下降，獲利會有明顯釋放空間，因此生技股的價值重估需要從商業模式與現金流去理解。",
+      "sector": "生技",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "現在比起拼命操作，更重要的是耐心——在低量震盪盤中不要把現金加得太快",
+      "reasoning": "李兆華特別提醒，在低量磨人盤中，投資人最容易的錯誤是急於把現金部位全部加滿，結果在最後一段資金用光時反而無法應對續跌，因此保留彈藥、等待更清晰的訊號才是正確策略。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "新一代投資人常用高槓桿與反覆展期操作，遇到一兩根大跌停就可能被迫出場、部位全滅",
+    "部分中小型股若跌破季線，視為轉弱訊號，短線可能進一步被資金拋棄",
+    "若市場先前把預期拉太高，即使公司基本面不差，財報與法說仍可能因失望而劇烈波動",
+    "研調報告與短線消息容易被過度放大，投資人若只看標題容易誤判長線基本面",
+    "台股成交量持續萎縮、跌破一兆元，若無量支撐，大型權值股難以再創高",
+    "熱門股波動劇烈，追高後容易遇到快速回檔與短期套牢",
+    "生技與軍工雖有題材，但若進場太晚、追到後段，追價風險會明顯上升",
+    "選擇權避險成本過高，若沒有替代配置（如反向部位或長天期債券），整體部位波動會更難管理",
+    "低量盤中現金加得太快容易在盤面最後一段失去彈藥，應保留足夠現金以備不時之需"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "近期",
+      "event": "六月營收持續公告，營收創高個股可能成為盤面主角",
+      "tickers": [
+        "2345.TW",
+        "聯亞",
+        "廣達",
+        "群聯",
+        "南亞科",
+        "華邦電",
+        "威剛"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "國防預算與特別條例進度，影響軍工族群續強",
+      "tickers": [
+        "軍工族群"
+      ]
+    },
+    {
+      "date": "未來數週",
+      "event": "台積電後續法說與業績說明，是台股與 AI 供應鏈能否維持多頭的關鍵",
+      "tickers": [
+        "TSM"
+      ]
+    },
+    {
+      "date": "未來數週",
+      "event": "觀察軟體股財報是否持續反映 Token 成本下降的正面影響",
+      "tickers": [
+        "PLTR",
+        "NET",
+        "CRWV"
+      ]
+    },
+    {
+      "date": "未來數週",
+      "event": "市場若重新放大風險偏好，生技與低位階電子股可能延續輪動",
+      "tickers": [
+        "生技族群",
+        "2345.TW",
+        "群聯",
+        "6499.TW"
+      ]
+    },
+    {
+      "date": "未來數週",
+      "event": "觀察台股強勢族群（CCL、WAFER、功率元件）是否續創高並帶動板塊輪動延續",
+      "tickers": [
+        "台股加權指數",
+        "功率元件",
+        "CCL",
+        "WAFER"
+      ]
+    },
+    {
+      "date": "2028年後",
+      "event": "美時（6446.TW）併購利息負擔逐步下降，獲利可望明顯釋放，每股盈餘上看三十元以上",
+      "tickers": [
+        "6446.TW"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "謝孟恭",
+      "episode": "EP677 | 🐎",
+      "episodeLink": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/4c045cc2-378b-4653-a683-c93fc37d0a2d",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股美股多頭主軸未壞，但市場進入輪動降槓桿階段，AI 敘事從硬體轉向軟體，主持人呼籲先守住資本再談報酬。",
+      "detailedSummary": "主持人認為台股與美股的多頭主軸還沒壞，加權指數維持右上角走勢，但市場已進入明顯輪動與降槓桿階段，中小型股波動加劇，資金正在做板塊切換。他對 TSM、NVDA、部分軟體股（NET、PLTR、CRWV）與大型科技巨頭（AAPL、GOOGL）仍偏正面，尤其強調 AI 主線未改變，只是資金從 CPU 等高波動硬體題材轉向 Token 成本下降後基本面改善的軟體股。他特別點出市場的估值錯位：TSM 與 NVDA 才是 AI 核心，卻反而交易在較便宜的位置，而許多周邊標的估值偏高。對特斯拉，他坦承是信仰配置、已部分賣出，並提到未來可能集中押注 SpaceX。整集最重要的訊息是投資人應先守住資本，不要讓槓桿過大毀掉家庭財務。",
+      "highlights": [
+        "台股整體仍在多頭結構內，中小型股波動加劇屬於輪動降槓桿，而非行情結束。",
+        "真正該觀察的是資金往哪裡去，而不是短線消息誰對誰錯——強勢族群若持續創高，行情就沒走完。",
+        "CCL、WAFER、功率元件目前仍屬強勢族群，守在五日線與十日線以上，是行情未結束的重要佐證。",
+        "持續看好 TSM 與 NVDA，認為它們才是 AI 核心，估值反而相對便宜，周邊標的估值則往往偏高。",
+        "Token 成本下降後，NET、PLTR、CRWV 等軟體股基本面改善已開始在財報中浮現，軟體敘事轉強。",
+        "許多研調報告只是修正短期預期，不代表長線需求消失；技術路徑遞延不等於需求消失。",
+        "特斯拉是信仰配置而非估值導向，已部分賣出，未來對馬斯克的押注可能集中到 SpaceX。",
+        "整集最重要的投資提醒：先守住資本與家庭生活，高槓桿遇到幾根跌停就可能全部歸零，長期活下去比短期賺快更重要。"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1135｜低量磨人盤，錢快加完了？拉高耐性，熱門股來到關鍵支撐，風險報酬比好抓？要等AI復甦，還是找生技和軍工避險？ft.冠軍操盤手 楊雲翔",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/3344438a-2ca8-464c-b5bc-7c0af7a9b7d0",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股低量磨人盤下的生存指南：不追高、找季線附近有六月營收撐腰的低位階標的，生技與軍工成資金避風港。",
+      "detailedSummary": "本集主軸是低量盤下的具體操作策略，來賓冠軍操盤手楊雲翔分享實戰觀點。台股成交量已跌破一兆元，代表資金明顯不足，推升大型權值股需要更大力道，因此操作上應轉向低位階、回檔到季線附近且六月營收轉強的個股，如研華（2345.TW）、聯亞、錦碩（2357.TW）等。資金也開始往生技（藥華藥、美時 6446.TW）與軍工等避風港輪動，其中美時被來賓點名具備長線價值重估空間，原因是全球布局的商業化能力與二零二八年後併購利息負擔下降帶來的獲利釋放。記憶體族群（群聯、南亞科、華邦電等）雖有六月營收支撐，但股價節奏難掌握，建議以季線為支撐的反彈交易切入。來賓不再使用高成本選擇權空單，改以反向部位與長天期債券作防禦。長線上，AI 與台積電供應鏈仍是台股結構性核心，但此時最需要的是耐心，不要在低量震盪盤中把現金加光。",
+      "highlights": [
+        "台股成交量跌破一兆元，大型權值股上攻動能明顯減弱，盤勢偏多但缺火力。",
+        "操作策略轉向：低位階、回檔到季線附近且六月營收轉強的個股，風險報酬比更佳。",
+        "生技族群開始吸引避風資金，藥華藥從四月底一路大幅走高，美時因全球併購布局具長線價值重估潛力。",
+        "軍工股屬籌碼洗乾淨後的題材快速股，第一根發動時最值得進場，追到後段風險大幅提高。",
+        "記憶體族群（群聯、南亞科、華邦電、旺宏等）六月營收表現亮眼，但建議以季線支撐作反彈切入點，不追高。",
+        "來賓改以反向部位與長天期債券替代高成本選擇權空單，高波動低量盤中資產配置比資金效率更重要。",
+        "長線來看，AI 與台積電供應鏈仍是台股結構性核心主題，短線輪動不改長線方向。",
+        "此時投資人最需要耐心，不要在低量震盪盤中急著把現金全部加滿，要保留彈藥等待更清晰的訊號。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "富鼎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "載板族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "亞翔",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "雷虎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "2330.TW（台積電）",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "功率元件族群",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "功率元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯茂",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "漢唐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "日月光投控",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "軍工族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "中光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "中美晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
