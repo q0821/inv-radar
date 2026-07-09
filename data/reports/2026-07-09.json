@@ -1,0 +1,636 @@
+{
+  "date": "2026-07-09",
+  "quickDigest": [
+    "台積電法說會是近期最大催化劑，資本支出指引將決定漢唐、日月光等設備封裝股方向",
+    "載板族群比價邏輯浮現：欣興位階低於南電，報酬風險比更優，適合空手布局",
+    "合金突破千元創歷史新高，矽晶圓族群全面活躍，環球晶、台勝科同步受惠",
+    "國巨六月營收創歷史新高但股價跌至九字頭，法人賣壓告段後比價回流可期",
+    "台股融資槓桿過熱為最大隱患，量縮高檔震盪、追高風險高於基本面惡化風險"
+  ],
+  "marketMood": "基本面未壞但籌碼過熱，法說會前蹲低位階、靜待槓桿洗清",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "台積電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電長期基本面穩健，資本支出與先進封裝仍是產業核心。雖短線受匯率、美元走強與外資流出影響而震盪，但法說會財測若不差，設備與封裝供應鏈仍可能受惠。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "2415附近",
+      "technicals": {
+        "currentPrice": 2415,
+        "ma20": 2411.25,
+        "ma60": 2293.92,
+        "priceVsMa20Pct": 0.2,
+        "priceVsMa60Pct": 5.3,
+        "rsi14": 53,
+        "changePct5d": -2,
+        "changePct20d": 7.1,
+        "volumeRatio": 0.92,
+        "currency": "TWD",
+        "asOf": "2026-07-09T05:30:09.000Z"
+      }
+    },
+    {
+      "ticker": "南電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板族群中長期缺口逐步放大，下半年到明年供需將比上半年更緊。南電近期相對走強，在比價上已超車同族群標的，顯示市場資金偏向位階較低、報酬風險比較好的標的。",
+          "action": "續抱",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "前高附近、相對位階較低",
+      "technicals": {
+        "currentPrice": 1215,
+        "ma20": 1012,
+        "ma60": 913.8,
+        "priceVsMa20Pct": 20.1,
+        "priceVsMa60Pct": 33,
+        "rsi14": 65,
+        "changePct5d": 6.1,
+        "changePct20d": 43.4,
+        "volumeRatio": 1.27,
+        "currency": "TWD",
+        "asOf": "2026-07-09T05:30:08.000Z"
+      }
+    },
+    {
+      "ticker": "欣興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板族群中先前相對落後，現在與南電的價差關係已出現明顯變化，屬於比價後可能補漲的標的。若空手布局，報酬風險比可能比追高南電更佳。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "相對低位階",
+      "technicals": {
+        "currentPrice": 875,
+        "ma20": 954.35,
+        "ma60": 899.02,
+        "priceVsMa20Pct": -8.3,
+        "priceVsMa60Pct": -2.7,
+        "rsi14": 44,
+        "changePct5d": -10.6,
+        "changePct20d": -1,
+        "volumeRatio": 1.22,
+        "currency": "TWD",
+        "asOf": "2026-07-09T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "漢唐",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "訂單確定性高，若連續出現黑K後回檔，反而成為考慮進場的區域。大廠訂單確定度高，對先進製程與設備需求有長線信心，台積電法說會後設備評價可能重估。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "千元附近，連續黑K後進入觀察區"
+    },
+    {
+      "ticker": "合金",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "矽晶圓族群中近期領先強勢股，股價突破千元大關創歷史新高，市場對其題材與基本面仍有高度認同。若持有者沒有出現敗象可以續抱。",
+          "action": "續抱",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "千元以上、歷史新高"
+    },
+    {
+      "ticker": "環球晶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "矽晶圓龍頭且獲利表現佳，族群出現漲價與升級題材時龍頭股較容易受法人關注，市場氣氛改善後有機會延續強勢。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "高價龍頭"
+    },
+    {
+      "ticker": "中美晶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "可視為電子股裡較溫和的配置選擇，本業雖有太陽能拖累但轉投資表現不差，整體結構較穩。想參與矽晶圓與相關轉型題材又不想承受太大波動的投資人可考慮。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台勝科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "矽晶圓三雄中位階居中，族群全面活絡時會跟著受惠，常成為資金輪動的選擇。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群基本面未變，六月營收甚至創歷史新高，年增動能強勁。漲價、升級趨勢仍在，若法人賣壓告一段落，股價有機會重新回到比價邏輯中。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "九字頭區間",
+      "technicals": {
+        "currentPrice": 900,
+        "ma20": 1002.35,
+        "ma60": 673.08,
+        "priceVsMa20Pct": -10.2,
+        "priceVsMa60Pct": 33.7,
+        "rsi14": 48,
+        "changePct5d": -14.7,
+        "changePct20d": 9.9,
+        "volumeRatio": 0.83,
+        "currency": "TWD",
+        "asOf": "2026-07-09T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "華新科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "與國巨並列觀察，同屬被動元件族群，基本面仍受漲價與升級題材支撐。產業缺口與需求沒有改變，拉回反而是比價與蹲點機會，若國巨續強則華新科可能受惠補漲。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "日月光",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "近期修正一段，在先進封裝題材中，修正後的標的更容易在後續利多出現時發酵。今天已有小幅表態上漲，離前高仍有距離。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "前高下方"
+    },
+    {
+      "ticker": "智勝",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "單月營收沒有創高而出現跌停，但年增率仍接近一倍，顯示成長性沒有被破壞。設備股單月營收本來就較不穩定，若跌停發生在大盤偏弱且未來訂單有望放量的情況下，反而可能是機會大於風險。",
+          "action": "觀察",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "高點回落後區間"
+    },
+    {
+      "ticker": "亞翔",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "本益比相對低又有設備題材，屬於較穩妥的選擇。若出現連續黑K、單月營收不如預期或非系統性修正，往往反而是佈局機會。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "本益比相對低"
+    },
+    {
+      "ticker": "群創",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "面板廠轉型到先進封裝或後段封裝相關領域值得觀察。市場目前對此轉型題材仍在驗證階段，若後續有更明確合作或訂單消息，可能獲得新的評價支撐。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 65.3,
+        "ma20": 63.05,
+        "ma60": 45.72,
+        "priceVsMa20Pct": 3.6,
+        "priceVsMa60Pct": 42.8,
+        "rsi14": 59,
+        "changePct5d": -3.4,
+        "changePct20d": 47.4,
+        "volumeRatio": 0.76,
+        "currency": "TWD",
+        "asOf": "2026-07-09T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "工業電腦與設備族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "目前很多個股是先跌後等法說或財報驗證，並不是基本面真的變差。只要台積電法說會後沒有讓市場失望，相關族群有機會出現新一波評價修復。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤",
+      "reason": "市場明顯進入觀望期，指數雖一度上攻但尾盤翻黑，量能持續縮小，資金偏向保守。主要觀察點來自美伊衝突、油價變化、新台幣走弱，以及央行總裁對匯市與外資流出的看法。若台積電法說會無法帶來驚喜，盤勢可能仍維持高檔震盪整理。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "台積電設備供應鏈",
+      "reason": "台積電法說會前市場已提前幫它開完法說會，外資也陸續上修目標價，但真正決定設備供應鏈方向的仍是法說會後的資本支出（五百二十至五百六十億美元區間）與財測指引。若指引超預期，供應鏈有望再起。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美伊衝突與油價",
+      "reason": "美伊衝突重啟是市場風險來源之一，油價一旦明顯上升會進一步推升通膨與資金避險需求。若油價只是短暫波動，市場擔憂可能有限；若持續上行，對風險資產評價會形成壓力。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "新台幣匯率",
+      "reason": "新台幣近期偏弱，央行總裁公開表示外資可能是在停利匯出，且央行不會輕易干預匯率。匯率弱勢雖對出口與匯兌收益有利，但對台股資金面與外資流入形成壓力。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "韓國股市與槓桿政策",
+      "reason": "韓國因槓桿型商品與股市過熱，主管機關開始釋放緊縮訊號，這是對台灣投資人的提醒：若槓桿過高，政策一旦轉向，行情修正會很快。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "台股融資與槓桿",
+      "reason": "目前台股真正問題不是評價單純過高，而是槓桿過熱、融資過高。若沒有真正洗槓桿與洗融資，盤勢就會呈現上不去又下不來的黏滯感，一旦出現真正修正，高位追價者承受壓力較大。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "AI 的剛性需求沒有改變，但高位階股票會先出現利多鈍化",
+      "reasoning": "目前市場對 AI 的基本面仍偏正面，規格調整與出貨遞延不等於趨勢反轉。真正的問題在於很多 AI 股位階已高，當市場共識過度樂觀時，利多很容易變成短線利多出盡，因此不能只看長線目標價，需同時評估當前位階與籌碼結構。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "現在更適合做比價與蹲點，而不是一路追高",
+      "reasoning": "當族群漲多後，個股之間的位階差異會快速拉大，資金開始從高檔股輪動到落後股。若產業前景沒有改變，與其追已創高的領先股，不如選擇相對低位階、報酬風險比更好的標的等待資金輪動，如載板族群中以欣興替代南電的比價邏輯。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "漲價題材要分辨是全面性漲價，還是局部規格調漲",
+      "reasoning": "被動元件與記憶體因為多數品項都有在漲價，所以續航力較強；但像石英元件或功率元件，可能只是少數規格漲價，且還伴隨成本推升與需求壓力，題材強度與延續性就不同。投資時不能只看有沒有漲價標籤，還要看產業結構與法人參與度。",
+      "sector": "其他",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "法人盤與內資盤的操作邏輯完全不同",
+      "reasoning": "AI、載板、設備這類有大型法人研究、投信買盤進駐的族群，通常可以下去後再上來，適合中期布局；但某些較偏故事與籌碼的族群，漲勢更多仰賴短線主力與題材，操作節奏要更短。分辨資金屬性，是目前選股的重要關鍵。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台積電法說會前市場已經先把預期打滿，真正關鍵是資本支出與未來財測",
+      "reasoning": "歷年經驗顯示，台積電在年初通常就會把全年資本支出區間定調，之後法說會多半只是小幅修正，今年再度大幅上修的機率不高。若法說內容沒有驚喜，股價可能繼續區間整理；若財測或先進封裝指引優於預期，相關設備與封裝族群才有望再度表態。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "槓桿過熱比估值過高更危險",
+      "reasoning": "目前台股真正的問題不是單純評價貴，而是市場槓桿過高、融資過熱。若沒有洗掉槓桿，行情就容易出現急漲急跌、反彈無力的狀態，對於高位追價者尤其不利，需密切關注融資餘額變化。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "報酬率不能用單一多頭年份去年化",
+      "reasoning": "近期市場強勢容易讓投資人誤以為高報酬可以常態化，但這其實是認知偏誤。真正穩健的做法，是建立合理的長期報酬預期，並在報酬超過自身長期能力時考慮部分獲利了結，避免把運氣當實力。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "高位階 AI 與熱門族群容易出現利多鈍化，追高後回檔可能很深",
+    "台股若持續受新台幣走弱、外資流出與美元轉強影響，資金面壓力會放大",
+    "槓桿過熱與融資偏高可能讓市場出現急跌急漲，增加操作難度",
+    "若台積電法說會沒有驚喜，先進封裝與設備股可能只維持區間整理",
+    "部分漲價概念股只是少數規格調漲，若需求未同步放大，續航力可能打折"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "下週",
+      "event": "台積電法說會",
+      "tickers": [
+        "台積電",
+        "2330.TW",
+        "設備供應鏈",
+        "先進封裝概念股"
+      ]
+    },
+    {
+      "date": "即將公布",
+      "event": "台積電資本支出與未來財測指引",
+      "tickers": [
+        "台積電",
+        "設備供應鏈"
+      ]
+    },
+    {
+      "date": "七月下旬至八月",
+      "event": "第二季財報與營收陸續公布",
+      "tickers": [
+        "被動元件",
+        "載板",
+        "設備",
+        "矽晶圓",
+        "AI 供應鏈"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1136｜美伊不停火、楊總裁喊話，AI評價未失控，槓桿已過熱？漲價、訂單滿載不變，但慣性改變，台積電法說會後再表態？ft.型男股神 陳威良",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/1dd1eded-0d4e-4af8-b245-3624b2149e7f",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "AI 與漲價題材基本面未壞，但市場已進入比位階、看籌碼、防槓桿的新階段，台積電法說會是下一個關鍵轉折。",
+      "detailedSummary": "本集主持人李兆華與來賓型男股神陳威良深入討論台股當前的結構性轉變：AI 與漲價題材的基本面雖沒有壞，但市場操作邏輯已從追基本面進入看位階、看籌碼、看槓桿的階段。來賓重點看好被動元件（國巨、華新科）、載板（南電、欣興）、矽晶圓（合金、環球晶、台勝科、中美晶）、設備（漢唐、智勝、亞翔）與先進封裝（日月光）供應鏈，並以比價輪動邏輯建議優先布局位階較低的落後股。台積電法說會是最核心的近期觀察點，資本支出指引與未來財測將決定設備與封裝族群的後續方向。整體基調偏多，但更強調拉回布局、控管追高風險，並提醒槓桿過熱與融資偏高是目前市場最大的結構性隱患。",
+      "highlights": [
+        "AI 需求與產業趨勢仍強，但高位階個股開始出現利多鈍化，追高風險升高。",
+        "市場進入高檔震盪與觀望期，量能縮小，操作邏輯轉向位階、籌碼與槓桿。",
+        "被動元件（國巨、華新科）六月營收創新高，漲價與升級趨勢未變，法人賣壓後可期待比價回流。",
+        "載板族群（南電、欣興）中長期缺口逐年擴大，下半年供需更緊，欣興因位階較低報酬風險比更佳。",
+        "矽晶圓三雄（合金創歷史新高、環球晶龍頭穩健、台勝科居中輪動），中美晶為溫和配置選擇。",
+        "設備股漢唐訂單確定性高，連續黑K後回檔反而是佈局機會；智勝年增率接近一倍，跌停為過度反應。",
+        "台積電法說會是最關鍵近期觀察點，資本支出若維持五百二十至五百六十億美元區間則設備股整理，若超預期則供應鏈有望再起。",
+        "槓桿過熱與融資偏高是台股目前最大結構性隱患，應建立合理長期報酬預期，避免把短期多頭績效常態化。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "載板族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "亞翔",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "軍工族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "雷虎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯茂",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "漢唐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "GOOGL",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "AAPL",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "TSLA",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "TSLA",
+        "kol": "謝孟恭",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "富鼎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "日月光投控",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "中光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "中美晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "鈺創",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [
+      {
+        "ticker": "TSLA",
+        "bullCount": 2,
+        "bearCount": 2
+      }
+    ],
+    "sectorHeat": []
+  }
+}
