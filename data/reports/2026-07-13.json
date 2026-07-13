@@ -1,0 +1,605 @@
+{
+  "date": "2026-07-13",
+  "quickDigest": [
+    "台積電六月營收創歷史新高、年增逾六成，本週四法說會聚焦毛利率與資本支出展望",
+    "韓股去槓桿外溢衝擊全球，費半跌破季線，台股月線失守第四天，操作策略應少做多看",
+    "主被動元件（強茂、大中、富鼎）紛跌破月線，高人氣漲價題材籌碼鬆動，短線風險升高",
+    "南亞科（2408.TW）毛利率達79.5%、Q3報價續漲，記憶體基本面強但短線被韓股情緒拖累",
+    "七月下旬美股超級財報週雲端巨頭資本支出是否上修，為判斷下半年AI行情最關鍵指標"
+  ],
+  "marketMood": "基本面穩健撐盤，但韓股去槓桿與政策緊縮正在重寫市場邏輯，多頭慣性須修正",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "2330.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電基本面依舊強勁，六月營收創歷史新高，六月單月年增超過六成，上半年營收年增超過三成，成長動能未失速。雖略低於最樂觀預期，但整體解讀正面，且在中小型股拉回時仍展現相對抗跌，資金視其為盤面核心支撐。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "本週四法說會（市場關注第二季毛利率、下半年展望與資本支出動向）",
+      "technicals": {
+        "currentPrice": 2440,
+        "ma20": 2426,
+        "ma60": 2305.42,
+        "priceVsMa20Pct": 0.6,
+        "priceVsMa60Pct": 5.8,
+        "rsi14": 55,
+        "changePct5d": -0.8,
+        "changePct20d": 5.6,
+        "volumeRatio": 1.13,
+        "currency": "TWD",
+        "asOf": "2026-07-13T05:30:08.000Z"
+      }
+    },
+    {
+      "ticker": "記憶體族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體族群基本面仍佳，南亞科法說內容偏正面，毛利率與報價展望獲市場認可。第三季報價還會再上漲，且有高比例長約支撐，產業趨勢未被破壞。若股價回到月線之上、籌碼沉澱完成，可能是重新布局時點。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "月線",
+      "catalyst": "南亞科法說後續法人上修目標價"
+    },
+    {
+      "ticker": "2408.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "南亞科法說內容很好，毛利率已達七成九五，第三季報價還會再上漲，記憶體景氣仍在上行。約五成產能採長約，未來獲利能見度高，法人因此上修目標價。短線雖被韓股拖累回檔，但基本面強的標的在市場情緒恢復後仍有機會率先反彈。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "第三季報價續漲與法人上修目標價",
+      "technicals": {
+        "currentPrice": 423,
+        "ma20": 435.13,
+        "ma60": 342.78,
+        "priceVsMa20Pct": -2.8,
+        "priceVsMa60Pct": 23.4,
+        "rsi14": 53,
+        "changePct5d": 0.6,
+        "changePct20d": 13.1,
+        "volumeRatio": 1.32,
+        "currency": "TWD",
+        "asOf": "2026-07-13T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "8112.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "鈺創股價創下二十六年新高，反映市場重新評價其題材整合能力。機器人與人工智慧眼鏡題材加持，底層仍有記憶體本業支撐，具備多題材加成效果，後續題材持續發酵值得關注。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "記憶體族群持續轉強",
+      "technicals": {
+        "currentPrice": 87.5,
+        "ma20": 92.26,
+        "ma60": 88.83,
+        "priceVsMa20Pct": -5.2,
+        "priceVsMa60Pct": -1.5,
+        "rsi14": 45,
+        "changePct5d": -2.2,
+        "changePct20d": -11.4,
+        "volumeRatio": 0.68,
+        "currency": "TWD",
+        "asOf": "2026-07-13T05:30:19.000Z"
+      }
+    },
+    {
+      "ticker": "台達電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被列為台灣三大核心科技持股之一，人工智慧含金量較高，可作為核心布局標的。符合真正能吃到 AI 趨勢、且基本面持續變好的龍頭供應鏈定位，屬中長線關注名單。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "catalyst": "",
+      "technicals": {
+        "currentPrice": 1890,
+        "ma20": 2003.75,
+        "ma60": 2124.33,
+        "priceVsMa20Pct": -5.7,
+        "priceVsMa60Pct": -11,
+        "rsi14": 40,
+        "changePct5d": -5.3,
+        "changePct20d": -14.7,
+        "volumeRatio": 0.84,
+        "currency": "TWD",
+        "asOf": "2026-07-13T05:30:11.000Z"
+      }
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被列為台灣三大核心科技股之一，人工智慧相關含金量高，值得核心配置。在盤勢震盪時應集中火力在具備產業趨勢與基本面優勢的公司，台光電被視為可長期受惠的龍頭之一。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "catalyst": "",
+      "technicals": {
+        "currentPrice": 5125,
+        "ma20": 5438.25,
+        "ma60": 4967.92,
+        "priceVsMa20Pct": -5.8,
+        "priceVsMa60Pct": 3.2,
+        "rsi14": 47,
+        "changePct5d": -6.4,
+        "changePct20d": 6.1,
+        "volumeRatio": 1.01,
+        "currency": "TWD",
+        "asOf": "2026-07-13T05:30:18.000Z"
+      }
+    },
+    {
+      "ticker": "主動式科技趨勢型ETF",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "過去十年科技型主動基金的平均報酬顯著高於台灣五十與高股息產品，科技成長仍是較有效的配置方向。現在中小型股回檔、募集價相對低檔，是較好的切入時點，且有專業經理人代為篩選科技趨勢股，可降低個股波動與選股壓力。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "十元掛牌價",
+      "catalyst": "七月中旬募集與八月初掛牌"
+    },
+    {
+      "ticker": "041A",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "永豐台灣科技趨勢主動式ETF，選股邏輯涵蓋輝達供應鏈、先進製程、先進封裝、高速通訊、人工智慧實體應用等主題，把目前市場最強科技趨勢一次納入。募集時點落在台股震盪期，若未來大盤回升，可能有低檔布局優勢。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "十元發行價",
+      "catalyst": "七月十七日募集截止、八月初掛牌"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "韓股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "韓國股市近期波動過大，盤中多次接近熔斷，反映已進入去槓桿與政策緊縮壓力階段。韓國政府對槓桿商品態度轉強、甚至釋出升息訊號，使韓股成為全球資金風險偏好的風向球。短線若無法連續兩日回穩並站回月線或季線，台股與美股電子盤都可能受到牽連。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "月線、季線",
+      "catalyst": "韓股連續回穩並站回月線或季線"
+    },
+    {
+      "ticker": "主被動元件",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主被動元件出現明顯跌停潮，屬於原本市場共識最高的漲價題材股，但已開始出現轉弱跡象。強茂、大中、富鼎、台半等主動元件個股都已跌破月線，族群籌碼開始鬆動，短線風險升高，近期不宜追價。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "月線",
+      "catalyst": ""
+    },
+    {
+      "ticker": "記憶體封測與通路族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體封測與通路等延伸族群並非每一檔都適合重押，部分個股氣氛沒有特別好。在族群整理時，應集中在核心競爭力更強的公司，不要過度分散，否則在震盪盤中容易承受過多壓力。非核心延伸股短線相對偏弱。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤",
+      "reason": "台股基本面仍強，但盤面結構正在轉弱，月線失守時間已拉長到第四天，過去逢回即買的慣性正在改變。建議目前先少做多看，重點觀察國際股市是否回穩、櫃買是否守住季線，以及外資在台指期結算前是否持續壓盤。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short",
+      "catalyst": "台指期結算與台積電法說會",
+      "priceLevel": "月線、季線"
+    },
+    {
+      "topic": "櫃買指數",
+      "reason": "櫃買指數回測季線，今年以來尚未正式跌破季線超過四天，這次若有效失守，將對中小型股與融資族群造成明顯壓力。融資水位偏高，若無法快速收復季線，市場可能進一步去槓桿，是觀察台股內部風險的重要指標。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short",
+      "catalyst": "是否快速收復季線",
+      "priceLevel": "季線"
+    },
+    {
+      "topic": "費城半導體指數",
+      "reason": "費半指數跌破季線，顯示全球科技股同步轉弱，不只是台股自身問題，而是國際電子產業風險偏好下降。若美股超級財報週的資本支出沒有上修，將壓抑下半年科技股評價；反之若大型雲端業者持續增加資本支出，才有機會帶動科技股重新走強。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium",
+      "catalyst": "美股超級財報週",
+      "priceLevel": "季線"
+    },
+    {
+      "topic": "美股雲端巨頭資本支出",
+      "reason": "下半年行情是否延續，關鍵在美股超級財報週中雲端巨頭的資本支出是否維持或上修。若資本支出沒有縮手，代表 AI 需求仍在擴張，將直接支撐台積電與相關供應鏈的後續表現。這是全市場最重要的中期觀察點之一。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium",
+      "catalyst": "七月下旬超級財報週",
+      "priceLevel": ""
+    },
+    {
+      "topic": "韓國股市",
+      "reason": "韓國股市已成為全球資金風向的重要變數，三星與海力士占其市值比重極高，波動會外溢到全球記憶體與科技鏈。若韓股能連續兩天上漲並站回月線，去槓桿壓力才會緩解；否則台股與美股科技盤可能持續受到拖累。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short",
+      "catalyst": "韓股連兩日回穩",
+      "priceLevel": "月線、季線"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "台股短線是基本面與政策緊縮面的拉鋸戰",
+      "reasoning": "台積電營收創高代表基本面仍強，但韓國政府對槓桿商品轉趨強硬、甚至傳出升息訊號，使國際資金開始重新評價風險。台股雖有基本面撐盤，卻被全球去槓桿與資金收縮氛圍壓抑。短線股價弱勢並非基本面變差，而是政策與風險偏好先行影響市場情緒。",
+      "sector": "總經",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "現在不能再用前六個月逢回即買的慣性操作",
+      "reasoning": "今年前半年行情太強，拉回月線往往很快再創高，讓投資人形成固定買點思維。但這一波台股、櫃買與費半同步轉弱，代表市場結構已經改變。若還用過去的積極加碼方式，很容易越買越便宜、子彈快速打光。現在更適合放慢腳步、縮短戰線，少做多看。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "下半年仍可期待，但關鍵在於 AI 資本支出能否維持成長",
+      "reasoning": "只要美股科技巨頭的資本支出沒有縮減、甚至在七月下旬財報週再度上修，就代表 AI 需求還在擴張。這將延續台積電、先進封裝、載板、散熱等供應鏈的成長故事，也意味著下半年台股仍有機會。反之若資本支出轉弱，市場評價可能先行修正。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "選股要從分散題材轉向核心龍頭與確定性高的標的",
+      "reasoning": "現在市場不是每一檔熱門題材都能買，應回到真正具備核心競爭力、未來半年到一年基本面仍能持續改善的公司。台灣三大科技核心、記憶體龍頭、以及 AI 零組件與封裝供應鏈，都是比四處撒網更有效率的配置方向，能降低被輪動洗掉的風險。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "主動式科技趨勢基金是用工具解決波動的方式",
+      "reasoning": "當個股波動過大、投資人容易因獲利回吐而心態失衡時，可以把部分資金轉到主動式科技趨勢基金。基金透過經理人挑選科技趨勢股，淨值波動通常比個股小，有助於在市場震盪時維持部位、降低情緒壓力。這不是追求一次梭哈，而是用配置延長投資耐心。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "記憶體族群的長約與報價上漲，支撐中期獲利能見度",
+      "reasoning": "南亞科法說後，市場重新確認記憶體報價在第三季還會上漲，且公司有高比例長約支撐，使毛利率具備延續性。海力士短線因韓股利空大跌，節目判斷這較像市場情緒拖累，不代表產業趨勢已反轉。若後續籌碼沉澱，記憶體仍是值得關注的中期主題。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "投資人若已出現身體不適，代表部位壓力過高，應先降檔再說",
+      "reasoning": "節目中有聽眾因獲利大幅回吐而頭暈、拉肚子，來賓認為這已不是單純績效波動，而是部位與心理承受度失衡。當投資開始影響身體狀態時，最重要的不是猜底或猜高，而是先降低持股集中度，把高波動資產轉成較穩定的部位，這是長期留在市場的前提。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "韓股若無法快速回穩，台股與美股科技盤可能持續遭受外溢壓力",
+    "櫃買指數若有效跌破季線，代表中小型股與融資籌碼風險升高",
+    "主被動元件、記憶體等高人氣題材若籌碼沉澱不足，反彈可能只是技術性修正",
+    "若美股科技巨頭的資本支出未如預期上修，下半年 AI 行情可能降溫",
+    "投資人若部位過度集中且高檔未調節，容易因獲利回吐而產生嚴重心理壓力"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "近期",
+      "event": "韓股是否連續兩日回穩並站回月線或季線",
+      "tickers": [
+        "韓股"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "本週四",
+      "event": "台積電法說會（市場關注第二季毛利率、下半年展望與資本支出動向）",
+      "tickers": [
+        "2330.TW"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "七月十七日",
+      "event": "永豐台灣科技趨勢主動式ETF募集截止",
+      "tickers": [
+        "041A"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "七月下旬",
+      "event": "美股超級財報週與雲端巨頭資本支出公布",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META",
+        "NVDA"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "八月初",
+      "event": "永豐台灣科技趨勢主動式ETF預計掛牌",
+      "tickers": [
+        "041A"
+      ],
+      "source": "李兆華"
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1137｜漲千點氣勢被韓股拖累，基本面和政策緊縮面的戰爭！台積電營收創高，殺中小帳面獲利回吐，放慢一點接，沒損失？ft.題材獵人 林漢偉",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/730dbd47-b389-44e0-b49f-4a8484dbd2e5",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台積電營收創高撐起基本面，但韓股去槓桿與政策緊縮正在改寫盤面邏輯，現在是放慢腳步、集中核心龍頭的時刻",
+      "detailedSummary": "本集核心在於台股短線雖受韓股去槓桿與政策緊縮拖累，但台積電六月營收創歷史新高、南亞科法說表現強勁，顯示 AI 供應鏈基本面仍健全。主持人與來賓 林漢偉 都認為現在不適合沿用前半年積極加碼的操作慣性，應改採少做多看、縮減戰線的策略，集中火力在台積電、台達電、台光電等核心 AI 龍頭，避免被題材輪動洗出場。下半年行情能否延續，最關鍵的觀察點是七月下旬美股超級財報週中，雲端巨頭的資本支出是否維持或上修；此外，韓股能否連續兩日回穩、櫃買指數能否守住季線，也是短線盤面能否止跌的重要指標。節目同時介紹了主動式科技趨勢 ETF（041A）作為降低個股波動、參與科技成長的配置工具選項。",
+      "highlights": [
+        "台積電六月營收創歷史新高，單月年增超過六成，本週四法說會是短線最大催化劑",
+        "韓股去槓桿與政策緊縮外溢全球，台股、費半指數同步承壓，盤面結構已轉弱",
+        "主被動元件族群出現跌停潮，強茂、大中、富鼎、台半等個股紛紛跌破月線，高人氣題材開始鬆動",
+        "南亞科法說偏正面，毛利率達七成九五，第三季報價續漲，約五成產能採長約支撐獲利能見度",
+        "鈺創（8112.TW）股價創二十六年新高，兼具記憶體本業、機器人與 AI 眼鏡多重題材加成",
+        "來賓建議放慢腳步，前半年逢回即買的操作慣性在現在的震盪盤中已不再適用，應少做多看",
+        "下半年多頭能否延續，關鍵在七月下旬美股超級財報週雲端巨頭資本支出是否上修",
+        "選股應集中台積電、台達電、台光電等核心 AI 龍頭，主動式科技趨勢 ETF（041A）可作為降波動的配置工具"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 5
+      },
+      {
+        "ticker": "軍工族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "雷虎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "中美晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "富鼎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "載板族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "日月光投控",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "中光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "漢唐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "亞翔",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台勝科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "META",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "鈺創",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
