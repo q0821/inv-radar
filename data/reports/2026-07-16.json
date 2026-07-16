@@ -1,0 +1,641 @@
+{
+  "date": "2026-07-16",
+  "quickDigest": [
+    "台積電法說基本面仍強，資本支出上修至640億美元，短線跌勢純屬預期過高後的情緒出清",
+    "南電近20日漲幅達44%，載板族群中長線正向，靜待第三季高階平台放量驗證",
+    "國巨5日重挫13.8%、跌破月線逾20%，被動元件漲幅嚴重超越基本面，明確建議減碼",
+    "AI供應鏈進入輪動期：高階記憶體長約支撐短期難崩，消費性記憶體面臨價格天花板",
+    "策略核心：分批布局、保留現金，資金從漲多高位族群輪向有實際營收支撐的績優標的"
+  ],
+  "marketMood": "預期修正主導，基本面未壞，輪動取代齊漲是當前主旋律",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "2330.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電基本面沒有變差，第二季營收、毛利率與全年展望都在公司區間上緣，資本支出還上修至約六百億至六百四十億美元，顯示長線需求與擴產節奏仍強。短線失望性賣壓來自市場預期先行墊高，而非營運轉弱。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "毛利率約六成七上緣，資本支出上修至約六百億至六百四十億美元",
+      "technicals": {
+        "currentPrice": 2470,
+        "ma20": 2434.5,
+        "ma60": 2325.83,
+        "priceVsMa20Pct": 1.5,
+        "priceVsMa60Pct": 6.2,
+        "rsi14": 58,
+        "changePct5d": 2.3,
+        "changePct20d": 3.6,
+        "volumeRatio": 0.93,
+        "currency": "TWD",
+        "asOf": "2026-07-16T05:30:08.000Z"
+      }
+    },
+    {
+      "ticker": "載板族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板族群中長線方向沒有變，第二季因載板用料吃緊、漲價與庫存調整，營收與報價仍有支撐。若後續更高階平台開始放量，需求與價格都還有再上修空間。風險是短線漲多與第三季出貨節奏不如預期。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "南電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "南電近期法人關注度提高，在載板漲價與產能配置調整背景下相對走強。第二季到第三季報價與產品組合變化，使市場重新給予較高評價。若後續載板景氣持續向上，南電有機會受惠於族群輪動。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 1275,
+        "ma20": 1121.6,
+        "ma60": 960.12,
+        "priceVsMa20Pct": 13.7,
+        "priceVsMa60Pct": 32.8,
+        "rsi14": 61,
+        "changePct5d": 4.9,
+        "changePct20d": 44.1,
+        "volumeRatio": 1.02,
+        "currency": "TWD",
+        "asOf": "2026-07-16T05:30:12.000Z"
+      }
+    },
+    {
+      "ticker": "欣興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "欣興產業方向沒有變，仍受惠於載板需求與高階產品趨勢，營收與訂單基礎仍強。短線股價震盪主要受募資動作與第二季毛利率壓力影響，若財報公布後市場重新確認高階需求，評價有望回穩。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 882,
+        "ma20": 943.6,
+        "ma60": 918.62,
+        "priceVsMa20Pct": -6.5,
+        "priceVsMa60Pct": -4,
+        "rsi14": 46,
+        "changePct5d": 0.8,
+        "changePct20d": -10.7,
+        "volumeRatio": 0.95,
+        "currency": "TWD",
+        "asOf": "2026-07-16T05:30:03.000Z"
+      }
+    },
+    {
+      "ticker": "景碩",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "景碩屬於載板族群中方向正向的標的，雖然短線股價受漲多後整理影響，但基本面仍圍繞在高階訂單與載板需求改善。若市場重新聚焦於業績而非短線情緒，股價有機會重新轉強。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 770,
+        "ma20": 794.05,
+        "ma60": 659.35,
+        "priceVsMa20Pct": -3,
+        "priceVsMa60Pct": 16.8,
+        "rsi14": 51,
+        "changePct5d": -3.1,
+        "changePct20d": 9.1,
+        "volumeRatio": 0.13,
+        "currency": "TWD",
+        "asOf": "2026-07-16T05:30:17.000Z"
+      }
+    },
+    {
+      "ticker": "銅箔基板族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "銅箔基板第二季拉貨強勁，相關公司財報表現大多不差，高階應用與 AI 伺服器需求仍在。雖然部分個股因漲多回檔，但產業層面趨勢仍向上，法人資金在高低階產品間輪動，並未否定整體需求。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "南亞",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "南亞因低階銅箔基板供給減少而受惠，且高階材料送驗證速度變快，市場開始重新評價其未來成長性。過去估值偏低，只要驗證進度與產品組合改善，就容易出現本益比重估。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "金居",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "金居核心題材是高階銅箔產品出貨，特別是與新一代 AI 平台相關的材料需求。市場擔心新平台出貨延後讓第二季出貨不如預期，但這更像是時間點後移而非需求消失；若第三季後真正放量，營收與股價仍可能重回成長軌道。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "設備股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "若高階晶圓代工與先進封裝擴產持續，設備股業績可望延續，屬於較有實際營收支撐的族群。在資本支出上修的背景下，設備股仍是較具基本面保護的方向。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "封測股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "封測族群在 AI 供應鏈中仍有實際需求支撐，若新平台出貨延後，部分需求可能遞延但不會消失。封裝測試屬於先進製程鏈條的重要一環，只要需求最終落地，營收仍有回升機會。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "散熱族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "散熱族群長線仍有需求成長空間，AI 晶片功耗越來越高，散熱需求只會增加不會消失。雖然短線股價與基本面有脫鉤現象，且市場流傳規格變動與延後疑慮，但只要真正高功耗平台持續推進，散熱仍是必要零組件。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "組裝族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "伺服器組裝代工短線股價反應落後，但從長線來看，AI 供應鏈仍會回到有實際出貨與營收成長的公司。若後續市場重新認可基本面，組裝族群有機會補漲，只是需要較長時間等待。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "記憶體族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "AI 相關記憶體仍偏正面，高階記憶體需求強勁，短線只是漲價後的高檔震盪，並不代表需求轉弱。AI 架構帶來的供需失衡仍在，且高階記憶體多為長約，價格雖上漲但不至於快速崩跌。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "被動元件族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群漲幅已遠超過基本面，當營收成長跟不上股價上漲時，修正就會很劇烈。近期國巨等指標股都出現大幅回檔，顯示漲多後的籌碼壓力已開始反映。若後續國際大廠報價與需求不能止跌穩住，族群可能還會持續修正。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "國巨這波漲幅過大，當市場開始修正時，股價回檔幅度非常明顯，屬於需要降低部位的族群。雖然漲價函與產業趨勢沒有立刻反轉，但股價已先行大幅反映，從風險控管來看不宜追高。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 776,
+        "ma20": 977.2,
+        "ma60": 714.12,
+        "priceVsMa20Pct": -20.6,
+        "priceVsMa60Pct": 8.7,
+        "rsi14": 39,
+        "changePct5d": -13.8,
+        "changePct20d": -21.1,
+        "volumeRatio": 0.81,
+        "currency": "TWD",
+        "asOf": "2026-07-16T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台光電屬於銅箔基板族群中的高位階標的，雖然基本面不差，但因為第二季已大幅上漲，短線回檔屬於正常漲多修正。市場在位階偏高時對任何雜音都會放大反應，若非長線持有者，需留意獲利回吐風險。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 4990,
+        "ma20": 5422.75,
+        "ma60": 5025.25,
+        "priceVsMa20Pct": -8,
+        "priceVsMa60Pct": -0.7,
+        "rsi14": 45,
+        "changePct5d": -5.8,
+        "changePct20d": -4,
+        "volumeRatio": 0.77,
+        "currency": "TWD",
+        "asOf": "2026-07-16T05:30:17.000Z"
+      }
+    },
+    {
+      "ticker": "台耀",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台耀近期修正幅度相當驚人，雖然基本面仍與高階銅箔材料需求有關，但股價已先反映過多樂觀預期。若新平台出貨時間點延後，短線會造成更大的失望性賣壓，因此不宜在高檔追價。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 53,
+        "ma20": 53.5,
+        "ma60": 53.08,
+        "priceVsMa20Pct": -0.9,
+        "priceVsMa60Pct": -0.1,
+        "rsi14": 48,
+        "changePct5d": -3.3,
+        "changePct20d": 1.5,
+        "volumeRatio": 0.33,
+        "currency": "TWD",
+        "asOf": "2026-07-16T05:30:40.000Z"
+      }
+    },
+    {
+      "ticker": "記憶體消費性產品",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "消費性記憶體雖然短線仍強，但台灣相關廠商多數集中在消費性記憶體，終究會遇到價格天花板。若報價持續快速上漲，終端品牌與消費者最終承受不了，可能出現反轉，不能把現在的強勢直接延伸到未來。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "總體環境",
+      "reason": "六月消費者物價指數沒有爆表，短線有助於降低市場對升息的擔憂，但美伊局勢與油價回升、美債殖利率反彈，可能讓升息預期再度被討論。整體來看，總經雜音仍在，但對盤面的直接干擾已不如產業與個股的預期修正來得大。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "台股資金輪動",
+      "reason": "第二季資金過度集中在熱門題材，現在開始出現健康輪動，資金正從漲多族群流向相對落後或基本面較穩健的標的。這種整理並非基本面反轉，而是市場情緒與位階調整，未來若績優股接棒成功，行情仍有機會延續。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "第二季市場大漲的核心不是基本面轉壞，而是位階太高後的情緒修正。",
+      "reasoning": "七月以來並沒有看到明顯的基本面惡化，反而很多公司仍在創高。真正的問題是第二季漲幅過猛，市場先把期待拉太高，法說與財報只要略低於過度樂觀的預期，就容易被解讀成利空。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台積電目前不是基本面變差，而是市場預期先走太前面。",
+      "reasoning": "台積電第二季營收、毛利率與全年展望都在公司區間的上緣，資本支出還上修，顯示需求與投資節奏仍強。短線跌勢主要來自法人先前預期過高，以及市場對利多不漲的情緒反應，而非公司營運真的轉弱。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 供應鏈已進入健康輪動期，不再是全面齊漲。",
+      "reasoning": "AI 行情已經走了兩三年，不可能再出現雞犬升天式的普漲，因此資金會在晶片、封裝、散熱、載板、材料、組裝之間輪動。這代表投資人需要回到基本面與位階管理，而不是只追逐短線最強股。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "新一代 AI 平台若延後，股價先跌的是預期，不一定是實際需求。",
+      "reasoning": "市場對新平台量產節點非常敏感，只要傳出延後，相關零組件如載板、記憶體、散熱、材料就會先被壓價。但過去多次經驗顯示，真正到數字驗證時，出貨與營收可能仍會延續，股價反映的是預期修正而非需求消失。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "載板與銅箔基板的漲價，本質上是供需與產能配置的輪動。",
+      "reasoning": "廠商會把產能移向獲利更好的產品，例如往高階載板或高階銅箔基板集中，結果低階產品反而因供給減少而漲價。這種輪動不是單一產品突然暴衰，而是整個產業鏈為了利潤最大化而重新配置資源。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "記憶體漲價的確有上限，但 AI 高階記憶體短期還看不到快速崩跌。",
+      "reasoning": "消費性記憶體會先碰到需求天花板，因為終端品牌與消費者不可能無限制吸收漲價；但高階記憶體與 AI 需求是另一條線，且多半有長約支撐。整體記憶體可以偏多看待，但不能把所有規格混為一談。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "現在更適合分批與輪動配置，不適合一次把子彈打完。",
+      "reasoning": "市場在修正期時情緒最容易失控，投資人若看到下跌就想一次重押，往往會在更低的位置失去彈性。較好的做法是分批布局、保留現金，並把資金集中在有營收與獲利支撐的核心標的。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "被動元件族群漲幅已遠超過基本面，若國際報價與需求不能穩住，修正可能延續。",
+    "新一代 AI 平台若再度延後，相關零組件短線仍可能承受預期修正壓力。",
+    "消費性記憶體報價若持續上漲，終端品牌與消費者可能無法完全吸收，存在價格天花板風險。",
+    "部分熱門股在高位階下對任何雜音都會過度反應，追高與槓桿操作風險偏高。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "今日",
+      "event": "台積電法說會與第二季財報公布",
+      "tickers": [
+        "2330.TW"
+      ]
+    },
+    {
+      "date": "接下來的財報季",
+      "event": "第二季財報與六月、七月營收陸續公布，市場將重新檢視漲多族群的基本面",
+      "tickers": [
+        "國巨",
+        "台光電",
+        "欣興",
+        "南電",
+        "景碩",
+        "記憶體族群"
+      ]
+    },
+    {
+      "date": "第三季",
+      "event": "新一代 AI 平台與相關零組件開始放量或確認延後",
+      "tickers": [
+        "2330.TW",
+        "載板族群",
+        "散熱族群",
+        "記憶體族群",
+        "金居"
+      ]
+    },
+    {
+      "date": "第三季",
+      "event": "載板與銅箔基板報價、產品組合與出貨節奏驗證",
+      "tickers": [
+        "南電",
+        "欣興",
+        "景碩",
+        "金居",
+        "台光電",
+        "台耀",
+        "南亞"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1140｜各台積電法說不買單？漲價、缺料從優點變成殺手，PCB、記憶體中小熱門股陷入苦戰，大洗刷過程，應該接住誰？ft.AI達人蔡明翰.PCB女王廖婉婷",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/2dacd1c2-c004-4841-b7c0-a0448b71bff8",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台積電法說未滿足過高預期引發修正，但 AI 供應鏈長線趨勢不變，現在是分批輪動佈局的時機。",
+      "detailedSummary": "本集深入剖析台積電法說會後市場的失望性賣壓，來賓一致認為台積電基本面仍強，資本支出上修至約六百億至六百四十億美元，問題在於市場先前預期過高。節目同時全面盤點 AI 供應鏈各子族群現況：載板（南電、欣興、景碩）、銅箔基板（台光電、台耀、南亞、金居）、散熱、封測、設備、組裝等族群的中長線趨勢仍偏正向，但短線漲多後面臨位階壓力。被動元件族群（以國巨為代表）則因漲幅遠超基本面而明確建議減碼，消費性記憶體亦存在價格天花板風險。操作策略上，來賓強調應以分批布局與資金輪動取代一次重押，把握從熱門高位族群流向績優低位族群的輪動機會。",
+      "highlights": [
+        "六月通膨未爆表，短線降低升息擔憂，但油價與美債殖利率反彈，總經雜音仍不可忽視。",
+        "台積電法說數字落在公司區間上緣、資本支出上修，基本面仍強，跌勢純屬市場預期過高後的情緒出清。",
+        "AI 供應鏈已告別齊漲時代，進入輪動階段，資金在晶片、載板、散熱、材料、組裝間輪番流動。",
+        "載板族群（南電、欣興、景碩）中長線方向正向，第三季更高階平台放量為關鍵催化劑。",
+        "銅箔基板族群（南亞、金居）因產能重新配置受惠，但台光電、台耀因高位階面臨短線獲利回吐壓力，建議減碼。",
+        "高階記憶體由 AI 長約支撐，短期崩跌機率低；消費性記憶體則因價格天花板疑慮，應降低部位。",
+        "被動元件族群漲幅嚴重超過基本面，國巨等個股修正劇烈，明確建議減碼。",
+        "操作策略：避免一次重押，改以分批布局、保留現金，資金集中於有實際營收支撐的核心標的。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "軍工族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "中美晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "雷虎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "記憶體族群",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "META",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "鈺創",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
