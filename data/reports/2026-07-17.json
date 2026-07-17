@@ -1,0 +1,780 @@
+{
+  "date": "2026-07-17",
+  "quickDigest": [
+    "台股創史上最大跌點，主因韓國去槓桿外溢＋融資過熱清洗，非基本面全面惡化",
+    "2330.TW 破季線後具逢低價值，高透明度支撐，待季線站回再積極回補",
+    "融資維持率約130%警戒標的（6659、3711、3105）面臨斷頭風險，建議減碼優先護盤",
+    "成熟製程漲價邏輯未破壞：2303、6770、2345 擴產至少1.5年後落地，中線仍可期",
+    "3035 記憶體未來兩年本益比僅5-8倍，估值吸引但需等籌碼穩定後再布局"
+  ],
+  "marketMood": "史詩級籌碼清洗震撼市場，基本面未崩、靜待季線站回後龍頭重聚焦",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "2330.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人與來賓都認為台積電這次法說與基本面並沒有真正轉弱，短線下跌主要是市場情緒與估值修正放大了利空解讀。依據是台積電對成熟製程的擴產，短中期不會立刻衝擊供需，反而在匯率偏貶、成熟製程整體漲價的背景下，毛利率可能先受惠。來賓也提到台積電高透明度使其在恐慌盤中相對具備逢低布局價值，屬於可越跌越買的核心標的。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "破季線後等待站回季線",
+      "technicals": {
+        "currentPrice": 2290,
+        "ma20": 2428.5,
+        "ma60": 2329.83,
+        "priceVsMa20Pct": -5.7,
+        "priceVsMa60Pct": -1.7,
+        "rsi14": 41,
+        "changePct5d": -5.2,
+        "changePct20d": -5,
+        "volumeRatio": 3.01,
+        "currency": "TWD",
+        "asOf": "2026-07-17T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "2303.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "來賓認為聯電不需要因為台積電日本擴成熟製程就過度悲觀，因為成熟製程擴產真正落地至少還要一年半到兩年，短期供需緊度不會立刻改變。更重要的是，成熟製程報價與毛利率有望同步改善，台積電擴成熟製程反而可能讓整個產業一起受惠，而不一定只有少數公司受傷。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 144,
+        "ma20": 162.73,
+        "ma60": 129.62,
+        "priceVsMa20Pct": -11.5,
+        "priceVsMa60Pct": 11.1,
+        "rsi14": 45,
+        "changePct5d": -7.7,
+        "changePct20d": -1,
+        "volumeRatio": 1.33,
+        "currency": "TWD",
+        "asOf": "2026-07-17T05:30:03.000Z"
+      }
+    },
+    {
+      "ticker": "6770.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "來賓提到富鼎屬於下半年仍有漲價題材的族群之一，因為功率元件與相關零組件仍在漲價循環中。雖然短線盤勢劇烈震盪，但只要主要大客戶仍在成長，這類具備議價能力與漲價邏輯的公司，未來仍有機會獲得法人青睞。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 68.9,
+        "ma20": 75.21,
+        "ma60": 69.12,
+        "priceVsMa20Pct": -8.4,
+        "priceVsMa60Pct": -0.3,
+        "rsi14": 45,
+        "changePct5d": -3.1,
+        "changePct20d": -7.1,
+        "volumeRatio": 1.17,
+        "currency": "TWD",
+        "asOf": "2026-07-17T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "3035.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "節目中將南亞科視為記憶體族群回檔後仍值得留意的代表之一，因為市場仍在反覆強調記憶體供給偏緊、伺服器需求缺口仍在。即使先前一度接近前高，後來因韓國與整體去槓桿壓力回落，但從兩年期估值來看，本益比已不高，若產業沒有出現明顯崩壞，後續仍有上行空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "未來兩年本益比約五到八倍",
+      "technicals": {
+        "currentPrice": 184,
+        "ma20": 214.05,
+        "ma60": 199.35,
+        "priceVsMa20Pct": -14,
+        "priceVsMa60Pct": -7.7,
+        "rsi14": 38,
+        "changePct5d": -14.8,
+        "changePct20d": -12,
+        "volumeRatio": 0.76,
+        "currency": "TWD",
+        "asOf": "2026-07-17T05:30:21.000Z"
+      }
+    },
+    {
+      "ticker": "2327.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "國巨被提到為這波跌深後仍可能出現反彈機會的族群代表，因為其先前漲價邏輯並未消失，且回檔幅度已相當大。在多數強勢股已經回檔三、四成甚至更深的情況下，若基本面沒有明顯轉壞，跌深後反彈是很自然的現象。若大盤只是洗融資與情緒修正，這種具備價格調整能力的族群將來仍有機會被資金再度點名。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "約六十多元區間",
+      "technicals": {
+        "currentPrice": 699,
+        "ma20": 958.15,
+        "ma60": 720.51,
+        "priceVsMa20Pct": -27,
+        "priceVsMa60Pct": -3,
+        "rsi14": 34,
+        "changePct5d": -22.3,
+        "changePct20d": -35.3,
+        "volumeRatio": 0.66,
+        "currency": "TWD",
+        "asOf": "2026-07-17T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "3491.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人提到設備類股在台積電法說後雖然沒有立即反應，但仍對設備族群相對有信心，因為半導體資本支出上修通常是中長線利多。此次下跌更像是市場恐慌與籌碼面殺盤，而不是設備需求邏輯被破壞。若之後台積電與相關晶圓廠持續擴產，設備族群仍有基本面支撐。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "6188.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人點名光通訊中的聯亞，認為雖然盤面大跌，但並沒有看到明確的掉單或基本面惡化證據。就算股價短線重挫，仍傾向把這類標的視為產業趨勢未變、只是被籌碼拖累的股票。若後續市場回穩，聯亞這種先前受資金追捧的高波動標的可能有較大的反彈彈性。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2345.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人把台半列為目前值得注意的功率半導體標的之一，原因在於功率元件與相關零組件仍有漲價與需求延續的可能。這類公司在大盤修正時通常先受情緒拖累，但若主要客戶仍在成長，基本面並未因短線下殺而改變。若市場重新偏好具備獲利與訂單能見度的標的，台半可能受惠。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 2090,
+        "ma20": 2451.75,
+        "ma60": 2441.17,
+        "priceVsMa20Pct": -14.8,
+        "priceVsMa60Pct": -14.4,
+        "rsi14": 35,
+        "changePct5d": -15.4,
+        "changePct20d": -14.2,
+        "volumeRatio": 1.13,
+        "currency": "TWD",
+        "asOf": "2026-07-17T05:30:25.000Z"
+      }
+    },
+    {
+      "ticker": "1815.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "信昌電被列入融資維持率較低、需要特別留意的名單，但主持人對被動元件整體後市仍偏正面，認為只要大盤去槓桿結束，這類先前已大漲、又具備漲價題材的族群還有機會再度走強。來賓也提到大戶對被動元件的共識是景氣與產業都不會死在這裡，修正後仍可望再創高。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2323.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人提到南亞在先前上漲時，是因為客戶接受漲價，代表下游仍有一定的吸收能力。這被拿來作為整體漲價族群的案例，說明只要客戶端仍能接受價格上調，相關公司就有機會把量做大，而不必過度糾結短線估值。南亞因此被視為具備產業趨勢支撐的代表之一。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 10.25,
+        "ma20": 11.25,
+        "ma60": 10.84,
+        "priceVsMa20Pct": -8.9,
+        "priceVsMa60Pct": -5.4,
+        "rsi14": 40,
+        "changePct5d": -8.1,
+        "changePct20d": -12.8,
+        "volumeRatio": 1.27,
+        "currency": "TWD",
+        "asOf": "2026-07-17T05:30:09.000Z"
+      }
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "台股大盤",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人明確指出現在不是基本面全面轉弱，而是籌碼面與情緒面壓力極大，因此大盤短線仍可能承受後續賣壓。由於融資維持率與斷頭壓力尚未完全釋放，下週一可能還有一次清籌碼風險。這意味著即便今天出現史上最大跌點，短線也不一定是低點。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "季線附近"
+    },
+    {
+      "ticker": "6659.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人提到該高價股周邊的融資維持率已接近斷頭區間，若下週再跌，將很容易進一步觸發賣壓。這類標的在市場急跌時通常波動更大，且容易先被籌碼面拖累。雖然節目未對公司基本面做負面評論，但短線交易風險明顯升高。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "融資維持率約一三〇％"
+    },
+    {
+      "ticker": "3711.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "雍智科技與其他高價股一起被列入高風險名單，主因是融資維持率偏低，後續若大盤再跌，容易面臨斷頭與被迫賣出的壓力。主持人沒有說基本面惡化，但明顯提醒這類標的短線會受到籌碼影響更大。對已持有者而言，這是需要優先控管部位的區段。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "融資維持率約一三〇％",
+      "technicals": {
+        "currentPrice": 614,
+        "ma20": 664,
+        "ma60": 589.1,
+        "priceVsMa20Pct": -7.5,
+        "priceVsMa60Pct": 4.2,
+        "rsi14": 46,
+        "changePct5d": -9.3,
+        "changePct20d": 0.2,
+        "volumeRatio": 1.03,
+        "currency": "TWD",
+        "asOf": "2026-07-17T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "3105.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "京元電子同樣被點名是高價與籌碼壓力較大的標的之一，主持人強調在融資去槓桿的階段，這類個股若再出現下跌，很容易快速逼近斷頭區。雖然沒有否定其產業地位，但短線已不適合以追價思維操作。若要操作，需等待籌碼穩定後再觀察。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "融資維持率約一三〇％"
+    },
+    {
+      "ticker": "2308.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "日電貿被主持人列入被動元件相關的籌碼風險名單，表示在大盤急跌時，這類先前漲多的族群容易被一起拖下來。雖然長線仍可能受惠於漲價與產業需求，但短線若融資斷頭加速，股價仍可能進一步下探。主持人的語氣屬於提醒風險而非直接否定長線邏輯。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 1740,
+        "ma20": 1936,
+        "ma60": 2118,
+        "priceVsMa20Pct": -10.1,
+        "priceVsMa60Pct": -17.8,
+        "rsi14": 34,
+        "changePct5d": -7.4,
+        "changePct20d": -19.1,
+        "volumeRatio": 1.3,
+        "currency": "TWD",
+        "asOf": "2026-07-17T05:30:12.000Z"
+      }
+    },
+    {
+      "ticker": "6186.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "來賓提到該標的雖然屬於高波動產業，但融資維持率已接近警戒區，短線若再跌很容易觸發被動賣壓。這種情況下，即便基本面未必有問題，籌碼面的風險也足以讓股價繼續承壓。對持股人而言，需要先防守再談加碼。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "融資維持率約一三〇％"
+    },
+    {
+      "ticker": "4979.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "四星科技被點名為高價股附近、融資維持率偏低的個股之一，顯示短線風險不容忽視。主持人並未批評其基本面，但明確提醒在大盤史詩級下殺時，高價股往往更容易被迫賣出。若沒有現金部位，這類標的應避免硬接。",
+          "action": "減碼",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "融資維持率約一三〇％"
+    },
+    {
+      "ticker": "2344.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "旺宏被主持人列入記憶體族群的籌碼風險名單，原因在於這波回檔若持續，記憶體雖有景氣與報價題材，但也會先遭遇融資清洗。節目雖然仍看好記憶體長線結構，但對旺宏的短線操作態度偏保守。若大盤未止穩，容易再被市場拿來做賣壓出口。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 155,
+        "ma20": 187.53,
+        "ma60": 153.98,
+        "priceVsMa20Pct": -17.3,
+        "priceVsMa60Pct": 0.7,
+        "rsi14": 41,
+        "changePct5d": -12.2,
+        "changePct20d": -29.1,
+        "volumeRatio": 0.59,
+        "currency": "TWD",
+        "asOf": "2026-07-17T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "2630.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "亞航被主持人提到時，重點不是基本面轉差，而是高波動標的在這波急跌裡很容易被資金先行撤出。若市場情緒持續惡化，這類個股將面臨更明顯的估值修正與籌碼壓力。短線上屬於應降低風險暴露的範圍。",
+          "action": "減碼",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 53.4,
+        "ma20": 51.32,
+        "ma60": 46.38,
+        "priceVsMa20Pct": 4.1,
+        "priceVsMa60Pct": 15.1,
+        "rsi14": 55,
+        "changePct5d": -0.9,
+        "changePct20d": 33.8,
+        "volumeRatio": 0.98,
+        "currency": "TWD",
+        "asOf": "2026-07-17T05:30:24.000Z"
+      }
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤去槓桿走向",
+      "reason": "台股今日創下史上最大跌點，且收盤與盤中最大跌點同時出現，顯示市場情緒與籌碼面壓力極大。這一波回檔更偏向技術面與籌碼面的去槓桿與融資清洗，而不是產業基本面全面轉弱。短線若融資持續大減，反而有機會形成較健康的修正結構，待季線重新站回後再觀察資金回流。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "韓國股市去槓桿後續效應",
+      "reason": "韓國股市被視為這波震央，韓國的去槓桿與保證金壓力被視為帶動區域市場急跌的主要原因之一。主持人認為韓股沒有開市、卻在先前大漲時台股未能同享，現在大跌時卻同步承壓，顯示外部資金緊縮的影響仍在擴散。若韓股下週再度進行去槓桿，台股可能還會受到連動賣壓。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "這一波台股急跌主要是籌碼面與去槓桿，而不是產業基本面全面轉弱",
+      "reasoning": "主持人一再強調，今天的重點不是法說會或企業獲利突然惡化，而是韓國去槓桿、融資維持率下滑與市場情緒失控造成的連鎖賣壓。他認為許多股票只是被資金面拖累，若融資清洗完成且季線重新站回，市場對基本面的解讀會修正。這代表短線很痛，但未必是長線趨勢反轉。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台積電日本擴成熟製程不必然是聯電的大利空，反而可能讓成熟製程整體一起受惠",
+      "reasoning": "來賓從擴產時間推演，認為電子業從宣布到真正產能落地通常至少要一年半到兩年，因此短期供需不會立刻改變。再加上力積電法說提到成熟製程毛利率有機會改善，顯示產業不是單點受害，而是整體報價與利潤結構都有望上修。這種推導與市場把消息直接解讀成聯電利空的情緒不同。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "成熟製程與功率元件的漲價循環仍在，市場應關注能把漲價真正傳導到獲利的公司",
+      "reasoning": "節目多次提到，像記憶體、被動元件、功率元件這些族群，背後的共同邏輯是供需緊張與報價上升。來賓認為只要客戶端還能接受價格，企業就有機會把量與毛利一起做大，而不是只看短線股價波動。這讓投資重心從「誰最會漲」轉向「誰最能把漲價變成獲利」。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "高透明度龍頭在恐慌盤中反而更值得用來逢低布局",
+      "reasoning": "主持人認為，當市場一片混亂、許多股票都在跌停或接近斷頭時，投資人更應該回到自己最有把握的標的。台積電這類營運與訂單透明度高的公司，即使短線大跌，未來獲利變化也不會因單日股價重挫而改變，因此在修正時具備較高的可配置性。這是典型「越跌越買，但只買懂的」的邏輯。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "大盤破季線後，不該追求一次抓到最低點，而是要準備在三天內站回時的回補機會",
+      "reasoning": "主持人引用去年十二月與今年三月的經驗，說明台股在多頭中的季線修正通常很快就會恢復，常見是兩到三天內站回。既然低點難以精準掌握，與其執著於是否賣在最低，不如保留現金等回到季線附近時再加碼，確保自己有彈藥參與後面的反彈。這是一種重視操作節奏勝過絕對價位的框架。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "未來若台股重新上行，資金會更集中在獲利最好的龍頭公司",
+      "reasoning": "來賓認為這次洗籌碼若真的洗乾淨，未來市場不會全面平均輪漲，而是更集中在能把成本轉嫁給客戶、且獲利能力最強的公司。從南亞、台積電到部分千金股的例子都顯示，具備議價能力與高可見度獲利的公司，才能在景氣循環與價格上漲中持續吸引法人。這也意味著市場將更偏向強者恆強。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "若融資清洗完成，這波重挫可能反而會讓後續多頭更健康",
+      "reasoning": "主持人並不期待市場無痛上漲，反而認為前一陣子融資過熱、追價過度，讓行情有必要做一次徹底冷卻。當多數高槓桿籌碼被洗出、投資人重新評估部位後，若基本面沒有惡化，後續上漲會更紮實。這是把短期痛苦視為長期健康的觀點。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "融資維持率偏低的高價股，若下週再跌，可能引發斷頭與連鎖賣壓",
+    "韓國去槓桿若持續惡化，台股可能再遭一次外部賣壓衝擊",
+    "大盤雖可能只是籌碼修正，但若季線遲遲站不回，短線反彈會更脆弱",
+    "部分先前漲多族群雖有產業題材，但短線估值與波動風險仍高"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "下週一",
+      "event": "韓國去槓桿後續效應與台股可能的第二波清籌碼",
+      "tickers": [
+        "台股大盤",
+        "韓國股市"
+      ]
+    },
+    {
+      "date": "待觀察",
+      "event": "台股重新站回季線後的資金回補",
+      "tickers": [
+        "台股大盤",
+        "2330.TW",
+        "2303.TW"
+      ]
+    },
+    {
+      "date": "待觀察",
+      "event": "成熟製程與功率元件漲價循環持續驗證",
+      "tickers": [
+        "2330.TW",
+        "2303.TW",
+        "6770.TW",
+        "2345.TW"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1141｜韓國沒開市，換台股去槓桿？史上最大跌點破季線，融資冷靜一下比較好！多數熱門股都逆風，想賺大的還是賺穩的？ft.雷老闆",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/a275583d-746e-416d-a7ca-7bf69a134775",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "台股史上最大跌點解析：籌碼面去槓桿主導、基本面未崩壞，聚焦季線站回後的龍頭回補機會",
+      "detailedSummary": "本集主持人李兆華與來賓雷老闆深度解析台股創下史上最大單日跌點的背景，一致認為這波急跌的根源在於韓國去槓桿的外溢效應，以及台灣市場融資過熱後的被動清洗，而非企業基本面全面轉壞。節目中強調台積電法說並無重大利空，成熟製程擴產要一年半至兩年才落地，現階段供需格局未變，聯電、功率元件與記憶體的漲價邏輯依然成立。對於高價股中融資維持率已接近一三〇％的標的（如 6659.TW、3711.TW、3105.TW 等），主持人明確提醒應優先控管部位，避免下週一再度觸發斷頭賣壓。操作策略上，建議保留現金倉位，不急著在最低點搶進，待季線站回後再分批加碼，以台積電為代表的高透明度龍頭作為核心配置，並預期融資洗乾淨後市場資金將更集中於獲利能力最強的公司。",
+      "highlights": [
+        "台股今日創下史上最大單日跌點，市場焦點從基本面轉向籌碼面去槓桿，韓國股市被視為這波下跌震央",
+        "台積電法說基本面並未轉弱，成熟製程日本擴產至少一年半後才落地，短期供需格局不變，可逢低布局",
+        "聯電、富鼎（6770.TW）、台半（2345.TW）等成熟製程與功率元件標的，漲價循環邏輯未被破壞，中線仍可期",
+        "南亞科（3035.TW）記憶體未來兩年本益比僅五到八倍，估值具吸引力，但短線籌碼需等穩定",
+        "高融資維持率約一三〇％的高價股（6659.TW、3711.TW、3105.TW、6186.TW、4979.TW）面臨斷頭風險，建議減碼",
+        "設備類股（3491.TW）被主持人實際買進，認為半導體資本支出上修是中長線利多，本次下跌屬籌碼面殺盤",
+        "操作建議：保留現金，不追最低點，歷史經驗顯示台股多頭季線修正通常兩到三天內站回，屆時再積極回補",
+        "若融資清洗完成且季線站回，未來資金料更集中於具備議價能力與高獲利能見度的龍頭，強者恆強格局延續"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 5
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "軍工族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "中美晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "雷虎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "記憶體族群",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "META",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "鈺創",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "載板族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "散熱族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "欣興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "記憶體族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "設備股",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "封測股",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南亞",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [
+      {
+        "ticker": "國巨",
+        "bullCount": 4,
+        "bearCount": 2
+      },
+      {
+        "ticker": "台光電",
+        "bullCount": 3,
+        "bearCount": 2
+      },
+      {
+        "ticker": "記憶體族群",
+        "bullCount": 2,
+        "bearCount": 2
+      }
+    ],
+    "sectorHeat": []
+  }
+}
