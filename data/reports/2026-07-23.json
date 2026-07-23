@@ -1,0 +1,691 @@
+{
+  "date": "2026-07-23",
+  "quickDigest": [
+    "GOOGL財報調整後EPS低預期，自由現金流轉負，AI軍備競賽快速吞噬現金流",
+    "緯創AI伺服器基板正式量產，量產時程確定，供應鏈拉貨訊號轉正",
+    "散熱族群（奇鋐、建準、旗勝）本益比從50倍降至40倍，止跌反彈跡象浮現",
+    "環球晶義大利廠火災衝擊矽晶圓供給，環球晶、台勝科報價變化成關鍵觀察點",
+    "國巨、台達電遭外資調降目標價，AI零組件進入毛利率拔河期，追價勝率下降"
+  ],
+  "marketMood": "AI長線趨勢未破，但利多鈍化、估值修正，等平衡點再出手",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "緯創",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "德州廠動工之外，AI 伺服器相關基板已正式量產，量產時程大致確定，並非市場先前擔心的那麼延後，後續對相關代工與零組件拉貨都有正面幫助。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "德州廠動工與基板正式量產"
+    },
+    {
+      "ticker": "奇鋐",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "來賓認為奇鋐長期偏委屈，散熱需求在 AI 伺服器鏈中仍是核心環節，盤中曾見漲停代表市場開始反應修復行情。本益比已從五十倍降至四十倍附近，估值壓力相對減輕。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "本益比已從五十倍降至四十倍附近",
+      "catalyst": "AI 伺服器量產與散熱需求成長"
+    },
+    {
+      "ticker": "環球晶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "義大利廠火災與外資調降目標價雖造成股價承壓，但矽晶圓是後續可能漲價的題材，股價已回到月線下方，提供較好的切入點。若產能受損造成供給更緊，未來供需結構可能成為催化劑。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "回到月線下方",
+      "catalyst": "義大利廠火災後的產能與報價變化"
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "外資小幅下調目標價主要是態度轉保守，不代表基本面重大惡化。第二季財報與法說將陸續登場，若展望較佳，股價仍有機會重新評價。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "目標價一千四百六十五元",
+      "catalyst": "即將到來的法說與第二季財報",
+      "technicals": {
+        "currentPrice": 696,
+        "ma20": 880.1,
+        "ma60": 745.1,
+        "priceVsMa20Pct": -20.9,
+        "priceVsMa60Pct": -6.6,
+        "rsi14": 38,
+        "changePct5d": -10.3,
+        "changePct20d": -38.1,
+        "volumeRatio": 1.15,
+        "currency": "TWD",
+        "asOf": "2026-07-23T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "台達電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "外資下調目標價反映零組件漲價帶來的成本壓力，而非競爭力消失。台達電同時受惠於電源與散熱需求，若 AI 伺服器持續擴建，長線仍有基本面支撐。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "目標價二千八百八十元",
+      "catalyst": "法說與成本轉嫁能力驗證",
+      "technicals": {
+        "currentPrice": 1880,
+        "ma20": 1890.5,
+        "ma60": 2103,
+        "priceVsMa20Pct": -0.6,
+        "priceVsMa60Pct": -10.6,
+        "rsi14": 46,
+        "changePct5d": -1.3,
+        "changePct20d": -5.1,
+        "volumeRatio": 0.59,
+        "currency": "TWD",
+        "asOf": "2026-07-23T05:30:10.000Z"
+      }
+    },
+    {
+      "ticker": "建準",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "獲外資調高目標價，顯示法人開始重新肯定散熱需求。散熱族群先前已修正很久，若 AI 伺服器持續放量，估值有機會回到較合理位置。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "AI 散熱需求擴大"
+    },
+    {
+      "ticker": "研華",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "來賓持續看好的工業電腦代表，基本面相對穩定。若資金從高位階題材股轉向低波動、穩健成長股，研華有機會受益，可在盤勢修正時提供較好的防守。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "資金轉向防守型電子股"
+    },
+    {
+      "ticker": "聯亞",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "連續兩天大漲，屬於先前修正較深、目前正在止跌反彈的代表。先前跌幅較大，已先完成估值修正，因此輪到技術性反彈與資金回補。高點三百零五、低點一百三十五。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "高點三百零五、低點一百三十五",
+      "catalyst": "連續大跌後的反彈延續"
+    },
+    {
+      "ticker": "順達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "鋰電池與儲能相關族群中相對表現好的公司，股性活潑。雖有外資調節，但從營收與財報數字來看基本面仍有成長機會。若市場重新評價電池與電源相關零組件，順達可能是較容易被資金點火的標的。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "第三季財報與電池供應鏈評價修復"
+    },
+    {
+      "ticker": "鴻海",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "尾盤有明顯拉抬，AI 伺服器與相關供應鏈氣氛回溫時扮演撐盤角色。大型代工廠仍能受惠於 AI 資本支出持續增加，屬中長線偏正面，但市場對利多已有些鈍化，短線不容易大漲。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "AI 伺服器拉貨持續發酵",
+      "technicals": {
+        "currentPrice": 257.5,
+        "ma20": 242.1,
+        "ma60": 254.18,
+        "priceVsMa20Pct": 6.4,
+        "priceVsMa60Pct": 1.3,
+        "rsi14": 59,
+        "changePct5d": 6.2,
+        "changePct20d": 0,
+        "volumeRatio": 1.34,
+        "currency": "TWD",
+        "asOf": "2026-07-23T05:30:03.000Z"
+      }
+    },
+    {
+      "ticker": "廣達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "尾盤出現拉抬，市場對 AI 伺服器相關族群仍有資金回流。只要整體 AI 建設持續推進，廣達仍是供應鏈中的受惠者，但目前市場情緒偏保守，股價反應未必直接。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "後續 AI 伺服器訂單與出貨節奏",
+      "technicals": {
+        "currentPrice": 336,
+        "ma20": 360.58,
+        "ma60": 351.82,
+        "priceVsMa20Pct": -6.8,
+        "priceVsMa60Pct": -4.5,
+        "rsi14": 40,
+        "changePct5d": -4.5,
+        "changePct20d": -8.3,
+        "volumeRatio": 1.3,
+        "currency": "TWD",
+        "asOf": "2026-07-23T05:30:12.000Z"
+      }
+    },
+    {
+      "ticker": "旗勝",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "散熱族群裡前一段修正較久、近期出現止跌跡象，盤中甚至一度漲停。之前漲得慢、修正時間拉長，現在輪到低位階族群反彈。若後續 AI 伺服器散熱需求持續升溫，有機會延續修復行情。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "AI 散熱需求延續"
+    },
+    {
+      "ticker": "台勝科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "雖因環球晶義大利廠火災消息跟著跌停，但矽晶圓被視為後面可能受惠漲價的題材。若供給端因意外事件而收縮，矽晶圓報價與稼動率可能改善，台勝科有機會受惠。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "矽晶圓供給收縮與報價變化"
+    },
+    {
+      "ticker": "東元",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "工業電腦族群中值得持續觀察的標的之一。市場偏向避風港時，工業電腦營運相對穩健，雖未必大爆發，卻是穩紮穩打型的配置選項。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "第三季財報與接單狀況"
+    },
+    {
+      "ticker": "振樺電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "工業電腦族群中穩紮穩打、長線仍看好的公司。產業防守性與基本面相對穩定，若後續盤勢仍偏震盪，可能持續扮演資金避風港。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "資金持續尋找防守型標的"
+    },
+    {
+      "ticker": "雙鴻",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在供應鏈中能見度較低、基期沒有特別高，本益比相對較低。若 AI 伺服器與散熱需求持續擴張，這種已先修正過、估值較便宜的標的，反而有機會成為資金下一波關注對象。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "散熱族群估值修復"
+    },
+    {
+      "ticker": "富世達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "本益比已來到相對低檔，約三十倍出頭。若後續 AI 伺服器與零組件拉貨回升，可能受惠於估值修復。若市場風險偏好回升，有機會跟著零組件族群反彈。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "本益比已回到三十倍出頭",
+      "catalyst": "AI 零組件拉貨回升"
+    },
+    {
+      "ticker": "鴻準",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "AI 相關比重較低，股價本來就沒有特別高，現在本益比相對低，屬於修正後可觀察的零組件標的。若 AI 伺服器需求持續擴大，這些已先修正過的電子零組件有機會迎來估值重估。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "AI 零組件需求持續發酵"
+    },
+    {
+      "ticker": "新盛力",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "鋰電池與電源相關族群中有資金青睞的標的，前陣子表現相對強勢。修正過後仍有基本面支撐，若未來產業評價修復，仍值得列入觀察。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "電池與電源題材再度發酵"
+    },
+    {
+      "ticker": "AES KY",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "來賓已出清，但認為公司獲利不錯、長期相當委屈，低估值仍有追蹤價值。股性與報酬節奏不佳，短線不一定適合追價，屬於長期低調觀察標的。",
+          "action": "賣出",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "無明確催化劑"
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "GOOGL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "財報表面上營收與淨利成長，但扣掉一次性股權投資收益後，調整後每股盈餘低於市場預期，核心獲利動能不如表面強。自由現金流從前一季高檔轉為負值，全年資本支出再上調，AI 軍備競賽快速吃掉現金流。短線市場焦點集中在現金流惡化與持續加碼資本支出的壓力。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "全年資本支出上調後的後續財報與現金流變化",
+      "technicals": {
+        "currentPrice": 342.09,
+        "ma20": 354.77,
+        "ma60": 369.38,
+        "priceVsMa20Pct": -3.6,
+        "priceVsMa60Pct": -7.4,
+        "rsi14": 41,
+        "changePct5d": -7.8,
+        "changePct20d": -1.2,
+        "volumeRatio": 1.16,
+        "currency": "USD",
+        "asOf": "2026-07-22T20:00:01.000Z"
+      }
+    }
+  ],
+  "monitorSignals": [],
+  "keyInsights": [
+    {
+      "insight": "谷歌提高資本支出對台廠是中長線利多，但市場短線已出現利多鈍化",
+      "reasoning": "谷歌雖然自由現金流轉為負值且全年資本支出再上調，但這代表 AI 建設仍在加速，台廠最終仍會拿到訂單。現在市場對這類利多已不如過去敏感，交易上會先觀望、不立刻全面追價。從投資角度看，這種利多要等股價回到相對便宜的位置才有比較好的勝率。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 零組件正從漲價受惠期進入毛利率拔河期",
+      "reasoning": "零組件先前受惠於漲價與升級題材而大漲，但現在已進入客戶與供應商互相議價的階段。當價格漲得太快，客戶會開始要求調整拉貨與吸收成本，這讓毛利率與出貨節奏出現壓力。這也是部分外資開始調降台達電、國巨等公司目標價的原因。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 投資仍在持續，但市場需要先等待股價與基本面的重新平衡",
+      "reasoning": "大型雲端業者與科技龍頭仍在持續砸錢，AI 長線趨勢沒有被破壞。只是資本市場反應很快，股價早已先反應預期，現在遇到的是基本面尚未完全跟上、但估值先漲太多的問題。投資人此時更應等待估值修正後再進場，而不是單純因為題材還在就追高。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "股市操作的關鍵已不是追高，而是等待本益比修正後的平衡點",
+      "reasoning": "這一波市場已從容易賺錢的雞腿階段，進入只能挑雞翅、雞脖子的階段，意味著獲利空間縮小、追價勝率下降。當高位階個股持續修正、低位階個股開始反彈時，真正能做的是等待價格回到合理區間，強調資金效率與風險控制。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "工業電腦是偏防守、穩紮穩打的配置選項",
+      "reasoning": "東元、研華、振樺電等工業電腦標的雖不一定大爆發，但營運相對穩定，在盤勢震盪時可作為避風港。這反映出對當前市場的判斷是：高波動題材不適合盲目追價，較穩健的產業更適合持有，這種配置思維在修復期特別重要。",
+      "sector": "其他",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "第三季可能沒有第二季旺，投資人要對增速放緩有心理準備",
+      "reasoning": "第二季財報多半會不錯，但第三季開始可能面臨成長放緩、零組件漲價壓力與市場情緒轉弱等問題。因此要留意後續法說對下半年展望的說法，不能只看過去成績。這個判斷有助於理解為何盤面會出現輪動快、延續性差的現象。",
+      "sector": "總經",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "地緣政治與油價上升會讓市場風險偏好持續下降",
+      "reasoning": "中東局勢不確定性、川普被局勢牽制，以及油價上升可能讓市場重新擔心通膨與聯準會政策。只要油價持續走高，市場就會重新定價風險，使得整體盤勢偏向觀望與保守。",
+      "sector": "地緣政治",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "AI 概念股雖有長線成長，但若資本支出過大而回收不如預期，估值可能再度承壓。",
+    "零組件漲價若超過客戶承受能力，可能壓縮毛利率並拖慢拉貨節奏。",
+    "高位階個股若本益比仍偏高，後續容易受到獲利了結賣壓影響。",
+    "地緣政治與油價上升可能重新推升通膨預期，增加市場波動。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "即將公布",
+      "event": "谷歌後續財報與資本支出進一步更新",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "即將公布",
+      "event": "第二季財報與法說會密集登場",
+      "tickers": [
+        "國巨",
+        "台達電",
+        "台勝科",
+        "環球晶"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "即將發酵",
+      "event": "AI 伺服器基板與零組件量產、拉貨節奏變化",
+      "tickers": [
+        "緯創",
+        "鴻海",
+        "廣達"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "即將發生",
+      "event": "矽晶圓產能受損後的供需與報價變化",
+      "tickers": [
+        "環球晶",
+        "台勝科"
+      ],
+      "source": "李兆華"
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1145｜受傷沉澱中，google自由現金流轉負，AI賺多花更多、零組件漲價受壓？資本支出慢發酵，靜待股價和基本面平衡點！ft.選股教練 陳唯泰",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/97a797b8-2184-4875-97e4-42f3c0d603bc",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "AI 資本支出持續擴大卻吃掉現金流，台股進入估值修正期，等待股價與基本面重新平衡才是正確策略。",
+      "detailedSummary": "本集主軸是台股進入修復期，盤中量縮震盪、族群輪動不連貫，顯示投資人風險偏好明顯下降。GOOGL 財報雖然表面亮眼，但調整後 EPS 低於預期，且自由現金流轉負、全年資本支出再度上調，顯示 AI 軍備競賽正快速吃掉現金流。來賓認為，AI 長線趨勢雖未被破壞，但零組件已從漲價受惠期進入毛利率拔河期，高位階個股追價勝率下降，現在應等待本益比修正後再布局。個股觀察方面，緯創 AI 基板正式量產是供應鏈正面訊號，散熱族群（奇鋐、建準、旗勝）出現止跌跡象，工業電腦（研華、振樺電、東元）則是防守型配置首選；矽晶圓（環球晶、台勝科）因義大利廠火災造成供給不確定，未來報價變化值得追蹤。",
+      "highlights": [
+        "台股尾盤雖翻紅，但量能不足、族群輪動快且延續性差，整體仍處於修復期。",
+        "GOOGL 財報調整後 EPS 低於預期，自由現金流轉負，全年資本支出再上調，AI 軍備競賽快速吞噬現金流。",
+        "谷歌加碼資本支出對台廠是中長線利多，但市場短線已出現利多鈍化，不會立刻追價。",
+        "AI 零組件從漲價受惠期進入毛利率拔河期，客戶與供應商互相議價，台達電、國巨目標價被外資下調。",
+        "緯創 AI 伺服器相關基板正式量產，量產時程確定，被視為供應鏈重要正面訊號。",
+        "散熱族群（奇鋐、建準、旗勝、雙鴻）先前修正較深，近期出現止跌與反彈跡象，本益比已明顯回落。",
+        "環球晶義大利廠火災造成矽晶圓供給不確定，後續報價與供需結構變化值得密切追蹤。",
+        "工業電腦（研華、振樺電、東元）基本面穩健，在盤勢震盪時是較好的防守型配置選項。",
+        "油價上升與中東地緣政治不確定性升高，市場重新擔憂通膨與聯準會政策，整體氣氛偏保守。",
+        "來賓強調現在操作邏輯是等待本益比修正後的平衡點，而非追高，第三季增速放緩需有心理準備。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 5
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "欣興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台勝科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群創",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "記憶體族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "設備股",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "封測股",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南亞",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "散熱族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [
+      {
+        "ticker": "國巨",
+        "bullCount": 3,
+        "bearCount": 2
+      }
+    ],
+    "sectorHeat": []
+  }
+}
