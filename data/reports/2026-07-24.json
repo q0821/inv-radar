@@ -1,0 +1,881 @@
+{
+  "date": "2026-07-24",
+  "quickDigest": [
+    "台股月線下彎+韓國去槓桿+油價逼百美元，三重壓力疊加，第三季以盤整洗籌碼為主",
+    "ABF載板（新興、南電）長線邏輯未壞，投信持續買超，近期急跌屬籌碼修正非基本面惡化",
+    "矽光子（聯亞）盤中出現低檔吃貨訊號，Q3題材仍具潛力，可視為底部籌碼整理",
+    "國巨20日跌幅達36.7%、RSI僅35，被動元件籌碼凌亂，需等龍頭止穩再考慮介入",
+    "防禦資金輪向營建（新富發、冠德）與工業電腦，短期可作為弱市避風港"
+  ],
+  "marketMood": "籌碼盤主導、基本面讓位，等利空跌不動才是真正買點",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "ＡＢＦ載板",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "長線仍然很好，近期大跌比較像股價修正而不是基本面變壞。投信仍持續買進，高盛雖調高目標價但外資賣超，籌碼面混亂而非產業面惡化。短線震盪可視為分批試單機會。",
+          "action": "加碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "高檔修正"
+    },
+    {
+      "ticker": "矽光子族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "第三季有機會開始發光發熱，前面進場被洗視為籌碼整理而非產業趨勢被破壞。若後續大盤止穩，族群有望率先恢復表現。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "聯發科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "谷歌加大資本支出，實際上把更多錢往人工智慧相關應用與供應鏈投放，聯發科是谷歌處理器開發鏈上的重要角色，屬於可持續觀察甚至逢低布局的標的。中長線受人工智慧需求推動的結構仍在。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 3750,
+        "ma20": 3890.5,
+        "ma60": 3940.08,
+        "priceVsMa20Pct": -3.6,
+        "priceVsMa60Pct": -4.8,
+        "rsi14": 46,
+        "changePct5d": 11.3,
+        "changePct20d": -3.4,
+        "volumeRatio": 1.04,
+        "currency": "TWD",
+        "asOf": "2026-07-24T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "日月光投控",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "谷歌人工智慧處理器相關供應鏈的受惠者，涉及封裝與後段測試環節。若股價因市場情緒回檔，反而提供較好的切入點。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "聯亞",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "盤中有低檔吃貨的味道，矽光子族群在弱勢盤中相對抗跌。視為族群底部逐步吸收籌碼的跡象，值得持續觀察是否延續第三季發光發熱的預期。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "新興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "ＡＢＦ四雄中較值得長線留意的標的之一，帶有較高的人工智慧成分，未來有機會持續獲得投信加碼。籌碼整理後的長線受惠者。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "南電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "投信對南電態度可能不離不棄，法人仍在族群中尋找長線布局位置。屬於長線可以慢慢觀察與分批承接的方向。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 1110,
+        "ma20": 1187.5,
+        "ma60": 991.07,
+        "priceVsMa20Pct": -6.5,
+        "priceVsMa60Pct": 12,
+        "rsi14": 49,
+        "changePct5d": -3.5,
+        "changePct20d": -1.3,
+        "volumeRatio": 0.64,
+        "currency": "TWD",
+        "asOf": "2026-07-24T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件第三季仍有漲價與缺貨背景，若投信後續停止賣出甚至轉為重新布局，股價有機會開始打底。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "一五零元上下",
+      "technicals": {
+        "currentPrice": 642,
+        "ma20": 861.45,
+        "ma60": 750.43,
+        "priceVsMa20Pct": -25.5,
+        "priceVsMa60Pct": -14.4,
+        "rsi14": 35,
+        "changePct5d": -8.2,
+        "changePct20d": -36.7,
+        "volumeRatio": 0.81,
+        "currency": "TWD",
+        "asOf": "2026-07-24T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "被動元件族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "第三季仍有漲價與缺貨的產業背景，長線不算壞。應等龍頭股止穩後再評估是否重新轉強，不宜用基本面直接追價。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台勝科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "矽晶圓因環球晶義大利廠火災遭市場錯殺，但產業本質仍向上、價格仍在調漲。台勝科若上游指標先止跌，有機會率先修復。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "合晶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "矽晶圓族群中較早轉弱、也較早進入整理的代表，目前走勢可視為領先打底指標。若合晶先完成底部整理並重新轉強，整個矽晶圓族群有機會跟著活過來。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "華新科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群第三季仍有漲價與缺貨題材，基本面未壞。目前市場偏籌碼盤，應等型態與籌碼重新整理後再觀察介入時機，不宜追價。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "和碩堂",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群中相對強勢的觀察指標，型態比國巨、信昌電與華新科更好。判斷被動元件是否真正打底，應先看此類相對強勢股能否穩住。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "信昌電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群中重要的市場指標，若能止穩或重新轉強，對整個族群信心有幫助。屬於可追蹤的族群核心。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "營建族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在第三季不明朗的盤勢裡，資金可能往營建這類相對穩定的資產停泊。市場風險偏高時，資金會先尋找防守性與現金流相對穩定的標的，營建股因此有機會成為避風港。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "新富發",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "第三季相對安全、偏防禦的標的，著墨的人少、位階相對穩定。大盤震盪與資金避風港輪動下，營建股較容易受資金青睞。若市場持續偏弱，有機會展現防守性。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "冠德",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "第三季可留意的防禦型標的，營建股在盤勢不明朗時常成為資金避風港。弱市中能維持相對穩定，對想降低波動的投資人具有吸引力。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "工業電腦族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "可作為資金避風港的族群，位階較低、題材相對穩定。在目前盤勢裡，這類防禦型題材比熱門高波動族群更有耐心等待的價值。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "巧新",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "跨入半導體供應鏈的新題材標的，著墨的人少、產業有機會，表現相對穩定。基本面與題材仍在，屬於可慢慢觀察的中長線選項。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "富鼎",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "分離式元件族群，短線跟著大盤下跌但產業需求角度未見基本面惡化，下跌偏向籌碼與市場情緒修正。後續盤勢回穩仍有機會跟著修復。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "強茂",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "分離式元件個股，目前非基本面出問題而是盤勢偏弱導致籌碼修正。市場恢復理性定價後，有實質需求支撐的個股有機會回到合理區間。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台半",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "下跌偏向籌碼與盤勢拖累而非產業邏輯被破壞。建議先等籌碼洗乾淨，再觀察是否出現新的買點。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "中美晶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "產業面未壞，可耐心等籌碼穩定的防禦與成長混合標的。大盤止穩後的族群輪動中有機會受益。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "主動式ＥＴＦ",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "今年以來部分主動式ＥＴＦ表現仍優於大盤，商品本身無問題。若投資人相信經理人能力，可接受短線震盪後再看中長線績效。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "正二",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人認為正二並非邪惡商品，從較長時間尺度看指數仍往右上角發展，適度配置並無問題。在能承受風險的前提下，屬於可接受的工具型部位。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL（短多長空分歧）",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "短線籌碼凌亂，市場偏弱時容易被當成高位階修正例子。雖然第三季被動元件仍有漲價與缺貨背景，但短線更像籌碼與情緒修正，不適合追價介入。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "一五零元上下",
+      "technicals": {
+        "currentPrice": 642,
+        "ma20": 861.45,
+        "ma60": 750.43,
+        "priceVsMa20Pct": -25.5,
+        "priceVsMa60Pct": -14.4,
+        "rsi14": 35,
+        "changePct5d": -8.2,
+        "changePct20d": -36.7,
+        "volumeRatio": 0.81,
+        "currency": "TWD",
+        "asOf": "2026-07-24T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "信昌電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "分盤交易後變得超級弱，短線籌碼與市場信心不佳。代表被動元件族群還沒有完全恢復順行，短線偏向負面觀察。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "華新科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "跟著被動元件族群一起下跌，短線並沒有恢復順行。在籌碼盤環境下，股價表現先偏弱，被市場視為修正中的標的。",
+          "action": "減碼",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "聯冒",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "前幾天相對抗跌，但今天出現跌停，較像高位階補跌而非基本面快速轉壞。大哥級標的還沒帶動族群上攻，此時不宜再追高，應先等休息與整理。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "高位階股票代表，大哥還沒有真正發動時後面個股不應跑太遠。目前盤勢下，代表高檔族群需要休息與修正，不宜追價。",
+          "action": "減碼",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 4755,
+        "ma20": 5178.5,
+        "ma60": 5067.08,
+        "priceVsMa20Pct": -8.2,
+        "priceVsMa60Pct": -6.2,
+        "rsi14": 44,
+        "changePct5d": 5.8,
+        "changePct20d": -9.5,
+        "volumeRatio": 1.07,
+        "currency": "TWD",
+        "asOf": "2026-07-24T05:30:13.000Z"
+      }
+    },
+    {
+      "ticker": "台燿",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "高位階族群中需要暫時休息的個股，非基本面惡化而是股價已跑得太遠。現階段市場重視籌碼與位階，弱市中不宜追價。",
+          "action": "減碼",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤",
+      "reason": "台股仍處於月線下彎的整理格局，短線不容易立刻形成強勢反轉。需要先看到利空持續測試後不再下跌，才算真正轉穩。上週與今日急跌接近最大跌點區間，但尚未確認轉折。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "櫃買指數",
+      "reason": "櫃買與大盤月線都已下彎，代表中小型股承受的壓力比大型股更大。反映資金短期偏向防禦與避風港，而不是追逐高波動題材。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "韓國股市",
+      "reason": "韓國政府突然提前實施槓桿型個股商品限制，成為今日全球風險情緒惡化的重要來源。短線雖很痛，但若能趕快殺完，反而有助於後續國際股市穩定。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "布蘭特原油",
+      "reason": "油價重新逼近百元以上，對目前偏弱的盤勢是麻煩。弱勢市場對通膨與原油上漲的敏感度會放大，容易成為壓力來源。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美國恐慌指數",
+      "reason": "美國恐慌指數沒有再創高，表示市場雖然情緒不好，但尚未進入全面失控的恐慌狀態。目前比較像反覆震盪與洗籌碼，而不是系統性崩盤。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "第三季台股更像盤整盤，而不是強勢上攻或直接Ｖ轉",
+      "reasoning": "大盤與櫃買月線都已下彎，市場結構本身偏弱。即使上週與今天的急跌可能已接近最大跌點區間，但在利空沒有被完全消化前，行情更可能是以盤帶整而非快速反彈。投資人應降低對短期Ｖ轉的期待，以等待止穩為優先。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場現在不是看基本面盤，而是看籌碼盤",
+      "reasoning": "目前許多個股基本面與產業面沒有明顯變壞，但股價卻因為籌碼凌亂與市場情緒偏差而大跌。投資人不能只看產業好不好，還要同時看型態與籌碼是否完成整理，才能判斷真正的買點時機。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "利空要持續測試到不再跌，市場才會真正恢復平靜",
+      "reasoning": "現在不是期待利多來救市，而是要觀察利空反覆測試後是否不再創低。市場氣氛已轉弱，投資人要等到壓力測試完成，才有機會迎來更穩定的操作環境。主動出擊不如耐心等待確認訊號。",
+      "sector": "總經",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "谷歌加大資本支出，最終是台灣人工智慧供應鏈的機會",
+      "reasoning": "從谷歌財報出發，市場不應只看到自由現金流轉負的負面面，而要看到資本支出投向人工智慧後，會有一整條供應鏈受惠。聯發科、日月光等台廠就因此被視為可能受益的環節，這是逢低布局的邏輯基礎。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "矽光子是第三季值得期待的長線主題",
+      "reasoning": "矽光子第三季有機會發光發熱，即便前面進場的人已經被洗得很辛苦，仍認為這更像是籌碼整理而非趨勢破壞。若大盤止穩，這個族群有機會先於其他題材重新吸引資金，聯亞盤中低檔吃貨即為觀察訊號。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "ＡＢＦ與被動元件的問題主要在籌碼，不在產業基本面",
+      "reasoning": "ＡＢＦ、被動元件雖然短線都大幅回檔，但產業面並沒有真的轉壞，第三季仍有漲價或需求支撐。真正造成股價劇烈波動的是高位階與市場籌碼凌亂，因此操作上應以分批與等待止穩為主，不宜追價。",
+      "sector": "其他",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "韓國急速去槓桿雖然短線很痛，但長線可能有助於市場穩定",
+      "reasoning": "韓國突然提前實施槓桿型個股商品限制，屬於制度面主動收縮過熱風險。雖然造成短線大跌，但若能把過度槓桿一次清掉，後續反而有助於整體股市止穩，是需要持續觀察的外部變數。",
+      "sector": "總經",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "油價上升在弱勢盤中會被放大成壓力來源",
+      "reasoning": "在多頭時，油價與通膨對人工智慧相關成長股影響不大，但當大盤已經偏弱時，任何風吹草動都會被市場放大。布蘭特原油重新走高，因而成為目前盤勢裡需要特別留意的外部變數。",
+      "sector": "總經",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "資金會先停泊在防禦性與位階較低的標的",
+      "reasoning": "投信近期買超集中在金融、營建、軍工等族群，代表資金正在尋找避風港。當市場不確定性升高時，資金往往先從高波動題材撤出，轉向相對穩定且籌碼較乾淨的標的，營建、工業電腦因此值得關注。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "看長不看短，才不會在洗盤中失去紀律",
+      "reasoning": "若只盯著眼前幾天的漲跌，會像身處洗衣機裡一樣非常痛苦；但若把時間拉到明年，很多人工智慧與供應鏈趨勢其實沒有改變。鼓勵投資人把視角拉長，在波動中維持部位紀律，避免在底部因恐慌而殺出。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "未來兩週仍是整理盤，過度追高容易被來回洗刷。",
+    "油價若持續走高，會在弱勢市場中放大通膨與資金緊縮壓力。",
+    "韓國槓桿型商品急速去槓桿若引發連鎖反應，可能持續壓抑國際風險偏好。",
+    "高位階題材股在沒有量能配合下，容易出現補跌與劇烈震盪。",
+    "被動元件與ＡＢＦ目前偏籌碼盤，若沒有等到止穩就追價，風險較高。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "7月31日",
+      "event": "韓國槓桿型個股商品限制提前上路",
+      "tickers": [
+        "韓國股市"
+      ]
+    },
+    {
+      "date": "未來兩週",
+      "event": "台股等待利空反覆測試後止穩",
+      "tickers": [
+        "台股大盤",
+        "櫃買指數"
+      ]
+    },
+    {
+      "date": "第三季",
+      "event": "矽光子題材可能發酵",
+      "tickers": [
+        "聯亞",
+        "矽光子族群"
+      ]
+    },
+    {
+      "date": "第三季",
+      "event": "被動元件持續觀察漲價與缺貨趨勢",
+      "tickers": [
+        "國巨",
+        "華新科",
+        "信昌電"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1146｜韓國殺招提早上路，油價又破百，要等利空測試跌不動！載板、CCL、矽晶圓看遠都很美，看近會被洗，拉長戰線能收成？ft.操盤手 黃豐凱",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/50452a4f-8c2e-4729-995b-22d1e363e704",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股月線下彎、韓國去槓桿、油價逼百美元，主持人建議拉長戰線等利空測試完，再分批布局人工智慧供應鏈與矽光子。",
+      "detailedSummary": "本集主持人與來賓操盤手黃豐凱共同分析台股現況，認為大盤與櫃買月線同步下彎，第三季行情以盤整與洗籌碼為主，短線不宜追高，應等待利空反覆測試後市場自行止穩。觸發今日盤勢惡化的外部因素包括韓國提前實施槓桿型商品限制引發去槓桿賣壓，以及布蘭特原油重新逼近百元加劇通膨疑慮，兩者在弱勢市場中均被放大。展望中長線，主持人仍看好人工智慧供應鏈的結構性機會，從谷歌資本支出擴張到聯發科、日月光，以及矽光子族群在第三季的題材發酵潛力，認為目前回檔是籌碼整理而非趨勢破壞。防禦型配置方面，建議資金可先停泊至位階較低的營建、金融、軍工與工業電腦族群，待高波動族群籌碼洗乾淨後再輪動回補。",
+      "highlights": [
+        "台股與櫃買月線同步下彎，第三季行情以盤整洗籌碼為主，不期待短線Ｖ轉。",
+        "韓國政府提前實施槓桿型個股商品限制（七月三十一日正式上路），成為今日國際風險情緒惡化的主要來源之一。",
+        "布蘭特原油重新逼近百元，弱勢盤下通膨壓力被市場放大，成為短線額外阻力。",
+        "谷歌提高資本支出被解讀為人工智慧供應鏈利多，聯發科、日月光等台廠為中長線受惠標的。",
+        "矽光子族群仍被視為第三季長線主題，聯亞盤中出現低檔吃貨訊號，籌碼整理跡象值得追蹤。",
+        "ＡＢＦ載板（新興、南電）長線邏輯未壞，近期回檔主要是籌碼與位階修正，投信持續買超可視為支撐。",
+        "被動元件（國巨、信昌電、華新科）第三季仍有漲價與缺貨背景，但籌碼凌亂，應等龍頭止穩再評估介入。",
+        "防禦型資金輪動明顯，建議先關注營建（新富發、冠德）、工業電腦等位階低、籌碼相對乾淨的族群作為短期避風港。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 5
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "記憶體族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "設備股",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "封測股",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南亞",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "散熱族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台勝科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "奇鋐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "研華",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [
+      {
+        "ticker": "國巨",
+        "bullCount": 3,
+        "bearCount": 2
+      }
+    ],
+    "sectorHeat": []
+  }
+}
