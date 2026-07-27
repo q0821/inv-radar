@@ -1,0 +1,415 @@
+{
+  "date": "2026-07-27",
+  "quickDigest": [
+    "被動元件族群止跌曙光：國巨(9910)本益比從60倍壓回30倍，信昌電(3673)尾盤急拉14%，族群資金回補訊號明確",
+    "老AI先跌先止跌：廣達(6669)近5日漲逾22%，低本益比加雲端需求，成市場震盪時避風港",
+    "選股邏輯關鍵：優先挑已回到起漲點的低位階股（如台慶科3526），迴避剛跌破季線的高位階標的",
+    "第三季旺季恐打折：漲價概念股面臨客戶延後拉貨壓力，市場焦點將轉向法說會明年展望",
+    "大盤月線季線收斂，尾盤留長下影線、量縮至窒息量，短線止跌機率上升但尚待確認"
+  ],
+  "marketMood": "急跌後低位階標的止跌跡象浮現，選股重於擇時，防守中尋機",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "9910.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件大幅修正後，估值已明顯回到較合理區間。以國巨為例，本益比從高檔的六十幾倍壓回約三十倍，若把時間拉到二〇二七年來看，隨著獲利成長，估值甚至可能進一步轉為便宜。尾盤出現明顯承接與長下影線，短線有止跌味道，但第三季仍要留意旺季不夠旺與客戶延後拉貨的風險。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "本益比約三十倍，先前高檔約六十幾倍",
+      "technicals": {
+        "currentPrice": 69.2,
+        "ma20": 68.07,
+        "ma60": 72.13,
+        "priceVsMa20Pct": 1.7,
+        "priceVsMa60Pct": -4.1,
+        "rsi14": 48,
+        "changePct5d": 1.5,
+        "changePct20d": -2,
+        "volumeRatio": 0.54,
+        "currency": "TWD",
+        "asOf": "2026-07-27T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "3673.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "信昌電在尾盤被大單拉升，顯示有資金願意在低檔接手。屬於先前已跌深、未來性仍在的標的，若本益比已修正到低位階，反而適合新資金承接。尾盤作價代表短線止跌訊號相對明顯。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "尾盤拉升約一成四",
+      "technicals": {
+        "currentPrice": 61.4,
+        "ma20": 72.75,
+        "ma60": 75.69,
+        "priceVsMa20Pct": -15.6,
+        "priceVsMa60Pct": -18.9,
+        "rsi14": 33,
+        "changePct5d": -1.6,
+        "changePct20d": -19.7,
+        "volumeRatio": 0.5,
+        "currency": "TWD",
+        "asOf": "2026-07-27T05:30:28.000Z"
+      }
+    },
+    {
+      "ticker": "6187.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "華容在盤中一度攻上漲停，屬於被動元件族群中相對有表現的個股。族群經過大幅修正後，已開始出現資金回補與低位階反彈的跡象，這類先前跌深的標的可能率先反應。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "3526.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台慶科屬於先前已經修正到起漲點附近的低位階標的，比高位階剛跌破季線的股票更適合搶反彈。本益比相對已壓回，尾盤也有明顯拉升，若能守住約二一〇附近的起漲支撐，後續仍有機會。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "約二一〇為起漲支撐"
+    },
+    {
+      "ticker": "6669.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "老 AI 族群先跌先止跌，廣達在前期大跌後近期表現相對抗跌，屬於資金避風港的一環。公司體質較穩、又有未來性，當市場風險偏高時容易吸引資金回流。低本益比與題材延續下，短中期仍偏正向。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "年線附近",
+      "technicals": {
+        "currentPrice": 5745,
+        "ma20": 5107,
+        "ma60": 5115.42,
+        "priceVsMa20Pct": 12.5,
+        "priceVsMa60Pct": 12.3,
+        "rsi14": 65,
+        "changePct5d": 22.6,
+        "changePct20d": 25.4,
+        "volumeRatio": 1.14,
+        "currency": "TWD",
+        "asOf": "2026-07-27T05:30:15.000Z"
+      }
+    }
+  ],
+  "bearishSignals": [],
+  "monitorSignals": [],
+  "keyInsights": [
+    {
+      "insight": "被動元件族群的長線估值已回到較合理區間，現在看的是二〇二七年的獲利想像。",
+      "reasoning": "以國巨為例，股價從高檔大幅回檔後，本益比已從六十幾倍降到約三十倍，對短線看起來仍不算便宜，但若把估值放到二〇二七年來看，因獲利成長，實際本益比會再下降。現在的重點不是過去的高估值，而是未來兩到三年的成長能否兌現。",
+      "sector": "被動元件",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "高位階剛跌破季線的股票，和已跌到起漲點附近的股票，風險報酬完全不同。",
+      "reasoning": "剛從高點轉弱的標的最難買，因為市場還在消化下修壓力；相對地，若股價已回到前波起漲點，技術面與心理面支撐都更明顯。這套邏輯直接影響操作上應該優先挑選的對象。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "第三季可能出現旺季不夠旺，但真正的關鍵是明年展望是否仍然強。",
+      "reasoning": "部分漲價概念股已遇到客戶吃不消、延後拉貨的情況，這會讓第三季傳統旺季打折，形成短期壓力。但市場會在法說會中重新看向明年，只要明年成長趨勢沒有被大幅下修，股價回檔反而可能是重新定價的契機。",
+      "sector": "總經",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "老 AI 族群因為先跌，反而率先出現止跌與資金回流跡象。",
+      "reasoning": "廣達、鴻海、神達等老 AI 標的在前段已大幅修正，近期反而較抗跌，屬於市場風險提高時的避風港。雖然毛利率不高，但低本益比加上仍有雲端與伺服器需求，讓它們成為資金重新配置的去處。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台股大盤的月線與季線正在收斂，若量能配合，可能形成下一段攻擊的基礎。",
+      "reasoning": "先前大盤正乖離過大，這次修正後乖離已被消化，月線、季線與短均線正在靠攏。雖然技術面目前偏弱，但若權值股配合量能拉抬，指數很快就可能重新站回月季線，形成較穩定的多頭結構。",
+      "sector": "總經",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "資金管理比預測對錯更重要，先停利、留現金、必要時做避險，才能活得久。",
+      "reasoning": "這一波很多人都在回吐，差別只在於是否及早把資金收回。來賓的做法是跌破重要均線就減碼，主持人則強調現金與保守性商品的重要性，認為在情緒不穩時不該硬買。這是一套偏防守的操作框架。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "第三季可能出現旺季不夠旺的情況，部分漲價概念股面臨客戶延後拉貨的壓力。",
+    "高位階剛跌破季線的股票風險仍高，短線容易持續轉弱，不適合貿然追價。",
+    "若槓桿過高，回檔時可能引發斷頭壓力，必須先降低部位風險。",
+    "被動元件雖已大幅修正，但若未來獲利不如預期，估值仍可能再被調整。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "近期",
+      "event": "被動元件族群後續法說會與明年展望更新",
+      "tickers": [
+        "9910.TW",
+        "3673.TW",
+        "6187.TW",
+        "3526.TW"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "老 AI 與設備股的法說會與營收公告",
+      "tickers": [
+        "6669.TW",
+        "2317.TW",
+        "2330.TW"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "大盤是否重新站回月線與季線，確認尾盤止跌延續性",
+      "tickers": [
+        "加權指數"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1147｜算窒息量嗎？信昌電急拉，大戶今日尾盤敲單的邏輯？被動元件曙光，CPO、老AI先跌先止跌，設備內外資都升評？ft.冠軍操盤手 楊雲翔",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/1486f522-2278-477b-b395-a9430dbd6dd2",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "大盤急跌後誰最值得接？主持人與冠軍操盤手帶你找低位階止跌股，被動元件與老 AI 成焦點。",
+      "detailedSummary": "本集主軸是大盤急跌後的應對策略，主持人李兆華與來賓冠軍操盤手楊雲翔一致認為，短線雖仍偏震盪，但不少個股已出現長下影線與尾盤大單承接，代表資金開始主動尋找低位階標的。被動元件族群是本集最核心的討論標的，以國巨為例，本益比已從高峰的六十幾倍壓回約三十倍，若以二〇二七年的獲利預期來看，估值甚至可能轉為具吸引力；信昌電、華容、台慶科在盤中或尾盤均出現強勢表現，族群回補跡象明確。老 AI 方面，廣達、鴻海、神達因先跌先止跌，被視為市場震盪時的相對避風港，低本益比加上雲端伺服器需求未退，讓資金有重新配置的理由。策略層面，來賓強調應迴避高位階剛跌破季線的股票，優先關注已回到前波起漲點的標的；主持人則提醒槓桿過高者應先降部位，並以市值型指數與現金配置作為底倉，等待大盤重回月線、季線後再積極佈局。",
+      "highlights": [
+        "大盤盤中一度重挫，但尾盤拉回並留下長下影線，量能萎縮至窒息量，主持人與來賓認為短線有止跌味道。",
+        "被動元件族群經過大幅修正，國巨本益比從六十幾倍降至約三十倍，以二〇二七年獲利展望來看估值已具吸引力。",
+        "信昌電尾盤爆量拉升約一成四，華容盤中攻上漲停，台慶科守在起漲點附近，族群資金回補跡象明確。",
+        "老 AI 如廣達、鴻海、神達先跌先止跌，低本益比加上雲端伺服器需求撐腰，成市場震盪時資金避風港。",
+        "設備與廠務工程股因台積電擴廠與資本支出持續高檔，內外資同步升評，仍為長線觀察重點。",
+        "第三季旺季可能打折，部分漲價概念股面臨客戶延後拉貨壓力，市場目光將轉向法說會的明年展望。",
+        "台股大盤月線、季線正在收斂，若權值股配合量能，指數有機會快速重新站回均線形成多頭結構。",
+        "主持人強調資金管理優先於預測對錯，建議槓桿過高者先降部位，心態受傷者回到市值型指數與現金配置。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 5
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "台勝科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "記憶體族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "設備股",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "封測股",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南亞",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "新興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "矽光子族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "散熱族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "奇鋐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "研華",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯亞",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [
+      {
+        "ticker": "國巨",
+        "bullCount": 4,
+        "bearCount": 3
+      },
+      {
+        "ticker": "台光電",
+        "bullCount": 2,
+        "bearCount": 2
+      }
+    ],
+    "sectorHeat": []
+  }
+}
