@@ -1,0 +1,653 @@
+{
+  "date": "2026-07-29",
+  "quickDigest": [
+    "台股跌破4萬點：融資維持率逼近130%危險區間，去槓桿尚未完成，中小型股流動性枯竭",
+    "2330.TW成雙KOL共識避風港：台積電相對抗跌，七月法說會展望未變，仍是AI多頭核心錨點",
+    "NVDA、AMD估值反轉邏輯：AI核心股大跌後比次級題材股更便宜，CPU需求也將隨AI工作流拆分受惠",
+    "韓國去槓桿警示：跌幅逾四成但融資僅減一成，海力士財報亮眼卻重挫，利多不漲成警訊",
+    "聯準會指引與美股財報週是關鍵：道瓊新高vs費城半導體重挫，板塊脫鉤非景氣崩壞，觀察止穩訊號"
+  ],
+  "marketMood": "籌碼與情緒雙重崩解，基本面未壞卻無差別下殺，靜待出清而非猜底",
+  "totalSources": 2,
+  "bullishSignals": [
+    {
+      "ticker": "2330.TW",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "台積電相較中小型股跌幅明顯較小，在市場劇震時扮演定海神針角色，已把主要部位轉向台積電作為資金停泊與防守配置。",
+          "action": "無",
+          "confidence": "medium"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "台積電仍是最重要的 AI 指標股，七月法說會內容支撐長線展望，只要成長軌跡未改變，整個 AI 產業鏈多頭就不會被破壞，相對大盤抗跌。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "相對大盤抗跌，接近半年線，未提具體價位",
+      "technicals": {
+        "currentPrice": 2200,
+        "ma20": 2394,
+        "ma60": 2348.67,
+        "priceVsMa20Pct": -8.1,
+        "priceVsMa60Pct": -6.3,
+        "rsi14": 35,
+        "changePct5d": -8.3,
+        "changePct20d": -12.2,
+        "volumeRatio": 2.22,
+        "currency": "TWD",
+        "asOf": "2026-07-29T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "台指期",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "當市場方向不明、個股型態普遍轉弱時，集中風險較低的指數部位比在滿地雷區中挑股更合理，反彈後考慮加碼。",
+          "action": "加碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "NVDA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "市場把 NVDA 視為 AI 供應鏈最重要的核心資產，這波修正後估值反而比許多次級題材股更合理，甚至偏低。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "被視為相對便宜的基準標的",
+      "technicals": {
+        "currentPrice": 196.51,
+        "ma20": 203.53,
+        "ma60": 208.72,
+        "priceVsMa20Pct": -3.4,
+        "priceVsMa60Pct": -5.9,
+        "rsi14": 42,
+        "changePct5d": -3.3,
+        "changePct20d": 2.1,
+        "volumeRatio": 0.96,
+        "currency": "USD",
+        "asOf": "2026-07-28T20:00:00.000Z"
+      }
+    },
+    {
+      "ticker": "AMD",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "AI 伺服器並非只有純 GPU 架構，周邊通用伺服器與處理器的追加需求上升，AMD 是 CPU 需求增加下的受惠者之一。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 494.95,
+        "ma20": 531.73,
+        "ma60": 492.05,
+        "priceVsMa20Pct": -6.9,
+        "priceVsMa60Pct": 0.6,
+        "rsi14": 45,
+        "changePct5d": -1.7,
+        "changePct20d": -5.1,
+        "volumeRatio": 1.32,
+        "currency": "USD",
+        "asOf": "2026-07-28T20:00:01.000Z"
+      }
+    },
+    {
+      "ticker": "INTC",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "AI 工作流分工架構演進將讓中央處理器需求逐步增加，英特爾有機會受惠，目前尚未完全在財報或產業敘事中反映。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 91.67,
+        "ma20": 108.96,
+        "ma60": 114.18,
+        "priceVsMa20Pct": -15.9,
+        "priceVsMa60Pct": -19.7,
+        "rsi14": 37,
+        "changePct5d": -5.6,
+        "changePct20d": -28.6,
+        "volumeRatio": 1.33,
+        "currency": "USD",
+        "asOf": "2026-07-28T20:00:01.000Z"
+      }
+    },
+    {
+      "ticker": "ASML",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "只要先進製程仍受設備技術卡位，ASML 的技術壟斷地位與戰略價值就不容易被取代，中國自製替代方案短期難以撼動。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 1655.26,
+        "ma20": 1791.73,
+        "ma60": 1702.95,
+        "priceVsMa20Pct": -7.6,
+        "priceVsMa60Pct": -2.8,
+        "rsi14": 41,
+        "changePct5d": -4.8,
+        "changePct20d": -7.8,
+        "volumeRatio": 1.42,
+        "currency": "USD",
+        "asOf": "2026-07-28T20:00:00.000Z"
+      }
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "中小型股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "型態已全壞、流動性被抽乾，追高或抄底都容易受傷。跌幅極深但成交量不出、跌停頻繁，市場還沒完成換手，反彈也會先遇到解套賣壓。",
+          "action": "減碼",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "多數已跌回四到五月區間"
+    },
+    {
+      "ticker": "槓桿部位",
+      "consensus": "KOL 共識",
+      "sources": [
+        {
+          "kol": "謝孟恭",
+          "reason": "近期市場波動過大、跌停與流動性風險升高，高槓桿即使沒立刻斷頭，也會在心理與資金壓力上先被擊穿，已大幅降低自身槓桿。",
+          "action": "減碼",
+          "confidence": "high"
+        },
+        {
+          "kol": "李兆華",
+          "reason": "高槓桿與反覆攤平會放大回檔痛苦，容易讓部位越來越重，建議先去槓桿再等待止穩訊號。",
+          "action": "減碼",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "個人承受上限約一點三倍以下"
+    },
+    {
+      "ticker": "韓國股市",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "韓國股市正處於極端去槓桿狀態，融資減少比例遠低於跌幅，真正的風險清洗還沒完成。市場存在逆勢加碼攤平文化，去槓桿過程更拖長，短線情緒偏負面。",
+          "action": "減碼",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "指數自高點回檔約四成以上"
+    },
+    {
+      "ticker": "海力士相關概念股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "海力士財報雖然亮眼，卻仍出現劇烈下跌，顯示市場在悲觀氣氛下不看基本面、先砍股票。成長斜率放緩讓超級績優生反而更容易被挑剔，韓國去槓桿與融資緊縮持續發酵。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤",
+      "reason": "台股一度跌破四萬點，市場進入趕底與去槓桿觀察期。個股普遍跌回五月初附近，流動性被抽乾、幾乎沒有明確避風港。短線較可能先盤整橫盤，反彈時也會先遇到大量解套賣壓。融資維持率已接近危險區間，需持續觀察融資清洗是否足夠以及是否出現止跌量能。",
+      "mentionedBy": [
+        "謝孟恭",
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "櫃買指數",
+      "reason": "從高點快速下殺、跌幅已接近全年區間大部分，反映中小型股族群遭到全面性修正。這不是單一族群問題，而是市場整體風險偏好下降導致高估值與高題材標的全面補跌。短期若沒有重大利多，型態修復需要時間；需觀察成交量是否放大、跌停是否打開。",
+      "mentionedBy": [
+        "謝孟恭"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美股四大指數",
+      "reason": "美股出現明顯板塊脫鉤：道瓊接近歷史新高，但費城半導體指數已大幅回檔，顯示目前是類股輪動與資金避險，非全面性景氣崩壞。若美股在超級財報週後能率先止穩，台股與韓股也有機會跟著修復情緒。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "金融股",
+      "reason": "在電子與半導體承壓時，台股資金暫時流向金融股避風港，代表市場先躲風險而非全面撤離股市。若真進入空頭，金融股不一定完全免疫，但目前相對抗跌顯示資金偏向停泊。需觀察市場風險偏好是否回升或大盤止穩。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "記憶體族群",
+      "reason": "威剛財報雖好，但股價沒有在開盤立即反應，反而到尾盤才出現特定資金拉抬；海力士與相關記憶體概念股也受去槓桿與情緒影響，短線波動極大。族群有基本面支撐，但當下仍受盤勢拖累，法說會後市場重新評價基本面為關鍵觀察點。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "這一波修正的核心問題不是單一利空，而是市場流動性與風險偏好同時崩解",
+      "reasoning": "謝孟恭觀察到許多個股雖跌得很深，但成交量沒有同步放大，代表不是傳統意義上的恐慌出清，而是大家都抱著部位不肯認輸。這種情況讓市場看起來跌得很兇，卻一直殺不出真正的大量換手，修復時間因此被拉長。李兆華則從基本面角度補充：台積電、海力士、康寧、威剛等財報都不差，股價仍下跌，正說明股價與基本面出現明顯脫鉤，主要是情緒與籌碼面失控所致。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "現在最重要的不是猜底，而是先把部位縮到不影響生活的程度，先整理情緒再整理持股",
+      "reasoning": "謝孟恭分享自己過去部位過大時會影響睡眠、食慾與情緒，因此把重心放在降低槓桿、降低單一持股比重，強調投資應以可承受波動為前提。李兆華也同樣強調，面對股災時第一步不是急著買賣，而是先處理焦慮與恐慌情緒，再去槓桿、清理沒有基本面的標的，最後等訊號明確再分批進場。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台積電仍是判斷 AI 多頭是否延續的核心指標",
+      "reasoning": "李兆華把台積電視為最重要的 AI 指標股，認為只要台積電成長軌跡沒有改變，整個 AI 產業鏈長線就不會被破壞。謝孟恭也將台積電視為 AI 供應鏈中相對便宜的核心資產，並把主要部位轉向台積電。兩位 KOL 共同以台積電作為判斷市場多空的錨定標的。",
+      "sector": "半導體",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 核心標的未必真的貴，反而可能是市場裡最合理的定價",
+      "reasoning": "謝孟恭重新檢視估值後發現，台積電、NVDA 等 AI 核心公司在大跌後反而比許多次級題材股更便宜，讓他懷疑過去大家認為核心資產昂貴的共識，可能只是相對比較下的錯覺，真正要被調整的是整體市場估值水位。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "AI 的需求不只在 GPU，CPU 與通用伺服器也會一起受惠",
+      "reasoning": "謝孟恭從 AI 工作流、代理型 AI 與資料中心分工切割的角度推論，未來並非所有運算都塞在同一顆晶片上。當工作被拆分後，通用伺服器與中央處理器會承接一部分負載，AMD 與 INTC 等相關供應鏈不應被忽視。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "聯準會會議結果可能成為市場止跌的關鍵觀察點",
+      "reasoning": "謝孟恭認為這一波下跌雖未必主要由升息預期引發，但若聯準會表態能讓市場穩住，代表先前下跌是過度擔心政策風險；若結果沒有穩住盤勢，市場可能把更多原因回推到總經與資金面壓力。李兆華也指出美股超級財報週與聯準會指引是台股能否跟著修復的關鍵。",
+      "sector": "貨幣政策",
+      "timeHorizon": "short",
+      "source": [
+        "謝孟恭",
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "現在的盤勢比較像先跌深再盤整，而不是直接快速 V 轉",
+      "reasoning": "謝孟恭用價格型態判斷，認為跌得越深、上方壓力越多，越不容易直接回到前高。他預期若後續有反彈，也可能先走一段橫盤整理，等市場信心重新建立後再慢慢推升。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "美股目前不是全面轉空，而是板塊輪動與資金避險並存",
+      "reasoning": "李兆華指出道瓊接近歷史新高、標普五百相對穩定，但費城半導體卻已大幅修正，這種多空不同向更像是產業與資金的輪動，非景氣反轉。若這只是短期避險，美股率先止穩後，台股與韓股的壓力也有機會下降。",
+      "sector": "總經",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "韓國去槓桿不是單純跌完就結束，融資清洗可能比市場想像更慢",
+      "reasoning": "李兆華提到韓國股市雖跌幅極深，但融資減少幅度只有約一成多，遠低於指數修正幅度，代表去槓桿並未真正完成。加上韓國投資人逆勢加碼與攤平的風氣，讓這波風險清理可能拉得更長，對相關族群的情緒壓力也更大。",
+      "sector": "金融",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "超級績優生也可能因為太好而讓市場失去驚喜，成長斜率放緩就會被挑剔",
+      "reasoning": "李兆華用海力士舉例，指出其毛利率雖連續創高，但成長斜率已開始放緩，市場在悲觀環境下會從欣賞創高轉為挑剔變平。當公司已經太強、太成熟時，股價反而需要更大的驚喜才能持續上漲，否則容易被情緒與估值壓力打壓。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場會先懲罰最脆弱的族群，但最終可能連避風港標的也會補跌",
+      "reasoning": "謝孟恭提到前一段時間市場把某些族群視為避風港，資金擠進去後，後續就開始補跌。這表示當整體風險偏好下降時，資金會先集中在少數強勢標的，但一旦這些標的也撐不住，市場就會再往更深處重新定價。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "中國自製深紫外光與記憶體替代方案的衝擊，關鍵在於美國政府是否放行",
+      "reasoning": "謝孟恭認為中國即使有能力做出部分替代製程或記憶體產品，真正決定市場衝擊大小的不是技術本身，而是美國是否開放終端客戶採用。若美方封鎖持續，影響有限；若美方開門，才可能引發新一輪供給傾銷與價格戰。",
+      "sector": "地緣政治",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "高槓桿在目前波動環境下風險極高，可能造成心理與資金雙重壓力。",
+    "中小型股雖然估值看起來便宜，但型態已壞、流動性不足，容易持續補跌。",
+    "即使是核心 AI 標的，也可能在市場重新定價過程中再度承壓。",
+    "若美國政策對中國供應鏈開綠燈，可能放大半導體與記憶體族群的競爭壓力。",
+    "大盤融資維持率已降到偏危險區間，若再失控可能引發更多追繳。",
+    "中小型熱門題材股與處置股仍可能面臨最後一波趕底壓力。",
+    "財報好不代表股價會漲，當前市場對利多的容忍度很低。",
+    "高槓桿與反覆攤平會放大回檔痛苦，容易讓部位越來越重。",
+    "若美股或聯準會指引再度轉弱，台股與韓股可能續受壓抑。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "今晚",
+      "event": "觀察融資數據是否持續有效下降",
+      "tickers": [
+        "台股大盤"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "近期",
+      "event": "聯準會會議結果公布，觀察政策指引是否能穩住市場",
+      "tickers": [
+        "台股大盤",
+        "2330.TW",
+        "NVDA"
+      ],
+      "source": "謝孟恭"
+    },
+    {
+      "date": "近期",
+      "event": "市場是否出現止跌量與跌停打開，確認底部訊號",
+      "tickers": [
+        "台股大盤",
+        "櫃買指數"
+      ],
+      "source": "謝孟恭"
+    },
+    {
+      "date": "超級財報週期間",
+      "event": "美股財報與聯準會指引是否能帶動止穩，進而帶動台股與韓股情緒修復",
+      "tickers": [
+        "美股四大指數"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "七月法說會後續",
+      "event": "持續檢視台積電對 AI 需求與擴廠展望，驗證長線多頭是否延續",
+      "tickers": [
+        "2330.TW"
+      ],
+      "source": "李兆華"
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "謝孟恭",
+      "episode": "EP683 | 🚑",
+      "episodeLink": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/067686d8-d739-40ff-bbb9-5d2e7558b6ee",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "台股中小型股全面潰敗，謝孟恭選擇降槓桿退守台積電與指數，靜待市場出清後再重新佈局。",
+      "detailedSummary": "本集幾乎全面圍繞在台股與美股的劇烈回檔，主持人認為這不是單一族群的修正，而是流動性、槓桿與風險偏好一起崩掉，導致中小型股與高估值標的全面受傷。他目前偏向降低槓桿、縮小單一持股比重，並把配置重心放回台積電、台指期與較核心的 AI 標的（NVDA、AMD、INTC）。他提出反直覺觀點：AI 核心標的在大跌後反而比次級題材股更便宜，估值更合理。主持人認為盤勢比較像先跌深再盤整，不適合貪刀與重壓；聯準會會議結果與市場是否出現止跌量，是短線最關鍵的觀察點。此外，他也提醒中國自製深紫外光與記憶體替代方案的衝擊，最終取決於美國政策是否放行。",
+      "highlights": [
+        "主持人直言這一波台股與中小型股修正非常嚴重，市場流動性明顯抽乾，成交量無法同步放大是最大警訊。",
+        "他多次強調降低槓桿與縮小單一持股比重，認為這比猜底更重要，個人承受上限約一點三倍以下。",
+        "主持人把資金重心轉向台積電與台指期，視其為相對穩定的防守配置與資金停泊選擇。",
+        "他重新檢視 AI 相關估值，發現台積電、NVDA 等核心標的在大跌後反而比許多次級題材股更便宜，估值更合理。",
+        "他看好 AI 資料中心對 CPU 與通用伺服器的長期需求，AMD 與 INTC 皆有機會受惠。",
+        "主持人認為聯準會會議與市場是否出現止跌量，是短線最關鍵的觀察點，後市先盤整再慢慢修復。",
+        "他警告中國自製深紫外光與記憶體替代方案的衝擊，最終取決於美國是否開放終端客戶採用。",
+        "他認為盤勢比較像先跌深再整理，短期不太可能直接快速 V 轉，反彈時需提防大量解套賣壓。"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1149｜測試4萬大關，獲利都吐光的一天？大盤融資維持率再降，整理股票，更整理心情！財報都超好，為何只反應利空？ft.型男股神 陳威良",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/addeb950-30b8-47c6-839c-e9087445fc3d",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "台股跌破四萬點、融資維持率亮紅燈，李兆華與來賓強調基本面未壞，但籌碼與情緒先行崩潰，建議先整理心情再整理持股。",
+      "detailedSummary": "本集核心在於：台股已進入明顯的趕底與去槓桿階段，大盤一度跌破四萬點，融資維持率接近危險區間，跌勢主要來自情緒與籌碼，而非基本面全面轉壞。主持人與來賓以台積電、海力士、威剛等財報仍強勁但股價照跌為例，說明當前市場「利多不漲」的特殊格局。韓國股市被視為去槓桿壓力最明顯的案例，融資清洗進度遠不足，警示台股投資人。美股道瓊強、費城半導體弱的板塊脫鉤現象，則顯示資金在輪動而非全面撤退。節目建議操作上先處理情緒與持股結構，清理高槓桿與弱基本面標的，再等待台積電與大盤出現明確止穩訊號後分批進場。",
+      "highlights": [
+        "台股一度跌破四萬點，市場正式進入趕底與去槓桿觀察期，融資維持率接近一百三十趴危險區間。",
+        "主持人與來賓都認為基本面沒有真正轉壞，台積電、海力士、威剛財報仍強，主要是情緒與籌碼面失控造成無差別下殺。",
+        "台積電仍被視為 AI 多頭最關鍵的核心指標股，只要七月法說會展望未變，長線多頭結構不被破壞。",
+        "美股出現道瓊強、費城半導體弱的脫鉤現象，顯示資金正在輪動避險，而非全面景氣崩壞。",
+        "韓國股市成為去槓桿壓力最典型的案例：跌幅極深但融資減少比例僅約一成多，風險清洗遠未完成。",
+        "海力士財報亮眼但股價劇跌，揭示「超級績優生在氣氛悲觀時反而因成長斜率放緩被挑剔」的市場邏輯。",
+        "威剛法說財報好，但開盤未立即反應，尾盤才被特定資金拉抬，凸顯記憶體族群短線仍受盤勢拖累。",
+        "操作建議：先處理情緒→去槓桿→清理無基本面標的→等止穩訊號分批進場，比看到下跌就追買更安全。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "台勝科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "設備股",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "封測股",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南亞",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "新興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "矽光子族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "散熱族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "奇鋐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "研華",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯亞",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [
+      {
+        "ticker": "國巨",
+        "bullCount": 4,
+        "bearCount": 3
+      }
+    ],
+    "sectorHeat": []
+  }
+}
