@@ -1,0 +1,432 @@
+{
+  "date": "2026-07-30",
+  "quickDigest": [
+    "聯電(2303)法說優預期、融資洗牌，成熟製程族群指標地位確立，但技術面仍低於均線逾23%",
+    "載板雙雄(6449、3037)率先衝漲停，下半年供需缺口擴大邏輯完整，中長線布局邏輯仍在",
+    "台達電(2308)年線附近出現量能承接跡象，電源AI零組件族群是否止穩為後市關鍵觀察點",
+    "金融股與和泰車為資金避風港，震盪盤中官股金控相對抗跌，汽車旺季題材延續",
+    "市場核心問題是去槓桿非基本面，建議等爆量確認方向後再分批布局，勿急抄底"
+  ],
+  "marketMood": "去槓桿壓力未退、好財報照跌，資金選擇性卡位先行股，落底前夕保守觀望",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "2303",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "聯電法說成績不錯，上半年獲利表現優於市場預期，且下半年展望被認為會比上半年更好。今日一度拉到漲停，顯示成熟製程族群指標意義，融資大幅減少、籌碼經過清洗，後續成熟製程族群若續強，聯電很可能是優先觀察標的。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 110,
+        "ma20": 143.15,
+        "ma60": 136.6,
+        "priceVsMa20Pct": -23.2,
+        "priceVsMa60Pct": -19.5,
+        "rsi14": 35,
+        "changePct5d": -20.6,
+        "changePct20d": -33.5,
+        "volumeRatio": 2.83,
+        "currency": "TWD",
+        "asOf": "2026-07-30T05:30:03.000Z"
+      }
+    },
+    {
+      "ticker": "6449",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "新興前一天公布半年報，上半年獲利超乎市場預期，載板產業下半年缺口將逐步擴大、明年缺口可能更明顯。雖然短線漲多後已有修正，但財報與產業供需改善的邏輯仍在，中長線機會依然存在。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 191.5,
+        "ma20": 277.45,
+        "ma60": 317.27,
+        "priceVsMa20Pct": -31,
+        "priceVsMa60Pct": -39.6,
+        "rsi14": 28,
+        "changePct5d": -24.3,
+        "changePct20d": -43.1,
+        "volumeRatio": 0.69,
+        "currency": "TWD",
+        "asOf": "2026-07-30T05:30:06.000Z"
+      }
+    },
+    {
+      "ticker": "3037",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板雙雄盤初率先拉到漲停，雖然漲停後來被打開，但能在族群中最早表態，代表資金對載板未來供需缺口擴大的題材仍有買單。先於同族群其他個股領漲，未來族群反攻時可能持續吸引資金。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 716,
+        "ma20": 848.05,
+        "ma60": 914.8,
+        "priceVsMa20Pct": -15.6,
+        "priceVsMa60Pct": -21.7,
+        "rsi14": 38,
+        "changePct5d": -20.1,
+        "changePct20d": -26.9,
+        "volumeRatio": 2.07,
+        "currency": "TWD",
+        "asOf": "2026-07-30T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "2308",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台達電技術面雖仍屬空頭，但已先於大盤起跌，近期有出量並出現有人接手的跡象值得留意。若量價結構止穩，可能先走橫盤打底再醞釀反彈，是電源與相關零組件族群的指標性公司。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "1500元為市場討論區間",
+      "technicals": {
+        "currentPrice": 1530,
+        "ma20": 1816.5,
+        "ma60": 2056.67,
+        "priceVsMa20Pct": -15.8,
+        "priceVsMa60Pct": -25.6,
+        "rsi14": 31,
+        "changePct5d": -18.6,
+        "changePct20d": -22.3,
+        "volumeRatio": 2.39,
+        "currency": "TWD",
+        "asOf": "2026-07-30T05:30:08.000Z"
+      }
+    },
+    {
+      "ticker": "2317",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "鴻海在盤中大多時間維持在平盤之上，整體呈現有人在低接、具備承接力道的訊號。在盤勢不穩時仍能守住相對強勢的位置，若市場情緒改善，有機會成為領頭羊，適合先列入觀察名單等待確認止跌後再布局。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 229.5,
+        "ma20": 240.95,
+        "ma60": 254.96,
+        "priceVsMa20Pct": -4.8,
+        "priceVsMa60Pct": -10,
+        "rsi14": 38,
+        "changePct5d": -10.9,
+        "changePct20d": -4,
+        "volumeRatio": 1.65,
+        "currency": "TWD",
+        "asOf": "2026-07-30T05:30:03.000Z"
+      }
+    }
+  ],
+  "bearishSignals": [],
+  "monitorSignals": [
+    {
+      "topic": "市場整體資金與風險偏好",
+      "reason": "盤勢核心問題在資金緊縮、去槓桿與市場情緒尚未止穩。雖盤中曾出現反彈，但缺乏量能與延續性，市場仍偏保守。短線不宜急著抄底，應等待爆量長紅或爆量大黑Ｋ確認方向後再分批布局。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "金融股",
+      "reason": "金融類股在盤勢動盪時扮演資金避風港，今日金融指數表現相對強勢。官股與民營金控如合庫金、兆豐金、華南金、第一金、玉山金、中信金、台新金、元大金等相對抗跌，反映資金在高波動環境下傾向流向防禦型標的。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "汽車類股",
+      "reason": "汽車類股近期相對強勢，和泰車連續上漲，理由與民俗月前後車廠常見促銷活動有關，包括低頭款、低利率、零利率與交車送家電等。八月與九月通常是車市營收較有表現的時間點，短線可持續觀察。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "目前盤勢的核心不是基本面，而是去槓桿與資金面壓力",
+      "reasoning": "市場正處於資金緊縮、融資退場與風險偏好下降的階段。即使財報好，也可能因為資金不想追價而下跌，因此短線更應觀察量能、融資變化與市場情緒是否止穩，而非單純看公司財報判斷強弱。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "抄底不如等條件確認，資金應分批慢慢打",
+      "reasoning": "市場若仍在下跌趨勢中，每天都可能有更低點，強行摸底容易買在暫時低點卻不是波段低點。比較好的方式是等待賣壓明顯減少、價格不再破低後，再以分批方式進場，承擔較高的確定性而非追求最低價。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場仍會獎勵先出量、先表態的強勢股",
+      "reasoning": "盤面雖弱，但最先止跌、最先放量、最先拉升的個股，往往代表有資金在卡位。當未來行情真正落底時，這些先行股最容易成為族群領頭羊，因此觀察重點不只是跌深股，而是跌深後率先轉強的標的。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "財報好的股票不一定立刻漲，但評價會回到更健康的區間",
+      "reasoning": "近期市場對財報的反應很不一致，甚至出現好財報照跌、業外認列也照跌的現象，反映短線情緒遠大於基本面。從中長線角度看，這種修正會讓股價回到較合理的估值區間，反而有利未來重新啟動一輪更健康的漲勢。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "融資維持率與政府態度顯示，市場仍在發酵而非全面失序",
+      "reasoning": "融資維持率的統計方式近期引發市場關注，官方口徑與部分民間統計差異很大，但實際上已有不少個股先行斷頭與洗籌碼。政府刻意提醒去槓桿風險，代表政策壓力仍在發酵，只是尚未完全反映完畢。",
+      "sector": "總經",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "大型權值股與高評價個股的修正，反映市場對資本支出與自由現金流更挑剔",
+      "reasoning": "以微軟、Meta 與環球晶的案例說明，市場現在對資本支出與現金流的標準非常嚴格，不再只看營收或每股盈餘的漂亮數字。若公司擴大資本支出卻看不到對應回報，市場就會先給壓力；能控制支出、維持自由現金流的公司更容易獲得追捧。",
+      "sector": "其他",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "融資退場與去槓桿仍在發酵，若市場再度破底，可能引發更多追繳與斷頭賣壓。",
+    "高評價個股若沒有量能與資金承接，即使基本面不差，也可能持續承壓。",
+    "財報與業外認列容易造成單日劇烈波動，投資人不能只看標題就下結論。",
+    "短線搶反彈若沒有紀律，容易買在暫時低點卻不是波段低點，風險很高。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "未明確提及",
+      "event": "觀察是否出現爆量長紅或爆量大黑Ｋ，以確認市場方向",
+      "tickers": [
+        "市場整體"
+      ]
+    },
+    {
+      "date": "未明確提及",
+      "event": "民俗月促銷與八、九月車市旺季，帶動汽車類股營收表現",
+      "tickers": [
+        "和泰車",
+        "汽車類股"
+      ]
+    },
+    {
+      "date": "未明確提及",
+      "event": "下半年載板供需缺口逐步擴大，明年缺口可能更明顯",
+      "tickers": [
+        "2345",
+        "6449"
+      ]
+    },
+    {
+      "date": "未明確提及",
+      "event": "年線附近止穩與量價結構改善，台達電與電源、AI零組件族群可續觀察",
+      "tickers": [
+        "2308",
+        "光寶科",
+        "智邦",
+        "台光電"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1150｜市場的理性與不理性？好財報照跌，但資金買單部份股票？融資退、政府護，反攻條件還不夠，可以觀察的事情變很多！ft.選股教練 陳唯泰",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/90933ed5-6756-4e81-a28a-2c96d29c4206",
+      "sentiment": "moderately_bearish",
+      "oneLiner": "去槓桿壓力未退、好財報照跌，但聯電、載板、台達電等先行轉強標的值得持續追蹤。",
+      "detailedSummary": "本集主持人李兆華與來賓選股教練陳唯泰深入討論當前台股盤勢的核心矛盾：財報表現不差，但市場仍持續走弱。兩人共同認為，目前壓力來源是融資去槓桿、資金緊縮與情緒尚未止穩，而非公司基本面惡化，因此不建議急著抄底，應等待爆量訊號確認方向後再分批布局。盤面上，金融股與汽車類股扮演資金避風港，聯電因法說優於預期且籌碼洗牌，成為成熟製程族群的指標標的；載板雙雄（新興、台光電）率先拉漲停，顯示市場仍認可供需缺口擴大的中長線題材。台達電雖技術面仍偏空，但出現量能與承接跡象，若守住年線關鍵位置，將對電源與AI零組件族群具正面指標意義。主持人最後提醒，未來選股邏輯將回歸自由現金流與合理估值，投資人需對高資本支出但回報未見的公司保持謹慎。",
+      "highlights": [
+        "市場問題是資金面非基本面：去槓桿與融資退場是當前盤勢承壓的主因，好財報照跌正是明證。",
+        "不宜急抄底，應等條件確認：主持人建議等賣壓明顯減輕、爆量訊號出現後，再以分批方式進場。",
+        "聯電（2303）法說優於預期：上半年獲利超乎市場預期，下半年展望更佳，籌碼洗牌後成為成熟製程族群觀察指標。",
+        "載板族群（6449、3037）先行表態：新興與台光電率先拉漲停，市場仍認可下半年供需缺口擴大題材，中長線邏輯完整。",
+        "台達電（2308）出量承接值得觀察：技術面雖偏空，但年線附近出現量能止穩跡象，若守住關鍵位置，可望成為族群反彈指標。",
+        "金融股與汽車類股充當避風港：震盪盤中合庫金、兆豐金等官股金控相對抗跌；和泰車受民俗月促銷與八九月旺季帶動持續走強。",
+        "市場開始嚴格審視資本支出：以微軟、Meta、環球晶為例，說明資本支出若看不到對應回報，市場會先給壓力，自由現金流成為新選股標準。",
+        "先行轉強股是落底後的領頭羊：觀察重點不只是跌深股，而是跌深後率先放量轉強的個股，這類標的在行情真正反攻時最容易帶領族群。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "台勝科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "散熱族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "奇鋐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "研華",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "AMD",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯亞",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [
+      {
+        "ticker": "國巨",
+        "bullCount": 4,
+        "bearCount": 3
+      }
+    ],
+    "sectorHeat": []
+  }
+}
