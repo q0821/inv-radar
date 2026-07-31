@@ -1,0 +1,567 @@
+{
+  "date": "2026-07-31",
+  "quickDigest": [
+    "台積電漲停帶動台股史上最大單日反彈3281點，半導體與AI供應鏈信心全面回籠",
+    "本波急跌主因為融資去槓桿非基本面崩壞，反彈具支撐，但不宜盲目追漲",
+    "台光電財報創高、錦碩獲台積電合作題材加持，為強勢標的首選",
+    "國巨跌幅逾50%屬評價修正，廣達籌資壓力仍在，短線謹慎",
+    "AI資本支出趨勢不變，金像電、高技獲外資低接，第四季布局邏輯明確"
+  ],
+  "marketMood": "去槓桿後信心急速修復，審慎樂觀但追高需紀律",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "台積電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電漲停視為市場信心回籠的重要訊號，代表資金願意重新回到權值與科技主流。台積電帶動主被動型科技類別型態轉強，並間接反映市場對半導體與AI供應鏈的悲觀情緒已修正。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 2425,
+        "ma20": 2380,
+        "ma60": 2349.83,
+        "priceVsMa20Pct": 1.9,
+        "priceVsMa60Pct": 3.2,
+        "rsi14": 55,
+        "changePct5d": 3.2,
+        "changePct20d": -0.8,
+        "volumeRatio": 2.01,
+        "currency": "TWD",
+        "asOf": "2026-07-31T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台光電屬於昨天就率先反應的強勢個股，財報好、基本面強。第二季財報明顯優於第一季甚至持續創高，股價上漲合理。市場從恐慌轉回基本面定價後，強勢財報股率先獲得資金回補。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 4745,
+        "ma20": 4892.25,
+        "ma60": 5041.17,
+        "priceVsMa20Pct": -3,
+        "priceVsMa60Pct": -5.9,
+        "rsi14": 48,
+        "changePct5d": -0.2,
+        "changePct20d": -22,
+        "volumeRatio": 0.62,
+        "currency": "TWD",
+        "asOf": "2026-07-31T05:30:14.000Z"
+      }
+    },
+    {
+      "ticker": "錦碩",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "因台積電宣布與新興、錦碩深度合作而直接鎖漲停，市場對合作題材反應非常強烈。前一日還有大量賣盤，隔天迅速轉為鎖漲停，信心修復與題材催化非常明顯。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "國內半導體與AI供應鏈",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "人工智慧戰局是所有大廠都在投入，大型雲端與科技公司持續把現金投入人工智慧，包含亞馬遜財報與其他大廠的資本支出行為，需求仍在。下半年到明年的資本支出與訂單能見度支撐供應鏈趨勢。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "第二季財報不算特別亮眼，但從基本面看並沒有差到必須大幅殺低的程度，股價已大幅回落到相對有支撐的位置。這次回跌比較像估值修正與融資踩踏，而非基本面崩壞。市場信心恢復後若能站穩大量低點，有機會重新被評價。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "跌回大量支撐區",
+      "technicals": {
+        "currentPrice": 502,
+        "ma20": 723.13,
+        "ma60": 766.03,
+        "priceVsMa20Pct": -30.6,
+        "priceVsMa60Pct": -34.5,
+        "rsi14": 31,
+        "changePct5d": -21.8,
+        "changePct20d": -52,
+        "volumeRatio": 0.12,
+        "currency": "TWD",
+        "asOf": "2026-07-31T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "台達電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "先前因第三季可能面臨漲價協商與成本壓力而先行修正，市場已提前反映風險。若第三季價格談判結果沒有市場原先擔心的那麼差，股價可望重估。長期仍偏正面。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 1640,
+        "ma20": 1794.75,
+        "ma60": 2046,
+        "priceVsMa20Pct": -8.6,
+        "priceVsMa60Pct": -19.8,
+        "rsi14": 39,
+        "changePct5d": -8.1,
+        "changePct20d": -21,
+        "volumeRatio": 3.07,
+        "currency": "TWD",
+        "asOf": "2026-07-31T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "金像電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "外資近期默默低接，顯示大戶資金開始提前布局第四季之後的改善趨勢。雖然投信仍在砍，但外資持續承接通常代表認為目前價格相對便宜，後續基本面有回升想像。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "高技",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "外資近期低接標的之一，市場有資金開始在修正後承接高成長供應鏈。外資在底部買進通常有其理由，投信賣壓多半反映短期無法承受波動。若後續量能回穩、財報持續展現成長，股價有機會重新往上評價。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "環球晶",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "先前下跌看起來像單一事件與市場恐慌擴大，而非產業長期基本面轉壞。市場開始重新檢視本益比與成長性，許多原本不敢碰的成長股重新回到可評價區間。若矽晶圓報價與需求後續穩住，族群可望回升。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "新興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "短線受大盤恐慌影響很大，但在反彈階段屬於可重新觀察的標的。市場對高品質供應鏈開始從殺融資轉向看基本面，部分族群已出現率先打開跌停的強勢訊號。下週若量能恢復，先前被處置與錯殺的中小型股有機會補彈。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "國巨",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "第二季財報有成長但不如市場預期亮眼，加上股價曾大幅上漲，這次下跌屬於評價修正與信心崩解。市場重新檢查基本面，若沒有持續優於預期的財報，很難支撐過高評價。法說與後續財報若不能扭轉市場觀感，反彈空間有限。",
+          "action": "減碼",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "從千元附近回落至支撐區",
+      "technicals": {
+        "currentPrice": 502,
+        "ma20": 723.13,
+        "ma60": 766.03,
+        "priceVsMa20Pct": -30.6,
+        "priceVsMa60Pct": -34.5,
+        "rsi14": 31,
+        "changePct5d": -21.8,
+        "changePct20d": -52,
+        "volumeRatio": 0.12,
+        "currency": "TWD",
+        "asOf": "2026-07-31T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "廣達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "一傳出籌資就立刻被市場打到跌停，籌資議題在弱勢盤中先被視為壓力。市場只會先反映稀釋與賣壓，若後續籌資條件不佳或市場仍弱，股價短線仍可能承壓。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 291.5,
+        "ma20": 342,
+        "ma60": 349.81,
+        "priceVsMa20Pct": -14.8,
+        "priceVsMa60Pct": -16.7,
+        "rsi14": 31,
+        "changePct5d": -11.1,
+        "changePct20d": -22.7,
+        "volumeRatio": 2.17,
+        "currency": "TWD",
+        "asOf": "2026-07-31T05:30:09.000Z"
+      }
+    },
+    {
+      "ticker": "台達電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "第三季可能面臨客戶壓價與成本協商壓力，先前股價的修正就是市場提前反映這個風險。零組件與雲端客戶的價格談判變得更難，短線毛利率與接單條件可能受影響。第三季價格協商結果若不理想，股價還可能再次承壓。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 1640,
+        "ma20": 1794.75,
+        "ma60": 2046,
+        "priceVsMa20Pct": -8.6,
+        "priceVsMa60Pct": -19.8,
+        "rsi14": 39,
+        "changePct5d": -8.1,
+        "changePct20d": -21,
+        "volumeRatio": 3.07,
+        "currency": "TWD",
+        "asOf": "2026-07-31T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "記憶體",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體廠不願降價，但下游採購端已明顯感受到庫存與價格壓力，供需協商短線偏緊。第三季供應商不願讓價，終端客戶對漲價吃不消，訂單與價格談判拉扯加劇。若庫存去化不順或價格談判破裂，短線評價可能受壓。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "大盤",
+      "reason": "這一波屬於融資去槓桿後的急跌反彈，市場情緒已從極度悲觀轉向回補性反彈。融資大幅下降、櫃買也出現大量去槓桿，台積電漲停帶動大型權值與科技類股全面回穩。台股回到第四季前的重新定價階段，若後續量能回到正常，反彈仍有延續空間。壓力區約四九三點至四千五百二十三點。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "櫃買指數",
+      "reason": "大盤季線已經勾頭，但櫃買季線仍在下彎，這種背離不合理。中小型股先前因處置與融資斷頭受壓，反彈初期尚未完全反映，但隨著去槓桿告一段落，櫃買有機會回穩。下週處置壓力逐步緩解後，中小型股量能有機會回流，需持續追蹤。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "這一波是去槓桿引發的非基本面崩跌，現在進入可重新分批布局的反彈階段。",
+      "reasoning": "來賓反覆強調，盤勢下跌主因是融資大幅去槓桿，而不是企業基本面突然集體轉壞。既然是籌碼與情緒造成的急跌，只要信心回來，市場就有機會快速回補。跌勢中已經殺掉大量融資，後續再破底的難度也會提高，因此是分批布局的時機而非逃跑時機。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "人工智慧資本支出還在擴張，現在不是退場，而是持續投入的階段。",
+      "reasoning": "來賓認為人工智慧是未來戰局，不是眼前一季的短打。亞馬遜、其他大型雲端業者與電力公司都顯示資本支出仍在往前推進，需求沒有消失。雖然短線會有現金流壓力與估值爭議，但趨勢方向沒有改變，相關供應鏈仍是核心布局方向。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "投資要同時看基本面、形態與籌碼，不能只信單一面向。",
+      "reasoning": "來賓直接批評只看基本面的做法太危險，因為股票一定會漲跌，形態與籌碼變化會先於故事。像國巨就是基本面沒有崩，但籌碼與形態已先走弱；反過來，台光電等公司則是基本面、形態與籌碼三者一致。這套三位一體的操作框架是節目中的核心邏輯。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場會從先前只反應利空，切換成重新開始反應利多。",
+      "reasoning": "主持人提到前段時間是利多不反應、只反應利空，但今天因為多重利多同時出現，情緒開始翻轉。包含通膨數據降溫、停戰訊號、財報優於預期與記憶體族群回升，都使市場重新願意承接。這種情緒轉折通常會帶來一波快速的技術性回補，可以適度把握。",
+      "sector": "總經",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "第三季是最難操作的季度，因為弱勢股會先被資金與情緒洗掉。",
+      "reasoning": "來賓指出第三季原本就是相對難做的時間點，這次又疊加融資斷頭、處置與市場恐慌，短線波動特別大。個股若沒有基本面支撐，很容易在反彈過程中再被壓回。操作上不能只看反彈，要區分趨勢股與純技術反彈，選股紀律比方向判斷更重要。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "若公司要擴廠或籌資，長期可能是成長訊號，但短線通常先跌再說。",
+      "reasoning": "來賓以廣達為例說明，市場遇到籌資消息時通常先反應稀釋與壓力，但本質上擴廠代表接單與成長機會。投資人若能把時間拉長，應分辨籌資是防守還是擴張，是否代表未來業績更好。弱勢盤中，資金常會先錯殺成長題材，事後才重新定價。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "今天大盤與多數權值股出現急彈，短線有溢價與過熱風險，不宜盲目追漲。",
+    "處置股與高融資個股仍可能面臨隔日沖與賣壓，反彈不代表立即脫離風險。",
+    "若第三季零組件與雲端客戶壓價持續，部分供應鏈獲利可能受到影響。",
+    "高估值、先前漲幅過大的個股，若基本面未同步加速，仍有評價修正壓力。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "下週",
+      "event": "觀察台股反彈是否延續，以及量能是否回到正常水準",
+      "tickers": [
+        "大盤",
+        "櫃買指數"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "下週二",
+      "event": "處置結束後觀察何聲堂的財報與後續表現",
+      "tickers": [
+        "何聲堂"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "第三季",
+      "event": "零組件、記憶體與雲端客戶之間的價格協商與庫存去化結果",
+      "tickers": [
+        "台達電",
+        "記憶體",
+        "被動元件"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "第四季",
+      "event": "資金重新評價高成長供應鏈與載板、PCB、矽晶圓等族群",
+      "tickers": [
+        "金像電",
+        "高技",
+        "環球晶",
+        "載板"
+      ],
+      "source": "李兆華"
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1151｜史上最大漲點3281點，台積電漲停，堆積的利多，一口氣奉還！不急著當1日英雄，股價跌回合理本益比，慢慢挑！ft.操盤手 黃豐凱",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/9b6be5be-d85a-4b6a-88da-7cbde9a708d1",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股史上最大反彈日，主持人與操盤手來賓用「去槓桿完成、慢慢挑基本面好股」取代盲目追漲。",
+      "detailedSummary": "台股創下史上單日最大漲點3281點，台積電漲停、記憶體族群大噴發，宣告市場情緒從極度恐慌快速翻轉。主持人李兆華與操盤手來賓黃豐凱一致認為，這波急跌主因是融資去槓桿與情緒踩踏，企業基本面並未全面惡化，因此反彈具備一定支撐基礎。兩人建議投資人不要急著當「一日英雄」盲目追漲，應以「基本面、形態、籌碼三者合一」為選股準則，優先挑選第二季財報亮眼（如台光電）、外資低接（如金像電、高技）或有合作題材催化（如錦碩）的個股分批布局。國巨與廣達則分別因評價修正與籌資壓力被列為短線觀察，台達電第三季價格協商結果也是後續關鍵變數。整體而言，本集基調偏向審慎樂觀，看好反彈延續但提醒紀律控倉。",
+      "highlights": [
+        "台股史上最大單日漲點3281點，台積電漲停是市場信心回籠的核心訊號。",
+        "這波暴跌主因是融資去槓桿與情緒踩踏，而非基本面全面崩壞，反彈有一定支撐。",
+        "來賓黃豐凱強調選股要基本面、形態、籌碼三者合一，不能只靠單一面向判斷。",
+        "台光電、錦碩（台積電合作題材）屬於基本面與催化劑俱足的強勢標的。",
+        "外資低接金像電、高技，被視為大戶提前布局第四季改善趨勢的訊號。",
+        "國巨屬評價修正而非基本面崩壞，法說與後續財報是重新定價的關鍵驗證點。",
+        "第三季記憶體廠與雲端客戶的價格協商拉鋸，是供應鏈獲利能否守住的最大變數。",
+        "人工智慧資本支出趨勢未變，下半年至明年能見度仍高，供應鏈長線布局邏輯不動搖。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台勝科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2327.TW",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "奇鋐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "研華",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "AMD",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯亞",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [
+      {
+        "ticker": "國巨",
+        "bullCount": 4,
+        "bearCount": 2
+      }
+    ],
+    "sectorHeat": []
+  }
+}
