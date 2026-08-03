@@ -1,0 +1,630 @@
+{
+  "date": "2026-08-03",
+  "quickDigest": [
+    "聯發科漲停板：法說後市場跳過手機本業衰退，直接定價AI客製化晶片未來，創意同步拉漲",
+    "微影、川湖率先創高：高價優質股領漲是盤面秩序修復訊號，法人資金回流基本面強者",
+    "機器人族群大映、索羅門、上盈齊漲停：日圓升值+8/19台灣機器人大會形成題材共振",
+    "探針卡旺矽、穎崴轉強：AI先進製程檢測需求獲資金認同，情緒拋售後籌碼沉澱反彈",
+    "關鍵時間窗口：8/10前台股能否站穩季線，決定8月下旬是否仍有反彈延續空間"
+  ],
+  "marketMood": "恐慌退潮、選股回歸，AI與機器人領軍，但財報驗證前不宜躁進",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "3443.TW（微影）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "微影在這一波震盪後率先創高，代表市場資金開始回到獲利能力佳、法人認同度高的公司。主持人與來賓都把它視為盤面風向球，認為高價股先回穩顯示市場秩序正在修復。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "歷史新高附近"
+    },
+    {
+      "ticker": "川湖",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "川湖在大盤震盪中仍很強，修正後只回到季線附近就快速反彈，收盤幾乎回到歷史新高。獲利佳、籌碼穩定，市場轉弱時反而更容易先被買回。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "歷史新高附近、季線"
+    },
+    {
+      "ticker": "聯發科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "雖然今年手機本業成長不明顯、獲利年減，但市場在法說會後選擇忽略短期雜音，直接交易人工智慧客製化晶片的未來，股價直接跳空漲停。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "漲停板",
+      "technicals": {
+        "currentPrice": 3910,
+        "ma20": 3675,
+        "ma60": 3968.92,
+        "priceVsMa20Pct": 6.4,
+        "priceVsMa60Pct": -1.5,
+        "rsi14": 54,
+        "changePct5d": 6.3,
+        "changePct20d": -5.2,
+        "volumeRatio": 0.94,
+        "currency": "TWD",
+        "asOf": "2026-08-03T05:30:08.000Z"
+      }
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台光電已回到五十元關卡並重新站上季線，修正後籌碼開始沉澱。歸類為資金轉向高價股與人工智慧供應鏈的受惠者，基本面與題材面均具支撐。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "五十元關卡、季線",
+      "technicals": {
+        "currentPrice": 4980,
+        "ma20": 4867.5,
+        "ma60": 5045,
+        "priceVsMa20Pct": 2.3,
+        "priceVsMa60Pct": -1.3,
+        "rsi14": 51,
+        "changePct5d": 3.4,
+        "changePct20d": -9,
+        "volumeRatio": 1.88,
+        "currency": "TWD",
+        "asOf": "2026-08-03T05:30:20.000Z"
+      }
+    },
+    {
+      "ticker": "創意",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "跟著聯發科轉強直接拉高到漲停，市場開始重新定價人工智慧與特殊應用晶片供應鏈。核心邏輯不在短期營收，而在下半年到明年案子逐步發酵。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "漲停板"
+    },
+    {
+      "ticker": "旺矽",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "探針卡個股開始轉強，反映市場資金重新回到人工智慧與先進製程檢測鏈。七月情緒性拋售後基本面未崩壞，籌碼沉澱後的反彈候選。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "穎崴",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "探針卡族群轉強代表之一，市場資金正在回流人工智慧相關檢測與測試設備。先前修正過深，族群性反彈代表市場對高階製程需求信心回升。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "亞翔",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "接單與擴產需求支撐度高，低本益比與高配息提供下檔保護。即使當天受五日線壓制，屬於可逢回關注的設備代表。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "六字頭、五日線"
+    },
+    {
+      "ticker": "研華",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "本週將有法說會，工業電腦與機器人、邊緣運算的連動題材正在升溫。若法說釋出下半年需求與接單能見度正面訊號，可能成為資金回流工業電腦族群的代表。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台達電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "觀察零組件漲價、採購成本與出貨平衡的重要指標。若第三季財報沒有比第二季更差，市場可能已先行反映利空；若營收與毛利能維持，中長線值得留意。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 1580,
+        "ma20": 1774,
+        "ma60": 2035.67,
+        "priceVsMa20Pct": -10.9,
+        "priceVsMa60Pct": -22.4,
+        "rsi14": 37,
+        "changePct5d": -10,
+        "changePct20d": -20.8,
+        "volumeRatio": 1.56,
+        "currency": "TWD",
+        "asOf": "2026-08-03T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "南亞科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體族群在七月重挫後，反彈日出現強勢表現，反映市場對記憶體價格仍硬的預期。八月營收與季報若能延續價格優勢，仍可列入觀察。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 396.5,
+        "ma20": 409.1,
+        "ma60": 385.58,
+        "priceVsMa20Pct": -3.1,
+        "priceVsMa60Pct": 2.8,
+        "rsi14": 50,
+        "changePct5d": -9.1,
+        "changePct20d": -5.7,
+        "volumeRatio": 0.75,
+        "currency": "TWD",
+        "asOf": "2026-08-03T05:30:09.000Z"
+      }
+    },
+    {
+      "ticker": "華邦電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體族群反彈時表現強勢，受惠於市場認為記憶體價格仍有支撐。先前跌幅過深與補漲因素驅動，若外資與國際記憶體龍頭股價止穩，台灣記憶體股仍有延續空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 143,
+        "ma20": 157.65,
+        "ma60": 163.09,
+        "priceVsMa20Pct": -9.3,
+        "priceVsMa60Pct": -12.3,
+        "rsi14": 44,
+        "changePct5d": -10.6,
+        "changePct20d": -21.9,
+        "volumeRatio": 0.67,
+        "currency": "TWD",
+        "asOf": "2026-08-03T05:30:06.000Z"
+      }
+    },
+    {
+      "ticker": "大映",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "機器人族群中漲停，資金開始回流低位階題材股。先前跌深、籌碼較乾淨，搭配八月營收驗證與機器人題材發酵，容易成為短線資金追逐標的。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "漲停板"
+    },
+    {
+      "ticker": "上盈",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "盤中漲停，機器人族群轉強的例子之一。先前跌深出現籌碼修復，只要題材持續，短線仍可能延續輪動。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "盤中漲停"
+    },
+    {
+      "ticker": "新代",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "整理很久後重新站回二十元以上，機器人與工具機族群轉強標的。若八月上旬營收因趕工表現不錯，此類沉澱已久的低位階股票容易出現補漲。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "二十元以上"
+    },
+    {
+      "ticker": "索羅門",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "漲停，納入機器人族群整體轉強脈絡。機器人題材在八月結合匯率與國際事件，有機會成為市場重新注意的方向，族群性持續擴散下可追蹤的短線強勢股。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "漲停板"
+    }
+  ],
+  "bearishSignals": [],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤季線與月線",
+      "reason": "台股在七月劇烈修正後，八月前半段仍在觀察能否站穩季線與月線。若能在八月十日前站穩季線，八月下旬還有機會延續反彈；若站不上去，之後月線與季線同步下彎的壓力會變大。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "人工智慧資本支出走向",
+      "reason": "市場對人工智慧資本支出的疑慮正在緩解，雲端巨頭並未明顯下修資本支出，反而因零組件漲價調整預算，台廠供應鏈訂單支撐仍在。但後續能否回到上半年的強度，仍需持續觀察雲端巨頭財報與資本支出指引。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "記憶體價格與庫存",
+      "reason": "記憶體價格仍硬，但庫存並不極度吃緊，市場處在價格強、需求未必極端緊繃的狀態。股價能否續強，要看八月營收與季報是否仍能超預期。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "被動元件與主動元件漲價循環",
+      "reason": "被動元件與分離式元件在這波下殺中跌得很重，關鍵在於第三季財報能否驗證漲價是否被市場充分反映。若股價在利空下不再破底，代表反應可能接近尾聲；若營收與毛利率不如預期，仍可能有壓力。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "日本與南韓股市",
+      "reason": "日股與韓股先前開高走低，主因與日圓升值及去槓桿壓力有關，會影響亞洲風險偏好，也可能間接牽動台股與外資資金流向。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "日圓匯率與套息交易",
+      "reason": "日圓快速升值可能引發套息交易反轉，進而影響全球風險資產。日圓強勢會連動美元與台幣，影響外資在台股的操作，是接下來要密切關注的不確定性來源。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "匯率與外資資金流向",
+      "reason": "市場情緒對利率與匯率變化極度敏感，日圓升值、美元轉弱可能帶動台幣變動，進一步影響外資期現貨部位，成為八月盤面方向的重要背景變數。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "台股七月劇烈修正後，八月先看是否能在八月十日前站穩季線",
+      "reasoning": "主持人認為目前不是立即重返創高的環境，但多方最重要的是先把季線站穩。由於八月十日前季線與月線的扣底仍有利於多方，只要能在這段時間內守住關卡，八月下旬就還有延續反彈的空間。若錯過這個窗口，之後壓力會明顯升高。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場正在從害怕個股轉向重新檢視公司基本面與籌碼強弱",
+      "reasoning": "這次下殺讓很多熱門族群出現情緒性拋售，但反彈時市場開始優先買回高價股與獲利好的公司。資金不是全面回來，而是先回到基本面較佳、法人認同度高的標的，盤面秩序正在修復中。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "人工智慧資本支出疑慮已從全面悲觀轉為選股階段",
+      "reasoning": "主持人指出雲端巨頭並未下修資本支出，反而因零組件漲價調整預算，市場對人工智慧供應鏈的態度從恐慌轉向分歧。這意味著不是整個人工智慧產業被否定，而是股價要回到基本面很強、獲利能持續成長的公司身上。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "聯發科的重點已不是今年手機本業，而是人工智慧客製化晶片的未來想像",
+      "reasoning": "雖然聯發科今年獲利年減、手機市場疲弱，但市場在法說後選擇忽略短期雜音，直接交易未來的人工智慧客製化晶片。投資人願意把估值重新建立在第四季到明年的展望，而非當下的成長率，是典型的「財報轉展望重新評價」案例。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "第三季財報與八月營收將成為檢驗零組件與漲價概念股的關鍵",
+      "reasoning": "七月大跌後很多漲價概念股還沒證明利空是否完全反映，接下來要看營收、毛利率與季報能否繳出比第二季更好的成績。利多不漲代表壓力區可能已到；利空不跌則表示市場已開始接受較差但不再惡化的情境。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "日圓升值與去槓桿可能成為亞洲股市的新變數",
+      "reasoning": "日本與南韓股市的波動連結到日圓快速升值與套息交易反轉。這種資金面的變化不只影響日韓，也可能透過美元與台幣匯率，進一步改變外資對台股的態度，需持續追蹤。",
+      "sector": "總經",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "機器人與工業電腦有機會成為八月的轉機題材",
+      "reasoning": "日圓升值有機會提升台灣工具機與機器人產業的相對競爭力，加上八月有機器人大會與特斯拉機器人發表等題材，容易形成題材共振。若部分公司營收在趕工下改善，這一族群可能從低位階開始補漲。",
+      "sector": "其他",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "人工智慧相關高資本支出公司若後續自由現金流轉弱，估值仍可能再度承壓。",
+    "被動元件與漲價概念股若第三季營收不如預期，可能只是技術性反彈而非趨勢反轉。",
+    "日圓快速升值若引發更大規模去槓桿，可能使亞洲風險資產再度震盪。",
+    "台股若在八月十日前無法站穩季線，後續月線與季線同步下彎會增加操作難度。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "08-05",
+      "event": "中國科創板宇樹機器人掛牌",
+      "tickers": [
+        "機器人族群"
+      ]
+    },
+    {
+      "date": "08-10",
+      "event": "台股季線與月線扣底關鍵觀察日",
+      "tickers": [
+        "台股大盤"
+      ]
+    },
+    {
+      "date": "08-19",
+      "event": "台灣機器人大會登場",
+      "tickers": [
+        "機器人族群"
+      ]
+    },
+    {
+      "date": "08-xx",
+      "event": "研華法說會",
+      "tickers": [
+        "研華"
+      ]
+    },
+    {
+      "date": "08-xx",
+      "event": "八月營收陸續公布",
+      "tickers": [
+        "南亞科",
+        "華邦電",
+        "被動元件族群",
+        "設備族群"
+      ]
+    },
+    {
+      "date": "08-xx",
+      "event": "第二季財報與法說密集公布",
+      "tickers": [
+        "聯發科",
+        "台達電",
+        "創意",
+        "旺矽",
+        "穎崴"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1152｜亞股我最強，利多會反應，危機解除了嗎？美伊、南韓、日幣一起看，被個股嚇破膽又捨不得放，如何重新調整？ft,題材獵人 林漢偉",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/78136b17-124c-487a-9a4d-faf3dc95b5e2",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股七月重挫後八月出現止穩輪動，聯發科漲停帶動人工智慧供應鏈，但能否真正轉強仍待季線與財報雙重驗證。",
+      "detailedSummary": "本集主持人李兆華與來賓題材獵人林漢偉深入分析台股七月大幅修正後的反彈結構，認為市場已從恐慌性拋售轉入選股階段，資金優先流向微影、川湖等高價優質股，以及以聯發科為核心的人工智慧客製化晶片供應鏈。節目重點追蹤聯發科法說後股價跳空漲停的意義，認為市場已將估值重心從今年手機本業移至未來人工智慧晶片的想像空間。機器人族群則因日圓升值帶來的競爭力提升、加上八月台灣機器人大會等催化劑，成為另一個值得關注的輪動方向。然而主持人也提醒，被動元件、記憶體等漲價概念股的反彈是否能持續，仍須等待八月營收與第三季財報的基本面驗證。",
+      "highlights": [
+        "台股八月多方關鍵窗口：八月十日前若能站穩季線，下旬仍有反彈延續空間；若失守，月線與季線同步下彎將大幅增加操作難度。",
+        "微影與川湖被視為盤面風向球：兩檔高價優質股在震盪中率先回穩甚至創高，代表法人資金秩序正在修復，市場從全面拋售轉向挑選強者。",
+        "聯發科法說後漲停，市場改以人工智慧客製化晶片重新定價：今年獲利年減、手機本業疲弱已被市場忽略，投資人轉而交易第四季到明年第一季的人工智慧晶片想像，創意等相關供應鏈同步拉漲。",
+        "探針卡族群旺矽、穎崴轉強，反映先進製程檢測需求仍獲資金認同：先前情緒性拋售後基本面未崩壞，籌碼沉澱後成為反彈候選，後續八月季報是關鍵驗證點。",
+        "機器人族群大映、上盈、索羅門漲停，八月題材共振條件成熟：日圓升值提升台灣競爭力、台灣機器人大會（八月十九日）與特斯拉機器人發表形成題材共鳴，低位階標的補漲動能強。",
+        "記憶體與被動元件反彈屬技術性修復，八月營收與第三季財報才是真正考驗：南亞科、華邦電雖強勢，但主持人提醒價格仍硬卻庫存不極缺，能否持續須以數字驗證。",
+        "日圓升值與套息交易反轉是八月最大不確定性：日韓股市波動背後的去槓桿壓力若擴大，將透過匯率連動影響外資在台股的期現貨操作，需密切追蹤。",
+        "主持人建議一般投資人以主動式與市值型配置為核心，在盤面尚未完全明朗前避免重押單一族群，待財報驗證後再評估加碼時機。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 5
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台勝科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "環球晶",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華新科",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "台達電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "國巨",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 3
+      },
+      {
+        "ticker": "奇鋐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "研華",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "AMD",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯亞",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "新興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "2330.TW",
+        "kol": "謝孟恭",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [
+      {
+        "ticker": "國巨",
+        "bullCount": 5,
+        "bearCount": 3
+      }
+    ],
+    "sectorHeat": []
+  }
+}
