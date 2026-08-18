@@ -1,0 +1,554 @@
+{
+  "date": "2026-08-18",
+  "quickDigest": [
+    "💹 NVDA現價225美元，站穩20/60日均線7-8%，AI資本支出擴張確認，長線趨勢無虞",
+    "🔋 南亞科DDR4報價持續創高，RSI62+量比破1，記憶體族群資金集中效應明顯，為短線首選",
+    "📋 台光電、南電、新興三雄創歷史新高，PCB載板族群Q2季報後基本面與籌碼面雙重認同",
+    "⚠️ 記憶體族群強弱分化：旺宏5日跌7.9%、AAPL跌破均線RSI44，資金集中效應排擠弱勢股",
+    "🏦 台幣升值驅動外資連日買超，台股4.6萬高檔整理屬技術修正，9月Fed會議為最大不確定因素"
+  ],
+  "marketMood": "AI資本支出擴張確認基本面，強弱分化加劇，追強棄弱是唯一解",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "NVDA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "輝達持續加碼人工智慧產業、甚至支援 OpenAI，代表人工智慧資本支出仍在擴張，大型企業願意持續把資金投入，顯示產業方向沒有變。主持人把這解讀為人工智慧世代仍在往前推進，明年甚至後年仍可能延續成長。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 225.16,
+        "ma20": 210.39,
+        "ma60": 208.32,
+        "priceVsMa20Pct": 7,
+        "priceVsMa60Pct": 8.1,
+        "rsi14": 63,
+        "changePct5d": 0.5,
+        "changePct20d": 11,
+        "volumeRatio": 0.68,
+        "currency": "USD",
+        "asOf": "2026-08-17T20:00:00.000Z"
+      }
+    },
+    {
+      "ticker": "台積電／2330.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "下半年營運一定會比上半年更高，市場持續上修明年資本支出與需求預估，先進製程與人工智慧相關需求延續，基本面並未出現反轉。短線股價的技術性修正不改變中長線趨勢。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "高檔震盪，短線回檔屬正常整理"
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "創歷史新高，第二季財報檢驗後仍被市場高度認同，屬強勢族群之一。基本面與市場共識同步轉強，顯示相關供應鏈持續吃到人工智慧與高速傳輸需求。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "創歷史新高",
+      "technicals": {
+        "currentPrice": 6205,
+        "ma20": 5211.75,
+        "ma60": 5195.08,
+        "priceVsMa20Pct": 19.1,
+        "priceVsMa60Pct": 19.4,
+        "rsi14": 67,
+        "changePct5d": 12.1,
+        "changePct20d": 28.5,
+        "volumeRatio": 0.8,
+        "currency": "TWD",
+        "asOf": "2026-08-18T05:30:15.000Z"
+      }
+    },
+    {
+      "ticker": "新興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板族群同步走強，股價創歷史新高，市場對產業基本面與籌碼面認同度提升。屬於目前盤面上相對強勢的領頭羊，若回檔反而可能提供切入機會。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "創歷史新高"
+    },
+    {
+      "ticker": "南電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "創歷史新高，顯示載板產業在第二季季報檢驗後獲市場認同。屬於基本面已明確轉強且技術面最強勢的族群之一，回檔越深反而越容易引發買盤關注。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "創歷史新高",
+      "technicals": {
+        "currentPrice": 1245,
+        "ma20": 1109,
+        "ma60": 1047.35,
+        "priceVsMa20Pct": 12.3,
+        "priceVsMa60Pct": 18.9,
+        "rsi14": 57,
+        "changePct5d": 8.3,
+        "changePct20d": 4.6,
+        "volumeRatio": 0.83,
+        "currency": "TWD",
+        "asOf": "2026-08-18T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "南亞科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體短線操作應買最強的南亞科，目前市場共識與籌碼都集中在此。DDR4 報價仍在創高，族群裡只有南亞科的股價最能反映基本面，資金集中效應明顯。屬於順勢強操作的典型標的。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "DDR4 報價創高",
+      "technicals": {
+        "currentPrice": 515,
+        "ma20": 443.75,
+        "ma60": 418.68,
+        "priceVsMa20Pct": 16.1,
+        "priceVsMa60Pct": 23,
+        "rsi14": 62,
+        "changePct5d": 5.3,
+        "changePct20d": 27.2,
+        "volumeRatio": 1.01,
+        "currency": "TWD",
+        "asOf": "2026-08-18T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "OPENAI",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "輝達繼續注資 OpenAI，代表大型資金仍願意持續扶植語言模型與人工智慧應用端，且虧損幅度已在縮小。來賓認為這是人工智慧產業從基礎建設走向商業化的重要訊號，若 OpenAI 營運改善，將有助整體人工智慧生態鏈延伸。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "群聯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "法說內容非常好，基本面確實沒有問題，並非公司說謊或分析師錯誤，而是市場資金對其反應偏保守。基本面強但短線受資金與市場共識壓抑，屬於被低估但不一定立刻反映的標的，若資金風向回來可能有補漲空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "川湖",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "盤面上可順勢操作的強勢標的之一，偏好追強者應選擇族群中的領頭羊。市場共識與技術面同步轉強，適合順勢操作。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "AAPL",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "蘋果與人工智慧布局仍是市場關注焦點，主持人以大型科技企業持續加碼人工智慧投資作為整體產業正向訊號。對蘋果生態與大型科技資本支出延續抱持正面看法，主要依據來自產業趨勢與資本支出擴張。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 305.93,
+        "ma20": 318.43,
+        "ma60": 309.19,
+        "priceVsMa20Pct": -3.9,
+        "priceVsMa60Pct": -1.1,
+        "rsi14": 44,
+        "changePct5d": -2.4,
+        "changePct20d": -8.3,
+        "volumeRatio": 0.62,
+        "currency": "USD",
+        "asOf": "2026-08-17T20:00:01.000Z"
+      }
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "旺宏",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "走勢偏弱，為記憶體族群資金只集中在少數強勢股的結果。並不代表公司基本面立即惡化，但短線在市場共識不足的情況下相對弱勢。若要操作短線，旺宏目前不屬於首選。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 122,
+        "ma20": 122.37,
+        "ma60": 141.73,
+        "priceVsMa20Pct": -0.3,
+        "priceVsMa60Pct": -13.9,
+        "rsi14": 46,
+        "changePct5d": -7.9,
+        "changePct20d": -0.8,
+        "volumeRatio": 1.28,
+        "currency": "TWD",
+        "asOf": "2026-08-18T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "華邦電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體族群股價表現高度分歧，華邦電雖然基本面未必差，但市場資金明顯沒有同步追價。利多不反應的情況對短線交易者屬於相對弱勢訊號，若 DDR4 報價放緩壓力可能更明顯。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 176.5,
+        "ma20": 161.28,
+        "ma60": 172.39,
+        "priceVsMa20Pct": 9.4,
+        "priceVsMa60Pct": 2.4,
+        "rsi14": 55,
+        "changePct5d": -0.8,
+        "changePct20d": 13.5,
+        "volumeRatio": 1.26,
+        "currency": "TWD",
+        "asOf": "2026-08-18T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "主持人提醒投資人不能只看漲多後的情緒追價，並強調要有減碼與停損機制。本集並非直接針對特斯拉看空，僅為風險提醒式訊號，未構成明確看空表態。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 342.27,
+        "ma20": 329.14,
+        "ma60": 380.51,
+        "priceVsMa20Pct": 4,
+        "priceVsMa60Pct": -10,
+        "rsi14": 49,
+        "changePct5d": 4.2,
+        "changePct20d": -10.1,
+        "volumeRatio": 0.64,
+        "currency": "USD",
+        "asOf": "2026-08-17T20:00:01.000Z"
+      }
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股",
+      "reason": "台股在近期大漲後出現回檔屬正常整理，並非基本面轉弱。第二季季報與半年報整體亮眼，上市櫃營收與獲利仍持續創高。短線若因結算或獲利了結而壓回，多屬技術面修正，未必改變中長線多頭格局。4萬6附近高檔震盪，4萬點一帶為前波重要支撐。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "半導體產業",
+      "reason": "半導體尤其與人工智慧相關的供應鏈，第二季與第三季基本面仍持續創高，且明年資本支出預期還會比今年更高。整體半導體景氣尚未反轉，短線修正多屬技術面。真正需要觀察的是未來資本支出是否持續上修與訂單能見度是否維持。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "記憶體產業",
+      "reason": "目前 DDR4 報價仍在創高，基本面強勁但股價反應已出現明顯分歧，市場共識與資金偏好集中在少數強勢股。主持人提醒要多看報價、少聽故事，目前最重要的觀察指標是 DDR4 報價是否續強，若報價轉弱，族群風險就會升高。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "PCB 與載板族群",
+      "reason": "第二季季報後，PCB 族群整體基本面沒有問題，台光電、新興、南電等標的都創高，產業共識非常高。屬於基本面已被市場認同的強勢主線，若回檔越深，反而越可能吸引資金回補。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "台幣匯率",
+      "reason": "台幣持續升值，帶動外資近期幾乎天天回頭買超台股。資金面對台股仍有支撐，也強化了指數在高檔整理後續仍有機會再攻的條件。需持續觀察匯率走勢與外資買賣超變化。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "聯準會貨幣政策",
+      "reason": "九月聯準會仍有不確定性，可能成為市場波動來源之一，但目前並沒有新的黑天鵝。總經面雖然不是立即利空，但仍需持續觀察貨幣政策對成長股與風險資產估值的影響。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "台股這一波回檔屬於技術面整理，不是基本面轉弱",
+      "reasoning": "來賓認為今年上市櫃營收與獲利持續創高，第二季季報與半年報都顯示基本面沒有變差。7 月與 8 月的波動主要是漲多後的正常修正，並沒有新的重大利空。只要營收與獲利持續走高，中長線多頭格局就沒有被破壞。",
+      "sector": "總經",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "人工智慧的資本支出仍在擴張，而且明年可能比今年更強",
+      "reasoning": "來賓從雲端業者與大型科技公司的財報、法說與資本支出指引推論，市場並沒有走到人工智慧泡沫破裂，而是進入持續加碼的階段。輝達注資 OpenAI、各大雲端業者持續擴充資本支出，都顯示產業仍在往前推進，人工智慧供應鏈的成長不只是一季行情。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "大型科技公司持續投入人工智慧，代表這是整個產業結構的延伸，而非單一企業的賭博",
+      "reasoning": "主持人從輝達、OpenAI、雲端業者與大型科技公司的互動，解讀為一棒接一棒的產業延伸。企業大額投資不是單一老闆拍腦袋，而是基於訂單、財報與長期戰略的共同決策。只要大企業願意持續投入，人工智慧供應鏈就仍有延續性。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場最重要的是共識與資金，而不只是公司基本面好不好",
+      "reasoning": "來賓指出，有些公司基本面很好，但只要市場資金不認同，股價就可能長時間不反映。相反地，當技術面強、籌碼集中、法人願意買，股價就會先反映共識。因此要同時看報價、籌碼與市場態度，而不是只看故事。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "投資人要把長線與短線分開，不要用同一套方法操作全部資金",
+      "reasoning": "主持人與來賓都強調，短線波動沒有人能精準抓到，若想做減碼與回補，就一定要先設好錯了怎麼辦的規則。長線部位應建立在對基本面與趨勢的信任上，短線則可依技術面、籌碼面靈活處理。沒有紀律的操作，最終容易賣飛或追高。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "記憶體產業目前基本面強但股價反應分歧，操作要只挑最強者",
+      "reasoning": "來賓把記憶體獨立成一類，認為 DDR4 報價創高代表基本面仍然很強，但市場資金已明顯集中在南亞科，其他個股雖然營運也不差，卻沒有獲得同等反應。短線交易不應平均分散，而應順勢挑選市場共識最強的標的。",
+      "sector": "半導體",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "漲多後若市場共識轉弱，強勢股可能出現技術性修正",
+    "記憶體族群雖然報價強，但若 DDR4 報價趨緩，短線風險會快速升高",
+    "九月聯準會會議仍可能成為市場波動來源",
+    "若中小型公司為了擴張而持續拉高槓桿，可能埋下個別風險"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "2026-08-19",
+      "event": "台指期結算",
+      "tickers": [
+        "台股"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "event": "部分公司財報與法說持續揭露，市場將檢驗明年資本支出上修情況",
+      "tickers": [
+        "NVDA",
+        "台積電",
+        "台光電",
+        "南電"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "event": "聯準會九月會議前後，市場關注貨幣政策變化",
+      "tickers": [
+        "聯準會",
+        "台股"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1164｜非要養大不可！輝達繼續注資OPEN AI，基本面明朗，勇敢者追強，謹慎者回檔記得補貨？Q2季報體檢和展望！ft.AI達人 蔡明翰",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/a1b9b244-1484-477a-afe2-ec247ad8ce89",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "Q2 季報確認基本面無虞，人工智慧資本支出持續擴張，勇敢者追強、謹慎者等回檔補貨",
+      "detailedSummary": "本集主持人李兆華與 AI 達人蔡明翰深度解析 Q2 季報後的市場狀況，認為台股近期回檔並非基本面轉弱，而是漲多後的正常技術整理，上市櫃整體營收與獲利仍持續創高。兩人從輝達繼續注資 OpenAI 這一事件切入，強調大型科技公司的持續投入代表人工智慧產業結構性擴張仍在延續，明年資本支出甚至可能比今年更強。個股方面，記憶體族群雖然基本面強勁（DDR4 報價創高），但市場資金高度集中在南亞科，建議短線操作只挑族群最強者；PCB 與載板族群如台光電、南電、新興則因基本面與籌碼面共識同步轉強而相對安全。操作策略上，主持人反覆強調長短線要分開管理，短線減碼前必須預設回補條件，避免賣飛後追高的情況。台幣持續升值帶動外資買超，資金面仍支撐台股高檔格局。",
+      "highlights": [
+        "台股近期回檔被定義為技術面正常整理，基本面並未轉弱，中長線多頭格局未被破壞",
+        "第二季季報與半年報整體亮眼，上市櫃營收與獲利持續創高，確認基本面無虞",
+        "輝達繼續注資 OpenAI，顯示人工智慧資本支出仍在擴張，大企業押注代表產業結構性延伸",
+        "來賓認為人工智慧明年資本支出可能比今年更強，不宜過早預設產業高點",
+        "記憶體族群 DDR4 報價創高但股價反應分歧，短線操作應只挑最強者南亞科，旺宏與華邦電相對弱勢",
+        "PCB 與載板族群台光電、南電、新興均創歷史新高，屬市場共識高的強勢主線，回檔反而是機會",
+        "台幣升值帶動外資幾乎天天回頭買超台股，資金面對高檔指數仍有支撐",
+        "操作策略核心：長線靠基本面紀律持股，短線減碼前必須預設回補條件，避免情緒操作"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "金像電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "創意",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "合晶",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "川湖",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "愛普",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "緯穎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
