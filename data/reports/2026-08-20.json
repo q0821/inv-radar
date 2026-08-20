@@ -1,0 +1,617 @@
+{
+  "date": "2026-08-20",
+  "quickDigest": [
+    "🔥 AI ASIC市場規模從50億上修至80億美元，創意、聯發科、世芯、博通全線受惠，餅持續爆大",
+    "📈 南亞科站上歷史新高，RSI 60仍未過熱，記憶體從循環股轉結構性缺貨，籌碼沉澱後續強",
+    "🏗️ ABF載板（新興、南電、景碩）寡占結構穩固，AI/HPC需求延續，被列長線首選方向",
+    "⚠️ 被動元件估值虛高、門檻不足，明確不在看好名單；台股量縮整理屬去槓桿，非趨勢反轉",
+    "🔑 選股鐵律：寡占＋高研發門檻＋世界級地位三位一體，台積電供應鏈（設備、封裝）同步布局"
+  ],
+  "marketMood": "半導體寡占主軸持續凝聚，市場在等法人信心回歸後的第二段攻勢",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "創意",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "創意是 ASIC 題材中最具代表性的受惠者，同時具備寡占地位、先進製程連結（台積電 3nm/2nm 合作深化）與高研發門檻。大型雲端與 AI 客戶持續下單，法說強調與台積電合作深化，股價已創歷史新高。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "創歷史新高",
+      "catalyst": "ASIC 訂單持續釋出"
+    },
+    {
+      "ticker": "聯發科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "ASIC 市場規模由 50 億美元上修至 80 億美元，聯發科在 AI ASIC 題材中被市場低估。短線因市場誤讀合作對象而波動，隊長認為是假摔，中長線仍看好其 AI ASIC 布局。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "無",
+      "catalyst": "AI ASIC 市場規模持續上修",
+      "technicals": {
+        "currentPrice": 3700,
+        "ma20": 3809.5,
+        "ma60": 4027.42,
+        "priceVsMa20Pct": -2.9,
+        "priceVsMa60Pct": -8.1,
+        "rsi14": 45,
+        "changePct5d": -12.4,
+        "changePct20d": -4.5,
+        "volumeRatio": 1.46,
+        "currency": "TWD",
+        "asOf": "2026-08-20T05:30:09.000Z"
+      }
+    },
+    {
+      "ticker": "台積電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "台灣半導體王國核心，先進製程持續領先，毛利率高達 67%，競爭力與議價能力極強。在美設廠同時仍持續台灣擴產，帶動本土設備、特化、封裝、載板全面受惠。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "無",
+      "catalyst": "先進製程擴產與本土供應鏈深化",
+      "technicals": {
+        "currentPrice": 2375,
+        "ma20": 2358.25,
+        "ma60": 2380.25,
+        "priceVsMa20Pct": 0.7,
+        "priceVsMa60Pct": -0.2,
+        "rsi14": 50,
+        "changePct5d": -2.5,
+        "changePct20d": -1.2,
+        "volumeRatio": 0.58,
+        "currency": "TWD",
+        "asOf": "2026-08-20T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "南亞科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "隊長自身持股，已從先前回檔後再創歷史新高。記憶體產業出現結構性缺貨與報價改善，市場對記憶體認知從景氣循環股轉向供需改善邏輯，籌碼沉澱後仍有續強空間。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "歷史新高",
+      "catalyst": "記憶體缺貨與報價維持強勢",
+      "technicals": {
+        "currentPrice": 517,
+        "ma20": 450.08,
+        "ma60": 425.05,
+        "priceVsMa20Pct": 14.9,
+        "priceVsMa60Pct": 21.6,
+        "rsi14": 60,
+        "changePct5d": 0.6,
+        "changePct20d": 21.4,
+        "volumeRatio": 1.02,
+        "currency": "TWD",
+        "asOf": "2026-08-20T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "ABF載板",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "隊長最看好方向之一，市場高度寡占，先進晶片與高階運算需求持續拉動高階載板用量。新興、南電、景碩等相關標的在供應鏈與客戶關係上具備優勢，AI 與 HPC 持續擴張是結構性題材。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "無",
+      "catalyst": "高階運算與 AI 需求延續"
+    },
+    {
+      "ticker": "大盤（台股）",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "這波下修屬合理修正，先前漲勢過快、槓桿過高，洗掉過度樂觀籌碼反而有助多頭延續。現在比較像在等市場共識與資金信心凝聚，若後續以盤代跌、量縮整理，有利法人慢慢進場。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "四萬五附近",
+      "catalyst": "第二隻腳完成後的多頭重啟"
+    },
+    {
+      "ticker": "先進封裝",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "半導體下一階段重要主軸，AI 與 HPC 對先進封裝需求強勁，台灣有完整生態系與多家受惠廠商。若先進製程與 AI 晶片持續放量，先進封裝是長線大受惠者。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "無",
+      "catalyst": "AI 晶片放量與先進封裝需求增加"
+    },
+    {
+      "ticker": "博通",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "ASIC 市場最大玩家之一，即使市場分食份額也代表整體餅變大。更多競爭者加入反映市場需求遠超預期，博通本身訂單基礎仍厚，高市佔與客戶合作仍屬受惠標的。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無",
+      "catalyst": "AI ASIC 市場持續擴張"
+    },
+    {
+      "ticker": "世芯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "ASIC 大餅受惠者之一，亞馬遜等大型客戶專案仍在進行。AI ASIC 市場快速擴大，客戶集中且設計門檻高，少數業者可吃到大筆訂單，訂單能見度提升有正向想像空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無",
+      "catalyst": "大型雲端客戶專案進一步落地"
+    },
+    {
+      "ticker": "群聯",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "記憶體族群中較看好標的之一，前波拉升後進入整理，中長線仍受惠於記憶體景氣與需求回升。基本面確實轉佳，等待籌碼整理與市場重新認識其價值後，股價有機會再走一段。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無",
+      "catalyst": "記憶體族群籌碼整理完成"
+    },
+    {
+      "ticker": "設備股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "台積電持續擴產並扶植本土供應鏈，設備與特化在地化滲透率逐步提高。先進封裝與新廠持續擴張，設備需求將延續，相關廠商有長期成長空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "無",
+      "catalyst": "台積電擴產與先進封裝投資"
+    },
+    {
+      "ticker": "新興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "外資調研後發現新興已先行購入關鍵設備，顯示公司在產能布局上具前瞻性。與整體載板與高階需求連動性高，後續需求持續增強，設備與產能優勢有機會轉化為股價動能。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無",
+      "catalyst": "設備到位後的產能釋放"
+    },
+    {
+      "ticker": "南電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "受惠於南亞材料與日東相關供應鏈支援，載板族群中具備後續創高想像。半導體寡占結構下的重要受惠者，AI 與高階伺服器需求續強將帶動高階載板需求。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無",
+      "catalyst": "高階載板需求持續增加",
+      "technicals": {
+        "currentPrice": 1195,
+        "ma20": 1101,
+        "ma60": 1056.48,
+        "priceVsMa20Pct": 8.5,
+        "priceVsMa60Pct": 13.1,
+        "rsi14": 54,
+        "changePct5d": -1.6,
+        "changePct20d": -2.8,
+        "volumeRatio": 0.81,
+        "currency": "TWD",
+        "asOf": "2026-08-20T05:30:06.000Z"
+      }
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "被動元件／被動元件族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "今年明確不看好。估值過高，產業寡占程度與技術門檻不如半導體與高階載板，且不具備強烈的 AI 結構性缺貨敘事。不少個股已大幅上漲，但回歸基本面與全球市占邏輯，續漲空間有限。若市場風險偏好下降或回到基本面檢驗，可能面臨明顯評價修正。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "無",
+      "catalyst": "市場重新檢驗估值與基本面、資金退潮"
+    },
+    {
+      "ticker": "細菌源",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "不在今年看好範圍內。相較於半導體、記憶體與 AI ASIC，較難享有明確的寡占優勢與高成長敘事。若資金持續往高成長高門檻產業集中，此類標的表現可能相對落後。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "無",
+      "catalyst": "資金輪動回高成長主流股"
+    },
+    {
+      "ticker": "二極體",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華（產業隊長 張捷）",
+          "reason": "相較於偏好的半導體與 AI 供應鏈，吸引力較低。產業定位與獲利彈性不如高階寡占族群，市場偏好高毛利、高技術門檻標的時，不會是主流資金首選。若整體市場持續追逐先進製程與 AI 題材，二極體相對承壓。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "無",
+      "catalyst": "市場主流持續偏向先進製程與 AI"
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "美國公債殖利率",
+      "reason": "美國財政部出手買進 400 億美元公債以壓低殖利率，顯示高利率仍是壓抑高估值科技股評價的重要變數。短線雖有緩和，但若殖利率再度上行，仍可能壓抑成長股表現。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "台股整體走勢",
+      "reason": "台股尾盤拉升但量能明顯萎縮，上市成交量不到 800 億，代表市場仍偏觀望。法人資金與市場共識尚未完全回來，短線可能以盤整等待第二隻腳或整理區間為主。關鍵支撐區在四萬五附近。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "記憶體產業",
+      "reason": "基本面強勁，已出現缺貨與獲利改善，但股價大漲後仍在整理籌碼。後續觀察重點：需求是否延續、報價是否維持，以及市場是否繼續把記憶體視為結構性轉強而非短期循環。供需緊俏若持續，族群仍可能是市場焦點。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "AI ASIC（人工智慧特殊應用晶片）",
+      "reason": "市場規模從 50 億美元快速上修至 80 億美元，需求呈爆發式而非線性擴張。核心觀察重點不只是輝達，還包括聯發科、創意、博通、世芯、亞馬遜、谷歌等整個生態圈。若市場持續上修需求，相關供應鏈將維持高熱度。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "半導體供應鏈（設備、特化、封裝、載板）",
+      "reason": "台積電帶動本土供應鏈全面升級，相關廠商均有長線觀察價值。若先進製程持續向下世代推進，供應鏈評價仍有重新上修空間。台積電不只是代工龍頭，更是台灣半導體生態系的中心。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "美國利率走向",
+      "reason": "高利率持續壓抑高估值科技股，無風險利率上升直接影響估值模型與融資成本。即使短線因財政部干預降溫，未來利率是否維持高檔仍是科技股評價能否擴張的核心變數。若利率僵持在高位，成長股波動仍會加劇。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "資金應優先集中在寡占、高研發、具世界級地位的產業",
+      "reasoning": "產業隊長反覆強調，最值得投資的是具備寡占、研發門檻高且在全球具有世界級地位的公司或產業。從記憶體、ABF 載板、台積電、先進封裝到 AI ASIC，邏輯都圍繞著少數玩家吃大餅。反之，若產業不具備這些條件，即使題材熱，也較難長線維持高評價。這是本集最核心的選股哲學。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI ASIC 市場規模被快速上修，整個餅正在爆發式擴大",
+      "reasoning": "隊長引用聯發科法說，指出 AI ASIC 市場從 50 億美元上修至 80 億美元，短時間內大幅調升。這意味著原本以為是幾家廠商分小餅，實際上是整個市場快速擴張，讓多家設計服務商與晶片大廠都能受惠。若市場仍用過去的手機晶片邏輯看待，可能嚴重低估後續空間。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台積電不是單一公司，而是台灣半導體生態系的核心引擎",
+      "reasoning": "台積電不只自身強，更帶動本土設備、特化、封裝與材料廠一起成長。在美擴廠同時仍持續扶植台灣供應鏈，資本支出與生態系布局具有長期性。投資半導體不能只看台積電本身，也要同步布局周邊供應鏈，這是本集反覆出現的核心框架。",
+      "sector": "半導體",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "記憶體正從景氣循環股，轉向結構性缺貨與基本面修復的邏輯",
+      "reasoning": "隊長以南亞科、群聯為例，指出記憶體族群獲利大幅改善，市場已出現缺貨與需求強勁敘事。當基本面改善持續被驗證，市場評價就不再只看循環高低，而是開始看長線供需結構。這是他持續看好記憶體族群的核心理由，也是重要的認知升級信號。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場現在不是缺基本面，而是在等信心與共識回來",
+      "reasoning": "法人與大資金並不是等到景氣好轉才進場，而是等市場情緒、籌碼與共識完成沉澱。這波量縮與修正比較像去槓桿整理，而不是趨勢反轉。當市場共識重新凝聚，資金自然會回到主流產業，因此現在是耐心布局的階段，而非恐慌或追價時機。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "高利率對科技股的壓力，主要來自估值而非基本面立即惡化",
+      "reasoning": "美國公債殖利率飆升代表無風險利率上升，對高估值科技股形成直接壓力。但只要不是連續性、暴力式升息，對長期科技創新與 AI 趨勢的傷害有限。短線波動可能很大，但中長線主題未必改變，投資人應區分短線波動與長線趨勢。",
+      "sector": "貨幣政策",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場真正的風險不是短線回檔，而是長時間高利率與融資擁擠",
+      "reasoning": "融資過熱、高價股長時間不創高、大量散戶在咖啡店談股票，都是市場過熱的警訊。若利率長期維持高檔，科技巨頭舉債壓力持續上升，對高估值資產不利。短期修正未必可怕，真正要防的是槓桿與資金成本的累積壓力形成系統性風險。",
+      "sector": "總經",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "高利率與高殖利率環境會持續壓抑高估值科技股，尤其是需要大量舉債或資本支出的公司。",
+    "市場若再次出現融資過熱、群眾過度樂觀與高價股長期不創高，可能代表短線過熱風險升高。",
+    "被動元件等非核心高估值族群，若市場回到基本面檢驗，可能面臨評價修正。",
+    "若 AI ASIC 市場需求沒有持續上修，相關概念股的高期待可能被重新定價。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "",
+      "event": "美國財政部持續買進公債以壓低殖利率",
+      "tickers": [
+        "美國公債殖利率"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "",
+      "event": "市場共識回流與法人資金開始進場",
+      "tickers": [
+        "台股"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "",
+      "event": "AI ASIC 市場規模持續上修",
+      "tickers": [
+        "聯發科",
+        "創意",
+        "世芯",
+        "博通"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "",
+      "event": "台積電先進製程與先進封裝擴產",
+      "tickers": [
+        "台積電",
+        "設備股",
+        "先進封裝"
+      ],
+      "source": "李兆華"
+    },
+    {
+      "date": "",
+      "event": "記憶體供需持續緊俏與報價維持強勢",
+      "tickers": [
+        "南亞科",
+        "群聯"
+      ],
+      "source": "李兆華"
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1166｜量縮好布局，大型法人資金也在等出手，世界第一、寡占、高研發，ASIC、先進封裝、設備，難以預估的爆增大市場！ft.產業隊長 張捷",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/5da829b6-8279-4b00-a8f9-0266883c8573",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "產業隊長親授選股哲學：寡占＋高研發＋世界級地位，重押 ASIC、先進封裝、ABF 載板，冷眼看被動元件。",
+      "detailedSummary": "主持人李兆華與產業隊長張捷深度拆解當前市場格局，認為台股量縮修正屬於正常去槓桿，多頭趨勢未變，法人資金正在等待市場共識沉澱後重新進場。兩人最看好的三大主線為：一、AI ASIC 設計服務鏈（創意、聯發科、世芯、博通），因市場規模被快速上修而估值空間大；二、台積電帶動的本土半導體供應鏈（設備、特化、先進封裝），受惠於先進製程持續擴產；三、記憶體族群（南亞科、群聯），基本面從循環改善升級為結構性缺貨敘事。另一核心主軸是 ABF 載板（新興、南電、景碩），因寡占結構與高階運算需求持續被隊長列為長線首選。風險面則須持續追蹤美國公債殖利率走勢，以及高利率對高估值科技股的壓抑效應。",
+      "highlights": [
+        "台股量縮整理是去槓桿後的健康修正，而非趨勢反轉，法人正靜待市場共識重新凝聚再出手。",
+        "AI ASIC 市場規模從 50 億美元上修至 80 億美元，需求爆發式成長，創意、聯發科、世芯、博通同為受惠者。",
+        "創意被列為 ASIC 題材最具代表性標的，與台積電 3nm/2nm 合作深化，股價已創歷史新高。",
+        "ABF 載板（新興、南電、景碩）因高度寡占與 AI/HPC 需求持續，是隊長長線最看好方向之一。",
+        "台積電毛利率高達 67%，是台灣半導體生態系核心引擎，帶動設備、封裝、載板整條供應鏈受惠。",
+        "記憶體族群（南亞科、群聯）基本面升級，從景氣循環股轉向結構性缺貨邏輯，隊長親身持有南亞科。",
+        "被動元件估值偏高、寡占優勢不足，今年明確不在隊長看好名單內，市場回歸基本面後風險較高。",
+        "美國財政部出手買債壓低殖利率，顯示高利率仍是科技股估值的核心變數，需持續追蹤。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "川湖",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "金像電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "創意",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "愛普",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "緯穎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "合晶",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "大立光",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "新興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
