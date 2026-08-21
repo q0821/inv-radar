@@ -1,0 +1,652 @@
+{
+  "date": "2026-08-21",
+  "quickDigest": [
+    "探針卡族群（旺矽、穎崴）遭籌碼面誤殺，投信低檔回補，基本面未變",
+    "聯發科、雍智因谷歌╳Marvell消息被錯殺，谷歌實為擴大生態非替換供應商",
+    "航運（長榮海、陽明）短線接棒：油價高漲＋伊朗制裁推升燃油附加費",
+    "ABF族群欣興20日漲29%仍獲看好，景碩、新興、南電供需持續偏緊",
+    "九月初台積電亞利桑那供應鏈事件將至，中華化、台特化、新應材為潛在受惠股"
+  ],
+  "marketMood": "利空放大、利多鈍化，誤殺遍地卻也藏著逢回布局的機會",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "旺矽",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "旺矽近期回檔偏向被市場誤殺，核心原因不是基本面轉壞，而是探針卡產業短線籌碼與情緒波動。第二季業績太好使第三季增長預期從雙位數調整為個位數，市場便以苛刻標準反應，但全年與明年成長趨勢並未改變。市場傳聞與侵權消息真假有待釐清，投信已在低檔回補，偏向短線洗盤。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "創高後回檔、接近低檔支撐"
+    },
+    {
+      "ticker": "穎崴",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "穎崴下跌主要來自法人籌碼調整與經理人離職後的賣壓，而非基本面惡化。毛利率走弱屬於產品組合變化，並非需求轉差；探針卡廠商普遍產能吃緊，沒有供過於求問題。回檔更像籌碼面與市場情緒造成的修正，長線需求仍在。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "回檔後支撐區"
+    },
+    {
+      "ticker": "聯發科",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "市場因谷歌與 Marvell 合作消息而誤殺聯發科，把新合作想成取代舊合作，但實際上更像谷歌自研晶片生態的擴張，目的是降低成本並強化自研晶片能力，而非單純把聯發科踢出局。聯發科仍是大型權值股，法人也會在消息面波動時進場支撐。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "消息面誤殺後的支撐區",
+      "technicals": {
+        "currentPrice": 3790,
+        "ma20": 3811.5,
+        "ma60": 4017.08,
+        "priceVsMa20Pct": -0.6,
+        "priceVsMa60Pct": -5.7,
+        "rsi14": 48,
+        "changePct5d": -10,
+        "changePct20d": 1.1,
+        "volumeRatio": 0.67,
+        "currency": "TWD",
+        "asOf": "2026-08-21T05:30:06.000Z"
+      }
+    },
+    {
+      "ticker": "雍智",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "雍智被市場連帶誤殺，因為大家把谷歌、Marvell、聯發科的合作變化過度外推。雍智與全球大型探針卡客戶的合作關係仍在，擴產進度持續推進，未來產能預計明年可增加一倍以上。短線股價受消息面壓抑，但基本面與產能擴張邏輯沒有改變。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "回檔區間、被錯殺低點"
+    },
+    {
+      "ticker": "景碩",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "投信近期對 ABF 族群配置明顯調整，景碩是買超標的之一，反映法人認為 ABF 仍有需求支撐。短線受日本材料供應消息影響而波動，但台灣 ABF 需求往上走，景碩屬於資金輪動中較被重視的標的。法人有回補行為，顯示並未退出；同時被列為 ABF 產業鏈中後續可受惠標的，回檔更像提供重新布局機會。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "低檔支撐區",
+      "technicals": {
+        "currentPrice": 811,
+        "ma20": 781.85,
+        "ma60": 760.43,
+        "priceVsMa20Pct": 3.7,
+        "priceVsMa60Pct": 6.6,
+        "rsi14": 52,
+        "changePct5d": -5.9,
+        "changePct20d": 14.1,
+        "volumeRatio": 1.2,
+        "currency": "TWD",
+        "asOf": "2026-08-21T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "新興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "新興先前已創歷史新高，今天回檔屬於漲多修正而非趨勢反轉，回落反而是可觀察的買點。公司受惠於 ABF、載板與半導體擴產需求升溫，台灣在先進封裝與相關材料供應鏈地位持續提升。若市場因利空錯殺，反而提供較佳切入時機。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "歷史新高後回檔"
+    },
+    {
+      "ticker": "南電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "南電過去對擴產態度較保守，但整個台灣 ABF 產業鏈都在加速動起來，後續仍有機會受惠。台積電、英特爾等客戶對 ABF 的需求明顯增加，整體產能沒有閒置，顯示產業景氣仍在上升期。長線需求結構對其仍偏正面。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "低檔整理區",
+      "technicals": {
+        "currentPrice": 1135,
+        "ma20": 1102.25,
+        "ma60": 1061.23,
+        "priceVsMa20Pct": 3,
+        "priceVsMa60Pct": 7,
+        "rsi14": 50,
+        "changePct5d": -13,
+        "changePct20d": 2.3,
+        "volumeRatio": 1.01,
+        "currency": "TWD",
+        "asOf": "2026-08-21T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "長興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "長興法說會明確表示從今年下半年到明年都呈現機台供不應求，顯示整體材料與設備需求強勁。市場因材料股與 PCB 族群回檔而擔心題材退潮，但基本面實際上正在加速發酵，回檔更像市場情緒反應而非營運轉弱。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "臺光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "臺光電是大盤中已先創新高的代表，說明台股內部有強勢領頭羊先行表態。雖今天盤面偏向小型股與傳產輪動，但臺光電這類強勢股顯示基本面與資金仍在支撐高位，也印證對大盤不需過度悲觀的看法。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "創新高後高檔區"
+    },
+    {
+      "ticker": "慧洋KY",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "有操作靈敏的投資人前幾天賣國巨、轉買慧洋KY，顯示市場開始把資金轉向航運族群。在油價上漲、燃油附加費可能調整與運量變化下，航運股短線具備輪動題材。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "長榮海",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在伊朗受制裁、油價走高與赫姆斯海峽風險未解的情境下，航運股是最直接受惠的族群之一。油價上升會推升燃油附加費，也使空船與運力調整，對海運價格形成支撐。短線強勢，基本面與資金面催化偏正面。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "陽明",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "航運是盤面最強族群之一，陽明作為貨櫃航運代表受惠於油價、運費與運力變化。市場對地緣政治與能源價格的重新定價使航運成為資金短線避風港，語氣明顯偏多。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "中華化",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "電子級硫酸與相關化工材料將受惠於台積電赴美擴廠與在地採購比重提高。中華化市場關注度較低，若需求確實落地反而有補漲空間。屬於中低位階材料股受惠於半導體供應鏈外溢的邏輯。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "台特化",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電提高本地供應鏈採購比例後，電子級化學品與特殊材料需求將擴大，台特化屬於相關受惠股。雖然目前不一定是市場最熱標的，但中長線題材清晰，受惠台積電亞利桑那擴廠與供應鏈在地化。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "新應材",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "新應材受惠於台積電在美擴產的半導體材料鏈，第三季下半就可能開始反映。台積電在地採購比例提升帶動材料需求，新應材屬於被市場低估的受惠族群。整體語氣偏正面。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "欣興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "持續看好欣興在 ABF 與載板需求升溫下的中長線表現，認為市場對材料供應變化的反應過度。短線雖受日本供應商減供中國消息干擾，但台灣廠商真正受惠的是高階 ABF 需求，欣興已有擴產與客戶需求支撐，回檔可留意。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "無",
+      "technicals": {
+        "currentPrice": 1085,
+        "ma20": 955.65,
+        "ma60": 940.48,
+        "priceVsMa20Pct": 13.5,
+        "priceVsMa60Pct": 15.4,
+        "rsi14": 61,
+        "changePct5d": 6.4,
+        "changePct20d": 29.3,
+        "volumeRatio": 1.02,
+        "currency": "TWD",
+        "asOf": "2026-08-21T05:30:06.000Z"
+      }
+    },
+    {
+      "ticker": "被動元件族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "九月可能再看到被動元件漲價消息，族群將重新獲得題材催化。雖今天因市場傳言與資金輪動而下跌，但若後續廠商正式宣布調價，股價可能再度反映。族群具備短中期再起的條件。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "無"
+    },
+    {
+      "ticker": "機器人族群",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "機器人題材雖因展覽接近尾聲與市場資金淡化而降溫，但部分個股（如新代）仍可能因基本面延續而繼續走高。部分公司同時具備半導體設備與自動化雙重題材，若基本面能支撐，題材結束後不一定就此反轉。需觀察後續營收驗證。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "無"
+    }
+  ],
+  "bearishSignals": [],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤",
+      "reason": "台股從低點反彈後出現小黑K與壓力，但整體回檔屬於漲多後的正常整理，並非明顯暴跌。指數再回前低機率低，因融資雖有回升但尚未全面回到高檔，市場結構仍偏強。短線利空會被放大解讀，中長線仍要看產業接棒與資金輪動。壓力位置在四萬六千點附近。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "油價",
+      "reason": "美國擴大對伊朗經濟制裁後，市場開始預期油價難以下來，這會牽動通膨、運輸成本與航運股表現。油價若維持高檔，將成為九月前最重要的市場變數之一。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "九月升息預期",
+      "reason": "九月升息機率上升，原因是油價推升通膨風險，市場原本對不升息的預期可能被修正。若真的升息，短線對房地產與籌資成本造成壓力，但若預期先行反映，實際公布後衝擊未必更大。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "台積電亞利桑那供應鏈",
+      "reason": "九月初美國亞利桑那州多位市長將來台，重點是要與台積電供應鏈討論赴美設廠與在地合作。這代表台積電美國落地進度加速，將帶動電子級化學品、材料與設備供應鏈的新一輪擴張。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "半導體材料",
+      "reason": "從電子級硫酸、特殊化學品到 ABF 相關材料，台積電赴美擴廠會讓在地材料供應鏈全面受惠。台積電提高在地採購比例，相關材料股在第三季下半到明年可能成為重要主線。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "航運族群",
+      "reason": "航運正在接棒，油價與地緣政治推動運費、燃油附加費與運力調整。屬於短線族群輪動，但對盤面而言，航運是當下最明顯的資金去向之一。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "市場現在是利空放大、利多鈍化的盤勢",
+      "reasoning": "台股從低點反彈後，投資人對利空的敏感度明顯升高，只要消息出來，不論真偽都容易先被市場賣掉。這代表盤勢已從先前的全面樂觀，轉向對消息面高度反應的階段。對操作而言，這種環境更需要辨別籌碼與基本面的差異，避免被短線情緒誤導。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "探針卡與相關測試族群的回檔多半是籌碼面與情緒面影響",
+      "reasoning": "以穎崴、旺矽為例，毛利率變化主要來自產品組合與營運節奏，而非需求全面轉弱。加上經理人離職、法人換手與市場傳聞，才導致股價急跌，更像被誤殺。若後續財報與產能利用率持續強勁，股價有機會修復。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "谷歌與 Marvell 合作不等於聯發科出局",
+      "reasoning": "市場把合作消息解讀得太直接，實際上谷歌是在擴大自研晶片生態，目的在降低成本與提升推理能力。谷歌同時與不同供應商合作，聯發科原本的角色不會因為新合作立刻被取代。這反映市場常在消息第一時間過度外推，形成錯殺機會。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台灣 ABF 與載板產業的需求仍在升溫",
+      "reasoning": "台積電、英特爾以及相關先進封裝需求持續增加，ABF 產能沒有閒置，供需仍偏緊。即便日本材料商對中國供應調整，對台灣高階載板廠的影響未必是負面，因為台灣更接近高階需求端。產能擴張與客戶需求仍是主導因素。",
+      "sector": "半導體",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "油價與地緣政治正在重新定義航運與通膨路徑",
+      "reasoning": "美國擴大制裁伊朗是油價上行的關鍵原因，赫姆斯海峽短期難以改善。油價升高不只推升通膨，也透過燃油附加費與運力收縮直接利多航運族群。這是典型由地緣政治延伸到產業定價的推導邏輯。",
+      "sector": "地緣政治",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台積電赴美擴廠將帶動台灣材料供應鏈外溢受惠",
+      "reasoning": "亞利桑那州官員將來台，重點是把台積電供應鏈一起帶去美國，且台積電內部正在提高在地採購比例。這意味電子級硫酸、特化材料與相關供應鏈不只是台灣本地受惠，還可能跟著台積電擴張到海外，使材料股具備中長線成長空間。",
+      "sector": "半導體",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "下跌不一定是風險，也可能是成長股的再布局機會",
+      "reasoning": "很多股票因今年成長率高、明年成長率相對放緩，而在高位出現修正，但本質上仍在成長。若投資人把所有下跌都視為壞消息，就會錯過產業接棒與估值修正後的切入點。這是偏向分批換股與逢回布局的操作框架。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "油價若持續高檔，可能再度推升通膨與市場對九月升息的擔憂。",
+    "市場目前對利空極度敏感，若消息面再度惡化，短線波動可能放大。",
+    "部分高位成長股若第三季增速不如預期，仍可能面臨估值修正。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "近期",
+      "event": "谷歌與 Marvell 合作消息持續發酵，市場重新評價聯發科與雍智",
+      "tickers": [
+        "聯發科",
+        "雍智"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "油價維持高檔與伊朗制裁進展，影響航運與通膨",
+      "tickers": [
+        "長榮海",
+        "陽明",
+        "慧洋KY"
+      ]
+    },
+    {
+      "date": "九月初",
+      "event": "美國亞利桑那州多位市長來台，討論台積電供應鏈赴美合作",
+      "tickers": [
+        "台積電",
+        "2330.TW",
+        "中華化",
+        "台特化",
+        "新應材"
+      ]
+    },
+    {
+      "date": "九月",
+      "event": "被動元件可能宣布漲價，族群題材重新發酵",
+      "tickers": [
+        "被動元件族群"
+      ]
+    },
+    {
+      "date": "九月",
+      "event": "聯準會利率決策，市場關注是否出現升息預期修正",
+      "tickers": [
+        "台股大盤"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1167｜航運接棒，熱門漲價股回檔，利空釋疑！邁威爾和谷歌合作，掃到聯發科、雍智？味之素停供中國，台PCB廠該開心！ft.操盤手 黃豐凱",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/ed8d0ac9-94f6-4132-98ea-81aaa8613a0c",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "台股高檔震盪、航運接棒領漲，來賓逐一釋疑探針卡、ABF、聯發科遭誤殺的邏輯，並點出台積電赴美供應鏈為下一主線。",
+      "detailedSummary": "本集主持人與來賓操盤手黃豐凱深入分析台股高檔震盪下的產業輪動格局。來賓認為市場正進入更挑剔的選股階段，對利空的敏感度異常高，導致旺矽、穎崴等探針卡族群，以及聯發科、雍智等 AI 晶片相關股遭到情緒性錯殺，但基本面與擴產邏輯並未改變。與此同時，航運族群因油價上漲與美國擴大制裁伊朗帶動地緣政治風險升溫，成為資金短線最明顯的去向，長榮海、陽明、慧洋KY均獲提及。在中長線布局方面，來賓特別點出九月初美國亞利桑那州市長來台一事，認為台積電赴美擴廠加速，將帶動電子級硫酸、特化材料等在地採購需求，中華化、台特化、新應材等材料股具備補漲潛力。整體操作框架偏向逢回布局、辨別真假利空，對大盤中長線仍維持樂觀態度。",
+      "highlights": [
+        "台股從低點反彈後進入高檔整理，市場對利空反應明顯放大，利多卻鈍化，操作需辨別籌碼面與基本面差異。",
+        "旺矽、穎崴等探針卡族群遭市場誤殺：原因是籌碼換手、經理人離職與市場傳聞，而非需求轉差，投信已低檔回補。",
+        "谷歌與 Marvell 合作消息引發聯發科與雍智被連帶拋售，來賓認為屬於市場過度外推，谷歌是在擴大自研晶片生態而非替換供應商。",
+        "航運族群（長榮海、陽明、慧洋KY）因油價走高與伊朗制裁升級短線接棒，燃油附加費與運力調整形成直接催化。",
+        "台灣 ABF 與載板族群（欣興、景碩、新興、南電）需求持續升溫，供需偏緊，日本材料商減供中國對台灣高階廠商未必是負面。",
+        "台積電赴美擴廠加速，九月初亞利桑那州市長來台談供應鏈合作，電子級硫酸與特化材料（中華化、台特化、新應材）為潛在受惠股。",
+        "被動元件族群九月可能再宣布漲價，短線題材有望重新發酵；機器人族群展覽效應退潮，需等待後續營收驗證基本面。",
+        "來賓整體操作框架：成長股因高基期回檔不等於趨勢反轉，逢回分批布局才能掌握產業接棒機會。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [
+      {
+        "ticker": "南亞科",
+        "direction": "bullish",
+        "kolCount": 3,
+        "kols": [
+          "李兆華",
+          "李兆華（EP1159）",
+          "李兆華（產業隊長 張捷）"
+        ],
+        "bullCount": 6,
+        "bearCount": 1,
+        "ratio": 86
+      },
+      {
+        "ticker": "群聯",
+        "direction": "bullish",
+        "kolCount": 3,
+        "kols": [
+          "李兆華（EP1159）",
+          "李兆華",
+          "李兆華（產業隊長 張捷）"
+        ],
+        "bullCount": 4,
+        "bearCount": 1,
+        "ratio": 80
+      }
+    ],
+    "repeatStress": [
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "川湖",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "金像電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "創意",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "愛普",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "緯穎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "合晶",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "大立光",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "新興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
