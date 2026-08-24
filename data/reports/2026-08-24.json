@@ -1,0 +1,683 @@
+{
+  "date": "2026-08-24",
+  "quickDigest": [
+    "航運三雄（2603/2615/6148）受貨櫃運價連漲催化，萬海5日漲25%、RSI達91，動能強勁但過熱風險需留意",
+    "輝達財報（8/26）將定義AI下一瓶頸：若指向電力，光寶科（2301）已漲停卡位，台達電（2308）為補漲候選",
+    "美債殖利率高檔（10年4.7%/30年5.3%）驅動資金轉向高息低本益比：記憶體模組（3227）、電線纜（1605）成避風港",
+    "AI龍頭回檔非趨勢破壞：台光電（2454）回測月線、創意（2383）高檔整理，可分批低接",
+    "傑克森霍爾年會（8/30）為本週第二大變數，若鷹派言論再出，高成長股估值壓力將擴大"
+  ],
+  "marketMood": "高息防禦當道、AI蟄伏等催化，輝達財報是本週最大解謎時刻",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "2603",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "長榮為高殖利率、低本益比且具運價題材的代表，在資金偏好防禦與收益型標的時持續受關注。運價若能連續上揚，仍有機會形成波段，對中長線資金而言比純題材股更有基本面支撐。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 250.5,
+        "ma20": 218.78,
+        "ma60": 208.88,
+        "priceVsMa20Pct": 14.5,
+        "priceVsMa60Pct": 19.9,
+        "rsi14": 81,
+        "changePct5d": 8.2,
+        "changePct20d": 23.1,
+        "volumeRatio": 1.64,
+        "currency": "TWD",
+        "asOf": "2026-08-24T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "2615",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "萬海在低本益比與高殖利率下具吸引力，投信已開始積極卡位航運族群。運價上漲與營運數據改善形成雙重催化，若後續運價維持強勢，股價仍有延續性。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 124.5,
+        "ma20": 93.89,
+        "ma60": 85.69,
+        "priceVsMa20Pct": 32.6,
+        "priceVsMa60Pct": 45.3,
+        "rsi14": 91,
+        "changePct5d": 25,
+        "changePct20d": 48.2,
+        "volumeRatio": 3.74,
+        "currency": "TWD",
+        "asOf": "2026-08-24T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "6148",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "航運股在低量盤中持續有資金卡位，核心邏輯是低本益比搭配高殖利率，貨櫃運價指數連續上升，美東線價格逼近疫情高點，第三季營收與獲利仍有往上空間。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "3227",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "記憶體模組廠在低量盤中表現相對整齊，主因是第二季獲利強勁、明年殖利率有機會達到高檔，形成資金避風港。上半年賺得夠多，市場願意先交易高殖利率與低本益比的優勢。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2301",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "光寶科近期明顯轉強甚至出現漲停，原因在於第二季財報毛利率與獲利改善，市場重新評價其在電力與電源供應鏈中的地位。若輝達後續持續強調電力需求，光寶科的題材延續性有機會被放大。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 287,
+        "ma20": 248.48,
+        "ma60": 227.74,
+        "priceVsMa20Pct": 15.5,
+        "priceVsMa60Pct": 26,
+        "rsi14": 66,
+        "changePct5d": 8.9,
+        "changePct20d": 35.4,
+        "volumeRatio": 1.33,
+        "currency": "TWD",
+        "asOf": "2026-08-24T05:30:03.000Z"
+      }
+    },
+    {
+      "ticker": "2308",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台達電雖短線相對落後，但仍是電力與電源供應鏈的重要龍頭。若輝達把 AI 瓶頸定義在電力，台達電反而可能是被低估的切入點。若光寶科因題材先漲，台達電的相對位置就更具吸引力。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 1735,
+        "ma20": 1715.25,
+        "ma60": 1930.25,
+        "priceVsMa20Pct": 1.2,
+        "priceVsMa60Pct": -10.1,
+        "rsi14": 46,
+        "changePct5d": -8,
+        "changePct20d": -1.1,
+        "volumeRatio": 0.33,
+        "currency": "TWD",
+        "asOf": "2026-08-24T05:30:15.000Z"
+      }
+    },
+    {
+      "ticker": "2454",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台光電從高檔回檔，在 AI 趨勢未被破壞的前提下，回測月線反而屬於尋找低接點的機會。若後續伺服器與高速傳輸需求續強，台光電仍是龍頭型受惠標的。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "回到月線關卡",
+      "technicals": {
+        "currentPrice": 3765,
+        "ma20": 3815.75,
+        "ma60": 4008,
+        "priceVsMa20Pct": -1.3,
+        "priceVsMa60Pct": -6.1,
+        "rsi14": 46,
+        "changePct5d": -7,
+        "changePct20d": 2.3,
+        "volumeRatio": 0.37,
+        "currency": "TWD",
+        "asOf": "2026-08-24T05:30:10.000Z"
+      }
+    },
+    {
+      "ticker": "2383",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "創意列為高階 AI 與先進製程相關供應鏈中，創高後拉回但仍值得追蹤的龍頭之一。AI 趨勢仍在，股價回檔多半是籌碼與估值整理，若後續大客戶需求持續，仍可能再度表態。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 5430,
+        "ma20": 5371,
+        "ma60": 5231.83,
+        "priceVsMa20Pct": 1.1,
+        "priceVsMa60Pct": 3.8,
+        "rsi14": 49,
+        "changePct5d": -14.5,
+        "changePct20d": 12.8,
+        "volumeRatio": 0.79,
+        "currency": "TWD",
+        "asOf": "2026-08-24T05:30:08.000Z"
+      }
+    },
+    {
+      "ticker": "2492",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "聯電站上所有均線，屬於技術面轉強訊號，本益比偏低、殖利率上來，具備價值型資金可切入的條件。上半年賺近五元的基本面讓估值更具吸引力，是偏好低位階與高殖利率資金可觀察的低接標的。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "站上所有均線",
+      "technicals": {
+        "currentPrice": 265,
+        "ma20": 265.2,
+        "ma60": 387.56,
+        "priceVsMa20Pct": -0.1,
+        "priceVsMa60Pct": -31.6,
+        "rsi14": 42,
+        "changePct5d": -9.1,
+        "changePct20d": -2.6,
+        "volumeRatio": 0.45,
+        "currency": "TWD",
+        "asOf": "2026-08-24T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "1605",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "電線纜族群近期很強，受銅價上漲、電力與基建需求受惠，加上本益比低、殖利率高，符合當前資金偏好的價值與防禦特徵。若銅價持續加速上行，低價庫存優勢讓股價可能進一步受惠。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "多數股價在五十元以下",
+      "technicals": {
+        "currentPrice": 38.1,
+        "ma20": 35.47,
+        "ma60": 36.03,
+        "priceVsMa20Pct": 7.4,
+        "priceVsMa60Pct": 5.8,
+        "rsi14": 59,
+        "changePct5d": -1,
+        "changePct20d": 16.7,
+        "volumeRatio": 0.94,
+        "currency": "TWD",
+        "asOf": "2026-08-24T05:30:12.000Z"
+      }
+    },
+    {
+      "ticker": "台耀",
+      "consensus": "KOL 分歧（同一 KOL 多空並陳）",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "【看多面】生技與高齡化、藥物研發題材中的觀察標的，若搭上產業趨勢與供應鏈規格升級，仍可能有低檔反彈空間。若被動買盤回流，股價有機會修復。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 50,
+        "ma20": 52.33,
+        "ma60": 52.63,
+        "priceVsMa20Pct": -4.5,
+        "priceVsMa60Pct": -5,
+        "rsi14": 40,
+        "changePct5d": -4.2,
+        "changePct20d": -3.1,
+        "volumeRatio": 1.63,
+        "currency": "TWD",
+        "asOf": "2026-08-24T05:30:38.000Z"
+      }
+    },
+    {
+      "ticker": "LUMN",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "光通訊族群在美債利率高檔下仍有結構性題材，屬於 AI 基礎設施中的一環。若 AI 帶動的資料傳輸需求持續擴張，相關零組件仍具中長線成長空間。目前比較適合逢回觀察。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 5.94,
+        "ma20": 6.31,
+        "ma60": 7.35,
+        "priceVsMa20Pct": -5.9,
+        "priceVsMa60Pct": -19.2,
+        "rsi14": 40,
+        "changePct5d": -11.6,
+        "changePct20d": -6.3,
+        "volumeRatio": 0.54,
+        "currency": "USD",
+        "asOf": "2026-08-21T20:00:02.000Z"
+      }
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "茂林-KY",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "第二季財報雖然營收與獲利不差、單季獲利創高，但市場用更高標準檢驗毛利率與年增表現，財報公布後股價直接跌停。反映估值與預期落差，若投信後續由買轉賣，短線壓力可能更大。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台耀",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "【看空面】近期走勢偏弱、跌破季線，籌碼與基本面預期都偏保守。若外資賣壓與投信賣壓未止，股價仍可能持續承壓。短線上比較適合觀察是否有被動買盤或籌碼回穩，不宜追價。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "跌破季線",
+      "technicals": {
+        "currentPrice": 50,
+        "ma20": 52.33,
+        "ma60": 52.63,
+        "priceVsMa20Pct": -4.5,
+        "priceVsMa60Pct": -5,
+        "rsi14": 40,
+        "changePct5d": -4.2,
+        "changePct20d": -3.1,
+        "volumeRatio": 1.63,
+        "currency": "TWD",
+        "asOf": "2026-08-24T05:30:38.000Z"
+      }
+    },
+    {
+      "ticker": "3059",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "新盛力在出關後出現跌停，短線籌碼流動對股價影響極大。在低量與觀望盤中，資金一旦想先落袋為安，股價就容易被快速打下來。並非基本面惡化，而是籌碼面壓力與短線風險偏好降低所致。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 39.2,
+        "ma20": 39.45,
+        "ma60": 44.22,
+        "priceVsMa20Pct": -0.6,
+        "priceVsMa60Pct": -11.4,
+        "rsi14": 40,
+        "changePct5d": -4,
+        "changePct20d": -2.9,
+        "volumeRatio": 0.49,
+        "currency": "TWD",
+        "asOf": "2026-08-24T05:30:19.000Z"
+      }
+    },
+    {
+      "ticker": "6180",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "普羅威在出關後明顯拉回，反映市場在低量環境下對短線漲多股的風險容忍度很低。出關籌碼在資金轉弱時成為壓力來源，這類個股較偏向籌碼交易，延續性不如基本面型標的。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "美債殖利率走向",
+      "reason": "美債殖利率維持高檔（三十年期約 5.3%、十年期約 4.7～4.75%），是台股量縮與資金輪動加劇的核心原因。當利率停留高位，高成長高本益比族群估值受壓，資金轉向高殖利率、低本益比防禦型標的。若殖利率再上行，市場壓力將明顯擴大；若高檔盤旋則以族群輪動為主。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "美債殖利率高檔是本波台股量縮與輪動的核心變數",
+      "reasoning": "來賓把近期市場主軸歸因於美債殖利率居高不下，認為這會壓抑高成長、高估值族群的延續性。當資金擔心利率再上升時，追價意願下降，盤面容易變成量縮、輪動，甚至資金轉向防禦與高殖利率族群。若殖利率再上衝，市場壓力會顯著增加；若只是高檔盤旋，則偏向族群輪動。",
+      "sector": "總經",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "高殖利率與低本益比標的在高利率環境下更具吸引力",
+      "reasoning": "來賓反覆強調，當債券殖利率接近 5% 時，投資人會比較兩者報酬，股息高、估值低的股票更容易被資金青睞。模組廠、航運、金融與部分傳產因此在量縮盤中相對有表現，代表市場並非完全不買股票，而是更偏向收益型與價值型配置。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 主軸沒有被破壞，回檔更像估值與籌碼整理",
+      "reasoning": "主持人與來賓都認為，儘管近期高成長電子股因利率壓力而走弱，但 AI 的產業趨勢並未改變。建議把重點放在下一代 AI 供應鏈與龍頭公司的回檔買點，而不是因為短線震盪就否定整體趨勢。因此強調要觀察輝達財報與後續供應鏈確認。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "輝達的瓶頸可能在電力，而不只是運算晶片",
+      "reasoning": "來賓從輝達近期動作推論，其在財報前夕積極處理供應鏈與投資布局，且對外提及的重點可能不只是晶片本身，而是整體基礎設施中的電力瓶頸。若此推論成立，電源供應、電力設備與相關零組件將比單純題材股更具持續性，解釋了光寶科、台達電與部分重電概念受到關注的原因。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "航運與原物料上漲，反映資金正在尋找確定性更高的收益型機會",
+      "reasoning": "來賓指出，航運運價連續上漲、原物料因美元走弱與地緣因素而轉強，讓市場願意把資金移往報價與獲利可驗證的族群。這類標的雖不一定有最漂亮的成長故事，但基本面能透過價格或報價指標快速驗證，在低量盤中特別受青睞，屬於相對明確的資金避風港。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "特定產業 ETF 適合當衛星配置，不適合成為資產核心",
+      "reasoning": "來賓以生技、航運與數位資產相關商品為例，提醒這些題材若遇到對的產業循環報酬可能很高，但波動極大，不能把過高比重壓在單一主題上。核心資產應以較穩定、較分散的市值型配置為主，特定產業 ETF 則比較適合用小比例去參與趨勢。這是其對資產配置風險控管的核心框架。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "美債殖利率若再上衝，會進一步壓抑高成長與高本益比族群。",
+    "航運與原物料雖有題材，但若報價不再續強，股價延續性可能快速下降。",
+    "部分出關股與漲多股在低量環境下容易出現急跌，短線籌碼風險高。",
+    "生技與特定主題 ETF 波動極大，若配置比重過高，可能造成資產大幅回撤。",
+    "投信若對財報不如預期的個股由買轉賣，短線壓力可能迅速放大。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "08/26",
+      "event": "輝達財報公布",
+      "tickers": [
+        "NVDA",
+        "2454",
+        "2383",
+        "2301",
+        "2308"
+      ]
+    },
+    {
+      "date": "08/30",
+      "event": "傑克森霍爾全球央行年會",
+      "tickers": [
+        "美債殖利率",
+        "金融",
+        "科技股"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1168｜美國債壓、南部放假，低量等表態！高息科技、非電、原物料，看跌停的比看漲停有趣？航海王怎麼當？ft.題材獵人 林漢偉",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/e44d93e8-9875-4e63-9262-c30238dbf643",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "美債高壓下的台股求生術：低本益比、高殖利率標的為王，AI 回檔反而是佈局時機。",
+      "detailedSummary": "本集在低量盤與高利率背景下，深入探討資金輪動的邏輯與方向。主持人與來賓一致認為美債殖利率居高不下是近期市場缺乏主流領漲股、量能萎縮的核心因素，高成長電子股估值因此受壓，但 AI 產業趨勢本身並未改變。在這個環境下，記憶體模組（3227）、航運三雄（2603、2615、6148）、電力供應鏈（2301 光寶科、2308 台達電）、電線纜（1605）等高殖利率、低本益比標的成為盤面主角，而 AI 供應鏈龍頭（2454 台光電、2383 創意）的回檔則被視為低接機會。來賓特別提醒，輝達即將公布的財報若把電力定義為 AI 基礎設施的新瓶頸，將為電力相關族群帶來進一步催化。風險方面，出關股籌碼凌亂（3059、6180）、財報不如預期的個股（茂林-KY）、以及生技 ETF 等高波動標的，在低量環境下短線壓力不容輕忽。",
+      "highlights": [
+        "美債殖利率高檔（十年期約 4.7～4.75%）是台股量縮與資金輪動的核心原因，壓抑高成長高本益比族群。",
+        "高殖利率、低本益比標的成為盤面主角：記憶體模組（3227）、航運三雄（2603、2615、6148）表現相對突出。",
+        "貨櫃運價指數連續上升，美東線逼近疫情高點，航運第三季營收與獲利仍有上行空間。",
+        "輝達財報（08/26）與傑克森霍爾全球央行年會（08/30）是本週兩大關鍵事件，決定市場方向。",
+        "來賓推論輝達可能把 AI 瓶頸指向電力，光寶科（2301）已率先漲停，台達電（2308）為相對落後的補漲候選。",
+        "AI 趨勢未被破壞，台光電（2454）回測月線、創意（2383）高檔拉回均被視為分批低接的機會。",
+        "銅價上漲與電力需求題材推升電線纜族群（1605），低股價、低本益比符合當前資金偏好。",
+        "出關股（3059 新盛力、6180 普羅威）與財報不如預期個股（茂林-KY）在低量環境下急跌，籌碼風險高。",
+        "生技與特定主題 ETF 波動極大，適合做衛星配置（小比例參與），不宜成為資產核心。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [
+      {
+        "ticker": "南亞科",
+        "direction": "bullish",
+        "kolCount": 3,
+        "kols": [
+          "李兆華（EP1159）",
+          "李兆華",
+          "李兆華（產業隊長 張捷）"
+        ],
+        "bullCount": 5,
+        "bearCount": 1,
+        "ratio": 83
+      },
+      {
+        "ticker": "群聯",
+        "direction": "bullish",
+        "kolCount": 3,
+        "kols": [
+          "李兆華（EP1159）",
+          "李兆華",
+          "李兆華（產業隊長 張捷）"
+        ],
+        "bullCount": 4,
+        "bearCount": 1,
+        "ratio": 80
+      }
+    ],
+    "repeatStress": [
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "新興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "金像電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "緯穎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "創意",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "合晶",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "川湖",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "欣興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "陽明",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "大立光",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
