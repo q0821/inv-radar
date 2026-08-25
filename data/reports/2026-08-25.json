@@ -1,0 +1,521 @@
+{
+  "date": "2026-08-25",
+  "quickDigest": [
+    "台積電現價2400元站上月線，RSI 52溫和，法說前後震盪屬慣性布局機會",
+    "PCB族群（欣興、南電、景碩）20日強漲逾18-43%，短線回檔但基本面未破壞",
+    "輝達財報前預期過滿，歷史慣性為財報後先壓回，屆時反成再布局窗口",
+    "美債殖利率快速走低才是真警訊，長短天期未同步上行，系統性風險尚未擴散",
+    "AI資本支出持續創高，設備股本益比若回落至十幾倍區間，將是中長線切入點"
+  ],
+  "marketMood": "AI基本面仍強勁，但資金輪動分化，耐心等回檔勝過追高",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "台積電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台積電是台灣 AI 紅利的核心受惠者，基本面與財報均屬創高狀態，並非單靠題材支撐。AI 需求與資本支出未逆轉，法說前後震盪反而常被視為布局機會。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "過去約一百二十元、兩百四十元皆曾被視為很貴，仍需評估當前位階",
+      "technicals": {
+        "currentPrice": 2400,
+        "ma20": 2368.5,
+        "ma60": 2383.25,
+        "priceVsMa20Pct": 1.3,
+        "priceVsMa60Pct": 0.7,
+        "rsi14": 52,
+        "changePct5d": 0.8,
+        "changePct20d": 5.3,
+        "volumeRatio": 0.52,
+        "currency": "TWD",
+        "asOf": "2026-08-25T05:30:11.000Z"
+      }
+    },
+    {
+      "ticker": "PCB產業",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "PCB 族群屬第一梯隊，多數公司已有實際業績支撐，上中下游各有強勢環節，話題與資金可在族群內輪動。基本面沒有問題的標的終究會還原價值，適合慢慢布局。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "設備股",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "AI 資本支出持續擴張，晶片與零組件擴廠直接帶動設備需求，訂單與業績有明確支撐。若股價回到較低本益比區間，搭配穩定成長的營收與獲利，反而是更好的切入點。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "部分標的本益比可能回到十幾倍"
+    },
+    {
+      "ticker": "組裝廠",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "雖毛利率可能略受產品轉換與學習曲線影響，但營收與獲利仍持續創高。股東最終看的是獲利，只要獲利往上、營收持續擴張，短期毛利率波動屬於過程而非結論。遇到拉回可視為分批布局機會。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "奇鋐",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "散熱族群中 AI 比重較高的公司較容易獲得市場偏好，奇鋐是其中相對受關注的代表。AI 伺服器需求直接帶動散熱升級，屬於明確受惠環節，中長期仍有成長支撐。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "欣興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板族群中規模最大的公司，先前股價落後，但 AI 相關比重若逐步提升，有機會回補相對落後的差距。屬偏中長線布局觀點，非短線追價。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "約兩百多元曾被視為相對便宜",
+      "technicals": {
+        "currentPrice": 1095,
+        "ma20": 983.55,
+        "ma60": 941.57,
+        "priceVsMa20Pct": 11.3,
+        "priceVsMa60Pct": 16.3,
+        "rsi14": 61,
+        "changePct5d": -4.4,
+        "changePct20d": 43.3,
+        "volumeRatio": 0.67,
+        "currency": "TWD",
+        "asOf": "2026-08-25T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "金像電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "基本面與營收財報仍然很好，近期逆勢不漲屬籌碼與輪動問題而非基本面惡化。若未來籌碼整理完成、資金回流，仍有補漲機會。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "南電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板族群中先前相對強勢的標的，市場資金容易關注的代表之一。基本面未被否定，若需求與擴產進度延續，仍可持續追蹤。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 1160,
+        "ma20": 1114.45,
+        "ma60": 1070.27,
+        "priceVsMa20Pct": 4.1,
+        "priceVsMa60Pct": 8.4,
+        "rsi14": 51,
+        "changePct5d": -6.8,
+        "changePct20d": 18.9,
+        "volumeRatio": 0.75,
+        "currency": "TWD",
+        "asOf": "2026-08-25T05:30:10.000Z"
+      }
+    },
+    {
+      "ticker": "景碩",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板族群中先前落後，主因是市場對補漲順序與位階的重新排序，而非基本面大問題。具備產業位置與成長空間，晚一點也可能補漲，值得耐心等待。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 835,
+        "ma20": 795.85,
+        "ma60": 762.53,
+        "priceVsMa20Pct": 4.9,
+        "priceVsMa60Pct": 9.5,
+        "rsi14": 54,
+        "changePct5d": -3.5,
+        "changePct20d": 30.7,
+        "volumeRatio": 0.78,
+        "currency": "TWD",
+        "asOf": "2026-08-25T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "雙鴻",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "消費性產品比重仍高於純 AI 受惠標的，市場估值與追價意願較弱，但公司基本面並非不好。若未來 AI 產品占比提高，仍可能重新獲得評價。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "輝達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "財報前後常有先漲後跌的慣性，市場對 AI 領頭羊的預期已拉得很滿，財報若只是符合預期，股價容易先進入整理。財報後壓回反而常是重新布局機會，並非基本面轉壞。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": ""
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "AI資本支出",
+      "reason": "人工智慧需求仍然非常強勁，雲端業者與相關供應鏈的財報與營收都在創高，與過去泡沫式擴張不同。即使面對關稅、戰火與利率上升等雜訊，大型雲端業者仍持續提高資本支出，產業趨勢未被破壞。基本面持續創高，拉回仍是布局機會。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "美債殖利率",
+      "reason": "目前真正值得警惕的不是殖利率高，而是殖利率快速走低，因為那通常代表資金開始避險、經濟出現更嚴重問題。長天期殖利率上升明顯但短天期幾乎沒動，並不像系統性風險擴散。三十年期殖利率一度突破 5%，十年期曾回落至約 3.7%，短線會壓抑高評價科技股，但主持人認為比較像市場放大的干擾因素。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "台股與美股科技股走勢",
+      "reason": "目前科技股壓力主要來自殖利率與資金輪動，而非基本面崩壞，盤勢偏向高檔震盪與區間整理。若出現兩天累積一千點以上的下修，屬可分批承接的機會。後續量能回升、殖利率壓力緩和，市場仍有機會重新轉強。大盤一度回測月線。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美國財政部TGA帳戶動向",
+      "reason": "財政部長釋出可能動用 TGA 帳戶（約九千五百億美元）購買公債的訊息，主要目的是喊話穩住市場信心，不一定真的大規模執行。政策面可能透過口頭引導與流動性管理來壓抑殖利率過快上升，屬短線穩盤訊號，但難以根本改變利率中樞。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "真正的風險不是殖利率高，而是殖利率快速下跌所代表的避險與衰退訊號",
+      "reasoning": "目前長天期殖利率上升較像市場噪音，因為短天期並沒有同步全面上行，不像真正的金融危機擴散。若殖利率快速走低，反而代表資金湧向債券避險，通常對股市才是更大的警訊。市場現在把高殖利率當成核心利空，某種程度上是股市先回檔後才放大檢視。",
+      "sector": "總經",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "人工智慧投資並不是泡沫式故事，而是有財報與獲利支撐的長期趨勢",
+      "reasoning": "大型雲端業者與台灣供應鏈的營收、獲利都在創高，與過去借錢擴張但沒有回收能力的泡沫不同。即使面對關稅、戰火與利率上升，AI 資本支出仍持續提高，代表產業邏輯沒有被破壞。只要基本面繼續創高，震盪就比較像整理而不是趨勢反轉。",
+      "sector": "AI",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "市場進入資金輪動時代，選股比追指數更重要",
+      "reasoning": "過去只要沾上 AI 就能一起漲的時代已經過去，現在是大型績優股、族群內輪動與中小型題材交替表現的階段。投資人不能只看產業標籤，還要看位階、籌碼、基本面與族群相對強弱。若選到基本面沒問題但暫時不漲的標的，需要的是耐心與部位控管，而不是情緒化出場。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "對高品質成長股而言，法說會前後常是先修正、再整理、最後回升的慣性節奏",
+      "reasoning": "以輝達與台積電法說經驗為例，市場通常會先把預期拉高，財報公布後即使內容不差，股價仍容易先進入整理。過去十次走勢中，若事前先修正，財報後多半還會再下壓一段，之後才逐步回升。投資人應建立對財報後走勢的預期，而不是被短線漲跌牽動判斷。",
+      "sector": "半導體",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "主權基金比國安基金更能解決長期資本配置與產業投資問題",
+      "reasoning": "國安基金的功能偏向危機救援，目的不是替全民創造長期投資報酬，不適合承擔成長型資產配置任務。主權基金若建立起來，既能做長線投資，又能把收益回饋國民，還能支援重要產業。在 AI 浪潮下，政府若兼具資金與視野，會比單純護盤更有價值。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "美債殖利率若快速下跌，可能代表市場開始避險並反映更嚴重的經濟風險",
+    "高評價科技股若缺乏獲利支撐，仍會受到殖利率與折現率上升的壓力",
+    "輝達與高純度人工智慧概念股在財報前後容易出現先漲後跌的波動",
+    "若某檔個股基本面明明不差、但整個族群都轉弱，仍需警惕資金輪動風險",
+    "對單一低股性族群持股比重過高，容易在整理期造成心理壓力與資金卡死"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "即將公布",
+      "event": "輝達財報公布",
+      "tickers": [
+        "輝達"
+      ]
+    },
+    {
+      "date": "即將召開",
+      "event": "全球央行年會",
+      "tickers": [
+        "美債殖利率",
+        "美股科技股"
+      ]
+    },
+    {
+      "date": "後續觀察",
+      "event": "美國財政部是否實際動用 TGA 帳戶穩定公債市場",
+      "tickers": [
+        "美債殖利率"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1169｜美債殖利率高只是壓抑，快速走低才是殺手！AI純度高、成長超越均值，就值得等？輝達財報後通常跌，再次布局機會？ft.AI達人 蔡明翰",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/184fd3cc-8d8b-4502-8b8a-291754906a7a",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "殖利率高是壓抑、快速走低才是殺手——AI 供應鏈基本面仍強，拉回就是布局點",
+      "detailedSummary": "本集核心觀點是美債殖利率上升只是短線壓抑科技股的因素，真正值得警惕的是殖利率快速走低所暗示的景氣衰退與避險訊號，因為目前長短天期殖利率並未同步全面上行，並不像系統性危機擴散。主持人與來賓一致認為，AI 需求與資本支出仍非常強勁，台股相關供應鏈營收與獲利持續創高，這波拉回多半是整理而非趨勢反轉，反而創造分批布局機會。選股上建議聚焦已有業績的 PCB、設備、組裝、散熱族群與台積電供應鏈，並接受資金輪動下各族群強弱分化的短期現象。輝達財報前後則因市場預期過高，建議先冷靜觀察，財報後若壓回反而可能是再次布局點。",
+      "highlights": [
+        "美債殖利率高對科技股是壓抑，但真正的殺手是殖利率快速走低所暗示的景氣與避險風險",
+        "長天期殖利率上升但短天期幾乎沒動，三十年期一度突破 5%，整體尚未構成系統性風險擴散",
+        "人工智慧需求仍然強勁，大型雲端業者與台灣供應鏈獲利持續創高，AI 投資並非泡沫",
+        "PCB、設備與組裝族群屬有實績支撐的第一梯隊，適合在輪動整理中分批布局",
+        "散熱與載板族群強弱差異主要來自 AI 純度與籌碼面，奇鋐受惠較明確，雙鴻因消費性比重較高而相對落後",
+        "台積電是 AI 紅利核心受惠者，法說前後震盪屬慣性，長線結構未變",
+        "輝達財報前後通常出現先漲後跌慣性，財報後整理反而可能是再次布局點",
+        "主權基金若能成形，比國安基金更能承接長期投資與產業支持功能"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [
+      {
+        "ticker": "南亞科",
+        "direction": "bullish",
+        "kolCount": 3,
+        "kols": [
+          "李兆華（EP1159）",
+          "李兆華",
+          "李兆華（產業隊長 張捷）"
+        ],
+        "bullCount": 5,
+        "bearCount": 1,
+        "ratio": 83
+      },
+      {
+        "ticker": "群聯",
+        "direction": "bullish",
+        "kolCount": 3,
+        "kols": [
+          "李兆華（EP1159）",
+          "李兆華",
+          "李兆華（產業隊長 張捷）"
+        ],
+        "bullCount": 4,
+        "bearCount": 1,
+        "ratio": 80
+      }
+    ],
+    "repeatStress": [
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "新興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "華碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "金像電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "緯穎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "創意",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "合晶",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "川湖",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "欣興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "陽明",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "大立光",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
