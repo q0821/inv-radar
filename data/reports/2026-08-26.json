@@ -1,0 +1,887 @@
+{
+  "date": "2026-08-26",
+  "quickDigest": [
+    "NVDA Vera Rubin 裝機點火，3443.TW 創歷史新高、20日線上漲23%，AI升級鏈全面共振",
+    "2317.TW 切入光通訊與醫療光學，投信重壓加庫藏股防線，題材面籌碼面同步改善",
+    "航運雙雄分歧：2609.TW 體質優、量能放大2.6倍；2615.TW RSI逼近70，短線追價風險升高",
+    "第四季雙主軸成形：電子AI鏈為主、傳產低估值輪動為輔，5607.TW、2014.TW已現籌碼改善",
+    "關鍵驗證在明日：今日強勢族群能否延續買盤，決定行情是真啟動還是隔日沖"
+  ],
+  "marketMood": "Vera Rubin 點燃電子火苗，電傳雙主軸輪動格局若明日承接則正式起漲",
+  "totalSources": 2,
+  "bullishSignals": [
+    {
+      "ticker": "2317.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "最壞時期可能已過去，高毛利率維持，切入光通訊、醫療光學與隱形眼鏡等新領域，逐步被視為 AI 升級鏈受惠者；投信持續重壓、庫藏股形成防線，籌碼面與題材面同步改善",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "前高 6075、歷史高點 6290、庫藏股防線約 1700 至 1800",
+      "technicals": {
+        "currentPrice": 246.5,
+        "ma20": 252.95,
+        "ma60": 253.59,
+        "priceVsMa20Pct": -2.5,
+        "priceVsMa60Pct": -2.8,
+        "rsi14": 46,
+        "changePct5d": 0.6,
+        "changePct20d": 4,
+        "volumeRatio": 0.48,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:05.000Z"
+      }
+    },
+    {
+      "ticker": "3443.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "股價創歷史新高，高度客製化與研發導向的 AI 相關題材持續延燒，技術面與題材面共振",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "short",
+      "priceLevel": "歷史新高",
+      "technicals": {
+        "currentPrice": 6125,
+        "ma20": 4980,
+        "ma60": 4605.83,
+        "priceVsMa20Pct": 23,
+        "priceVsMa60Pct": 33,
+        "rsi14": 68,
+        "changePct5d": 15.7,
+        "changePct20d": 85.9,
+        "volumeRatio": 1.02,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:14.000Z"
+      }
+    },
+    {
+      "ticker": "2609.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "航運大哥，現金部位充裕、減資後體質改善，已提前更新船隊符合環保規範，具備較強防禦性與長期競爭力；若航運行情延續，獲利與配息層面仍是族群核心標的",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 57.6,
+        "ma20": 54.61,
+        "ma60": 52.38,
+        "priceVsMa20Pct": 5.5,
+        "priceVsMa60Pct": 10,
+        "rsi14": 56,
+        "changePct5d": -2.4,
+        "changePct20d": 15,
+        "volumeRatio": 2.59,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "5607.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "每季獲利持續成長，毛利率、營業利益率與稅後淨利率明顯提升，本業出現結構性轉強；股價仍低於淨值，評價與獲利同步改善",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "股價仍低於淨值",
+      "technicals": {
+        "currentPrice": 54.3,
+        "ma20": 51.32,
+        "ma60": 51.18,
+        "priceVsMa20Pct": 5.8,
+        "priceVsMa60Pct": 6.1,
+        "rsi14": 62,
+        "changePct5d": 0.6,
+        "changePct20d": 10.6,
+        "volumeRatio": 0.89,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:16.000Z"
+      }
+    },
+    {
+      "ticker": "2615.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "航運族群中最活潑的指標股，運價題材與塞港發酵時股價反應最直接；大戶持股增加，籌碼與低估值雙重支撐，若運價走強有望後發先至",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 115,
+        "ma20": 97.54,
+        "ma60": 86.91,
+        "priceVsMa20Pct": 17.9,
+        "priceVsMa60Pct": 32.3,
+        "rsi14": 69,
+        "changePct5d": 8,
+        "changePct20d": 35.3,
+        "volumeRatio": 2.54,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:03.000Z"
+      }
+    },
+    {
+      "ticker": "3019.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件族群代表，相對落後尚未明顯反彈；若 AI 升級帶動電源與元件規格提升，有機會補漲",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 136,
+        "ma20": 134.03,
+        "ma60": 141.47,
+        "priceVsMa20Pct": 1.5,
+        "priceVsMa60Pct": -3.9,
+        "rsi14": 50,
+        "changePct5d": -0.4,
+        "changePct20d": 10.6,
+        "volumeRatio": 0.99,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:01.000Z"
+      }
+    },
+    {
+      "ticker": "2327.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件觀察名單，若市場資金從電子升級延伸至被動元件，有機會跟進補漲",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 537,
+        "ma20": 567.42,
+        "ma60": 765.44,
+        "priceVsMa20Pct": -5.4,
+        "priceVsMa60Pct": -29.8,
+        "rsi14": 38,
+        "changePct5d": -6.8,
+        "changePct20d": 5.9,
+        "volumeRatio": 0.58,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "9958.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "外資從五月持續買進、七八月幾乎天天加碼，籌碼面累積明顯；車用零組件進入碰撞件旺季，若營收回升股價有機會補漲",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 95.3,
+        "ma20": 104,
+        "ma60": 111.03,
+        "priceVsMa20Pct": -8.4,
+        "priceVsMa60Pct": -14.2,
+        "rsi14": 33,
+        "changePct5d": -3.2,
+        "changePct20d": -8.4,
+        "volumeRatio": 0.52,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:18.000Z"
+      }
+    },
+    {
+      "ticker": "2014.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "第二季已轉虧為盈，大股東持股與外資加碼同步增加，基本面與籌碼面同步改善；約 16.7 元附近低檔整理，若鋼鐵景氣延續有機會展開新波上漲",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "約 16.7 元附近整理",
+      "technicals": {
+        "currentPrice": 17.25,
+        "ma20": 17.16,
+        "ma60": 17.39,
+        "priceVsMa20Pct": 0.5,
+        "priceVsMa60Pct": -0.8,
+        "rsi14": 50,
+        "changePct5d": 2.1,
+        "changePct20d": 2.7,
+        "volumeRatio": 0.36,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:37.000Z"
+      }
+    },
+    {
+      "ticker": "5340.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "具新訂單與產線擴充跡象，傳產公司看到客戶需求才投入擴產，未來營運可見度較高",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "2454.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "盤勢帶動下逐步轉強，AI 與第四季電子股升溫背景下，有機會跟著族群補漲",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 3945,
+        "ma20": 3876.5,
+        "ma60": 3984.67,
+        "priceVsMa20Pct": 1.8,
+        "priceVsMa60Pct": -1,
+        "rsi14": 53,
+        "changePct5d": 2.6,
+        "changePct20d": 25.2,
+        "volumeRatio": 1.01,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:12.000Z"
+      }
+    },
+    {
+      "ticker": "3017.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "多檔主動式基金加持下創新高，半導體設備與材料鏈供應商，市場對相關供應鏈評價持續上修",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "創新高",
+      "technicals": {
+        "currentPrice": 3155,
+        "ma20": 2849.75,
+        "ma60": 2555.92,
+        "priceVsMa20Pct": 10.7,
+        "priceVsMa60Pct": 23.4,
+        "rsi14": 63,
+        "changePct5d": 1.9,
+        "changePct20d": 50.6,
+        "volumeRatio": 1.21,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:16.000Z"
+      }
+    },
+    {
+      "ticker": "2328.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "被動元件觀察標的之一，尚未明顯啟動，可能在輪動末段補漲；先列入監看名單",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 45.35,
+        "ma20": 44.6,
+        "ma60": 48.17,
+        "priceVsMa20Pct": 1.7,
+        "priceVsMa60Pct": -5.9,
+        "rsi14": 49,
+        "changePct5d": -1.4,
+        "changePct20d": 12.4,
+        "volumeRatio": 0.44,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:09.000Z"
+      }
+    },
+    {
+      "ticker": "00878.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "高股息與殖利率題材在資金回流階段受青睞，防禦與現金流型資產仍有配置價值",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 32.82,
+        "ma20": 32.71,
+        "ma60": 32.77,
+        "priceVsMa20Pct": 0.3,
+        "priceVsMa60Pct": 0.2,
+        "rsi14": 51,
+        "changePct5d": 1.4,
+        "changePct20d": 4.2,
+        "volumeRatio": 0.47,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:02.000Z"
+      }
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "2610.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "獲利不漂亮，基本面強度不如同族群龍頭；若運價反彈無法延續，靠評價修復推升的個股短線波動更大，屬於風險較高的交易標的",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 20.8,
+        "ma20": 20.98,
+        "ma60": 21.27,
+        "priceVsMa20Pct": -0.8,
+        "priceVsMa60Pct": -2.2,
+        "rsi14": 50,
+        "changePct5d": 4.5,
+        "changePct20d": -4.1,
+        "volumeRatio": 0.99,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:23.000Z"
+      }
+    },
+    {
+      "ticker": "2603.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "短線資金已出現獲利調節，若後續沒有新的運價或塞港催化，股價可能進入高檔震盪；非看空基本面，而是提醒短線漲多後整理風險",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 231,
+        "ma20": 222.55,
+        "ma60": 209.25,
+        "priceVsMa20Pct": 3.8,
+        "priceVsMa60Pct": 10.4,
+        "rsi14": 57,
+        "changePct5d": -4,
+        "changePct20d": 14.6,
+        "volumeRatio": 1.84,
+        "currency": "TWD",
+        "asOf": "2026-08-26T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "策略面提醒：高估值、漲多後若無基本面支撐，容易進入修正與輪動階段；對高本益比個股抱持較保守態度（非針對特定財報事件的明確看空）",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 350.25,
+        "ma20": 332.27,
+        "ma60": 370.87,
+        "priceVsMa20Pct": 5.4,
+        "priceVsMa60Pct": -5.6,
+        "rsi14": 52,
+        "changePct5d": 4,
+        "changePct20d": 13.9,
+        "volumeRatio": 0.86,
+        "currency": "USD",
+        "asOf": "2026-08-25T20:00:01.000Z"
+      }
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "電子股",
+      "reason": "輝達 Vera Rubin 裝機與財報前題材帶動台股資金重新回到電子族群，光學、光通訊、PCB、IC 設計與 AI 升級電子股全面轉強；若明天與接下來幾天能延續漲勢，行情可能從區間整理轉向正式起漲",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "台積電",
+      "reason": "仍是整體行情的核心風向球，主持人多次提到只要台積電一帶頭上攻，指數將非常可觀；為電子族群與大盤方向最重要的觀察指標",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "航運族群",
+      "reason": "運價持續上漲與港口塞港消息持續發酵，短線震盪大，但中期仍需觀察運價是否續強；若隔日與後續幾天有承接，航運可能只是短暫整理而非行情結束",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "傳產股",
+      "reason": "第四季不會只有電子股，傳產、原物料與景氣循環族群也可能接棒；航運、塑化、鋼鐵、紙業與車零件已陸續出現輪動跡象，若電子股漲多後休息，傳產低基期與估值修復有機會成為下一階段市場主軸",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "被動元件族群",
+      "reason": "這波輪動中相對落後的一群，若 AI 升級帶動電源規格升級，後段才有機會補漲；目前尚未大幅表態，可能在電子行情延續後出現追趕",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "塑化族群",
+      "reason": "國喬與台聚、亞聚、台達化、華夏等塑化股盤中均有所表現，資金不只集中在電子，傳產也開始輪動；若原物料與需求改善延續，可持續觀察",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "鋼鐵族群",
+      "reason": "不鏽鋼、條鋼與板鋼開始有資金流入，中鴻出現轉虧為盈、大戶持股增加；若明年需求與產業景氣回升，低淨值比標的值得持續監看",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "輝達 Vera Rubin 裝機與財報前夕，正在把台股資金重新拉回電子股",
+      "reasoning": "今天盤面最明顯的變化是資金從航運、金融與部分傳產重新回到電子，光學、光通訊、PCB、IC 設計全面轉強。來賓認為這不是單一族群表態，而是市場對 AI 升級鏈信心回升；若明天還能延續，就可能代表行情正式啟動，而不只是短線隔日沖。",
+      "sector": "AI",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台股目前更像是在用時間換取空間，而不是出現真正破壞結構的下跌",
+      "reasoning": "前一波修正來自去槓桿與利率壓力，但近期盤勢轉為量縮橫盤，代表市場正在用時間消化籌碼。若 7 月 30 日低點不再回破，籌碼沉澱就有機會完成，行情可由區間震盪轉向下一段多頭。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "第四季的主軸不會只有 AI，電子與傳產將同時進入輪動",
+      "reasoning": "雖然 AI 仍是主線，但航運、塑化、鋼鐵、紙業、車零件與金融也都有各自的題材與旺季節奏。市場資金不是只抱著單一主題，而是在不同產業間尋找低基期、低估值與獲利改善的標的。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "低估值與獲利改善的傳產股，正在獲得比過去更合理的評價",
+      "reasoning": "振隆、中鴻、耿鼎這類公司若本業改善、外資與大戶持股增加，就有機會像先前航運一樣展開評價修復。景氣循環股不只看當下獲利，更要看市場是否願意先給予更高的股價淨值比。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "高毛利、具新事業想像的老公司，也可能因題材轉換而重新被市場追捧",
+      "reasoning": "大立光是最鮮明的例子：過去因手機成長停滯而評價下修，但高毛利與多元新事業讓市場重新看見其價值。當公司真正切入 AI、光通訊或高階應用時，老牌龍頭也能成為新題材的受惠者。",
+      "sector": "半導體",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "籌碼面比單純的技術線型更重要，尤其是是否能延續第二天的買盤",
+      "reasoning": "關鍵不在第一天大漲，而是第二天是否仍有承接。若隔天能延續，代表市場不只是短線追價，而是真的開始把年底行情與明年展望納入定價。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "傳產股的復甦，和外銷訂單回溫、旺季到來密切相關",
+      "reasoning": "外銷訂單成長率中，資通訊固然最強，但傳產也開始回暖，未來營收底氣正在改善。若第四季與明年第一季進入旺季，車零件、紙業、鋼鐵與塑化這些族群，都可能迎來基本面與股價同步上修。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "AI 已大幅改變研究與工作流程，但尚未真正取代人的判斷與盤中決策",
+      "reasoning": "AI 雖能快速整理財報、年報與研究資料，把原本兩小時的工作縮短成幾分鐘，但真正的買賣判斷仍要靠人的經驗、盤感與對市場資金流向的敏感度。AI 最有價值的是加速後段研究與資訊整理，而不是直接取代交易決策本身。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "在即時資訊獲取上，社群媒體的即時性仍比 AI 更適合追蹤市場正在發生的故事",
+      "reasoning": "想知道最近發生了什麼事，直接看社群媒體與即時消息平台，比請 AI 逐條整理更有效率。AI 適合做總結與延伸研究，但對於市場中正在發酵、需要即時追蹤的題材，社群資訊仍更有優勢。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "市場節奏因 AI 與資訊透明化而加快，短線定價效率明顯提高",
+      "reasoning": "很多題材會在很短時間內一次反應完，過去可能還有慢慢發酵的空間，現在卻常常先狂噴再說。若只是依賴傳統慢半拍的研究流程，反而容易被市場節奏甩開。",
+      "sector": "策略配置",
+      "timeHorizon": "short",
+      "source": [
+        "謝孟恭"
+      ]
+    },
+    {
+      "insight": "未來更重要的能力不是完全擁抱 AI，而是找到人與 AI 之間的高效率分工",
+      "reasoning": "工作流程已進入混合模式：一部分由人負責辨識信號與下單，一部分由 AI 處理後端研究與整理。接下來的努力方向不是全人化或全機器化，而是設計更好的協作方式，讓兩者結合後的效率最大化。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "謝孟恭"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "市場節奏加快後，若資訊反應不夠快，容易被題材快速定價而錯失或追高",
+    "AI 雖能提升研究效率，但也可能讓投資人產生過度自信，低估市場隨機性",
+    "即使研究再完整，市場仍可能因突發事件與資金流向變化而出現預期外波動",
+    "輝達利多若已提前反映，明天若出現隔日沖賣壓，電子股可能短線回檔",
+    "被動元件、航運與部分傳產雖有題材，但若後續沒有營收或運價確認，容易變成短線輪動",
+    "高估值或漲多電子股若缺乏新催化，可能進入高檔整理，不宜過度追價",
+    "航運族群運價雖有上漲，但漲幅尚未非常劇烈，短線波動與追價風險仍高",
+    "南部農業受颱風災損，可能影響部分原物料與農產品供應鏈"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "明日",
+      "event": "觀察今日強勢族群是否延續第二天買盤，判斷行情是否正式啟動",
+      "tickers": [
+        "電子股",
+        "傳產股",
+        "航運族群"
+      ]
+    },
+    {
+      "date": "今日盤後至明日凌晨",
+      "event": "NVDA 公布財報，市場關注 Vera Rubin 裝機與財報後股價反應",
+      "tickers": [
+        "NVDA",
+        "2317.TW",
+        "3443.TW",
+        "2454.TW"
+      ]
+    },
+    {
+      "date": "第四季",
+      "event": "電子、傳產、原物料與金融進入輪動與旺季布局階段",
+      "tickers": [
+        "2317.TW",
+        "3443.TW",
+        "2609.TW",
+        "2615.TW",
+        "5607.TW",
+        "2014.TW"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "謝孟恭",
+      "episode": "EP691 | 🎂",
+      "episodeLink": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/00bd1c70-5749-475b-af00-28c1b8751e41",
+      "sentiment": "neutral",
+      "oneLiner": "AI 如何改變投資研究流程？主持人親身分享人機協作的心得與反思",
+      "detailedSummary": "本集主持人以生日特輯為題，分享 AI 工具如何改變自己的投資研究與工作流程。他認為 AI 最有價值的地方是快速整理財報、年報與產業資料，能把原本兩小時的工作壓縮到幾分鐘；但真正的盤中判斷、題材辨識與買賣決策，仍然要靠人的經驗與市場敏感度。主持人也觀察到，市場的題材定價速度正在加快，傳統慢半拍的研究流程容易跟不上節奏。對於 AI 是否真的讓生活更自由，他坦言工時反而變長，因為節省下來的時間都被用來研究更多東西。他的結論是：未來更重要的能力是找到人與 AI 的高效率分工，而不是完全依賴或完全排斥模型。",
+      "highlights": [
+        "AI 最有價值的地方是快速整理財報、年報與產業資料，將原本數小時的工作壓縮至幾分鐘",
+        "真正的盤中交易判斷仍需依賴人的經驗、盤感與市場敏感度，AI 無法取代",
+        "在即時資訊取得上，社群媒體仍然比 AI 更實用，適合追蹤市場正在發酵的題材",
+        "AI 雖提升研究效率，但也讓工作時間拉長，省下的時間反而被用來研究更多東西",
+        "市場題材的定價速度正在加快，很多訊號會在短時間內一次性被反應完",
+        "AI 帶來的更多是心態穩定與流程安定感，而非必然的超額報酬",
+        "未來的關鍵能力是建立人與 AI 的高效率分工，而非全人化或全機器化",
+        "主持人認為，找出盤中強勢族群或異常量價仍要靠人，再把框架交給 AI 整理延伸"
+      ],
+      "source": "podcast"
+    },
+    {
+      "podcast": "李兆華",
+      "episode": "EP1170｜輝達首批Vera Rubin裝機了，能逆轉法說必跌魔咒嗎？行情預備備…Q4電子、傳產、原物料都有話題，很熱鬧！ft.選股教練 陳唯泰",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/cbe7cfbd-a3ce-476d-895d-d318c9343ccd",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "Vera Rubin 裝機點燃電子股火苗，第四季電子傳產雙主軸輪動格局正在成形",
+      "detailedSummary": "本集整體偏多，主軸是 NVDA Vera Rubin 裝機與財報前題材帶動台股電子股重新發動。來賓陳唯泰認為台股前波修正屬於籌碼沉澱，7 月 30 日低點大致不易再破，市場正在從區間整理轉向新一波行情。個股方面，大立光被視為最具代表性的轉強案例，因切入光通訊與 AI 應用而重獲市場評價；創意股價創歷史新高，AI 相關題材仍在延燒。來賓同時強調第四季不會只有電子股，航運、塑化、鋼鐵、紙業與車零件都有各自旺季與評價修復的邏輯。振隆、中鴻、耿鼎等傳產標的因外資與大戶持股增加、本業改善而進入觀察名單。判斷行情真假的關鍵，在於今日強勢族群明天是否仍有承接買盤。",
+      "highlights": [
+        "NVDA Vera Rubin 首批裝機，市場期待財報後維持強勢，帶動台股資金重回電子族群",
+        "大立光轉強最具代表性：切入光通訊、醫療光學與隱形眼鏡，被視為 AI 升級鏈受惠者，投信重壓加庫藏股防線強化籌碼面",
+        "創意股價創歷史新高，AI 高度客製化題材持續延燒，技術面與題材面共振",
+        "台股前波修正屬籌碼沉澱而非結構破壞，7 月 30 日低點為關鍵支撐防線",
+        "第四季電子傳產雙主軸：航運（長榮、萬海）、塑化、鋼鐵（中鴻）、紙業（振隆）、車零件（耿鼎）輪動格局成形",
+        "振隆每季獲利持續成長、毛利率改善，股價仍低於淨值，評價修復空間大",
+        "耿鼎外資從五月持續天天買進，籌碼面累積明顯，車零件旺季題材加持",
+        "判斷本波行情真假的核心依據：觀察今日強勢族群明天是否仍有延續承接買盤"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [
+      {
+        "ticker": "南亞科",
+        "direction": "bullish",
+        "kolCount": 3,
+        "kols": [
+          "李兆華（EP1159）",
+          "李兆華",
+          "李兆華（產業隊長 張捷）"
+        ],
+        "bullCount": 5,
+        "bearCount": 1,
+        "ratio": 83
+      },
+      {
+        "ticker": "群聯",
+        "direction": "bullish",
+        "kolCount": 3,
+        "kols": [
+          "李兆華（EP1159）",
+          "李兆華",
+          "李兆華（產業隊長 張捷）"
+        ],
+        "bullCount": 4,
+        "bearCount": 1,
+        "ratio": 80
+      }
+    ],
+    "repeatStress": [
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "金像電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "欣興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "新興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "奇鋐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "緯穎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "創意",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "合晶",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "川湖",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "陽明",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "大立光",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
