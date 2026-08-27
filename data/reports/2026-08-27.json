@@ -1,0 +1,755 @@
+{
+  "date": "2026-08-27",
+  "quickDigest": [
+    "NVDA明年營收展望達七成成長，遠超市場預期45%，AI基建需求確認再加速",
+    "台股載板三雄（景碩創歷史新高、南電+8.4%、新興補漲）漲價主升段一年半能見度明確",
+    "散熱（建策、奇鋐）、高階銅箔（聯茂20日漲135%、台光電）資金從晶片擴散至材料零組件",
+    "無人機國防預算2400億通過，雷虎率先漲停，軍工政策不確定性大幅降低",
+    "鴻海、廣達等老AI組裝廠毛利率受成本壓縮，適合定存配置而非追求高評價"
+  ],
+  "marketMood": "NVDA財測點燃台股AI供應鏈全面輪動，材料零組件接棒晶片成新主角",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "NVDA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "明確看好輝達明年的成長動能，認為公司提供超乎市場預期的展望，營收成長目標高達七成，代表人工智慧基礎建設需求仍在擴張。輝達把資源延伸到光通訊、電力基建、散熱、語言模型與融資平台，影響力不只是晶片，而是整個產業鏈。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "明年營收成長七成",
+      "technicals": {
+        "currentPrice": 209.66,
+        "ma20": 215.56,
+        "ma60": 208.14,
+        "priceVsMa20Pct": -2.7,
+        "priceVsMa60Pct": 0.7,
+        "rsi14": 46,
+        "changePct5d": -3.6,
+        "changePct20d": 10.3,
+        "volumeRatio": 1.52,
+        "currency": "USD",
+        "asOf": "2026-08-26T20:00:00.000Z"
+      }
+    },
+    {
+      "ticker": "景碩",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "景碩創歷史新高，載板族群成長能見度高，未來一年半漲價態勢明確。依據是產業週期、漲價預期與人工智慧需求擴張，屬於基本面與產業趨勢雙重支撐。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "歷史新高",
+      "technicals": {
+        "currentPrice": 914,
+        "ma20": 827.9,
+        "ma60": 767.75,
+        "priceVsMa20Pct": 10.4,
+        "priceVsMa60Pct": 19,
+        "rsi14": 62,
+        "changePct5d": 7.4,
+        "changePct20d": 58.1,
+        "volumeRatio": 2.23,
+        "currency": "TWD",
+        "asOf": "2026-08-27T05:30:03.000Z"
+      }
+    },
+    {
+      "ticker": "南電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板族群比價操作中的核心標的，當新興漲太快時會回頭買南電。對南電的獲利能力與股價修復能力有信心，依據是未來每股盈餘與成長幅度較佳，屬於相對價值與配對交易。",
+          "action": "買進",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "與新興價差擴大時布局",
+      "technicals": {
+        "currentPrice": 1295,
+        "ma20": 1152.4,
+        "ma60": 1082.08,
+        "priceVsMa20Pct": 12.4,
+        "priceVsMa60Pct": 19.7,
+        "rsi14": 60,
+        "changePct5d": 8.4,
+        "changePct20d": 54.7,
+        "volumeRatio": 0.72,
+        "currency": "TWD",
+        "asOf": "2026-08-27T05:30:07.000Z"
+      }
+    },
+    {
+      "ticker": "金居",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "高階銅箔產品從七、八月後開始逐月逐季放量，明年能見度高。法人雖一度賣超，股價卻能從低點反彈逾八成，顯示有更強籌碼在接手，基本面改善與新產品導入為主要依據。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "從低點反彈逾八成"
+    },
+    {
+      "ticker": "緯創",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "伺服器組裝廠中本益比最低的標的之一，且因持有微影而受惠，屬於相對便宜且具基本面支撐的人工智慧概念股。微影明年獲利可能大爆發，進而推升緯創財報。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "本益比相對偏低"
+    },
+    {
+      "ticker": "微影",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "明年每股盈餘可能大爆發，甚至有機會成為下一個千金股候選人。建立在其高獲利能力與人工智慧相關供應鏈擴張之上，屬於高成長想像型標的。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "千金股候選人"
+    },
+    {
+      "ticker": "大立光",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "切入矽光子方向，公司執行力強且有現金流支撐，不是單純炒題材。先前已證明毛利率高，當市場重新評價其新事業時股價應回到合理狀態，目標重返六千多元。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "long",
+      "priceLevel": "重返六千多元"
+    },
+    {
+      "ticker": "雷虎",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "無人機與軍工預算通過後最先反應的標的之一，立法院通過無人機相關預算後產業不確定性下降，同時符合國內需求與外銷想像。雖然盤中漲停打開，中長期仍偏樂觀。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "新興",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "載板三雄中較落後，曾在回檔時逢低布局，認為只是補漲時間問題。依據是載板產業的成長能見度與比價效應，操作上屬於逢低承接與配對交易。",
+          "action": "買進",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "落後時逢低布局"
+    },
+    {
+      "ticker": "台積電供應鏈",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "輝達的明年展望確認後，最直接受惠的是台灣人工智慧供應鏈，因為輝達持續增加預購與提前支出，相關零組件與製造需求會同步放大。中長線看實際訂單與出貨能見度。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "建策",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "散熱族群率先反映人工智慧需求，建策創下新高，顯示市場資金已往供應鏈擴散。基本面與題材面同步轉強，散熱、電源、被動元件等零組件在輝達採購成本上升背景下成為直接受惠者。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台光電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "高階銅箔基板概念股已創新高，人工智慧高速傳輸需求推升相關材料景氣。輝達平台升級帶動板材升階與高階材料需求，屬於趨勢延續型看多。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 5500,
+        "ma20": 5579.25,
+        "ma60": 5269,
+        "priceVsMa20Pct": -1.4,
+        "priceVsMa60Pct": 4.4,
+        "rsi14": 50,
+        "changePct5d": -8.1,
+        "changePct20d": 27.5,
+        "volumeRatio": 1.55,
+        "currency": "TWD",
+        "asOf": "2026-08-27T05:30:11.000Z"
+      }
+    },
+    {
+      "ticker": "真頂",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "在世界型地位與綜合性板材布局上相對穩健，且積極擴產，明年仍有不錯成長。風險在於載板營收貢獻目前偏低，估值與純度不如同業，屬於中長線看多。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "鴻海",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "老人工智慧概念股，若當作定存型配置到明年仍有不錯殖利率，市場不佳時能提供安全感。大型人工智慧與伺服器供應鏈中的價值配置標的，短線不一定最強，但中長期有配置價值。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 252,
+        "ma20": 254.08,
+        "ma60": 252.64,
+        "priceVsMa20Pct": -0.8,
+        "priceVsMa60Pct": -0.3,
+        "rsi14": 51,
+        "changePct5d": 2.2,
+        "changePct20d": 9.8,
+        "volumeRatio": 0.87,
+        "currency": "TWD",
+        "asOf": "2026-08-27T05:30:06.000Z"
+      }
+    },
+    {
+      "ticker": "廣達",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "老人工智慧的價值型配置標的，功能偏向穩健布局而非短線爆發。大型伺服器組裝廠在人工智慧供應鏈中的基本盤地位，以及相對可接受的現金流與殖利率特性為主要依據。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 333.5,
+        "ma20": 317.95,
+        "ma60": 346.08,
+        "priceVsMa20Pct": 4.9,
+        "priceVsMa60Pct": -3.6,
+        "rsi14": 55,
+        "changePct5d": 2,
+        "changePct20d": 19.5,
+        "volumeRatio": 0.52,
+        "currency": "TWD",
+        "asOf": "2026-08-27T05:30:18.000Z"
+      }
+    },
+    {
+      "ticker": "南亞",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "今年表現突出，已不只是傳產，而是成功切入電子與人工智慧相關應用，帶動台塑集團整體翻身。產品結構轉向高附加價值領域，市場對電子材料需求重新定價。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "奇鋐",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "已創新高的散熱強勢股，輝達與整體人工智慧機櫃需求帶動散熱規格升級，基本面與產業趨勢都在向上，屬於相對強勢的主線。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "聯茂",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "已創新高，放在人工智慧供應鏈與高階材料輪動中看待。高階銅箔基板需求持續提升，市場資金明顯往板材族群擴散。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "technicals": {
+        "currentPrice": 563,
+        "ma20": 444.7,
+        "ma60": 358.98,
+        "priceVsMa20Pct": 26.6,
+        "priceVsMa60Pct": 56.8,
+        "rsi14": 72,
+        "changePct5d": 10.4,
+        "changePct20d": 135.1,
+        "volumeRatio": 2.15,
+        "currency": "TWD",
+        "asOf": "2026-08-27T05:30:04.000Z"
+      }
+    },
+    {
+      "ticker": "台化",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "因切入電子、人工智慧相關材料而受惠，台塑集團不只是油價或塑化循環，而是有機會跨到科技供應鏈，產業轉型讓傳產重新獲得資金關注。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": ""
+    },
+    {
+      "ticker": "台宏亞電",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "鐵氟龍相關新材料可能取代部分傳統材料的概念股，屬於技術替代與新規格導入的想像題材。來賓明確提示風險：目前仍屬夢想階段，兩年內不會有實際營收貢獻。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "divergence": "",
+      "overallConfidence": "low",
+      "timeHorizon": "long",
+      "priceLevel": ""
+    }
+  ],
+  "bearishSignals": [],
+  "monitorSignals": [
+    {
+      "topic": "輝達（NVDA）財報後走勢",
+      "reason": "輝達這次財報與財測明顯優於市場預期，明年營收成長展望高達七成。雖然過去輝達常出現財報後先漲後跌的慣性，但這次盤後轉漲，顯示市場對其成長延續性信心提升。催化劑是最新財報與財測公布，風險則是後續毛利率逐季下滑與採購成本上升。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "人工智慧供應鏈輪動",
+      "reason": "人工智慧產業已進入第四年，但成長動能仍強，輝達財測再度證明需求沒有熄火。市場重點已從晶片擴散到散熱、電源、板材、記憶體與各種周邊零組件，只要產業鏈持續升級，資金輪動就有延續性。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "載板產業景氣週期",
+      "reason": "載板族群未來一年半的漲價態勢非常明確，今年上半年還不算真正進入主升段。載板不是短炒題材，而是有較長的景氣循環與業績支撐。風險在於高本益比與籌碼變化，但整體趨勢仍偏正向。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "記憶體漲價對人工智慧成本的影響",
+      "reason": "輝達提到影響成本最高的仍是記憶體，顯示記憶體漲價會直接影響人工智慧伺服器成本結構。記憶體廠商後續走勢值得高度關注，因為其在供應鏈中的議價力與獲利有機會同步提高。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "軍工與無人機產業",
+      "reason": "國防與無人機預算過關後，整體產業的不確定性大幅下降，未來會回到標案與出貨的基本面檢驗。這是國家政策方向，屬於長線必走之路，同時需觀察國內標案與海外外銷機會。短線可能有波動，但中長期偏多，六年總預算規模達兩千四百億元。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    },
+    {
+      "topic": "高階銅箔材料升級趨勢",
+      "reason": "高階銅箔與相關材料會隨著人工智慧板材升級而持續受惠，未來沒有理由完全不需要高階銅箔。屬於產業趨勢與材料升級邏輯，市場會持續因新規格而給予想像空間。新材料真正營收貢獻需要時間，時間框架偏長。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "long"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "輝達財報與財測的意義不只是數字好，而是重新替人工智慧供應鏈建立下一段成長底氣",
+      "reasoning": "市場對輝達財報早已高度預期，驚喜感理應遞減，但這次明年營收成長七成遠高於市場估計的四十五％，代表需求不是放緩而是再加速。更重要的是，輝達已把觸角延伸到光通訊、電力、散熱、語言模型與融資平台，把整個生態系都綁進去，使台灣供應鏈不必只看輝達股價漲跌，而是直接看產業成長能否被驗證。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "人工智慧供應鏈已進入從晶片擴散到零組件與材料的第二段行情",
+      "reasoning": "散熱、載板、高階銅箔、電源與板材等族群已先行創新高，顯示資金輪動不再只停留在上游晶片。市場開始買的是整個系統升級而非單一公司，只要伺服器規格與機櫃需求持續升級，這種擴散行情就還有延續性。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "載板族群的核心不是短線漲跌，而是未來一年半的漲價與成長能見度",
+      "reasoning": "載板產業目前還沒真正進入大幅漲價的主升段，但從二零二六年下半年到二零二七年漲價態勢會非常明確。投資人應把重點放在業績能見度與產業週期，而不是單看當下股價。配對交易與回檔布局是較佳的操作方式。",
+      "sector": "半導體",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "高本益比不是看族群的唯一標準，位階與籌碼才是短中期超額報酬來源",
+      "reasoning": "真正決定報酬的不是你是不是買最強，而是你是否在合適位階進場。若在產業共識強但股價回檔時布局，勝率與報酬率會比追高更好。當族群一致創高時，反而適合用比價與輪動思維來選擇落後補漲股。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "老人工智慧組裝廠可當作定存型配置，但不要期待高本益比重評價",
+      "reasoning": "鴻海、廣達、緯創等大型組裝廠今年會辛苦，物料成本、記憶體與被動元件都在漲，毛利率難以明顯擴張。即使如此，這些公司仍能提供現金流與殖利率，適合用價值配置的角度看待，而非追求爆發式成長。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "軍工與無人機是國家政策驅動的長線題材，但短線會受標案與政治角力影響",
+      "reasoning": "無人機預算通過後，產業方向已經確立，市場接下來會回到標案、產能與外銷的實際執行。由於這是國策等級的產業，長線不太會缺席，但短線仍可能因朝野角力、版本差異與盤中消息出現劇烈波動，投資人應把它視為需要耐心的政策型題材。",
+      "sector": "地緣政治",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "新材料與新技術題材會持續出現，但投資時要分清楚自己買的是夢想還是現金流",
+      "reasoning": "以玻璃基板、鐵氟龍相關新材料與矽光子為例，科技產業常存在多種可能解法，真正的主流方案未必當下就能看清。這類標的股價常先反映想像空間與籌碼，未必立刻反映營收。若把題材股當成基本面成熟股來看，失望機率會很高。",
+      "sector": "其他",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "輝達毛利率可能因零組件漲價、記憶體成本上升與競爭者加入而逐季下滑",
+    "大型人工智慧組裝廠（鴻海、廣達、緯創）毛利率受成本壓力明顯，評價不易拉高",
+    "載板與金居等高波動族群雖有趨勢，但追高風險與籌碼波動都很大，建議回檔布局",
+    "新材料與矽光子等題材仍多屬未來想像，短期內可能沒有實際營收貢獻，兩年內難以兌現",
+    "軍工與無人機雖為政策利多，但仍可能因朝野角力與標案細節而出現短線劇烈波動"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "近期",
+      "event": "輝達最新財報與財測持續影響人工智慧供應鏈走向",
+      "tickers": [
+        "NVDA",
+        "台光電",
+        "聯茂",
+        "建策",
+        "奇鋐",
+        "景碩",
+        "南電",
+        "新興"
+      ]
+    },
+    {
+      "date": "近期",
+      "event": "無人機預算與國防標案逐步落地，產業不確定性下降",
+      "tickers": [
+        "雷虎"
+      ]
+    },
+    {
+      "date": "未定",
+      "event": "高階銅箔與載板漲價週期延續，下半年至明年主升段啟動",
+      "tickers": [
+        "金居",
+        "景碩",
+        "南電",
+        "新興"
+      ]
+    },
+    {
+      "date": "未定",
+      "event": "矽光子量產進展與新材料題材持續發酵",
+      "tickers": [
+        "大立光",
+        "台宏亞電"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1171｜輝達明年成長70%，AI霸主氣魄！毛利率要擔心嗎？台股壓尾盤但氣氛變好，老AI有殖，新技術有夢，記得停利！ft.型男股神 陳威良",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/e035b7c8-bcdb-4445-bbc5-8ee3e40fc7fa",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "輝達財測大幅超預期點燃新一輪台股 AI 供應鏈輪動，散熱、載板、高階銅箔全面創高，軍工題材同步發酵。",
+      "detailedSummary": "輝達最新財報與財測再度超越市場預期，明年營收成長展望高達七成，遠優於市場原先預估的四十五％，讓整體台灣 AI 供應鏈重新取得成長動能。來賓陳威良指出，資金輪動已從上游晶片擴散到散熱（建策、奇鋐）、載板（景碩、南電、新興）、高階銅箔基板（台光電、聯茂、金居）等族群，且多個標的同步創下歷史新高。載板方面，來賓明確表示下半年至明年才是真正的漲價主升段，建議以回檔布局與比價操作（南電對新興）取代追高。老牌 AI 組裝廠鴻海、廣達、緯創因毛利率受成本壓力，適合做價值型定存配置，而緯創因持有高獲利的微影，具有額外的每股盈餘爆發催化劑。此外，立法院通過六年兩千四百億元無人機國防預算，雷虎等軍工股率先反應，長線政策方向確立但短線仍有標案角力風險；大立光切入矽光子被視為執行力有保障的長線布局；新材料如鐵氟龍概念則被明確提醒屬於夢想階段，兩年內難有營收貢獻。",
+      "highlights": [
+        "輝達明年營收成長展望達七成，遠超市場預估的四十五％，AI 基建需求確認再加速而非放緩。",
+        "台股散熱（建策、奇鋐）、載板（景碩）、高階銅箔基板（台光電、聯茂）等族群已率先創歷史新高，資金從晶片擴散到材料與零組件。",
+        "載板三雄（景碩、南電、新興）未來一年半漲價主升段尚未真正到來，建議以比價輪動與回檔布局取代追高，南電與新興可做配對交易。",
+        "金居高階銅箔七、八月起逐月放量，從低點反彈逾八成且法人有望回補，但股性活潑需依成本做停利管理。",
+        "緯創持有微影，微影明年每股盈餘可能大爆發，有望成千金股，帶動緯創財報受惠，且本益比在組裝廠中相對偏低。",
+        "大立光切入矽光子，來賓對其執行力高度信任，目標重返六千多元，屬基本面與新事業題材雙重支撐的長線標的。",
+        "立法院通過六年兩千四百億元無人機國防預算，雷虎率先漲停反應，軍工族群政策不確定性大幅降低，但需耐心等待標案落地。",
+        "新材料（鐵氟龍、矽光子等）概念股屬夢想階段，股價先反映想像而非營收，投資人需清楚分辨題材股與基本面成熟股的操作框架。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "金像電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "欣興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "新興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "台積電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "奇鋐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯發科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "被動元件族群",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "緯穎",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "創意",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "合晶",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "川湖",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "陽明",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "大立光",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "TSLA",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
