@@ -1,0 +1,658 @@
+{
+  "date": "2026-08-28",
+  "quickDigest": [
+    "NVDA大漲破財報後必跌魔咒，明年成長七成展望將AI定價邏輯升格至交易2027年",
+    "台股族群輪動健康：京元電(2368)、金像電(2362)、矽格(6257)封測PCB接棒補漲",
+    "欣興(3037)遭檢調搜索，投信公司治理敏感度高，資金轉向景碩(3189)等ABF替代股",
+    "聯發科(2454)谷歌合作疑慮遭過度解讀，谷歌多家分工策略讓聯發科仍在局內",
+    "九月Fed利率會議與櫃買能否跟上大盤，是台股多頭延續兩大關鍵觀察指標"
+  ],
+  "marketMood": "AI定價邏輯升維驅動族群輪動，欣興黑天鵝成短線最大擾動變數",
+  "totalSources": 1,
+  "bullishSignals": [
+    {
+      "ticker": "NVDA",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "輝達破除財報超預期後股價反跌的魔咒，這次財報後大漲，代表市場開始相信其明年仍能維持強勁成長。公司對明年成長七成的展望相當樂觀，市場對法說內容非常滿意。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "後續財報與法說展望",
+      "technicals": {
+        "currentPrice": 227.98,
+        "ma20": 217.21,
+        "ma60": 208.23,
+        "priceVsMa20Pct": 5,
+        "priceVsMa60Pct": 9.5,
+        "rsi14": 61,
+        "changePct5d": 5.1,
+        "changePct20d": 16.9,
+        "volumeRatio": 2.56,
+        "currency": "USD",
+        "asOf": "2026-08-27T20:00:00.000Z"
+      }
+    },
+    {
+      "ticker": "8069.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "旺矽面板式探針在全球市占持續提升，是台股高價股重要族群成員。公司從垂直式探針切入面板式探針，AI 帶動下需求仍然吃緊，產業地位已被市場證實。短期第三季展望曾下修，股價先反映官司與成長趨緩疑慮，仍需時間整理。",
+          "action": "無",
+          "confidence": "high"
+        }
+      ],
+      "overallConfidence": "high",
+      "timeHorizon": "medium",
+      "priceLevel": "約 5000 元附近震盪，短線仍有壓力",
+      "catalyst": "整理後的技術面轉強"
+    },
+    {
+      "ticker": "2454.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "聯發科並未被谷歌排除出局，反而是站隊與功能增加的概念，市場先前疑慮有過度反應。谷歌不希望單一晶片設計公司主導，且聯發科本就已參與 AI 晶片與特殊應用晶片進度，尾盤回升顯示買盤回補。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "合作架構持續釐清",
+      "technicals": {
+        "currentPrice": 3985,
+        "ma20": 3929.5,
+        "ma60": 3965.92,
+        "priceVsMa20Pct": 1.4,
+        "priceVsMa60Pct": 0.5,
+        "rsi14": 54,
+        "changePct5d": 5.1,
+        "changePct20d": 12.1,
+        "volumeRatio": 0.64,
+        "currency": "TWD",
+        "asOf": "2026-08-28T05:30:13.000Z"
+      }
+    },
+    {
+      "ticker": "3189.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "景碩可能因欣興事件間接受惠，若資金從欣興轉向其他載板股，景碩有機會接到部分買盤。投信近期已開始買進景碩，且 ABF 載板整體仍供不應求，景碩屬於同族群替代標的。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "欣興事件後的資金輪動",
+      "technicals": {
+        "currentPrice": 899,
+        "ma20": 841.1,
+        "ma60": 771.2,
+        "priceVsMa20Pct": 6.9,
+        "priceVsMa60Pct": 16.6,
+        "rsi14": 60,
+        "changePct5d": 10.9,
+        "changePct20d": 41.6,
+        "volumeRatio": 1.47,
+        "currency": "TWD",
+        "asOf": "2026-08-28T05:30:02.000Z"
+      }
+    },
+    {
+      "ticker": "2368.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "京元電子屬於投信曾經偏愛的個股，如今出現補漲，有機會延續族群性表現。半導體封測需求仍強，輝達 AI 相關供應鏈持續受惠，若大盤持續由大型股轉向中小型股，京元電這類落後補漲標的有望繼續表態。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "族群輪動持續",
+      "technicals": {
+        "currentPrice": 1130,
+        "ma20": 991,
+        "ma60": 1087.3,
+        "priceVsMa20Pct": 14,
+        "priceVsMa60Pct": 3.9,
+        "rsi14": 62,
+        "changePct5d": 17.1,
+        "changePct20d": 42.5,
+        "volumeRatio": 1.09,
+        "currency": "TWD",
+        "asOf": "2026-08-28T05:30:15.000Z"
+      }
+    },
+    {
+      "ticker": "2362.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "金像電出現大漲，屬於投信曾經喜愛、近期開始補漲的個股。PCB 上游與 AI 伺服器供應鏈需求仍強，市場正在尋找落後補漲標的，若族群性上漲持續，金像電可能不只是單日反彈，而是進一步結構轉強。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "PCB 與人工智慧供應鏈輪動",
+      "technicals": {
+        "currentPrice": 47.75,
+        "ma20": 47.97,
+        "ma60": 45.39,
+        "priceVsMa20Pct": -0.5,
+        "priceVsMa60Pct": 5.2,
+        "rsi14": 53,
+        "changePct5d": 0.8,
+        "changePct20d": 13.8,
+        "volumeRatio": 0.44,
+        "currency": "TWD",
+        "asOf": "2026-08-28T05:30:19.000Z"
+      }
+    },
+    {
+      "ticker": "2425.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "台星科屬封測族群，近期表現不錯，整體封測景氣沒有問題。輝達帶動需求持續，日月光等大廠對產業狀況偏正向，封測供應鏈具備延續性，若資本支出持續增加，中長線仍有機會受惠。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "封測設備與資本支出進度",
+      "technicals": {
+        "currentPrice": 38.3,
+        "ma20": 42.59,
+        "ma60": 41.58,
+        "priceVsMa20Pct": -10.1,
+        "priceVsMa60Pct": -7.9,
+        "rsi14": 41,
+        "changePct5d": 2,
+        "changePct20d": -18.4,
+        "volumeRatio": 0.11,
+        "currency": "TWD",
+        "asOf": "2026-08-28T05:30:27.000Z"
+      }
+    },
+    {
+      "ticker": "6257.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "矽格與台星科同屬封測族群受惠股，基本面與產業趨勢不差。封測需求跟著 AI 與輝達供應鏈擴張，年底前設備下單與擴產進度仍是市場關注重點，若投信回頭補布局封測族群，矽格有機會延續補漲。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "年底前設備與擴產訂單確認",
+      "technicals": {
+        "currentPrice": 219,
+        "ma20": 203.8,
+        "ma60": 217.73,
+        "priceVsMa20Pct": 7.5,
+        "priceVsMa60Pct": 0.6,
+        "rsi14": 59,
+        "changePct5d": 10.3,
+        "changePct20d": 17.4,
+        "volumeRatio": 2.7,
+        "currency": "TWD",
+        "asOf": "2026-08-28T05:30:25.000Z"
+      }
+    },
+    {
+      "ticker": "3665.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "金居先前被錯殺，ABF 與載板相關上游材料仍有長線需求，並非基本面轉差。未來數年銅箔與相關材料需求仍會增加，台灣供應鏈具備就地供應與成本優勢，若載板擴產持續，金居有機會重新被資金認可。",
+          "action": "無",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "long",
+      "priceLevel": "",
+      "catalyst": "ABF 擴產與材料補庫存",
+      "technicals": {
+        "currentPrice": 2260,
+        "ma20": 2190.75,
+        "ma60": 2079.83,
+        "priceVsMa20Pct": 3.2,
+        "priceVsMa60Pct": 8.7,
+        "rsi14": 56,
+        "changePct5d": -0.7,
+        "changePct20d": 7.6,
+        "volumeRatio": 1.25,
+        "currency": "TWD",
+        "asOf": "2026-08-28T05:30:23.000Z"
+      }
+    },
+    {
+      "ticker": "4938.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "南電若受市場事件波及，反而可能出現撿便宜機會，載板與相關材料長線需求仍在。ABF 載板供給持續吃緊，上游材料與載板廠仍在擴產週期中，若基本面沒有變差，回檔反而可觀察。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "族群情緒修正後的回補",
+      "technicals": {
+        "currentPrice": 88.5,
+        "ma20": 89.67,
+        "ma60": 86.52,
+        "priceVsMa20Pct": -1.3,
+        "priceVsMa60Pct": 2.3,
+        "rsi14": 51,
+        "changePct5d": -0.1,
+        "changePct20d": 4.9,
+        "volumeRatio": 0.48,
+        "currency": "TWD",
+        "asOf": "2026-08-28T05:30:33.000Z"
+      }
+    },
+    {
+      "ticker": "8046.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "南電若因短線事件出現回檔，可能是較好的承接機會。ABF 缺貨與擴產仍是中期主軸，市場資金有輪動到低基期族群的傾向，若投信重新轉向載板，南電有望跟進。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "medium",
+      "priceLevel": "",
+      "catalyst": "投信回補載板族群",
+      "technicals": {
+        "currentPrice": 1240,
+        "ma20": 1168.4,
+        "ma60": 1088.12,
+        "priceVsMa20Pct": 6.1,
+        "priceVsMa60Pct": 14,
+        "rsi14": 56,
+        "changePct5d": 9.3,
+        "changePct20d": 34.8,
+        "volumeRatio": 1.76,
+        "currency": "TWD",
+        "asOf": "2026-08-28T05:30:15.000Z"
+      }
+    },
+    {
+      "ticker": "3583.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "若 PCB 族群持續走強，高技也可能跟著補漲。資金目前偏向從先前已創高的個股轉向相對落後者，若市場繼續偏好落後補漲，高技值得留意。",
+          "action": "無",
+          "confidence": "low"
+        }
+      ],
+      "overallConfidence": "low",
+      "timeHorizon": "short",
+      "priceLevel": "",
+      "catalyst": "PCB 族群輪動",
+      "technicals": {
+        "currentPrice": 749,
+        "ma20": 712.45,
+        "ma60": 772.15,
+        "priceVsMa20Pct": 5.1,
+        "priceVsMa60Pct": -3,
+        "rsi14": 54,
+        "changePct5d": 6.4,
+        "changePct20d": 15.2,
+        "volumeRatio": 2.19,
+        "currency": "TWD",
+        "asOf": "2026-08-28T05:30:05.000Z"
+      }
+    }
+  ],
+  "bearishSignals": [
+    {
+      "ticker": "3037.TW",
+      "consensus": "單一 KOL",
+      "sources": [
+        {
+          "kol": "李兆華",
+          "reason": "欣興因被搜索出現明顯賣壓，市場擔心事件可能牽涉公司治理與銀行貸放問題。檢調到公司進行調查，投信對公司治理一向嚴格，對高持股個股尤其敏感。若後續牽涉高層或內控問題，投信可能減碼；即便只是一般層級，短期仍屬扣分。",
+          "action": "減碼",
+          "confidence": "medium"
+        }
+      ],
+      "overallConfidence": "medium",
+      "timeHorizon": "short",
+      "priceLevel": "若跌停或大幅下挫，需觀察是否守住關鍵支撐",
+      "catalyst": "週一開盤市場對搜索事件的反應",
+      "technicals": {
+        "currentPrice": 1110,
+        "ma20": 1046.5,
+        "ma60": 949.97,
+        "priceVsMa20Pct": 6.1,
+        "priceVsMa60Pct": 16.8,
+        "rsi14": 58,
+        "changePct5d": 2.3,
+        "changePct20d": 41,
+        "volumeRatio": 1.37,
+        "currency": "TWD",
+        "asOf": "2026-08-28T05:30:05.000Z"
+      }
+    }
+  ],
+  "monitorSignals": [
+    {
+      "topic": "台股大盤",
+      "reason": "台股近期進入橫向整理後的反彈結構，指數高點雖有壓力，但月線與季線都在上彎，整體偏向有秩序地往上走。外資八月大舉回補、地緣政治風險降溫，以及輝達財報帶動科技族群情緒回升。若九月利率會議後市場沒有新負面變數，指數仍有續攻空間，但櫃買若跟不上，大盤結構會有脫鉤風險。壓力區約 4821 點，若未跌破 45 附近區間則偏多看待。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "被動元件族群",
+      "reason": "被動元件開始有補漲跡象，國巨、華新科與禾伸堂等成員先後表態，九月漲價題材可能逐步反映。MLCC 等大宗規格將進入漲價階段，族群內部已有相對強弱輪動，若漲價預期落地，這個族群有機會持續被資金關注。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "櫃買指數",
+      "reason": "櫃買需要跟上大盤，否則大型股與中小型股會出現脫鉤，影響市場結構的健康度。目前大盤月線與季線都上彎，但櫃買季線仍在下彎，短線必須修復。若中小型股接棒，整體盤勢會更完整。若未跌破約 405 附近，目標往 426.3 方向。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    },
+    {
+      "topic": "美國利率會議",
+      "reason": "九月聯準會利率會議是短線重要變數，市場可能先震盪再延續多頭。預期聯準會可能做出預防性升息一碼，若結果符合預期，指數有機會繼續往上，這將直接影響成長股與高估值個股的評價。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "medium"
+    },
+    {
+      "topic": "美伊局勢",
+      "reason": "美國對伊朗採取冷處理態度後，地緣政治風險已有降溫跡象，台股因此獲得喘息空間。美方不再強硬軍事介入，市場從原本的風險定價中修復，若後續沒有升高衝突，資金有機會持續回流風險資產。",
+      "mentionedBy": [
+        "李兆華"
+      ],
+      "timeHorizon": "short"
+    }
+  ],
+  "keyInsights": [
+    {
+      "insight": "輝達這次法說的關鍵不只是財報，而是把市場對明年成長的預期重新拉高。",
+      "reasoning": "過去市場對輝達財報通常抱持高標準，常常公布後反而下跌；這次之所以大漲，是因為公司不只超預期，還明確釋放明年成長七成的超強展望。這代表 AI 供應鏈的評價邏輯，已從只看當季轉向開始交易下一年的成長性。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "谷歌的晶片合作策略不是單一供應商壟斷，而是多家分工站隊。",
+      "reasoning": "從谷歌同時與聯發科、邁威爾等廠商互動可推論，谷歌不希望被單一 IC 設計公司綁死，因此更像是在擴大功能與分散供應鏈。這也解釋了為什麼聯發科雖然短線承壓，但不一定真的出局。",
+      "sector": "AI",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台股目前仍屬反彈中的有秩序上攻，核心關鍵在外資回補與中小型股接棒。",
+      "reasoning": "大盤在國際風險降溫後出現反彈高點，且八月外資大幅買超，顯示資金回流台股。雖然大型股先漲，但若櫃買與中小型股沒有接上，指數結構仍可能失衡，因此目前屬於邊整理邊上攻的型態。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "台股這波不是單一主流帶動，而是族群性、輪動性的創高。",
+      "reasoning": "先前台光電等先創高，接著大立光、被動元件、PCB、封測與探針族群陸續接棒，顯示市場不是只靠一檔股票領漲。這種有秩序的輪動結構，通常代表資金尚未退潮，而是在不同族群間轉移。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "ABF 載板與相關材料的長線缺口仍在，短線事件只是資金輪動的理由。",
+      "reasoning": "ABF 需求仍然很強，投信和主力只是會在公司治理或事件風險上做短線調整。若某家公司因事件受壓，資金可能轉向同族群的其他標的，但整體產業趨勢並沒有逆轉。",
+      "sector": "半導體",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "投信目前的操作偏向補位與修正錯誤，而不是全面撤退。",
+      "reasoning": "投信前段時間偏防禦，買了金融與傳產，如今看到主流股持續上漲，可能會開始回頭補買先前沒跟上的標的。這代表投信雖然短期動作頻繁，但整體仍有可能回到主流成長股，形成下一波推升力量。",
+      "sector": "策略配置",
+      "timeHorizon": "medium",
+      "source": [
+        "李兆華"
+      ]
+    },
+    {
+      "insight": "面對高波動行情，配置與分批紀律比單次押注更重要。",
+      "reasoning": "在關鍵均線、轉折點與族群輪動時分批進出，雖然看似保守，但能降低遇到事件風險或短線回檔時的傷害，不要執著一次抱到最大波段或追求最高績效。",
+      "sector": "策略配置",
+      "timeHorizon": "long",
+      "source": [
+        "李兆華"
+      ]
+    }
+  ],
+  "riskAlerts": [
+    "欣興事件若牽涉高層或公司治理層面，投信可能出現減碼壓力。",
+    "輝達雖然展望強勁，但高標準市場會持續檢驗其後續成長是否兌現。",
+    "若櫃買無法跟上大盤，中小型股輪動可能轉弱，影響盤勢健康度。",
+    "九月聯準會利率會議若結果與預期不同，高估值成長股可能再度承壓。"
+  ],
+  "upcomingCatalysts": [
+    {
+      "date": "短期",
+      "event": "欣興搜索事件後續釐清",
+      "tickers": [
+        "3037.TW",
+        "3189.TW",
+        "8046.TW"
+      ]
+    },
+    {
+      "date": "短期",
+      "event": "中小型股與櫃買補漲確認",
+      "tickers": [
+        "櫃買指數",
+        "2362.TW",
+        "2368.TW"
+      ]
+    },
+    {
+      "date": "九月",
+      "event": "聯準會利率會議",
+      "tickers": [
+        "台股大盤",
+        "NVDA",
+        "2454.TW"
+      ]
+    }
+  ],
+  "episodeSummaries": [
+    {
+      "podcast": "李兆華",
+      "episode": "EP1172｜輝達破除魔咒，台股創反彈新高！投信曾經愛過的京元電、金像電起漲了，探針等回補，但欣興被搜索怎麼辦？ft.操盤手 黃豐凱",
+      "episodeLink": "https://player.soundon.fm/p/91be014b-9f55-4bf3-a910-b232eda82d11/episodes/49b808a3-1423-441f-b298-3cbfaf5e5f1f",
+      "sentiment": "moderately_bullish",
+      "oneLiner": "輝達展望帶動台股 AI 供應鏈族群輪動創高，欣興搜索事件成最大變數。",
+      "detailedSummary": "本集以輝達財報大超預期且明年展望成長七成為主軸，主持人指出這次法說真正改變的是市場對 AI 供應鏈的定價邏輯，資金開始往前交易 2027 年的成長性。台股在外資大舉回補、美伊地緣風險降溫的背景下，呈現有秩序的族群性輪動——從先前台光電、大立光，到京元電、金像電、封測、旺矽探針族群陸續接棒補漲。欣興因遭檢調搜索而承壓，主持人建議考量公司治理風險後減碼，並將目光轉向景碩等同族群替代標的。聯發科方面，主持人認為市場過度解讀谷歌合作消息，谷歌策略本就是多家分工而非單一壟斷，因此聯發科出局的擔憂有所誇大。策略上，主持人強調在高波動環境中分批布局與配置紀律的重要性，九月聯準會利率會議與櫃買是否跟上是後續盤勢的兩大觀察指標。",
+      "highlights": [
+        "輝達財報超預期且明年展望成長七成，成功扭轉財報後必跌的市場印象，AI 供應鏈定價邏輯升格至交易明年成長性。",
+        "台股在外資回補與地緣風險降溫下反彈創高，月線與季線同步上彎，整體仍屬有秩序的多頭結構。",
+        "族群輪動明顯：京元電、金像電、封測（台星科、矽格）、PCB（高技）等落後補漲股陸續接棒表態。",
+        "旺矽與探針系列仍是台股高價股主線，短線因官司與季度下修整理，但產業地位未動搖。",
+        "欣興因被搜索承壓，投信對公司治理風險格外敏感，建議考量減碼，資金有望轉向景碩等同族群替代標的。",
+        "聯發科的谷歌合作疑慮被過度解讀，谷歌多家分工策略讓聯發科仍在局內，尾盤回升顯示買盤回補。",
+        "被動元件（國巨、華新科、禾伸堂）出現補漲跡象，九月 MLCC 漲價題材逐步反映。",
+        "策略上強調配置與分批紀律，九月聯準會利率會議結果及櫃買是否跟上是兩大後市觀察指標。"
+      ],
+      "source": "podcast"
+    }
+  ],
+  "anomalies": {
+    "consensus": [],
+    "repeatStress": [
+      {
+        "ticker": "南電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 5
+      },
+      {
+        "ticker": "台光電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "景碩",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "新興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 4
+      },
+      {
+        "ticker": "金居",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "欣興",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "大立光",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 3
+      },
+      {
+        "ticker": "南亞",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "聯茂",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "金像電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "華邦電",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "川湖",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "南亞科",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "群聯",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "陽明",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "NVDA",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      },
+      {
+        "ticker": "TSLA",
+        "kol": "李兆華",
+        "direction": "bearish",
+        "count": 2
+      },
+      {
+        "ticker": "奇鋐",
+        "kol": "李兆華",
+        "direction": "bullish",
+        "count": 2
+      }
+    ],
+    "divergenceRising": [],
+    "sectorHeat": []
+  }
+}
